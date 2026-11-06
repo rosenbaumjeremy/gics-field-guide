@@ -128,13 +128,14 @@ citation matches a source). Change nothing else in the repo.
 ## Step 5: publish
 
 ```
-git add site/data/writeups
-git -c user.name="GICS Field Guide routine" -c user.email="rosenbaum.jeremy@gmail.com" commit -m "Research briefs <date>: <name 1>, <name 2>, <name 3>"
-git push origin main
+python scripts/publish.py
 ```
 
-If the push is rejected because `main` moved, `git pull --rebase` and retry (3 tries). If it is
-refused for permission, push to `claude/briefs-<date>` instead and say so in the final message.
+Use exactly this command; don't run `git add`, `git commit` or `git push` yourself (a hand-written
+git command can stop the run on a permission prompt). The script re-runs the checker, commits
+`site/data/writeups`, pushes to `main` (rebasing and retrying if `main` moved) and, if `main`
+refuses, pushes to `claude/briefs-<date>`. If it prints `PUSHED TO BRANCH`, say so in the final
+message.
 
 ## Step 6: finish
 
