@@ -215,3 +215,14 @@ h2{font:700 20px/1.2 var(--f-display);margin:0;text-wrap:balance}
 .wbar{margin:-8px 0 24px;max-width:420px}
 .wbar i{display:block;height:100%;background:var(--accent)}
 @media (max-width:860px){.fwbody{padding-left:16px}}
+.basics{margin:4px 0 22px}
+.basics .fwtitle{margin:0 0 6px}
+.bintro{margin:0 0 14px;max-width:72ch;line-height:1.6}
+.basics .brief-grid{margin-bottom:14px}
+.bdl{margin:0;font-size:14px;line-height:1.5}
+.bdl>div{break-inside:avoid;padding-top:10px}
+.bdl>div:first-child{padding-top:0}
+.bdl dt{font-weight:600}
+.bdl dd{margin:2px 0 0}
+.bdl dd small{display:block;color:var(--muted);font-size:12.5px;margin-top:2px}
+.bterms .bdl{columns:2 300px;column-gap:28px}

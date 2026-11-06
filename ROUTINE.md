@@ -63,6 +63,18 @@ Create `site/data/writeups/<code>.json` for each one:
   ],
   "watch": ["Catalyst or risk to watch, one sentence [5]", "..."],
   "bellwethers": ["Nvidia", "Broadcom", "..."],
+  "basics": {
+    "intro": "What these companies do and how they make money, in plain words.",
+    "products": [
+      {"name": "Memory", "what": "Chips that store data: DRAM for working memory, NAND flash for storage.", "examples": "Micron DRAM, HBM and NAND"}
+    ],
+    "terms": [
+      {"term": "Fabless", "meaning": "A chip company that designs chips but pays a foundry to make them."}
+    ],
+    "drivers": [
+      {"name": "Inventory cycle", "how": "Customers over-order in shortages and stop ordering while they work stock down, so revenue swings more than end demand."}
+    ]
+  },
   "sections": [
     {"id": "macro", "paragraphs": ["...", "..."]},
     {"id": "demand", "paragraphs": ["..."]},
@@ -84,6 +96,20 @@ Create `site/data/writeups/<code>.json` for each one:
   has a `source` number. `context` is optional but helpful.
 - `watch`: 3–5 one-sentence catalysts and risks.
 - `bellwethers`: 4–8 of the largest or most representative companies, plain names.
+- `basics`: the very basics, for a reader new to the industry. Write it before the analysis and
+  keep it timeless: it explains how the business works, not this quarter's numbers.
+  - `intro`: 30–120 words. What the companies do, who their customers are and how they make money.
+    Say what GICS puts here that a reader might not expect, and what sits in a neighbouring
+    sub-industry instead.
+  - `products`: 3–8 product sets or business lines. `name`, `what` (one or two sentences: what it
+    is and what it's used for) and `examples` (real products or companies, plain text).
+  - `terms`: 8–16 key terms an analyst in this industry uses (business models, metrics, technical
+    words), each with a plain-English `meaning` of one or two sentences. Say why the term matters
+    where it isn't obvious.
+  - `drivers`: 4–8 things that move revenue, margins or the share price. `name`, and `how`: the
+    mechanism (what changes, and how it shows up in the numbers).
+  - Each `what`, `meaning` and `how` is at most 70 words. Citations are optional here, but any
+    figure still needs one, so prefer no figures.
 - `sources`: numbered 1, 2, 3… in the order first cited. Every source must be cited somewhere.
 - `sections`: exactly these eight ids, in this order, each 140–280 words in 1–3 paragraphs, each
   with at least one citation. Cover:

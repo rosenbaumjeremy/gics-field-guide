@@ -1,244 +1,359 @@
 {
- "code": "45103020",
- "added": "2026-11-06",
- "asOf": "2026-11-04",
- "summary": "Systems software is growing fast on AI-driven infrastructure and security demand, but financing and execution risk are rising. Gartner's October forecast has total software spending up 15.2% in 2026 [5], and Microsoft's Azure grew 48% in the September quarter [1]. Security and database vendors are guiding to rising revenue and strong margins [7][8]. Oracle's $664 billion backlog came with negative free cash flow [10]. The Fed held at 3-3/4 to 4 percent with two dissenters favouring a hike [4]. IGV is up 5.34% year to date after a 41% rally from April [3], and we found no current sector forward multiple.",
- "metrics": [
-  {
-   "label": "Software spending 2026 (Gartner, broad)",
-   "value": "$1,464B, +15.2%",
-   "context": "2027 forecast $1,679B, +14.6%; includes application software",
-   "source": 5
+  "code": "45103020",
+  "added": "2026-11-06",
+  "asOf": "2026-11-04",
+  "summary": "Systems software is growing fast on AI-driven infrastructure and security demand, but financing and execution risk are rising. Gartner's October forecast has total software spending up 15.2% in 2026 [5], and Microsoft's Azure grew 48% in the September quarter [1]. Security and database vendors are guiding to rising revenue and strong margins [7][8]. Oracle's $664 billion backlog came with negative free cash flow [10]. The Fed held at 3-3/4 to 4 percent with two dissenters favouring a hike [4]. IGV is up 5.34% year to date after a 41% rally from April [3], and we found no current sector forward multiple.",
+  "metrics": [
+    {
+      "label": "Software spending 2026 (Gartner, broad)",
+      "value": "$1,464B, +15.2%",
+      "context": "2027 forecast $1,679B, +14.6%; includes application software",
+      "source": 5
+    },
+    {
+      "label": "Azure revenue growth, Sep 2026 quarter",
+      "value": "+48%",
+      "context": "Azure revenue $33.2B; Microsoft Cloud $63.9B, +30%",
+      "source": 1
+    },
+    {
+      "label": "Software industry Q3 2026 earnings growth (S&P 500)",
+      "value": "17%",
+      "context": "Revenue growth 19%; FactSet blended, as of 30 Oct 2026",
+      "source": 2
+    },
+    {
+      "label": "S&P 500 forward 12-month P/E",
+      "value": "18.7x",
+      "context": "5-yr avg 19.8x, 10-yr avg 19.1x; index-level, 30 Oct 2026",
+      "source": 2
+    },
+    {
+      "label": "Software (system and application) EV/EBITDA",
+      "value": "24.5x",
+      "context": "Total market 19.7x; positive-EBITDA firms; Damodaran, Jan 2026",
+      "source": 13
+    },
+    {
+      "label": "Fortinet Q3 2026 non-GAAP operating margin",
+      "value": "38.2%",
+      "context": "Free cash flow margin 41.6%; billings +29%",
+      "source": 8
+    },
+    {
+      "label": "Oracle remaining performance obligations",
+      "value": "$664B",
+      "context": "Free cash flow -$5B in quarter to 31 Aug 2026",
+      "source": 10
+    },
+    {
+      "label": "IGV return, 13 Apr to 12 Oct 2026",
+      "value": "+41.46%",
+      "context": "YTD +5.34% at 12 Oct 2026",
+      "source": 3
+    }
+  ],
+  "watch": [
+    "Whether Azure growth keeps accelerating after 48% in the September quarter [1].",
+    "Fed path: two FOMC members already wanted a quarter-point hike on 28 Oct, and the next decision is the December meeting [4].",
+    "Conversion of Oracle's $664 billion backlog while free cash flow is negative [10].",
+    "Whether application-adjacent vendors keep growth: ServiceNow guides Q4 current RPO growth to 18.5% against 20.5% reported in Q3 [9].",
+    "Final publication of the EU AI Act Digital Omnibus delays for high-risk systems [14]."
+  ],
+  "bellwethers": [
+    "Microsoft",
+    "Oracle",
+    "Palo Alto Networks",
+    "CrowdStrike",
+    "Fortinet",
+    "Check Point"
+  ],
+  "basics": {
+    "intro": "Systems software is the layer that runs, connects and protects computers, rather than software for a particular business task: operating systems, databases, cybersecurity, and the platforms and tools that run data centres and the cloud. Customers are mostly businesses and governments, and most revenue now comes from subscriptions or pay-as-you-go cloud services. GICS puts Microsoft and Oracle here, including their cloud businesses. Software for business tasks, such as accounting, sales or design, sits next door in Application Software.",
+    "products": [
+      {
+        "name": "Operating systems and core platforms",
+        "what": "The software that runs a PC or server and the platforms built around it, along with the productivity suites bundled with them.",
+        "examples": "Microsoft Windows and Windows Server, Microsoft 365"
+      },
+      {
+        "name": "Databases and data platforms",
+        "what": "Software that stores, organises and retrieves a company's data. Once the core systems are built on it, switching is slow and risky.",
+        "examples": "Oracle Database, Microsoft SQL Server"
+      },
+      {
+        "name": "Cloud infrastructure and AI platforms",
+        "what": "Computing power, storage and AI models rented over the internet and billed by usage, so customers don't need their own data centres.",
+        "examples": "Microsoft Azure, Oracle Cloud Infrastructure"
+      },
+      {
+        "name": "Network security",
+        "what": "Firewalls and secure-access services that inspect traffic and block attacks at the edge of a company's network and in the cloud. Sold as hardware appliances and as subscriptions.",
+        "examples": "Palo Alto Networks, Fortinet, Check Point"
+      },
+      {
+        "name": "Endpoint, identity and cloud security",
+        "what": "Software that protects laptops, servers and cloud workloads, controls who can log in to what, and helps security teams detect and respond to attacks.",
+        "examples": "CrowdStrike Falcon, Microsoft Defender and Entra"
+      },
+      {
+        "name": "Infrastructure and developer tools",
+        "what": "Software for building, deploying, monitoring and managing applications and servers.",
+        "examples": "Microsoft GitHub and Visual Studio"
+      }
+    ],
+    "terms": [
+      {
+        "term": "SaaS (software as a service)",
+        "meaning": "Software delivered over the internet for a recurring subscription fee, instead of a one-off licence. Revenue is more predictable, but it arrives over time."
+      },
+      {
+        "term": "Licence and maintenance",
+        "meaning": "The older model: a one-off fee to install the software, then a yearly fee for support and updates. It still matters for databases and some security products."
+      },
+      {
+        "term": "ARR (annual recurring revenue)",
+        "meaning": "The yearly value of all subscriptions in force. Many companies use it as their main growth measure."
+      },
+      {
+        "term": "RPO (remaining performance obligations)",
+        "meaning": "Revenue already contracted but not yet recognised, effectively the backlog. Fast RPO growth points to future revenue, but very large multi-year deals can take years to convert."
+      },
+      {
+        "term": "Billings",
+        "meaning": "Revenue plus the change in deferred revenue: roughly what customers were invoiced in the period. It shows demand earlier than revenue does."
+      },
+      {
+        "term": "Net revenue retention",
+        "meaning": "This year's revenue from last year's customers divided by what they paid last year. Above 100% means existing customers are buying more."
+      },
+      {
+        "term": "Seat-based vs consumption pricing",
+        "meaning": "Charging per user, or by how much computing, storage or data the customer uses. Consumption revenue grows faster in booms and slows faster when customers cut back."
+      },
+      {
+        "term": "Hyperscaler",
+        "meaning": "One of the few giant cloud providers, such as Microsoft Azure, Amazon Web Services and Google Cloud. They are both big customers of other vendors and competitors to them."
+      },
+      {
+        "term": "Platformisation",
+        "meaning": "Persuading customers to buy several products from one vendor rather than the best tool for each job. It is the main competitive battle in security."
+      },
+      {
+        "term": "Gross margin",
+        "meaning": "Revenue minus the direct cost of delivering it. Very high for pure software, because an extra copy costs almost nothing; lower for cloud, which needs data centres."
+      },
+      {
+        "term": "Rule of 40",
+        "meaning": "Revenue growth rate plus free-cash-flow margin. Investors use 40% or more as a rough sign of a healthy software business."
+      },
+      {
+        "term": "Stock-based compensation",
+        "meaning": "Paying employees in shares. It is a real cost to shareholders through dilution, but is usually left out of adjusted earnings, so compare both versions."
+      },
+      {
+        "term": "Capex intensity",
+        "meaning": "Capital spending as a share of revenue. It was low for traditional software, but is now high for companies building AI data centres, which squeezes free cash flow."
+      }
+    ],
+    "drivers": [
+      {
+        "name": "Enterprise IT budgets",
+        "how": "Companies spend more on software when profits and confidence are good. In slowdowns they delay new projects and trim seats, so new bookings slow before revenue does."
+      },
+      {
+        "name": "Cloud migration and AI workloads",
+        "how": "Moving systems to the cloud and running AI models raises usage of cloud infrastructure and databases. That lifts consumption revenue directly, but needs heavy data-centre spending first."
+      },
+      {
+        "name": "The threat level in security",
+        "how": "Major attacks, ransomware and new disclosure rules push security up boards' priority lists. Security budgets therefore hold up better than other IT spending in downturns."
+      },
+      {
+        "name": "Pricing power and seat counts",
+        "how": "Price rises and new tiers (for example AI add-ons) lift revenue per user. Fewer hires at customers, or AI agents replacing some users, can cut the number of seats."
+      },
+      {
+        "name": "Interest rates",
+        "how": "Much of a software company's value lies in profits expected years ahead, so higher long-term rates lower what investors will pay today, even if the business is unchanged."
+      },
+      {
+        "name": "Capacity and financing of AI data centres",
+        "how": "Cloud vendors can only book revenue once they have chips, power and buildings in place. Building that capacity takes heavy borrowing and spending, so free cash flow can fall even while revenue grows."
+      }
+    ]
   },
-  {
-   "label": "Azure revenue growth, Sep 2026 quarter",
-   "value": "+48%",
-   "context": "Azure revenue $33.2B; Microsoft Cloud $63.9B, +30%",
-   "source": 1
-  },
-  {
-   "label": "Software industry Q3 2026 earnings growth (S&P 500)",
-   "value": "17%",
-   "context": "Revenue growth 19%; FactSet blended, as of 30 Oct 2026",
-   "source": 2
-  },
-  {
-   "label": "S&P 500 forward 12-month P/E",
-   "value": "18.7x",
-   "context": "5-yr avg 19.8x, 10-yr avg 19.1x; index-level, 30 Oct 2026",
-   "source": 2
-  },
-  {
-   "label": "Software (system and application) EV/EBITDA",
-   "value": "24.5x",
-   "context": "Total market 19.7x; positive-EBITDA firms; Damodaran, Jan 2026",
-   "source": 13
-  },
-  {
-   "label": "Fortinet Q3 2026 non-GAAP operating margin",
-   "value": "38.2%",
-   "context": "Free cash flow margin 41.6%; billings +29%",
-   "source": 8
-  },
-  {
-   "label": "Oracle remaining performance obligations",
-   "value": "$664B",
-   "context": "Free cash flow -$5B in quarter to 31 Aug 2026",
-   "source": 10
-  },
-  {
-   "label": "IGV return, 13 Apr to 12 Oct 2026",
-   "value": "+41.46%",
-   "context": "YTD +5.34% at 12 Oct 2026",
-   "source": 3
-  }
- ],
- "watch": [
-  "Whether Azure growth keeps accelerating after 48% in the September quarter [1].",
-  "Fed path: two FOMC members already wanted a quarter-point hike on 28 Oct, and the next decision is the December meeting [4].",
-  "Conversion of Oracle's $664 billion backlog while free cash flow is negative [10].",
-  "Whether application-adjacent vendors keep growth: ServiceNow guides Q4 current RPO growth to 18.5% against 20.5% reported in Q3 [9].",
-  "Final publication of the EU AI Act Digital Omnibus delays for high-risk systems [14]."
- ],
- "bellwethers": [
-  "Microsoft",
-  "Oracle",
-  "Palo Alto Networks",
-  "CrowdStrike",
-  "Fortinet",
-  "Check Point"
- ],
- "sections": [
-  {
-   "id": "macro",
-   "paragraphs": [
-    "The macro backdrop for systems software is strong demand colliding with tighter money. On 28 Oct 2026 the Federal Open Market Committee held the federal funds target range at 3-3/4 to 4 percent by a 10-2 vote, with Governor Cook and Cleveland Fed President Hammack dissenting in favour of a quarter-point increase, and the statement opens its inflation passage with 'Inflation remains elevated' [4]. We read that as a late-cycle setting in which the policy rate is not falling and the risk of further tightening is live, which matters because long-duration software equities are sensitive to discount rates.",
-    "Corporate budgets, however, have not tightened. Gartner's October 2026 forecast, as reported by TechIntelPro, puts worldwide IT spending at $6,391 billion in 2026 (up 14.5%) and $7,352 billion in 2027 (up 15.0%), with software at $1,464 billion in 2026 (up 15.2%) and $1,679 billion in 2027 (up 14.6%) [5]. The same table shows data center systems up 73.8% in 2026, so a large share of the increase is AI infrastructure rather than traditional licences [5]. Gartner also warns that memory-driven hardware inflation will persist through 2027 [5].",
-    "Profit growth in the wider market supports spending: FactSet says S&P 500 blended Q3 2026 earnings growth is 30.2% and analysts expect 32.9% for calendar 2026 [2]. The sources we opened did not give a systems-software-specific currency effect; Microsoft's non-GAAP EPS growth was 18% reported and 19% in constant currency, so the effect there was small [1]."
-   ]
-  },
-  {
-   "id": "demand",
-   "paragraphs": [
-    "Gartner's forecast is the best sizing we found. Total software spending is $1,464 billion in 2026, up 15.2%, and $1,679 billion in 2027, up 14.6% [5]. That is a market growing more than three times as fast as the 4.4% Gartner shows for IT services in 2026 [5]. This is Gartner's broad software category, so it includes application software that sits outside the GICS Systems Software sub-industry; we found no Gartner figure that isolates systems software alone.",
-    "The structural drivers show up in company results. Microsoft's Azure revenue was $33.2 billion in the September 2026 quarter, up 48%, and Microsoft Cloud revenue reached $63.9 billion, up 30% [1]. Oracle reported total cloud revenue of $11.6 billion, up 62%, with infrastructure revenue of $7.4 billion, up 121%, and remaining performance obligations of $664 billion in the quarter ended 31 Aug 2026 [10]. Snowflake's product revenue grew 37% to $1.49 billion, and its CEO told Reuters that roughly half of the recent acceleration came from AI [15]. Datadog's revenue grew 35% to $1.20 billion in Q3 2026 [11].",
-    "Security is the other pillar. Palo Alto Networks' next-generation security annual recurring revenue rose 63% to $9.10 billion in the July 2026 quarter [7], and Fortinet billings rose 29% in Q3 2026 [8]. Our read is that demand is cyclical only at the margin, because infrastructure, database and security spending is increasingly treated as a prerequisite for AI deployment, but the large backlogs are contracts, not delivered revenue, and rest on customers financing AI buildouts."
-   ]
-  },
-  {
-   "id": "structure",
-   "paragraphs": [
-    "Systems software is a concentrated, high-barrier industry. Using Porter's five forces: rivalry is intense among a few scale players, with Microsoft, Oracle and the hyperscale clouds competing in databases and infrastructure while Palo Alto, Fortinet and CrowdStrike compete in security [1][7][8]. Barriers to entry are high because of switching costs, data gravity, certification requirements and, increasingly, the capital needed to build AI capacity. Oracle's decision to keep investing despite negative free cash flow illustrates the capital scale now required [10].",
-    "Buyer power is moderate: large enterprises negotiate, but migrating a database or a security stack is slow and risky, and platform consolidation gives vendors leverage. Supplier power is rising because AI infrastructure depends on scarce chips and memory, which Gartner says is driving hardware inflation through 2027 [5]. The threat of substitutes is the live debate: the software sell-off in early 2026 was attributed in coverage to AI agents undermining seat-based pricing, although that thesis mainly concerns application software [3].",
-    "Moats show up in margins. Damodaran's January 2026 dataset shows 309 US-listed system and application software firms with a 71.72% gross margin, against 62.58% for internet software [12]. Fortinet's non-GAAP operating margin of 38.2% and Palo Alto's guided 29.5% for fiscal 2027 point to pricing power, though we found no consolidated market-share table for this sub-industry [8][7]."
-   ]
-  },
-  {
-   "id": "environment",
-   "paragraphs": [
-    "Regulation is a moderate rather than acute pressure. In the EU, the AI Act's general-purpose AI obligations have applied since 2 Aug 2025 and are unchanged by the Digital Omnibus [14]. Per Gibson Dunn, a provisional agreement reached in May 2026 would delay standalone high-risk obligations from 2 Aug 2026 to 2 Dec 2027 and product-embedded ones to 2 Aug 2028, but at the time of its alert formal adoption was still pending [14]. We did not find confirmation of final publication, so the dates should be treated as agreed but unverified as law. The deal also gives the EU AI Office exclusive competence over AI systems built on a general-purpose model when the same provider develops both [14].",
-    "Compliance burdens on model providers sit mostly with the cloud and AI platform companies that bundle systems software, which raises costs but also creates demand for governance and security tooling. We did not find a verified 2026 change to the SEC's cybersecurity incident disclosure rules, so we do not rely on one.",
-    "Technological disruption is the main risk and opportunity. The Fed environment adds a financial constraint to AI buildouts [4]. Oracle's free cash flow was negative $5 billion in its August 2026 quarter as it funded cloud infrastructure [10]. Our judgment is that the technology cycle, not regulation, is the dominant external variable, and that a financing squeeze on AI infrastructure would reach systems software through slower backlog conversion."
-   ]
-  },
-  {
-   "id": "economics",
-   "paragraphs": [
-    "Systems software has software-like margins, but the mix is shifting toward capital-intensive infrastructure. Damodaran's January 2026 data for 309 system and application software firms show a 71.72% gross margin, a 35.93% EBITDA margin and a 25.49% net margin [12]. These are application and system software together and describe the prior fiscal year, so they are a baseline rather than a current reading.",
-    "Recent company results show the range. Fortinet delivered a Q3 2026 non-GAAP operating margin of 38.2% and free cash flow of $865 million, a 41.6% margin on $2.08 billion of revenue [8]. Palo Alto's fiscal 2026 adjusted free cash flow margin was 38.4% on $11.48 billion of revenue, and it guides fiscal 2027 to a 29.5% non-GAAP operating margin and 38.0% adjusted free cash flow margin [7]. Datadog's Q3 non-GAAP operating margin was 28% and its free cash flow margin 21% [11]. Microsoft's fiscal 2026 operating income was $155.2 billion on $331.8 billion of revenue, a margin of about 46.8% by our calculation [6].",
-    "Capital intensity is the counter-trend. Oracle's operating cash flow was $23 billion in its latest quarter but free cash flow was negative $5 billion [10], while ServiceNow's September 2026 quarter showed a 32.5% non-GAAP operating margin but only a 20% non-GAAP free cash flow margin [9]. We did not find sub-industry ROE or ROIC from the sources opened, so we make no claim on returns on capital; the gap between operating margin and free cash flow margin at ServiceNow and Oracle is the clearer signal of how much cash conversion varies."
-   ]
-  },
-  {
-   "id": "earnings",
-   "paragraphs": [
-    "Reported earnings momentum is strong and guidance is mostly rising. FactSet's 30 Oct 2026 report shows the Software industry within the S&P 500 Information Technology sector with blended Q3 2026 earnings growth of 17% and revenue growth of 19%, well below semiconductors at 132% and 83% respectively [2]. Note that FactSet's Software industry includes application software, so it is a proxy for this sub-industry rather than a measure of it [2].",
-    "Company guidance supports the picture. Microsoft's Q1 FY27 non-GAAP EPS was $4.89, up 18% [1]. Palo Alto guides fiscal 2027 revenue of $14.10 billion to $14.20 billion, up 23% to 24%, and non-GAAP EPS of $4.16 to $4.19 [7]. Fortinet raised its 2026 revenue guide to $8.125 billion to $8.215 billion [8]. ServiceNow guides 2026 subscription revenue of $15.78 billion to $15.79 billion, up 22.5%, with Q4 current RPO growth guided at 18.5% [9].",
-    "Our read is that consensus for this group is anchored on backlog conversion. Palo Alto itself guides fiscal 2027 next-generation security ARR growth to 22% to 23%, a sharp deceleration from the 63% just reported; the release does not explain the gap and we have not determined the cause [7]. We did not find consensus estimate revision data specific to systems software. At index level, 28 S&P 500 companies have issued positive Q4 EPS guidance and 19 negative [2]. Where we are more cautious is on sequencing: Datadog's Q4 revenue guide of $1.19 billion to $1.20 billion is flat against its $1.20 billion Q3 [11], and ServiceNow guides Q4 current RPO growth to 18.5%, below the 20.5% just reported [9]."
-   ]
-  },
-  {
-   "id": "valuation",
-   "paragraphs": [
-    "We could not find a current forward price-to-earnings ratio for the Information Technology sector or for systems software, so we frame valuation with what we could verify. FactSet puts the S&P 500 forward 12-month P/E at 18.7 as of 30 Oct 2026, below the 5-year average of 19.8 and the 10-year average of 19.1 [2]. That implies the market overall is not expensive on that measure, while sector-level multiples for software were not published in the report text we reviewed.",
-    "Damodaran's January 2026 dataset is the only structured industry multiple we opened: US system and application software trades at 24.48 times EV/EBITDA for firms with positive EBITDA, against 19.73 times for the total market, and 32.41 times EV/EBIT against 29.12 times [13]. That is a premium of roughly 24% on EV/EBITDA by our calculation, and it is ten months old, since which time the group has fallen sharply and recovered [13][3]. The dataset covers application as well as system software, so it is a loose proxy.",
-    "The price path shows the multiple has swung. iShares' software ETF IGV rose 41.46% from 13 Apr to 12 Oct 2026 but was only up 5.34% year to date, and the source described the rally as multiple expansion rather than earnings growth, without giving valuation figures [3]. Our judgment is that the group is priced for continued double-digit growth in billings and backlog, so a miss in conversion would matter more than a modest change in rates, but we cannot quantify implied growth without a verified forward multiple."
-   ]
-  },
-  {
-   "id": "positioning",
-   "paragraphs": [
-    "Positioning has whipsawed. IGV closed at $111.31 on 12 Oct 2026, up 41.46% from its 13 Apr low and up 5.34% year to date, down 0.68% over one year [3]. Earlier in the year it was weak: an early-July article had it down 10.5% year to date, and a September article reported a single-session outflow of about $700 million from the fund before Snowflake's report [15]. On 4 Sep it was about $105, down 1% year to date, with net assets of $13.5 billion at 30 Jun across 111 positions [15].",
-    "IGV is application-heavy, so it is an imperfect gauge of systems software, which also includes Microsoft, Oracle and the security vendors. We did not find sub-industry ETF flow data, short interest or breadth statistics from the sources opened, and we do not infer them. Snowflake rose in the session after its September report and was up 54% year to date by 4 Sep [15].",
-    "On sector-level sentiment, FactSet reports that Information Technology has the highest expected price upside to analyst target prices after Communication Services, at 27.9% against the S&P 500's 20.8% [2]. This is analyst target data, not our view, and we treat it as a sentiment gauge. Our read is that the recovery is narrow and earnings-driven for leaders with accelerating cloud and security backlogs, while seat-based application vendors remain the contested part of the group [3][15]."
-   ]
-  }
- ],
- "sources": [
-  {
-   "n": 1,
-   "title": "Microsoft Cloud strength drives first quarter results (FY27 Q1 release)",
-   "publisher": "Microsoft",
-   "date": "2026-10-28",
-   "url": "https://www.microsoft.com/en-us/investor/earnings/fy-2027-q1/press-release-webcast"
-  },
-  {
-   "n": 2,
-   "title": "Earnings Insight, 30 October 2026",
-   "publisher": "FactSet",
-   "date": "2026-10-30",
-   "url": "https://advantage.factset.com/hubfs/Website/Resources%20Section/Research%20Desk/Earnings%20Insight/EarningsInsight_103026.pdf"
-  },
-  {
-   "n": 3,
-   "title": "Everyone declared software dead in April; this ETF is up 41% since then",
-   "publisher": "24/7 Wall St.",
-   "date": "2026-10-13",
-   "url": "https://247wallst.com/investing/2026/10/13/everyone-declared-software-dead-in-april-this-etf-is-up-41-since-then/"
-  },
-  {
-   "n": 4,
-   "title": "The full statement from the October 2026 FOMC rate decision",
-   "publisher": "investingLive",
-   "date": "2026-10-28",
-   "url": "https://investinglive.com/central-banks/the-full-statement-from-the-october-2026-fomc-rate-decision/"
-  },
-  {
-   "n": 5,
-   "title": "Gartner forecasts worldwide IT spending to grow 15% in 2027 to $7.35T (report on Gartner release)",
-   "publisher": "TechIntelPro",
-   "date": "2026-10-21",
-   "url": "https://techintelpro.com/news/ai/enterprise-ai/gartner-forecasts-worldwide-it-spending-to-grow-15-in-2027-to-735t"
-  },
-  {
-   "n": 6,
-   "title": "Microsoft fiscal Q4 2026 press release",
-   "publisher": "Microsoft",
-   "date": "2026-07-29",
-   "url": "https://www.microsoft.com/en-us/investor/earnings/fy-2026-q4/press-release-webcast"
-  },
-  {
-   "n": 7,
-   "title": "Palo Alto Networks fiscal Q4 and FY2026 earnings release (Form 8-K)",
-   "publisher": "SEC EDGAR / Palo Alto Networks",
-   "date": "2026-09-01",
-   "url": "https://www.sec.gov/Archives/edgar/data/0001327567/000132756726000019/ex991q426earningsrelease.htm"
-  },
-  {
-   "n": 8,
-   "title": "Fortinet third quarter 2026 results (Form 8-K exhibit 99.1)",
-   "publisher": "SEC EDGAR / Fortinet",
-   "date": "2026-10-28",
-   "url": "https://www.sec.gov/Archives/edgar/data/0001262039/000126203926000024/ftntq3-2026ex991.htm"
-  },
-  {
-   "n": 9,
-   "title": "ServiceNow third quarter 2026 results (Form 8-K)",
-   "publisher": "SEC EDGAR / ServiceNow",
-   "date": "2026-10-28",
-   "url": "https://www.sec.gov/Archives/edgar/data/0001373715/000137371526000092/erq3fy26.htm"
-  },
-  {
-   "n": 10,
-   "title": "Oracle Q1 FY27 results",
-   "publisher": "Verdict",
-   "date": "2026-09-11",
-   "url": "https://www.verdict.co.uk/oracle-q1-fy27-results/"
-  },
-  {
-   "n": 11,
-   "title": "Datadog third quarter 2026 results (Form 8-K exhibit 99.1)",
-   "publisher": "SEC EDGAR / Datadog",
-   "date": "2026-11-04",
-   "url": "https://www.sec.gov/Archives/edgar/data/0001561550/000162828026069792/ex-991x20260930x8k.htm"
-  },
-  {
-   "n": 12,
-   "title": "Margins by sector (US), January 2026",
-   "publisher": "Damodaran, NYU Stern",
-   "date": "2026-01",
-   "url": "https://pages.stern.nyu.edu/~adamodar/New_Home_Page/datafile/margin.html"
-  },
-  {
-   "n": 13,
-   "title": "EV/EBITDA multiples by sector (US), January 2026",
-   "publisher": "Damodaran, NYU Stern",
-   "date": "2026-01",
-   "url": "https://pages.stern.nyu.edu/~adamodar/New_Home_Page/datafile/vebitda.html"
-  },
-  {
-   "n": 14,
-   "title": "EU AI Act Omnibus agreement: postponed high-risk deadlines",
-   "publisher": "Gibson Dunn",
-   "date": "2026-05",
-   "url": "https://www.gibsondunn.com/eu-ai-act-omnibus-agreement-postponed-high-risk-deadlines-and-other-key-changes/"
-  },
-  {
-   "n": 15,
-   "title": "Investors pulled $700 million from IGV hours before Snowflake reignited software",
-   "publisher": "24/7 Wall St.",
-   "date": "2026-09-07",
-   "url": "https://247wallst.com/investing/etf/2026/09/07/investors-pulled-700-million-from-igv-hours-before-snowflake-reignited-software/"
-  }
- ]
+  "sections": [
+    {
+      "id": "macro",
+      "paragraphs": [
+        "The macro backdrop for systems software is strong demand colliding with tighter money. On 28 Oct 2026 the Federal Open Market Committee held the federal funds target range at 3-3/4 to 4 percent by a 10-2 vote, with Governor Cook and Cleveland Fed President Hammack dissenting in favour of a quarter-point increase, and the statement opens its inflation passage with 'Inflation remains elevated' [4]. We read that as a late-cycle setting in which the policy rate is not falling and the risk of further tightening is live, which matters because long-duration software equities are sensitive to discount rates.",
+        "Corporate budgets, however, have not tightened. Gartner's October 2026 forecast, as reported by TechIntelPro, puts worldwide IT spending at $6,391 billion in 2026 (up 14.5%) and $7,352 billion in 2027 (up 15.0%), with software at $1,464 billion in 2026 (up 15.2%) and $1,679 billion in 2027 (up 14.6%) [5]. The same table shows data center systems up 73.8% in 2026, so a large share of the increase is AI infrastructure rather than traditional licences [5]. Gartner also warns that memory-driven hardware inflation will persist through 2027 [5].",
+        "Profit growth in the wider market supports spending: FactSet says S&P 500 blended Q3 2026 earnings growth is 30.2% and analysts expect 32.9% for calendar 2026 [2]. The sources we opened did not give a systems-software-specific currency effect; Microsoft's non-GAAP EPS growth was 18% reported and 19% in constant currency, so the effect there was small [1]."
+      ]
+    },
+    {
+      "id": "demand",
+      "paragraphs": [
+        "Gartner's forecast is the best sizing we found. Total software spending is $1,464 billion in 2026, up 15.2%, and $1,679 billion in 2027, up 14.6% [5]. That is a market growing more than three times as fast as the 4.4% Gartner shows for IT services in 2026 [5]. This is Gartner's broad software category, so it includes application software that sits outside the GICS Systems Software sub-industry; we found no Gartner figure that isolates systems software alone.",
+        "The structural drivers show up in company results. Microsoft's Azure revenue was $33.2 billion in the September 2026 quarter, up 48%, and Microsoft Cloud revenue reached $63.9 billion, up 30% [1]. Oracle reported total cloud revenue of $11.6 billion, up 62%, with infrastructure revenue of $7.4 billion, up 121%, and remaining performance obligations of $664 billion in the quarter ended 31 Aug 2026 [10]. Snowflake's product revenue grew 37% to $1.49 billion, and its CEO told Reuters that roughly half of the recent acceleration came from AI [15]. Datadog's revenue grew 35% to $1.20 billion in Q3 2026 [11].",
+        "Security is the other pillar. Palo Alto Networks' next-generation security annual recurring revenue rose 63% to $9.10 billion in the July 2026 quarter [7], and Fortinet billings rose 29% in Q3 2026 [8]. Our read is that demand is cyclical only at the margin, because infrastructure, database and security spending is increasingly treated as a prerequisite for AI deployment, but the large backlogs are contracts, not delivered revenue, and rest on customers financing AI buildouts."
+      ]
+    },
+    {
+      "id": "structure",
+      "paragraphs": [
+        "Systems software is a concentrated, high-barrier industry. Using Porter's five forces: rivalry is intense among a few scale players, with Microsoft, Oracle and the hyperscale clouds competing in databases and infrastructure while Palo Alto, Fortinet and CrowdStrike compete in security [1][7][8]. Barriers to entry are high because of switching costs, data gravity, certification requirements and, increasingly, the capital needed to build AI capacity. Oracle's decision to keep investing despite negative free cash flow illustrates the capital scale now required [10].",
+        "Buyer power is moderate: large enterprises negotiate, but migrating a database or a security stack is slow and risky, and platform consolidation gives vendors leverage. Supplier power is rising because AI infrastructure depends on scarce chips and memory, which Gartner says is driving hardware inflation through 2027 [5]. The threat of substitutes is the live debate: the software sell-off in early 2026 was attributed in coverage to AI agents undermining seat-based pricing, although that thesis mainly concerns application software [3].",
+        "Moats show up in margins. Damodaran's January 2026 dataset shows 309 US-listed system and application software firms with a 71.72% gross margin, against 62.58% for internet software [12]. Fortinet's non-GAAP operating margin of 38.2% and Palo Alto's guided 29.5% for fiscal 2027 point to pricing power, though we found no consolidated market-share table for this sub-industry [8][7]."
+      ]
+    },
+    {
+      "id": "environment",
+      "paragraphs": [
+        "Regulation is a moderate rather than acute pressure. In the EU, the AI Act's general-purpose AI obligations have applied since 2 Aug 2025 and are unchanged by the Digital Omnibus [14]. Per Gibson Dunn, a provisional agreement reached in May 2026 would delay standalone high-risk obligations from 2 Aug 2026 to 2 Dec 2027 and product-embedded ones to 2 Aug 2028, but at the time of its alert formal adoption was still pending [14]. We did not find confirmation of final publication, so the dates should be treated as agreed but unverified as law. The deal also gives the EU AI Office exclusive competence over AI systems built on a general-purpose model when the same provider develops both [14].",
+        "Compliance burdens on model providers sit mostly with the cloud and AI platform companies that bundle systems software, which raises costs but also creates demand for governance and security tooling. We did not find a verified 2026 change to the SEC's cybersecurity incident disclosure rules, so we do not rely on one.",
+        "Technological disruption is the main risk and opportunity. The Fed environment adds a financial constraint to AI buildouts [4]. Oracle's free cash flow was negative $5 billion in its August 2026 quarter as it funded cloud infrastructure [10]. Our judgment is that the technology cycle, not regulation, is the dominant external variable, and that a financing squeeze on AI infrastructure would reach systems software through slower backlog conversion."
+      ]
+    },
+    {
+      "id": "economics",
+      "paragraphs": [
+        "Systems software has software-like margins, but the mix is shifting toward capital-intensive infrastructure. Damodaran's January 2026 data for 309 system and application software firms show a 71.72% gross margin, a 35.93% EBITDA margin and a 25.49% net margin [12]. These are application and system software together and describe the prior fiscal year, so they are a baseline rather than a current reading.",
+        "Recent company results show the range. Fortinet delivered a Q3 2026 non-GAAP operating margin of 38.2% and free cash flow of $865 million, a 41.6% margin on $2.08 billion of revenue [8]. Palo Alto's fiscal 2026 adjusted free cash flow margin was 38.4% on $11.48 billion of revenue, and it guides fiscal 2027 to a 29.5% non-GAAP operating margin and 38.0% adjusted free cash flow margin [7]. Datadog's Q3 non-GAAP operating margin was 28% and its free cash flow margin 21% [11]. Microsoft's fiscal 2026 operating income was $155.2 billion on $331.8 billion of revenue, a margin of about 46.8% by our calculation [6].",
+        "Capital intensity is the counter-trend. Oracle's operating cash flow was $23 billion in its latest quarter but free cash flow was negative $5 billion [10], while ServiceNow's September 2026 quarter showed a 32.5% non-GAAP operating margin but only a 20% non-GAAP free cash flow margin [9]. We did not find sub-industry ROE or ROIC from the sources opened, so we make no claim on returns on capital; the gap between operating margin and free cash flow margin at ServiceNow and Oracle is the clearer signal of how much cash conversion varies."
+      ]
+    },
+    {
+      "id": "earnings",
+      "paragraphs": [
+        "Reported earnings momentum is strong and guidance is mostly rising. FactSet's 30 Oct 2026 report shows the Software industry within the S&P 500 Information Technology sector with blended Q3 2026 earnings growth of 17% and revenue growth of 19%, well below semiconductors at 132% and 83% respectively [2]. Note that FactSet's Software industry includes application software, so it is a proxy for this sub-industry rather than a measure of it [2].",
+        "Company guidance supports the picture. Microsoft's Q1 FY27 non-GAAP EPS was $4.89, up 18% [1]. Palo Alto guides fiscal 2027 revenue of $14.10 billion to $14.20 billion, up 23% to 24%, and non-GAAP EPS of $4.16 to $4.19 [7]. Fortinet raised its 2026 revenue guide to $8.125 billion to $8.215 billion [8]. ServiceNow guides 2026 subscription revenue of $15.78 billion to $15.79 billion, up 22.5%, with Q4 current RPO growth guided at 18.5% [9].",
+        "Our read is that consensus for this group is anchored on backlog conversion. Palo Alto itself guides fiscal 2027 next-generation security ARR growth to 22% to 23%, a sharp deceleration from the 63% just reported; the release does not explain the gap and we have not determined the cause [7]. We did not find consensus estimate revision data specific to systems software. At index level, 28 S&P 500 companies have issued positive Q4 EPS guidance and 19 negative [2]. Where we are more cautious is on sequencing: Datadog's Q4 revenue guide of $1.19 billion to $1.20 billion is flat against its $1.20 billion Q3 [11], and ServiceNow guides Q4 current RPO growth to 18.5%, below the 20.5% just reported [9]."
+      ]
+    },
+    {
+      "id": "valuation",
+      "paragraphs": [
+        "We could not find a current forward price-to-earnings ratio for the Information Technology sector or for systems software, so we frame valuation with what we could verify. FactSet puts the S&P 500 forward 12-month P/E at 18.7 as of 30 Oct 2026, below the 5-year average of 19.8 and the 10-year average of 19.1 [2]. That implies the market overall is not expensive on that measure, while sector-level multiples for software were not published in the report text we reviewed.",
+        "Damodaran's January 2026 dataset is the only structured industry multiple we opened: US system and application software trades at 24.48 times EV/EBITDA for firms with positive EBITDA, against 19.73 times for the total market, and 32.41 times EV/EBIT against 29.12 times [13]. That is a premium of roughly 24% on EV/EBITDA by our calculation, and it is ten months old, since which time the group has fallen sharply and recovered [13][3]. The dataset covers application as well as system software, so it is a loose proxy.",
+        "The price path shows the multiple has swung. iShares' software ETF IGV rose 41.46% from 13 Apr to 12 Oct 2026 but was only up 5.34% year to date, and the source described the rally as multiple expansion rather than earnings growth, without giving valuation figures [3]. Our judgment is that the group is priced for continued double-digit growth in billings and backlog, so a miss in conversion would matter more than a modest change in rates, but we cannot quantify implied growth without a verified forward multiple."
+      ]
+    },
+    {
+      "id": "positioning",
+      "paragraphs": [
+        "Positioning has whipsawed. IGV closed at $111.31 on 12 Oct 2026, up 41.46% from its 13 Apr low and up 5.34% year to date, down 0.68% over one year [3]. Earlier in the year it was weak: an early-July article had it down 10.5% year to date, and a September article reported a single-session outflow of about $700 million from the fund before Snowflake's report [15]. On 4 Sep it was about $105, down 1% year to date, with net assets of $13.5 billion at 30 Jun across 111 positions [15].",
+        "IGV is application-heavy, so it is an imperfect gauge of systems software, which also includes Microsoft, Oracle and the security vendors. We did not find sub-industry ETF flow data, short interest or breadth statistics from the sources opened, and we do not infer them. Snowflake rose in the session after its September report and was up 54% year to date by 4 Sep [15].",
+        "On sector-level sentiment, FactSet reports that Information Technology has the highest expected price upside to analyst target prices after Communication Services, at 27.9% against the S&P 500's 20.8% [2]. This is analyst target data, not our view, and we treat it as a sentiment gauge. Our read is that the recovery is narrow and earnings-driven for leaders with accelerating cloud and security backlogs, while seat-based application vendors remain the contested part of the group [3][15]."
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "n": 1,
+      "title": "Microsoft Cloud strength drives first quarter results (FY27 Q1 release)",
+      "publisher": "Microsoft",
+      "date": "2026-10-28",
+      "url": "https://www.microsoft.com/en-us/investor/earnings/fy-2027-q1/press-release-webcast"
+    },
+    {
+      "n": 2,
+      "title": "Earnings Insight, 30 October 2026",
+      "publisher": "FactSet",
+      "date": "2026-10-30",
+      "url": "https://advantage.factset.com/hubfs/Website/Resources%20Section/Research%20Desk/Earnings%20Insight/EarningsInsight_103026.pdf"
+    },
+    {
+      "n": 3,
+      "title": "Everyone declared software dead in April; this ETF is up 41% since then",
+      "publisher": "24/7 Wall St.",
+      "date": "2026-10-13",
+      "url": "https://247wallst.com/investing/2026/10/13/everyone-declared-software-dead-in-april-this-etf-is-up-41-since-then/"
+    },
+    {
+      "n": 4,
+      "title": "The full statement from the October 2026 FOMC rate decision",
+      "publisher": "investingLive",
+      "date": "2026-10-28",
+      "url": "https://investinglive.com/central-banks/the-full-statement-from-the-october-2026-fomc-rate-decision/"
+    },
+    {
+      "n": 5,
+      "title": "Gartner forecasts worldwide IT spending to grow 15% in 2027 to $7.35T (report on Gartner release)",
+      "publisher": "TechIntelPro",
+      "date": "2026-10-21",
+      "url": "https://techintelpro.com/news/ai/enterprise-ai/gartner-forecasts-worldwide-it-spending-to-grow-15-in-2027-to-735t"
+    },
+    {
+      "n": 6,
+      "title": "Microsoft fiscal Q4 2026 press release",
+      "publisher": "Microsoft",
+      "date": "2026-07-29",
+      "url": "https://www.microsoft.com/en-us/investor/earnings/fy-2026-q4/press-release-webcast"
+    },
+    {
+      "n": 7,
+      "title": "Palo Alto Networks fiscal Q4 and FY2026 earnings release (Form 8-K)",
+      "publisher": "SEC EDGAR / Palo Alto Networks",
+      "date": "2026-09-01",
+      "url": "https://www.sec.gov/Archives/edgar/data/0001327567/000132756726000019/ex991q426earningsrelease.htm"
+    },
+    {
+      "n": 8,
+      "title": "Fortinet third quarter 2026 results (Form 8-K exhibit 99.1)",
+      "publisher": "SEC EDGAR / Fortinet",
+      "date": "2026-10-28",
+      "url": "https://www.sec.gov/Archives/edgar/data/0001262039/000126203926000024/ftntq3-2026ex991.htm"
+    },
+    {
+      "n": 9,
+      "title": "ServiceNow third quarter 2026 results (Form 8-K)",
+      "publisher": "SEC EDGAR / ServiceNow",
+      "date": "2026-10-28",
+      "url": "https://www.sec.gov/Archives/edgar/data/0001373715/000137371526000092/erq3fy26.htm"
+    },
+    {
+      "n": 10,
+      "title": "Oracle Q1 FY27 results",
+      "publisher": "Verdict",
+      "date": "2026-09-11",
+      "url": "https://www.verdict.co.uk/oracle-q1-fy27-results/"
+    },
+    {
+      "n": 11,
+      "title": "Datadog third quarter 2026 results (Form 8-K exhibit 99.1)",
+      "publisher": "SEC EDGAR / Datadog",
+      "date": "2026-11-04",
+      "url": "https://www.sec.gov/Archives/edgar/data/0001561550/000162828026069792/ex-991x20260930x8k.htm"
+    },
+    {
+      "n": 12,
+      "title": "Margins by sector (US), January 2026",
+      "publisher": "Damodaran, NYU Stern",
+      "date": "2026-01",
+      "url": "https://pages.stern.nyu.edu/~adamodar/New_Home_Page/datafile/margin.html"
+    },
+    {
+      "n": 13,
+      "title": "EV/EBITDA multiples by sector (US), January 2026",
+      "publisher": "Damodaran, NYU Stern",
+      "date": "2026-01",
+      "url": "https://pages.stern.nyu.edu/~adamodar/New_Home_Page/datafile/vebitda.html"
+    },
+    {
+      "n": 14,
+      "title": "EU AI Act Omnibus agreement: postponed high-risk deadlines",
+      "publisher": "Gibson Dunn",
+      "date": "2026-05",
+      "url": "https://www.gibsondunn.com/eu-ai-act-omnibus-agreement-postponed-high-risk-deadlines-and-other-key-changes/"
+    },
+    {
+      "n": 15,
+      "title": "Investors pulled $700 million from IGV hours before Snowflake reignited software",
+      "publisher": "24/7 Wall St.",
+      "date": "2026-09-07",
+      "url": "https://247wallst.com/investing/etf/2026/09/07/investors-pulled-700-million-from-igv-hours-before-snowflake-reignited-software/"
+    }
+  ]
 }

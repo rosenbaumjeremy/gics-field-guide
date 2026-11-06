@@ -70,6 +70,7 @@ function briefBody(b, root) {
     el("div", {}, el("div", { class: "eyebrow" }, "Research brief"), el("h2", {}, "Sector research: eight-part framework")),
     el("span", { class: "asof" }, "Data as of " + fmtDate(b.asOf))));
   parts.push(el("div", { class: "bottomline" }, el("b", {}, "Bottom line"), el("p", {}, ...cited(b.summary, root))));
+  if (b.basics) parts.push(basicsBlock(b.basics, root));
   parts.push(el("div", { class: "brief-grid" },
     el("div", { class: "fact" }, el("h3", {}, "Key figures"),
       el("table", { class: "kfig" }, el("tbody", {}, ...b.metrics.map(m => el("tr", {},
@@ -91,12 +92,29 @@ function briefBody(b, root) {
   return parts;
 }
 
+// The basics: what the business is, what it sells, the vocabulary, and what moves it
+function basicsBlock(x, root) {
+  const dl = (rows, extra) => el("dl", { class: "bdl" }, ...rows.map(r => el("div", {},
+    el("dt", {}, r[0]),
+    el("dd", {}, ...cited(r[1], root), extra && extra(r) ? el("small", {}, extra(r)) : null))));
+  return el("section", { class: "basics", "aria-label": "The basics" },
+    el("h3", { class: "fwtitle" }, "Start here: the basics"),
+    el("p", { class: "bintro" }, ...cited(x.intro, root)),
+    el("div", { class: "brief-grid" },
+      el("div", { class: "fact" }, el("h3", {}, "What they sell"),
+        dl(x.products.map(p => [p.name, p.what, p.examples]), r => r[2] ? "e.g. " + r[2] : "")),
+      el("div", { class: "fact" }, el("h3", {}, "What drives the business"),
+        dl(x.drivers.map(d => [d.name, d.how])))),
+    el("div", { class: "fact bterms" }, el("h3", {}, "Key terms"),
+      dl(x.terms.map(t => [t.term, t.meaning]))));
+}
+
 function renderResearch(v) {
   v.append(
     el("nav", { class: "crumbs", "aria-label": "Breadcrumb" }, el("button", { type: "button", onclick: () => go(null) }, "GICS"), el("span", { "aria-hidden": "true" }, "›"), el("span", {}, "Research briefs")),
     el("div", { class: "eyebrow" }, `${WI.length} of 163 sub-industries`),
     el("h1", {}, "Sub-industry research briefs"),
-    el("p", { class: "lede" }, "Each brief works through the same eight steps: the economy, demand, competition, regulation and technology, financial fundamentals, earnings, valuation, and market positioning. Three new briefs are added each day, starting with the sectors that make up most of the S&P 500."),
+    el("p", { class: "lede" }, "Each brief opens with the basics (what the companies sell, the key terms and what drives the business), then works through the same eight steps: the economy, demand, competition, regulation and technology, financial fundamentals, earnings, valuation, and market positioning. Three new briefs are added each day, starting with the sectors that make up most of the S&P 500."),
     el("div", { class: "bar wbar" }, el("i", { class: "wfill" })));
   v.querySelector(".wfill").style.width = (WI.length / 163 * 100) + "%";
   const byDay = {};

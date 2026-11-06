@@ -68,6 +68,134 @@
     "Texas Instruments",
     "First Solar"
   ],
+  "basics": {
+    "intro": "Semiconductor companies design or make the chips that compute, store, move and convert information in almost every electronic device, from AI data centres to cars and phones. Some only design chips and pay others to make them (fabless), some only manufacture for others (foundries), and some do both. GICS also puts solar cell and module makers here, because a solar cell is a semiconductor device. The companies that sell chipmaking machines and materials sit next door, in Semiconductor Materials & Equipment.",
+    "products": [
+      {
+        "name": "Processors and AI accelerators",
+        "what": "Logic chips that run calculations: CPUs for general computing, GPUs and custom accelerators that run many calculations in parallel to train and serve AI models.",
+        "examples": "Nvidia data-centre GPUs, AMD EPYC CPUs and Instinct GPUs, Broadcom custom AI chips"
+      },
+      {
+        "name": "Memory",
+        "what": "Chips that hold data. DRAM is fast working memory, HBM is DRAM stacked beside an AI accelerator for very high bandwidth, and NAND flash keeps data when the power is off.",
+        "examples": "Micron DRAM, HBM and NAND"
+      },
+      {
+        "name": "Analog and power chips",
+        "what": "Chips that handle real-world signals such as voltage, sound and temperature, and manage power in everything from factory equipment to cars. Products last for years, so sales are steadier than in logic or memory.",
+        "examples": "Texas Instruments power management and signal-chain chips, Analog Devices"
+      },
+      {
+        "name": "Networking and connectivity",
+        "what": "Chips that move data: switches and routers inside data centres, network cards, and Wi-Fi, Bluetooth and cellular chips in devices.",
+        "examples": "Broadcom Tomahawk switch chips, Qualcomm modems"
+      },
+      {
+        "name": "Microcontrollers and embedded chips",
+        "what": "Small, cheap computers-on-a-chip that control cars, appliances, meters and industrial machines.",
+        "examples": "Microchip, NXP, Texas Instruments"
+      },
+      {
+        "name": "Foundry and manufacturing services",
+        "what": "Making chips to other companies' designs. Leading-edge manufacturing is concentrated in very few firms.",
+        "examples": "TSMC (not in the S&P 500), Intel Foundry, GlobalFoundries"
+      },
+      {
+        "name": "Solar cells and modules",
+        "what": "Semiconductor panels that turn sunlight into electricity, sold to utilities and developers of solar farms.",
+        "examples": "First Solar thin-film modules"
+      }
+    ],
+    "terms": [
+      {
+        "term": "Fabless",
+        "meaning": "A chip company that designs chips but outsources manufacturing to a foundry. It needs far less capital, but depends on the foundry's capacity."
+      },
+      {
+        "term": "Foundry",
+        "meaning": "A manufacturer that makes chips designed by other companies."
+      },
+      {
+        "term": "IDM (integrated device manufacturer)",
+        "meaning": "A company that designs and makes its own chips in its own factories, such as Intel, Texas Instruments or Micron. Its costs are more fixed, so profits swing more with utilisation."
+      },
+      {
+        "term": "Wafer and fab",
+        "meaning": "A wafer is the thin silicon disc on which hundreds of chips are made at once. A fab is the factory, which can cost many billions of dollars to build."
+      },
+      {
+        "term": "Process node",
+        "meaning": "The name of a manufacturing generation, such as 3 nm. A newer node packs in more transistors for faster, more efficient chips. The number is now a label rather than a physical measurement."
+      },
+      {
+        "term": "Yield",
+        "meaning": "The share of chips on a wafer that work. Higher yields mean lower cost per chip, which is why new nodes start expensive and get cheaper."
+      },
+      {
+        "term": "Utilisation",
+        "meaning": "How much of a fab's capacity is running. Because most fab costs are fixed, gross margins rise and fall with it."
+      },
+      {
+        "term": "Advanced packaging",
+        "meaning": "Joining several chips, such as a GPU and its HBM stacks, into one package. It is now a bottleneck for AI accelerator supply."
+      },
+      {
+        "term": "HBM (high-bandwidth memory)",
+        "meaning": "Stacks of DRAM placed right next to a processor so data moves very fast. Every leading AI accelerator uses it, and it sells at a premium to ordinary DRAM."
+      },
+      {
+        "term": "Design win",
+        "meaning": "When a customer chooses a chip for a product it is building. Revenue follows a year or more later, so design wins are a leading indicator."
+      },
+      {
+        "term": "Book-to-bill",
+        "meaning": "New orders divided by shipments in a period. Above 1 means orders are running ahead of sales."
+      },
+      {
+        "term": "Inventory days",
+        "meaning": "How many days of sales a company, or the distributors selling its chips, hold in stock. A rising number often comes before price cuts and a downturn."
+      },
+      {
+        "term": "ASP (average selling price)",
+        "meaning": "Revenue divided by units sold. In memory, ASPs move with supply and demand and drive most of the profit swing."
+      },
+      {
+        "term": "Export controls",
+        "meaning": "Government licensing rules that limit selling advanced chips, or the tools to make them, to certain countries, chiefly China."
+      }
+    ],
+    "drivers": [
+      {
+        "name": "Data-centre and AI spending",
+        "how": "The capital budgets of the big cloud and AI companies set demand for accelerators, networking chips and HBM. When they raise spending plans, orders for these products rise within quarters."
+      },
+      {
+        "name": "End-market cycles",
+        "how": "PCs, smartphones, cars and industrial equipment each have their own cycle. Analog and microcontroller makers depend more on cars and factories; memory makers more on phones, PCs and servers."
+      },
+      {
+        "name": "The inventory cycle",
+        "how": "In shortages customers order more than they need; afterwards they stop ordering while they work the stock down. Chip revenue therefore swings more sharply than demand for the end products."
+      },
+      {
+        "name": "Memory supply and pricing",
+        "how": "Memory is close to a commodity made by a handful of producers (Samsung, SK Hynix and Micron lead). Prices rise when they hold back new capacity and fall when they overbuild, and those prices drive memory makers' profits."
+      },
+      {
+        "name": "Manufacturing technology and capacity",
+        "how": "Leading-edge nodes and advanced packaging capacity decide who can ship the fastest chips and how many. A lead lets a company charge more; a shortfall caps revenue whatever the demand."
+      },
+      {
+        "name": "Trade policy and subsidies",
+        "how": "Export controls can cut off sales to China, tariffs change costs, and subsidies such as the U.S. CHIPS Act pay for new fabs. All of these move revenue and capital spending."
+      },
+      {
+        "name": "Solar policy and panel prices",
+        "how": "For solar makers, tax credits, tariffs on imported panels and global panel prices decide how profitable U.S. production is."
+      }
+    ]
+  },
   "sections": [
     {
       "id": "macro",

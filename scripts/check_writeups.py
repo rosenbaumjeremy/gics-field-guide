@@ -3,7 +3,7 @@
 Usage: python scripts/check_writeups.py
 
 Checks site/data/writeups/index.json against the brief files (<code>.json), and each brief
-against the format in ROUTINE.md: the eight framework sections in order, length limits,
+against the format in ROUTINE.md: the basics block, the eight framework sections in order, length limits,
 and that every [n] citation points at a listed source and every section cites something.
 """
 import json
@@ -124,6 +124,31 @@ for path in sorted(WDIR.glob("[0-9]*.json")):
             errors.append(f"{w}: metric {i} needs 'source' (a source number)")
         else:
             used.add(m["source"])
+
+    basics = b.get("basics")
+    if not isinstance(basics, dict):
+        errors.append(f"{w}: needs 'basics' (intro, products, terms, drivers)")
+    else:
+        intro = basics.get("intro")
+        if not isinstance(intro, str) or not 30 <= words(intro) <= 120:
+            errors.append(f"{w} basics: 'intro' must be 30-120 words")
+        else:
+            cites(intro, "basics intro")
+        for key, lo, hi, fields in (("products", 3, 8, ("name", "what")), ("terms", 8, 16, ("term", "meaning")), ("drivers", 4, 8, ("name", "how"))):
+            rows = basics.get(key)
+            if not isinstance(rows, list) or not lo <= len(rows) <= hi:
+                errors.append(f"{w} basics: '{key}' must have {lo}-{hi} entries")
+                continue
+            for i, r in enumerate(rows, 1):
+                if not isinstance(r, dict) or not all(isinstance(r.get(f), str) and r[f].strip() for f in fields):
+                    errors.append(f"{w} basics {key} {i}: needs {' and '.join(repr(f) for f in fields)}")
+                    continue
+                body = r[fields[1]]
+                if words(body) > 70:
+                    errors.append(f"{w} basics {key} {i}: '{fields[1]}' is {words(body)} words (max 70)")
+                cites(body, f"basics {key} {i}")
+                if "examples" in r and not (isinstance(r["examples"], str) and r["examples"].strip()):
+                    errors.append(f"{w} basics {key} {i}: 'examples' must be a non-empty string")
 
     names = b.get("bellwethers")
     if not isinstance(names, list) or not 3 <= len(names) <= 10:
