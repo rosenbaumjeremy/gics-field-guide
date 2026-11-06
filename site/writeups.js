@@ -73,29 +73,38 @@ function briefSection(code) {
   return box;
 }
 
+// A top-level collapsible part of a brief; only the bottom line starts open
+function group(title, open, cls, ...kids) {
+  const d = el("details", { class: "grp" + (cls ? " " + cls : "") }, el("summary", {}, el("h3", { class: "fwtitle" }, title)), el("div", { class: "grpbody" }, ...kids));
+  d.open = open;
+  return d;
+}
+
+// "Open all" button for a list of nested parts
+function openAll(items, noun) {
+  const b = el("button", { type: "button", class: "linkbtn", onclick: () => {
+    const open = !items.every(d => d.open); items.forEach(d => (d.open = open)); b.textContent = (open ? "Close all " : "Open all ") + noun;
+  } }, "Open all " + noun);
+  return b;
+}
+
 function briefBody(b, root) {
   const parts = [];
   parts.push(el("div", { class: "brief-head" },
     el("div", {}, el("div", { class: "eyebrow" }, "Research brief"), el("h2", {}, "Sector research: eight-part framework")),
     el("span", { class: "asof" }, "Data as of " + fmtDate(b.asOf))));
-  parts.push(el("div", { class: "bottomline" }, el("b", {}, "Bottom line"), el("p", {}, ...cited(b.summary, root))));
+  parts.push(group("Bottom line", true, "bottomline", el("p", {}, ...cited(b.summary, root))));
   if (b.basics) parts.push(basicsBlock(b.basics, root));
-  parts.push(el("div", { class: "brief-grid" },
-    el("div", { class: "fact" }, el("h3", {}, "Key figures"),
-      el("table", { class: "kfig" }, el("tbody", {}, ...b.metrics.map(m => el("tr", {},
-        el("th", {}, m.label),
-        el("td", {}, el("b", {}, m.value), m.context ? el("small", {}, m.context) : null, ...cited(` [${m.source}]`, root))))))),
-    el("div", { class: "fact" }, el("h3", {}, "What to watch"), el("ul", {}, ...b.watch.map(x => el("li", {}, ...cited(x, root)))),
-      el("h3", { class: "gap-top" }, "Bellwethers"), el("div", { class: "chips" }, ...b.bellwethers.map(x => el("span", { class: "chip" }, x))))));
-  if (b.fundamentals) parts.push(...fundamentalsBlock(b.fundamentals, root));
+  parts.push(group("What to watch", false, "",
+    el("ul", { class: "watch" }, ...b.watch.map(x => el("li", {}, ...cited(x, root)))),
+    el("h4", { class: "gap-top grph" }, "Bellwethers"), el("div", { class: "chips" }, ...b.bellwethers.map(x => el("span", { class: "chip" }, x)))));
+  if (b.fundamentals) parts.push(fundamentalsBlock(b.fundamentals, root));
   const secs = b.sections.map((s, i) => el("details", { class: "fw" },
     el("summary", {}, el("span", { class: "fwn" }, String(i + 1)), el("span", {}, FRAMEWORK[s.id] || s.id)),
     el("div", { class: "fwbody" }, ...s.paragraphs.map(p => el("p", {}, ...cited(p, root))))));
-  const toggle = el("button", { type: "button", class: "linkbtn", onclick: () => {
-    const open = !secs.every(d => d.open); secs.forEach(d => (d.open = open)); toggle.textContent = open ? "Close all sections" : "Open all sections";
-  } }, "Open all sections");
-  parts.push(el("div", { class: "sec-head" }, el("h3", { class: "fwtitle" }, "Market view: eight-part analysis"), toggle), el("div", { class: "fwlist" }, ...secs));
-  parts.push(el("details", { class: "fw srcs" }, el("summary", {}, el("span", { class: "fwn" }, "§"), el("span", {}, `Sources (${b.sources.length})`)),
+  parts.push(group("Market view: eight-part analysis", false, "",
+    el("div", { class: "grptools" }, openAll(secs, "sections")), el("div", { class: "fwlist" }, ...secs)));
+  parts.push(group(`Sources (${b.sources.length})`, false, "srcs",
     el("ol", { class: "srclist" }, ...b.sources.map(s => el("li", { id: "src-" + s.n },
       el("a", { href: s.url, target: "_blank", rel: "noopener" }, s.title), ` — ${s.publisher}${s.date ? ", " + s.date : ""}`)))));
   parts.push(el("p", { class: "fine" }, `Written ${fmtDate(b.added)} with AI-assisted research from public sources. It is a general educational overview, not investment advice or a recommendation to buy or sell anything. Market figures move daily: check the linked sources before relying on any number.`));
@@ -107,8 +116,7 @@ function basicsBlock(x, root) {
   const dl = (rows, extra) => el("dl", { class: "bdl" }, ...rows.map(r => el("div", {},
     el("dt", {}, r[0]),
     el("dd", {}, ...cited(r[1], root), extra && extra(r) ? el("small", {}, extra(r)) : null))));
-  return el("section", { class: "basics", "aria-label": "The basics" },
-    el("h3", { class: "fwtitle" }, "Start here: the basics"),
+  return group("Start here: the basics", false, "basics",
     el("p", { class: "bintro" }, ...cited(x.intro, root)),
     el("div", { class: "brief-grid" },
       el("div", { class: "fact" }, el("h3", {}, "What they sell"),
@@ -131,12 +139,9 @@ function fundamentalsBlock(f, root) {
     }
     return el("details", { class: "fw" }, el("summary", {}, el("span", { class: "fwn" }, String(i + 1)), el("span", {}, title)), body);
   });
-  const toggle = el("button", { type: "button", class: "linkbtn", onclick: () => {
-    const open = !parts.every(d => d.open); parts.forEach(d => (d.open = open)); toggle.textContent = open ? "Close all parts" : "Open all parts";
-  } }, "Open all parts");
-  return [el("div", { class: "sec-head" }, el("h3", { class: "fwtitle" }, "Industry fundamentals: six-part analysis"), toggle),
-    el("p", { class: "fqintro muted" }, "How the business works, how competition and the economy shape its results, what its finances look like, and what could change it."),
-    el("div", { class: "fwlist" }, ...parts)];
+  return group("Industry fundamentals: six-part analysis", false, "",
+    el("div", { class: "grptools" }, el("p", { class: "fqintro muted" }, "How the business works, how competition and the economy shape its results, what its finances look like, and what could change it."), openAll(parts, "parts")),
+    el("div", { class: "fwlist" }, ...parts));
 }
 
 function renderResearch(v) {
