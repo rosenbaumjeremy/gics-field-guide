@@ -38,3 +38,11 @@ python -m http.server 8160 --directory site
 ```
 
 GICS is a trademark of MSCI and Standard & Poor's.
+
+## Research briefs (daily routine)
+
+A cloud routine follows `ROUTINE.md` each day: `scripts/next_writeups.py` picks the next three
+sub-industries from `site/data/writeups/queue.json` (sectors by S&P 500 weight), the routine
+researches and writes `site/data/writeups/<code>.json` using the eight-part framework, lists it
+in `index.json`, runs `scripts/check_writeups.py`, and pushes to `main`. To change how briefs are
+written, edit `ROUTINE.md`, not the routine.

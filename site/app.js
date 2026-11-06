@@ -25,12 +25,13 @@ function markSeen(code){seen.add(code);try{localStorage.setItem("gics-seen",JSON
 
 let current=null;
 function go(code){location.hash=code?"c-"+code:"start"}
-let weightsFocus=null;
+let weightsFocus=null, research=false;
 function route(){
   const m=location.hash.match(/^#c-(\d{2,8})$/);
   current=m&&N[m[1]]?m[1]:null;
   const w=location.hash.match(/^#weights(?:-(\d{2}))?$/);
   weightsFocus=!current&&w?(w[1]||"45"):null;
+  research=!current&&location.hash==="#research";
   render(); window.scrollTo(0,0);
 }
 
@@ -60,6 +61,10 @@ function renderIntro(v){
       el("span",{class:"eyebrow"},"S&P 500 · 1990 to 2026"),
       el("strong",{},"How the sector mix has shifted"),
       el("span",{},"Technology went from about 6% of the index to about 36%, while Staples, Industrials and Energy shrank. See every sector's weight over time →")),
+    el("button",{type:"button",class:"wpromo",onclick:()=>(location.hash="research")},
+      el("span",{class:"eyebrow"},`${WI.length} of 163 published`),
+      el("strong",{},"Sub-industry research briefs"),
+      el("span",{},"An eight-part institutional analysis of each sub-industry, from the macro backdrop to valuation and positioning. Three new briefs every day →")),
     el("h2",{class:"h2-gap"},"How a company gets its code"),
     el("div",{class:"prose"},
       el("p",{},"Each company receives exactly one sub-industry, chosen by its principal business activity. Revenue is the main test. Earnings and how the market perceives the business are also weighed, which matters for companies that straddle two industries."),
@@ -88,6 +93,7 @@ function renderNode(v,code){
       sectorWeightCard(code)));
   }
   if(n.note) v.append(el("div",{class:"note"},el("b",{},"Good to know"),n.note));
+  if(n.lvl===3) v.append(briefSection(code));
   if(n.kids.length){
     const lvl=n.lvl+1;
     v.append(el("div",{class:"sec-head"},el("h2",{},`Inside: ${n.kids.length} ${n.kids.length===1?LEVELS[lvl].toLowerCase():PLURAL[lvl]}`),
@@ -100,11 +106,16 @@ function renderNode(v,code){
     if(sibs.length) v.append(el("div",{class:"kids"},...sibs.map(k=>kidRow(k))));
   }
 }
+function briefBadge(k){
+  const n=k.length===8?(hasBrief(k)?1:0):WI.filter(e=>e.code.startsWith(k)).length;
+  if(!n)return null;
+  return el("span",{class:"bbadge"},k.length===8?"Research brief":`${n} research brief${n===1?"":"s"}`);
+}
 function kidRow(k){
   const c=N[k];
   return el("button",{class:"kid"+(seen.has(k)?" seen":""),type:"button",onclick:()=>go(k)},
     el("code",{},k),
-    el("div",{},el("strong",{},c.name),el("p",{},c.desc),
+    el("div",{},el("strong",{},c.name),briefBadge(k),el("p",{},c.desc),
       c.kids.length&&!(c.kids.length===1&&N[c.kids[0]].name===c.name)?el("div",{class:"chips"},...c.kids.map(g=>el("span",{class:"chip"},N[g].name))):null));
 }
 
@@ -143,8 +154,9 @@ function renderTree(){
 
 function render(){
   const v=$("view"); v.replaceChildren(); v.removeAttribute("data-h");
-  if(current){markSeen(current);renderNode(v,current)} else if(weightsFocus) renderWeights(v,weightsFocus); else renderIntro(v);
+  if(current){markSeen(current);renderNode(v,current)} else if(weightsFocus) renderWeights(v,weightsFocus); else if(research) renderResearch(v); else renderIntro(v);
   $("wlink").setAttribute("aria-current",weightsFocus?"page":"false");
+  $("rlink").setAttribute("aria-current",research?"page":"false");
   renderTree();
   const idx=current?ORDER.indexOf(current):-1;
   $("prev").disabled=idx<0;
@@ -156,7 +168,7 @@ function render(){
     el("b",{},nxt?`Next: ${N[nxt].name}`:"End of the tour"));
   $("prog").textContent=`${seen.size} of ${TOTAL} explored`;
   $("progbar").style.width=(seen.size/TOTAL*100)+"%";
-  document.title=current?`${N[current].name} · GICS Field Guide`:weightsFocus?"Sector weights · GICS Field Guide":"GICS Field Guide";
+  document.title=current?`${N[current].name} · GICS Field Guide`:weightsFocus?"Sector weights · GICS Field Guide":research?"Research briefs · GICS Field Guide":"GICS Field Guide";
   $("rail").classList.remove("open"); $("menu").setAttribute("aria-expanded","false");
 }
 
@@ -164,6 +176,7 @@ $("prev").onclick=()=>{const i=current?ORDER.indexOf(current):-1;go(i<=0?null:OR
 $("next").onclick=()=>{const i=current?ORDER.indexOf(current):-1;if(i<TOTAL-1)go(ORDER[i+1])};
 $("home").onclick=()=>go(null);
 $("wlink").onclick=()=>(location.hash="weights");
+$("rlink").onclick=()=>(location.hash="research");
 $("menu").onclick=()=>{const r=$("rail");r.classList.toggle("open");$("menu").setAttribute("aria-expanded",r.classList.contains("open"))};
 $("q").addEventListener("input",()=>{renderTree();if($("q").value)$("rail").classList.add("open")});
 document.addEventListener("keydown",e=>{
@@ -174,6 +187,7 @@ document.addEventListener("keydown",e=>{
 window.addEventListener("hashchange",route);
 // the weights are optional: if they fail to load, the rest of the guide still works
 const getJSON=u=>fetch(u).then(r=>{if(!r.ok)throw new Error(r.status);return r.json()});
-Promise.all([getJSON("data/gics.json"),getJSON("data/weights.json").catch(()=>null)])
-  .then(([rows,weights])=>{W=weights;load(rows);route()})
+Promise.all([getJSON("data/gics.json"),getJSON("data/weights.json").catch(()=>null),
+  getJSON("data/writeups/index.json").catch(()=>[]),getJSON("data/writeups/queue.json").catch(()=>null)])
+  .then(([rows,weights,briefs,queue])=>{W=weights;WI=briefs;WQ=queue;load(rows);route()})
   .catch(()=>{$("view").replaceChildren(el("p",{class:"lede"},"The classification data didn't load. Check your connection and reload the page."))});
