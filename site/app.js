@@ -25,9 +25,12 @@ function markSeen(code){seen.add(code);try{localStorage.setItem("gics-seen",JSON
 
 let current=null;
 function go(code){location.hash=code?"c-"+code:"start"}
+let weightsFocus=null;
 function route(){
   const m=location.hash.match(/^#c-(\d{2,8})$/);
   current=m&&N[m[1]]?m[1]:null;
+  const w=location.hash.match(/^#weights(?:-(\d{2}))?$/);
+  weightsFocus=!current&&w?(w[1]||"45"):null;
   render(); window.scrollTo(0,0);
 }
 
@@ -53,6 +56,10 @@ function renderIntro(v){
     el("div",{class:"sgrid"},...SECTORS.map(s=>el("button",{class:"scard",type:"button",h:HUES[s.code],onclick:()=>go(s.code)},
       el("code",{},s.code),el("strong",{},s.name),
       el("span",{},`${countBelow(s.code,1)} grp · ${countBelow(s.code,2)} ind · ${countBelow(s.code,3)} sub`)))),
+    el("button",{type:"button",class:"wpromo",onclick:()=>(location.hash="weights")},
+      el("span",{class:"eyebrow"},"S&P 500 · 1990 to 2026"),
+      el("strong",{},"How the sector mix has shifted"),
+      el("span",{},"Technology went from about 6% of the index to about 36%, while Staples, Industrials and Energy shrank. See every sector's weight over time →")),
     el("h2",{class:"h2-gap"},"How a company gets its code"),
     el("div",{class:"prose"},
       el("p",{},"Each company receives exactly one sub-industry, chosen by its principal business activity. Revenue is the main test. Earnings and how the market perceives the business are also weighed, which matters for companies that straddle two industries."),
@@ -77,7 +84,8 @@ function renderNode(v,code){
   if(n.lvl===0){
     v.append(el("div",{class:"facts"},
       el("div",{class:"fact"},el("h3",{},"What moves it"),el("ul",{},...n.drivers.map(d=>el("li",{},d)))),
-      el("div",{class:"fact"},el("h3",{},"Well-known names"),el("div",{class:"chips"},...n.examples.map(x=>el("span",{class:"chip"},x))))));
+      el("div",{class:"fact"},el("h3",{},"Well-known names"),el("div",{class:"chips"},...n.examples.map(x=>el("span",{class:"chip"},x)))),
+      sectorWeightCard(code)));
   }
   if(n.note) v.append(el("div",{class:"note"},el("b",{},"Good to know"),n.note));
   if(n.kids.length){
@@ -135,7 +143,8 @@ function renderTree(){
 
 function render(){
   const v=$("view"); v.replaceChildren(); v.removeAttribute("data-h");
-  if(current){markSeen(current);renderNode(v,current)} else renderIntro(v);
+  if(current){markSeen(current);renderNode(v,current)} else if(weightsFocus) renderWeights(v,weightsFocus); else renderIntro(v);
+  $("wlink").setAttribute("aria-current",weightsFocus?"page":"false");
   renderTree();
   const idx=current?ORDER.indexOf(current):-1;
   $("prev").disabled=idx<0;
@@ -147,13 +156,14 @@ function render(){
     el("b",{},nxt?`Next: ${N[nxt].name}`:"End of the tour"));
   $("prog").textContent=`${seen.size} of ${TOTAL} explored`;
   $("progbar").style.width=(seen.size/TOTAL*100)+"%";
-  document.title=current?`${N[current].name} · GICS Field Guide`:"GICS Field Guide";
+  document.title=current?`${N[current].name} · GICS Field Guide`:weightsFocus?"Sector weights · GICS Field Guide":"GICS Field Guide";
   $("rail").classList.remove("open"); $("menu").setAttribute("aria-expanded","false");
 }
 
 $("prev").onclick=()=>{const i=current?ORDER.indexOf(current):-1;go(i<=0?null:ORDER[i-1])};
 $("next").onclick=()=>{const i=current?ORDER.indexOf(current):-1;if(i<TOTAL-1)go(ORDER[i+1])};
 $("home").onclick=()=>go(null);
+$("wlink").onclick=()=>(location.hash="weights");
 $("menu").onclick=()=>{const r=$("rail");r.classList.toggle("open");$("menu").setAttribute("aria-expanded",r.classList.contains("open"))};
 $("q").addEventListener("input",()=>{renderTree();if($("q").value)$("rail").classList.add("open")});
 document.addEventListener("keydown",e=>{
@@ -162,5 +172,8 @@ document.addEventListener("keydown",e=>{
   if(e.key==="ArrowLeft")$("prev").click();
 });
 window.addEventListener("hashchange",route);
-fetch("data/gics.json").then(r=>{if(!r.ok)throw new Error(r.status);return r.json()}).then(rows=>{load(rows);route()})
+// the weights are optional: if they fail to load, the rest of the guide still works
+const getJSON=u=>fetch(u).then(r=>{if(!r.ok)throw new Error(r.status);return r.json()});
+Promise.all([getJSON("data/gics.json"),getJSON("data/weights.json").catch(()=>null)])
+  .then(([rows,weights])=>{W=weights;load(rows);route()})
   .catch(()=>{$("view").replaceChildren(el("p",{class:"lede"},"The classification data didn't load. Check your connection and reload the page."))});

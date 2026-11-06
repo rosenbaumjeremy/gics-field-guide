@@ -1,8 +1,8 @@
 "use strict";
 // Offline copy of the site. Online, files come from the network first (up to 4s) so edits
 // show up; the saved copy is the fallback. Add any new site file to SHELL and bump CACHE.
-const CACHE = "gics-field-guide-v1";
-const SHELL = ["./", "index.html", "app.css", "app.js", "offline.js", "icon.svg", "data/gics.json"];
+const CACHE = "gics-field-guide-v2";
+const SHELL = ["./", "index.html", "app.css", "app.js", "weights.js", "offline.js", "icon.svg", "data/gics.json", "data/weights.json"];
 
 self.addEventListener("install", e => {
   e.waitUntil(caches.open(CACHE).then(c => c.addAll(SHELL)).then(() => self.skipWaiting()));

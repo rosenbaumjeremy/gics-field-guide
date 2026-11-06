@@ -2,17 +2,17 @@
    Each sector owns a hue (--h); all sector colors are derived from it so both themes stay consistent. */
 :root{
   --bg:#f5f7f9; --panel:#ffffff; --fg:#17202a; --muted:#5a6672; --line:#dbe1e7; --accent:#1f5fa8;
-  --sL:52%; --sC:.15; --softL:95.5%; --softC:.035;
+  --band-a:#cdd5dd; --band-b:#dfe5eb; --sL:52%; --sC:.15; --softL:95.5%; --softC:.035;
   --f-display:"Bricolage Grotesque", "Segoe UI", system-ui, sans-serif;
   --f-body:"IBM Plex Sans", "Segoe UI", system-ui, sans-serif;
   --f-mono:"IBM Plex Mono", ui-monospace, Consolas, monospace;
 }
 @media (prefers-color-scheme: dark){:root:not([data-theme="light"]){
   --bg:#0f141a; --panel:#161d25; --fg:#e4e9ee; --muted:#93a0ad; --line:#26313c; --accent:#7fb2ec;
-  --sL:76%; --sC:.13; --softL:25%; --softC:.04; color-scheme:dark}}
+  --band-a:#2f3b47; --band-b:#25303b; --sL:76%; --sC:.13; --softL:25%; --softC:.04; color-scheme:dark}}
 :root[data-theme="dark"]{
   --bg:#0f141a; --panel:#161d25; --fg:#e4e9ee; --muted:#93a0ad; --line:#26313c; --accent:#7fb2ec;
-  --sL:76%; --sC:.13; --softL:25%; --softC:.04; color-scheme:dark}
+  --band-a:#2f3b47; --band-b:#25303b; --sL:76%; --sC:.13; --softL:25%; --softC:.04; color-scheme:dark}
 *{box-sizing:border-box}
 body{background:var(--bg);color:var(--fg);font:15px/1.6 var(--f-body)}
 [data-h]{--sec:oklch(var(--sL) var(--sC) var(--h));--soft:oklch(var(--softL) var(--softC) var(--h))}
@@ -123,3 +123,54 @@ h2{font:700 20px/1.2 var(--f-display);margin:0;text-wrap:balance}
 }
 @media (prefers-reduced-motion:reduce){*{transition:none!important}}
 .h2-gap{margin-bottom:12px}
+/* sector weights page */
+.wlink{background:none;border:1px solid var(--line);border-radius:8px;padding:8px 10px;text-align:left;cursor:pointer;font-size:13.5px;font-weight:500}
+.wlink:hover,.wlink[aria-current="page"]{background:var(--panel);border-color:var(--fg)}
+.wpromo{display:flex;flex-direction:column;gap:4px;text-align:left;width:100%;max-width:66ch;margin:0 0 30px;padding:16px 18px;border:1px solid var(--line);border-radius:10px;background:var(--panel);cursor:pointer}
+.wpromo:hover{border-color:var(--fg)}
+.wpromo .eyebrow{color:var(--accent)}
+.wpromo strong{font:700 20px/1.2 var(--f-display)}
+.wpromo span:last-child{color:var(--muted);font-size:14px}
+.wpick{display:flex;flex-wrap:wrap;gap:6px;margin-bottom:16px}
+.wchip{font-size:13px;padding:4px 11px;border-radius:999px;border:1px solid var(--line);background:var(--panel);cursor:pointer}
+.wchip:hover{border-color:var(--sec)}
+.wchip[aria-pressed="true"]{background:var(--sec);border-color:var(--sec);color:var(--bg);font-weight:600}
+.wwrap{position:relative;margin-bottom:18px;touch-action:pan-y}
+.wchart{display:block;width:100%;height:auto;font-family:var(--f-body)}
+.wchart .band-a{fill:var(--band-a);stroke:var(--panel);stroke-width:1}
+.wchart .band-b{fill:var(--band-b);stroke:var(--panel);stroke-width:1}
+.wchart .band-f{fill:var(--sec);stroke:var(--panel);stroke-width:1}
+.wchart .wgrid{stroke:var(--line);stroke-width:1}
+.wchart .waxis{stroke:var(--muted);stroke-width:1}
+.wchart .wtick{fill:var(--muted);font-size:11px;font-family:var(--f-mono)}
+.wchart .wlabel{fill:var(--muted);font-size:11.5px}
+.wchart .wlabel.on{fill:var(--fg);font-weight:600}
+.wchart .wgap{fill:var(--bg);opacity:.6}
+.wchart .wcross{stroke:var(--fg);stroke-width:1}
+.wtip{position:absolute;top:8px;min-width:210px;background:var(--panel);border:1px solid var(--line);border-radius:8px;padding:8px 10px;font-size:12.5px;line-height:1.5;pointer-events:none;box-shadow:0 4px 14px rgb(0 0 0 / .12)}
+.wtip b{display:block;margin-bottom:2px}
+.wrow{display:flex;justify-content:space-between;gap:14px;color:var(--muted);font-variant-numeric:tabular-nums}
+.wrow.on{color:var(--fg);font-weight:600}
+.wstats{display:grid;grid-template-columns:repeat(4,minmax(0,1fr));border:1px solid var(--line);border-radius:10px;background:var(--panel);margin-bottom:20px;overflow:hidden}
+.wstat{padding:12px 14px;border-left:1px solid var(--line);display:flex;flex-direction:column;gap:2px}
+.wstat:first-child{border-left:0}
+.wstat span{font:11px var(--f-mono);text-transform:uppercase;letter-spacing:.07em;color:var(--muted)}
+.wstat b{font:700 26px/1.1 var(--f-display);font-variant-numeric:tabular-nums;color:var(--fg)}
+.wstat small{color:var(--muted);font-size:12.5px}
+.wfine{margin-bottom:16px}
+.wfine p{margin:0 0 8px}
+.wtable{margin-bottom:10px}
+.wtable summary{cursor:pointer;font-weight:500;padding:6px 0}
+.wscroll{overflow-x:auto;border:1px solid var(--line);border-radius:8px;margin-top:8px}
+.wscroll table{border-collapse:collapse;font-size:12.5px;font-variant-numeric:tabular-nums;white-space:nowrap}
+.wscroll th,.wscroll td{padding:5px 9px;text-align:right;border-bottom:1px solid var(--line)}
+.wscroll thead th{font-weight:500;color:var(--muted);position:sticky;top:0;background:var(--panel)}
+.wscroll tbody th{text-align:left;font-weight:500}
+.wscroll .on{background:var(--soft);color:var(--fg);font-weight:600}
+.spark{display:block;width:100%;height:56px;margin:2px 0 6px}
+.spark polyline{fill:none;stroke:var(--sec);stroke-width:2;stroke-linejoin:round;stroke-linecap:round}
+.spark circle{fill:var(--sec);stroke:var(--panel);stroke-width:2}
+.wmini{margin:0 0 6px;font-size:13.5px;color:var(--muted)}
+.linkbtn{background:none;border:0;padding:0;cursor:pointer;color:var(--sec);font-weight:500;font-size:14px}
+.linkbtn:hover{text-decoration:underline}
+@media (max-width:860px){.wstats{grid-template-columns:repeat(2,minmax(0,1fr))}.wstat:nth-child(3){border-left:0}.wstat:nth-child(n+3){border-top:1px solid var(--line)}}
