@@ -22,25 +22,31 @@ def israel_today():
         return datetime.now(timezone(timedelta(hours=2))).strftime("%Y-%m-%d")
 
 
-today = sys.argv[1] if len(sys.argv) > 1 else israel_today()
 
-queue = json.loads((ROOT / "writeups" / "queue.json").read_text(encoding="utf-8"))
-index = json.loads((ROOT / "writeups" / "index.json").read_text(encoding="utf-8"))
-names = {r["code"]: r["name"] for r in json.loads((ROOT / "gics.json").read_text(encoding="utf-8"))}
+def main():
+    today = sys.argv[1] if len(sys.argv) > 1 else israel_today()
 
-done = {e["code"] for e in index}
-written_today = sum(1 for e in index if e["added"] == today)
-todo = [c for c in queue["queue"] if c not in done]
+    queue = json.loads((ROOT / "writeups" / "queue.json").read_text(encoding="utf-8"))
+    index = json.loads((ROOT / "writeups" / "index.json").read_text(encoding="utf-8"))
+    names = {r["code"]: r["name"] for r in json.loads((ROOT / "gics.json").read_text(encoding="utf-8"))}
 
-if not todo:
-    print("FINISHED")
-    sys.exit(0)
-left = queue["perDay"] - written_today
-if left <= 0:
-    print(f"DONE {today}")
-    sys.exit(0)
+    done = {e["code"] for e in index}
+    written_today = sum(1 for e in index if e["added"] == today)
+    todo = [c for c in queue["queue"] if c not in done]
 
-print(f"DATE {today}  ({written_today} already published today, {len(done)} of {len(queue['queue'])} overall)")
-for code in todo[:left]:
-    path = " > ".join(names[code[:n]] for n in (2, 4, 6))
-    print(f"WRITE {code}  {names[code]}  [{path}]")
+    if not todo:
+        print("FINISHED")
+        sys.exit(0)
+    left = queue["perDay"] - written_today
+    if left <= 0:
+        print(f"DONE {today}")
+        sys.exit(0)
+
+    print(f"DATE {today}  ({written_today} already published today, {len(done)} of {len(queue['queue'])} overall)")
+    for code in todo[:left]:
+        path = " > ".join(names[code[:n]] for n in (2, 4, 6))
+        print(f"WRITE {code}  {names[code]}  [{path}]")
+
+
+if __name__ == "__main__":
+    main()
