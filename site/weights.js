@@ -58,9 +58,11 @@ function weightChart(focus) {
     svg.append(svgEl("text", { x: VW - mr + 8, y: l.y + 4, class: "wlabel" + (l.focus ? " on" : "") }, `${SHORT[l.code]} ${pct(l.v)}`));
   });
   // the stretch with no data points
-  const g0 = X(W.gap[0]), g1 = X(W.gap[1]);
-  svg.append(svgEl("rect", { x: g0, y: mt, width: g1 - g0, height: Y(0) - mt, class: "wgap" }));
-  svg.append(svgEl("text", { x: (g0 + g1) / 2, y: mt + 14, class: "wtick", "text-anchor": "middle" }, "no data"));
+  if (W.gap) {
+    const g0 = X(W.gap[0]), g1 = X(W.gap[1]);
+    svg.append(svgEl("rect", { x: g0, y: mt, width: g1 - g0, height: Y(0) - mt, class: "wgap" }));
+    svg.append(svgEl("text", { x: (g0 + g1) / 2, y: mt + 14, class: "wtick", "text-anchor": "middle" }, "no data"));
+  }
   const cross = svgEl("line", { y1: mt, y2: Y(0), class: "wcross", visibility: "hidden" });
   svg.append(cross);
   return { svg, cross, X, x0, x1, ml, mr, VW };
@@ -105,7 +107,7 @@ function renderWeights(v, focus) {
     statLine(focus === "60" ? "First as a sector" : "Start", st.first), statLine("Peak", st.peak), statLine("Low", st.low), statLine("Latest", st.last)));
   if (s.note) v.append(el("div", { class: "note" }, el("b", {}, `About ${s.name}`), s.note));
   v.append(el("div", { class: "fine wfine" },
-    el("p", {}, "Year-end weights through 2022, then 3 July 2023, the end of 2025 and 5 November 2026. There are no points for the 2023 and 2024 year-ends, so the shaded stretch is drawn as a straight join and shouldn't be read as a trend. The latest point is an estimate from SPY fund holdings, not an official S&P figure."),
+    el("p", {}, "Year-end weights from 1990 to 2025 (plus 3 July 2023), then 5 November 2026. The latest point is an estimate from SPY fund holdings, not an official S&P figure."),
     el("p", {}, "Sectors appear as classified at the time. Communication Services was telecom-only until September 2018, when Alphabet, Meta and Netflix moved into it, which explains its jump that year. Real Estate was part of Financials until 2016."),
     el("p", {}, "Sources: ", ...W.sources.flatMap((x, i) => [i ? "; " : "", el("a", { href: x.url, target: "_blank", rel: "noopener" }, x.name)]), ".")));
   const cols = sectorCodes();
