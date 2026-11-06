@@ -183,6 +183,71 @@
       }
     ]
   },
+  "fundamentals": {
+    "business": [
+      "Subscriptions are now the core: cloud services billed by usage, such as Azure and Oracle Cloud Infrastructure; software subscriptions per user or device, such as Microsoft 365 and security platforms; and, for older products, licences plus annual maintenance. Security vendors such as Fortinet also sell hardware appliances with service subscriptions attached [8]. Consulting and support are a small share.",
+      "Mainly businesses and governments of every size, from small firms buying Microsoft 365 to large enterprises running Oracle databases. AI labs and model developers are now large cloud customers [10]. Consumers matter only at Microsoft, through Windows and personal subscriptions. Big deals are negotiated with IT and security leaders; smaller ones are sold online or through resellers.",
+      "People are the main cost. Across U.S. system and application software firms, R&D ran at 15.98% of sales and selling, general and administrative costs at 24.38%, with stock-based compensation at 7.83% [12]. Cloud vendors add data centres, chips and power, which show up in cost of revenue and capex.",
+      "Switching costs are the root: moving a database, operating system or security stack is slow and risky, so renewals are sticky and price rises usually hold. Platform breadth, integration with what the customer already runs and a proven security record also matter. Basic cloud computing has less pricing power, though scarce AI capacity currently supports it [10].",
+      "Assets are mostly intangible: code, customer relationships, brands and goodwill from acquisitions, plus cash. Cloud providers now also own large data centres and chip fleets. The distinctive liability is deferred revenue, cash collected in advance for subscriptions, which helps fund growth. Debt is modest overall, though Oracle is now spending more than its operating cash flow on cloud capacity [10].",
+      "Traditionally asset-light, but no longer uniformly. Pure software firms spend little on capex, while Microsoft and Oracle are building AI data centres. Damodaran's data show net capex at 17.82% of sales for U.S. system and application software firms, with capex at 244.55% of depreciation [18], a sign of heavy infrastructure building at the largest players."
+    ],
+    "overview": [
+      "Gartner, as reported, puts worldwide software spending at $1,464 billion in 2026, up 15.2%, and $1,679 billion in 2027 [5]. That includes application software; we found no figure for systems software alone. U.S. system and application software firms grew revenue 19.56% a year over the five years to January 2026 [19].",
+      "Operating systems and productivity platforms; databases and data management; cloud infrastructure and platform services; security software (network, endpoint, identity and cloud); and infrastructure management, observability and developer tools. Cloud infrastructure and security are the fastest-growing parts, as Azure's 48% growth and Palo Alto's 63% next-generation security ARR growth show [1][7].",
+      "Systems software sits between hardware and applications. It runs on chips, servers and storage made by other sub-industries, increasingly inside cloud data centres, and application software and companies' own systems run on top of it. Channel partners, consultants and IT services firms help sell, install and manage it.",
+      "The industry moved from mainframe software and packaged licences, through client-server computing and enterprise databases in the 1990s, to subscription software and public cloud from the 2010s. Security grew from antivirus into a broad platform as attacks multiplied. AI is the next shift, raising demand for cloud capacity and data platforms [1][10].",
+      "Sales are global but led by the U.S., which is also home to most large vendors. Europe is the second big market, and Israel is a major centre for security firms such as Check Point. China largely uses domestic alternatives. Development is spread across the U.S., India, Israel and Eastern Europe."
+    ],
+    "competition": [
+      "In each segment a handful of large players compete with many smaller specialists. Cloud infrastructure has three hyperscalers plus Oracle; PC operating systems are dominated by Windows, with Apple and open-source Linux; databases have a few large vendors plus open source; security has about a dozen sizeable platforms and hundreds of start-ups.",
+      "Microsoft is the largest, with Windows, Microsoft 365, Azure, SQL Server and a large security business; Azure alone had $33.2 billion of revenue in a quarter [1]. Oracle leads enterprise databases and is growing cloud infrastructure fast [10]. In security, Palo Alto Networks, Fortinet, CrowdStrike and Check Point lead [7][8]. We found no sourced market-share table.",
+      "Consolidated at the top, fragmented in the long tail. A few platforms take most of the profit while hundreds of venture-backed firms compete in niches. The large firms often buy the successful ones, which keeps consolidating the industry, especially in security.",
+      "High for core platforms: decades of code, customer trust, certifications, ecosystems of partners and developers, and, in cloud, tens of billions of dollars of data centres [10]. Barriers are lower in niche tools, where a good product can win quickly, though selling to large enterprises takes scale.",
+      "Very large. Writing software is costly but an extra copy costs almost nothing, so gross margins are high, 71.72% for U.S. system and application software in January 2026 [12], and bigger vendors spread R&D and sales costs over more customers. In cloud, scale lowers the cost of buying chips, power and buildings.",
+      "Mostly differentiated, especially where switching costs are high. Basic cloud computing and storage are closer to commodities, sold partly on price, and open-source software caps what vendors can charge for some products. Security buyers are moving toward fewer, broader platforms, which rewards differentiation [7].",
+      "Vendors usually hold more power once installed, because switching is hard; large enterprises negotiate discounts but rarely leave. Supplier power is rising for cloud vendors, who depend on scarce GPUs and memory from a few chipmakers, and Gartner says hardware inflation will persist through 2027 [5]."
+    ],
+    "drivers": [
+      "Enterprise IT budgets, workloads moving to the cloud and AI, more users and devices, price increases and selling new products to existing customers. Security spending grows with the threat level. In 2026 AI is the biggest swing factor, visible in Azure's 48% growth [1] and Oracle's backlog [10].",
+      "Gross margin depends on the mix between pure software, which is very profitable, and cloud infrastructure, which carries data-centre costs. Operating margin depends on how fast a company spends on sales and R&D to grow. Mature leaders reach close to 40% non-GAAP operating margins, as Fortinet's 38.2% shows [8].",
+      "Engineers' and salespeople's pay, including stock; data-centre depreciation; chips and power for cloud and AI; the cost of winning customers; and acquisitions. For AI-heavy vendors, GPU and memory prices and access to power are now key [5].",
+      "Moderate on operations, high on valuation. Most software firms have little debt [17], but their value rests on cash flows far in the future, so higher long-term rates lower share prices. Rates also affect customers' budgets and the cost of financing AI data centres [4][10].",
+      "Moderate. Subscriptions and switching costs keep revenue stable in mild downturns, but new deals and seat growth slow when unemployment rises, because many products are priced per employee. Inflation helps where price increases stick. Commodity exposure is limited to power and hardware costs for cloud vendors [5].",
+      "Secular growth with mild cyclicality. Revenue rarely falls, and U.S. system and application software firms grew it 19.56% a year over five years [19], but growth rates and valuations swing with IT budgets and interest rates. Security is close to defensive; cloud infrastructure is more tied to capex cycles."
+    ],
+    "financials": [
+      "Fast. Damodaran's data show five-year compound growth of 19.56% in revenue and 29.81% in net income for U.S. system and application software firms to January 2026 [19]. FactSet's Software industry, which also includes application software, posted 19% revenue growth and 17% earnings growth in Q3 2026 [2].",
+      "Gross margins averaged 71.72% and pre-tax operating margins 32.98% for U.S. system and application software firms, against 37.76% and 12.82% for the whole market [12]. Leaders run higher: Microsoft's fiscal 2026 operating margin was about 46.8% [6]. Stock-based pay of 7.83% of sales is left out of many adjusted margins [12].",
+      "High. Damodaran shows an unadjusted ROE of 29.62% for U.S. system and application software firms, against 17.21% for the total market; treating R&D as an investment lowers it to 20.21% [16]. Buybacks that shrink book equity also flatter ROE. We found no sourced sub-industry ROIC.",
+      "Low to moderate. Market debt is about 5% of capital for the group, against about 26% for the market [17]. Some leaders borrow for acquisitions or data centres, and Oracle's spending now outruns its operating cash flow [10], but many security firms hold net cash.",
+      "Usually strong, because customers pay upfront and capex is low: Fortinet's free-cash-flow margin was 41.6% in Q3 2026 [8] and Palo Alto's adjusted free-cash-flow margin 38.4% for fiscal 2026 [7]. Cloud builders are the exception: Oracle's free cash flow was negative $5 billion in a quarter as it built capacity [10].",
+      "Low for pure software, very high for cloud builders. Across U.S. system and application software, net capex was 17.82% of sales and capex was about 2.4 times depreciation [18], figures driven by the big cloud platforms. Security and tools vendors spend far less.",
+      "Above the market. U.S. system and application software traded at 24.48 times EV/EBITDA for firms with positive EBITDA in January 2026, against 19.73 times for the total market [13]. Fast-growing firms are often valued on revenue multiples or the Rule of 40, because their earnings are still small."
+    ],
+    "risks": [
+      "AI regulation, including the EU AI Act, whose high-risk deadlines have been provisionally delayed [14]; data-protection and data-residency rules; cybersecurity disclosure requirements; and competition cases against bundling by large platforms. Government purchasing rules, such as security certifications, can open or close large markets.",
+      "AI is both the biggest opportunity and the biggest risk. It drives demand for cloud, databases and security, but AI agents could reduce the number of software seats customers need, and AI coding tools lower the cost of building rival products. The early-2026 software sell-off reflected this fear [3].",
+      "Limited. Ageing workforces and shortages of IT and security staff push companies to automate, which helps software vendors. A shrinking working-age population in some countries could eventually cap growth in products priced per user.",
+      "This is mostly a business market, so consumer behaviour matters mainly at Microsoft. More important is how business buyers are changing: they are consolidating vendors, preferring platforms to single products, and pushing for usage-based pricing that ties cost to value [3].",
+      "AI model companies are moving into software and infrastructure; hyperscalers bundle security and data tools into their clouds; and open-source projects compete with paid databases and operating systems. Business models are shifting from per-seat pricing toward consumption and outcome-based pricing.",
+      "Data-sovereignty rules in Europe and elsewhere favour local or locally hosted providers. U.S.-China tensions limit sales in China and constrain chip supply for AI data centres. State-sponsored cyberattacks raise demand for security, but also raise the stakes of a breach at a vendor.",
+      "Open-source software, in-house tools built with AI, and features bundled free inside larger platforms, for example security included with an operating system or a cloud. For cloud infrastructure, customers can run their own data centres, though few are moving that way."
+    ],
+    "horizon": {
+      "opportunities": [
+        "AI workloads should keep lifting demand for cloud infrastructure, databases and data platforms, as Azure's 48% growth shows [1].",
+        "Rising attacks and regulation keep security a top budget priority, and platform consolidation favours the largest vendors [7][8].",
+        "Huge contracted backlogs, such as Oracle's $664 billion, give unusual revenue visibility if they convert [10]."
+      ],
+      "threats": [
+        "AI agents and AI-built tools could shrink seat counts and lower barriers to entry [3].",
+        "Financing and capacity strains could slow AI data-centre build-outs and backlog conversion; Oracle's free cash flow is already negative [10].",
+        "Higher-for-longer interest rates would weigh on the valuations of long-duration software stocks [4]."
+      ],
+      "assessment": "We think systems software is better placed for AI than application software, because AI needs infrastructure, data and security whoever writes the applications. Over 3 to 5 years the leaders should keep growing faster than the economy, but the business is becoming more capital-intensive, which lowers free-cash-flow conversion and raises financial risk for the cloud builders [10][18]. The main open question is whether AI reduces the number of paying users faster than it creates new spending."
+    }
+  },
   "sections": [
     {
       "id": "macro",
@@ -354,6 +419,34 @@
       "publisher": "24/7 Wall St.",
       "date": "2026-09-07",
       "url": "https://247wallst.com/investing/etf/2026/09/07/investors-pulled-700-million-from-igv-hours-before-snowflake-reignited-software/"
+    },
+    {
+      "n": 16,
+      "title": "Return on equity by industry (US), January 2026",
+      "publisher": "Aswath Damodaran, NYU Stern",
+      "date": "2026-01",
+      "url": "https://pages.stern.nyu.edu/~adamodar/New_Home_Page/datafile/roe.html"
+    },
+    {
+      "n": 17,
+      "title": "Debt ratios and fundamentals by industry (US), January 2026",
+      "publisher": "Aswath Damodaran, NYU Stern",
+      "date": "2026-01",
+      "url": "https://pages.stern.nyu.edu/~adamodar/New_Home_Page/datafile/dbtfund.html"
+    },
+    {
+      "n": 18,
+      "title": "Capital expenditures by industry (US), January 2026",
+      "publisher": "Aswath Damodaran, NYU Stern",
+      "date": "2026-01",
+      "url": "https://pages.stern.nyu.edu/~adamodar/New_Home_Page/datafile/capex.html"
+    },
+    {
+      "n": 19,
+      "title": "Historical and expected growth by industry (US), January 2026",
+      "publisher": "Aswath Damodaran, NYU Stern",
+      "date": "2026-01",
+      "url": "https://pages.stern.nyu.edu/~adamodar/New_Home_Page/datafile/histgr.html"
     }
   ]
 }

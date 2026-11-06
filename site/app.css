@@ -226,3 +226,17 @@ h2{font:700 20px/1.2 var(--f-display);margin:0;text-wrap:balance}
 .bdl dd{margin:2px 0 0}
 .bdl dd small{display:block;color:var(--muted);font-size:12.5px;margin-top:2px}
 .bterms .bdl{columns:2 300px;column-gap:28px}
+.fqintro{margin:-4px 0 10px;font-size:14px}
+.fqlede{color:var(--muted);font-size:14px;margin:0 0 10px!important}
+.fq{margin:0 0 8px}
+.fq>div{padding:10px 0;border-top:1px solid var(--line)}
+.fq>div:first-child{border-top:0;padding-top:0}
+.fq dt{font-weight:600;font-size:14.5px;margin-bottom:3px}
+.fq dd{margin:0;line-height:1.6}
+.horizon{margin:8px 0 12px;padding:14px 16px;border:1px solid var(--line);border-radius:10px;background:var(--soft)}
+.horizon h4{font:500 11.5px var(--f-mono);text-transform:uppercase;letter-spacing:.08em;color:var(--muted);margin:0 0 6px}
+.horizon .hzt{font:700 16px/1.2 var(--f-display);text-transform:none;letter-spacing:0;color:inherit;margin-bottom:10px}
+.hzgrid{display:grid;grid-template-columns:repeat(auto-fit,minmax(min(100%,240px),1fr));gap:12px 20px;margin-bottom:10px}
+.hz ul{margin:0;padding-left:18px;display:flex;flex-direction:column;gap:6px}
+.horizon>p{margin:0}
+.fwlist+.sec-head{margin-top:22px}

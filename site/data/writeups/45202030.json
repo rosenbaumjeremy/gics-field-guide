@@ -185,6 +185,71 @@
       }
     ]
   },
+  "fundamentals": {
+    "business": [
+      "Most revenue is one-off device sales: phones, PCs, servers, storage drives and arrays, and printers. Recurring streams come from services attached to devices (Apple's Services revenue was a record $31.6 billion in one quarter [1]), printer ink and toner, warranties and support contracts, and storage subscriptions.",
+      "Consumers buy most phones, many PCs and printers, through carriers, retailers and online stores. Businesses and governments buy PCs, servers and storage, often through resellers. Cloud and AI companies are now the biggest buyers of servers and high-capacity drives [4][7].",
+      "Components dominate: cost of goods sold averaged 61.64% of sales for U.S. computer and peripheral firms in January 2026 [13], and memory and processors are the largest items. Then come contract assembly, logistics, tariffs, R&D at 7.08% of sales [13], and marketing.",
+      "Brand, ecosystem and technology. Apple's combination of hardware, software and services lets it charge premium prices, with a 47.9% gross margin [1], and the hard-drive duopoly has pricing power when supply is tight [6][7]. Makers of standard PCs, Android phones and servers have little, so they must pass on component costs or absorb them [5].",
+      "Assets are inventory, receivables from carriers and resellers, brands, patents and, for drive makers, factories. Many are asset-light because contract manufacturers own the assembly plants. Liabilities are mainly payables to suppliers, which fund working capital, and debt used for buybacks or acquisitions; Seagate repaid about $1.2 billion of debt in one quarter [6].",
+      "Mostly asset-light. Net capex was 2.90% of sales across U.S. computer and peripheral firms, and sales were 3.62 times invested capital, high turnover by any standard [16]. Drive makers, which run their own factories, are the more capital-intensive part."
+    ],
+    "overview": [
+      "We found no sourced total market size for this sub-industry. Shipments give the scale: IDC counted 255.3 million smartphones and 62.7 million PCs in Q3 2026, each down about a fifth [3][2]. U.S. computer and peripheral firms grew revenue 6.71% a year over five years [18]: a mature industry with a fast-growing server niche.",
+      "Smartphones and tablets; PCs and workstations; servers, now split between traditional and AI servers; storage (hard drives, flash and storage systems); printers and imaging; and wearables and accessories. Smartphones are the largest by revenue, led by Apple, and AI servers are the fastest growing [1][4].",
+      "Hardware makers sit between component suppliers (chips, memory, displays, drives) and buyers. Most rely on contract manufacturers in Asia for assembly. Downstream they sell through carriers, retailers, distributors and resellers, or directly to large customers. Operating systems and apps from other sub-industries make the devices useful.",
+      "The industry grew from mainframes and minicomputers to PCs in the 1980s and 1990s, then to smartphones after 2007, which made Apple the dominant profit pool. PC and phone markets have matured, with long replacement cycles. Cloud computing moved server buying to a few big customers, and AI is now making servers the growth engine again [4].",
+      "Design and brands are concentrated in the U.S., China, South Korea and Taiwan. Assembly is concentrated in China, with growing shares in India, Vietnam and Mexico. Sales are global, and Chinese brands Xiaomi, OPPO and vivo rank third to fifth in smartphones worldwide [3]."
+    ],
+    "competition": [
+      "Few in each product. Smartphones and PCs each have about five global brands with most of the market; high-capacity hard drives effectively have two; servers have several big names plus Asian makers selling directly to cloud companies; printers have a handful [2][3][11].",
+      "Apple is the largest company here. Samsung (22.6%) and Apple (22.4%) lead smartphones [3]; Lenovo (23.8%), HP (16.5%) and Dell (12.1%) lead PCs [2]; Dell, Super Micro and Hewlett Packard Enterprise are big in servers [4]; Seagate and Western Digital dominate hard drives [11]; and HP leads printers.",
+      "Consolidated. Decades of exits and mergers (IBM sold its PC business to Lenovo, and Hitachi's drive business went to Western Digital) have left a few leaders in each product. The top five brands hold most of the PC and smartphone markets [2][3].",
+      "High at scale: brands, distribution, supplier relationships and the volume needed to win good component prices take years to build, and hard-drive technology needs deep engineering know-how [6]. Barriers are lower in assembling standard servers or PCs, which is why Asian makers compete there on price.",
+      "Important. Bigger makers buy components more cheaply, get priority in shortages, and spread R&D and marketing over more units. The 2026 memory squeeze shows it: IDC said smaller smartphone brands fell further than Samsung and Apple [3].",
+      "Mixed. Standard PCs, Android phones and servers are close to commodities with thin margins; HP's PC business earned 4.6% [5]. Apple's devices and high-capacity drives are differentiated and earn far more [1][6].",
+      "In 2026, suppliers: a few memory makers control a scarce input whose cost IDC says is up about 350% for phones [3]. Large buyers such as cloud companies have strong power over server makers, which in our view is one reason AI servers earn thin margins. Apple holds unusual power over its own suppliers because of its volume."
+    ],
+    "drivers": [
+      "Replacement cycles, new features such as AI on devices, consumer and corporate budgets, and the data-centre build-out for servers and storage. Price and mix matter as much as units: Apple's revenue rose 12% in a quarter while global smartphone shipments fell 22% [1][3].",
+      "Component costs relative to selling prices, product mix between premium and entry-level, services and supplies revenue, and scale. The average pre-tax operating margin was 22.48% for U.S. computer and peripheral firms in January 2026 [13], an average lifted by Apple; PC makers earn single digits [5].",
+      "Memory (DRAM and NAND), processors, displays, contract assembly, freight, tariffs and currency. In 2026 memory is the dominant swing cost [3][8].",
+      "Moderate. Consumer devices are partly financed through carriers and credit, and corporate IT budgets react to the cost of capital, but most of these firms carry little debt relative to their market value [15]. The larger effect is indirect, through consumer spending and valuations.",
+      "Sensitive to employment and consumer confidence, because phones and PCs are purchases that can be delayed; IDC says a weaker economy could cut PC demand further [2]. Component inflation is the main commodity exposure. A strong dollar lowers reported sales, because much revenue is earned abroad.",
+      "Cyclical and mature for consumer devices, with secular growth in servers and data-centre storage. U.S. computer and peripheral firms grew revenue 6.71% a year over five years, against 12.77% for the market [18]. Apple's services add a steadier, more defensive element."
+    ],
+    "financials": [
+      "Modest. Revenue grew 6.71% a year and net income 14.01% a year over the five years to January 2026 for U.S. computer and peripheral firms, and analysts expected 25.42% annual EPS growth over the next five years [18], driven by AI servers and storage.",
+      "The average gross margin was 38.36% and pre-tax operating margin 22.48% in January 2026 [13]. The spread is wide: Apple's gross margin was 47.9% [1], the drive makers' operating margins are near 50% [6][7], and HP's PC business earned 4.6% [5].",
+      "Damodaran's unadjusted ROE for the group is -0.17%, which we read as distorted by firms with tiny or negative book equity after years of buybacks; adjusted for R&D it is 48.43% [14]. Asset-light leaders such as Apple earn very high returns on the little capital they use, but we found no sourced sub-industry ROIC.",
+      "Low against market value: market debt is under 5% of capital [15]. Book debt is high relative to book capital, at 61.31% [15], because buybacks have shrunk equity. The drive makers carry more debt and are paying it down [6].",
+      "Generally strong, because capex is low and suppliers fund working capital. Seagate generated $1.48 billion of free cash flow in one quarter on $211 million of capex [6], and Western Digital $1.38 billion [7]. Apple returned $28 billion to shareholders in one quarter [1].",
+      "Low: net capex was 2.90% of sales, and capex was 119.84% of depreciation across the group [16]. Assembly is outsourced, so most capital goes into tooling, data centres for services and, at the drive makers, factories.",
+      "In January 2026 the group traded at a forward P/E of 36.15 [10] and at 25.42 times EV/EBITDA, against 19.73 times for the market [17]. Those averages are lifted by Apple and the storage rally, and single names vary widely: Seagate traded on a forward P/E of 25 in October [11]."
+    ],
+    "risks": [
+      "Tariffs and trade rules are the main lever, as recent tariff refunds at Apple and HP show [1][5]. Right-to-repair laws, app-store and competition rules (which touch Apple's services), e-waste and energy-efficiency standards, and privacy rules also matter.",
+      "AI features on phones and PCs could revive replacement cycles, and AI data centres drive demand for servers and storage. The risks are flash storage replacing hard drives in more uses, AI moving work to the cloud so that devices matter less, and new device types reshuffling the leaders.",
+      "Limited but real. Saturated markets in rich, ageing countries mean growth must come from replacement and premium upgrades, while younger emerging markets such as India still add many new users.",
+      "People keep phones and PCs longer, which lowers unit demand, but they are buying more premium devices and paying for services, which lifts revenue per user [1]. Printing continues a long decline as documents go digital.",
+      "Chinese brands compete on price in phones and PCs, Asian contract makers sell servers directly to cloud companies, and hyperscalers design their own servers. Subscription models, sometimes called hardware as a service, could change how businesses buy PCs.",
+      "The industry depends heavily on assembly in China and on chips and memory from Taiwan and South Korea. Tariffs, export controls and tensions around Taiwan could disrupt supply or raise costs. Shifting production to India and Vietnam is under way but slow.",
+      "Smartphones have already absorbed cameras, music players and many PC tasks. Cloud storage substitutes for local drives, and flash substitutes for hard drives in faster tiers. Smart glasses and other wearables could one day take over some phone use."
+    ],
+    "horizon": {
+      "opportunities": [
+        "AI servers and data-centre storage keep growing, with Dell's $95 billion AI server backlog and rising exabyte demand for drives [4][7].",
+        "AI features on devices could shorten replacement cycles after a weak 2026 for phones and PCs.",
+        "Services and other recurring revenue raise profit per device, led by Apple's record Services revenue [1]."
+      ],
+      "threats": [
+        "Memory shortages could keep squeezing device demand and margins into 2027 and beyond [3][8].",
+        "Tariffs and supply-chain disruption, especially around China and Taiwan, could raise costs [1].",
+        "AI servers earn thin margins, and storage pricing could reverse from today's peak [6][11]."
+      ],
+      "assessment": "This sub-industry is really two businesses. Consumer devices are mature, and over 3 to 5 years their growth depends on whether AI features revive upgrades and memory costs ease; IDC does not expect a smartphone recovery before 2028 [3]. Data-centre hardware is growing fast, but with thin margins in servers and cyclical pricing in storage. Apple's ecosystem and services make it the steadiest earner. Our view is that the biggest risk is assuming today's peak storage margins and AI server growth will last a full cycle."
+    }
+  },
   "sections": [
     {
       "id": "macro",
@@ -327,6 +392,48 @@
       "publisher": "Sentisense",
       "date": "2026-08-11",
       "url": "https://app.sentisense.ai/stories/super-micro-computer-beats-q4-earnings-expectations-guides-higher-for-fy27-08112026"
+    },
+    {
+      "n": 13,
+      "title": "Margins by sector (US), January 2026",
+      "publisher": "Aswath Damodaran, NYU Stern",
+      "date": "2026-01",
+      "url": "https://pages.stern.nyu.edu/~adamodar/New_Home_Page/datafile/margin.html"
+    },
+    {
+      "n": 14,
+      "title": "Return on equity by industry (US), January 2026",
+      "publisher": "Aswath Damodaran, NYU Stern",
+      "date": "2026-01",
+      "url": "https://pages.stern.nyu.edu/~adamodar/New_Home_Page/datafile/roe.html"
+    },
+    {
+      "n": 15,
+      "title": "Debt ratios and fundamentals by industry (US), January 2026",
+      "publisher": "Aswath Damodaran, NYU Stern",
+      "date": "2026-01",
+      "url": "https://pages.stern.nyu.edu/~adamodar/New_Home_Page/datafile/dbtfund.html"
+    },
+    {
+      "n": 16,
+      "title": "Capital expenditures by industry (US), January 2026",
+      "publisher": "Aswath Damodaran, NYU Stern",
+      "date": "2026-01",
+      "url": "https://pages.stern.nyu.edu/~adamodar/New_Home_Page/datafile/capex.html"
+    },
+    {
+      "n": 17,
+      "title": "EV/EBITDA multiples by sector (US), January 2026",
+      "publisher": "Aswath Damodaran, NYU Stern",
+      "date": "2026-01",
+      "url": "https://pages.stern.nyu.edu/~adamodar/New_Home_Page/datafile/vebitda.html"
+    },
+    {
+      "n": 18,
+      "title": "Historical and expected growth by industry (US), January 2026",
+      "publisher": "Aswath Damodaran, NYU Stern",
+      "date": "2026-01",
+      "url": "https://pages.stern.nyu.edu/~adamodar/New_Home_Page/datafile/histgr.html"
     }
   ]
 }

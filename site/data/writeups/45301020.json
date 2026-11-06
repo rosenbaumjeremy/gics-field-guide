@@ -196,6 +196,71 @@
       }
     ]
   },
+  "fundamentals": {
+    "business": [
+      "Revenue comes mainly from selling chips by the unit: AI accelerators and processors, memory, analog and power chips, networking chips and microcontrollers. Some firms add software, licensing and complete systems, as Nvidia does with AI server racks and networking. Solar makers sell modules by the watt. Earnings swing most with volume and, in memory, with price [4].",
+      "Customers are other manufacturers, not consumers: cloud and AI companies buying accelerators and memory for data centres, PC and phone makers, carmakers and their suppliers, industrial equipment makers, and distributors that resell to thousands of smaller buyers. Concentration varies: AI chip vendors depend on a few hyperscalers, while analog makers such as Texas Instruments sell to a very broad base.",
+      "Research and development is the largest controllable cost, at 15.36% of sales for U.S. chip firms in Damodaran's January 2026 data [19]. Manufacturers carry heavy fixed costs in fabs (depreciation, power, chemicals, staff), while fabless designers pay foundries per wafer and buy packaging and test services. For AI accelerators, HBM memory is now a major input cost [3].",
+      "Pricing power comes from performance rivals can't match, a software ecosystem customers have built on (Nvidia's CUDA is the classic case), long design cycles that lock a chip into a product for years, and tight supply. Memory has the least, because prices follow the supply-demand balance, which is why Micron could push through significant HBM price increases in a shortage [4].",
+      "Manufacturers' main assets are fabs and equipment, plus inventory, which can be written down in a downturn. Fabless firms' main assets are intellectual property, engineering teams and often large goodwill from acquisitions, as at Broadcom. Liabilities are usually modest: market debt is only about 2.5% of capital for U.S. chip firms [15]. Customer prepayments and supply agreements can be large in shortages.",
+      "It depends on the model. Integrated manufacturers and memory makers are among the most capital-intensive businesses anywhere: Micron planned about $25 billion of capex in half a year [4]. Fabless firms are asset-light: Broadcom spent about $0.5 billion of capex on $29.6 billion of revenue [5]. Across U.S. chip firms net capex was 4.41% of sales [16], an average that hides the split."
+    ],
+    "overview": [
+      "WSTS figures imply a 2026 global chip market of about $1,655 billion, roughly double the year before [2]. That follows a long period of far slower growth: U.S. chip firms grew revenue at 11.18% a year over the five years to January 2026 [18]. The 2026 jump is mostly memory prices and AI accelerators, so we would not extrapolate it.",
+      "WSTS splits the market into logic (processors, accelerators, custom chips), memory (DRAM and NAND), analog, microcontrollers and microprocessors, discretes, sensors and optoelectronics. Logic and memory are the largest, and memory is the most volatile: it grew about 305% year on year in the first half of 2026 [2]. Solar modules are a separate market that GICS happens to place here.",
+      "Chips sit in the middle of the electronics chain. Upstream are chip-design software and IP vendors, equipment makers such as ASML and Applied Materials, and suppliers of wafers, gases and chemicals. Then come chip designers, foundries, and packaging and test houses. Downstream, chips go into servers, phones, PCs, cars and machines built by companies in other sub-industries.",
+      "The industry began with integrated firms that designed and made their own chips. From the late 1980s the foundry model, led by TSMC, let fabless designers such as Nvidia, Qualcomm and Broadcom compete without fabs, and leading-edge manufacturing narrowed to a few firms as each new node grew costlier. Demand moved from PCs to phones, then to cloud data centres, and now to AI.",
+      "Design is concentrated in the U.S., home to most of the largest designers. Manufacturing is concentrated in Asia: leading-edge logic largely in Taiwan, memory in South Korea, plus Japan and China, with assembly and test across Southeast Asia. In 2026 sales growth has been strongest in the Americas, up 191.7% year on year in September, reflecting AI data-centre buying [1]."
+    ],
+    "competition": [
+      "Few in each segment. Leading-edge foundry has one dominant player plus Samsung and Intel; DRAM has three main producers; AI accelerators are led by Nvidia, followed by AMD and custom chips designed with partners such as Broadcom. Analog, power and microcontrollers are wider, each with perhaps a dozen sizeable firms.",
+      "Nvidia leads AI accelerators, with data-centre revenue of $89.0 billion in one quarter [3]. Broadcom leads custom AI chips and networking, with AI revenue of $16.7 billion in a quarter [5]. AMD is strong in server CPUs and is the second GPU supplier [6]. Samsung, SK Hynix and Micron lead memory, Texas Instruments and Analog Devices lead analog, and TSMC leads foundry. We found no sourced market-share table.",
+      "Consolidated at the top and getting more so. Decades of mergers (Broadcom itself is the product of several large ones) and rising costs at each node have left a few winners in most segments. Analog and microcontrollers remain moderately fragmented, with many niche products.",
+      "Very high. A leading-edge fab costs many billions of dollars and takes years to build. A leading chip design needs large R&D budgets, scarce engineers, patents and, for processors, a software ecosystem. Micron's roughly $25 billion half-year capex shows the scale even for an incumbent [4]. In cars and industry, qualification takes years before a newcomer earns revenue.",
+      "Large. R&D and fab costs are mostly fixed, so the firm that sells the most units of a design, or runs its fab fullest, has the lowest cost per chip and can fund the next generation. That is why profits concentrate in the leader of each segment, and why operating leverage is high: AMD's revenue rose 45% in Q3 2026 at a 56% non-GAAP gross margin [6].",
+      "Both. Memory, discretes and older-node chips are close to commodities, sold on price and specification. Leading AI accelerators, high-end processors and many analog parts are highly differentiated, which shows in gross margins: Nvidia guided about 74% [3], against an average of 58.97% for U.S. chip firms in January 2026 [19].",
+      "It depends where you stand. Key suppliers hold power over chip designers, since there are few alternatives to TSMC at the leading edge or to ASML's lithography tools. In AI, a handful of hyperscale buyers have growing power and are designing their own chips to gain more. In today's shortage sellers have the upper hand, as Micron's committed 2027 supply and higher HBM prices show [4]."
+    ],
+    "drivers": [
+      "Unit demand in the end markets (data centres, phones, PCs, cars, industry), chip content per device, which rises as products get smarter, and pricing, especially in memory. In 2026 AI data-centre spending is the dominant driver: Nvidia's preliminary outlook for fiscal 2028 is about 70% growth [3].",
+      "Product mix and differentiation, fab utilisation for manufacturers (fixed costs spread over more or fewer wafers), memory prices, and yields on new processes. Pre-tax operating margins averaged 35.33% for U.S. chip firms in January 2026 [19], but they swing widely through the cycle.",
+      "Research and development (about 15% of sales [19]), wafer prices charged by foundries, fab depreciation, HBM and other memory bought for accelerators, packaging and substrates, energy, and engineers' pay, much of it in stock.",
+      "Low on the business, high on the shares. Most chip firms carry little debt [15], so higher rates barely raise their costs. But customers' capital budgets, consumer credit for devices and the valuation of fast-growing chip stocks are all rate-sensitive, and fab-building plans depend on the cost of capital and subsidies.",
+      "Sensitive to GDP and jobs through consumer electronics, cars and industrial equipment, which still drive analog, microcontroller and much memory demand. Inflation raises wafer, energy and labour costs, though strong pricing has usually offset it. Commodity exposure is limited to energy, metals and specialty gases. In 2026 AI spending has swamped all of these [1].",
+      "Cyclical around a secular-growth trend. Revenue has historically fallen sharply every few years on inventory gluts and then recovered, around a long-run line driven by digitisation; U.S. chip firms grew revenue 11.18% a year over five years [18]. AI has added a strong secular leg, but memory and older-node segments remain deeply cyclical."
+    ],
+    "financials": [
+      "Over the five years to January 2026, U.S. chip firms grew revenue and net income at about 11% a year (11.18% and 11.19%), and analysts expected 22.88% annual EPS growth over the next five years [18]. 2026 results have run far ahead of that, with Nvidia's revenue up 106% and Micron at record revenue [3][4].",
+      "Gross margins averaged 58.97% and pre-tax operating margins 35.33% for 66 U.S. chip firms in January 2026, against 37.76% and 12.82% for the whole market [19]. Leaders run higher: Texas Instruments earned about a 64.2% gross margin and a 47.5% operating margin in Q3 2026 [13].",
+      "Very high. Damodaran shows an unadjusted ROE of 31.36% [14] and a return on capital of 41.83% [9] for U.S. chip firms, against an ROE of 17.21% for the total market [14]. Treating R&D as an investment lowers the ROE to 22.33% [14], still well above average.",
+      "Low. Market debt is only about 2.5% of capital for U.S. chip firms, against about 26% for the market as a whole [15]. Debt on balance sheets mostly comes from acquisitions, as at Broadcom, or from building fabs, as at Intel and Micron; many fabless designers hold net cash.",
+      "Strong for fabless and analog leaders. Broadcom turned 46% of revenue into free cash flow in its latest quarter [5], and Texas Instruments generated $8.4 billion over twelve months after $2.6 billion of capex [13]. Memory makers' free cash flow swings from large to thin across the cycle because their capex stays high.",
+      "Across U.S. chip firms net capex was 4.41% of sales and capex ran at 126.73% of depreciation, so the asset base is growing [16]. That average blends asset-light designers with manufacturers that spend far more heavily, such as Micron [4].",
+      "At a premium. Firms with positive EBITDA traded at 34.75 times EV/EBITDA in January 2026, against 19.73 times for the total market [17]. The iShares Semiconductor ETF showed a P/E of 42.73 on 4 November 2026, basis not stated [10]. Multiples look high on peak-cycle earnings and are best judged across a full cycle."
+    ],
+    "risks": [
+      "Export controls matter most: U.S. rules decide which accelerators can be sold to China and on what conditions [11], and Nvidia's guidance assumes no China data-centre revenue [3]. Subsidies such as the U.S. CHIPS Act and similar European and Asian programmes, tariffs, and for solar the Section 232 action and tax credits [8] also reshape where and how profitably chips are made.",
+      "AI is mostly an opportunity, as the main source of demand growth. The risks are architectural: customers' own custom chips could take share from merchant GPUs, new memory or packaging technologies could reshuffle the leaders, and the end of easy transistor scaling raises the cost of each new node. A leader that misses a product generation can lose share fast.",
+      "They barely matter directly. Ageing populations and a growing middle class in emerging markets shift which electronics get bought, such as medical devices and phones. The bigger demographic issue is on the supply side: a shortage of skilled engineers and fab technicians in the U.S. and Europe could slow new fabs.",
+      "It matters through device cycles. Consumers keeping phones and PCs longer reduces demand for those chips, while AI features could shorten replacement cycles again. The electrification of cars raises chip content per vehicle, a steady tailwind for analog and power chipmakers.",
+      "The largest new competitors are the customers: cloud giants designing their own AI chips, usually with partners such as Broadcom [5]. State-backed Chinese chipmakers are building capacity in older nodes, which could pressure prices in commoditised segments. Open instruction sets such as RISC-V lower the barrier for new processor designers.",
+      "The concentration of leading-edge manufacturing in Taiwan is the industry's largest single tail risk: a blockade or conflict would disrupt supply worldwide. U.S.-China tensions affect sales, access to equipment and materials such as gallium and germanium, where China has restricted exports. Companies are spending to diversify their fabs, at higher cost.",
+      "There is no substitute for semiconductors themselves; the competition is between chip types. Custom accelerators substitute for GPUs, new memory types for DRAM or NAND, and photonics for some electrical links. In solar, crystalline-silicon modules compete with First Solar's thin film, and perovskite cells may in future [12]."
+    ],
+    "horizon": {
+      "opportunities": [
+        "The AI data-centre build-out keeps lifting demand for accelerators, networking and HBM, and Nvidia already calls its next-year outlook supply-constrained [3].",
+        "Electrification and automation raise chip content in cars, factories and the power grid, a steadier source of growth for analog and power chips [13].",
+        "Re-shoring subsidies and customers' demand for secure supply could fund new fabs outside Asia and lock in long-term contracts."
+      ],
+      "threats": [
+        "A pause in hyperscaler spending would hit memory and AI accelerators first, from margins that look like cyclical peaks [4].",
+        "Tighter export controls or a Taiwan crisis could cut off markets or supply almost overnight [11].",
+        "Customers' in-house chips and new Chinese capacity in older nodes could erode pricing power outside the leaders."
+      ],
+      "assessment": "Our view is that AI has added a genuine secular leg to an industry that remains cyclical. Over 3 to 5 years the winners are likely to be the few firms that control leading-edge designs, software ecosystems or scarce capacity, while memory and commoditised segments go through the usual boom and bust. The 2026 surge, which WSTS figures put at roughly double the prior year's revenue [2], sets a very high base. The key question is whether AI spending keeps compounding or pauses to digest, and the biggest threats are policy and geopolitics rather than end demand."
+    }
+  },
   "sections": [
     {
       "id": "macro",
@@ -352,6 +417,48 @@
       "publisher": "SEC EDGAR",
       "date": "2026-10-21",
       "url": "https://www.sec.gov/Archives/edgar/data/0000097476/000009747626000165/q32026txnex99-eredgar.htm"
+    },
+    {
+      "n": 14,
+      "title": "Return on equity by industry (US), January 2026",
+      "publisher": "Aswath Damodaran, NYU Stern",
+      "date": "2026-01",
+      "url": "https://pages.stern.nyu.edu/~adamodar/New_Home_Page/datafile/roe.html"
+    },
+    {
+      "n": 15,
+      "title": "Debt ratios and fundamentals by industry (US), January 2026",
+      "publisher": "Aswath Damodaran, NYU Stern",
+      "date": "2026-01",
+      "url": "https://pages.stern.nyu.edu/~adamodar/New_Home_Page/datafile/dbtfund.html"
+    },
+    {
+      "n": 16,
+      "title": "Capital expenditures by industry (US), January 2026",
+      "publisher": "Aswath Damodaran, NYU Stern",
+      "date": "2026-01",
+      "url": "https://pages.stern.nyu.edu/~adamodar/New_Home_Page/datafile/capex.html"
+    },
+    {
+      "n": 17,
+      "title": "EV/EBITDA multiples by sector (US), January 2026",
+      "publisher": "Aswath Damodaran, NYU Stern",
+      "date": "2026-01",
+      "url": "https://pages.stern.nyu.edu/~adamodar/New_Home_Page/datafile/vebitda.html"
+    },
+    {
+      "n": 18,
+      "title": "Historical and expected growth by industry (US), January 2026",
+      "publisher": "Aswath Damodaran, NYU Stern",
+      "date": "2026-01",
+      "url": "https://pages.stern.nyu.edu/~adamodar/New_Home_Page/datafile/histgr.html"
+    },
+    {
+      "n": 19,
+      "title": "Margins by sector (US), January 2026",
+      "publisher": "Aswath Damodaran, NYU Stern",
+      "date": "2026-01",
+      "url": "https://pages.stern.nyu.edu/~adamodar/New_Home_Page/datafile/margin.html"
     }
   ]
 }

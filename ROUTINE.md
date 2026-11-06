@@ -25,7 +25,9 @@ as that industry.
 
 ## Step 2: research
 
-Use web search and fetch. Aim for **8–15 sources per brief**, as current as possible (the last
+Use web search and fetch. Aim for **10–18 sources per brief** (the fundamentals need structural
+sources too: industry datasets, market-size estimates, annual reports and 10-K business and risk
+sections), as current as possible (the last
 3 months for markets, valuations, earnings and flows; the latest annual data for structure).
 Prefer primary or well-known sources:
 
@@ -75,6 +77,19 @@ Create `site/data/writeups/<code>.json` for each one:
       {"name": "Inventory cycle", "how": "Customers over-order in shortages and stop ordering while they work stock down, so revenue swings more than end demand."}
     ]
   },
+  "fundamentals": {
+    "business": ["answer to question 1", "answer to question 2", "... 6 answers"],
+    "overview": ["... 5 answers"],
+    "competition": ["... 7 answers"],
+    "drivers": ["... 6 answers"],
+    "financials": ["... 7 answers"],
+    "risks": ["... 7 answers"],
+    "horizon": {
+      "opportunities": ["One sentence [3]", "..."],
+      "threats": ["One sentence [7]", "..."],
+      "assessment": "Forward-looking view of the next 3 to 5 years."
+    }
+  },
   "sections": [
     {"id": "macro", "paragraphs": ["...", "..."]},
     {"id": "demand", "paragraphs": ["..."]},
@@ -110,6 +125,37 @@ Create `site/data/writeups/<code>.json` for each one:
     mechanism (what changes, and how it shows up in the numbers).
   - Each `what`, `meaning` and `how` is at most 70 words. Citations are optional here, but any
     figure still needs one, so prefer no figures.
+- `fundamentals`: the six-part industry fundamentals analysis. Each part is a list of answers,
+  **one per question below, in exactly this order** (the site prints the questions; you write
+  only the answers). Each answer is 15–110 words: answer the question directly and specifically
+  for this sub-industry, naming companies and giving cited figures where they help. If the honest
+  answer is "barely" (e.g. demographics hardly matter), say so and why in a sentence or two. The
+  whole block is 1,200–3,400 words. It describes how the industry works over a full cycle; keep
+  this quarter's news for the eight-part market view, and don't just repeat it.
+  1. `business` — Understand the business model (6): primary revenue streams; who the customers
+     are; principal costs; what determines pricing power; major assets and liabilities;
+     capital-intensive or asset-light.
+  2. `overview` — Industry overview (5): market size and growth; main segments; where it sits in
+     the value chain (suppliers and customers); how the industry has evolved; where sales and
+     production are concentrated geographically.
+  3. `competition` — Industry structure and competition (7): how many significant competitors;
+     the market leaders (with shares where sourced); consolidated or fragmented; barriers to
+     entry; economies of scale; commoditized or differentiated; who has bargaining power,
+     customers or suppliers.
+  4. `drivers` — Economic drivers (6): what drives revenue growth; what determines operating
+     margins; key cost variables; sensitivity to interest rates; sensitivity to inflation,
+     unemployment, GDP and commodity prices; cyclical, defensive or secular growth.
+  5. `financials` — Financial characteristics of a typical company (7): revenue and earnings
+     growth; gross and operating margins; ROE and ROIC; debt and leverage; free cash flow
+     generation; capital expenditure requirements; valuation multiples. Use industry datasets
+     (Damodaran's margins, ROE/ROIC, debt, capex and multiples tables are ideal) plus bellwether
+     filings, and say which you are quoting. At least 4 of the 7 answers must cite a source.
+  6. `risks` — Risks and future developments (7): regulatory and legislative changes;
+     technological disruption and AI; demographic changes; changing consumer behavior; new
+     competitors and business models; geopolitical and supply-chain risks; potential substitutes.
+  - `horizon`: the next 3 to 5 years. `opportunities` and `threats` are 2–5 one-sentence items
+    each (the biggest, not every one); `assessment` is 50–180 words weighing them up.
+  Every part must cite at least one source.
 - `sources`: numbered 1, 2, 3… in the order first cited. Every source must be cited somewhere.
 - `sections`: exactly these eight ids, in this order, each 140–280 words in 1–3 paragraphs, each
   with at least one citation. Cover:

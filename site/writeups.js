@@ -14,6 +14,15 @@ const FRAMEWORK = {
   valuation: "Valuation and relative attractiveness",
   positioning: "Market positioning, momentum and capital flows"
 };
+// The six-part fundamentals analysis: each part answers a fixed list of questions, in order
+const FUNDAMENTALS = [
+  ["business", "Understand the business model", "How the companies actually generate revenue and earnings.", ["What are their primary revenue streams?", "Who are their customers?", "What are their principal costs?", "What determines pricing power?", "What are their major assets and liabilities?", "Is the business capital-intensive or asset-light?"]],
+  ["overview", "Industry overview", "How big the industry is, how it is divided and how it got here.", ["How big is the market and how fast is it growing?", "What are the main segments?", "Where does it sit in the value chain?", "How has the industry evolved?", "Where are sales and production concentrated geographically?"]],
+  ["competition", "Industry structure and competition", "The competitive landscape.", ["How many significant competitors exist?", "Who are the market leaders?", "Is the industry consolidated or fragmented?", "What are the barriers to entry?", "Are there economies of scale?", "Are products commoditized or differentiated?", "Who has bargaining power, customers or suppliers?"]],
+  ["drivers", "The economic drivers", "What actually drives financial performance.", ["What drives revenue growth?", "What determines operating margins?", "What are the key cost variables?", "How sensitive is the industry to interest rates?", "How sensitive is it to inflation, unemployment, GDP and commodity prices?", "Is the industry cyclical, defensive or secular-growth oriented?"]],
+  ["financials", "Financial characteristics", "What a typical company in the sub-industry looks like financially.", ["Revenue and earnings growth", "Gross and operating margins", "Return on equity (ROE) and return on invested capital (ROIC)", "Debt and leverage", "Free cash flow generation", "Capital expenditure requirements", "Valuation multiples"]],
+  ["risks", "Risks and future developments", "What could fundamentally change the industry.", ["Regulatory and legislative changes", "Technological disruption and AI", "Demographic changes", "Changing consumer behavior", "New competitors and business models", "Geopolitical and supply-chain risks", "Potential substitutes"]]
+];
 const hasBrief = code => WI.some(e => e.code === code);
 const fmtDate = d => new Date(d + "T12:00:00Z").toLocaleDateString("en-GB", { day: "numeric", month: "short", year: "numeric", timeZone: "UTC" });
 
@@ -78,13 +87,14 @@ function briefBody(b, root) {
         el("td", {}, el("b", {}, m.value), m.context ? el("small", {}, m.context) : null, ...cited(` [${m.source}]`, root))))))),
     el("div", { class: "fact" }, el("h3", {}, "What to watch"), el("ul", {}, ...b.watch.map(x => el("li", {}, ...cited(x, root)))),
       el("h3", { class: "gap-top" }, "Bellwethers"), el("div", { class: "chips" }, ...b.bellwethers.map(x => el("span", { class: "chip" }, x))))));
+  if (b.fundamentals) parts.push(...fundamentalsBlock(b.fundamentals, root));
   const secs = b.sections.map((s, i) => el("details", { class: "fw" },
     el("summary", {}, el("span", { class: "fwn" }, String(i + 1)), el("span", {}, FRAMEWORK[s.id] || s.id)),
     el("div", { class: "fwbody" }, ...s.paragraphs.map(p => el("p", {}, ...cited(p, root))))));
   const toggle = el("button", { type: "button", class: "linkbtn", onclick: () => {
     const open = !secs.every(d => d.open); secs.forEach(d => (d.open = open)); toggle.textContent = open ? "Close all sections" : "Open all sections";
   } }, "Open all sections");
-  parts.push(el("div", { class: "sec-head" }, el("h3", { class: "fwtitle" }, "The eight-part analysis"), toggle), el("div", { class: "fwlist" }, ...secs));
+  parts.push(el("div", { class: "sec-head" }, el("h3", { class: "fwtitle" }, "Market view: eight-part analysis"), toggle), el("div", { class: "fwlist" }, ...secs));
   parts.push(el("details", { class: "fw srcs" }, el("summary", {}, el("span", { class: "fwn" }, "§"), el("span", {}, `Sources (${b.sources.length})`)),
     el("ol", { class: "srclist" }, ...b.sources.map(s => el("li", { id: "src-" + s.n },
       el("a", { href: s.url, target: "_blank", rel: "noopener" }, s.title), ` — ${s.publisher}${s.date ? ", " + s.date : ""}`)))));
@@ -109,12 +119,32 @@ function basicsBlock(x, root) {
       dl(x.terms.map(t => [t.term, t.meaning]))));
 }
 
+function fundamentalsBlock(f, root) {
+  const parts = FUNDAMENTALS.map(([id, title, lede, qs], i) => {
+    const body = el("div", { class: "fwbody" }, el("p", { class: "fqlede" }, lede),
+      el("dl", { class: "fq" }, ...qs.map((q, j) => el("div", {}, el("dt", {}, q), el("dd", {}, ...cited((f[id] || [])[j] || "", root))))));
+    if (id === "risks" && f.horizon) {
+      const h = f.horizon, list = (t, xs, cls) => el("div", { class: "hz " + cls }, el("h4", {}, t), el("ul", {}, ...xs.map(x => el("li", {}, ...cited(x, root)))));
+      body.append(el("div", { class: "horizon" }, el("h4", { class: "hzt" }, "The next 3 to 5 years"),
+        el("div", { class: "hzgrid" }, list("Biggest opportunities", h.opportunities, "up"), list("Biggest threats", h.threats, "down")),
+        el("p", {}, ...cited(h.assessment, root))));
+    }
+    return el("details", { class: "fw" }, el("summary", {}, el("span", { class: "fwn" }, String(i + 1)), el("span", {}, title)), body);
+  });
+  const toggle = el("button", { type: "button", class: "linkbtn", onclick: () => {
+    const open = !parts.every(d => d.open); parts.forEach(d => (d.open = open)); toggle.textContent = open ? "Close all parts" : "Open all parts";
+  } }, "Open all parts");
+  return [el("div", { class: "sec-head" }, el("h3", { class: "fwtitle" }, "Industry fundamentals: six-part analysis"), toggle),
+    el("p", { class: "fqintro muted" }, "How the business works, how competition and the economy shape its results, what its finances look like, and what could change it."),
+    el("div", { class: "fwlist" }, ...parts)];
+}
+
 function renderResearch(v) {
   v.append(
     el("nav", { class: "crumbs", "aria-label": "Breadcrumb" }, el("button", { type: "button", onclick: () => go(null) }, "GICS"), el("span", { "aria-hidden": "true" }, "›"), el("span", {}, "Research briefs")),
     el("div", { class: "eyebrow" }, `${WI.length} of 163 sub-industries`),
     el("h1", {}, "Sub-industry research briefs"),
-    el("p", { class: "lede" }, "Each brief opens with the basics (what the companies sell, the key terms and what drives the business), then works through the same eight steps: the economy, demand, competition, regulation and technology, financial fundamentals, earnings, valuation, and market positioning. Three new briefs are added each day, starting with the sectors that make up most of the S&P 500."),
+    el("p", { class: "lede" }, "Each brief opens with the basics (what the companies sell, the key terms and what drives the business) and a six-part fundamentals analysis (business model, industry overview, competition, economic drivers, financial characteristics, and risks over the next 3 to 5 years), then gives a current market view in eight steps: the economy, demand, competition, regulation and technology, financial fundamentals, earnings, valuation, and market positioning. Three new briefs are added each day, starting with the sectors that make up most of the S&P 500."),
     el("div", { class: "bar wbar" }, el("i", { class: "wfill" })));
   v.querySelector(".wfill").style.width = (WI.length / 163 * 100) + "%";
   const byDay = {};

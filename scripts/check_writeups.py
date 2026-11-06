@@ -3,7 +3,7 @@
 Usage: python scripts/check_writeups.py
 
 Checks site/data/writeups/index.json against the brief files (<code>.json), and each brief
-against the format in ROUTINE.md: the basics block, the eight framework sections in order, length limits,
+against the format in ROUTINE.md: the basics block, the six-part fundamentals, the eight framework sections in order, length limits,
 and that every [n] citation points at a listed source and every section cites something.
 """
 import json
@@ -13,6 +13,8 @@ from pathlib import Path
 
 DATA = Path(__file__).resolve().parent.parent / "site" / "data"
 WDIR = DATA / "writeups"
+# fundamentals part -> number of questions it answers (in the order listed in ROUTINE.md)
+FUND = {"business": 6, "overview": 5, "competition": 7, "drivers": 6, "financials": 7, "risks": 7}
 SECTIONS = ["macro", "demand", "structure", "environment", "economics", "earnings", "valuation", "positioning"]
 DATE = re.compile(r"^\d{4}-\d{2}-\d{2}$")
 CITE = re.compile(r"\[(\d+)\]")
@@ -149,6 +151,49 @@ for path in sorted(WDIR.glob("[0-9]*.json")):
                 cites(body, f"basics {key} {i}")
                 if "examples" in r and not (isinstance(r["examples"], str) and r["examples"].strip()):
                     errors.append(f"{w} basics {key} {i}: 'examples' must be a non-empty string")
+
+    f = b.get("fundamentals")
+    if not isinstance(f, dict):
+        errors.append(f"{w}: needs 'fundamentals' ({', '.join(FUND)}, horizon)")
+    else:
+        extra = set(f) - set(FUND) - {"horizon"}
+        if extra:
+            errors.append(f"{w} fundamentals: unknown keys {sorted(extra)}")
+        ftotal = 0
+        for part, n in FUND.items():
+            ans = f.get(part)
+            if not isinstance(ans, list) or len(ans) != n or not all(isinstance(a, str) and a.strip() for a in ans):
+                errors.append(f"{w} fundamentals {part}: must be {n} non-empty answers, one per question in order")
+                continue
+            ncited = 0
+            for i, a in enumerate(ans, 1):
+                k = words(a)
+                ftotal += k
+                if not 15 <= k <= 110:
+                    errors.append(f"{w} fundamentals {part} {i}: {k} words (needs 15-110)")
+                ncited += bool(cites(a, f"fundamentals {part} {i}"))
+            need = 4 if part == "financials" else 1
+            if ncited < need:
+                errors.append(f"{w} fundamentals {part}: only {ncited} answers cite a source (needs {need})")
+        h = f.get("horizon")
+        if not isinstance(h, dict):
+            errors.append(f"{w} fundamentals: needs 'horizon' (opportunities, threats, assessment)")
+        else:
+            for key in ("opportunities", "threats"):
+                xs = h.get(key)
+                if not isinstance(xs, list) or not 2 <= len(xs) <= 5 or not all(isinstance(x, str) and 5 <= words(x) <= 70 for x in xs):
+                    errors.append(f"{w} fundamentals horizon: '{key}' must be 2-5 items of 5-70 words")
+                else:
+                    for i, x in enumerate(xs, 1):
+                        cites(x, f"horizon {key} {i}")
+            a = h.get("assessment")
+            if not isinstance(a, str) or not 50 <= words(a) <= 180:
+                errors.append(f"{w} fundamentals horizon: 'assessment' must be 50-180 words")
+            else:
+                ftotal += words(a)
+                cites(a, "horizon assessment")
+        if not 1200 <= ftotal <= 3400:
+            errors.append(f"{w} fundamentals: {ftotal} words in total (needs 1200-3400)")
 
     names = b.get("bellwethers")
     if not isinstance(names, list) or not 3 <= len(names) <= 10:
