@@ -1,0 +1,9 @@
+{
+  // Cloudflare Workers project (Workers Builds): pushing to main deploys.
+  // Static site with no server-side logic - site/ is the finished output.
+  "name": "gics-field-guide",
+  "compatibility_date": "2026-11-06",
+  "assets": {
+    "directory": "./site"
+  }
+}

@@ -1,0 +1,38 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
+<title>GICS Field Guide</title>
+<meta name="description" content="A guided tour of every GICS sector, industry group, industry and sub-industry, in plain language.">
+<meta name="theme-color" content="#17202a">
+<link rel="icon" href="icon.svg" type="image/svg+xml">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,500;12..96,700&family=IBM+Plex+Sans:wght@400;500;600&family=IBM+Plex+Mono:wght@400;500&display=swap">
+<link rel="stylesheet" href="app.css">
+</head>
+<body>
+<div class="shell">
+  <aside class="rail" id="rail">
+    <div class="toprow">
+      <button class="brand" id="home" type="button"><b>GICS Field Guide</b></button>
+      <button class="btn menu" id="menu" type="button" aria-expanded="false">Browse</button>
+    </div>
+    <input class="search" id="q" type="search" placeholder="Search names, codes, topics…" aria-label="Search the classification">
+    <div class="progress"><span id="prog">0 of 273 explored</span><div class="bar"><i id="progbar"></i></div></div>
+    <div class="tree-wrap"><ul class="tree" id="tree"></ul></div>
+  </aside>
+  <main>
+    <div class="view" id="view"></div>
+    <nav class="tour" aria-label="Tour">
+      <button class="btn" id="prev" type="button">← Previous</button>
+      <div class="pos" id="pos"></div>
+      <button class="btn primary" id="next" type="button">Next →</button>
+    </nav>
+  </main>
+</div>
+<script src="app.js"></script>
+<script src="offline.js"></script>
+</body>
+</html>

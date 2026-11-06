@@ -1,0 +1,1530 @@
+[
+ {
+  "code": "10",
+  "name": "Energy",
+  "desc": "Companies that find, pump, move, refine and sell oil, gas and coal, plus the contractors and equipment makers that serve them.",
+  "drivers": [
+   "Oil and natural gas prices",
+   "OPEC+ production decisions",
+   "Producer capital spending cycles",
+   "Long-run energy transition policy"
+  ],
+  "examples": [
+   "ExxonMobil",
+   "Chevron",
+   "Shell",
+   "SLB",
+   "ConocoPhillips"
+  ],
+  "note": "Renewable power generators are not here; they sit in Utilities. Solar panel makers are classified as Semiconductors in Information Technology."
+ },
+ {
+  "code": "1010",
+  "name": "Energy",
+  "desc": "The whole sector is a single industry group. It splits in two: companies that supply equipment and services to producers, and companies that own the oil, gas and coal itself."
+ },
+ {
+  "code": "101010",
+  "name": "Energy Equipment & Services",
+  "desc": "The \"picks and shovels\" of oil and gas: firms hired by producers to drill wells and keep them running. Their fortunes follow producers' budgets."
+ },
+ {
+  "code": "10101010",
+  "name": "Oil & Gas Drilling",
+  "desc": "Owners and operators of land and offshore drilling rigs, rented to producers on contract. Rig day-rates swing hard with the oil price."
+ },
+ {
+  "code": "10101020",
+  "name": "Oil & Gas Equipment & Services",
+  "desc": "Makers of oilfield equipment and providers of services such as seismic surveys, well completion, pressure pumping and maintenance."
+ },
+ {
+  "code": "101020",
+  "name": "Oil, Gas & Consumable Fuels",
+  "desc": "Companies that own the hydrocarbons, from the well to the pump, plus coal and uranium producers."
+ },
+ {
+  "code": "10102010",
+  "name": "Integrated Oil & Gas",
+  "desc": "The majors: companies that explore, produce, refine and market at scale, often with chemicals operations too."
+ },
+ {
+  "code": "10102020",
+  "name": "Oil & Gas Exploration & Production",
+  "desc": "\"Upstream\" companies that find and extract oil and gas. Their earnings track commodity prices most directly."
+ },
+ {
+  "code": "10102030",
+  "name": "Oil & Gas Refining & Marketing",
+  "desc": "\"Downstream\" refiners that turn crude into gasoline, diesel and jet fuel and sell it. Profit depends on the spread between crude and product prices."
+ },
+ {
+  "code": "10102040",
+  "name": "Oil & Gas Storage & Transportation",
+  "desc": "\"Midstream\" pipelines, storage terminals, gathering and processing plants, and oil and gas tankers. Revenue is often fee-based."
+ },
+ {
+  "code": "10102050",
+  "name": "Coal & Consumable Fuels",
+  "desc": "Producers of thermal coal and of fuels such as uranium used for power generation.",
+  "note": "Miners of metallurgical (coking) coal used in steelmaking are classified under Steel in Materials."
+ },
+ {
+  "code": "15",
+  "name": "Materials",
+  "desc": "Companies that make or extract the basic materials other industries build with: chemicals, cement, packaging, metals, paper.",
+  "drivers": [
+   "Global industrial and construction demand",
+   "Chinese economic activity",
+   "Commodity prices",
+   "Energy and feedstock costs"
+  ],
+  "examples": [
+   "Linde",
+   "BHP",
+   "Rio Tinto",
+   "Sherwin-Williams",
+   "Freeport-McMoRan"
+  ]
+ },
+ {
+  "code": "1510",
+  "name": "Materials",
+  "desc": "One industry group holding five industries, from chemical plants to gold mines."
+ },
+ {
+  "code": "151010",
+  "name": "Chemicals",
+  "desc": "From high-volume petrochemicals to specialized formulas. The largest Materials industry by number of sub-industries."
+ },
+ {
+  "code": "15101010",
+  "name": "Commodity Chemicals",
+  "desc": "High-volume basic chemicals, plastics, synthetic fibers and films, sold mainly on price."
+ },
+ {
+  "code": "15101020",
+  "name": "Diversified Chemicals",
+  "desc": "Producers with broad portfolios that don't fit a single chemical category."
+ },
+ {
+  "code": "15101030",
+  "name": "Fertilizers & Agricultural Chemicals",
+  "desc": "Makers of nitrogen, phosphate and potash fertilizers, pesticides and other farm chemicals."
+ },
+ {
+  "code": "15101040",
+  "name": "Industrial Gases",
+  "desc": "Producers of oxygen, nitrogen, hydrogen and other gases, often supplied through long contracts from on-site plants."
+ },
+ {
+  "code": "15101050",
+  "name": "Specialty Chemicals",
+  "desc": "Chemicals sold for what they do rather than by the ton: paints and coatings, adhesives, additives, flavors and fragrances."
+ },
+ {
+  "code": "151020",
+  "name": "Construction Materials",
+  "desc": "Heavy, local businesses supplying the raw stuff of building. Transport costs keep competition regional."
+ },
+ {
+  "code": "15102010",
+  "name": "Construction Materials",
+  "desc": "Producers of cement, aggregates (sand, gravel, crushed stone), ready-mix concrete and bricks."
+ },
+ {
+  "code": "151030",
+  "name": "Containers & Packaging",
+  "desc": "The containers and packaging that consumer and industrial goods ship in."
+ },
+ {
+  "code": "15103010",
+  "name": "Metal, Glass & Plastic Containers",
+  "desc": "Makers of cans, bottles, jars and rigid plastic containers."
+ },
+ {
+  "code": "15103020",
+  "name": "Paper & Plastic Packaging Products & Materials",
+  "desc": "Makers of corrugated boxes, cartons, paper bags and flexible plastic packaging."
+ },
+ {
+  "code": "151040",
+  "name": "Metals & Mining",
+  "desc": "Miners and producers of metals and minerals, sorted by their main commodity."
+ },
+ {
+  "code": "15104010",
+  "name": "Aluminum",
+  "desc": "Producers of aluminum and aluminum products, including bauxite mining and alumina refining."
+ },
+ {
+  "code": "15104020",
+  "name": "Diversified Metals & Mining",
+  "desc": "Miners of several metals, or of minerals without their own sub-industry, such as lithium, nickel, zinc and rare earths."
+ },
+ {
+  "code": "15104025",
+  "name": "Copper",
+  "desc": "Miners and producers of copper."
+ },
+ {
+  "code": "15104030",
+  "name": "Gold",
+  "desc": "Gold miners and producers, including royalty and streaming companies focused on gold."
+ },
+ {
+  "code": "15104040",
+  "name": "Precious Metals & Minerals",
+  "desc": "Miners of platinum, palladium, diamonds and other precious metals and gems besides gold and silver."
+ },
+ {
+  "code": "15104045",
+  "name": "Silver",
+  "desc": "Primary silver miners and producers."
+ },
+ {
+  "code": "15104050",
+  "name": "Steel",
+  "desc": "Steel producers and mills, plus miners of metallurgical (coking) coal used to make steel."
+ },
+ {
+  "code": "151050",
+  "name": "Paper & Forest Products",
+  "desc": "Companies that harvest timber and turn wood into lumber, pulp and paper."
+ },
+ {
+  "code": "15105010",
+  "name": "Forest Products",
+  "desc": "Timber, lumber and other wood products.",
+  "note": "Timber companies structured as REITs are classified in Real Estate (Timber REITs)."
+ },
+ {
+  "code": "15105020",
+  "name": "Paper Products",
+  "desc": "Makers of paper and pulp. Paper made into packaging belongs in Containers & Packaging."
+ },
+ {
+  "code": "20",
+  "name": "Industrials",
+  "desc": "Companies that build capital goods, provide services to businesses, and move people and freight.",
+  "drivers": [
+   "The business cycle and capital spending",
+   "Government and defense budgets",
+   "Freight and travel volumes",
+   "Infrastructure programs"
+  ],
+  "examples": [
+   "Caterpillar",
+   "GE Aerospace",
+   "Union Pacific",
+   "Honeywell",
+   "UPS"
+  ],
+  "note": "Since 2023, payroll and business-process outsourcing companies sit here (Data Processing & Outsourced Services), moved over from Information Technology."
+ },
+ {
+  "code": "2010",
+  "name": "Capital Goods",
+  "desc": "Companies that make the equipment, structures and systems other businesses invest in. Seven industries, from jet engines to distributors."
+ },
+ {
+  "code": "201010",
+  "name": "Aerospace & Defense",
+  "desc": "Civil and military aircraft, engines, weapons systems and defense electronics."
+ },
+ {
+  "code": "20101010",
+  "name": "Aerospace & Defense",
+  "desc": "Makers of aircraft and aircraft parts, defense equipment, and related technology and services."
+ },
+ {
+  "code": "201020",
+  "name": "Building Products",
+  "desc": "The manufactured components that go into buildings."
+ },
+ {
+  "code": "20102010",
+  "name": "Building Products",
+  "desc": "Makers of HVAC systems, windows, doors, insulation, plumbing fixtures and similar components. Lumber and cement are in Materials."
+ },
+ {
+  "code": "201030",
+  "name": "Construction & Engineering",
+  "desc": "Contractors and engineers who design and build."
+ },
+ {
+  "code": "20103010",
+  "name": "Construction & Engineering",
+  "desc": "Non-residential contractors and engineering firms that build infrastructure, plants and commercial projects.",
+  "note": "Homebuilders are in Consumer Discretionary (Homebuilding)."
+ },
+ {
+  "code": "201040",
+  "name": "Electrical Equipment",
+  "desc": "Equipment that generates, transmits and uses electricity."
+ },
+ {
+  "code": "20104010",
+  "name": "Electrical Components & Equipment",
+  "desc": "Wires and cables, switchgear, motors, batteries, lighting and similar electrical products."
+ },
+ {
+  "code": "20104020",
+  "name": "Heavy Electrical Equipment",
+  "desc": "Turbines, generators, large transformers and other power-generation equipment."
+ },
+ {
+  "code": "201050",
+  "name": "Industrial Conglomerates",
+  "desc": "Diversified industrial groups."
+ },
+ {
+  "code": "20105010",
+  "name": "Industrial Conglomerates",
+  "desc": "Companies running several industrial businesses where no single one dominates enough to classify them elsewhere."
+ },
+ {
+  "code": "201060",
+  "name": "Machinery",
+  "desc": "Machines that make, move and dig."
+ },
+ {
+  "code": "20106010",
+  "name": "Construction Machinery & Heavy Transportation Equipment",
+  "desc": "Earthmovers, mining equipment, heavy trucks, locomotives, rail cars and ships. Passenger cars are in Consumer Discretionary."
+ },
+ {
+  "code": "20106015",
+  "name": "Agricultural & Farm Machinery",
+  "desc": "Tractors, harvesters, irrigation and other farm equipment."
+ },
+ {
+  "code": "20106020",
+  "name": "Industrial Machinery & Supplies & Components",
+  "desc": "Factory machinery, pumps, valves, bearings, tools and the components that go into industrial equipment."
+ },
+ {
+  "code": "201070",
+  "name": "Trading Companies & Distributors",
+  "desc": "Middlemen for industrial goods."
+ },
+ {
+  "code": "20107010",
+  "name": "Trading Companies & Distributors",
+  "desc": "Distributors of industrial equipment and supplies, plus trading houses such as Japan's sogo shosha."
+ },
+ {
+  "code": "2020",
+  "name": "Commercial & Professional Services",
+  "desc": "Services sold to businesses and governments: facilities, waste, staffing, consulting, data processing."
+ },
+ {
+  "code": "202010",
+  "name": "Commercial Services & Supplies",
+  "desc": "Operational services and supplies that keep organizations running."
+ },
+ {
+  "code": "20201010",
+  "name": "Commercial Printing",
+  "desc": "Printers of business forms, labels, documents and marketing materials."
+ },
+ {
+  "code": "20201050",
+  "name": "Environmental & Facilities Services",
+  "desc": "Waste collection and disposal, recycling, remediation and facilities management."
+ },
+ {
+  "code": "20201060",
+  "name": "Office Services & Supplies",
+  "desc": "Office supplies, office furniture and related services."
+ },
+ {
+  "code": "20201070",
+  "name": "Diversified Support Services",
+  "desc": "Outsourced business support such as uniform rental, equipment rental and auction services."
+ },
+ {
+  "code": "20201080",
+  "name": "Security & Alarm Services",
+  "desc": "Security guards, alarm monitoring and correctional facility operators."
+ },
+ {
+  "code": "202020",
+  "name": "Professional Services",
+  "desc": "Expertise and labor sold by the hour, by the head or by the transaction."
+ },
+ {
+  "code": "20202010",
+  "name": "Human Resource & Employment Services",
+  "desc": "Staffing agencies, recruiters and HR outsourcing."
+ },
+ {
+  "code": "20202020",
+  "name": "Research & Consulting Services",
+  "desc": "Consultancies, research firms, credit bureaus, and testing and inspection companies."
+ },
+ {
+  "code": "20202030",
+  "name": "Data Processing & Outsourced Services",
+  "desc": "Payroll processors, business process outsourcing and back-office data services.",
+  "note": "Moved into Industrials from Information Technology in the 2023 revision."
+ },
+ {
+  "code": "2030",
+  "name": "Transportation",
+  "desc": "Companies that move people and freight, and those that own the infrastructure they move on."
+ },
+ {
+  "code": "203010",
+  "name": "Air Freight & Logistics",
+  "desc": "Parcel delivery, air freight and logistics."
+ },
+ {
+  "code": "20301010",
+  "name": "Air Freight & Logistics",
+  "desc": "Parcel carriers, air freight operators and freight forwarders."
+ },
+ {
+  "code": "203020",
+  "name": "Passenger Airlines",
+  "desc": "Airlines that carry people."
+ },
+ {
+  "code": "20302010",
+  "name": "Passenger Airlines",
+  "desc": "Passenger airlines, full-service and low-cost. Renamed from Airlines in 2023."
+ },
+ {
+  "code": "203030",
+  "name": "Marine Transportation",
+  "desc": "Shipping of goods other than oil and gas."
+ },
+ {
+  "code": "20303010",
+  "name": "Marine Transportation",
+  "desc": "Container lines and dry-bulk carriers.",
+  "note": "Oil and gas tankers are classified in Energy (Oil & Gas Storage & Transportation)."
+ },
+ {
+  "code": "203040",
+  "name": "Ground Transportation",
+  "desc": "Railroads, trucking and passenger road transport. Renamed from Road & Rail in 2023."
+ },
+ {
+  "code": "20304010",
+  "name": "Rail Transportation",
+  "desc": "Freight and passenger railroads."
+ },
+ {
+  "code": "20304030",
+  "name": "Cargo Ground Transportation",
+  "desc": "Trucking companies and truck and trailer leasing."
+ },
+ {
+  "code": "20304040",
+  "name": "Passenger Ground Transportation",
+  "desc": "Ride-hailing platforms, bus operators, taxis and car rental."
+ },
+ {
+  "code": "203050",
+  "name": "Transportation Infrastructure",
+  "desc": "Owners and operators of the fixed assets that transport runs on."
+ },
+ {
+  "code": "20305010",
+  "name": "Airport Services",
+  "desc": "Airport operators and airport service companies."
+ },
+ {
+  "code": "20305020",
+  "name": "Highways & Railtracks",
+  "desc": "Toll roads, bridges, tunnels and rail track owners."
+ },
+ {
+  "code": "20305030",
+  "name": "Marine Ports & Services",
+  "desc": "Port operators and related marine services."
+ },
+ {
+  "code": "25",
+  "name": "Consumer Discretionary",
+  "desc": "Goods and services people want but can put off: cars, clothes, travel, dining out, most retail.",
+  "drivers": [
+   "Consumer confidence and employment",
+   "Wage growth",
+   "Interest rates on big-ticket purchases",
+   "Housing activity"
+  ],
+  "examples": [
+   "Amazon",
+   "Tesla",
+   "Home Depot",
+   "McDonald's",
+   "Nike"
+  ],
+  "note": "Amazon sits here (Broadline Retail), not in Information Technology. Since 2023, retailers that mainly sell staples, such as Walmart, Costco and Target, are in Consumer Staples."
+ },
+ {
+  "code": "2510",
+  "name": "Automobiles & Components",
+  "desc": "Carmakers and the suppliers of parts that go into vehicles."
+ },
+ {
+  "code": "251010",
+  "name": "Automobile Components",
+  "desc": "Parts suppliers to vehicle makers and the aftermarket."
+ },
+ {
+  "code": "25101010",
+  "name": "Automotive Parts & Equipment",
+  "desc": "Makers of parts, systems and electronics for vehicles."
+ },
+ {
+  "code": "25101020",
+  "name": "Tires & Rubber",
+  "desc": "Tire makers."
+ },
+ {
+  "code": "251020",
+  "name": "Automobiles",
+  "desc": "Vehicle manufacturers."
+ },
+ {
+  "code": "25102010",
+  "name": "Automobile Manufacturers",
+  "desc": "Makers of passenger cars and light trucks, including electric vehicles."
+ },
+ {
+  "code": "25102020",
+  "name": "Motorcycle Manufacturers",
+  "desc": "Makers of motorcycles, scooters and three-wheelers."
+ },
+ {
+  "code": "2520",
+  "name": "Consumer Durables & Apparel",
+  "desc": "Long-lasting goods for the home, leisure products, and clothing and footwear."
+ },
+ {
+  "code": "252010",
+  "name": "Household Durables",
+  "desc": "Big-ticket goods for the home, and the homes themselves."
+ },
+ {
+  "code": "25201010",
+  "name": "Consumer Electronics",
+  "desc": "TVs, audio equipment, cameras and other consumer electronics.",
+  "note": "Smartphones and PCs are in Information Technology (Technology Hardware, Storage & Peripherals)."
+ },
+ {
+  "code": "25201020",
+  "name": "Home Furnishings",
+  "desc": "Furniture, mattresses, rugs and other furnishings."
+ },
+ {
+  "code": "25201030",
+  "name": "Homebuilding",
+  "desc": "Residential homebuilders and manufactured-home makers."
+ },
+ {
+  "code": "25201040",
+  "name": "Household Appliances",
+  "desc": "Washers, refrigerators, vacuums and other appliances, plus power tools and lawn equipment for home use."
+ },
+ {
+  "code": "25201050",
+  "name": "Housewares & Specialties",
+  "desc": "Cookware, tableware, storage and decorative products."
+ },
+ {
+  "code": "252020",
+  "name": "Leisure Products",
+  "desc": "Things people buy for fun."
+ },
+ {
+  "code": "25202010",
+  "name": "Leisure Products",
+  "desc": "Toys, sporting goods, bicycles, recreational boats and similar products."
+ },
+ {
+  "code": "252030",
+  "name": "Textiles, Apparel & Luxury Goods",
+  "desc": "What people wear."
+ },
+ {
+  "code": "25203010",
+  "name": "Apparel, Accessories & Luxury Goods",
+  "desc": "Clothing, handbags, jewelry and watches, including the luxury houses."
+ },
+ {
+  "code": "25203020",
+  "name": "Footwear",
+  "desc": "Makers of shoes and athletic footwear."
+ },
+ {
+  "code": "25203030",
+  "name": "Textiles",
+  "desc": "Producers of fabrics and textiles."
+ },
+ {
+  "code": "2530",
+  "name": "Consumer Services",
+  "desc": "Experiences and services people pay for: travel, dining, gaming, education."
+ },
+ {
+  "code": "253010",
+  "name": "Hotels, Restaurants & Leisure",
+  "desc": "Where people eat, stay and play."
+ },
+ {
+  "code": "25301010",
+  "name": "Casinos & Gaming",
+  "desc": "Casino operators, online betting companies and gaming equipment makers."
+ },
+ {
+  "code": "25301020",
+  "name": "Hotels, Resorts & Cruise Lines",
+  "desc": "Hotel and resort operators, cruise lines and online travel agencies."
+ },
+ {
+  "code": "25301030",
+  "name": "Leisure Facilities",
+  "desc": "Fitness clubs, theme parks, ski resorts and golf courses."
+ },
+ {
+  "code": "25301040",
+  "name": "Restaurants",
+  "desc": "Restaurant chains, fast food and coffee shops."
+ },
+ {
+  "code": "253020",
+  "name": "Diversified Consumer Services",
+  "desc": "Services sold directly to individuals."
+ },
+ {
+  "code": "25302010",
+  "name": "Education Services",
+  "desc": "For-profit schools and universities, tutoring and online education."
+ },
+ {
+  "code": "25302020",
+  "name": "Specialized Consumer Services",
+  "desc": "Consumer services not covered elsewhere, such as funeral services and home services."
+ },
+ {
+  "code": "2550",
+  "name": "Consumer Discretionary Distribution & Retail",
+  "desc": "Retailers and distributors of discretionary goods. Renamed from Retailing in the 2023 revision."
+ },
+ {
+  "code": "255010",
+  "name": "Distributors",
+  "desc": "Wholesalers of consumer goods."
+ },
+ {
+  "code": "25501010",
+  "name": "Distributors",
+  "desc": "Wholesale distributors of discretionary consumer goods."
+ },
+ {
+  "code": "255030",
+  "name": "Broadline Retail",
+  "desc": "Retailers that sell a bit of everything."
+ },
+ {
+  "code": "25503030",
+  "name": "Broadline Retail",
+  "desc": "Retailers offering a wide range of discretionary goods in stores or online, from department stores to online marketplaces.",
+  "note": "Created in 2023 by merging Internet & Direct Marketing Retail with department and general merchandise stores. Amazon and Alibaba sit here."
+ },
+ {
+  "code": "255040",
+  "name": "Specialty Retail",
+  "desc": "Retailers focused on one category."
+ },
+ {
+  "code": "25504010",
+  "name": "Apparel Retail",
+  "desc": "Clothing and accessories retailers."
+ },
+ {
+  "code": "25504020",
+  "name": "Computer & Electronics Retail",
+  "desc": "Consumer electronics and computer stores."
+ },
+ {
+  "code": "25504030",
+  "name": "Home Improvement Retail",
+  "desc": "Hardware and home improvement stores."
+ },
+ {
+  "code": "25504040",
+  "name": "Other Specialty Retail",
+  "desc": "Category retailers without their own sub-industry: books, sporting goods, jewelry, pet supplies, beauty."
+ },
+ {
+  "code": "25504050",
+  "name": "Automotive Retail",
+  "desc": "Car dealers, auto parts stores and gas station operators."
+ },
+ {
+  "code": "25504060",
+  "name": "Homefurnishing Retail",
+  "desc": "Furniture and home goods retailers."
+ },
+ {
+  "code": "30",
+  "name": "Consumer Staples",
+  "desc": "Necessities people buy regardless of the economy: food, drinks, household and personal products, and the stores that sell them.",
+  "drivers": [
+   "Defensive demand that holds up in recessions",
+   "Pricing power versus input costs",
+   "Volume trends and private-label competition",
+   "Currency moves for global brands"
+  ],
+  "examples": [
+   "Procter & Gamble",
+   "Coca-Cola",
+   "Walmart",
+   "Costco",
+   "Nestlé"
+  ],
+  "note": "Since 2023, Walmart, Costco, Target and dollar stores sit here (Consumer Staples Merchandise Retail), moved from Consumer Discretionary."
+ },
+ {
+  "code": "3010",
+  "name": "Consumer Staples Distribution & Retail",
+  "desc": "Grocers, pharmacies and big-box stores that mainly sell everyday necessities. Renamed from Food & Staples Retailing in 2023."
+ },
+ {
+  "code": "301010",
+  "name": "Consumer Staples Distribution & Retail",
+  "desc": "The single industry in this group, covering four kinds of staples sellers."
+ },
+ {
+  "code": "30101010",
+  "name": "Drug Retail",
+  "desc": "Pharmacies and drugstore chains."
+ },
+ {
+  "code": "30101020",
+  "name": "Food Distributors",
+  "desc": "Wholesale distributors of food to restaurants, institutions and retailers."
+ },
+ {
+  "code": "30101030",
+  "name": "Food Retail",
+  "desc": "Supermarkets and grocery stores."
+ },
+ {
+  "code": "30101040",
+  "name": "Consumer Staples Merchandise Retail",
+  "desc": "Hypermarkets, warehouse clubs and discount stores that mainly sell staples.",
+  "note": "New in 2023. Walmart, Costco, Target and dollar stores moved here."
+ },
+ {
+  "code": "3020",
+  "name": "Food, Beverage & Tobacco",
+  "desc": "The makers of what people eat, drink and smoke."
+ },
+ {
+  "code": "302010",
+  "name": "Beverages",
+  "desc": "Alcoholic and non-alcoholic drinks."
+ },
+ {
+  "code": "30201010",
+  "name": "Brewers",
+  "desc": "Beer producers."
+ },
+ {
+  "code": "30201020",
+  "name": "Distillers & Vintners",
+  "desc": "Spirits and wine producers."
+ },
+ {
+  "code": "30201030",
+  "name": "Soft Drinks & Non-alcoholic Beverages",
+  "desc": "Soft drinks, bottled water, energy drinks and juices."
+ },
+ {
+  "code": "302020",
+  "name": "Food Products",
+  "desc": "From farm commodities to branded packaged food."
+ },
+ {
+  "code": "30202010",
+  "name": "Agricultural Products & Services",
+  "desc": "Growers, processors and traders of crops, grains and livestock, and agricultural services."
+ },
+ {
+  "code": "30202030",
+  "name": "Packaged Foods & Meats",
+  "desc": "Branded and packaged foods, snacks, dairy, and meat and poultry processors."
+ },
+ {
+  "code": "302030",
+  "name": "Tobacco",
+  "desc": "Cigarettes and other nicotine products."
+ },
+ {
+  "code": "30203010",
+  "name": "Tobacco",
+  "desc": "Makers of cigarettes and other tobacco and nicotine products."
+ },
+ {
+  "code": "3030",
+  "name": "Household & Personal Products",
+  "desc": "Everyday products used around the home and on the body."
+ },
+ {
+  "code": "303010",
+  "name": "Household Products",
+  "desc": "Products for keeping a home running."
+ },
+ {
+  "code": "30301010",
+  "name": "Household Products",
+  "desc": "Detergents, cleaners, paper towels, diapers and similar non-durable goods."
+ },
+ {
+  "code": "303020",
+  "name": "Personal Care Products",
+  "desc": "Products people put on themselves. Renamed from Personal Products in 2023."
+ },
+ {
+  "code": "30302010",
+  "name": "Personal Care Products",
+  "desc": "Cosmetics, skin care, hair care, fragrance and toiletries."
+ },
+ {
+  "code": "35",
+  "name": "Health Care",
+  "desc": "Companies that deliver, pay for, equip and invent medical care.",
+  "drivers": [
+   "Aging populations",
+   "Government reimbursement and drug-pricing policy",
+   "Patent expirations",
+   "Clinical trial results and approvals"
+  ],
+  "examples": [
+   "UnitedHealth Group",
+   "Eli Lilly",
+   "Johnson & Johnson",
+   "Thermo Fisher Scientific",
+   "Intuitive Surgical"
+  ]
+ },
+ {
+  "code": "3510",
+  "name": "Health Care Equipment & Services",
+  "desc": "Physical products used in care, and the organizations that deliver and pay for it."
+ },
+ {
+  "code": "351010",
+  "name": "Health Care Equipment & Supplies",
+  "desc": "Devices and consumables used by clinicians."
+ },
+ {
+  "code": "35101010",
+  "name": "Health Care Equipment",
+  "desc": "Medical devices, from surgical robots and imaging systems to implants and patient monitors."
+ },
+ {
+  "code": "35101020",
+  "name": "Health Care Supplies",
+  "desc": "Disposable medical supplies such as syringes, gloves, wound care and eye care consumables."
+ },
+ {
+  "code": "351020",
+  "name": "Health Care Providers & Services",
+  "desc": "The businesses that deliver, distribute and pay for care."
+ },
+ {
+  "code": "35102010",
+  "name": "Health Care Distributors",
+  "desc": "Wholesale distributors of drugs and medical products to pharmacies and hospitals."
+ },
+ {
+  "code": "35102015",
+  "name": "Health Care Services",
+  "desc": "Diagnostic labs, outpatient and home health services, and pharmacy benefit managers."
+ },
+ {
+  "code": "35102020",
+  "name": "Health Care Facilities",
+  "desc": "Hospitals, nursing homes and rehabilitation centers."
+ },
+ {
+  "code": "35102030",
+  "name": "Managed Health Care",
+  "desc": "Health insurers and managed-care organizations."
+ },
+ {
+  "code": "351030",
+  "name": "Health Care Technology",
+  "desc": "Software and IT for health care."
+ },
+ {
+  "code": "35103010",
+  "name": "Health Care Technology",
+  "desc": "Electronic health records, health IT services, telehealth and related software."
+ },
+ {
+  "code": "3520",
+  "name": "Pharmaceuticals, Biotechnology & Life Sciences",
+  "desc": "Companies that discover, develop and make medicines, and the tools and services labs depend on."
+ },
+ {
+  "code": "352010",
+  "name": "Biotechnology",
+  "desc": "Medicines from biology."
+ },
+ {
+  "code": "35201010",
+  "name": "Biotechnology",
+  "desc": "Companies developing therapies through genetic engineering and biological research. Many have no revenue yet and live on trial results."
+ },
+ {
+  "code": "352020",
+  "name": "Pharmaceuticals",
+  "desc": "Drug makers."
+ },
+ {
+  "code": "35202010",
+  "name": "Pharmaceuticals",
+  "desc": "Branded and generic drug makers, including animal health."
+ },
+ {
+  "code": "352030",
+  "name": "Life Sciences Tools & Services",
+  "desc": "Suppliers to the labs."
+ },
+ {
+  "code": "35203010",
+  "name": "Life Sciences Tools & Services",
+  "desc": "Lab instruments, reagents and consumables, and contract research and manufacturing for drug developers."
+ },
+ {
+  "code": "40",
+  "name": "Financials",
+  "desc": "Companies that lend, insure, move and manage money.",
+  "drivers": [
+   "Interest rates and the shape of the yield curve",
+   "The credit cycle and loan losses",
+   "Capital-markets activity",
+   "Regulation and capital requirements"
+  ],
+  "examples": [
+   "JPMorgan Chase",
+   "Berkshire Hathaway",
+   "Visa",
+   "Mastercard",
+   "BlackRock"
+  ],
+  "note": "Visa, Mastercard and PayPal moved here from Information Technology in 2023. Equity REITs are a separate sector (Real Estate), but mortgage REITs stay in Financials."
+ },
+ {
+  "code": "4010",
+  "name": "Banks",
+  "desc": "Deposit-taking lenders."
+ },
+ {
+  "code": "401010",
+  "name": "Banks",
+  "desc": "Commercial banks, split by reach."
+ },
+ {
+  "code": "40101010",
+  "name": "Diversified Banks",
+  "desc": "Large banks with significant retail and commercial operations across regions or countries."
+ },
+ {
+  "code": "40101015",
+  "name": "Regional Banks",
+  "desc": "Banks focused on a region, lending mainly to small businesses and consumers."
+ },
+ {
+  "code": "4020",
+  "name": "Financial Services",
+  "desc": "Financial firms that are neither banks nor insurers: payments, specialty lenders, asset managers, exchanges. Renamed from Diversified Financials in 2023."
+ },
+ {
+  "code": "402010",
+  "name": "Financial Services",
+  "desc": "Payments, mortgage finance, holding companies and specialty finance."
+ },
+ {
+  "code": "40201020",
+  "name": "Diversified Financial Services",
+  "desc": "Firms offering a mix of financial services with no single dominant line."
+ },
+ {
+  "code": "40201030",
+  "name": "Multi-Sector Holdings",
+  "desc": "Holding companies with major stakes in unrelated industries.",
+  "note": "Berkshire Hathaway is the best-known example."
+ },
+ {
+  "code": "40201040",
+  "name": "Specialized Finance",
+  "desc": "Niche financiers, such as specialty lenders and providers of financing for particular assets."
+ },
+ {
+  "code": "40201050",
+  "name": "Commercial & Residential Mortgage Finance",
+  "desc": "Mortgage lenders and servicers, including savings institutions focused on mortgages.",
+  "note": "Absorbed the old Thrifts & Mortgage Finance industry in 2023."
+ },
+ {
+  "code": "40201060",
+  "name": "Transaction & Payment Processing Services",
+  "desc": "Card networks, payment processors and digital wallets.",
+  "note": "New in 2023. Visa, Mastercard and PayPal moved here from Information Technology."
+ },
+ {
+  "code": "402020",
+  "name": "Consumer Finance",
+  "desc": "Lending to individuals outside the banks."
+ },
+ {
+  "code": "40202010",
+  "name": "Consumer Finance",
+  "desc": "Credit card issuers, personal loans, auto loans and buy-now-pay-later lenders."
+ },
+ {
+  "code": "402030",
+  "name": "Capital Markets",
+  "desc": "Firms that manage, trade and match capital."
+ },
+ {
+  "code": "40203010",
+  "name": "Asset Management & Custody Banks",
+  "desc": "Fund managers, private equity and alternatives firms, and custody banks."
+ },
+ {
+  "code": "40203020",
+  "name": "Investment Banking & Brokerage",
+  "desc": "Investment banks and retail and institutional brokers."
+ },
+ {
+  "code": "40203030",
+  "name": "Diversified Capital Markets",
+  "desc": "Firms with large, mixed capital-markets businesses."
+ },
+ {
+  "code": "40203040",
+  "name": "Financial Exchanges & Data",
+  "desc": "Stock and derivatives exchanges, and financial data and ratings providers."
+ },
+ {
+  "code": "402040",
+  "name": "Mortgage Real Estate Investment Trusts (REITs)",
+  "desc": "REITs that hold debt rather than buildings."
+ },
+ {
+  "code": "40204010",
+  "name": "Mortgage REITs",
+  "desc": "REITs that own mortgages and mortgage-backed securities instead of property."
+ },
+ {
+  "code": "4030",
+  "name": "Insurance",
+  "desc": "Companies that take on risk for a premium, and those that broker it."
+ },
+ {
+  "code": "403010",
+  "name": "Insurance",
+  "desc": "Five kinds of insurance business."
+ },
+ {
+  "code": "40301010",
+  "name": "Insurance Brokers",
+  "desc": "Intermediaries that place insurance for clients and earn commissions without taking underwriting risk."
+ },
+ {
+  "code": "40301020",
+  "name": "Life & Health Insurance",
+  "desc": "Life insurance, annuities and supplemental health coverage."
+ },
+ {
+  "code": "40301030",
+  "name": "Multi-line Insurance",
+  "desc": "Insurers with significant life and property-casualty businesses."
+ },
+ {
+  "code": "40301040",
+  "name": "Property & Casualty Insurance",
+  "desc": "Home, auto, commercial property and liability insurance."
+ },
+ {
+  "code": "40301050",
+  "name": "Reinsurance",
+  "desc": "Insurers that insure other insurers."
+ },
+ {
+  "code": "45",
+  "name": "Information Technology",
+  "desc": "Companies that make software, computers, networking gear and chips, and the services that run them.",
+  "drivers": [
+   "Corporate IT budgets",
+   "Product and innovation cycles",
+   "The semiconductor inventory cycle",
+   "Cloud and AI infrastructure spending"
+  ],
+  "examples": [
+   "Apple",
+   "Microsoft",
+   "Nvidia",
+   "Broadcom",
+   "Oracle"
+  ],
+  "note": "Alphabet and Meta are not here; they moved to Communication Services in 2018. Payment companies left for Financials in 2023."
+ },
+ {
+  "code": "4510",
+  "name": "Software & Services",
+  "desc": "Code, and the services built around it."
+ },
+ {
+  "code": "451020",
+  "name": "IT Services",
+  "desc": "Help with building, running and hosting technology."
+ },
+ {
+  "code": "45102010",
+  "name": "IT Consulting & Other Services",
+  "desc": "IT consulting, systems integration and IT outsourcing."
+ },
+ {
+  "code": "45102030",
+  "name": "Internet Services & Infrastructure",
+  "desc": "Cloud and data-center services, web hosting, domain registration and content delivery networks."
+ },
+ {
+  "code": "451030",
+  "name": "Software",
+  "desc": "Licensed and subscription software."
+ },
+ {
+  "code": "45103010",
+  "name": "Application Software",
+  "desc": "Software for business or consumer tasks: CRM, ERP, design, accounting, collaboration."
+ },
+ {
+  "code": "45103020",
+  "name": "Systems Software",
+  "desc": "Operating systems, databases, security and infrastructure software."
+ },
+ {
+  "code": "4520",
+  "name": "Technology Hardware & Equipment",
+  "desc": "Physical technology: devices, networking gear and electronic components."
+ },
+ {
+  "code": "452010",
+  "name": "Communications Equipment",
+  "desc": "Gear that carries data."
+ },
+ {
+  "code": "45201020",
+  "name": "Communications Equipment",
+  "desc": "Routers, switches, wireless and telecom equipment."
+ },
+ {
+  "code": "452020",
+  "name": "Technology Hardware, Storage & Peripherals",
+  "desc": "Computers and devices."
+ },
+ {
+  "code": "45202030",
+  "name": "Technology Hardware, Storage & Peripherals",
+  "desc": "Smartphones, PCs, servers, storage devices and printers."
+ },
+ {
+  "code": "452030",
+  "name": "Electronic Equipment, Instruments & Components",
+  "desc": "The parts inside, the instruments that test them, and the firms that assemble them."
+ },
+ {
+  "code": "45203010",
+  "name": "Electronic Equipment & Instruments",
+  "desc": "Test and measurement instruments and other electronic equipment."
+ },
+ {
+  "code": "45203015",
+  "name": "Electronic Components",
+  "desc": "Passive components, connectors, displays and sensors."
+ },
+ {
+  "code": "45203020",
+  "name": "Electronic Manufacturing Services",
+  "desc": "Contract manufacturers that assemble electronics for other brands."
+ },
+ {
+  "code": "45203030",
+  "name": "Technology Distributors",
+  "desc": "Distributors of technology products and components."
+ },
+ {
+  "code": "4530",
+  "name": "Semiconductors & Semiconductor Equipment",
+  "desc": "Chips, and the machines and materials used to make them."
+ },
+ {
+  "code": "453010",
+  "name": "Semiconductors & Semiconductor Equipment",
+  "desc": "The single industry in this group."
+ },
+ {
+  "code": "45301010",
+  "name": "Semiconductor Materials & Equipment",
+  "desc": "Makers of chipmaking tools and materials such as lithography systems, deposition equipment and wafers."
+ },
+ {
+  "code": "45301020",
+  "name": "Semiconductors",
+  "desc": "Chip designers and manufacturers, including foundries.",
+  "note": "Solar cell and module makers are classified here too."
+ },
+ {
+  "code": "50",
+  "name": "Communication Services",
+  "desc": "Companies that connect people and capture their attention: telecom carriers, media, entertainment and online platforms.",
+  "drivers": [
+   "Advertising spending",
+   "Subscriber growth and churn",
+   "Content costs",
+   "Network investment and spectrum"
+  ],
+  "examples": [
+   "Alphabet",
+   "Meta Platforms",
+   "Netflix",
+   "Verizon",
+   "Walt Disney"
+  ],
+  "note": "Created in 2018 by widening the old Telecommunication Services sector to take in media companies from Consumer Discretionary and internet platforms from Information Technology."
+ },
+ {
+  "code": "5010",
+  "name": "Telecommunication Services",
+  "desc": "Carriers that run voice and data networks."
+ },
+ {
+  "code": "501010",
+  "name": "Diversified Telecommunication Services",
+  "desc": "Fixed-line and broadband carriers."
+ },
+ {
+  "code": "50101010",
+  "name": "Alternative Carriers",
+  "desc": "Newer or niche carriers such as fiber network operators and satellite communications."
+ },
+ {
+  "code": "50101020",
+  "name": "Integrated Telecommunication Services",
+  "desc": "Incumbent carriers offering fixed-line, broadband and often wireless service."
+ },
+ {
+  "code": "501020",
+  "name": "Wireless Telecommunication Services",
+  "desc": "Mobile networks."
+ },
+ {
+  "code": "50102010",
+  "name": "Wireless Telecommunication Services",
+  "desc": "Mobile carriers whose business is mainly wireless."
+ },
+ {
+  "code": "5020",
+  "name": "Media & Entertainment",
+  "desc": "Advertising, broadcasting, publishing, films, games and online platforms."
+ },
+ {
+  "code": "502010",
+  "name": "Media",
+  "desc": "Traditional media and advertising."
+ },
+ {
+  "code": "50201010",
+  "name": "Advertising",
+  "desc": "Advertising agencies and marketing services."
+ },
+ {
+  "code": "50201020",
+  "name": "Broadcasting",
+  "desc": "Television and radio broadcasters."
+ },
+ {
+  "code": "50201030",
+  "name": "Cable & Satellite",
+  "desc": "Cable and satellite TV networks and operators."
+ },
+ {
+  "code": "50201040",
+  "name": "Publishing",
+  "desc": "Newspapers, magazines, books and digital publishing."
+ },
+ {
+  "code": "502020",
+  "name": "Entertainment",
+  "desc": "Films, music, streaming and games."
+ },
+ {
+  "code": "50202010",
+  "name": "Movies & Entertainment",
+  "desc": "Film and TV studios, streaming services, music labels and live entertainment."
+ },
+ {
+  "code": "50202020",
+  "name": "Interactive Home Entertainment",
+  "desc": "Video game publishers and developers."
+ },
+ {
+  "code": "502030",
+  "name": "Interactive Media & Services",
+  "desc": "Online platforms."
+ },
+ {
+  "code": "50203010",
+  "name": "Interactive Media & Services",
+  "desc": "Search engines, social networks and other online platforms that earn mainly from advertising."
+ },
+ {
+  "code": "55",
+  "name": "Utilities",
+  "desc": "Companies that generate and deliver electricity, gas and water.",
+  "drivers": [
+   "Regulated rates of return",
+   "Interest rates (the sector is capital-heavy and bond-like)",
+   "Electricity demand growth, including data centers",
+   "Weather and fuel costs"
+  ],
+  "examples": [
+   "NextEra Energy",
+   "Southern Company",
+   "Duke Energy",
+   "Constellation Energy",
+   "National Grid"
+  ]
+ },
+ {
+  "code": "5510",
+  "name": "Utilities",
+  "desc": "One industry group with five industries, split by what is delivered and whether it is regulated."
+ },
+ {
+  "code": "551010",
+  "name": "Electric Utilities",
+  "desc": "Regulated electricity."
+ },
+ {
+  "code": "55101010",
+  "name": "Electric Utilities",
+  "desc": "Companies that generate, transmit and distribute electricity, mostly under regulation."
+ },
+ {
+  "code": "551020",
+  "name": "Gas Utilities",
+  "desc": "Regulated gas."
+ },
+ {
+  "code": "55102010",
+  "name": "Gas Utilities",
+  "desc": "Companies that distribute natural gas to homes and businesses."
+ },
+ {
+  "code": "551030",
+  "name": "Multi-Utilities",
+  "desc": "More than one service."
+ },
+ {
+  "code": "55103010",
+  "name": "Multi-Utilities",
+  "desc": "Utilities with significant operations in more than one of electricity, gas and water."
+ },
+ {
+  "code": "551040",
+  "name": "Water Utilities",
+  "desc": "Water and wastewater."
+ },
+ {
+  "code": "55104010",
+  "name": "Water Utilities",
+  "desc": "Companies that supply water and treat wastewater."
+ },
+ {
+  "code": "551050",
+  "name": "Independent Power and Renewable Electricity Producers",
+  "desc": "Generators that sell into markets rather than to captive customers."
+ },
+ {
+  "code": "55105010",
+  "name": "Independent Power Producers & Energy Traders",
+  "desc": "Unregulated generators selling power into wholesale markets, and energy traders."
+ },
+ {
+  "code": "55105020",
+  "name": "Renewable Electricity",
+  "desc": "Generators producing mainly from wind, solar, hydro and other renewables."
+ },
+ {
+  "code": "60",
+  "name": "Real Estate",
+  "desc": "Companies that own, develop and manage property, most of them structured as real estate investment trusts (REITs).",
+  "drivers": [
+   "Interest rates and cap rates",
+   "Occupancy and rent growth",
+   "Supply pipelines in each property type",
+   "Credit availability"
+  ],
+  "examples": [
+   "Prologis",
+   "American Tower",
+   "Equinix",
+   "Simon Property Group",
+   "CBRE Group"
+  ],
+  "note": "Split out of Financials in 2016 as the eleventh sector. Mortgage REITs stayed behind in Financials."
+ },
+ {
+  "code": "6010",
+  "name": "Equity Real Estate Investment Trusts (REITs)",
+  "desc": "REITs that own and operate property, grouped by the type of property they hold."
+ },
+ {
+  "code": "601010",
+  "name": "Diversified REITs",
+  "desc": "Several property types."
+ },
+ {
+  "code": "60101010",
+  "name": "Diversified REITs",
+  "desc": "REITs that own a mix of property types with no single one dominant."
+ },
+ {
+  "code": "601025",
+  "name": "Industrial REITs",
+  "desc": "Warehouses and logistics."
+ },
+ {
+  "code": "60102510",
+  "name": "Industrial REITs",
+  "desc": "Owners of warehouses, distribution centers and light industrial property."
+ },
+ {
+  "code": "601030",
+  "name": "Hotel & Resort REITs",
+  "desc": "Lodging."
+ },
+ {
+  "code": "60103010",
+  "name": "Hotel & Resort REITs",
+  "desc": "Owners of hotels and resorts."
+ },
+ {
+  "code": "601040",
+  "name": "Office REITs",
+  "desc": "Offices."
+ },
+ {
+  "code": "60104010",
+  "name": "Office REITs",
+  "desc": "Owners of office buildings."
+ },
+ {
+  "code": "601050",
+  "name": "Health Care REITs",
+  "desc": "Medical property."
+ },
+ {
+  "code": "60105010",
+  "name": "Health Care REITs",
+  "desc": "Owners of senior housing, medical office buildings and hospitals."
+ },
+ {
+  "code": "601060",
+  "name": "Residential REITs",
+  "desc": "Homes for rent."
+ },
+ {
+  "code": "60106010",
+  "name": "Multi-Family Residential REITs",
+  "desc": "Owners of apartment buildings."
+ },
+ {
+  "code": "60106020",
+  "name": "Single-Family Residential REITs",
+  "desc": "Owners of single-family rental homes and manufactured housing communities."
+ },
+ {
+  "code": "601070",
+  "name": "Retail REITs",
+  "desc": "Shopping property."
+ },
+ {
+  "code": "60107010",
+  "name": "Retail REITs",
+  "desc": "Owners of malls, shopping centers and free-standing retail property."
+ },
+ {
+  "code": "601080",
+  "name": "Specialized REITs",
+  "desc": "Property types with their own economics."
+ },
+ {
+  "code": "60108010",
+  "name": "Other Specialized REITs",
+  "desc": "Owners of specialized property without its own category, such as billboards, farmland and casinos."
+ },
+ {
+  "code": "60108020",
+  "name": "Self-Storage REITs",
+  "desc": "Owners of self-storage facilities."
+ },
+ {
+  "code": "60108030",
+  "name": "Telecom Tower REITs",
+  "desc": "Owners of cell towers and related wireless infrastructure."
+ },
+ {
+  "code": "60108040",
+  "name": "Timber REITs",
+  "desc": "Owners of timberland."
+ },
+ {
+  "code": "60108050",
+  "name": "Data Center REITs",
+  "desc": "Owners of data centers."
+ },
+ {
+  "code": "6020",
+  "name": "Real Estate Management & Development",
+  "desc": "Real estate companies that are not REITs: developers, operators and service firms."
+ },
+ {
+  "code": "602010",
+  "name": "Real Estate Management & Development",
+  "desc": "The single industry in this group."
+ },
+ {
+  "code": "60201010",
+  "name": "Diversified Real Estate Activities",
+  "desc": "Companies engaged in a mix of real estate activities."
+ },
+ {
+  "code": "60201020",
+  "name": "Real Estate Operating Companies",
+  "desc": "Companies that own and operate property but are not structured as REITs."
+ },
+ {
+  "code": "60201030",
+  "name": "Real Estate Development",
+  "desc": "Developers that build property to sell."
+ },
+ {
+  "code": "60201040",
+  "name": "Real Estate Services",
+  "desc": "Brokers, property managers, appraisers and other real estate service providers."
+ }
+]

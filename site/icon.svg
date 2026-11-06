@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100" role="img" aria-label="GICS Field Guide">
+  <rect width="100" height="100" rx="22" fill="#17202a"/>
+  <rect x="18" y="22" width="64" height="12" rx="3" fill="#e4e9ee"/>
+  <rect x="28" y="40" width="54" height="10" rx="3" fill="#7fb2ec"/>
+  <rect x="38" y="56" width="44" height="9" rx="3" fill="#f0a35e"/>
+  <rect x="48" y="71" width="34" height="8" rx="3" fill="#8fd19e"/>
+</svg>
