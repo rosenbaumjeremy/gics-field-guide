@@ -7,7 +7,8 @@ const SVGNS = "http://www.w3.org/2000/svg";
 const SHORT = {10:"Energy",15:"Materials",20:"Industrials",25:"Cons. Discretionary",30:"Cons. Staples",35:"Health Care",40:"Financials",45:"Info. Technology",50:"Comm. Services",55:"Utilities",60:"Real Estate"};
 const svgEl = (tag, attrs = {}, text) => {
   const e = document.createElementNS(SVGNS, tag);
-  for (const [k, v] of Object.entries(attrs)) e.setAttribute(k, v);
+  // hue goes through the CSSOM: the site's CSP blocks inline style="" attributes
+  for (const [k, v] of Object.entries(attrs)) k === "hue" ? e.style.setProperty("--h", v) : e.setAttribute(k, v);
   if (text != null) e.textContent = text;
   return e;
 };
@@ -49,7 +50,7 @@ function weightChart(focus) {
     const back = rows.map((r, j) => `${X(r.x).toFixed(1)},${Y(base[j]).toFixed(1)}`).reverse();
     const d = `M${fwd.join("L")}L${back.join("L")}Z`;
     if (all) {
-      const p = svgEl("path", { d, class: "band-c", "data-h": "", style: `--h:${HUES[code]}` });
+      const p = svgEl("path", { d, class: "band-c", "data-h": "", hue: HUES[code] });
       p.append(svgEl("title", {}, N[code].name));
       svg.append(p);
     } else svg.append(svgEl("path", { d, class: code === focus ? "band-f" : (i % 2 ? "band-a" : "band-b") }));
@@ -62,7 +63,7 @@ function weightChart(focus) {
   labels.sort((a, b) => (b.focus - a.focus) || (b.v - a.v)).forEach(l => {
     if (narrow || (!l.focus && (l.v < 3 || placed.some(p => Math.abs(p.y - l.y) < 13)))) return;
     placed.push(l);
-    svg.append(svgEl("text", all ? { x: VW - mr + 8, y: l.y + 4, class: "wlabel c", "data-h": "", style: `--h:${HUES[l.code]}` }
+    svg.append(svgEl("text", all ? { x: VW - mr + 8, y: l.y + 4, class: "wlabel c", "data-h": "", hue: HUES[l.code] }
       : { x: VW - mr + 8, y: l.y + 4, class: "wlabel" + (l.focus ? " on" : "") }, `${SHORT[l.code]} ${pct(l.v)}`));
   });
   // the stretch with no data points
