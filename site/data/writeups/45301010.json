@@ -1,0 +1,184 @@
+{
+  "code": "45301010",
+  "added": "2026-11-07",
+  "asOf": "2026-11-06",
+  "summary": "Chip equipment is in a steep, AI-and-memory-led upcycle. SEMI's July forecast has 2026 equipment sales at about $165 billion, up 23% [2], and the latest earnings were records: Lam revenue $8.22 billion [5], KLA $4.14 billion [7], ASML net sales EUR 11.7 billion [8]. Lam talks of wafer fab equipment above $200 billion in 2027 [5], while ASML says planned 2027-28 supply will not meet demand [8]. Supply limits and China controls are the main constraints [5][18]. We found no sourced forward P/E for this sub-industry; the S&P 500 trades at 17.7 times [15].",
+  "metrics": [
+    {"label": "Global chip sales, Q3 2026", "value": "$517.7B", "context": "Up 24.1% on Q2; the customer-spending backdrop for tools; released 3 Nov 2026", "source": 1},
+    {"label": "Total equipment sales forecast, 2026", "value": "~$165B", "context": "SEMI mid-year forecast, up 23%; wafer fab equipment $143.9B; 14 Jul 2026", "source": 2},
+    {"label": "Equipment billings, Q2 2026", "value": "$40.53B", "context": "Up 23% y/y and 11% q/q; SEMI, released 3 Sep 2026", "source": 3},
+    {"label": "Lam Research quarterly revenue", "value": "$8.22B", "context": "Sept 2026 quarter, up 54% y/y; operating margin 40.2%; China 35% of revenue", "source": 5},
+    {"label": "KLA operating margin (our calculation)", "value": "~45%", "context": "Sept 2026 quarter revenue $4.14B, free cash flow $1.34B; margin derived from the release, not reported", "source": 7},
+    {"label": "ASML Q3 2026 gross margin", "value": "57.5%", "context": "Net sales EUR 11.7B; 2026 guide EUR 44-45B; 14 Oct 2026", "source": 8},
+    {"label": "After-tax ROIC, US semiconductor equipment", "value": "45.31%", "context": "Damodaran, 31 firms, January 2026 data", "source": 12},
+    {"label": "EV/EBITDA, US semiconductor equipment", "value": "24.7x", "context": "Damodaran, positive-EBITDA firms, January 2026 data; before the 2026 rally", "source": 13}
+  ],
+  "watch": [
+    "Lam says clean-room space and component supply may limit how much 2027 demand the industry can serve, and some December-quarter shipments slipped into March [5].",
+    "The MATCH Act would push allies to match U.S. tool controls on China or face unilateral U.S. action, and it covers DUV immersion lithography [18].",
+    "China is a shrinking but large share of sales: 35% of Lam revenue in the September quarter, with a significant fall expected in December [5], and about 20% of ASML's 2026 sales [9].",
+    "Applied Materials guided its October quarter to $10.25 billion of revenue, and results land after this brief's data cut-off [6].",
+    "Pricing increases at ASML start to contribute in 2027, while customers asking to order for 2029 and 2030 show how far ahead demand is booking [9]."
+  ],
+  "bellwethers": ["Applied Materials", "Lam Research", "KLA", "ASML", "Teradyne", "Tokyo Electron"],
+  "basics": {
+    "intro": "These companies make the machines, and some of the materials, that other companies use to build chips. Customers are chipmakers such as foundries, memory makers and logic producers, who buy tools to add capacity or move to newer processes. Revenue comes from selling tools, then from servicing, spare parts and upgrades on the installed base. GICS also puts test equipment makers here, such as Teradyne. The chip designers and chipmakers themselves sit next door, in Semiconductors.",
+    "products": [
+      {"name": "Lithography", "what": "Machines that print circuit patterns onto silicon wafers using light. EUV uses very short wavelengths for the finest patterns; DUV is the older, cheaper generation.", "examples": "ASML EUV and DUV immersion systems"},
+      {"name": "Deposition and etch", "what": "Tools that lay down thin films of material on a wafer and then carve away parts of them to form transistors and wiring. These are the largest tool categories by spending.", "examples": "Applied Materials deposition, Lam Research etch and deposition"},
+      {"name": "Process control and inspection", "what": "Systems that measure and inspect wafers during manufacturing to find defects early, which protects yield (the share of good chips per wafer).", "examples": "KLA inspection and metrology"},
+      {"name": "Test equipment", "what": "Machines that check finished wafers and packaged chips work before they ship. Complex AI and memory chips need longer, more expensive testing.", "examples": "Teradyne semiconductor test systems"},
+      {"name": "Services and spares", "what": "Maintenance, parts and upgrades sold to fabs that already own the tools. This revenue is steadier than new-tool sales because it follows the installed base.", "examples": "Applied Global Services, Lam customer support, ASML Installed Base Management"},
+      {"name": "Packaging equipment", "what": "Tools that assemble chips into packages, including stacking memory dies for AI accelerators. It is a smaller but growing part of equipment spending.", "examples": "Applied Materials advanced packaging tools"}
+    ],
+    "terms": [
+      {"term": "WFE", "meaning": "Wafer fab equipment: tools used inside the factory to process wafers. It is the main measure of chipmaker equipment spending and excludes test and packaging tools."},
+      {"term": "Capex", "meaning": "Capital expenditure by chipmakers on new fabs and tools. It is the customer budget that becomes equipment revenue."},
+      {"term": "EUV", "meaning": "Extreme ultraviolet lithography, needed for the smallest chip features. ASML is the only supplier."},
+      {"term": "DUV", "meaning": "Deep ultraviolet lithography, the older generation still used for most layers of a chip."},
+      {"term": "Node", "meaning": "A generation of chip manufacturing process, loosely named by feature size. Moving to a new node usually needs more tool steps."},
+      {"term": "Installed base", "meaning": "All the tools a vendor has already sold and that still run. It generates service and upgrade revenue."},
+      {"term": "Backlog / bookings", "meaning": "Orders received but not yet delivered. Because tools take months to build, orders signal future revenue, though some vendors do not disclose them."},
+      {"term": "Process control", "meaning": "Inspection and measurement of wafers during manufacturing. It matters more as chips get more complex."},
+      {"term": "HBM", "meaning": "High-bandwidth memory: DRAM chips stacked in layers beside an AI accelerator. It needs extra tool steps for stacking and packaging."},
+      {"term": "Entity List", "meaning": "A U.S. list of foreign companies that need a licence to receive U.S. technology. It can stop tool shipments to named customers."},
+      {"term": "Leading-edge vs mature node", "meaning": "Leading-edge means the newest, smallest processes; mature nodes are older processes used in many everyday chips. They respond to different customers and policies."},
+      {"term": "Book-to-bill", "meaning": "Orders divided by shipments over a period. Above one suggests demand is building ahead of revenue."}
+    ],
+    "drivers": [
+      {"name": "Chipmaker capex", "how": "Tool revenue follows what foundries and memory makers decide to spend. Their budgets follow their own profits and demand forecasts, so equipment sales swing more than chip sales."},
+      {"name": "Technology transitions", "how": "Each new node, 3D memory layer or advanced package adds process steps, so the same wafer volume needs more tools. This lifts equipment demand even when wafer output is flat."},
+      {"name": "Memory pricing cycle", "how": "Memory makers cut capex when prices fall and raise it when prices rise, so DRAM and NAND swings reach equipment orders with a lag."},
+      {"name": "Export controls", "how": "U.S. and allied rules decide which tools can go to which Chinese customers, which changes the share of revenue from China and can strand shipments."},
+      {"name": "Supply constraints", "how": "Tools are built from scarce components and need clean-room space. When demand outruns supply, deliveries slip and revenue shifts between quarters."},
+      {"name": "Installed-base services", "how": "As the number of tools in use grows, service and spares revenue grows with it and cushions downturns in new-tool sales."}
+    ]
+  },
+  "fundamentals": {
+    "business": [
+      "Revenue comes from selling new tools, usually priced in the millions of dollars each, and from services, spares and upgrades on tools already installed. Applied Materials reported $7.04 billion from Semiconductor Systems and $1.78 billion from Applied Global Services in its July 2026 quarter [6].",
+      "Customers are a small group of chipmakers: foundries, DRAM and NAND makers and logic producers. That concentration matters: Lam's systems revenue was split 46% memory, 46% foundry and 8% logic and other in the September 2026 quarter [5]. Test and packaging customers add outsourced assembly firms.",
+      "The main costs are research and development, components bought from suppliers, and factory labour. Applied Materials spent $1.1 billion on research, development and engineering in its July 2026 quarter, about 12% of revenue (our calculation from the release) [6].",
+      "Pricing power comes from technology leadership and switching costs. ASML says price increases begin to contribute in 2027 and take full effect from 2028 because supply is short [9]. Where a vendor has no unique tool, customers can negotiate harder, and Chinese customers have been buying mature-node tools in volume.",
+      "The main assets are intellectual property, inventory, and the installed base of tools that generate service revenue. Liabilities include customer prepayments: ASML's cash rose to EUR 12.7 billion at the end of Q3 2026 from EUR 7.6 billion in Q2, and its free cash flow reflected order momentum and down payments [8][9]. Applied Materials had $7.04 billion of cash and $6.54 billion of debt on 26 July 2026 [6].",
+      "The business is capital-light compared with its chipmaker customers but heavy on research. Damodaran's January 2026 data show net capital expenditure of 4.14% of sales for 31 U.S. semiconductor equipment firms [14]. Our read is that the real intensity is intellectual: R&D and the engineering time needed to qualify tools at a customer's fab."
+    ],
+    "overview": [
+      "SEMI's July 2026 forecast puts total equipment sales by manufacturers at about $165 billion in 2026, up 23%, with wafer fab equipment at $143.9 billion, and a 2028 figure of $229 billion [2]. Lam's own view of 2026 wafer fab equipment is in the mid-$150 billion range [5]; the two differ in how they define the market, and we do not reconcile them here.",
+      "The segments are wafer fab equipment, test, and assembly and packaging. SEMI's July forecast has test equipment up 31% to about $15 billion and assembly and packaging up 9% to about $6 billion [2]. Inside wafer fab equipment the main groups are lithography, deposition, etch and process control.",
+      "In the value chain, suppliers of components and subsystems feed the tool makers, who sell to chipmakers, who sell chips to designers and device makers. SEMI's 300mm fab outlook counts $133 billion of fab equipment spending in 2026 and $151 billion in 2027 [4].",
+      "The industry has moved from a pandemic-era boom through a pause to a new cycle driven by AI chips and high-bandwidth memory. Quarterly billings reached $40.53 billion in Q2 2026, up 23% from a year earlier [3]. Lam says leading growth is coming from DRAM, then leading-edge logic and NAND [5].",
+      "Spending is concentrated in Asia. SEMI expects China, Taiwan and South Korea to remain the largest equipment markets through 2028 [2], and the 300mm outlook adds the Americas as a substantial spender, citing projects such as TSMC in Arizona and Intel in Ohio and Arizona [4]. Production of the tools is concentrated in the U.S., the Netherlands and Japan."
+    ],
+    "competition": [
+      "The group is small. A handful of large vendors dominate: Applied Materials, Lam Research, KLA, ASML, Tokyo Electron and Teradyne for test. Four of them reported quarterly revenue between $4.14 billion (KLA) and EUR 11.7 billion (ASML) in their latest quarters [5][6][7][8].",
+      "ASML is the leader in lithography, and its EUV systems have no commercial alternative; it expects about 65 low-NA EUV systems in 2026, against 44 in 2025 [9]. We did not find a sourced market-share table for the other categories, so we do not quote shares.",
+      "The industry is consolidated at the top, with each major vendor strong in specific process steps rather than competing across the board. Applied Materials is broad, Lam is concentrated in etch and deposition, KLA in process control and ASML in lithography [5][6][7][8].",
+      "Barriers to entry are very high: decades of accumulated process know-how, customers who qualify a tool for a specific manufacturing step, and large research budgets. Applied Materials alone spent $3.06 billion on research, development and engineering in nine months [6].",
+      "Economies of scale appear in research cost spread over a larger installed base and in service revenue. KLA's roughly 62% gross margin on revenue of $4.14 billion (our calculation) shows what scale in a niche can yield [7].",
+      "Products are differentiated, not commoditized, at the leading edge: EUV, advanced etch and high-end inspection. Mature-node tools face more competition, including from Chinese domestic suppliers, though we did not find a sourced figure for their share.",
+      "Bargaining power is mixed. Customers are few and large, but at the leading edge suppliers hold the stronger hand: ASML says its planned 2027 and 2028 supply will not fully meet demand and customers want to order for 2029 and 2030 [8]. Lam cites component shortages and clean-room availability as limits [5]."
+    ],
+    "drivers": [
+      "Revenue growth follows chipmaker capex, which follows demand for AI chips and memory. Global chip sales were $517.7 billion in Q3 2026, up 24.1% on the quarter [1], and equipment billings rose 23% year on year in Q2 [3].",
+      "Operating margins depend on volume (operating leverage), product mix and service share. Lam's operating margin passed 40% for the first time in the September 2026 quarter, at 40.2% [5]; Applied Materials was 34.0% non-GAAP in its July quarter [6].",
+      "Key cost variables are research spending, component and subsystem costs, and logistics. Lam says component shortages pushed some December-quarter shipments into March [5].",
+      "Interest-rate sensitivity is indirect: higher borrowing costs weigh on chipmakers' willingness to build fabs, but current orders look driven more by AI budgets than by credit conditions. We did not find a sourced reading on rates for this sub-industry, so this is our judgment.",
+      "Inflation, GDP and commodity prices matter less than chip demand and policy. Trade policy matters more, through the share of sales that can go to China [5][6][18].",
+      "The industry is cyclical, with a secular growth layer from rising process complexity. Damodaran's data show net capex of 4.14% of sales [14], and SEMI's forecast of $229 billion in 2028 against $165 billion in 2026 implies growth continuing [2]."
+    ],
+    "financials": [
+      "Growth is currently very fast. Lam's September 2026 revenue was up 54% from a year earlier [5], KLA's up about 29% [7], Applied Materials' up 25% in the July quarter [6], and Teradyne's up 70% in its September quarter [10].",
+      "Damodaran's January 2026 data for 31 U.S. semiconductor equipment firms show a gross margin of 46.32% and a net margin of 21.32% [11]. Current margins at the leaders are higher: Lam 52.4% gross [5], ASML 57.5% [8], Teradyne 59.1% [10].",
+      "Operating margins: Damodaran shows 26.17% pre-tax and 23.56% after-tax unadjusted [11]. Lam reported 40.2% [5] and Applied Materials 34.0% non-GAAP [6] in their latest quarters.",
+      "Damodaran's January 2026 after-tax ROIC for the group is 45.31% [12], well above typical industries, a sign of high returns on a small invested capital base. Dataset footers disagree about its update date (header says January 2026), so treat as indicative.",
+      "Leverage is modest. Applied Materials had $6.54 billion of debt against $7.04 billion of cash [6]; Teradyne reported no short-term debt and $460.7 million of cash [10].",
+      "Free cash flow is strong: Lam $3.24 billion in the September 2026 quarter [5], KLA $1.34 billion [7], and Teradyne about $227 million by our calculation [10]. Capex is light: Applied Materials spent $707 million in its July quarter [6], and Damodaran shows net capex at 4.14% of sales [14].",
+      "Damodaran's EV/EBITDA for the group was 24.74 times (positive-EBITDA firms) and EV/EBIT 28.81 times on January 2026 data [13]. Prices have moved since; SOXX, a broader semiconductor fund, showed a P/E of 41.57 on 5 Nov 2026 [17]."
+    ],
+    "risks": [
+      "Regulation is the largest policy risk. The MATCH Act would require allies to align on tool controls within 150 days or face unilateral U.S. action, and covers DUV immersion lithography [18]. It was introduced in April 2026; we did not confirm its current status.",
+      "Technology disruption is mostly an opportunity: AI chips and HBM add process steps. The risk is the reverse, an efficiency shift that lowers chip volume needs. We found no sourced evidence of this happening.",
+      "Demographics hardly matter for the industry directly, and only through end demand for electronics. Our read is that the AI buildout matters far more than population trends.",
+      "Changing consumer behavior is a second-order factor. Tool demand follows data-centre and device chip orders, not consumer choices directly. We did not find a sourced figure for consumer-driven demand.",
+      "New competitors are a risk mainly in mature-node tools from China, where policy is pushing domestic supply. Customers in China bought heavily: they were 35% of Lam's September 2026 revenue [5], though ASML expects China at about 20% of 2026 sales [9].",
+      "Geopolitical and supply-chain risks are material: Lam cites component shortages and clean-room availability [5], and China made up about 30% of ASML's sales last year [18]. Taiwan and Korea concentrate customer spending [2].",
+      "Substitutes are limited for the main tools; there is no commercial alternative to EUV for the smallest features [9]. Alternative architectures such as chiplets and advanced packaging change the tool mix but raise packaging spend [6]."
+    ],
+    "horizon": {
+      "opportunities": [
+        "SEMI's mid-year forecast points to equipment sales of about $229 billion in 2028, from about $165 billion in 2026 [2].",
+        "Lam's preliminary view of 2027 wafer fab equipment is above $200 billion, led by DRAM, then leading-edge logic and NAND [5].",
+        "SEMI counts $228 billion of logic and $175 billion of memory fab equipment spending cumulatively over 2027-2029 [4].",
+        "ASML sees customers wanting to order for 2029 and 2030 and expects pricing to contribute from 2027 [9]."
+      ],
+      "threats": [
+        "Tool supply is constrained by components and clean-room space, which could push revenue out [5].",
+        "The MATCH Act and similar rules could cut China sales, which were 35% of Lam's latest quarter [5][18].",
+        "A pause in AI-related chipmaker budgets would hit memory and leading-edge orders first; we found no sourced sign of one yet [1]."
+      ],
+      "assessment": "Over the next three to five years we think the sub-industry's direction is set by whether chipmakers keep building for AI. Current signals are strong: record results across Lam, KLA, ASML and Applied Materials [5][6][7][8], forecasts of rising spending through 2028 [2], and suppliers who say they cannot meet planned demand [8]. The offsets are supply limits, policy on China and the cyclical habit of overbuilding. Our read is that growth is likely to stay positive but uneven, with lumpy quarters from shipment timing, and that a year of lower spending is the normal pattern after a surge like this one."
+    }
+  },
+  "sections": [
+    {"id": "macro", "paragraphs": [
+      "Chip equipment sits at the front of the semiconductor cycle, and the cycle is in an extraordinary upswing. The Semiconductor Industry Association reported on 3 Nov 2026 that global chip sales reached $517.7 billion in the third quarter, up 24.1% on the second, with September sales up 146.8% from a year earlier [1]. Equipment follows that spending with a lag: SEMI said Q2 2026 equipment billings were $40.53 billion, up 23% year on year and 11% on the quarter [3].",
+      "Broader markets are not stretched. FactSet put the S&P 500 forward 12-month P/E at 17.7 on 6 Nov 2026, below its 5-year average of 19.8 and 10-year average of 19.1, and estimated calendar 2026 earnings growth at 33.3% [15]. Interest rates and currency matter less here than customer budgets, and we did not find a sourced reading of policy rates for this brief. Our read is that the risk to the cycle is not recession but a pause in AI-related chip spending, which would reach tool orders after a delay. Supply is also a macro limit: Lam says component shortages moved some December-quarter shipments into March [5]."
+    ]},
+    {"id": "demand", "paragraphs": [
+      "Structural demand rests on chips getting more complex and on AI infrastructure. SEMI's mid-year forecast has total equipment sales at about $165 billion in 2026, up 23%, with wafer fab equipment at $143.9 billion and a 2028 figure of $229 billion [2]. SEMI's 300mm outlook projects fab equipment spending of $133 billion in 2026 and $151 billion in 2027 [4]. Lam's preliminary 2027 view is above $200 billion of wafer fab equipment, led by DRAM [5]; the definitions of these totals differ, so we compare direction, not levels.",
+      "Mix matters. Over 2027-2029 SEMI counts $228 billion of logic and micro spending, driven mainly by sub-2nm foundry capacity, and $175 billion for memory, of which $111 billion is DRAM and $62 billion 3D NAND [4]. ASML says its 2026 memory system sales will rise about 75% and logic about 10% [9].",
+      "Demand is cyclical and elastic to chipmaker profits, but the pull of AI is long-dated: ASML reports that customers want to order for 2029 and 2030 [8]. Demographics matter only through end-device demand, which we think is far less important than the AI buildout."
+    ]},
+    {"id": "structure", "paragraphs": [
+      "Porter's five forces point to a favourable structure at the top. Rivalry is limited among a few large vendors with different specialties: ASML in lithography, Lam in etch and deposition, KLA in process control, Applied Materials across many steps, and Teradyne in test [5][6][7][8][10]. Threat of new entrants is low because of qualification time and research budgets; Applied Materials spent $3.06 billion on research, development and engineering over nine months [6].",
+      "Buyer power is concentrated but tempered by scarcity: a few chipmakers buy, yet ASML says planned supply for 2027 and 2028 will not meet demand and it is looking to lift 2028 capacity beyond a 30% increase [8]. Supplier power rises when scarce components are the bottleneck, as Lam's comments on shortages show [5]. Substitutes are few: ASML's EUV has no commercial alternative [9].",
+      "We did not find a sourced market-share table across categories. Pricing power looks strongest where products are unique: ASML expects price increases to begin contributing in 2027 and take full effect from 2028 [9]. Moats are technology, installed base and service. Applied Global Services brought in $1.78 billion in its July 2026 quarter [6]. Chinese buyers use mature-node tools heavily, where competition is likelier."
+    ]},
+    {"id": "environment", "paragraphs": [
+      "Policy is the main outside force. U.S. export controls restrict which tools can go to which Chinese chipmakers, and Congress is pushing further. The MATCH Act, introduced in early April 2026, would direct Commerce to identify choke-point equipment, bar sale or servicing at targeted Chinese facilities, and give allies 150 days to strengthen their controls before the U.S. extends its Foreign Direct Product Rule [18]. It covers DUV immersion lithography and names Hua Hong, ChangXin and Yangtze Memory facilities [18]. We did not confirm whether it has passed.",
+      "Exposure to China has been falling but remains large. China was 28% of Applied Materials' July 2026 quarter revenue, against 35% a year earlier [6]. For Lam it was 35% in the September 2026 quarter, up from 26% in June, with a significant decline expected in the December quarter [5]. ASML expects China at roughly 20% of 2026 sales [9], versus about 30% last year [18].",
+      "Technology is largely a tailwind. ASML's High-NA EUV, with Intel having exposed more than one million wafers, and the next low-NA system shipping in small quantities in early 2027, extend its lead [9]. Other PESTEL factors: government subsidy programmes support fab building in the U.S. and elsewhere, as SEMI's 300mm outlook notes for TSMC and Intel projects [4]; supply chains for components are a physical constraint [5]."
+    ]},
+    {"id": "economics", "paragraphs": [
+      "Economics are among the best in the market and have improved. Lam's September 2026 quarter showed revenue of $8.22 billion, gross margin of 52.4%, operating margin of 40.2% and free cash flow of $3.24 billion [5]. ASML's Q3 gross margin was 57.5% on EUR 11.7 billion of sales [8]. Teradyne's was 59.1% on $1.31 billion [10]. KLA's revenue was $4.14 billion and free cash flow $1.34 billion; from the release we calculate a gross margin near 62% and an operating margin near 45% [7].",
+      "Operating leverage explains the pace. Applied Materials grew revenue 25% year on year in its July quarter and non-GAAP EPS 41% [6]. The structural base is strong: Damodaran's January 2026 data for 31 U.S. semiconductor equipment firms show 46.32% gross margin, 21.32% net margin [11] and after-tax ROIC of 45.31% [12], all before the 2026 surge.",
+      "Capital intensity is low for the sellers. Damodaran shows net capex of 4.14% of sales [14], and Applied Materials spent $707 million on capex in a quarter with $9.12 billion of revenue [6]. Cash is returned: KLA repurchased $935.8 million of stock and paid $305.1 million in dividends in the quarter [7]; ASML repurchased about EUR 4.1 billion in Q3 [8]. Teradyne's gross margin eased slightly from 59.8% in Q2 and revenue slipped from $1,329 million [10], so margins are not rising everywhere."
+    ]},
+    {"id": "earnings", "paragraphs": [
+      "Guidance points to a further step up. Applied Materials guided its October quarter to revenue of $10.25 billion plus or minus $0.5 billion and non-GAAP EPS of $4.02 [6]. Lam guided December to $8.6 billion plus or minus $0.4 billion and EPS of $2.33, with operating margin of 40.5% [5]. KLA guided to $4.7 billion and non-GAAP EPS of $1.44 [7]. ASML guided Q4 net sales to EUR 14.2-15.2 billion and 2026 to EUR 44-45 billion [8]. Teradyne guided to $1.25-1.35 billion, flat to slightly down from Q3 [10].",
+      "Management commentary supports 2027: Lam's preliminary view is wafer fab equipment above $200 billion [5], and ASML says planned supply will not meet 2027-2028 demand [8]. Both flag supply limits that could cap how much is delivered [5][8].",
+      "We could not source consensus estimates for this sub-industry or its estimate-revision trend. At the market level, FactSet shows Q3 2026 blended S&P 500 EPS growth of 31.4%, with information technology among the leading sectors and the leaders of positive surprises, and calendar 2026 growth of 33.3% [15]. Our view is that guidance is more informative than consensus here, because shipment timing can move revenue between quarters, and that the differences to watch are supply, not demand."
+    ]},
+    {"id": "valuation", "paragraphs": [
+      "We could not find a sourced forward P/E or free-cash-flow yield for this sub-industry, so we use proxies. Damodaran's January 2026 data for 31 U.S. semiconductor equipment firms show EV/EBITDA of 24.74 times and EV/EBIT of 28.81 times on positive-EBITDA firms [13]. Those are trailing multiples from before the 2026 surge in earnings, so they overstate today's multiple on current earnings; we cannot say by how much.",
+      "The broader market is not expensive on FactSet's measure: the S&P 500 forward P/E was 17.7 on 6 Nov 2026 against 19.8 for the 5-year and 19.1 for the 10-year average [15]. The iShares Semiconductor ETF, SOXX, which is about 84% semiconductors and 16% equipment, showed a P/E of 41.57 on 5 Nov 2026 [17]. That is a trailing-style fund figure for a broader group, not a measure of equipment makers.",
+      "Our read is that the group is priced for the growth the guidance describes, including a 2027 market above $200 billion [5], and that the margin for disappointment is on supply and timing rather than demand. Applied Materials generated $3.04 billion of cash from operations in one quarter [6]; Lam generated $3.24 billion of free cash flow [5]. Without a sourced sub-industry multiple we do not claim a premium or discount to history."
+    ]},
+    {"id": "positioning", "paragraphs": [
+      "Equipment makers are held mostly through semiconductor funds. SMH, a 26-stock fund with $67.25 billion of assets on 5 Nov 2026, held KLA at 4.21%, ASML at 4.45%, Applied Materials at 4.05% and Lam at 3.60%, about 16.3% together (our sum), against 20.47% for Nvidia [16]. SOXX had $37.56 billion of net assets, 15.89% in semiconductor equipment and a year-to-date NAV return of 30.71% on 5 Nov 2026 [17].",
+      "That leaves the group tied to the AI trade through its funds as well as its customers. We did not find sourced fund-flow, short-interest or breadth data for equipment stocks specifically, so we do not draw conclusions on positioning.",
+      "In our view momentum is supported by results and guidance [5][6][7][8], but sentiment is sensitive to policy headlines on China [18] and to any sign that chipmakers are slowing orders. Teradyne is the reminder that strong demand does not mean every quarter rises, with Q3 revenue slightly below Q2 [10]."
+    ]}
+  ],
+  "sources": [
+    {"n": 1, "title": "Global Semiconductor Sales Increase 24.1% from Q2 2026 to Q3 2026", "publisher": "Semiconductor Industry Association", "date": "2026-11-03", "url": "https://www.semiconductors.org/global-semiconductor-sales-increase-24-1-from-q2-2026-to-q3-2026/"},
+    {"n": 2, "title": "Chip equipment sales to reach record $229B by 2028 (SEMI mid-year forecast)", "publisher": "Circuits Assembly", "date": "2026-07-14", "url": "https://circuitsassembly.com/ca/editorial/menu-news/43439-chip-equipment-sales-to-reach-record-229b-by-2028.html"},
+    {"n": 3, "title": "Global Semiconductor Equipment Billings Increased 23% Year-Over-Year in Q2 2026, SEMI Reports", "publisher": "SEMI via Webull", "date": "2026-09-03", "url": "https://www.webull.com/news/15516687510201344"},
+    {"n": 4, "title": "SEMI projects global fab equipment spending will hit $133 billion in 2026 (300mm Fab Outlook)", "publisher": "Machine Herald", "date": "2026-04-07", "url": "https://machineherald-io.pages.dev/article/2026-04/07-semi-projects-global-fab-equipment-spending-will-hit-133-billion-in-2026-as-ai-rewrites-the-scale-of-chip-manufacturing"},
+    {"n": 5, "title": "Transcript: Lam Research Q1 earnings call highlights", "publisher": "MarketBeat", "date": "2026-10-21", "url": "https://www.marketbeat.com/instant-alerts/transcript-lam-research-q1-earnings-call-highlights-2026-10-21/"},
+    {"n": 6, "title": "Applied Materials Announces Third Quarter 2026 Results (Form 8-K exhibit 99.1)", "publisher": "Applied Materials / SEC", "date": "2026-08-13", "url": "https://www.sec.gov/Archives/edgar/data/0000006951/000162828026056699/exhibit991q32026earningsre.htm"},
+    {"n": 7, "title": "KLA Corporation first quarter fiscal 2027 earnings release (Form 8-K exhibit 99.1)", "publisher": "KLA / SEC", "date": "2026-10-28", "url": "https://www.sec.gov/Archives/edgar/data/0000319201/000031920126000032/exhibit991earningsrelease0.htm"},
+    {"n": 8, "title": "ASML Q3 2026 press release and financial results (Form 6-K)", "publisher": "ASML / SEC", "date": "2026-10-14", "url": "https://www.sec.gov/Archives/edgar/data/0000937966/000162828026065813/pressreleasefinancialresul.htm"},
+    {"n": 9, "title": "Transcript: What ASML said on its Q3 earnings call", "publisher": "MarketBeat", "date": "2026-10-14", "url": "https://www.marketbeat.com/instant-alerts/transcript-what-asml-asml-said-on-its-q3-earnings-call-2026-10-14/"},
+    {"n": 10, "title": "Teradyne Reports Third Quarter 2026 Results (Form 8-K exhibit 99.1)", "publisher": "Teradyne / SEC", "date": "2026-10-27", "url": "https://www.sec.gov/Archives/edgar/data/0000097210/000119312526434981/ter-ex99_1.htm"},
+    {"n": 11, "title": "Margins by Sector (US), Semiconductor Equip", "publisher": "Aswath Damodaran, NYU Stern", "date": "2026-01-01", "url": "https://pages.stern.nyu.edu/~adamodar/New_Home_Page/datafile/margin.html"},
+    {"n": 12, "title": "Return on Capital by Sector (US), Semiconductor Equip", "publisher": "Aswath Damodaran, NYU Stern", "date": "2026-01-01", "url": "https://pages.stern.nyu.edu/~adamodar/New_Home_Page/datafile/roc.html"},
+    {"n": 13, "title": "Enterprise Value Multiples by Sector (US), Semiconductor Equip", "publisher": "Aswath Damodaran, NYU Stern", "date": "2026-01-01", "url": "https://pages.stern.nyu.edu/~adamodar/New_Home_Page/datafile/vebitda.html"},
+    {"n": 14, "title": "Capital Expenditures by Sector (US), Semiconductor Equip", "publisher": "Aswath Damodaran, NYU Stern", "date": "2026-01-01", "url": "https://pages.stern.nyu.edu/~adamodar/New_Home_Page/datafile/capex.html"},
+    {"n": 15, "title": "S&P 500 Earnings Season Update: November 6, 2026", "publisher": "FactSet Earnings Insight", "date": "2026-11-06", "url": "https://insight.factset.com/sp-500-earnings-season-update-november-6-2026"},
+    {"n": 16, "title": "VanEck Semiconductor ETF (SMH) holdings", "publisher": "StockAnalysis", "date": "2026-11-05", "url": "https://stockanalysis.com/etf/smh/holdings/"},
+    {"n": 17, "title": "iShares Semiconductor ETF (SOXX)", "publisher": "iShares / BlackRock", "date": "2026-11-05", "url": "https://www.ishares.com/us/products/239705/ishares-phlx-semiconductor-etf"},
+    {"n": 18, "title": "Lawmakers push restrictions on chipmaking equipment exports to China (MATCH Act)", "publisher": "Manufacturing Dive", "date": "2026-04-08", "url": "https://manufacturingdive.com/news/lawmakers-push-restrictions-chipmaking-equipment-exports-china-match-act/816945/"}
+  ]
+}

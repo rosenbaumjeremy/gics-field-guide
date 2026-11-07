@@ -1,0 +1,453 @@
+{
+ "code": "45103010",
+ "added": "2026-11-07",
+ "asOf": "2026-11-04",
+ "summary": "Application software is growing at a double-digit rate, but investors are still arguing about whether AI helps or hurts seat-based vendors. FactSet has the Software industry (which also includes systems software) at 19% revenue growth and 17% earnings growth in Q3 2026 [1]. Salesforce guides to 11% to 12% revenue growth [2], Adobe grew 13% in its August quarter [3], ServiceNow to 22.5% subscription growth [4] and Palantir to 91% [5]. IGV rose 41.46% from 13 April to 12 October yet was only up 5.34% year to date, after an April selloff tied to seat-based pricing fears [6]. We found no current forward multiple for this sub-industry.",
+ "metrics": [
+  {
+   "label": "Software industry Q3 2026 revenue growth (S&P 500)",
+   "value": "19%",
+   "context": "Earnings growth 17%; includes systems software; FactSet blended, as of 30 Oct 2026",
+   "source": 1
+  },
+  {
+   "label": "Salesforce FY27 revenue guidance",
+   "value": "$46.1B-$46.4B, +11% to 12%",
+   "context": "Includes pending acquisitions; non-GAAP operating margin 34.3%; as of 26 Aug 2026",
+   "source": 2
+  },
+  {
+   "label": "Adobe FY26 revenue target",
+   "value": "$26.576B-$26.626B",
+   "context": "Q3 revenue $6.76B, +13%; ending ARR growth target 10.2%",
+   "source": 3
+  },
+  {
+   "label": "ServiceNow Q3 2026 subscription revenue growth",
+   "value": "+21%",
+   "context": "cRPO +20.5%; Q4 cRPO growth guided to 18.5%",
+   "source": 4
+  },
+  {
+   "label": "Palantir Q3 2026 revenue growth",
+   "value": "+96%",
+   "context": "U.S. commercial +148%; adjusted operating margin 62%",
+   "source": 5
+  },
+  {
+   "label": "Software (system and application) forward P/E",
+   "value": "34.1x",
+   "context": "Total market 27.7x; 309 US firms; Damodaran, Jan 2026, before the April selloff",
+   "source": 7
+  },
+  {
+   "label": "Software (system and application) pre-tax operating margin",
+   "value": "32.98%",
+   "context": "Total market 12.82%; 71.72% gross margin; Damodaran, Jan 2026",
+   "source": 8
+  },
+  {
+   "label": "IGV return, 13 Apr to 12 Oct 2026",
+   "value": "+41.46%",
+   "context": "YTD +5.34% at 12 Oct 2026; fund holds systems software too",
+   "source": 6
+  }
+ ],
+ "watch": [
+  "Whether AI agents shrink seat counts at seat-priced vendors: the April selloff was tied to that fear, and Adobe was down 24% year to date in early September [6][9].",
+  "Salesforce's cRPO growth against its roughly 14% guide, and whether pending acquisitions close as assumed in its full-year outlook [2].",
+  "ServiceNow's Q4 cRPO growth guide of 18.5% against 20.5% reported in Q3 [4].",
+  "Intuit's first full year without excluding stock compensation from non-GAAP results, with fiscal 2027 revenue growth guided to 9% to 10% against 14% in fiscal 2026 [10].",
+  "The Fed: two FOMC members dissented in favour of a quarter-point hike on 28 Oct 2026, and long-duration software stocks are rate sensitive [11]."
+ ],
+ "bellwethers": [
+  "Salesforce",
+  "Adobe",
+  "Intuit",
+  "ServiceNow",
+  "Workday",
+  "Palantir"
+ ],
+ "basics": {
+  "intro": "Application software is code that does a specific job for a business or a consumer: managing customer relationships, payroll and HR, accounting and tax, design and creative work, or analysing data. Customers are companies, governments and households, and most revenue now comes from subscriptions delivered over the internet. GICS puts Salesforce, Adobe, Intuit, Workday and Palantir here. The operating systems, databases, cybersecurity and infrastructure that these programs run on sit next door in Systems Software, and video games sit in Entertainment.",
+  "products": [
+   {
+    "name": "Customer relationship management (CRM)",
+    "what": "Software that tracks leads, sales, service cases and marketing for a company's customers. Increasingly sold with AI agents that answer or act on customers' behalf.",
+    "examples": "Salesforce Sales, Service and Agentforce; Adobe marketing tools"
+   },
+   {
+    "name": "Human resources and finance cloud",
+    "what": "Systems of record for payroll, hiring, planning and accounting, typically run for years by the finance and HR departments of large employers.",
+    "examples": "Workday HCM and Financials; Oracle and SAP equivalents"
+   },
+   {
+    "name": "Workflow and IT service platforms",
+    "what": "Platforms that automate requests and approvals across IT, HR and customer service, then sell add-on modules to the same customers.",
+    "examples": "ServiceNow"
+   },
+   {
+    "name": "Creative and document software",
+    "what": "Tools for designing, editing and managing content and documents, sold per user per month to professionals, businesses and consumers.",
+    "examples": "Adobe Creative Cloud, Acrobat and Express; Autodesk"
+   },
+   {
+    "name": "Tax, accounting and small-business software",
+    "what": "Software for households and small firms to file taxes, keep books, pay staff and take payments, often with a fee on transactions.",
+    "examples": "Intuit TurboTax, QuickBooks and Credit Karma"
+   },
+   {
+    "name": "Data analytics and AI application platforms",
+    "what": "Platforms that turn a customer's data into decisions and increasingly AI agents. They are usually priced on a mix of licences and usage.",
+    "examples": "Palantir Foundry and AIP"
+   }
+  ],
+  "terms": [
+   {
+    "term": "SaaS (software as a service)",
+    "meaning": "Software rented by subscription and run by the vendor over the internet, rather than installed once and paid for upfront. Revenue is steadier but arrives over the contract."
+   },
+   {
+    "term": "Seat-based pricing",
+    "meaning": "Charging per user. Revenue rises with a customer's headcount, which is why AI that reduces the number of workers is read as a risk."
+   },
+   {
+    "term": "Consumption pricing",
+    "meaning": "Charging by how much the customer uses, such as AI actions or data processed. It can grow faster when usage rises and slow faster when customers cut back."
+   },
+   {
+    "term": "ARR (annual recurring revenue)",
+    "meaning": "The yearly value of subscriptions in force. Many vendors quote it as a growth measure because it filters out one-off items."
+   },
+   {
+    "term": "RPO and cRPO",
+    "meaning": "Remaining performance obligations are contracted revenue not yet recognised; cRPO is the part due in the next 12 months. It shows how much revenue is already locked in."
+   },
+   {
+    "term": "Net revenue retention",
+    "meaning": "This year's revenue from last year's customers divided by what they paid then. Above 100% means existing customers expand; below means they shrink or leave."
+   },
+   {
+    "term": "Gross retention",
+    "meaning": "The share of last year's recurring revenue kept after cancellations and downgrades, before upsells. It measures how sticky the product is."
+   },
+   {
+    "term": "System of record",
+    "meaning": "The program where a company's authoritative data lives, such as customer or employee records. Replacing one is slow and risky, which gives incumbents pricing power."
+   },
+   {
+    "term": "Agentic AI",
+    "meaning": "AI that carries out multi-step tasks on its own inside business software, rather than just answering questions. Vendors sell it as a new revenue line; critics see a threat to per-user pricing."
+   },
+   {
+    "term": "Rule of 40",
+    "meaning": "Revenue growth plus free cash flow margin. Investors use 40 or more as a rough marker of a healthy software business."
+   },
+   {
+    "term": "Stock-based compensation",
+    "meaning": "Paying staff in shares. It is a real cost through dilution but is often left out of adjusted profit, so check both versions."
+   },
+   {
+    "term": "Billings",
+    "meaning": "Billings are what was invoiced in the period (revenue plus change in deferred revenue). They can lead revenue when annual contracts are signed up front."
+   }
+  ],
+  "drivers": [
+   {
+    "name": "Corporate IT budgets",
+    "how": "Businesses spend more on software when profits and confidence are high. In a slowdown they pause new projects and trim seats, so new bookings and cRPO slow before reported revenue does."
+   },
+   {
+    "name": "Seat counts and pricing model",
+    "how": "Where revenue is per user, employment and AI-driven staffing cuts change revenue directly. Price rises and AI add-ons lift revenue per user; usage pricing moves with activity instead."
+   },
+   {
+    "name": "AI as feature, product or substitute",
+    "how": "AI add-ons and agents can add revenue and justify price rises. AI coding tools could also lower the cost of building rival software, which would weaken switching costs and compress margins."
+   },
+   {
+    "name": "Switching costs and retention",
+    "how": "Because systems of record are hard to replace, renewals are sticky. High retention keeps churn low, so growth can come from selling more to existing customers at low cost."
+   },
+   {
+    "name": "Operating leverage",
+    "how": "Once built, extra copies cost little, so gross margins are high and extra revenue falls to profit. The flip side is that costs are mostly people, so growth that stalls hurts margins fast."
+   },
+   {
+    "name": "Interest rates",
+    "how": "Much of value lies in profits years ahead, so higher long-term rates cut what investors will pay for the same business, even when its earnings are unchanged."
+   },
+   {
+    "name": "Acquisitions",
+    "how": "Large vendors buy data, workflow or AI companies to widen platforms. This lifts reported growth but adds goodwill and integration risk, and can mask slower organic growth."
+   }
+  ]
+ },
+ "fundamentals": {
+  "business": [
+   "Mostly recurring subscriptions: Salesforce, Workday, ServiceNow and Adobe sell per-user or per-module plans, with Adobe reporting $6.56 billion of subscription revenue out of $6.76 billion total in its August 2026 quarter [3]. Intuit sells consumer products such as TurboTax and Credit Karma alongside its small-business software [10]. Services and one-off licences are a minor share of the group.",
+   "Enterprises and governments buy the large platforms (Salesforce, Workday, ServiceNow, Palantir); professionals, small firms and households buy Adobe and Intuit products. Intuit's fiscal 2026 revenue split into Global Business Solutions at $12.9 billion and Consumer at $8.6 billion [10]. Palantir sells to both governments and commercial customers, with U.S. commercial revenue of $984 million in Q3 2026 [5].",
+   "People, mainly engineers and salespeople. For US system and application software firms Damodaran shows R&D at 15.98% of sales, SG&A at 24.38% and stock-based compensation at 7.83% [8]. Cost of goods is only 28.28% of sales. Cloud hosting and, increasingly, AI computing add to cost of revenue.",
+   "Switching costs and data. A payroll, CRM or tax system holds years of a customer's records, so renewals are sticky; Workday's 12-month subscription backlog grew 14.2% to $9.034 billion [12]. Breadth of the platform and the ability to bundle AI help raise prices. Pricing power is weakest where the product is a point tool that rivals, or a customer's own AI, can copy.",
+   "Mostly intangible: software, brands, customer relationships and goodwill from acquisitions, plus cash. The key liability is deferred revenue, from subscriptions paid up front, which funds operations. Salesforce is executing a $25 billion accelerated share repurchase [2], and Adobe repurchased $2.23 billion of stock in one quarter [3].",
+   "Asset-light. Damodaran shows book debt to capital of 34.14% but market debt to capital of only 5.37% for US system and application software firms [13]. Capex is mainly capitalised software and offices, though systems vendors are different and the figure in the dataset mixes both [14]. Free cash flow is usually close to or above earnings."
+  ],
+  "overview": [
+   "Gartner, as reported, puts worldwide software spending at $1,464 billion in 2026 (up 15.2%) and $1,679 billion in 2027 (up 14.6%) [15]. That covers all software, including systems software; we found no free figure for application software alone. US system and application software firms grew revenue at 19.56% a year over five years to January 2026 [16].",
+   "CRM and customer experience; HR, finance and planning; IT and business workflow; creative, design and document tools; tax and small-business accounting; and data and AI application platforms. In IDC's CRM data Salesforce held 20.0% of 2025 sales, with Oracle 4.1%, Microsoft 4.0%, Adobe 3.4% and SAP 3.1% [17]. Fast growth is concentrated in AI-linked platforms such as Palantir [5].",
+   "Application software sits at the top of the technology stack. It runs on cloud infrastructure, databases and security from the hyperscalers and Systems Software firms, and it is sold directly or through partners, consultants and resellers. Its customers are the business departments, such as HR, sales and finance, that decide how to use the data and AI beneath it.",
+   "From boxed licences and on-premise suites to subscriptions delivered over the internet, with the cloud model now standard. The latest shift is toward AI agents that perform tasks inside the software. Vendors report rapid early uptake: Salesforce's Agentforce ARR exceeded $1.5 billion, up over 240% [2], and ServiceNow raised its 2026 AI contract value target to $1.7 billion [4].",
+   "Heavily United States: Salesforce, Adobe, Intuit, Workday, ServiceNow and Palantir are all US-listed, with Europe's SAP the main non-US peer [17]. Development talent is spread across the US, India, Israel and Europe. We did not find a free geographic split of application software revenue."
+  ],
+  "competition": [
+   "Hundreds of listed companies: Damodaran counts 309 US system and application software firms [8], plus thousands of private ones. A handful of large vendors dominate each category, but each category also has many specialist rivals.",
+   "Salesforce is first in CRM at 20.0% of 2025 sales, ahead of Oracle at 4.1% [17]. Adobe leads creative software, Intuit leads US consumer tax and small-business accounting, Workday and SAP lead in enterprise HR and finance, and ServiceNow in IT workflow [10][12][4]. We found no sourced shares outside CRM.",
+   "Concentrated by product but fragmented overall. Even in CRM, 'other' providers hold 65.4% of the market, up from 63.5% a year earlier, so smaller vendors have been gaining share [17].",
+   "Building a product is easier than ever, but winning customers is hard because it needs distribution, data, integrations and trust. The barrier is a customer's reluctance to move a system of record, not the code itself. The newest risk is that AI coding tools lower the cost of copying features [9].",
+   "Scale spreads R&D and sales cost over a larger revenue base, and Damodaran shows industry-average R&D of 15.98% and SG&A of 24.38% of sales [8]. Bigger vendors also hold more data to train AI. Gross margins of 71.72% mean added revenue is highly profitable [8].",
+   "Differentiated at the platform level and increasingly commoditised at the feature level. A deeply embedded payroll or CRM platform is hard to replace, but a single feature, such as a design tool or note summariser, may be copied or bundled by a rival or by a general-purpose AI model.",
+   "Customers hold more of it than in most technology niches, mainly because they can switch tool by tool or build with AI. Against that, backlog growth at systems of record such as Workday (12-month backlog up 14.2%) suggests switching costs still limit it [12]. Suppliers, mainly the hyperscalers and AI model labs, hold bargaining power over costs of compute and models."
+  ],
+  "drivers": [
+   "Growth comes from new customers, more seats or modules sold to existing customers, price rises and, now, AI products. ServiceNow's subscription revenue grew 21% in Q3 2026 and Salesforce's cRPO grew 14% in constant currency [4][2]. Acquisitions add further growth, as Informatica did for Salesforce [2].",
+   "Gross margin is high, so margins depend on how much is spent on R&D and sales relative to revenue, and on stock compensation. Non-GAAP operating margins ran from 31.1% at Workday to 44% at Adobe and 34.1% at Salesforce in their latest quarters [12][3][2]. Palantir's was 62% [5].",
+   "Salaries and stock compensation (7.83% of sales in Damodaran's data), sales and marketing, and cloud hosting [8]. Vendors that run large AI workloads face rising compute costs that depress gross margin. Foreign exchange matters little: Adobe's growth was 13% reported and 12% in constant currency [3].",
+   "Indirectly, through valuation more than through demand. Most application software firms carry little debt (market debt to capital 5.37% in Damodaran's data), so financing costs are small [13]. But long-dated profit expectations make the shares sensitive to long-term yields; the Fed held at 3-3/4 to 4 percent on 28 Oct 2026 with two members favouring a hike [11].",
+   "Hiring and employment matter most because many products are priced per seat. GDP and corporate profits drive the size of IT budgets: FactSet has S&P 500 Q3 2026 earnings up 30.2% [1]. Inflation matters through price rises (contracts often reprice at renewal) and wage costs. Commodity prices have little direct effect.",
+   "Secular growth with a cyclical edge. Gartner expects software spending to grow around 15% in both 2026 and 2027 [15], and the industry's earnings are growing even in a tight-money year [1]. But new bookings and seat counts can slow quickly when budgets are cut, and the April 2026 selloff showed that sentiment can change independently of earnings [6]."
+  ],
+  "financials": [
+   "Fast. Damodaran's data show five-year compound growth of 19.56% in revenue and 29.81% in net income for US system and application software firms to January 2026, against 12.77% and 12.83% for the whole market [16]. Large incumbents now grow more slowly: Salesforce guides 11% to 12% and Workday subscription 13% [2][12].",
+   "Gross margins averaged 71.72% and pre-tax operating margins 32.98% (40.81% before stock compensation), against 37.76% and 12.82% for all US firms [8]. At the top end, Adobe guides to a non-GAAP operating margin of about 45% for fiscal 2026 [3], and ServiceNow to 31.5% [4].",
+   "High. Damodaran shows an unadjusted ROE of 29.62% for US system and application software firms against 17.21% for the total market. Treating R&D as an investment lowers it to 20.21% [18]. The page does not report ROIC, and we found no sourced sub-industry ROIC.",
+   "Low. Book debt to capital is 34.14% but market debt to capital only 5.37%, with interest cover of 18.95 and debt to EBITDA of 1.71, against 6.52 for the whole market [13]. Intuit, Adobe and Salesforce nonetheless use cash for large buybacks [10][3][2].",
+   "Strong. Adobe produced $2.52 billion of operating cash flow in one quarter [3]. ServiceNow guides to a 36% free cash flow margin for 2026 [4], Palantir to $4.8 billion to $5.0 billion of adjusted free cash flow [5], and Salesforce to 4% to 5% growth in cash flow [2]. Workday's quarter showed lower cash flow than a year earlier [12].",
+   "Low in most of the industry. The Damodaran category combines systems and application software, and shows capex of 244.55% of depreciation and net capex of 17.82% of sales, a figure we think is driven by the large cloud builders in the grouping [14]. For pure application vendors such as Adobe and Workday, we do not see a sourced capex figure.",
+   "Rich on earnings and cash flow. Damodaran's January 2026 data have a forward P/E of 34.13 against 27.66 for the market, and EV/EBITDA of 24.48 against 19.73 for the positive-EBITDA firms [7][19]. Both pre-date the April selloff and the rebound that followed, so they are dated for current use [6]."
+  ],
+  "risks": [
+   "Data privacy, AI and competition rules apply. The EU AI Act's high-risk obligations were provisionally delayed to 2 December 2027 for stand-alone systems such as recruitment and credit scoring, from 2 August 2026, if formally adopted [20]. HR and finance software is directly exposed to that category of rules.",
+   "The central question. Bulls see AI agents as a new revenue line, with Salesforce's Agentforce ARR above $1.5 billion [2]. Bears fear AI agents will reduce the seats customers need and AI coding will cut the cost of building rival software, as the April 'SaaS apocalypse' narrative held [6][9].",
+   "Mostly through the workforce. If AI shrinks white-collar headcount, seat-priced vendors lose volume, and we think demographics otherwise matter little. We found no sourced figure on this effect.",
+   "Users expect AI features in the product for free or at lower prices, and want a single platform. In the consumer segment Intuit's TurboTax grew only 7% in fiscal 2026 against 20% for Credit Karma [10], a sign of how mature products compare with new ones.",
+   "AI-native start-ups, the AI model labs and hyperscalers are entering application categories. 'Other' CRM vendors gained 1.9 points of share in 2025 [17]. Palantir is an example of a new-model entrant that has become large, with revenue up 96% in Q3 2026 [5].",
+   "Less direct than for hardware. Exposure comes through cloud capacity and chips for AI, and through data-residency rules. Currency effects were small in the latest results, such as Adobe's 13% reported against 12% constant-currency growth [3]. We found no sourced figure on geopolitical revenue exposure.",
+   "General-purpose AI assistants and in-house tools built with AI coding could substitute for packaged software in simple tasks. The evidence so far is mixed: ServiceNow reports agentic AI in production up more than 13x year on year [4], while IGV's 2026 performance has diverged between consumption-priced and seat-priced names [9]."
+  ],
+  "horizon": {
+   "opportunities": [
+    "AI agents and add-ons can open new revenue lines and support price rises, as Agentforce ARR above $1.5 billion and ServiceNow's $1.7 billion AI contract value target suggest [2][4].",
+    "Gartner expects software spending to grow about 15% in both 2026 and 2027, a favourable backdrop for budgets [15].",
+    "High margins and cash flow let vendors fund buybacks and acquisitions: Salesforce's $25 billion repurchase and Intuit's $5.5 billion fiscal 2026 buyback are examples [2][10].",
+    "Consolidation onto fewer platforms favours large vendors with broad suites and embedded data [17]."
+   ],
+   "threats": [
+    "Seat compression and cheaper software creation from AI could slow growth at seat-priced vendors; the April 2026 selloff priced that fear [6].",
+    "Growth is decelerating at the largest names: Intuit guides fiscal 2027 revenue growth to 9% to 10% from 14% [10], and ServiceNow guides Q4 cRPO growth to 18.5% [4].",
+    "Higher-for-longer rates or a hike would weigh on valuations of long-duration growth stocks [11].",
+    "Regulation of AI in hiring, credit and similar uses adds compliance cost, even though deadlines have been pushed back [20]."
+   ],
+   "assessment": "Over the next three to five years we think the industry is likely to keep growing faster than the economy, because software budgets are expected to grow at roughly 15% a year [15] and the leading vendors keep high margins and cash flow [8]. The main uncertainty is who captures the value from AI. If agents are priced on usage and stay inside existing platforms, incumbents could extend growth; if customers need fewer seats or build their own tools, growth and pricing could fall to the low single digits for the weakest. Results so far point to a split between consumption-linked or platform winners and seat-based laggards [9]. That makes company selection within the sub-industry matter more than the sub-industry average."
+  }
+ },
+ "sections": [
+  {
+   "id": "macro",
+   "paragraphs": [
+    "The macro backdrop pairs strong corporate spending with firm monetary policy. On 28 Oct 2026 the Federal Open Market Committee held the federal funds target range at 3-3/4 to 4 percent by a 10-2 vote, with Governor Cook and Cleveland Fed President Hammack dissenting in favour of a quarter-point increase, and the statement says 'Inflation remains elevated' [11]. We read that as a late-cycle setting in which cuts are not imminent, which matters for application software because so much of its value lies in profits years away, making the shares sensitive to long-term yields.",
+    "Corporate demand has held up. FactSet puts S&P 500 blended Q3 2026 earnings growth at 30.2% and revenue growth at 13.4%, with Software industry earnings up 17% and revenue up 19% (a group that also contains systems software) [1]. Gartner's October forecast, as reported, has worldwide software spending up 15.2% in 2026 and 14.6% in 2027, in total IT spending of $6,391 billion in 2026 [15]. Company currency effects were small in the results we read: Adobe's Q3 revenue grew 13% reported and 12% in constant currency [3]."
+   ]
+  },
+  {
+   "id": "demand",
+   "paragraphs": [
+    "Structural demand rests on businesses digitising work and now adding AI. Gartner's reported forecast of $1,464 billion of software spending in 2026 and $1,679 billion in 2027 covers all software, so it overstates the application-only market; we found no free application-only figure [15]. Damodaran's data show US system and application software revenue compounding at 19.56% a year over five years, against 12.77% for the whole market, and analysts expecting EPS growth of 22.76% a year for the next five years, versus 13.95% for the market [16].",
+    "Within that, the largest vendors are slowing as they mature while AI-linked platforms accelerate. Salesforce guides to 11% to 12% revenue growth for fiscal 2027, including acquisitions [2]. Workday guides subscription revenue growth of 13% [12]. ServiceNow grew subscription revenue 21% in Q3 [4] and Palantir grew 96%, with U.S. commercial up 148% [5]. Demand is steady rather than cyclical in the large systems of record, but seat-based pricing exposes the group to changes in customer headcount, a point investors made forcefully in April [6]."
+   ]
+  },
+  {
+   "id": "structure",
+   "paragraphs": [
+    "Using Porter's five forces, rivalry is intense inside each category but moderated by specialisation: Salesforce held 20.0% of the CRM market in 2025, while 'other' vendors collectively held 65.4%, up from 63.5% [17]. The threat of new entrants is rising because AI lowers the cost of building features, a bear argument in the 2026 debate [9]. Buyer power is moderate to high on point tools but limited for systems of record, where Workday's 12-month subscription backlog grew 14.2% [12].",
+    "Supplier power sits with the cloud and AI-model providers, which control the compute that agents need. The threat of substitutes comes from general-purpose AI and in-house builds. The moat is mainly switching costs and accumulated customer data, plus brands and integrations. Pricing power is therefore strongest in embedded platforms and weakest in tools that rivals can copy. Scale also helps: Damodaran's industry average has 71.72% gross margin and 15.98% R&D to sales, which large vendors can fund more easily [8]."
+   ]
+  },
+  {
+   "id": "environment",
+   "paragraphs": [
+    "Technology is the main force. The April 2026 selloff, described as the 'SaaS apocalypse', was tied to the fear that AI agents will do the work of several employees and cut the licences customers need [6]. Vendors are answering with agents of their own: Salesforce reports Agentforce ARR above $1.5 billion [2], and ServiceNow raised its 2026 AI annual contract value target to $1.7 billion [4].",
+    "On regulation, a provisional EU agreement of 6 May 2026 would delay high-risk AI obligations (for example in recruitment and credit scoring) to 2 December 2027, from 2 August 2026, once formally adopted [20]. HR and finance software is the natural target of such rules. Palantir's 96% Q3 revenue growth shows how much demand AI-linked platforms are drawing [5]. Privacy law, tax policy and trade tensions also matter, but the sources we opened did not quantify them for application software."
+   ]
+  },
+  {
+   "id": "economics",
+   "paragraphs": [
+    "Application software economics are among the best in the market. For US system and application software firms Damodaran shows a 71.72% gross margin and a 32.98% pre-tax operating margin (40.81% before stock compensation), against 37.76% and 12.82% for all US firms [8]. Unadjusted ROE is 29.62% against 17.21%, falling to 20.21% when R&D is capitalised [18]. Leverage is low, with debt to EBITDA of 1.71 against 6.52 for the whole market [13]. These numbers include systems software.",
+    "Company results show the spread. Non-GAAP operating margins were 44.0% at Adobe, 34.1% at Salesforce, 32.5% at ServiceNow, 31.1% at Workday and 62% at Palantir [3][2][4][12][5]. Operating leverage is the key: costs are mostly people, so growth that holds lets margins widen, and growth that stalls forces cuts. Cash generation is high: ServiceNow guides to a 36% free cash flow margin for 2026 [4], and Palantir's adjusted free cash flow margin was 53% in Q3 [5]. Intuit will stop excluding stock compensation from its non-GAAP measures from fiscal 2027, which lowers its reported margin [10]."
+   ]
+  },
+  {
+   "id": "earnings",
+   "paragraphs": [
+    "FactSet's blended Q3 2026 numbers show the Software industry growing earnings 17% and revenue 19% year over year, well below the 67.5% earnings growth of the Information Technology sector, which is dominated by semiconductors (132%) [1]. We did not find a public consensus earnings forecast for application software alone.",
+    "Management guidance points to steady but slowing growth at the biggest vendors. Salesforce raised fiscal 2027 revenue guidance by $200 million to $46.1 billion to $46.4 billion, helped by pending acquisitions [2]. Adobe raised its fiscal 2026 targets to $26.576 billion to $26.626 billion, with ending ARR growth of 10.2% [3]. Workday raised its margin outlook to 31.0% [12]. Palantir raised 2026 revenue guidance to $8.530 billion to $8.534 billion [5]. Intuit guided fiscal 2027 revenue growth of 9% to 10%, against 14% in fiscal 2026 [10], and ServiceNow guided Q4 cRPO growth to 18.5% from 20.5% [4]. We think expectations are being reset by company: faster for platform and AI names, lower for mature seat-based products."
+   ]
+  },
+  {
+   "id": "valuation",
+   "paragraphs": [
+    "We could not find a current forward P/E for application software alone. The latest industry dataset, Damodaran's January 2026 edition for US system and application software firms, shows a forward P/E of 34.13 against 27.66 for the total market, a PEG ratio of 1.65 against 1.90, and EV/EBITDA of 24.48 against 19.73 for positive-EBITDA firms [7][19]. Those figures include systems software and pre-date the April selloff and the rebound that followed.",
+    "At market level, FactSet has the S&P 500 forward 12-month P/E at 18.7, below its 5-year average of 19.8 and 10-year average of 19.1 [1]. The software group's 41.46% rally from April to October with only 5.34% gained year to date suggests prices fell sharply and recovered [6]. One commentator argues the rebound reflected multiple expansion rather than earnings growth, though that is opinion and the article gives no multiple [6]. Our read is that the group's premium to the market rests on durable high margins and high cash conversion, and that the AI debate is about whether that growth lasts. Price therefore embeds an expectation of continued double-digit growth."
+   ]
+  },
+  {
+   "id": "positioning",
+   "paragraphs": [
+    "Positioning is mixed. IGV, the main software ETF, rose 41.46% from 13 April to 12 October 2026 to $111.31, but was up only 5.34% year to date and down 0.68% over one year, against gains of 20.84% for QQQ and 13.41% for SPY over the same six months [6]. Be careful with what IGV measures: its largest holdings at 30 June 2026 were Palo Alto Networks at 10.37%, Microsoft 8.07%, Palantir 7.70%, CrowdStrike 7.28% and Oracle 6.26%, with Salesforce at 4.81% and Adobe at 3.13%, so it blends systems and application software [9].",
+    "Flows were choppy. An article reported roughly $700 million pulled from IGV in one session in early September, just before Snowflake's report; the fund held $13.5 billion in net assets at 30 June 2026 [9]. The same piece observed a split between consumption-priced names, which benefit from AI workloads, and seat-based laggards such as Adobe, down 24% year to date at the time [9]. We found no sourced short-interest figures for the group."
+   ]
+  }
+ ],
+ "sources": [
+  {
+   "n": 1,
+   "title": "Earnings Insight, 30 October 2026",
+   "publisher": "FactSet",
+   "date": "2026-10-30",
+   "url": "https://advantage.factset.com/hubfs/Website/Resources%20Section/Research%20Desk/Earnings%20Insight/EarningsInsight_103026.pdf"
+  },
+  {
+   "n": 2,
+   "title": "Salesforce delivers record second quarter fiscal 2027 results",
+   "publisher": "Salesforce via Seeking Alpha",
+   "date": "2026-08-26",
+   "url": "https://seekingalpha.com/pr/20631301"
+  },
+  {
+   "n": 3,
+   "title": "Adobe third quarter fiscal 2026 results (Form 8-K exhibit 99.1)",
+   "publisher": "SEC EDGAR / Adobe",
+   "date": "2026-09-10",
+   "url": "https://www.sec.gov/Archives/edgar/data/0000796343/000079634326000147/adbeex991q326.htm"
+  },
+  {
+   "n": 4,
+   "title": "ServiceNow third quarter 2026 results (Form 8-K)",
+   "publisher": "SEC EDGAR / ServiceNow",
+   "date": "2026-10-28",
+   "url": "https://www.sec.gov/Archives/edgar/data/0001373715/000137371526000092/erq3fy26.htm"
+  },
+  {
+   "n": 5,
+   "title": "Palantir third quarter 2026 results (Form 8-K exhibit 99.1)",
+   "publisher": "SEC EDGAR / Palantir",
+   "date": "2026-11-02",
+   "url": "https://www.sec.gov/Archives/edgar/data/0001321655/000132165526000045/a2026q3ex991pressrelease.htm"
+  },
+  {
+   "n": 6,
+   "title": "Everyone declared software dead in April; this ETF is up 41% since then",
+   "publisher": "24/7 Wall St.",
+   "date": "2026-10-13",
+   "url": "https://247wallst.com/investing/2026/10/13/everyone-declared-software-dead-in-april-this-etf-is-up-41-since-then/"
+  },
+  {
+   "n": 7,
+   "title": "PE ratios by sector (US), January 2026",
+   "publisher": "Damodaran, NYU Stern",
+   "date": "2026-01",
+   "url": "https://pages.stern.nyu.edu/~adamodar/New_Home_Page/datafile/pedata.html"
+  },
+  {
+   "n": 8,
+   "title": "Margins by sector (US), January 2026",
+   "publisher": "Damodaran, NYU Stern",
+   "date": "2026-01",
+   "url": "https://pages.stern.nyu.edu/~adamodar/New_Home_Page/datafile/margin.html"
+  },
+  {
+   "n": 9,
+   "title": "Investors pulled $700 million from IGV hours before Snowflake reignited software",
+   "publisher": "24/7 Wall St.",
+   "date": "2026-09-07",
+   "url": "https://247wallst.com/investing/etf/2026/09/07/investors-pulled-700-million-from-igv-hours-before-snowflake-reignited-software/"
+  },
+  {
+   "n": 10,
+   "title": "Intuit fourth quarter and full year fiscal 2026 results (Form 8-K)",
+   "publisher": "SEC EDGAR / Intuit",
+   "date": "2026-08-25",
+   "url": "https://www.sec.gov/Archives/edgar/data/0000896878/000089687826000029/fy26q4earningspressrelease.htm"
+  },
+  {
+   "n": 11,
+   "title": "The full statement from the October 2026 FOMC rate decision",
+   "publisher": "investingLive",
+   "date": "2026-10-28",
+   "url": "https://investinglive.com/central-banks/the-full-statement-from-the-october-2026-fomc-rate-decision/"
+  },
+  {
+   "n": 12,
+   "title": "Workday announces fiscal 2027 second quarter financial results",
+   "publisher": "Workday",
+   "date": "2026-08-27",
+   "url": "https://newsroom.workday.com/2026-08-27-Workday-Announces-Fiscal-2027-Second-Quarter-Financial-Results"
+  },
+  {
+   "n": 13,
+   "title": "Debt ratios and fundamentals by sector (US), January 2026",
+   "publisher": "Damodaran, NYU Stern",
+   "date": "2026-01",
+   "url": "https://pages.stern.nyu.edu/~adamodar/New_Home_Page/datafile/dbtfund.html"
+  },
+  {
+   "n": 14,
+   "title": "Capital expenditures by sector (US), January 2026",
+   "publisher": "Damodaran, NYU Stern",
+   "date": "2026-01",
+   "url": "https://pages.stern.nyu.edu/~adamodar/New_Home_Page/datafile/capex.html"
+  },
+  {
+   "n": 15,
+   "title": "Gartner forecasts worldwide IT spending to grow 15% in 2027 to $7.35T (report on Gartner release)",
+   "publisher": "TechIntelPro",
+   "date": "2026-10-22",
+   "url": "https://techintelpro.com/news/ai/enterprise-ai/gartner-forecasts-worldwide-it-spending-to-grow-15-in-2027-to-735t"
+  },
+  {
+   "n": 16,
+   "title": "Historical growth rates by sector (US), January 2026",
+   "publisher": "Damodaran, NYU Stern",
+   "date": "2026-01",
+   "url": "https://pages.stern.nyu.edu/~adamodar/New_Home_Page/datafile/histgr.html"
+  },
+  {
+   "n": 17,
+   "title": "Salesforce extends CRM market lead (IDC 2025 share data)",
+   "publisher": "CX Foundation",
+   "date": "2026-06-09",
+   "url": "https://cxfoundation.com/news/salesforce-extends-crm-market-lead"
+  },
+  {
+   "n": 18,
+   "title": "Return on equity by sector (US), January 2026",
+   "publisher": "Damodaran, NYU Stern",
+   "date": "2026-01",
+   "url": "https://pages.stern.nyu.edu/~adamodar/New_Home_Page/datafile/roe.html"
+  },
+  {
+   "n": 19,
+   "title": "EV/EBITDA multiples by sector (US), January 2026",
+   "publisher": "Damodaran, NYU Stern",
+   "date": "2026-01",
+   "url": "https://pages.stern.nyu.edu/~adamodar/New_Home_Page/datafile/vebitda.html"
+  },
+  {
+   "n": 20,
+   "title": "EU AI Act Omnibus agreement: postponed high-risk deadlines",
+   "publisher": "Gibson Dunn",
+   "date": "2026-05-27",
+   "url": "https://www.gibsondunn.com/eu-ai-act-omnibus-agreement-postponed-high-risk-deadlines-and-other-key-changes/"
+  }
+ ]
+}
