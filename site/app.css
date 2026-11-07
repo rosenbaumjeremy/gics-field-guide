@@ -140,6 +140,15 @@ h2{font:700 20px/1.2 var(--f-display);margin:0;text-wrap:balance}
 .wchart .band-a{fill:var(--band-a);stroke:var(--panel);stroke-width:1}
 .wchart .band-b{fill:var(--band-b);stroke:var(--panel);stroke-width:1}
 .wchart .band-f{fill:var(--sec);stroke:var(--panel);stroke-width:1}
+.wchart .band-c{fill:var(--sec);stroke:var(--panel);stroke-width:1}
+.wchart .wlabel.c{fill:var(--sec);font-weight:600}
+.wchip.wall[aria-pressed="true"]{background:var(--fg);border-color:var(--fg)}
+.wsw{display:inline-block;width:10px;height:10px;border-radius:3px;background:var(--sec);margin-right:6px;vertical-align:-1px;flex:none}
+.wlegend{list-style:none;padding:0;margin:0 0 20px;columns:220px;column-gap:28px}
+.wlegend li{break-inside:avoid}
+.wlegend button{display:flex;align-items:center;width:100%;gap:0;background:none;border:0;padding:4px 0;font:inherit;font-size:13.5px;color:var(--fg);cursor:pointer;text-align:left}
+.wlegend button:hover span{text-decoration:underline}
+.wlegend b{margin-left:auto;font-variant-numeric:tabular-nums;color:var(--muted);font-weight:500}
 .wchart .wgrid{stroke:var(--line);stroke-width:1}
 .wchart .waxis{stroke:var(--muted);stroke-width:1}
 .wchart .wtick{fill:var(--muted);font-size:11px;font-family:var(--f-mono)}

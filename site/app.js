@@ -29,8 +29,8 @@ let weightsFocus=null, research=false;
 function route(){
   const m=location.hash.match(/^#c-(\d{2,8})$/);
   current=m&&N[m[1]]?m[1]:null;
-  const w=location.hash.match(/^#weights(?:-(\d{2}))?$/);
-  weightsFocus=!current&&w?(w[1]||"45"):null;
+  const w=location.hash.match(/^#weights(?:-(\d{2}|all))?$/);
+  weightsFocus=!current&&w?(w[1]||"all"):null;
   research=!current&&location.hash==="#research";
   render(); window.scrollTo(0,0);
 }
