@@ -1,0 +1,410 @@
+{
+  "code": "40301050",
+  "added": "2026-11-08",
+  "asOf": "2026-11-05",
+  "summary": "Reinsurers are very profitable but past the peak of the cycle. Swiss Re's P&C Re combined ratio was 77.3% for nine months [2], Munich Re raised its 2026 profit guidance to €6.6bn [3], and first-half catastrophe losses were below trend [6]. But Guy Carpenter's global property-catastrophe rate index fell 16% this year, the steepest drop in decades [4], record cat bond issuance adds competing capital [5], and brokers expect rates to fall at least another 10% on 1 January [9]. Casualty is the weak spot: Everest strengthened reserves again and its treaty combined ratio rose to 108.5% [1]. Our read: earnings fall from here, faster where casualty reserves are thin.",
+  "metrics": [
+    {
+      "label": "Guy Carpenter global property-cat rate on line, 2026",
+      "value": "-16%",
+      "context": "After July renewals; -23% from the 2024 peak",
+      "source": 4
+    },
+    {
+      "label": "Swiss Re P&C Re combined ratio, 9M 2026",
+      "value": "77.3%",
+      "context": "77.6% in 9M 2025; target below 85%",
+      "source": 2
+    },
+    {
+      "label": "Everest Reinsurance Treaty combined ratio, Q3 2026",
+      "value": "108.5%",
+      "context": "+21.5 points; $253M adverse reserve development",
+      "source": 1
+    },
+    {
+      "label": "Cat bond issuance, trailing 12 months",
+      "value": "$24.9B",
+      "context": "Record; outstanding market $63.4B (Aon Securities)",
+      "source": 5
+    },
+    {
+      "label": "Global insured nat cat losses, H1 2026",
+      "value": "$42B",
+      "context": "Below Swiss Re's trend estimate of $66B",
+      "source": 6
+    },
+    {
+      "label": "Munich Re 2026 net profit guidance",
+      "value": "€6.6bn",
+      "context": "Raised from €6.3bn; Q3 preliminary €1.7bn",
+      "source": 3
+    }
+  ],
+  "watch": [
+    "1 January 2027 renewals, where KBW expects property catastrophe rates to fall at least 10% [9].",
+    "Casualty reserve adequacy after Everest's $600M gross strengthening in the third quarter [1].",
+    "Alternative capital: cat bond issuance at a record pace keeps pushing prices down [5].",
+    "Second-half catastrophe activity; on average 58% of insured losses come in the second half [6].",
+    "Terms and conditions, such as attachment points, which brokers say are now the real contest [8]."
+  ],
+  "bellwethers": [
+    "Munich Re",
+    "Swiss Re",
+    "Hannover Re",
+    "Everest Group",
+    "RenaissanceRe",
+    "SCOR"
+  ],
+  "basics": {
+    "intro": "Reinsurers insure insurance companies. When a primary insurer wants protection against a catastrophe or wants to share a book of business, it buys reinsurance and pays part of its premium away. Reinsurers make money by pricing these risks well, diversifying them across the world and investing the premiums. Everest Group is the only pure reinsurer in the S&P 500 [16]; the giants, Munich Re, Swiss Re and Hannover Re, are listed in Europe. Insurers with large reinsurance arms but bigger primary businesses sit in P&C or Multi-line Insurance.",
+    "products": [
+      {
+        "name": "Property catastrophe excess of loss",
+        "what": "Pays insurers' losses above a set amount from a hurricane, earthquake or other disaster. The most price-volatile line.",
+        "examples": "RenaissanceRe, Munich Re, Hannover Re"
+      },
+      {
+        "name": "Casualty reinsurance",
+        "what": "Shares liability, workers' compensation and professional lines, either proportionally or above a threshold. Claims take years to emerge.",
+        "examples": "Swiss Re, Everest, SCOR"
+      },
+      {
+        "name": "Proportional (quota share) treaties",
+        "what": "The reinsurer takes a fixed share of an insurer's premiums and losses, paying a ceding commission.",
+        "examples": "Hannover Re, Swiss Re"
+      },
+      {
+        "name": "Specialty reinsurance",
+        "what": "Marine, aviation, energy, cyber, credit and political risk.",
+        "examples": "Munich Re, Everest, RenaissanceRe"
+      },
+      {
+        "name": "Life and health reinsurance",
+        "what": "Mortality, longevity and health risks taken from life insurers, often to free their capital.",
+        "examples": "Swiss Re L&H Re, Munich Re, RGA"
+      },
+      {
+        "name": "Capital-markets vehicles",
+        "what": "Catastrophe bonds, sidecars and managed funds that let investors take reinsurance risk, often managed by reinsurers for fees.",
+        "examples": "RenaissanceRe Capital Partners, Swiss Re ILS"
+      }
+    ],
+    "terms": [
+      {
+        "term": "Rate on line",
+        "meaning": "Reinsurance premium divided by the limit of cover. A 10% rate on line means paying $10M for $100M of protection; the standard price measure for catastrophe cover."
+      },
+      {
+        "term": "Attachment point",
+        "meaning": "The loss level at which reinsurance starts paying. Raising it keeps frequent smaller losses with the insurer."
+      },
+      {
+        "term": "Ceding company",
+        "meaning": "The insurer buying reinsurance; it cedes risk and premium."
+      },
+      {
+        "term": "Renewal dates",
+        "meaning": "Most treaties renew on 1 January, with 1 April for Japan and 1 June and 1 July for Florida and much of the US; prices are set then."
+      },
+      {
+        "term": "Alternative capital",
+        "meaning": "Money from pension funds and other investors that takes reinsurance risk through cat bonds and funds, competing with reinsurers."
+      },
+      {
+        "term": "Catastrophe bond",
+        "meaning": "A bond that loses principal if a defined disaster occurs, paying investors a high coupon in return."
+      },
+      {
+        "term": "Attritional loss ratio",
+        "meaning": "Losses from ordinary claims, excluding catastrophes and reserve changes; shows the core profitability of a book."
+      },
+      {
+        "term": "Reserve development",
+        "meaning": "Changes to loss estimates for past years. Adverse development in casualty is the sector's main earnings risk now."
+      },
+      {
+        "term": "Retrocession",
+        "meaning": "Reinsurance bought by reinsurers to protect themselves."
+      },
+      {
+        "term": "Nat cat budget",
+        "meaning": "The catastrophe losses a reinsurer plans for in a year; results swing on the gap between actual and budget."
+      },
+      {
+        "term": "Contractual service margin (CSM)",
+        "meaning": "Under IFRS 17, the future profit locked into contracts written; a forward indicator of earnings."
+      }
+    ],
+    "drivers": [
+      {
+        "name": "Catastrophe losses",
+        "how": "A big hurricane or earthquake can cost reinsurers billions in a quarter; a quiet year leaves most of the cat budget as profit."
+      },
+      {
+        "name": "Capital supply",
+        "how": "When reinsurers and investors have surplus capital, more capacity chases risk and rates fall; capital losses after disasters push rates up."
+      },
+      {
+        "name": "Primary insurers' demand",
+        "how": "Insurers buy more when exposure grows and capital is tight, and retain more risk when they are flush."
+      },
+      {
+        "name": "Casualty loss trends",
+        "how": "Social inflation and larger awards can make past casualty treaties unprofitable years later, forcing reserve additions."
+      },
+      {
+        "name": "Investment yields",
+        "how": "Higher bond yields raise investment income on large reserve portfolios."
+      },
+      {
+        "name": "Currency",
+        "how": "European reinsurers report in euros or Swiss francs but write much business in dollars, so currency moves shift results."
+      }
+    ]
+  },
+  "fundamentals": {
+    "business": [
+      "Revenue is reinsurance premium plus investment income and, increasingly, fees for managing third-party capital. Swiss Re's P&C Re insurance revenue was $12.8B for nine months [2]; Everest earned $634M of net investment income in the third quarter alone [1]. Fee income from managing investor capital in sidecars and cat bond funds is a growing, steadier stream.",
+      "Customers are primary insurers, large mutuals, government pools and Lloyd's syndicates, almost always placed through reinsurance brokers such as Guy Carpenter, Aon and Gallagher Re.",
+      "The principal costs are claims, ceding commissions paid back to insurers on proportional business, brokerage and retrocession. Overheads are small relative to premium because the business is wholesale.",
+      "Pricing power comes from capital scarcity after losses, strong ratings, analytics and the ability to provide large, reliable capacity. It has fallen sharply in 2026 as capital is plentiful [4]. Reinsurers can also push for better terms, such as higher attachment points, which protect margins even when headline rates fall [8].",
+      "Assets are investment portfolios and funds withheld by cedents; liabilities are loss reserves and unearned premium. Long-tail casualty reserves are the most uncertain liability, as Everest's strengthening shows [1].",
+      "Capital-intensive in the regulatory sense: reinsurers hold large equity buffers against extreme events. Physical capex is negligible."
+    ],
+    "overview": [
+      "Global reinsurance is a few hundred billion dollars of premium, with property-catastrophe the most visible part. Swiss Re's own nine-month P&C Re revenue was $12.8B [2]. Cat bonds are the fastest-growing segment, with $63.4B outstanding, up 17% [5].",
+      "Main segments are property (catastrophe and per-risk), casualty, specialty and life and health. Business is written as proportional treaties, excess-of-loss treaties or facultative single-risk deals.",
+      "Reinsurers sit at the top of the risk chain: they take risk from primary insurers and pass some on to retrocessionaires and capital markets. Brokers intermediate almost every placement.",
+      "The industry has consolidated into a handful of large global players, plus Bermuda specialists. Alternative capital has grown into a permanent part of property-catastrophe supply. Pension funds and specialist ILS managers now provide a large share of top-layer catastrophe capacity.",
+      "Business is concentrated in Europe (Munich, Zurich, Hannover, Paris), Bermuda and London. US catastrophe risk, especially Florida hurricanes and convective storms, is the largest single exposure [6]."
+    ],
+    "competition": [
+      "Around 30–40 reinsurers matter globally, plus Lloyd's syndicates and capital-markets investors. Everest is the only S&P 500 member classified here [16].",
+      "Munich Re and Swiss Re are the largest, followed by Hannover Re, SCOR, Berkshire Hathaway's reinsurance arms, Everest and RenaissanceRe. Market shares weren't available from our sources.",
+      "Consolidated at the top for large, multi-line treaties; more competitive in property catastrophe, where Bermuda carriers and cat bonds compete for the same risk.",
+      "Barriers are capital, ratings, data and modeling expertise, and broker relationships. They are lowered by alternative capital, which can enter quickly after losses. Start-up reinsurers typically appear in Bermuda after big loss years, when prices are highest.",
+      "Scale matters through diversification: a reinsurer that writes many uncorrelated risks needs less capital per unit of risk, which lowers its cost of capital.",
+      "Property catastrophe capacity is close to commoditized at the top of programs, where cat bonds compete. Casualty, life and complex structured deals are more differentiated.",
+      "Buyers have the upper hand now: Moody's survey found most buyers expect further price cuts in 2027 [8], and AXA XL Re saw rates fall 5% this year [14]."
+    ],
+    "drivers": [
+      "Revenue growth comes from rate, exposure growth in primary insurance and new demand such as catastrophe protection for growing insured values. With rates falling, premium is shrinking at several reinsurers: Everest's treaty premiums fell more than 6% in the third quarter [1].",
+      "Margins depend on catastrophe experience, pricing adequacy, attritional loss trends and casualty reserve development. Swiss Re's large nat cat losses were about $640M for nine months against a $1.6B full-year budget [2].",
+      "Key cost variables are catastrophe claims, casualty claims inflation, ceding commissions and the cost of retrocession.",
+      "Rates matter through investment income: Everest's net investment income rose to $634M from $540M [1]. Higher rates also make cat bonds more attractive to investors by raising their collateral yield.",
+      "Inflation raises claims and replacement values; GDP growth raises insured exposures. Commodity prices matter for energy and marine lines. Unemployment matters little. A recession can also hurt credit and surety lines.",
+      "Strongly cyclical, driven by catastrophe losses and capital flows rather than the economy. Long-term demand grows with insured values and climate-related risk."
+    ],
+    "financials": [
+      "Growth is volatile and currently slowing: Swiss Re's P&C Re revenue fell to $12.8B from $14.0B [2] and Everest's group gross premiums dropped 15% in the third quarter [1].",
+      "Insurers don't report gross margin. Damodaran's data cover just one US-listed reinsurer, with a 7.2% pre-tax operating margin [17], so company results are more informative: Swiss Re's P&C Re combined ratio of 77.3% implies a wide underwriting margin [2].",
+      "Returns are high at the cycle top: Swiss Re reported a 22.5% group ROE for nine months [2]. Damodaran's single-company reinsurance group shows a 7.8% ROE and 10.1% ROIC [11], reflecting Everest's casualty problems more than the industry.",
+      "Debt is modest; capital consists mainly of equity and hybrid bonds. Leverage shows up as catastrophe exposure relative to capital. Rating agencies, notably AM Best and S&P, effectively cap how much catastrophe risk each reinsurer can carry relative to capital.",
+      "Free cash flow is strong in quiet years and is returned through dividends and buybacks; RenaissanceRe repurchased $310M of shares in the third quarter [7].",
+      "Capex is minimal. Capital is the real input: reinsurers retain earnings to support growth after losses and return it in soft markets.",
+      "Valuations are low on earnings: Damodaran shows 8.1x forward earnings and about 1.0x book for its US reinsurance group [12][11]. Low multiples reflect volatile earnings and a softening cycle."
+    ],
+    "risks": [
+      "Regulation is capital-based (Solvency II in Europe, Bermuda's regime) and generally stable. Changes to US state catastrophe pools and Florida reforms affect demand.",
+      "AI improves catastrophe modeling, claims estimation and underwriting. The bigger technology shift is capital-markets technology that makes it cheaper to issue cat bonds and bring investors directly to risk [5].",
+      "Barely. Population movement into coastal and wildfire-prone areas raises catastrophe exposure over time, increasing long-term demand, while aging populations matter for life and longevity reinsurance, where Swiss Re's L&H Re profits rose 43% [2].",
+      "Primary insurers have grown larger and better capitalized, retaining more risk in good years. This reduces demand at lower layers.",
+      "Alternative capital is the main new competitor: record cat bond issuance of $24.9B over 12 months [5] puts pressure on reinsurers' pricing. Some primary insurers have also set up their own sidecars to tap investors directly.",
+      "War and political violence create unexpected losses: RenaissanceRe booked $191M of large losses from the Middle East war and the Ras Laffan explosion [7]. Global supply-chain disruptions raise business-interruption claims.",
+      "Cat bonds, industry loss warranties, government pools and parametric covers substitute for traditional reinsurance, especially for peak catastrophe risk."
+    ],
+    "horizon": {
+      "opportunities": [
+        "Growing insured values and climate-related losses raise long-term demand for catastrophe protection [6].",
+        "Managing third-party capital for fees lets reinsurers earn from alternative capital instead of competing with it [5].",
+        "Life and health reinsurance, where Swiss Re's net income rose 43%, diversifies away from the property cycle [2]."
+      ],
+      "threats": [
+        "Continued double-digit property rate cuts at the January 2027 renewals [9].",
+        "Further casualty reserve strengthening from social inflation [1].",
+        "A major catastrophe hitting after prices have fallen 23% from their peak [4]."
+      ],
+      "assessment": "We expect reinsurance earnings to decline gradually over the next three years as rate cuts flow through. Margins start from a very high level: Swiss Re's 77.3% combined ratio leaves room for deterioration while remaining profitable [2]. The cycle could turn quickly after a large catastrophe, which would raise prices again. Reinsurers with strong casualty reserves, large life businesses and fee income should hold up best; those with heavy casualty exposure, like Everest, face the greatest risk [1]."
+    }
+  },
+  "sections": [
+    {
+      "id": "macro",
+      "paragraphs": [
+        "For reinsurers, the macro cycle matters mainly through interest rates, inflation and currencies. The Fed held its target range at 3.75–4.00% in October with inflation still elevated [10], and long yields remain high. That supports investment income: Everest's rose to $634M in the third quarter from $540M [1]. Inflation raises claims costs, especially in casualty, where it compounds over the years claims take to settle.",
+        "Growth matters less than for most sectors. Demand for reinsurance depends on primary insurers' exposures and capital, not directly on GDP. Currencies matter for the European giants, which write much of their business in dollars while reporting in euros and francs. Our read is that macro conditions are supportive through yields, but the property-catastrophe pricing cycle dominates results. A recession would matter mostly through credit, surety and trade credit lines, and through lower investment yields if the Fed reversed course [10]."
+      ]
+    },
+    {
+      "id": "demand",
+      "paragraphs": [
+        "Long-term demand rises with insured values and climate risk. Global insured natural catastrophe losses were $42B in the first half of 2026 by Swiss Re's estimate, below the $66B trend, with severe convective storms the largest contributor [6]. Insurers need more protection as property values rise and storms become costlier, which supports demand over a decade.",
+        "Near-term demand is softer than supply. Many primary insurers are well capitalized after a profitable 2025–2026 and are retaining more risk. AXA XL's reinsurance premiums fell 9% for nine months [14], and Everest's treaty premiums fell more than 6% in the third quarter, with casualty excess-of-loss down 24.8% [1]. Supply, not demand, sets prices now: alternative capital and cat bonds have grown to $63.4B outstanding [5]. Brokers feel it too: Marsh's reinsurance broking revenue fell 6% in the third quarter [13]. We see premium shrinking slightly in 2027 before demand catches up with growing exposures."
+      ]
+    },
+    {
+      "id": "structure",
+      "paragraphs": [
+        "Porter's five forces show why prices are falling. Rivalry is intense as reinsurers chase growth with excess capital. Buyer power is high: insurers are well capitalized and brokers run competitive placements, and Moody's survey found most buyers expect lower property prices in 2027 [8]. Supplier power, meaning retrocession and capital providers, is low because capital is plentiful. The threat of new entrants is high through alternative capital, with record cat bond issuance [5]. Substitutes such as cat bonds and parametric covers are growing.",
+        "Moats come from scale, diversification, ratings and long relationships with large insurers. The giants' diversification lets them run lower combined ratios: Swiss Re's P&C Re ran at 77.3% for nine months [2]. Bermuda specialists compete on speed and catastrophe expertise; RenaissanceRe's property segment posted a 32.4% combined ratio in the third quarter [7]."
+      ]
+    },
+    {
+      "id": "environment",
+      "paragraphs": [
+        "Environmental risk is the heart of the business. Severe convective storms, wildfires and floods now generate large annual losses outside the traditional hurricane peak [6]. Geopolitics adds new losses: RenaissanceRe attributed $191M of large losses to the Middle East war and the Ras Laffan explosion [7]. Legal trends, especially social inflation in US liability claims, continue to push up casualty reserves, as Everest's $600M gross strengthening shows [1].",
+        "Regulation is stable, centered on capital standards in Europe and Bermuda. Technology is changing how capital reaches risk: cat bonds are now a mainstream source of reinsurance capacity [5]. Our read is that climate and legal trends raise the long-term value of reinsurance while making casualty the main earnings risk. The Swiss Re Institute notes that on average 58% of annual insured losses arrive in the second half, so full-year results remain exposed into the year end [6]."
+      ]
+    },
+    {
+      "id": "economics",
+      "paragraphs": [
+        "Reinsurance economics are at a cyclical high. Swiss Re's P&C Re combined ratio was 77.3% for nine months, and its group ROE 22.5% [2]. Munich Re's preliminary third-quarter profit of about €1.7bn beat consensus, and it raised 2026 guidance to €6.6bn [3]. RenaissanceRe's group combined ratio was 79.7% in the third quarter [7].",
+        "Operating leverage is high and volatile: a single catastrophe can turn a quarter from profit to loss. Everest shows the downside, with a Reinsurance Treaty combined ratio of 108.5% after catastrophe losses and adverse reserve development [1]. Capital intensity is high, but strong years generate cash for buybacks, such as RenaissanceRe's $310M in the third quarter [7]. Forward indicators are weakening: the margin on Swiss Re's new P&C business fell 28% [15]."
+      ]
+    },
+    {
+      "id": "earnings",
+      "paragraphs": [
+        "Third-quarter results split between property-led winners and casualty-hit laggards. Swiss Re's nine-month net income rose 3% to $4.2B [2] and Munich Re raised guidance [3], helped by below-budget catastrophe losses. Everest reported operating income of $290M, down from $316M, as reserve strengthening hit [1]. RenaissanceRe's property book stayed very profitable but its casualty and specialty segment ran at 110.6% [7].",
+        "Consensus estimates weren't publicly available to us. We expect 2027 earnings to fall at most reinsurers as January rate cuts of 10% or more [9] earn through and catastrophe losses normalize toward budget. Investment income growth will cushion part of the decline. Our view differs from the most optimistic estimates mainly on casualty: we think reserve strengthening has further to run across the industry, not only at Everest [1]."
+      ]
+    },
+    {
+      "id": "valuation",
+      "paragraphs": [
+        "Reinsurers trade at low multiples, reflecting volatile earnings and the falling price cycle. Damodaran's US reinsurance group, which contains a single company, traded at 8.1x forward earnings and about 1.0x book in January 2026 [12][11]. European reinsurers aren't in that dataset, and comparable figures for them weren't available to us. Investors usually anchor reinsurers on price-to-book and through-the-cycle return on equity, because reported earnings swing so much with catastrophes from one year to the next.",
+        "Valuation relative to the cycle matters more than headline multiples. At the peak of profitability, low price-to-earnings ratios can be a trap because earnings are about to fall. We think the market is right to discount peak earnings, but strong capital positions and buybacks support book value. Reinsurers with diversified life and fee businesses, like Swiss Re with L&H Re net income up 43% [2], deserve higher multiples than pure property-catastrophe writers."
+      ]
+    },
+    {
+      "id": "positioning",
+      "paragraphs": [
+        "Sub-industry fund flows and short-interest data weren't available to us. Investor focus is on the January 2027 renewals: KBW expects property catastrophe rates to fall at least 10% [9], and Moody's survey suggests 7.5–15% cuts [8]. Catastrophe bond funds keep drawing money, with issuance at a record pace [5], showing investors still want reinsurance risk, though increasingly through funds rather than reinsurers' shares.",
+        "Our read is that sentiment has shifted from enthusiasm about hard-market earnings to caution about the downturn. Everest's reserve strengthening [1] has made investors wary of casualty-heavy reinsurers, while those with property and life diversification, such as Munich Re after its guidance raise [3], retain support. A large late-season catastrophe before 1 January would change sentiment quickly [8]."
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "n": 1,
+      "title": "Everest posts Q3'26 underwriting loss amid casualty reinsurance reserve strengthening",
+      "publisher": "Reinsurance News",
+      "date": "2026-10-29",
+      "url": "https://www.reinsurancene.ws/everest-posts-q326-underwriting-loss-amid-casualty-reinsurance-reserve-strengthening/"
+    },
+    {
+      "n": 2,
+      "title": "Swiss Re delivers 3% increase in net income to USD 4.2 billion for the first nine months of 2026",
+      "publisher": "Swiss Re",
+      "date": "2026-11-05",
+      "url": "https://www.swissre.com/media/press-release/pr-20261105-q3-2026-press-release.html"
+    },
+    {
+      "n": 3,
+      "title": "Munich Re reports quarterly net profit of €1.7bn and raises full-year guidance",
+      "publisher": "Munich Re",
+      "date": "2026-10-23",
+      "url": "https://www.munichre.com/en/company/investors/mandatory-announcements/ad-hoc-announcements/2026-10-23-ad-hoc.html"
+    },
+    {
+      "n": 4,
+      "title": "Global and US property cat rates down 16%, APAC 19% after July renewals in 2026: Guy Carpenter",
+      "publisher": "Artemis",
+      "date": "2026-07",
+      "url": "https://www.artemis.bm/news/global-and-us-property-cat-rates-down-16-apac-19-after-july-renewals-in-2026-guy-carpenter/"
+    },
+    {
+      "n": 5,
+      "title": "Cat bond maturities and coupons fuel capital issuance: Aon Securities",
+      "publisher": "Artemis",
+      "date": "2026",
+      "url": "https://www.artemis.bm/news/cat-bond-maturities-coupons-fuel-capital-issuance-aon-securities/"
+    },
+    {
+      "n": 6,
+      "title": "First-half 2026 insured natural catastrophe losses: below trend, rising risks",
+      "publisher": "Swiss Re Institute",
+      "date": "2026",
+      "url": "https://www.swissre.com/institute/research/topics-and-risk-dialogues/climate-and-natural-catastrophe-risk/first-half-2026-insured-catastrophe-losses.html"
+    },
+    {
+      "n": 7,
+      "title": "RenRe trims property book as underwriting result offsets losses in casualty and specialty segment",
+      "publisher": "Reinsurance News",
+      "date": "2026-10",
+      "url": "https://www.reinsurancene.ws/renre-trims-property-book-as-underwriting-result-offsets-losses-in-casualty-and-specialty-segment/"
+    },
+    {
+      "n": 8,
+      "title": "Property reinsurance prices most likely to fall 7.5% to 15% in 2027: Moody's survey",
+      "publisher": "Artemis",
+      "date": "2026",
+      "url": "https://www.artemis.bm/news/property-reinsurance-prices-most-likely-to-fall-7-5-to-15-in-2027-moodys-survey/"
+    },
+    {
+      "n": 9,
+      "title": "Property cat XoL reinsurance rates expected to fall by at least 10% at 1.1.2027, reports KBW",
+      "publisher": "Reinsurance News",
+      "date": "2026",
+      "url": "https://www.reinsurancene.ws/property-cat-xol-reinsurance-rates-expected-to-fall-by-at-least-10-at-1-1-2027-reports-kbw/"
+    },
+    {
+      "n": 10,
+      "title": "The full statement from the October 2026 FOMC rate decision",
+      "publisher": "investingLive",
+      "date": "2026-10-28",
+      "url": "https://investinglive.com/central-banks/the-full-statement-from-the-october-2026-fomc-rate-decision/"
+    },
+    {
+      "n": 11,
+      "title": "Price to book, ROE and ROIC by industry (US)",
+      "publisher": "Aswath Damodaran, NYU Stern",
+      "date": "2026-01",
+      "url": "https://pages.stern.nyu.edu/~adamodar/New_Home_Page/datafile/pbvdata.html"
+    },
+    {
+      "n": 12,
+      "title": "PE ratios by industry (US)",
+      "publisher": "Aswath Damodaran, NYU Stern",
+      "date": "2026-01",
+      "url": "https://pages.stern.nyu.edu/~adamodar/New_Home_Page/datafile/pedata.html"
+    },
+    {
+      "n": 13,
+      "title": "Marsh Reports Third Quarter 2026 Results (Form 8-K exhibit 99.1)",
+      "publisher": "Marsh / SEC",
+      "date": "2026-10-15",
+      "url": "https://www.sec.gov/Archives/edgar/data/0000062709/000006270926000256/mmc3q2026ex991newsrelease.htm"
+    },
+    {
+      "n": 14,
+      "title": "AXA XL Re GWP and other revenues down 9% in 9M26 on lower volumes",
+      "publisher": "Reinsurance News",
+      "date": "2026-10",
+      "url": "https://www.reinsurancene.ws/axa-xl-re-gwp-other-revenues-down-9-in-9m26-on-lower-volumes/"
+    },
+    {
+      "n": 15,
+      "title": "Swiss Re books US$4.2bn profit as P&C pipeline compresses",
+      "publisher": "Insurance Business",
+      "date": "2026-11",
+      "url": "https://www.insurancebusinessmag.com/reinsurance/news/breaking-news/swiss-re-books-us4-2bn-profit-as-pandc-pipeline-compresses-596271.aspx"
+    },
+    {
+      "n": 16,
+      "title": "List of S&P 500 companies (GICS sub-industries)",
+      "publisher": "Wikipedia",
+      "date": "2026",
+      "url": "https://en.wikipedia.org/wiki/List_of_S%26P_500_companies"
+    },
+    {
+      "n": 17,
+      "title": "Operating and net margins by industry (US)",
+      "publisher": "Aswath Damodaran, NYU Stern",
+      "date": "2026-01",
+      "url": "https://pages.stern.nyu.edu/~adamodar/New_Home_Page/datafile/margin.html"
+    }
+  ]
+}

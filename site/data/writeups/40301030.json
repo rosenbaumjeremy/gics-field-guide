@@ -1,0 +1,393 @@
+{
+  "code": "40301030",
+  "added": "2026-11-08",
+  "asOf": "2026-11-04",
+  "summary": "Multi-line insurers combine property-casualty and life businesses, so their results blend a softening P&C cycle with steadier life and investment income. AIG grew premiums 7% but its combined ratio rose to 91.3% on catastrophes, and it has finished exiting Corebridge [1]. AXA grew nine-month revenue 5%, with retail P&C up 7% on price and volume while AXA XL shrank [2]. Assurant raised its outlook on device protection growth [4], while Loews' CNA took a long-term care reserve charge [5]. Our read: diversified insurers are holding up better than pure commercial writers, but slowing commercial pricing [6] will cap growth into 2027.",
+  "metrics": [
+    {
+      "label": "AIG General Insurance net premiums written, Q3 2026",
+      "value": "$6.7B",
+      "context": "+7%; combined ratio 91.3% vs 86.8%",
+      "source": 1
+    },
+    {
+      "label": "AIG core operating ROE, 9M 2026",
+      "value": "11.4%",
+      "context": "Q3 11.1%; Corebridge stake fully sold in May 2026",
+      "source": 1
+    },
+    {
+      "label": "AXA revenue growth, 9M 2026",
+      "value": "+5%",
+      "context": "Like-for-like; €93.0bn; P&C +3%",
+      "source": 2
+    },
+    {
+      "label": "Allianz P&C combined ratio, Q2 2026",
+      "value": "91.9%",
+      "context": "Record quarterly P&C operating profit €2.5bn",
+      "source": 3
+    },
+    {
+      "label": "Assurant adjusted EBITDA, Q3 2026",
+      "value": "$464.4M",
+      "context": "+8%; +12% ex catastrophes",
+      "source": 4
+    },
+    {
+      "label": "Global commercial insurance rates, Q3 2026",
+      "value": "-5%",
+      "context": "Ninth straight quarterly decline (Marsh index)",
+      "source": 6
+    }
+  ],
+  "watch": [
+    "Commercial pricing, which drove AIG's North America Commercial combined ratio to 92.9% from 82.6% [1].",
+    "AIG's capital deployment now that the Corebridge exit is complete [1].",
+    "Long-term care and other legacy life reserves, as CNA's annual review showed [5].",
+    "European retail pricing, where AXA still achieved about 4 points of price in personal lines [2].",
+    "Allianz and AXA full-year guidance against elevated secondary-peril catastrophes in Europe [2][3]."
+  ],
+  "bellwethers": [
+    "AIG",
+    "Allianz",
+    "AXA",
+    "Zurich Insurance",
+    "Generali",
+    "Assurant",
+    "Loews"
+  ],
+  "basics": {
+    "intro": "Multi-line insurers run significant property-casualty and life businesses under one roof. Most of the world's largest insurance groups, such as Allianz, AXA, Zurich and Generali, fit this description, as do AIG, Assurant and Loews in the S&P 500 [12]. They earn underwriting profit on P&C, spreads and fees on life and savings, and investment income across both. Loews is unusual: it is a holding company whose largest asset is the insurer CNA, alongside pipelines and hotels [5]. Companies focused mainly on one side sit in P&C or Life & Health Insurance.",
+    "products": [
+      {
+        "name": "Commercial P&C",
+        "what": "Property, liability, specialty and financial lines for companies, often large multinationals.",
+        "examples": "AIG, AXA XL, Allianz Commercial, Zurich, CNA"
+      },
+      {
+        "name": "Personal P&C",
+        "what": "Motor, home and travel insurance for individuals, sold through agents, banks and online.",
+        "examples": "Allianz, AXA, Generali, AIG Private Client"
+      },
+      {
+        "name": "Life and savings",
+        "what": "Protection, unit-linked and guaranteed savings products, very large in Europe.",
+        "examples": "Allianz Life, AXA, Generali"
+      },
+      {
+        "name": "Health",
+        "what": "Private medical and supplemental health cover, important in France, Germany and Asia.",
+        "examples": "AXA Health, Allianz Private Health"
+      },
+      {
+        "name": "Specialty and lifestyle protection",
+        "what": "Device protection, extended warranties, vehicle service contracts and lender-placed home insurance sold through partners.",
+        "examples": "Assurant Global Lifestyle and Global Housing"
+      },
+      {
+        "name": "Asset management",
+        "what": "Investment managers serving the insurer and third parties, a source of fee income.",
+        "examples": "PIMCO and Allianz Global Investors, AXA IM"
+      }
+    ],
+    "terms": [
+      {
+        "term": "Combined ratio",
+        "meaning": "P&C claims and expenses as a percentage of premium; below 100 is an underwriting profit."
+      },
+      {
+        "term": "Accident-year combined ratio",
+        "meaning": "The combined ratio for the current year's policies, excluding reserve changes on older years and sometimes catastrophes; shows the underlying pricing trend."
+      },
+      {
+        "term": "Operating profit or core income",
+        "meaning": "Earnings excluding investment gains and one-offs; the measure management targets and investors track."
+      },
+      {
+        "term": "Diversification benefit",
+        "meaning": "Life and P&C risks are largely uncorrelated, so a combined group needs less capital than two separate companies."
+      },
+      {
+        "term": "Solvency II ratio",
+        "meaning": "The European capital adequacy measure; above 200% is generally strong."
+      },
+      {
+        "term": "Bancassurance",
+        "meaning": "Selling insurance through bank branches, a major channel in Europe and Asia."
+      },
+      {
+        "term": "Unit-linked",
+        "meaning": "Savings policies where the customer bears the investment risk; the insurer earns fees."
+      },
+      {
+        "term": "Long-term care",
+        "meaning": "Insurance paying for nursing and home care. Older blocks were underpriced and still produce reserve charges."
+      },
+      {
+        "term": "Secondary perils",
+        "meaning": "Frequent mid-sized catastrophes such as hail, floods and wildfires, as opposed to rare peak perils like hurricanes."
+      },
+      {
+        "term": "Book value per share ex-AOCI",
+        "meaning": "Equity per share excluding unrealized bond gains and losses, which swing with interest rates."
+      }
+    ],
+    "drivers": [
+      {
+        "name": "P&C pricing cycle",
+        "how": "Rate increases above claims inflation widen margins on commercial and personal lines; rate cuts narrow them, as in commercial lines now."
+      },
+      {
+        "name": "Catastrophes",
+        "how": "Storms, floods and wildfires hit P&C results; diversified groups absorb them better, but a bad year still dents earnings."
+      },
+      {
+        "name": "Interest rates",
+        "how": "Higher yields raise investment income across both P&C and life, and improve the economics of guaranteed savings products."
+      },
+      {
+        "name": "Equity and credit markets",
+        "how": "Fees on unit-linked savings and asset management rise with markets; credit losses hit general account portfolios."
+      },
+      {
+        "name": "Portfolio reshaping",
+        "how": "Sales of life units, legacy books or asset managers release capital for buybacks, as AIG's exit from Corebridge did."
+      },
+      {
+        "name": "Currency",
+        "how": "Global groups report in euros or dollars but earn in many currencies, so translation moves results."
+      }
+    ]
+  },
+  "fundamentals": {
+    "business": [
+      "Revenue is P&C premium, life and health premium and fees, asset management fees and investment income. AXA's nine-month revenue was €93.0bn, of which P&C was €48.1bn [2]; AIG's General Insurance wrote $6.7B of net premium in the third quarter alone [1].",
+      "Customers range from households buying motor, home and life cover to multinationals buying global commercial programs. Distribution runs through agents, brokers, banks, worksites and partners such as retailers and mobile carriers for Assurant [4].",
+      "The main costs are claims and policyholder benefits, followed by commissions, staff and technology. Reinsurance purchases are significant for catastrophe-exposed books, and lower reinsurance costs helped Assurant's housing results this year [4].",
+      "Pricing power is strongest in retail lines with strong brands and distribution, such as European motor and home, where AXA achieved about 4 points of price [2]. It is weaker in large commercial lines, where AXA XL's pricing fell 1% [2].",
+      "Assets are large bond and loan portfolios, equities, real estate and, for some groups, asset management businesses. Liabilities are P&C loss reserves and long-dated life reserves. Book value is affected by rate-driven unrealized losses, so groups report it excluding them [1].",
+      "Capital-intensive in regulatory terms but asset-light physically. Diversification across lines lowers required capital compared with single-line insurers, which is the main economic argument for the model."
+    ],
+    "overview": [
+      "Multi-line groups write a large share of global premiums. Swiss Re forecasts 2026 global real premium growth of 0.6% for non-life and 2.3% for life [8], so their life businesses are currently the faster-growing side.",
+      "Main segments are commercial P&C, personal P&C, life and savings, health, specialty protection and asset management. The mix varies widely: AIG is now mainly P&C after selling Corebridge [1], while Allianz and AXA are balanced.",
+      "These groups sit between customers and capital markets, buying reinsurance from Munich Re and Swiss Re and distributing through brokers, agents and banks. Several also own large asset managers. Distribution partners such as banks and retailers often share in the profits of the products they sell.",
+      "The model has been reshaped by disposals. Groups have sold life books, legacy blocks and asset managers to focus on P&C and fee businesses. AIG completed its final disposition of Corebridge in May 2026 [1].",
+      "Concentrated in Europe and the US, with growing businesses in Asia and Latin America. AXA's growth was led by retail lines in Europe [2]; AIG writes heavily in North American and international commercial lines [1]."
+    ],
+    "competition": [
+      "A dozen or so global groups dominate, including Allianz, AXA, Zurich, Generali and AIG, with regional multi-line players in each country.",
+      "Allianz is the largest by operating profit in Europe, with a full-year target of €17.4bn plus or minus €1bn [3]. AIG is among the largest commercial insurers in the US [1]. Precise market shares weren't available from our sources.",
+      "Consolidated nationally in most European markets, where a few groups hold large shares of motor and home, and fragmented globally in commercial lines.",
+      "Barriers are high: capital, licenses in many countries, brands, distribution networks and data. New entrants usually target a single line rather than the full model. Building a multi-country licensed network from scratch would take decades.",
+      "Scale gives diversification benefits, purchasing power in reinsurance, lower expense ratios and investment management economies.",
+      "Retail lines are differentiated by brand and distribution; large commercial lines are more competitive, with brokers pushing prices down in the current soft market [6].",
+      "Large commercial buyers and their brokers have rising power as rates fall [6]. Reinsurers have lost power as their prices fall, which lowers costs for the groups [4]."
+    ],
+    "drivers": [
+      "Growth comes from P&C rate and exposure, life sales, asset growth and acquisitions. AIG's General Insurance premiums grew 8% in constant dollars [1]; AXA's retail personal lines grew 7%, roughly 4 points of price and 3 of volume [2].",
+      "Margins depend on P&C underwriting results, life spreads and fees, expense efficiency and investment returns. AIG's adjusted accident-year combined ratio was stable at 88.4% while catastrophes pushed its reported ratio up [1].",
+      "Key cost variables are claims inflation, catastrophes, commission rates and reinsurance costs. Long-term care reserves are a specific cost for groups with legacy books, as CNA showed [5].",
+      "Rates help investment income: AIG's General Insurance net investment income rose 9% to $1.0B [1]. Higher rates also cut book value through unrealized bond losses and change life product economics.",
+      "Inflation lifts claims and expense costs; GDP and employment drive exposure growth. Commodity prices matter for energy and marine lines. Unemployment has modest effects.",
+      "Defensive overall: insurance demand is steady and diversification smooths results. The P&C side is cyclical in pricing; the life side has secular support from aging populations."
+    ],
+    "financials": [
+      "Revenue growth is typically low-to-mid single digits. AXA grew 5% like-for-like in nine months [2]. Earnings growth varies with catastrophes and reserve actions: AIG's adjusted EPS fell to $2.06 from $2.20 [1].",
+      "Gross margin isn't a meaningful measure for insurers. Damodaran doesn't have a separate multi-line category; his data show pre-tax operating margins of 15.3% for US P&C and 10.6% for US life insurers, bracketing the blended model [9].",
+      "Returns are moderate: AIG's core operating ROE was 11.4% for nine months [1]. Damodaran shows 18.7% ROE for US P&C and 12.9% for life [11].",
+      "Financial leverage is moderate, with debt and hybrid capital at 20–30% of capital for most groups. Insurance leverage, meaning reserves relative to equity, is higher on the life side.",
+      "Free cash flow is strong and largely returned: AIG returned $787M in the third quarter [1] and Loews repurchased $167M of stock [5].",
+      "Capex is mainly technology. Capital deployment through acquisitions and buybacks matters more than physical investment.",
+      "Valuation sits between pure P&C and pure life. Damodaran's US forward P/E is 16.4x for P&C and 9.3x for life [10]; a multi-line group's multiple depends on its mix."
+    ],
+    "risks": [
+      "Regulation is extensive: Solvency II in Europe, state-based rules in the US. Climate disclosure rules, capital standards for global groups and consumer protection rules on savings products are ongoing issues.",
+      "AI improves underwriting, claims handling and customer service, and the large groups invest heavily in it. AI comparison tools could pressure pricing in simple retail lines; investor worry about this pulled the S&P 500 Insurance index down 3.9% in one day in February 2026 [13].",
+      "Aging populations raise demand for savings, health and long-term care, but also expose groups to longevity and care costs, as CNA's reserve charge shows [5].",
+      "Customers increasingly buy online and through embedded partnerships, which Assurant's device protection business exploits [4], while traditional agents lose share in simple lines.",
+      "Insurtechs and embedded insurance platforms compete in retail; alternative capital competes in reinsurance and specialty lines.",
+      "Global groups face currency, political and sovereign risk across many countries; geopolitical events produce specialty and political violence losses.",
+      "Self-insurance and captives compete for large commercial risk; state programs compete in health and pensions; capital-markets solutions compete in catastrophe cover."
+    ],
+    "horizon": {
+      "opportunities": [
+        "Life, health and savings demand from aging populations supports the side of the business that is growing faster now [8].",
+        "Capital released from disposals, such as AIG's Corebridge exit, funds buybacks and targeted growth [1].",
+        "Retail pricing power in Europe, where AXA still achieved about 4 points of price [2]."
+      ],
+      "threats": [
+        "A soft commercial P&C market eroding margins in large accounts [6][1].",
+        "Legacy reserve charges in long-term care and casualty [5].",
+        "Rising secondary-peril catastrophe losses in Europe and the US [2][14]."
+      ],
+      "assessment": "We expect diversified multi-line groups to deliver steady mid-single-digit earnings growth over the next three to five years, with life, health and retail P&C offsetting softer commercial pricing [2][3]. Diversification reduces volatility, and strong capital positions support buybacks. The weak spots are groups concentrated in large commercial lines, where margins are falling fastest, and those with legacy long-term care exposures [1][5]. The best-placed groups combine retail franchises, fee income and disciplined capital allocation."
+    }
+  },
+  "sections": [
+    {
+      "id": "macro",
+      "paragraphs": [
+        "The macro backdrop is mixed but broadly supportive. The Fed held its target range at 3.75–4.00% in October after a September hike, describing growth as strong and inflation as elevated [7]. High yields lift investment income across both P&C and life: AIG's General Insurance net investment income rose 9% to $1.0B [1]. They also make savings products more attractive in Europe and the US.",
+        "Inflation raises claims costs, especially in motor and liability, which is why European insurers keep pushing retail prices: AXA achieved about 4 points of price in personal lines [2]. Currency moves add noise for global groups. Our read is that multi-line insurers, with diversified earnings, are well placed for a late-cycle economy, but slowing growth would hit commercial lines first. European groups also face a slower economy at home than the US, which limits exposure growth even as pricing holds up."
+      ]
+    },
+    {
+      "id": "demand",
+      "paragraphs": [
+        "Demand is broad and steady. Swiss Re expects global non-life premiums to grow 0.6% in real terms in 2026 and life premiums 2.3% [8], so the life and savings side of multi-line groups is currently the stronger growth engine. Retail P&C is still growing in Europe on price and volume: AXA's retail personal lines rose 7% [2].",
+        "Commercial demand is stable in volume but falling in price. Global commercial rates fell 5% in the third quarter [6], and AXA XL's insurance premiums slipped 1% [2]. AIG still grew General Insurance premiums 7%, led by international commercial and global personal lines, while cutting North America property [1]. Specialty protection is a growth niche: Assurant's Connected Living earnings rose 23% on mobile device programs [4]. We see long-run growth near nominal GDP, with life and specialty lines offsetting commercial softness."
+      ]
+    },
+    {
+      "id": "structure",
+      "paragraphs": [
+        "Across Porter's five forces, rivalry is high in commercial lines and moderate in retail lines, where a few large groups hold strong national positions. Buyer power is high for large commercial clients and their brokers [6], and lower for individuals. Supplier power is falling, because reinsurers have cut prices and lowered groups' costs [4]. The threat of new entrants is low for the full multi-line model but meaningful in single lines. Substitutes such as captives matter for large companies.",
+        "Moats come from scale, brands, distribution networks, diversification benefits and data. Allianz's record quarterly P&C operating profit of €2.5bn [3] and AXA's retail pricing power [2] show the strength of those positions. Diversification also lowers capital needs compared with single-line competitors. The weakness of the model is complexity: investors find conglomerate insurers harder to analyze, and management attention is spread across very different businesses, which is one reason groups like AIG have simplified [1]."
+      ]
+    },
+    {
+      "id": "environment",
+      "paragraphs": [
+        "Regulation is extensive but stable, centered on Solvency II in Europe and state regulation in the US. Environmental risk is rising: AXA's nine-month natural catastrophe experience was above its normalized load because of hail, floods and storms in France, Switzerland and Italy [2], and severe convective storms drove most US insured losses in the first half [14].",
+        "Legacy liabilities are a political and social issue as well as a financial one. Long-term care costs, driven by longer lives and higher care costs, forced CNA to increase reserves by $173M before tax [5]. Technology is changing distribution, with embedded partnerships like Assurant's device protection programs [4] and AI-driven claims handling. Our read is that climate and aging trends raise demand for insurance while pressuring legacy books. Climate risk also shapes where groups are willing to write property cover at all."
+      ]
+    },
+    {
+      "id": "economics",
+      "paragraphs": [
+        "Multi-line insurers earn moderate, steady returns. AIG's core operating ROE was 11.4% for nine months, and its General Insurance combined ratio was 89.2% over the same period [1]. Allianz's P&C combined ratio was 91.9% in the second quarter [3]. Damodaran's US data bracket the model: 18.7% ROE for P&C insurers and 12.9% for life insurers [11].",
+        "Capital intensity is moderate thanks to diversification, and cash generation is strong. AIG returned $787M to shareholders in the third quarter, including $527M of buybacks [1]; Loews repurchased $167M of stock [5]. Operating leverage is lower than for pure P&C insurers because life and asset management earnings dampen underwriting swings. Assurant shows how fee-like specialty businesses lift margins, with adjusted EBITDA up 8% [4]. The trade-off is that diversified groups rarely match the peak returns of the best pure P&C writers in a hard market."
+      ]
+    },
+    {
+      "id": "earnings",
+      "paragraphs": [
+        "Third-quarter results showed the effect of catastrophes and a softer commercial market. AIG's adjusted EPS fell to $2.06 from $2.20 as catastrophe losses rose to $283M and its North America Commercial combined ratio rose to 92.9% [1]. CNA's core income halved to $203M on a long-term care reserve charge and weaker P&C underwriting [5]. Assurant raised its 2026 outlook to low double-digit adjusted EPS growth [4], and AXA reaffirmed its operating result target of about €8.6bn [2].",
+        "Consensus estimates for the sub-industry weren't publicly available to us. We expect 2027 earnings growth in the mid-single digits for diversified European groups and lower for groups weighted toward large commercial lines. Where we differ from a cautious consensus is in retail: European personal lines pricing is still positive [2], which should support margins longer than commercial lines."
+      ]
+    },
+    {
+      "id": "valuation",
+      "paragraphs": [
+        "There is no separate valuation series for multi-line insurers in our sources. Damodaran's January 2026 data price US P&C insurers at 16.4x forward earnings and 2.02x book, and US life insurers at 9.3x and 1.43x [10][11], so a multi-line group's valuation tends to fall between those depending on its mix. AIG's adjusted book value per share was $81.25 [1].",
+        "We think the market gives diversified groups little credit for their lower volatility and treats them closer to life insurers than to P&C insurers. That creates relative value in groups with strong retail franchises and capital return programs, such as Allianz and AXA [2][3]. Groups with legacy long-term care or concentrated commercial exposure deserve their discount until reserves are clearly adequate [5]. Buybacks funded by disposals, as at AIG, are the most direct way these groups can close that discount to their sum of parts [1]."
+      ]
+    },
+    {
+      "id": "positioning",
+      "paragraphs": [
+        "Sub-industry fund flows and short-interest data weren't available to us. Results-day reactions suggest investors reward earnings visibility and capital return: Loews shares rose about 3.8% after its third-quarter results beat expectations despite the CNA charge [15], and Assurant's raised outlook [4] supports sentiment in specialty protection.",
+        "Our read is that investors favor diversified European groups and specialty protection businesses over commercial-heavy writers. AIG's story has shifted from restructuring to capital return now that Corebridge is gone [1]. Upcoming catalysts include January reinsurance renewals, which lower costs for primary groups, fourth-quarter reserve reviews and 2027 guidance from the European groups. A heavy run of late-year European storms or a large US hurricane before year end would test the view that diversification protects earnings [14]."
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "n": 1,
+      "title": "AIG third quarter 2026 earnings release (Form 8-K)",
+      "publisher": "AIG / SEC",
+      "date": "2026-11-03",
+      "url": "https://www.sec.gov/Archives/edgar/data/0000005272/000000527226000101/q32026earningsrelease.htm"
+    },
+    {
+      "n": 2,
+      "title": "AXA 9M26 activity indicators",
+      "publisher": "AXA via Euronext",
+      "date": "2026-10-29",
+      "url": "https://live.euronext.com/sites/default/files/press_releases_attachments/2026-10/AXA-Pressrelease-9M26ActivityIndicators.pdf"
+    },
+    {
+      "n": 3,
+      "title": "Earnings release: 2Q and 6M 2026",
+      "publisher": "Allianz",
+      "date": "2026-08-07",
+      "url": "https://www.allianz.com/en/mediacenter/news/media-releases/financials/260807-2q-2026-earnings-release.html"
+    },
+    {
+      "n": 4,
+      "title": "Assurant third quarter 2026 results (Form 8-K exhibit 99.1)",
+      "publisher": "Assurant / SEC",
+      "date": "2026-11",
+      "url": "https://www.sec.gov/Archives/edgar/data/0001267238/000126723826000043/aiz-20260930exx991pressrel.htm"
+    },
+    {
+      "n": 5,
+      "title": "Loews Corporation reports net income of $306 million for the third quarter of 2026 (Form 8-K exhibit 99.1)",
+      "publisher": "Loews / SEC",
+      "date": "2026-11-02",
+      "url": "https://www.sec.gov/Archives/edgar/data/0000060086/000006008626000054/exhibit991-q32026.htm"
+    },
+    {
+      "n": 6,
+      "title": "Global commercial insurance rates fall 5% in Q3 2026 (Global Insurance Market Index)",
+      "publisher": "Marsh",
+      "date": "2026-10",
+      "url": "https://www.marsh.com/en/about/media/global-commercial-insurance-falls-5-percent-q3-2026.html"
+    },
+    {
+      "n": 7,
+      "title": "The full statement from the October 2026 FOMC rate decision",
+      "publisher": "investingLive",
+      "date": "2026-10-28",
+      "url": "https://investinglive.com/central-banks/the-full-statement-from-the-october-2026-fomc-rate-decision/"
+    },
+    {
+      "n": 8,
+      "title": "Global insurance growth slows to 1.3% in 2026 as fragmentation reshapes risk (Swiss Re sigma 2/2026)",
+      "publisher": "Risk & Insurance",
+      "date": "2026-07",
+      "url": "https://riskandinsurance.com/global-insurance-growth-slows-to-1-3-in-2026-as-fragmentation-reshapes-risk/"
+    },
+    {
+      "n": 9,
+      "title": "Operating and net margins by industry (US)",
+      "publisher": "Aswath Damodaran, NYU Stern",
+      "date": "2026-01",
+      "url": "https://pages.stern.nyu.edu/~adamodar/New_Home_Page/datafile/margin.html"
+    },
+    {
+      "n": 10,
+      "title": "PE ratios by industry (US)",
+      "publisher": "Aswath Damodaran, NYU Stern",
+      "date": "2026-01",
+      "url": "https://pages.stern.nyu.edu/~adamodar/New_Home_Page/datafile/pedata.html"
+    },
+    {
+      "n": 11,
+      "title": "Price to book, ROE and ROIC by industry (US)",
+      "publisher": "Aswath Damodaran, NYU Stern",
+      "date": "2026-01",
+      "url": "https://pages.stern.nyu.edu/~adamodar/New_Home_Page/datafile/pbvdata.html"
+    },
+    {
+      "n": 12,
+      "title": "List of S&P 500 companies (GICS sub-industries)",
+      "publisher": "Wikipedia",
+      "date": "2026",
+      "url": "https://en.wikipedia.org/wiki/List_of_S%26P_500_companies"
+    },
+    {
+      "n": 13,
+      "title": "Insurance broker stocks sink as AI app sparks disruption fears",
+      "publisher": "Insurance Journal (Bloomberg)",
+      "date": "2026-02-10",
+      "url": "https://www.insurancejournal.com/news/national/2026/02/10/857525.htm"
+    },
+    {
+      "n": 14,
+      "title": "First-half 2026 insured natural catastrophe losses: below trend, rising risks",
+      "publisher": "Swiss Re Institute",
+      "date": "2026",
+      "url": "https://www.swissre.com/institute/research/topics-and-risk-dialogues/climate-and-natural-catastrophe-risk/first-half-2026-insured-catastrophe-losses.html"
+    },
+    {
+      "n": 15,
+      "title": "Loews shares rise 3.8% following third-quarter earnings beat despite lower net income",
+      "publisher": "Finviz",
+      "date": "2026-11",
+      "url": "https://finviz.com/news/412975/loews-shares-rise-38-following-third-quarter-earnings-beat-despite-lower-net-income"
+    }
+  ]
+}

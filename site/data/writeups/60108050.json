@@ -1,0 +1,371 @@
+{
+  "code": "60108050",
+  "added": "2026-11-08",
+  "asOf": "2026-10-29",
+  "summary": "Data center REITs are in the strongest leasing market they have seen. Equinix booked a record $533M of annualized gross bookings, up 35%, and raised its 2026 AFFO per share guidance for the third time [1]. Digital Realty signed a record $855M of bookings and now has a $2.5B backlog [2]. North American primary-market vacancy is at a record low of 1.4%, with 80% of capacity under construction already preleased [3]. The constraints are power and capital: both REITs are spending $4–6B a year on development [1][2], and grid shortfalls are slowing new supply [10]. Our read: earnings growth is strong and visible, and valuation already reflects much of it.",
+  "metrics": [
+    {
+      "label": "North America primary-market vacancy, H1 2026",
+      "value": "1.4%",
+      "context": "Record low; Northern Virginia 0.2%",
+      "source": 3
+    },
+    {
+      "label": "Equinix annualized gross bookings, Q3 2026",
+      "value": "$533M",
+      "context": "Record, +35% y/y; revenue $2.571B, +11%",
+      "source": 1
+    },
+    {
+      "label": "Equinix 2026 AFFO per share guidance",
+      "value": "$43.71–44.11",
+      "context": "+14–15% as reported; raised 28 Oct 2026",
+      "source": 1
+    },
+    {
+      "label": "Digital Realty bookings, Q3 2026",
+      "value": "$855M",
+      "context": "Record at 100% share; backlog $2.5B",
+      "source": 2
+    },
+    {
+      "label": "Digital Realty 2026 Core FFO per share guidance",
+      "value": "$8.30–8.35",
+      "context": "Raised from $8.15–8.20",
+      "source": 2
+    },
+    {
+      "label": "Hyperscaler capex, calendar 2026 (est.)",
+      "value": "$803–828B",
+      "context": "Amazon, Alphabet, Meta, Microsoft and SpaceX",
+      "source": 4
+    },
+    {
+      "label": "FTSE Nareit data center REIT return, H1 2026",
+      "value": "33.2%",
+      "context": "After -14.2% in 2025; dividend yield 2.35%",
+      "source": 8
+    }
+  ],
+  "watch": [
+    "Hyperscaler capex plans for 2027, which set the pace of large-scale leasing [4].",
+    "Power availability and grid rules in PJM and other markets, which decide how fast new capacity can open [10][3].",
+    "Funding: development capex of $5–6B at Equinix and $4.25–4.75B at Digital Realty with yields near 5% [1][2][5].",
+    "Renewal spreads, running 10–12% cash at Digital Realty, as a sign of pricing power [2].",
+    "Signs of AI demand cooling, such as Microsoft trimming its capex outlook [4]."
+  ],
+  "bellwethers": [
+    "Equinix",
+    "Digital Realty",
+    "Keppel DC REIT",
+    "Digital Core REIT"
+  ],
+  "basics": {
+    "intro": "Data center REITs own buildings that house computer servers and lease space, power and cooling to tenants. Customers range from cloud and AI companies leasing whole buildings to enterprises renting a few cabinets. They earn rent, power charges and, at colocation operators, fees for cross-connects between customers. The S&P 500 has two members in this sub-industry, Equinix and Digital Realty [11]. Tower owners and fiber networks sit in Telecom Tower REITs and telecom sub-industries, and private operators owned by funds aren't listed here at all.",
+    "products": [
+      {
+        "name": "Hyperscale and wholesale leasing",
+        "what": "Whole buildings or large halls, often tens of megawatts, leased to cloud and AI companies on long contracts. Lower margins but large scale.",
+        "examples": "Digital Realty, Equinix xScale"
+      },
+      {
+        "name": "Retail colocation",
+        "what": "Cabinets and cages for many smaller customers in one building, with power and services included. Higher rent per kilowatt.",
+        "examples": "Equinix IBX centers, Digital Realty 0–1 MW"
+      },
+      {
+        "name": "Interconnection",
+        "what": "Physical and virtual cross-connects linking customers, networks and clouds inside a data center; a high-margin, sticky revenue stream.",
+        "examples": "Equinix Fabric, Digital Realty ServiceFabric"
+      },
+      {
+        "name": "Powered shells and land",
+        "what": "Land and buildings with power secured, sold or leased to customers who fit them out themselves.",
+        "examples": "Digital Realty land bank"
+      },
+      {
+        "name": "Development joint ventures and funds",
+        "what": "Partnerships with institutional investors that fund new campuses and earn REITs fees and promotes.",
+        "examples": "Equinix xScale JVs, Digital Realty's perpetual capital fund"
+      }
+    ],
+    "terms": [
+      {
+        "term": "AFFO",
+        "meaning": "Adjusted funds from operations: cash earnings after recurring capex. The main per-share earnings measure for REITs."
+      },
+      {
+        "term": "Core FFO",
+        "meaning": "Funds from operations adjusted for one-offs; Digital Realty's headline per-share measure."
+      },
+      {
+        "term": "Megawatt (MW) of IT load",
+        "meaning": "The power available to run customers' servers; data centers are measured and priced by power rather than floor space."
+      },
+      {
+        "term": "Bookings",
+        "meaning": "Annualized rent from new leases signed in a period; a leading indicator of revenue."
+      },
+      {
+        "term": "Signed-not-commenced backlog",
+        "meaning": "Rent from leases signed but not yet started, showing future revenue already contracted."
+      },
+      {
+        "term": "Renewal spread",
+        "meaning": "The change in rent when an existing lease renews; positive spreads show pricing power."
+      },
+      {
+        "term": "Churn",
+        "meaning": "The share of revenue lost from customers leaving each period."
+      },
+      {
+        "term": "Preleasing",
+        "meaning": "Leasing capacity before it is built, which reduces development risk."
+      },
+      {
+        "term": "Stabilized yield",
+        "meaning": "Annual net operating income divided by total development cost once a project is fully leased."
+      },
+      {
+        "term": "PUE",
+        "meaning": "Power usage effectiveness: total facility power divided by IT power. Closer to 1.0 means more efficient cooling."
+      },
+      {
+        "term": "Interconnection",
+        "meaning": "Direct connections between customers inside a data center, which make the site more valuable as more customers join."
+      },
+      {
+        "term": "Net debt to EBITDA",
+        "meaning": "The main leverage measure; Digital Realty was at 5.2x in the third quarter [2]."
+      }
+    ],
+    "drivers": [
+      {
+        "name": "Cloud and AI capex",
+        "how": "Hyperscalers' spending plans translate into large leases; when they raise capex, wholesale leasing and pricing rise."
+      },
+      {
+        "name": "Power availability",
+        "how": "New capacity needs grid connections and substations that take years. Scarce power keeps vacancy low and rents rising but limits growth."
+      },
+      {
+        "name": "Supply pipeline",
+        "how": "Record construction can eventually loosen markets; high preleasing reduces that risk."
+      },
+      {
+        "name": "Interest rates and cost of capital",
+        "how": "Development is funded with debt and equity; higher rates raise funding costs and can lower REIT valuations."
+      },
+      {
+        "name": "Interconnection ecosystems",
+        "how": "More networks and clouds in one building attract more customers, supporting retail pricing and low churn."
+      },
+      {
+        "name": "Currency",
+        "how": "Both REITs earn a large share of revenue outside the US, so a stronger dollar lowers reported results."
+      }
+    ]
+  },
+  "fundamentals": {
+    "business": [
+      "Revenue is recurring rent and power charges, interconnection fees and non-recurring installation and service fees. Equinix earned $2.571B in the third quarter, of which interconnection was $465M [1]. Digital Realty earned $1.90B [2].",
+      "Customers are cloud providers, AI companies, telecom carriers, financial firms and enterprises. Hyperscalers dominate large leases; thousands of enterprises and networks rent retail colocation and interconnection. At Equinix, a long tail of enterprise and network customers keeps revenue diversified; at Digital Realty, a few hyperscalers account for a large share of leasing.",
+      "Principal costs are power (often passed through to customers), property operations, staff, property taxes and depreciation. Interest on development debt is a growing cost as both companies build heavily.",
+      "Pricing power depends on vacancy and power scarcity. With North American primary-market vacancy at 1.4%, asking rents rose in every deployment size in the first half [3]. Digital Realty renewed leases at 11.8% higher cash rent [2].",
+      "Assets are land, buildings, electrical and cooling infrastructure and land banks with secured power. Liabilities are unsecured debt and leases; Equinix had $25.2B of debt principal outstanding [1].",
+      "Very capital-intensive. Equinix guides to $5–6B of total capex in 2026 [1], and Digital Realty to $4.25–4.75B of development capex net of partners [2]."
+    ],
+    "overview": [
+      "North American primary markets had about 10.9 GW of inventory after supply grew 33.7% in a year, with 7.5 GW under construction [3]. Hyperscaler capex of roughly $800B in 2026 underpins demand [4].",
+      "Segments are hyperscale and wholesale, retail colocation, interconnection and development. Equinix leans to retail and interconnection; Digital Realty is larger in wholesale and hyperscale.",
+      "Data center REITs sit between landowners, utilities and equipment suppliers upstream and cloud, AI and enterprise tenants downstream. Utilities are the critical supplier because of power.",
+      "The industry evolved from telecom hotels to cloud campuses and now AI-scale facilities requiring far more power per rack. Private operators backed by infrastructure funds have grown alongside the REITs. Rack power densities for AI clusters are many times those of traditional enterprise servers, which is why new campuses are planned in hundreds of megawatts.",
+      "Northern Virginia is the world's largest market, with 4.5 GW of inventory and 0.2% vacancy [3]. Other major markets include Dallas, Phoenix, Chicago, Silicon Valley, Atlanta, Frankfurt, London, Singapore and Tokyo."
+    ],
+    "competition": [
+      "Only two S&P 500 REITs sit in this sub-industry [11], but they compete with dozens of private operators such as QTS (Blackstone), Vantage, Stack, Aligned and CyrusOne, and with hyperscalers' own builds.",
+      "Equinix leads global retail colocation and interconnection; Digital Realty is one of the largest wholesale landlords, with about 3.2 GW of IT capacity [2]. Market share figures weren't available from our sources.",
+      "Retail colocation and interconnection are consolidated around Equinix; wholesale is fragmented and contested by private capital.",
+      "Barriers are power, land, permits and capital. Securing grid capacity now takes years, which favors operators with land banks: Digital Realty holds about 9.8 GW of buildable capacity [2].",
+      "Scale lowers construction and power procurement costs and gives tenants global footprints. Interconnection ecosystems reward the largest campuses.",
+      "Wholesale space is closer to a commodity priced per megawatt; retail colocation and interconnection are differentiated by ecosystem density.",
+      "Hyperscalers have strong bargaining power in large leases; smaller customers have little. Utilities and equipment makers hold power as suppliers when grid capacity and transformers are scarce [10]."
+    ],
+    "drivers": [
+      "Revenue grows with new leases, rising rents, power pass-through and interconnection. Equinix's revenue rose 11% [1]; Digital Realty's backlog of $2.5B will commence over coming quarters [2].",
+      "Margins depend on occupancy, pricing, power costs and mix. Equinix's adjusted EBITDA margin was 51% [1]. Higher occupancy, at 91.1% for Digital Realty [2], raises margins through operating leverage.",
+      "Key costs are electricity, construction materials and equipment, labor and interest. Rising power prices in markets like PJM add cost and political pressure [10].",
+      "Highly sensitive to rates. Development is debt-funded, and REIT valuations compete with bond yields; long yields near 5% raise the cost of capital [5].",
+      "Inflation raises construction and operating costs but also rents, many of which have escalators. Demand depends more on cloud and AI spending than on GDP or unemployment. Commodity prices matter through copper, steel and power.",
+      "Secular growth, driven by cloud migration and AI computing. The main cyclical risk is a pullback in hyperscaler capex."
+    ],
+    "financials": [
+      "Growth is double-digit: Equinix's AFFO per share rose 18% in the third quarter [1], and Digital Realty's Core FFO per share rose to $2.10 from $1.89 [2]. Nareit reported average FFO growth of 29.4% for the group in the first quarter [8].",
+      "REITs don't report gross margin in the usual sense. Equinix's adjusted EBITDA margin is about 51% [1]. Damodaran's figures for all US REITs show a 43.8% EBITDA-to-sales ratio [6], so data centers run above the REIT average.",
+      "Returns on book capital are low because assets are depreciated and development is heavy: Damodaran shows 5.0% ROE and 3.2% ROIC for all US REITs [9]. Stabilized development yields of 10% or more at Digital Realty [2] are the better guide.",
+      "Leverage is moderate for REITs: Digital Realty's net debt to adjusted EBITDA was 5.2x [2]. Both companies use joint ventures and funds to share development costs.",
+      "AFFO is strong, but most is paid out as dividends, so development is funded with debt, equity and partners. Equinix expects about $2.04B of cash dividends in 2026 [1]. Digital Realty's new $1.4B perpetual capital vehicle is one answer to that funding need [2].",
+      "Capex is very high and rising: $5–6B at Equinix [1] and $4.25–4.75B net at Digital Realty [2], about 50–60% of revenue.",
+      "Valuations are high for REITs. The data center index yielded 2.35% at mid-2026 [8], and Damodaran shows a 45x forward P/E for US REITs generally [7]; earnings multiples overstate this because depreciation is large."
+    ],
+    "risks": [
+      "Regulation centers on power and land use. Grid operators and states are debating rules for large loads; PJM's market monitor asked FERC to let PJM halt data center connections without new generation [10].",
+      "AI is the main driver of new demand, but it also changes requirements: higher-density racks and liquid cooling can make older facilities less competitive. Efficiency gains in AI chips could reduce power needs per unit of computing.",
+      "Barely, in a direct sense. Growing digital adoption across populations, especially in emerging markets, drives data growth over decades but does not move near-term leasing.",
+      "Businesses keep moving workloads to the cloud and using AI services, which shifts demand from enterprise colocation toward hyperscale campuses.",
+      "Private operators funded by infrastructure investors and hyperscalers building their own campuses compete for land, power and tenants.",
+      "Supply chains for transformers, switchgear and cooling equipment are tight. Geopolitics and data sovereignty rules shape where capacity is built.",
+      "Hyperscalers self-building is the main substitute. On-premises computing is a fading alternative; edge computing could shift some demand to smaller sites."
+    ],
+    "horizon": {
+      "opportunities": [
+        "AI and cloud capex of roughly $800B a year by the largest platforms keeps demand ahead of supply [4].",
+        "Land banks with secured power become more valuable as grids tighten, as Digital Realty's 9.8 GW of buildable capacity shows [2].",
+        "Private capital partnerships let REITs grow faster while earning fees [2]."
+      ],
+      "threats": [
+        "A slowdown or pause in hyperscaler capex, hinted at by Microsoft trimming its outlook [4].",
+        "Power constraints and political pushback over rising electricity bills [10].",
+        "High long-term rates raising funding costs for heavy development programs [5]."
+      ],
+      "assessment": "We expect data center REITs to keep growing AFFO per share at high single to low double digits over the next three to five years, supported by low vacancy, contracted backlogs and rising renewal rents [1][2][3]. Power scarcity protects pricing even as it limits growth. The main risk is concentration: much new demand depends on a handful of hyperscalers whose AI spending could slow. Valuations already price much of the growth, so execution on development yields and funding matters most."
+    }
+  },
+  "sections": [
+    {
+      "id": "macro",
+      "paragraphs": [
+        "The macro setting is mixed for data center REITs. Growth is strong and the Fed describes capital investment as robust, but it held rates at 3.75–4.00% in October with inflation elevated and two members favoring another hike [5]. Long Treasury yields near 5% raise the cost of capital for companies spending $4–6B a year on development [1][2] and compete with REIT dividend yields for income investors.",
+        "Demand is largely detached from the business cycle, because it is driven by cloud and AI investment rather than consumer spending. The largest platforms are expected to spend about $803–828B on capex in 2026 [4]. Currency matters: both REITs earn much of their revenue abroad, and Equinix reports constant-currency growth separately [1]. Our read is that rates are the main macro headwind, while the AI investment cycle dominates fundamentals. A recession would matter mostly if it forced the largest platforms to cut capex, which they have so far resisted."
+      ]
+    },
+    {
+      "id": "demand",
+      "paragraphs": [
+        "Demand is running ahead of supply. CBRE reports net absorption of 1,456 MW in North American primary markets in the first half of 2026, up nearly 12%, and vacancy at a record low of 1.4% [3]. More than 80% of the 7.5 GW under construction is preleased, and less than 1,500 MW remains available for preleasing, about six months of demand [3].",
+        "The drivers are secular: cloud migration, AI training and inference, and data growth. Hyperscaler capex of around $800B this year [4] translates directly into leases. Equinix's record $533M of bookings [1] and Digital Realty's record $855M [2] show demand at both the retail and hyperscale ends. The risk is cyclicality within the secular trend: Microsoft lowered its calendar-year capex outlook to about $170B because of delays in third-party capacity [4]. We expect demand to grow strongly for several years, limited more by power than by customers."
+      ]
+    },
+    {
+      "id": "structure",
+      "paragraphs": [
+        "Porter's five forces favor landlords today. Rivalry is moderate because vacancy is so low [3]. Buyer power is high among hyperscalers, which sign the largest leases, and low among the thousands of smaller customers at Equinix. Supplier power is high and rising: utilities control access to power, and equipment makers face backlogs [10]. The threat of new entrants is real, as private capital funds new operators, but power scarcity limits it. Substitutes include hyperscalers building their own campuses.",
+        "Moats come from interconnection ecosystems, land banks with secured power and global footprints. Equinix's 6,900 net new interconnections in the quarter [1] deepen its network effect. Digital Realty's 9.8 GW of buildable capacity [2] is a strategic asset in power-scarce markets. Rising renewal spreads, 11.8% on a cash basis at Digital Realty [2], show the pricing power these positions give."
+      ]
+    },
+    {
+      "id": "environment",
+      "paragraphs": [
+        "Power policy is the defining issue. In PJM, the largest US grid, data centers account for almost all projected peak demand growth to 2030, the latest capacity auction failed to meet the reserve target, and the market monitor asked FERC to let PJM halt data center connections without new generation [10]. Rising utility bills have become a political issue [10]. CBRE notes that power constraints are extending completion timelines [3].",
+        "Technology is shifting fast: AI workloads require higher-density racks and liquid cooling, raising the cost of new builds and the risk of older facilities becoming less competitive. Environmental pressure on water use and emissions adds permitting hurdles. Our read is that regulation will increasingly require data centers to bring or pay for their own power, raising costs but also protecting incumbents with secured capacity."
+      ]
+    },
+    {
+      "id": "economics",
+      "paragraphs": [
+        "Data center economics are strong and improving. Equinix's adjusted EBITDA margin was 51% and its AFFO grew 20% in the third quarter [1]. Digital Realty's occupancy rose to 91.1%, and its development pipeline targets stabilized yields of 10% or more [2]. Nareit reported average FFO growth of 29.4% and NOI growth of 15.8% across the group in the first quarter [8].",
+        "Capital intensity is the trade-off. Capex runs at roughly half of revenue [1][2], and REIT rules require paying out most taxable income, so growth needs outside capital: data center REITs issued $5.3B of equity and $4.2B of unsecured debt over the past year [8]. Book returns are low, as Damodaran's all-REIT figures of 5.0% ROE and 3.2% ROIC show [9], so development yields well above the cost of capital are what create value."
+      ]
+    },
+    {
+      "id": "earnings",
+      "paragraphs": [
+        "Earnings momentum is strong. Equinix raised its 2026 AFFO per share guidance to $43.71–44.11, up 14–15% as reported, its third raise this year [1]. Digital Realty raised its Core FFO per share guidance to $8.30–8.35 and expects cash renewal spreads of 10–12% [2]. Its implied fourth-quarter Core FFO is slightly below the third quarter, partly because of timing.",
+        "Consensus estimates for the sub-industry weren't publicly available to us. Our view is that the record backlog of $2.5B at Digital Realty [2] and record bookings at Equinix [1] give unusual visibility into 2027 revenue. Where we are more cautious than the bullish case is on margins and per-share growth: heavy development spending, higher interest costs and equity issuance [8] dilute the benefit of strong leasing. Foreign exchange is a smaller swing factor, given how much of both companies' revenue is earned outside the US [1]."
+      ]
+    },
+    {
+      "id": "valuation",
+      "paragraphs": [
+        "Data center REITs trade at premium valuations. The FTSE Nareit data center index yielded 2.35% at the end of June [8], well below typical REIT yields, and Damodaran's January data show a 45x forward P/E for US REITs in general [7]; data center multiples on AFFO are lower than that because depreciation is large. A current sub-industry price-to-AFFO multiple from a primary source wasn't available to us.",
+        "The premium reflects growth that is faster than other REIT sectors and contracted through backlogs. Our read is that the market prices in sustained double-digit growth, so returns from here depend on delivering development yields above 10% [2] and avoiding a slowdown in hyperscaler spending [4]. Relative to other AI infrastructure plays, the REITs offer contracted, lower-risk exposure, but less upside if AI demand keeps surprising."
+      ]
+    },
+    {
+      "id": "positioning",
+      "paragraphs": [
+        "Momentum turned sharply positive in 2026. After returning -14.2% in 2025, data center REITs returned 33.2% in the first half of 2026, among the best REIT sectors [8]. Actively managed REIT funds were overweight, holding 138% of the sector's index weight, and Blackstone's data center trust raised $1.75B in a May IPO [8], showing strong investor appetite for the theme.",
+        "Our read is that positioning is crowded: active managers are already overweight [8], so disappointments in bookings or hyperscaler capex could hit the shares hard. Short-interest data weren't available to us. Upcoming catalysts are fourth-quarter bookings, 2027 guidance in February, hyperscalers' 2027 capex plans [4] and any federal or PJM decisions on large-load interconnection [10]."
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "n": 1,
+      "title": "Equinix reports third-quarter results and raises 2026 guidance (Form 8-K exhibit 99.1)",
+      "publisher": "Equinix / SEC",
+      "date": "2026-10-28",
+      "url": "https://www.sec.gov/Archives/edgar/data/0001101239/000110123926000178/a991eqix-q326xpr.htm"
+    },
+    {
+      "n": 2,
+      "title": "Digital Realty reports third quarter 2026 results (Form 8-K exhibit 99.1)",
+      "publisher": "Digital Realty / SEC",
+      "date": "2026-10-29",
+      "url": "https://www.sec.gov/Archives/edgar/data/0001297996/000110465926120212/dlr-ex99d1.htm"
+    },
+    {
+      "n": 3,
+      "title": "North American data center demand continues to outpace supply despite record construction",
+      "publisher": "CBRE",
+      "date": "2026-09-08",
+      "url": "https://www.cbre.com/press-releases/north-american-data-center-demand-continues-to-outpace-supply-despite-record-construction"
+    },
+    {
+      "n": 4,
+      "title": "AI hyperscalers are expected to finish the year spending a whopping $828 billion on capex",
+      "publisher": "Hargreaves Lansdown",
+      "date": "2026-10",
+      "url": "https://www.hl.co.uk/news/ai-hyperscalers-are-expected-to-finish-the-year-spending-a-whopping-828-billion-on-capex"
+    },
+    {
+      "n": 5,
+      "title": "The full statement from the October 2026 FOMC rate decision",
+      "publisher": "investingLive",
+      "date": "2026-10-28",
+      "url": "https://investinglive.com/central-banks/the-full-statement-from-the-october-2026-fomc-rate-decision/"
+    },
+    {
+      "n": 6,
+      "title": "Operating and net margins by industry (US)",
+      "publisher": "Aswath Damodaran, NYU Stern",
+      "date": "2026-01",
+      "url": "https://pages.stern.nyu.edu/~adamodar/New_Home_Page/datafile/margin.html"
+    },
+    {
+      "n": 7,
+      "title": "PE ratios by industry (US)",
+      "publisher": "Aswath Damodaran, NYU Stern",
+      "date": "2026-01",
+      "url": "https://pages.stern.nyu.edu/~adamodar/New_Home_Page/datafile/pedata.html"
+    },
+    {
+      "n": 8,
+      "title": "Data center REITs continue to pique investor interest post strong performance gains",
+      "publisher": "Nareit",
+      "date": "2026-07-15",
+      "url": "https://www.reit.com/news/articles/data-center-reits-continue-to-pique-investor-interest-post-strong-performance-gains"
+    },
+    {
+      "n": 9,
+      "title": "Price to book, ROE and ROIC by industry (US)",
+      "publisher": "Aswath Damodaran, NYU Stern",
+      "date": "2026-01",
+      "url": "https://pages.stern.nyu.edu/~adamodar/New_Home_Page/datafile/pbvdata.html"
+    },
+    {
+      "n": 10,
+      "title": "PJM's record capacity costs set to push up power bills",
+      "publisher": "Canary Media",
+      "date": "2025-12-18",
+      "url": "https://www.canarymedia.com/articles/data-centers/pjm-record-capacity-costs-rising-bills"
+    },
+    {
+      "n": 11,
+      "title": "List of S&P 500 companies (GICS sub-industries)",
+      "publisher": "Wikipedia",
+      "date": "2026",
+      "url": "https://en.wikipedia.org/wiki/List_of_S%26P_500_companies"
+    }
+  ]
+}

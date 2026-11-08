@@ -1,0 +1,385 @@
+{
+  "code": "40301010",
+  "added": "2026-11-08",
+  "asOf": "2026-11-04",
+  "summary": "Insurance brokers are still growing, but more slowly as insurance prices fall. Third-quarter organic growth was 6% at Aon [2], 5% at Marsh [1] and Gallagher's brokerage arm [3], 4% at WTW [4] and only 1.2% at Brown & Brown [5], whose shares fell about 5% on the results [12]. Global commercial rates fell 5%, the ninth straight quarterly decline [6], and reinsurance broking revenue is shrinking [1]. Margins are holding up, with Aon's at 27.0% [2]. Our read: earnings are durable, but the soft market and AI fears that hit the stocks in February [7] will cap growth and multiples for now.",
+  "metrics": [
+    {
+      "label": "Marsh underlying revenue growth, Q3 2026",
+      "value": "5%",
+      "context": "Revenue $6.9B; Risk +5%, Reinsurance -6%",
+      "source": 1
+    },
+    {
+      "label": "Aon organic revenue growth, Q3 2026",
+      "value": "6%",
+      "context": "Adjusted operating margin 27.0%, up 70 bp",
+      "source": 2
+    },
+    {
+      "label": "Gallagher brokerage organic growth, Q3 2026",
+      "value": "5%",
+      "context": "Brokerage revenue +19% with acquisitions",
+      "source": 3
+    },
+    {
+      "label": "Brown & Brown organic growth, 9M 2026",
+      "value": "0.3%",
+      "context": "4.6% in 9M 2025; Q3 2026 1.2%",
+      "source": 5
+    },
+    {
+      "label": "Global commercial insurance rates, Q3 2026",
+      "value": "-5%",
+      "context": "Ninth straight quarterly decline (Marsh index)",
+      "source": 6
+    },
+    {
+      "label": "Brown & Brown EV/EBITDA, end-2025",
+      "value": "12.9x",
+      "context": "From 17.8x at start of 2025",
+      "source": 8
+    }
+  ],
+  "watch": [
+    "Commercial rate declines spreading from property into casualty lines, which would cut brokers' commission base further [6].",
+    "January 2027 reinsurance renewals, where falling rates have already pushed Marsh's reinsurance revenue down 6% [1][13].",
+    "Brown & Brown's promised recovery in organic growth in 2027 [5].",
+    "AI comparison tools in personal lines, which triggered February's broker selloff [7].",
+    "Interest rates: fiduciary income on client premiums held in trust is a direct earnings line [1][2]."
+  ],
+  "bellwethers": [
+    "Marsh",
+    "Aon",
+    "Arthur J. Gallagher",
+    "WTW",
+    "Brown & Brown",
+    "Erie Indemnity"
+  ],
+  "basics": {
+    "intro": "Insurance brokers advise clients on what insurance to buy and place it with insurers, earning commissions and fees without taking underwriting risk. Their clients are mostly businesses, from small firms to multinationals, plus insurers buying reinsurance. Large brokers also sell consulting on employee benefits, pensions and HR. GICS also puts Erie Indemnity here, because it earns a management fee for running the Erie Insurance Exchange rather than underwriting itself [14]. Companies that take insurance risk sit in the insurance sub-industries next door.",
+    "products": [
+      {
+        "name": "Commercial risk broking",
+        "what": "Placing property, casualty, professional, cyber and other cover for businesses; the core of Marsh, Aon, Gallagher and WTW.",
+        "examples": "Marsh Risk, Aon Commercial Risk, WTW Risk & Broking"
+      },
+      {
+        "name": "Reinsurance broking",
+        "what": "Arranging reinsurance for insurance companies and structuring catastrophe bonds.",
+        "examples": "Guy Carpenter (Marsh), Aon Reinsurance Solutions, Gallagher Re"
+      },
+      {
+        "name": "Middle-market and retail agencies",
+        "what": "Local and regional brokers serving smaller businesses and individuals, often acquired in roll-ups.",
+        "examples": "Brown & Brown Retail, Gallagher, private-equity-backed brokers"
+      },
+      {
+        "name": "Wholesale and specialty distribution",
+        "what": "Brokers and managing agents that place hard-to-insure risks in the excess and surplus lines market for retail agents.",
+        "examples": "Brown & Brown Specialty Distribution, Ryan Specialty, AmWINS"
+      },
+      {
+        "name": "Health, wealth and benefits consulting",
+        "what": "Advice on employee health plans, pensions, investments and pay.",
+        "examples": "Mercer (Marsh), Aon Health and Wealth, WTW Health, Wealth & Career"
+      },
+      {
+        "name": "Claims administration",
+        "what": "Handling claims for self-insured companies and insurers for a fee.",
+        "examples": "Gallagher Bassett, Crawford"
+      }
+    ],
+    "terms": [
+      {
+        "term": "Organic growth",
+        "meaning": "Revenue growth excluding acquisitions, disposals and currency. The key metric, because brokers buy so many firms that reported growth hides the underlying trend."
+      },
+      {
+        "term": "Commission",
+        "meaning": "A percentage of the premium paid to the broker by the insurer. Revenue rises and falls with premium rates."
+      },
+      {
+        "term": "Fee-based revenue",
+        "meaning": "Fixed fees agreed with clients instead of commissions, common for large accounts and consulting; less sensitive to pricing."
+      },
+      {
+        "term": "Contingent commissions",
+        "meaning": "Bonuses insurers pay brokers for volume or profitable business; they swing with loss experience."
+      },
+      {
+        "term": "Fiduciary income",
+        "meaning": "Interest earned on client premiums and claims held in trust before passing them on. It rises and falls with short-term interest rates."
+      },
+      {
+        "term": "EBITDAC",
+        "meaning": "Earnings before interest, tax, depreciation, amortization and change in acquisition earnout payables; Gallagher and Brown & Brown use it as their margin measure."
+      },
+      {
+        "term": "Roll-up",
+        "meaning": "Growing by buying many small agencies at lower multiples than the acquirer's own valuation, then integrating them."
+      },
+      {
+        "term": "Retention",
+        "meaning": "The share of clients that renew each year; brokers typically retain around 90%, which makes revenue recurring."
+      },
+      {
+        "term": "Soft market",
+        "meaning": "A period of falling insurance prices. It slows commission growth even though clients keep buying cover."
+      },
+      {
+        "term": "Excess and surplus (E&S) lines",
+        "meaning": "Insurance for risks standard insurers decline, placed through wholesale brokers at freely set prices. A soft market pushes business back to standard insurers."
+      }
+    ],
+    "drivers": [
+      {
+        "name": "Insurance pricing",
+        "how": "Commissions are a share of premium, so rate increases lift revenue without extra work and rate cuts slow it. The effect is muted by fee arrangements and clients buying more cover when prices fall."
+      },
+      {
+        "name": "Economic activity",
+        "how": "Insured values, payrolls and revenues grow with the economy, increasing premiums and benefits consulting work."
+      },
+      {
+        "name": "New business and retention",
+        "how": "Winning clients and keeping about 90% each year drives organic growth beyond pricing."
+      },
+      {
+        "name": "Acquisitions",
+        "how": "Brokers buy agencies at lower multiples than their own, adding earnings; integration and debt are the costs."
+      },
+      {
+        "name": "Interest rates",
+        "how": "Higher short-term rates raise fiduciary income almost directly to profit; they also raise borrowing costs for acquisitive brokers."
+      },
+      {
+        "name": "Operating leverage",
+        "how": "Most costs are staff; revenue growth above wage growth widens margins, while slow growth makes margin expansion harder."
+      }
+    ]
+  },
+  "fundamentals": {
+    "business": [
+      "Revenue is commissions and fees from placing insurance, plus consulting fees, contingent commissions and fiduciary interest. Marsh earned $6.9B in the third quarter, of which $4.2B came from risk and insurance services and $2.7B from consulting [1].",
+      "Customers are businesses of all sizes, public bodies, insurers buying reinsurance and, in a smaller way, individuals. Large multinationals use the global brokers; small and midsize firms use regional brokers and agencies.",
+      "The main cost is people: brokers, consultants and support staff, typically well over half of revenue. Technology, offices and acquisition-related amortization follow. There are no claims costs. Because brokers carry no underwriting risk, a catastrophe year raises their workload but not their losses.",
+      "Pricing power comes from expertise, data and access to insurer markets. Brokers set fees for large accounts but commissions follow insurance prices, which brokers do not control. Market share gains matter more than price.",
+      "Assets are mostly goodwill and intangibles from acquisitions plus fiduciary funds held for clients. Liabilities are acquisition debt and fiduciary obligations. Aon has set a target to bring leverage to 2.8–3.0x [2].",
+      "Asset-light: capex is small and free cash flow high. Aon generated $1.94B of free cash flow in the first nine months of 2026 [2]."
+    ],
+    "overview": [
+      "The market tracks global insurance premiums, which Swiss Re expects to grow only 1.3% in real terms in 2026 [11]. Brokers grew faster than that: 4–6% organic at the big four in the third quarter [1][2][3][4].",
+      "Main segments are commercial retail broking, reinsurance broking, wholesale and specialty distribution, employee benefits and HR consulting, and claims administration.",
+      "Brokers sit between buyers of insurance and the insurers and reinsurers that carry risk. They depend on insurers for commissions and on clients for fees.",
+      "The industry has consolidated heavily. Marsh, Aon, WTW and Gallagher grew by acquisition, and private equity has funded hundreds of agency roll-ups. Large deals have priced at about 14.5–16x EBITDA [8]. Consulting arms such as Mercer were built alongside broking to diversify away from insurance pricing.",
+      "Revenue is concentrated in the US, the UK and Western Europe, with London a hub for specialty and reinsurance. Marsh's US and Canada business grew 4% organically in the third quarter, its international business 6% [1]."
+    ],
+    "competition": [
+      "Four global brokers dominate large accounts: Marsh, Aon, WTW and Gallagher. Below them sit Brown & Brown, Hub, Lockton, USI, Acrisure and thousands of local agencies. Lloyd's and London market specialists such as Howden have grown quickly by focusing on specialty and reinsurance.",
+      "Marsh is the largest by revenue, with $6.9B in the third quarter [1]; Aon reported $4.1B [2], Gallagher $3.9B [3] and WTW $2.46B [4].",
+      "Consolidated at the top for multinational clients and reinsurance; fragmented in the middle market and small business, where about 50 PE-backed or public brokers bid for each agency for sale [8].",
+      "Barriers are client relationships, specialist talent, data and global networks. Small agencies are easy to start, but competing for large multinational accounts requires global scale.",
+      "Scale gives the large brokers data, leverage with insurers and spread of overhead, supporting margins of 23–27% [1][2].",
+      "Differentiated at the top through analytics, specialist teams and capital-markets solutions; closer to commoditized in small commercial and personal lines.",
+      "Large clients have bargaining power on fees, especially in a soft market. Insurers need broker distribution and have little power over the large brokers."
+    ],
+    "drivers": [
+      "Growth comes from new business, retention, insurance price and exposure changes and consulting demand. Brown & Brown blamed weak specialty growth on admitted carriers taking business back from the E&S market [5].",
+      "Margins depend on organic growth relative to wage inflation and on cost programs. Aon expanded its adjusted operating margin 70 basis points to 27.0% [2], while Brown & Brown's margin fell to 34.6% from 36.6% [5].",
+      "Compensation is the key cost, usually well over half of revenue, so wage inflation and the war for producing brokers set the cost base. Technology spending, office space and acquisition integration costs follow; there are no claims costs to manage.",
+      "Rates matter through fiduciary income and borrowing costs. Marsh's fiduciary income fell to $100M from $109M [1] and Aon's to $69M from $75M [2] as short rates eased from earlier peaks.",
+      "Inflation raises insured values and premiums, helping revenue; it also raises wages. GDP growth drives exposure; unemployment affects benefits consulting. Commodity prices matter little.",
+      "A defensive grower: insurance is bought in all conditions, retention is high and revenue rarely falls, but growth slows sharply in soft markets."
+    ],
+    "financials": [
+      "Organic growth has slowed from high single digits in 2022–2024 to 1–6% in the third quarter of 2026 [1][2][3][4][5]. Earnings grew faster, with Marsh's adjusted EPS up 10% [1] and Aon's 10% [2].",
+      "Brokers don't report gross margin. Adjusted operating margins were 22.7% at Marsh [1] and 27.0% at Aon [2]; adjusted EBITDA margin was 23.5% at WTW [4]; Brown & Brown's EBITDAC margin was 34.6% [5].",
+      "Returns on tangible capital are very high because the business needs little capital, but heavy acquisition goodwill lowers reported ROE and ROIC. Comparable sub-industry ROIC figures weren't available to us. On a tangible basis the business needs almost no equity, which is why buybacks absorb so much of its cash.",
+      "Leverage is moderate and acquisition-driven. Aon targets 2.8–3.0x [2]; PE-backed brokers typically run at 4–5x EBITDA [8].",
+      "Free cash flow conversion is high. Aon produced $1.94B in nine months [2]; Marsh repurchased $2.0B of stock year to date [1].",
+      "Capex needs are small, mainly technology and offices. Acquisitions are the main use of capital: Gallagher closed five deals with about $102M of annualized revenue in the third quarter [3].",
+      "Multiples have fallen. Brown & Brown's EV/EBITDA dropped from 17.8x to 12.9x during 2025 [8]. Sub-industry forward P/E data from a primary source weren't available to us."
+    ],
+    "risks": [
+      "Regulation is light compared with insurers. Commission disclosure, conflicts of interest and contingent commissions are perennial issues; competition authorities scrutinize large mergers.",
+      "AI is the debated risk. Broker shares fell sharply in February 2026 when an AI tool for comparing auto insurance launched, with WTW down 12% in a day [7]. Analysts mostly argue AI will augment advisers on complex commercial risks rather than replace them [10]. Personal auto and small-business packages are most exposed; multinational programs least.",
+      "Barely, for commercial broking. An aging workforce affects benefits and retirement consulting demand, which tends to help Mercer and WTW.",
+      "Small businesses and individuals increasingly buy simple cover online, which threatens personal-lines agents more than commercial brokers.",
+      "Embedded insurance, direct-to-consumer insurers and AI comparison platforms compete at the small end. Private-equity-backed consolidators compete for acquisitions and talent.",
+      "Limited. Geopolitics creates demand for political risk, trade credit and war cover. Brokers are exposed to economic slowdowns in their largest markets.",
+      "Captives, self-insurance and capital-markets solutions can replace traditional placements, but brokers usually advise on and manage those too, as with Aon's capital solutions [2]."
+    ],
+    "horizon": {
+      "opportunities": [
+        "Rising demand for advice on catastrophe, cyber and geopolitical risk keeps clients buying more cover even as rates fall [6].",
+        "Using AI to cut placement and servicing costs could widen margins, as Aon is attempting [2].",
+        "Continued consolidation of the fragmented middle market at lower multiples than before [8]."
+      ],
+      "threats": [
+        "A prolonged soft market slowing organic growth toward zero, as already seen at Brown & Brown [5].",
+        "AI disintermediation in personal and small commercial lines [7].",
+        "Falling fiduciary income if short-term rates decline [1]."
+      ],
+      "assessment": "We expect organic growth of low-to-mid single digits for the large brokers over the next three years, below the 2022–2024 pace but still positive, as clients keep buying cover and consulting businesses diversify revenue [1][2]. Margins should hold if brokers capture AI efficiencies. The model is durable: high retention, little capital and strong cash flow. The sub-industry's weak point is its dependence on insurance pricing in the middle market and specialty distribution, where Brown & Brown shows how quickly growth can stall [5]."
+    }
+  },
+  "sections": [
+    {
+      "id": "macro",
+      "paragraphs": [
+        "The US economy is expanding at a strong pace, according to the Fed, which held its target range at 3.75–4.00% in October with inflation still elevated [9]. For brokers that is mostly helpful: growth in payrolls, revenues and property values raises insured exposures and premiums, and a solid labor market supports benefits consulting. Marsh's consulting revenue rose 8% on an underlying basis [1].",
+        "Rates cut both ways. Fiduciary income remains material but has eased: $100M at Marsh in the third quarter versus $109M a year earlier [1], and $69M at Aon versus $75M [2]. Higher long-term yields raise borrowing costs for acquisitive brokers. Our view is that the macro cycle matters less than the insurance pricing cycle for this group right now, and the pricing cycle is turning against them. A slowdown would hurt mainly through smaller exposure growth and weaker discretionary consulting, as Marsh's flat-to-down workforce consulting line already suggests [1]."
+      ]
+    },
+    {
+      "id": "demand",
+      "paragraphs": [
+        "Demand for broking is structural. Companies need cover for property, liability, cyber and employees regardless of the economy, and the growth of complex risks increases the value of advice. Swiss Re expects global premiums to grow only 1.3% in real terms in 2026 [11], but the large brokers still grew 4–6% organically [1][2][3][4] because of new business, high retention and fee-based work.",
+        "The cyclical part is price. Marsh's index shows global commercial rates down 5% in the third quarter, with property down 10% [6]. Reinsurance broking is weakest: Marsh's reinsurance revenue fell 6% [1] as property catastrophe reinsurance rates dropped 16% this year [13]. Specialty distribution suffers too, as standard insurers reclaim business from the E&S market [5]. We see long-run growth of mid-single digits, with soft markets like this one pulling it toward the low end. Health and retirement consulting, which grew 5–6% at Marsh's and Aon's units [1][2], adds a steadier, less price-sensitive stream."
+      ]
+    },
+    {
+      "id": "structure",
+      "paragraphs": [
+        "On Porter's five forces, rivalry is high in the middle market but stable among the four global brokers. Buyer power is moderate: large clients negotiate fees, but switching brokers is costly and retention is high. Supplier power is low: insurers need broker distribution, and soft markets increase their dependence. The threat of new entrants is low for large accounts and high for small ones, where PE-backed consolidators compete. The threat of substitutes, now including AI comparison tools, is real for simple personal lines [7] but limited for complex commercial risks [10].",
+        "Moats come from relationships, specialist expertise, data and global networks. Margins show it: 27.0% at Aon [2] and 22.7% at Marsh [1], with free cash flow at Aon of $1.94B in nine months [2]. Consolidation continues, but large-deal multiples have fallen to about 14.5–16x EBITDA [8]. WTW's 5% Risk & Broking growth [4] shows the top tier is still taking share."
+      ]
+    },
+    {
+      "id": "environment",
+      "paragraphs": [
+        "Regulation is light: brokers are licensed and supervised on conduct, but they hold no underwriting risk and face no capital rules like insurers. The main political issues are commission transparency and antitrust review of large mergers.",
+        "Technology is the emerging risk and opportunity. In February 2026 broker shares fell hard after an AI auto insurance comparison app launched on ChatGPT and new AI research tools were released; WTW lost 12% in a day, Gallagher 9.9% and Aon 9.3% [7]. Most analysts argued that AI will augment brokers on complex risks rather than replace them [10], and Aon is investing in AI-enabled analytics [2]. Our read is that personal lines and small commercial face real disintermediation, while large commercial and reinsurance broking are more likely to use AI to lower costs."
+      ]
+    },
+    {
+      "id": "economics",
+      "paragraphs": [
+        "Broking is a high-margin, low-capital business. Third-quarter adjusted operating margins were 27.0% at Aon, up 70 basis points [2], and 22.7% at Marsh, flat [1]; WTW's adjusted EBITDA margin was 23.5% [4]. Brown & Brown, with a smaller-account mix, reported a 34.6% EBITDAC margin, down from 36.6% partly because of lower interest income [5].",
+        "Operating leverage works in both directions. With costs mostly salaries, growth above wage inflation widens margins; low growth makes expansion hard, as at Brown & Brown. Free cash flow is strong: Aon generated $1.94B in nine months [2] and Marsh bought back $2.0B of stock [1]. Gallagher keeps buying agencies, closing five in the quarter [3]. Comparable ROIC data for the sub-industry weren't available to us; goodwill from acquisitions depresses reported returns."
+      ]
+    },
+    {
+      "id": "earnings",
+      "paragraphs": [
+        "Earnings are still growing faster than revenue. Marsh's adjusted EPS rose 10% to $2.03 [1] and Aon's 10% to $3.36 [2]. Gallagher grew net earnings and adjusted EBITDAC 25%, boosted by its acquisition of AssuredPartners [3]. Brown & Brown missed revenue estimates and expects organic growth to improve in 2027 [5].",
+        "Consensus estimates for the sub-industry weren't publicly available to us. Our view is that 2027 organic growth will slow further at the global brokers as rate declines spread, and that reinsurance broking will stay negative at the January renewals [13]. Margin expansion and buybacks should still deliver high-single-digit EPS growth at the strongest brokers. We think expectations for a quick reacceleration at Brown & Brown look optimistic while specialty markets keep softening [5]. The swing factor is reinsurance broking, where commissions on property catastrophe programs fall almost one for one with rates, and where Marsh's revenue already declined 6% in the third quarter [1]."
+      ]
+    },
+    {
+      "id": "valuation",
+      "paragraphs": [
+        "Broker valuations have come down from the 2022–2024 peak. Brown & Brown's EV/EBITDA fell from 17.8x to 12.9x over 2025 [8], and its organic growth has since slowed further [5]. Private-market multiples for midsize agencies were about 11.4x EBITDA at end-2025, and large deals priced at 14.5–16x [8], which caps what public acquirers can pay. A sub-industry forward P/E from a primary source wasn't available to us. Falling public multiples matter because the roll-up model depends on paying less for agencies than the market pays for the acquirer.",
+        "The market is now pricing brokers as slower-growth compounders rather than premium growth stocks. We think that is fair for those leaning on specialty and middle-market pricing, while the global brokers with consulting arms and margin levers look better supported. A lasting re-rating would probably need either a firming of insurance prices or proof that AI expands margins."
+      ]
+    },
+    {
+      "id": "positioning",
+      "paragraphs": [
+        "Momentum has been weak in 2026. The February AI selloff hit WTW, Gallagher and Aon hard and dragged the S&P 500 Insurance index down 3.9% in a day [7]. Third-quarter results produced mixed reactions: Brown & Brown fell about 5% after missing revenue estimates [12], while the global brokers' 4–6% organic growth [1][2][4] reassured investors that their franchises are intact.",
+        "Fund-flow and short-interest data for the sub-industry weren't available to us. Our read is that investors have moved away from brokers as a defensive growth trade because of slowing growth and AI uncertainty [7][8]. Upcoming catalysts are January renewals [13], fourth-quarter organic growth guidance for 2027 and any evidence that AI tools are lowering costs rather than taking clients."
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "n": 1,
+      "title": "Marsh Reports Third Quarter 2026 Results (Form 8-K exhibit 99.1)",
+      "publisher": "Marsh / SEC",
+      "date": "2026-10-15",
+      "url": "https://www.sec.gov/Archives/edgar/data/0000062709/000006270926000256/mmc3q2026ex991newsrelease.htm"
+    },
+    {
+      "n": 2,
+      "title": "Aon Reports Third Quarter 2026 Results (Form 8-K exhibit 99.1)",
+      "publisher": "Aon / SEC",
+      "date": "2026-10-28",
+      "url": "https://www.sec.gov/Archives/edgar/data/0000315293/000162828026067714/ex991prq32026.htm"
+    },
+    {
+      "n": 3,
+      "title": "Arthur J. Gallagher & Co. third quarter 2026 earnings release (Form 8-K)",
+      "publisher": "Gallagher / SEC",
+      "date": "2026-10-29",
+      "url": "https://www.sec.gov/Archives/edgar/data/0000354190/000162828026068263/a3rdquarter2026earningsrel.htm"
+    },
+    {
+      "n": 4,
+      "title": "WTW third quarter 2026 earnings release (Form 8-K exhibit 99.1)",
+      "publisher": "WTW / SEC",
+      "date": "2026-10",
+      "url": "https://www.sec.gov/Archives/edgar/data/0001140536/000117184326006942/exh_991.htm"
+    },
+    {
+      "n": 5,
+      "title": "Brown & Brown organic growth recovers to 1.2% as soft market weighs on results",
+      "publisher": "Insurance Business",
+      "date": "2026-10",
+      "url": "https://www.insurancebusinessmag.com/us/news/breaking-news/brown-and-brown-organic-growth-recovers-to-1-2-as-soft-market-weighs-on-results-595056.aspx"
+    },
+    {
+      "n": 6,
+      "title": "Global commercial insurance rates fall 5% in Q3 2026 (Global Insurance Market Index)",
+      "publisher": "Marsh",
+      "date": "2026-10",
+      "url": "https://www.marsh.com/en/about/media/global-commercial-insurance-falls-5-percent-q3-2026.html"
+    },
+    {
+      "n": 7,
+      "title": "Insurance broker stocks sink as AI app sparks disruption fears",
+      "publisher": "Insurance Journal (Bloomberg)",
+      "date": "2026-02-10",
+      "url": "https://www.insurancejournal.com/news/national/2026/02/10/857525.htm"
+    },
+    {
+      "n": 8,
+      "title": "Viewpoint: Insurance broker valuations, the elephant in the room",
+      "publisher": "Insurance Journal",
+      "date": "2026-03-26",
+      "url": "https://amp.insurancejournal.com/news/national/2026/03/26/863457.htm"
+    },
+    {
+      "n": 9,
+      "title": "The full statement from the October 2026 FOMC rate decision",
+      "publisher": "investingLive",
+      "date": "2026-10-28",
+      "url": "https://investinglive.com/central-banks/the-full-statement-from-the-october-2026-fomc-rate-decision/"
+    },
+    {
+      "n": 10,
+      "title": "TD Cowen: AI likely to augment rather than replace insurance brokers",
+      "publisher": "Reinsurance News",
+      "date": "2026-02",
+      "url": "https://www.reinsurancene.ws/td-cowen-ai-likely-to-augment-rather-than-replace-insurance-brokers/"
+    },
+    {
+      "n": 11,
+      "title": "Global insurance growth slows to 1.3% in 2026 as fragmentation reshapes risk (Swiss Re sigma 2/2026)",
+      "publisher": "Risk & Insurance",
+      "date": "2026-07",
+      "url": "https://riskandinsurance.com/global-insurance-growth-slows-to-1-3-in-2026-as-fragmentation-reshapes-risk/"
+    },
+    {
+      "n": 12,
+      "title": "Brown & Brown sinks 5% on Q3 revenue miss, 1.2% organic growth in challenging rate environment",
+      "publisher": "TIKR",
+      "date": "2026-10",
+      "url": "https://www.tikr.com/blog/brown-brown-sinks-5-on-q3-revenue-miss-1-2-organic-growth-in-challenging-rate-environment"
+    },
+    {
+      "n": 13,
+      "title": "Global and US property cat rates down 16%, APAC 19% after July renewals in 2026: Guy Carpenter",
+      "publisher": "Artemis",
+      "date": "2026-07",
+      "url": "https://www.artemis.bm/news/global-and-us-property-cat-rates-down-16-apac-19-after-july-renewals-in-2026-guy-carpenter/"
+    },
+    {
+      "n": 14,
+      "title": "List of S&P 500 companies (GICS sub-industries)",
+      "publisher": "Wikipedia",
+      "date": "2026",
+      "url": "https://en.wikipedia.org/wiki/List_of_S%26P_500_companies"
+    }
+  ]
+}

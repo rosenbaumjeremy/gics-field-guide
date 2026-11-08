@@ -1,0 +1,415 @@
+{
+  "code": "40301040",
+  "added": "2026-11-08",
+  "asOf": "2026-11-04",
+  "summary": "Property and casualty insurers are earning near-record profits on the way into a soft market. Chubb posted an 84.1% combined ratio in the third quarter [1], Travelers 86.8% [2] and the US industry 92.5% for the first half [4]. But global commercial rates fell 5% in the third quarter, the ninth straight decline, with property down 10% [5], and Travelers' business rate increases slowed to 0.9% [2]. Investment income is the cushion: Travelers' hit a record [2] and Chubb's rose 8.6% [1]. Our read: margins have peaked, but they are falling from a high level, and casualty loss trends are the risk to watch.",
+  "metrics": [
+    {
+      "label": "US P&C industry combined ratio, H1 2026",
+      "value": "92.5",
+      "context": "Four points better than H1 2025; underwriting income $31.2B vs $10.9B",
+      "source": 4
+    },
+    {
+      "label": "Global commercial insurance rates, Q3 2026",
+      "value": "-5%",
+      "context": "Ninth straight quarterly decline; property -10%, casualty +1%",
+      "source": 5
+    },
+    {
+      "label": "Chubb P&C combined ratio, Q3 2026",
+      "value": "84.1%",
+      "context": "81.8% a year earlier; cat losses $705M vs $285M",
+      "source": 1
+    },
+    {
+      "label": "Travelers Business Insurance renewal rate change",
+      "value": "+0.9%",
+      "context": "Q3 2026, vs +4.3% a year earlier",
+      "source": 2
+    },
+    {
+      "label": "Global property-cat reinsurance rate on line, 2026",
+      "value": "-16%",
+      "context": "Guy Carpenter index after July renewals",
+      "source": 6
+    },
+    {
+      "label": "P&C insurers' ROE (Damodaran, US)",
+      "value": "18.7%",
+      "context": "57 firms, data as of Jan 2026",
+      "source": 11
+    },
+    {
+      "label": "P&C forward P/E (Damodaran, US)",
+      "value": "16.4x",
+      "context": "Price/book 2.02x; data as of Jan 2026",
+      "source": 10
+    }
+  ],
+  "watch": [
+    "Commercial rate declines spreading from property into casualty, where Marsh still measures a 1% increase [5].",
+    "January 2027 reinsurance renewals: cheaper reinsurance lowers insurers' costs but also feeds primary price cuts [6].",
+    "Casualty and workers' compensation loss trends, which pushed Hartford's middle-market combined ratio above 100 [13].",
+    "Personal auto: Allstate's underlying auto combined ratio rose to 89.8 as average premiums fell [3].",
+    "Bond yields near 5% keep lifting investment income, the industry's second engine [7][2]."
+  ],
+  "bellwethers": [
+    "Progressive",
+    "Chubb",
+    "Travelers",
+    "Allstate",
+    "The Hartford",
+    "Arch Capital",
+    "W. R. Berkley",
+    "Cincinnati Financial"
+  ],
+  "basics": {
+    "intro": "Property and casualty (P&C) insurers sell promises to pay for damage to things and for legal liability: car crashes, house fires, storms, workplace injuries and lawsuits. Customers pay premiums up front; claims arrive later, sometimes years later, and the insurer invests the money in the meantime. Profit comes from two places: underwriting (premiums above claims and expenses) and investment income on that float. GICS puts companies that also have big life businesses in Multi-line Insurance, pure reinsurers in Reinsurance, and brokers who take no risk in Insurance Brokers.",
+    "products": [
+      {
+        "name": "Personal auto",
+        "what": "Insurance for private cars against damage, theft and injury to others. The largest single US P&C line, sold directly or through agents.",
+        "examples": "Progressive, Allstate, GEICO (Berkshire), State Farm"
+      },
+      {
+        "name": "Homeowners",
+        "what": "Covers the house, its contents and the owner's liability. Weather drives the results, so it is the line most exposed to catastrophes.",
+        "examples": "Allstate, Travelers, Chubb (high-net-worth homes)"
+      },
+      {
+        "name": "Commercial property",
+        "what": "Insurance for businesses' buildings, equipment and lost income after damage. Priced by the market cycle and reinsurance costs.",
+        "examples": "Chubb, Travelers, Arch, FM"
+      },
+      {
+        "name": "Casualty and liability",
+        "what": "General liability, umbrella and excess cover against lawsuits, plus professional and directors' and officers' liability. Claims can take a decade to settle.",
+        "examples": "Chubb, W. R. Berkley, Travelers, Markel"
+      },
+      {
+        "name": "Workers' compensation",
+        "what": "Pays medical bills and lost wages for employees hurt at work; compulsory for US employers.",
+        "examples": "The Hartford, Travelers, AmTrust"
+      },
+      {
+        "name": "Specialty and E&S",
+        "what": "Unusual or hard-to-place risks written in the excess and surplus market with freedom on rates and forms: marine, cyber, energy, surety.",
+        "examples": "Kinsale, Arch, RLI, W. R. Berkley"
+      }
+    ],
+    "terms": [
+      {
+        "term": "Combined ratio",
+        "meaning": "Claims plus expenses as a percentage of earned premium. Below 100 means an underwriting profit; 90 means 10 cents of profit per premium dollar before investment income."
+      },
+      {
+        "term": "Loss ratio",
+        "meaning": "Claims and claim-handling costs divided by earned premium; the largest part of the combined ratio."
+      },
+      {
+        "term": "Expense ratio",
+        "meaning": "Commissions, salaries and overhead divided by premium. Scale and direct selling keep it low."
+      },
+      {
+        "term": "Underlying (ex-cat) ratio",
+        "meaning": "The combined ratio excluding catastrophe losses and reserve changes. Analysts use it to see the core pricing trend behind noisy weather."
+      },
+      {
+        "term": "Prior-year reserve development",
+        "meaning": "Changes to estimates of claims from earlier years. Favorable development releases profit; adverse development means past business was underpriced."
+      },
+      {
+        "term": "Float",
+        "meaning": "Premiums collected but not yet paid out as claims. The insurer invests it, so long-tail lines generate more investment income."
+      },
+      {
+        "term": "Hard and soft market",
+        "meaning": "A hard market has rising prices and tight terms after heavy losses; a soft market has falling prices as capital and competition return."
+      },
+      {
+        "term": "Rate versus exposure",
+        "meaning": "Renewal premium change splits into rate (price per unit of risk) and exposure (more payroll, higher property values). Only rate shows pricing power."
+      },
+      {
+        "term": "Social inflation",
+        "meaning": "Rising liability claim costs from larger jury awards, litigation funding and legal advertising, above general inflation."
+      },
+      {
+        "term": "Catastrophe load",
+        "meaning": "The amount of weather and disaster losses an insurer budgets for each year. Results swing on whether actual losses beat it."
+      },
+      {
+        "term": "Short-tail and long-tail",
+        "meaning": "Short-tail lines like auto damage and property pay claims within months; long-tail lines like liability pay over years, making reserves uncertain."
+      },
+      {
+        "term": "Statutory surplus",
+        "meaning": "Regulatory capital. Premium-to-surplus ratios cap how much business an insurer can write."
+      }
+    ],
+    "drivers": [
+      {
+        "name": "Pricing cycle",
+        "how": "After big losses, capital is scarce and prices rise faster than claims, widening margins for several years. Profits then attract capital, competition cuts prices and margins shrink."
+      },
+      {
+        "name": "Catastrophe losses",
+        "how": "Hurricanes, wildfires and severe convective storms hit property lines in a single quarter. A heavy season can wipe out a year of underwriting profit."
+      },
+      {
+        "name": "Loss cost inflation",
+        "how": "Repair parts, labor, medical costs and court awards raise claim costs. If pricing lags inflation, loss ratios rise until rates catch up."
+      },
+      {
+        "name": "Interest rates",
+        "how": "Higher bond yields raise investment income on the float with a lag as bonds roll over; they also lower bond values and book value in the short run."
+      },
+      {
+        "name": "Reserve adequacy",
+        "how": "Reserve releases flatter earnings in good years; reserve charges reveal underpricing, usually in long-tail casualty lines, and hit book value."
+      },
+      {
+        "name": "Reinsurance costs",
+        "how": "Insurers buy reinsurance to protect against catastrophes. Cheaper reinsurance lowers costs but also lets competitors cut primary prices."
+      }
+    ]
+  },
+  "fundamentals": {
+    "business": [
+      "Revenue is earned premium plus investment income, with small fee streams. Chubb wrote $15.1B of net premiums in the third quarter and earned $1.89B of adjusted investment income [1]. Travelers earned a record $1.10B of pre-tax investment income in the same quarter [2].",
+      "Customers are households (auto and home) and businesses of every size, from small firms buying packaged policies to large corporations buying layered programs. Distribution runs through independent agents, captive agents, brokers and direct channels such as Progressive's online sales.",
+      "The main cost is claims, typically 60–70% of premium, followed by commissions and operating expenses. Damodaran's data put cost of goods (largely claims) at 69.8% of revenue for US P&C insurers [9]. Reinsurance purchases are a further cost.",
+      "Pricing power depends on the cycle and on data. Insurers with better risk segmentation, lower expense ratios or specialist expertise can charge adequately while others cut. In a soft market such as now, pricing power fades: Travelers' business rate change slowed to 0.9% [2].",
+      "Assets are investment portfolios, mostly high-grade bonds, plus premium receivables and reinsurance recoverables. Liabilities are loss reserves and unearned premium; debt is usually small. Chubb's book value per share was $191.43 at September 2026 [1].",
+      "Asset-light in physical terms but capital-intensive in a regulatory sense: insurers must hold surplus capital against risk written. Capex is mainly technology; the binding constraint is capital, not plant."
+    ],
+    "overview": [
+      "Swiss Re forecasts global non-life premiums growing only 0.6% in real terms in 2026, below the 3.6% long-term trend, as pricing softens [8]. US P&C net earned premiums rose about 3% in the first half of 2026 [4].",
+      "Main segments are personal lines (auto and homeowners), commercial lines (property, liability, workers' compensation, commercial auto) and specialty or excess and surplus lines. Personal auto is the largest US line by premium.",
+      "Insurers sit between policyholders and reinsurers. Upstream they rely on agents and brokers for distribution and reinsurers for capital; downstream they pay repair shops, contractors, medical providers and lawyers.",
+      "The industry has consolidated and moved toward data-driven pricing. Telematics and direct sales let Progressive overtake older agency carriers in auto, while Chubb grew through acquisitions into a global commercial leader. Catastrophe modeling has made property pricing more technical.",
+      "The US is the largest market, followed by Western Europe, China and Japan. Exposure is concentrated in catastrophe-prone areas such as Florida, Texas, California and the Gulf Coast, which shapes reinsurance demand."
+    ],
+    "competition": [
+      "There are thousands of US P&C companies, but a few dozen groups dominate. Damodaran counts 57 listed US P&C insurers in his dataset [11], alongside large mutuals such as State Farm and Liberty Mutual.",
+      "Leaders in personal auto are State Farm, Progressive, GEICO and Allstate; in commercial lines, Chubb, Travelers, Liberty Mutual and AIG. Progressive had about 40.5 million policies in force at September 2026, up 6% [12].",
+      "Moderately consolidated in personal auto, where the top four write over half of premium, and fragmented in commercial and specialty lines, where hundreds of carriers compete.",
+      "Barriers are capital requirements, state licensing, claims infrastructure, data and distribution relationships. They are real but not prohibitive: new capital, managing general agents and insurtechs enter when margins are high.",
+      "Scale matters in expenses, data and advertising, especially in personal auto, where Progressive's and GEICO's direct models run lower expense ratios. Scale also diversifies catastrophe risk.",
+      "Personal auto is close to commoditized and competes on price and convenience. Large commercial and specialty risks are more differentiated by underwriting expertise, claims service and capacity.",
+      "Large commercial customers, advised by brokers, have growing power as rates fall; Marsh measured a 5% global rate decline in the third quarter [5]. Reinsurers have lost power as their rates fell 16% this year [6]."
+    ],
+    "drivers": [
+      "Growth comes from rate increases plus exposure growth: more cars, higher home values, larger payrolls and revenues. Exposure tracks nominal GDP; rate tracks the cycle. Renewal premium change at Travelers' business unit was 4.1% versus 0.9% of pure rate [2].",
+      "Operating margins depend on the gap between price and loss trends, catastrophe experience, expense ratio and investment yield. AM Best attributed much of the first-half 2026 improvement to catastrophe losses falling to 6.2 points from 10.8 [4].",
+      "Key cost variables are auto repair and parts costs, medical inflation, construction costs, litigation and weather. Hartford's middle-market results were hit by workers' compensation losses [13].",
+      "Higher rates help with a lag, as new bonds earn more on the float; Travelers and Chubb both reported rising investment income [2][1]. The cost is unrealized bond losses that reduce book value.",
+      "Inflation hurts until pricing catches up, as in 2022–2024 auto. GDP and employment drive exposure growth. Commodity prices matter mainly through repair costs. Unemployment has a small effect on demand because much cover is compulsory.",
+      "Mostly defensive in demand, since insurance is compulsory or essential, but cyclical in pricing and profits. It is not a secular growth industry; growth tracks nominal GDP over a cycle."
+    ],
+    "financials": [
+      "Revenue growth tracks premium rates and exposure, typically mid-single digits over a cycle. Chubb's net premiums written rose 1.9% in the third quarter [1], showing how fast growth slows when commercial pricing turns.",
+      "Insurers don't report gross margin in the usual sense. Damodaran's data show a pre-tax operating margin of 15.3% and a net margin of 11.1% for US P&C insurers [9].",
+      "Returns are strong at this point in the cycle. Damodaran puts US P&C ROE at 18.7% and ROIC at 18.5% [11]. Chubb's annualized third-quarter ROE was 15.3% [1].",
+      "Leverage is low in debt terms; the real gearing is premiums and reserves relative to equity. Debt usually funds 15–30% of capital. Regulators and rating agencies limit both.",
+      "Free cash flow is strong because premiums arrive before claims. Much of it goes back to shareholders: Chubb repurchased $1.18B of shares and paid $393M of dividends in the third quarter [1].",
+      "Capital expenditure is light, mostly technology and claims systems. The real reinvestment need is surplus capital to support premium growth.",
+      "Damodaran's January 2026 data put US P&C insurers at 16.4x forward earnings and 2.02x book [10][11]. Valuations usually follow return on equity, so falling ROE in a soft market tends to compress price-to-book."
+    ],
+    "risks": [
+      "Regulators approve personal-lines rates in many states, which delays price increases; California and Florida have reformed rules to bring insurers back. Tort reform or its absence shapes liability costs.",
+      "AI improves pricing, fraud detection and claims handling, favoring data-rich insurers. Advanced driver-assistance systems could lower crash frequency but raise repair severity. AI shopping assistants may speed up price comparison in auto.",
+      "Barely, in the near term. Aging populations change driving patterns slowly, and migration into Sun Belt catastrophe zones raises property exposure over time.",
+      "Consumers shop auto insurance more often when prices rise and switch to direct and telematics products. Allstate's average premiums fell even as auto policies grew 3.4% [3], a sign of price competition returning.",
+      "Managing general agents backed by third-party capital, insurtechs and alternative capital in reinsurance add competition in good times, accelerating soft markets.",
+      "Tariffs raise auto parts and building material costs. War and political violence create specialty losses. Supply-chain shocks lengthen repair times and raise claims.",
+      "Self-insurance, captives and parametric covers substitute for traditional policies among large companies. Autonomous vehicles could shift liability from drivers to manufacturers over decades."
+    ],
+    "horizon": {
+      "opportunities": [
+        "Investment income keeps rising as maturing bonds roll into yields near 5% [7][2].",
+        "Data and AI widen the gap between the best underwriters and the rest, rewarding scale players such as Progressive [12].",
+        "Growing catastrophe exposure and underinsurance raise long-term demand for property cover [14]."
+      ],
+      "threats": [
+        "A soft market, with commercial rates down for nine quarters, compresses margins [5].",
+        "Casualty reserve deficiencies from social inflation, already visible in workers' compensation and liability [13].",
+        "A heavy catastrophe year landing just as prices have fallen [14][6]."
+      ],
+      "assessment": "We expect the next three years to look like a classic soft-market phase: premium growth of low single digits, combined ratios drifting up from the low 90s, and investment income offsetting part of the decline [4][2]. The industry starts from high returns [11], so earnings should fall moderately rather than collapse unless catastrophes or casualty reserve charges hit together. Winners will be insurers that hold discipline and have data advantages in personal lines; specialty writers that grew in the hard market face the most pressure."
+    }
+  },
+  "sections": [
+    {
+      "id": "macro",
+      "paragraphs": [
+        "The US economy is late-cycle but still growing. The Fed held its target range at 3.75–4.00% on 28 October 2026 after a September hike, describing activity as expanding at a strong pace and inflation as elevated; two members wanted another hike [7]. For P&C insurers this is a mixed setting. Higher yields lift investment income, which is why Travelers earned a record $1.10B before tax in the third quarter [2] and Chubb's adjusted investment income rose 6.3% [1].",
+        "Inflation is the other side. Elevated price growth keeps auto repair, medical and construction costs rising, so insurers cannot cut rates as far as competition would like without risking loss ratios. Global premium growth is slowing: Swiss Re expects non-life premiums to grow just 0.6% in real terms this year [8]. Our read is that the macro backdrop supports earnings through investment income, while underwriting margins follow the insurance cycle more than the economy."
+      ]
+    },
+    {
+      "id": "demand",
+      "paragraphs": [
+        "Demand for P&C insurance is steady because most of it is compulsory or required by lenders: auto liability, homeowners for mortgaged houses, workers' compensation. Growth therefore tracks exposure (more cars, higher property values, larger payrolls) plus price. US net earned premiums rose about 3% in the first half of 2026 [4], and Swiss Re forecasts global non-life real growth of only 0.6% this year as pricing softens [8].",
+        "The structural growth driver is rising catastrophe exposure. More property in hazard zones and higher replacement costs raise insured values every year, and severe convective storms alone caused about $28B of insured losses in the first half of 2026 [14]. Personal auto is growing through policy counts rather than price: Progressive's policies in force rose about 6% [12]. We see long-run premium growth near nominal GDP, with cyclical swings in rate around that trend."
+      ]
+    },
+    {
+      "id": "structure",
+      "paragraphs": [
+        "Across the five forces, rivalry is the force that matters now. Competition has intensified in commercial lines, with global rates down 5% in the third quarter and property down 10% [5]. Buyer power is rising: large corporate buyers advised by brokers push for rate cuts, while personal-lines customers shop more. Supplier power, mainly reinsurers, has fallen as property-catastrophe reinsurance rates dropped 16% this year [6]. The threat of new entrants is moderate, because capital requirements are high but MGAs and third-party capital enter quickly. The threat of substitutes is low except among large companies using captives.",
+        "Moats come from scale and data in personal auto, underwriting expertise in specialty lines and global reach in large commercial accounts. Chubb's 82.6% ex-catastrophe accident-year combined ratio [1] and Progressive's 88.7 third-quarter combined ratio [12] show what those advantages are worth."
+      ]
+    },
+    {
+      "id": "environment",
+      "paragraphs": [
+        "On the political and legal side, rate regulation slows price changes in personal lines, while legal-system abuse and social inflation keep liability costs rising. Hartford's middle and large business combined ratio rose to 101.7 on workers' compensation and property losses [13], a sign that loss trends in some casualty lines are still running ahead of price. Environmental factors cut the other way: insured catastrophe losses were below trend in the first half [14], but around 58% of a typical year's catastrophe losses arrive in the second half [14].",
+        "Technology is reshaping pricing and claims. Telematics, aerial imagery and AI-assisted claims lower costs for the largest carriers. Travelers took about 10 auto rate decreases in the quarter and called AI shopping assistants early days [2]. We treat AI as a margin tool for incumbents with data rather than a threat to underwriting itself, though it may make auto pricing more transparent."
+      ]
+    },
+    {
+      "id": "economics",
+      "paragraphs": [
+        "Underwriting economics are near a cyclical peak. The US industry's combined ratio improved four points to 92.5 in the first half of 2026, nearly tripling underwriting income to $31.2B, and net income rose 55% to $77.8B [4]. Chubb's P&C combined ratio was 84.1% in the third quarter despite $705M of catastrophe losses [1]. Allstate's was 86.6 [3].",
+        "Damodaran's January 2026 data show US P&C insurers earning an 18.7% ROE and 18.5% ROIC, with a 15.3% pre-tax operating margin [11][9]. Operating leverage is high: a one-point change in the combined ratio moves pre-tax income by 1% of premium, a big share of a 10% margin. Free cash flow is strong and largely returned: Chubb bought back $1.18B of stock in the quarter [1]. The weak spot is underlying deterioration, visible in Allstate's underlying auto ratio rising to 89.8 from 86.0 [3]."
+      ]
+    },
+    {
+      "id": "earnings",
+      "paragraphs": [
+        "Third-quarter results were good but showed the turn. Chubb's core operating EPS was $7.66 [1]; Travelers' core EPS rose to $9.18 from $8.14 [2]; Allstate's recorded combined ratio rose 6.5 points on catastrophes [3]. Growth is slowing: Chubb's North America commercial premiums fell 2.7% as it walked away from underpriced property and financial lines [1], and Travelers' CEO said he was not prepared to call a bottom in pricing [2].",
+        "Consensus estimates for the sub-industry weren't publicly available to us. Our view is that 2027 earnings will grow more slowly than 2026, because rate cuts take a year to flow through earned premium, reserve releases are shrinking at some carriers and catastrophe experience in 2026 was lighter than normal [14]. Investment income growth of high single digits [1] offsets part of this. We think estimates that assume stable combined ratios are too optimistic."
+      ]
+    },
+    {
+      "id": "valuation",
+      "paragraphs": [
+        "Damodaran's January 2026 data put US P&C insurers at 16.4x forward earnings and 2.02x book value, against an 18.7% ROE [10][11]. That is a reasonable multiple for peak-cycle returns, but P&C stocks usually trade on book value and normalized ROE rather than on peak earnings. If returns fall back toward the mid-teens in a soft market, the current price-to-book implies little room for multiple expansion.",
+        "Against the market, the group looks cheaper: Damodaran's total-market forward P/E was 27.7x [10]. We think the market is already pricing in some margin compression, which explains the lower multiple. Relative attractiveness depends on mix: insurers with large investment portfolios and short-tail personal lines look better placed than commercial writers exposed to falling rates and casualty reserves."
+      ]
+    },
+    {
+      "id": "positioning",
+      "paragraphs": [
+        "Momentum has been mixed. The broad SPDR S&P Insurance ETF (KIE) outperformed the S&P 500 from early May to mid-September 2026, rising about 14.1% against 7.3% for SPY [15]. Over the year to 26 October, KIE returned about 11.6% against SPY's 15.1%, showing the group lagging over a longer window [16]. KIE closed at $63.03 on 26 October [16].",
+        "Our read of positioning is cautious: investors have rotated toward insurers with strong investment income and personal lines, and away from commercial writers whose growth is slowing, as Chubb's flat premium growth illustrates [1]. Sub-industry fund flows and short-interest data weren't available to us. The next catalysts are January reinsurance renewals and fourth-quarter reserve reviews, where any casualty charges would test sentiment [6][13]."
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "n": 1,
+      "title": "Chubb Reports Third Quarter 2026 Results (Form 8-K exhibit 99.1)",
+      "publisher": "Chubb / SEC",
+      "date": "2026-10-20",
+      "url": "https://www.sec.gov/Archives/edgar/data/0000896159/000119312526426866/d160822dex991.htm"
+    },
+    {
+      "n": 2,
+      "title": "Travelers Q3 2026: record investment income masks cooling commercial pricing",
+      "publisher": "Insurance Business",
+      "date": "2026-10-16",
+      "url": "https://www.insurancebusinessmag.com/us/news/breaking-news/travelers-q3-2026-record-investment-income-masks-cooling-commercial-pricing-593915.aspx"
+    },
+    {
+      "n": 3,
+      "title": "Allstate Q3 2026 earnings release (Form 8-K)",
+      "publisher": "Allstate / SEC",
+      "date": "2026-11-04",
+      "url": "https://www.sec.gov/Archives/edgar/data/0000899051/000089905126000156/allcorp93026earningsreleas.htm"
+    },
+    {
+      "n": 4,
+      "title": "Best's Special Report: US property/casualty industry nearly tripled net underwriting income in first half 2026",
+      "publisher": "AM Best via InsuranceNewsNet",
+      "date": "2026-09-08",
+      "url": "https://insurancenewsnet.com/oarticle/bests-special-report-u-s-property-casualty-industry-nearly-tripled-net-underwriting-income-in-first-half-2026"
+    },
+    {
+      "n": 5,
+      "title": "Global commercial insurance rates fall 5% in Q3 2026 (Global Insurance Market Index)",
+      "publisher": "Marsh",
+      "date": "2026-10",
+      "url": "https://www.marsh.com/en/about/media/global-commercial-insurance-falls-5-percent-q3-2026.html"
+    },
+    {
+      "n": 6,
+      "title": "Global and US property cat rates down 16%, APAC 19% after July renewals in 2026: Guy Carpenter",
+      "publisher": "Artemis",
+      "date": "2026-07",
+      "url": "https://www.artemis.bm/news/global-and-us-property-cat-rates-down-16-apac-19-after-july-renewals-in-2026-guy-carpenter/"
+    },
+    {
+      "n": 7,
+      "title": "The full statement from the October 2026 FOMC rate decision",
+      "publisher": "investingLive",
+      "date": "2026-10-28",
+      "url": "https://investinglive.com/central-banks/the-full-statement-from-the-october-2026-fomc-rate-decision/"
+    },
+    {
+      "n": 8,
+      "title": "Global insurance growth slows to 1.3% in 2026 as fragmentation reshapes risk (Swiss Re sigma 2/2026)",
+      "publisher": "Risk & Insurance",
+      "date": "2026-07",
+      "url": "https://riskandinsurance.com/global-insurance-growth-slows-to-1-3-in-2026-as-fragmentation-reshapes-risk/"
+    },
+    {
+      "n": 9,
+      "title": "Operating and net margins by industry (US)",
+      "publisher": "Aswath Damodaran, NYU Stern",
+      "date": "2026-01",
+      "url": "https://pages.stern.nyu.edu/~adamodar/New_Home_Page/datafile/margin.html"
+    },
+    {
+      "n": 10,
+      "title": "PE ratios by industry (US)",
+      "publisher": "Aswath Damodaran, NYU Stern",
+      "date": "2026-01",
+      "url": "https://pages.stern.nyu.edu/~adamodar/New_Home_Page/datafile/pedata.html"
+    },
+    {
+      "n": 11,
+      "title": "Price to book, ROE and ROIC by industry (US)",
+      "publisher": "Aswath Damodaran, NYU Stern",
+      "date": "2026-01",
+      "url": "https://pages.stern.nyu.edu/~adamodar/New_Home_Page/datafile/pbvdata.html"
+    },
+    {
+      "n": 12,
+      "title": "Progressive reports 90% CR for September",
+      "publisher": "Coverager",
+      "date": "2026-10",
+      "url": "https://coverager.com/progressive-reports-90-cr-for-september/"
+    },
+    {
+      "n": 13,
+      "title": "Workers' comp losses push Hartford's mid-market combined ratio to near-breakeven",
+      "publisher": "Insurance Business",
+      "date": "2026-10",
+      "url": "https://www.insurancebusinessmag.com/us/news/breaking-news/workers-comp-losses-push-hartfords-midmarket-combined-ratio-to-nearbreakeven-595102.aspx"
+    },
+    {
+      "n": 14,
+      "title": "First-half 2026 insured natural catastrophe losses: below trend, rising risks",
+      "publisher": "Swiss Re Institute",
+      "date": "2026",
+      "url": "https://www.swissre.com/institute/research/topics-and-risk-dialogues/climate-and-natural-catastrophe-risk/first-half-2026-insured-catastrophe-losses.html"
+    },
+    {
+      "n": 15,
+      "title": "How are the market valuations for the US insurers doing?",
+      "publisher": "Marginal Revolution",
+      "date": "2026-09",
+      "url": "https://marginalrevolution.com/marginalrevolution/2026/09/how-are-the-market-valuations-for-the-u-s-insurers-doing.html"
+    },
+    {
+      "n": 16,
+      "title": "KIE summary: SPDR S&P Insurance ETF performance",
+      "publisher": "MarketChameleon",
+      "date": "2026-10-26",
+      "url": "https://marketchameleon.com/Overview/KIE/Summary/"
+    }
+  ]
+}

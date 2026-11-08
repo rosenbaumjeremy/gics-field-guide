@@ -1,0 +1,396 @@
+{
+  "code": "40301020",
+  "added": "2026-11-08",
+  "asOf": "2026-11-04",
+  "summary": "Life and health insurers are benefiting from high interest rates and strong retirement demand. MetLife posted its best quarter ever, with adjusted EPS excluding notable items up 22% [1], and US annuity sales stayed above $100B for an 11th straight quarter [4]. Results vary by company: Prudential's adjusted operating income fell on its Japan sales suspension [2], and Aflac's adjusted EPS slipped 2.4% [3]. The industry's growing private credit holdings, about $1.2 trillion across US insurers, are drawing regulators' attention [11]. Our read: earnings are solid, valuations are low at about 9x forward earnings [9], and credit quality is the main risk.",
+  "metrics": [
+    {
+      "label": "MetLife adjusted EPS, Q3 2026",
+      "value": "$2.78",
+      "context": "+17%; $2.85 ex notable items, +22%; adjusted ROE 19.2%",
+      "source": 1
+    },
+    {
+      "label": "US annuity sales, Q2 2026",
+      "value": "$121.2B",
+      "context": "Final LIMRA figure; 11th straight quarter above $100B",
+      "source": 4
+    },
+    {
+      "label": "US pension risk transfer sales, Q1 2026",
+      "value": "$3.8B",
+      "context": "-47% year on year",
+      "source": 5
+    },
+    {
+      "label": "US insurers' private credit holdings",
+      "value": "~$1.2T",
+      "context": "About 13% of invested assets, end-2025 (NAIC)",
+      "source": 11
+    },
+    {
+      "label": "Life insurers' forward P/E (Damodaran, US)",
+      "value": "9.3x",
+      "context": "Price/book 1.43x; data as of Jan 2026",
+      "source": 9
+    },
+    {
+      "label": "Life insurers' ROE (Damodaran, US)",
+      "value": "12.9%",
+      "context": "ROIC 10.8%; data as of Jan 2026",
+      "source": 10
+    }
+  ],
+  "watch": [
+    "Private credit marks and regulatory capital rules, including the NAIC's tighter treatment of complex assets [11].",
+    "Rate path: the Fed held at 3.75–4.00% with two members wanting a hike, which keeps reinvestment yields high [6].",
+    "Annuity sales momentum and surrenders if rates fall from current levels [4].",
+    "Japan: Prudential's sales suspension and Aflac's yen exposure [2][3].",
+    "Pension risk transfer volumes, which fell sharply early in 2026 [5]."
+  ],
+  "bellwethers": [
+    "MetLife",
+    "Prudential Financial",
+    "Aflac",
+    "Principal Financial",
+    "Globe Life",
+    "Corebridge Financial",
+    "Manulife",
+    "AIA Group"
+  ],
+  "basics": {
+    "intro": "Life and health insurers sell protection against dying too early or living too long, plus supplemental health cover. They collect premiums and deposits, invest them for decades, and profit from the spread between investment returns and what they credit or pay policyholders, plus fees and mortality margins. GICS puts companies with large property-casualty businesses in Multi-line Insurance and major medical insurers such as UnitedHealth in Health Care. S&P 500 members here include MetLife, Prudential, Aflac, Principal and Globe Life [14].",
+    "products": [
+      {
+        "name": "Life insurance",
+        "what": "Term life pays a death benefit for a set period; whole and universal life combine protection with a savings element.",
+        "examples": "MetLife, Prudential, Globe Life, Northwestern Mutual"
+      },
+      {
+        "name": "Annuities",
+        "what": "Contracts that grow savings tax-deferred and can turn them into lifetime income. Fixed, indexed and variable versions differ in who bears market risk.",
+        "examples": "Corebridge, Athene (Apollo), Jackson, Equitable"
+      },
+      {
+        "name": "Group benefits",
+        "what": "Life, disability, dental and other cover sold to employers for their staff.",
+        "examples": "MetLife Group Benefits, Principal, Unum"
+      },
+      {
+        "name": "Supplemental health",
+        "what": "Cash payments on events such as cancer, accident or hospitalization, which supplement medical insurance.",
+        "examples": "Aflac (US and Japan)"
+      },
+      {
+        "name": "Pension risk transfer",
+        "what": "Insurers take over company pension obligations in exchange for a lump-sum premium.",
+        "examples": "MetLife, Prudential, Legal & General"
+      },
+      {
+        "name": "Asset management",
+        "what": "Many life insurers run large investment managers for their own balance sheets and outside clients.",
+        "examples": "PGIM (Prudential), MetLife Investment Management"
+      }
+    ],
+    "terms": [
+      {
+        "term": "Spread",
+        "meaning": "The gap between what the insurer earns on investments and what it credits to policyholders; the main profit source for annuities."
+      },
+      {
+        "term": "General account",
+        "meaning": "The insurer's own investment portfolio backing guaranteed promises; its credit quality is central to solvency."
+      },
+      {
+        "term": "Separate account",
+        "meaning": "Assets held for policyholders who bear the market risk, as in variable annuities; the insurer earns fees on them."
+      },
+      {
+        "term": "Adjusted (operating) earnings",
+        "meaning": "Earnings excluding market-driven swings in derivatives and investment gains, which can make net income volatile."
+      },
+      {
+        "term": "Notable items",
+        "meaning": "One-off effects, such as annual actuarial assumption reviews, that companies strip out to show the trend."
+      },
+      {
+        "term": "Mortality and morbidity",
+        "meaning": "Death rates and illness rates. Better-than-expected experience boosts protection profits."
+      },
+      {
+        "term": "Variable investment income",
+        "meaning": "Returns from private equity, hedge funds and real estate in the general account; lumpy and market-driven."
+      },
+      {
+        "term": "Risk-based capital (RBC)",
+        "meaning": "The US regulatory capital measure; investment choices change required capital."
+      },
+      {
+        "term": "Surrender",
+        "meaning": "When a policyholder cashes out a contract early. Lapses rise when competing rates go up."
+      },
+      {
+        "term": "Private credit",
+        "meaning": "Loans and bonds not traded publicly, often privately rated. Higher yield but less liquidity and transparency."
+      },
+      {
+        "term": "Reinsurance sidecar or offshore reinsurance",
+        "meaning": "Transferring blocks of policies to reinsurers, often in Bermuda, to free capital."
+      },
+      {
+        "term": "Book value ex-AOCI",
+        "meaning": "Equity excluding unrealized bond gains and losses, used because rate moves distort reported book value."
+      }
+    ],
+    "drivers": [
+      {
+        "name": "Interest rates",
+        "how": "Higher yields raise investment income on new money and make annuities attractive, lifting sales. Falling rates squeeze spreads and raise the cost of long guarantees."
+      },
+      {
+        "name": "Credit losses",
+        "how": "General accounts hold corporate bonds, mortgages and private credit; defaults and downgrades reduce earnings and capital."
+      },
+      {
+        "name": "Equity markets",
+        "how": "Fees on separate account and asset management assets rise with markets, and variable investment income tracks private asset returns."
+      },
+      {
+        "name": "Mortality experience",
+        "how": "Fewer deaths than priced raise life insurance profits; for annuities and pensions, longer lives raise costs."
+      },
+      {
+        "name": "Employment",
+        "how": "Group benefits revenue grows with payrolls and wages; disability claims can rise in downturns."
+      },
+      {
+        "name": "Currency",
+        "how": "Insurers with big Japanese or Asian businesses, such as Aflac and Prudential, report lower dollar earnings when those currencies weaken."
+      }
+    ]
+  },
+  "fundamentals": {
+    "business": [
+      "Revenue comes from premiums, policy fees, net investment income and asset management fees. MetLife reported $14.1B of premiums, fees and other revenues and $6.0B of adjusted net investment income in the third quarter [1].",
+      "Customers are individuals buying protection and retirement savings, employers buying group benefits, and pension plan sponsors transferring obligations. Distribution runs through agents, banks, brokers, worksites and employers. Employers are especially important for group life, disability and dental, which are sold at the worksite and renewed annually.",
+      "Principal costs are policyholder benefits and credited interest, followed by commissions and operating expenses. Damodaran's data show cost of goods (mainly benefits) at 70% of revenue for US life insurers [8].",
+      "Pricing power is limited in commoditized products such as term life and fixed annuities, where rates are easy to compare. It is stronger in specialized protection, group benefits with service advantages and products requiring underwriting expertise.",
+      "Assets are large investment portfolios: bonds, commercial mortgages, private credit and some alternatives. Liabilities are policy reserves stretching decades. The US industry held about $1.2 trillion of private credit at end-2025 [11]. Because the liabilities are long and mostly predictable, insurers can hold less liquid, higher-yielding assets, which is the appeal and the risk of private credit.",
+      "Capital-intensive in regulatory terms: every policy requires capital against risk. Physical capex is small. Insurers free capital by reinsuring blocks of business, often offshore."
+    ],
+    "overview": [
+      "Swiss Re expects life insurance premiums to grow 2.3% in real terms in 2026, the strongest part of the industry, helped by higher investment returns [7]. US annuity sales were $121.2B in the second quarter [4].",
+      "Main segments are individual life, annuities, group benefits, supplemental health, pension risk transfer and asset management. Retirement products now dominate new sales in the US, while protection matters more in Asia.",
+      "Life insurers sit between savers and capital markets. They depend on distributors for sales and on asset managers, often affiliated, for investment returns; reinsurers take on risk.",
+      "The industry has shifted from guaranteed products toward fee-based and spread-based retirement products. Private equity firms such as Apollo and KKR built annuity insurers, pushing more general account money into private credit [12].",
+      "The US, Japan, China and Western Europe are the largest markets. Asia is the main growth region, which is why MetLife's Asia earnings rose 11% [1] and Aflac earns much of its profit in Japan [3]."
+    ],
+    "competition": [
+      "Hundreds of US life insurers exist, but a few dozen groups dominate. Damodaran's dataset counts 20 listed US life insurers [10]; mutuals such as Northwestern Mutual and New York Life are also major players.",
+      "MetLife and Prudential are the largest listed US groups; Athene, Corebridge, Jackson and Equitable lead annuities; Aflac leads supplemental health in Japan and the US. Market shares weren't available from our sources.",
+      "Moderately consolidated in group benefits and pension risk transfer; more fragmented in individual annuities and life, where many carriers compete on credited rates.",
+      "Barriers are capital, ratings, distribution and regulatory licensing. Private-equity-backed insurers have shown that capital and investment skill can overcome them quickly.",
+      "Scale matters in investment management, expense ratios and the ability to price large pension deals. It matters less for niche protection.",
+      "Fixed annuities and term life are largely commoditized; differentiated products include group benefits, supplemental health and complex retirement solutions. In commoditized lines, the insurer with the cheapest capital and highest-yielding portfolio can offer the best rate, which is how private-equity-backed writers gained share.",
+      "Distributors such as banks and broker-dealers have significant bargaining power in annuities. Employers negotiate hard in group benefits. Reinsurers are a key supplier of capital."
+    ],
+    "drivers": [
+      "Revenue grows with sales of annuities and protection, employment for group benefits, asset growth and investment yields. MetLife's adjusted premiums, fees and other revenues excluding pension risk transfer rose 8% [1].",
+      "Margins depend on investment spreads, mortality and morbidity experience, expense efficiency and variable investment income, which rose 49% at MetLife [1].",
+      "Key cost variables are credited rates on annuities, benefit claims, commissions and hedging costs for guarantees.",
+      "Highly sensitive to rates. Higher yields support spreads and sales; a fast fall in rates compresses spreads, while a sharp rise can trigger surrenders. The Fed's 3.75–4.00% range and inflation still elevated keep yields high [6].",
+      "Inflation raises expenses and can increase lapses; GDP and employment drive group benefits and sales. Commodities matter little. Recessions bring credit losses, the biggest earnings risk.",
+      "Mature and moderately cyclical: demand is secular (aging populations needing retirement income) but profits track credit and equity markets. Pension risk transfer and Asian protection sales are the most cyclical and the most secular parts, respectively."
+    ],
+    "financials": [
+      "Revenue growth is typically low-to-mid single digit; earnings growth comes from margins and buybacks. MetLife's adjusted EPS rose 17% [1], while Prudential's adjusted operating income fell to $1.32B from $1.44B [2].",
+      "Insurers don't report gross margin. Damodaran's data show a pre-tax operating margin of 10.6% and net margin of 7.8% for US life insurers [8].",
+      "Returns are moderate: Damodaran shows 12.9% ROE and 10.8% ROIC [10]. MetLife's adjusted ROE was 19.2% [1], well above the average.",
+      "Financial debt is moderate; the real leverage is policy reserves against equity, often 10–15 times. Holding company cash is a key buffer: MetLife held $3.4B [1].",
+      "Statutory free cash flow is solid at well-run insurers and supports dividends and buybacks; MetLife returned about $1B to shareholders in the quarter [1]. Statutory accounting, not GAAP, determines how much cash can be paid up to the holding company.",
+      "Capex is low; the real reinvestment is capital to support new business, which consumes capital up front and releases it over years.",
+      "Life insurers trade at low multiples: Damodaran shows 9.3x forward earnings and 1.43x book [9][10], reflecting earnings volatility, complexity and credit risk."
+    ],
+    "risks": [
+      "Regulators are scrutinizing private credit, offshore reinsurance and private ratings; the NAIC is tightening solvency rules on complex assets [11], and the Treasury met state commissioners on the issue in May [13]. Fiduciary rules on how annuities are sold are another long-running regulatory question.",
+      "AI helps underwriting (faster life underwriting without medical exams), claims and distribution. It is more a cost lever than a disruptor of the balance-sheet business.",
+      "Aging populations are the core tailwind for annuities and retirement income, and a long-term headwind for life protection demand in some markets. Longevity improvements raise annuity costs.",
+      "Consumers buy more online and through employers, favoring simpler products. High rates make annuities competitive with bank deposits, which has kept sales above $100B a quarter [4].",
+      "Private-equity-backed insurers compete aggressively on annuity rates, funded by higher-yield private credit [12]. Asset managers keep entering the business.",
+      "Exposure to Japan and Asia adds currency and political risk. Prudential's Japan sales suspension cut earnings [2]. Supply-chain risk is minimal.",
+      "Bank deposits, money-market funds and bond ETFs substitute for fixed annuities when rates rise; employer-provided benefits and government programs substitute for individual cover."
+    ],
+    "horizon": {
+      "opportunities": [
+        "Aging populations and the shift from pensions to individual savings sustain demand for annuities and retirement income [4].",
+        "Higher yields lift spreads and investment income for years as portfolios turn over [1][6].",
+        "Asia, where MetLife's earnings grew 11% in the quarter, offers faster growth [1]."
+      ],
+      "threats": [
+        "Credit losses in private credit and commercial real estate, concentrated among the largest holders [12].",
+        "Stricter capital rules on complex assets and offshore reinsurance [11][13].",
+        "A sharp fall in rates compressing spreads and pushing up hedging costs [6]."
+      ],
+      "assessment": "We expect steady earnings growth of mid-to-high single digits for well-capitalized, diversified life insurers over the next three to five years, supported by retirement demand and higher reinvestment yields [1][4]. The industry trades at a discount to the market because of credit and model risk [9]. The biggest swing factor is private credit: if losses stay low, the spread business looks undervalued; if a credit cycle exposes weak underwriting, insurers that chased yield will be hit hardest [12]."
+    }
+  },
+  "sections": [
+    {
+      "id": "macro",
+      "paragraphs": [
+        "Life insurers like the current macro setting. The Fed held its target range at 3.75–4.00% in October after a September hike, with inflation elevated and growth strong, and two members wanted another hike [6]. Higher yields raise the return on new money: MetLife's adjusted net investment income rose 10% to $6.0B [1]. They also make annuities competitive with bank deposits, which is why US annuity sales have stayed above $100B a quarter for 11 quarters [4].",
+        "The risks sit in credit and currency. A late-cycle economy with high rates raises default risk in the private credit and commercial real estate held in general accounts [12]. A weak yen cut Aflac's adjusted EPS by about $0.03 [3]. Our read is that the macro backdrop is supportive for earnings as long as credit holds.",
+        "A shift to Fed cuts would change the picture. Lower short rates would make fixed annuities less competitive with deposits and slow sales, while lower long yields would compress spreads on new business. Insurers with large fee businesses, such as Prudential's PGIM, whose earnings rose to $263M [2], are less exposed to that scenario."
+      ]
+    },
+    {
+      "id": "demand",
+      "paragraphs": [
+        "Structural demand is strong. Aging populations and the shift from defined-benefit pensions to individual savings push demand for retirement income products. Swiss Re expects life premiums to grow 2.3% in real terms in 2026, faster than non-life [7]. In the US, RILA sales set a record of $23.3B in the second quarter [4], showing demand for products that combine market upside with protection.",
+        "Demand is not uniform. US pension risk transfer sales fell 47% to $3.8B in the first quarter [5], showing how lumpy large corporate deals are. Protection products grow slowly in mature markets, while Asia grows faster: MetLife's Asia adjusted earnings rose 11% [1]. Group benefits track employment; MetLife's grew 15% on favorable underwriting [1]. We see long-run growth of mid-single digits in retirement products and low single digits in protection."
+      ]
+    },
+    {
+      "id": "structure",
+      "paragraphs": [
+        "On Porter's five forces, rivalry is intense in fixed and indexed annuities, where private-equity-backed insurers compete on credited rates [12]. Buyer power is moderate: individuals compare rates, and pension plan sponsors run competitive auctions. Supplier power lies with distributors, such as banks and broker-dealers, which can demand higher commissions. The threat of new entrants is moderate: capital and ratings are barriers, but asset managers have entered quickly. Substitutes such as money-market funds and bond ETFs compete for savings.",
+        "Moats come from scale in group benefits, investment management capabilities, brand and distribution in Japan and Asia, and underwriting expertise. MetLife's 19.2% adjusted ROE [1] against an industry average of about 13% [10] shows the advantage of diversified, scaled franchises. Aflac's long-standing position in Japanese cancer insurance, with a Japan profit margin target raised to 35–38% [3], is another example of a protection franchise that is hard to replicate."
+      ]
+    },
+    {
+      "id": "environment",
+      "paragraphs": [
+        "The regulatory spotlight is on investments. The NAIC estimates US insurers held about $1.2 trillion of private credit at end-2025, roughly 13% of invested assets, and is tightening solvency rules on complex assets [11]. The Treasury met state insurance commissioners in May to discuss private credit and offshore reinsurance [13]. Moody's warns that the top ten life insurers hold 44% of the industry's private credit, creating concentration and liquidity risk [12].",
+        "Politically, Japan matters: Prudential's sales suspension at Prudential of Japan cut earnings [2]. Technologically, AI and accelerated underwriting reduce costs and speed sales. Our read is that regulation is the more important force: higher capital charges on private credit would slow the most aggressive annuity writers while helping conservative incumbents. Japan is also where Aflac moved about ¥500B of cancer-policy reserves to its Bermuda reinsurer in the quarter, an example of the capital management regulators are watching [3]."
+      ]
+    },
+    {
+      "id": "economics",
+      "paragraphs": [
+        "Life insurance earns modest margins on large balance sheets. Damodaran's data show a 10.6% pre-tax operating margin, 7.8% net margin, 12.9% ROE and 10.8% ROIC for US life insurers [8][10]. The best operators do better: MetLife's adjusted ROE was 19.2% in the third quarter, helped by a 49% jump in variable investment income [1].",
+        "Operating leverage comes from spreads: a small change in portfolio yield on a large asset base moves earnings sharply. Capital intensity is high, because new business consumes capital up front. Cash generation is solid at mature franchises: MetLife returned about $1B in the quarter and held $3.4B of holding company cash [1]. Aflac shows how assumption updates move results, adding $0.71 to third-quarter EPS [3]."
+      ]
+    },
+    {
+      "id": "earnings",
+      "paragraphs": [
+        "Third-quarter results were mixed. MetLife's adjusted EPS rose 17% to $2.78, and 22% excluding notable items, its best quarter on record [1]. Prudential's adjusted operating income fell to $3.77 per share from $4.05 on its Japan sales suspension, though PGIM and individual life improved [2]. Aflac's adjusted EPS fell 2.4% to $2.43, and it raised its Japan profit margin range to 35–38% [3]. Group benefits, retirement and Asia all grew at MetLife, a sign the strength was broad rather than a one-off [1].",
+        "Consensus figures for the sub-industry weren't publicly available to us. We think earnings growth will moderate in 2027 because variable investment income is lumpy and pension risk transfer volumes have been weak [5]. Higher reinvestment yields should keep net investment income growing. Where we differ from a purely bullish read is credit: we expect higher credit costs at some point in the cycle, which current earnings do not reflect."
+      ]
+    },
+    {
+      "id": "valuation",
+      "paragraphs": [
+        "Life insurers are cheap on the usual measures. Damodaran's January 2026 data show a 9.3x forward P/E and 1.43x price-to-book for US life insurers, against 27.7x forward earnings for the total market [9][10]. The discount reflects earnings volatility, accounting complexity and credit risk in general accounts.",
+        "At 1.43x book with a 12.9% ROE [10], the market is pricing returns near the cost of equity with little growth. MetLife's adjusted book value per share of $59.41 [1] gives a sense of the anchor investors use. Our view is that diversified insurers with strong capital and fee businesses look attractively valued if credit holds, while insurers heavily exposed to private credit deserve their discount until losses become visible. A rerating would most likely come from evidence that private credit portfolios perform through a downturn, or from capital rules that settle the uncertainty, rather than from faster earnings growth [11]."
+      ]
+    },
+    {
+      "id": "positioning",
+      "paragraphs": [
+        "Sub-industry fund flows, short interest and relative performance data weren't available to us. Sentiment is shaped by two forces. Earnings momentum is positive at the largest groups, with MetLife reporting a record quarter [1]. Headlines about private credit, from the NAIC [11] to the Treasury [13] and Moody's [12], keep investors cautious about balance-sheet risk.",
+        "Our read is that investors prefer life insurers with fee-based and protection businesses over pure spread-based annuity writers. Buybacks support the shares: MetLife returned about $1B in the third quarter [1]. Catalysts ahead include year-end capital rules on private assets, fourth-quarter assumption reviews and whether annuity sales hold up if the Fed changes course [4][6]."
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "n": 1,
+      "title": "MetLife announces third quarter 2026 results (Form 8-K exhibit 99.1)",
+      "publisher": "MetLife / SEC",
+      "date": "2026-11-04",
+      "url": "https://www.sec.gov/Archives/edgar/data/0001099219/000109921926000058/ex991earningsreleasetables.htm"
+    },
+    {
+      "n": 2,
+      "title": "Prudential Financial third quarter 2026 earnings release (Form 8-K exhibit 99.1)",
+      "publisher": "Prudential Financial / SEC",
+      "date": "2026-11-03",
+      "url": "https://www.sec.gov/Archives/edgar/data/0001137774/000113777426000219/exhibit991-3q26earningspre.htm"
+    },
+    {
+      "n": 3,
+      "title": "Aflac Incorporated announces third quarter 2026 results (Form 8-K exhibit 99.1)",
+      "publisher": "Aflac / SEC",
+      "date": "2026-11",
+      "url": "https://www.sec.gov/Archives/edgar/data/0000004977/000162828026070181/aflex991-q32026new.htm"
+    },
+    {
+      "n": 4,
+      "title": "LIMRA: US annuity sales reach $121.2 billion in the second quarter of 2026, setting a new first-half record",
+      "publisher": "LIMRA",
+      "date": "2026-09",
+      "url": "https://www.limra.com/en/newsroom/news-releases/2026/limra-u.s.-annuity-sales-reach-$121.2-billion-in-the-second-quarter-of-2026-setting-a-new-first-half-record/"
+    },
+    {
+      "n": 5,
+      "title": "LIMRA: US pension risk transfer sales total nearly $4 billion in first quarter 2026",
+      "publisher": "LIMRA",
+      "date": "2026",
+      "url": "https://www.limra.com/en/newsroom/news-releases/2026/limra-u.s.-pension-risk-transfer-sales-total-nearly-$4-billion-in-first-quarter-2026/"
+    },
+    {
+      "n": 6,
+      "title": "The full statement from the October 2026 FOMC rate decision",
+      "publisher": "investingLive",
+      "date": "2026-10-28",
+      "url": "https://investinglive.com/central-banks/the-full-statement-from-the-october-2026-fomc-rate-decision/"
+    },
+    {
+      "n": 7,
+      "title": "Global insurance growth slows to 1.3% in 2026 as fragmentation reshapes risk (Swiss Re sigma 2/2026)",
+      "publisher": "Risk & Insurance",
+      "date": "2026-07",
+      "url": "https://riskandinsurance.com/global-insurance-growth-slows-to-1-3-in-2026-as-fragmentation-reshapes-risk/"
+    },
+    {
+      "n": 8,
+      "title": "Operating and net margins by industry (US)",
+      "publisher": "Aswath Damodaran, NYU Stern",
+      "date": "2026-01",
+      "url": "https://pages.stern.nyu.edu/~adamodar/New_Home_Page/datafile/margin.html"
+    },
+    {
+      "n": 9,
+      "title": "PE ratios by industry (US)",
+      "publisher": "Aswath Damodaran, NYU Stern",
+      "date": "2026-01",
+      "url": "https://pages.stern.nyu.edu/~adamodar/New_Home_Page/datafile/pedata.html"
+    },
+    {
+      "n": 10,
+      "title": "Price to book, ROE and ROIC by industry (US)",
+      "publisher": "Aswath Damodaran, NYU Stern",
+      "date": "2026-01",
+      "url": "https://pages.stern.nyu.edu/~adamodar/New_Home_Page/datafile/pbvdata.html"
+    },
+    {
+      "n": 11,
+      "title": "NAIC targets $1.2 trillion in insurer private credit with tighter solvency rules",
+      "publisher": "Insurance Business",
+      "date": "2026",
+      "url": "https://www.insurancebusinessmag.com/us/news/breaking-news/naic-targets-1-2-trillion-in-insurer-private-credit-with-tighter-solvency-rules-591242.aspx"
+    },
+    {
+      "n": 12,
+      "title": "US life insurers' private credit push is creating liquidity and concentration risks, Moody's warns",
+      "publisher": "Insurance Business",
+      "date": "2026",
+      "url": "https://www.insurancebusinessmag.com/us/news/breaking-news/us-life-insurers-private-credit-push-is-creating-liquidity-and-concentration-risks-moodys-warns-578168.aspx"
+    },
+    {
+      "n": 13,
+      "title": "US state insurance regulators, Treasury secretary meet to discuss private credit",
+      "publisher": "S&P Global Market Intelligence",
+      "date": "2026-05",
+      "url": "https://www.spglobal.com/market-intelligence/en/news-insights/articles/2026/5/us-state-insurance-regulators-treasury-secretary-meet-to-discuss-private-credit-101506784"
+    },
+    {
+      "n": 14,
+      "title": "List of S&P 500 companies (GICS sub-industries)",
+      "publisher": "Wikipedia",
+      "date": "2026",
+      "url": "https://en.wikipedia.org/wiki/List_of_S%26P_500_companies"
+    }
+  ]
+}
