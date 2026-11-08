@@ -1,0 +1,430 @@
+{
+  "code": "45102010",
+  "added": "2026-11-08",
+  "asOf": "2026-11-05",
+  "summary": "IT Consulting & Other Services is growing slowly while investors argue about whether AI shrinks the work. Accenture grew fiscal 2026 revenue 6% to $74.2 billion and guided fiscal 2027 to 3% to 6% local-currency growth [1]; Cognizant guides 2026 to 4.0% to 4.4% constant-currency growth [2]; Infosys cut its FY27 guide to 1% to 2% [3]; EPAM guided Q4 revenue roughly flat year on year [4]. Accenture rose about 22% on 1 October after falling about a third earlier in 2026 [5]. In July, Pzena put Accenture at 8.7x forward earnings against a 5-year median of 24.3x [6]. Sub-industry consensus and ETF flow data were not publicly available to us.",
+  "metrics": [
+    {
+      "label": "Accenture revenue, FY26 (to 31 Aug 2026)",
+      "value": "$74.2B",
+      "context": "+6% in US dollars, +5% local currency; Q4 bookings $22.2B, book-to-bill 1.2",
+      "source": 1
+    },
+    {
+      "label": "Accenture FY27 revenue guidance",
+      "value": "+3% to 6%",
+      "context": "Local currency; GAAP EPS $14.39 to $14.81; at least $9.5B returned to shareholders",
+      "source": 1
+    },
+    {
+      "label": "Cognizant 2026 revenue guidance",
+      "value": "$22.05B to $22.14B",
+      "context": "+4.0% to 4.4% constant currency; Q3 adjusted operating margin 16.3% (29 Oct 2026)",
+      "source": 2
+    },
+    {
+      "label": "Infosys FY27 revenue guidance",
+      "value": "+1% to 2%",
+      "context": "Constant currency, cut from 1.5% to 3%; operating margin guide 20% to 22% (23 Oct 2026)",
+      "source": 3
+    },
+    {
+      "label": "EPAM Q3 2026 revenue growth",
+      "value": "+2.3%",
+      "context": "$1.426B; non-GAAP operating margin 16.7%; Q4 guide $1.405B to $1.420B (5 Nov 2026)",
+      "source": 4
+    },
+    {
+      "label": "US Computer Services pre-tax operating margin",
+      "value": "7.4%",
+      "context": "Unadjusted; 64 firms; Damodaran, January 2026 data (not GICS-defined)",
+      "source": 7
+    },
+    {
+      "label": "Gartner worldwide IT spending 2026",
+      "value": "$6.31T",
+      "context": "+13.5%; IT services is the largest category, but Gartner's category is wider than this sub-industry",
+      "source": 8
+    },
+    {
+      "label": "S&P 500 forward P/E (market)",
+      "value": "18.7x",
+      "context": "5-yr avg 19.8x, 10-yr avg 19.1x; FactSet, 30 Oct 2026; not this group",
+      "source": 9
+    }
+  ],
+  "watch": [
+    "Whether clients keep demanding a share of AI savings: Accenture said pricing was lower in many areas in Q4, and Infosys lowered its growth range [10][3].",
+    "Q1 bookings and book-to-bill at Accenture, which will show whether the October rebound rests on real demand; Cognizant's Q3 bookings fell 7% [1][2].",
+    "Fixed-price and outcome-based contracts, which analysts say decide whether productivity gains are kept by vendors or passed to clients [11].",
+    "Policy uncertainty, oil prices and supply-chain disruption delaying decisions in two Cognizant client sectors [2].",
+    "Share price behaviour after the October squeeze: in June Accenture fell about 18% in a day on a cautious outlook [12]."
+  ],
+  "bellwethers": [
+    "Accenture",
+    "Cognizant",
+    "Infosys",
+    "EPAM Systems",
+    "IBM",
+    "Capgemini",
+    "Globant"
+  ],
+  "basics": {
+    "intro": "These companies sell skilled people and know-how. Clients such as banks, insurers, manufacturers and governments hire them to design and build software, connect old and new systems, run IT operations and business processes, and advise on strategy. Revenue mostly comes from billing for time, or from fixed-price and multi-year contracts. Costs are mainly salaries, so size, utilisation and offshore delivery in India and elsewhere matter. GICS places IT consulting, systems integration and outsourcing here. Software makers, data-processing firms and cloud hosts sit in neighbouring sub-industries.",
+    "products": [
+      {
+        "name": "Consulting and strategy",
+        "what": "Advice on how to use technology, data and AI to change a business, usually sold in short projects.",
+        "examples": "Accenture Strategy, Cognizant Consulting, Capgemini Invent"
+      },
+      {
+        "name": "Systems integration and application development",
+        "what": "Building, customising and connecting software such as SAP, Salesforce or cloud platforms so they work with a client's existing systems.",
+        "examples": "Accenture, Infosys, EPAM, Globant"
+      },
+      {
+        "name": "Managed services and outsourcing",
+        "what": "Running a client's IT infrastructure, applications or business processes for several years under contract, with a service level promised.",
+        "examples": "Accenture Managed Services, Cognizant, IBM Consulting"
+      },
+      {
+        "name": "Digital engineering and product development",
+        "what": "Engineering teams that build software products for clients, including technology companies.",
+        "examples": "EPAM, Globant"
+      },
+      {
+        "name": "Industry platforms",
+        "what": "Software or platforms owned by the services firm and run for clients, which earn recurring fees.",
+        "examples": "Cognizant TriZetto healthcare platform"
+      },
+      {
+        "name": "AI and data services",
+        "what": "Preparing data, building and deploying AI applications and agents, and training client staff to use them.",
+        "examples": "Accenture, Infosys, Cognizant AI offerings"
+      }
+    ],
+    "terms": [
+      {
+        "term": "Bookings",
+        "meaning": "The total value of new contracts signed in a period. It is the main forward indicator, because it turns into revenue over months or years."
+      },
+      {
+        "term": "Book-to-bill",
+        "meaning": "Bookings divided by revenue for the same period. Above 1.0 means the order book is growing."
+      },
+      {
+        "term": "Time-and-materials",
+        "meaning": "Billing clients by the hour or day. Revenue tracks headcount, so productivity gains from AI can reduce revenue unless pricing changes."
+      },
+      {
+        "term": "Fixed-price / outcome-based",
+        "meaning": "The client pays an agreed sum for a deliverable or result. The vendor keeps productivity gains but carries the risk of overruns."
+      },
+      {
+        "term": "Managed services",
+        "meaning": "Multi-year contracts to run systems or processes. Revenue is steadier than consulting, which clients can cut in a few weeks."
+      },
+      {
+        "term": "Utilisation",
+        "meaning": "The share of billable staff time that is actually billed. Low utilisation means paying salaries without revenue."
+      },
+      {
+        "term": "Offshore pyramid",
+        "meaning": "A staffing model with many junior staff in lower-cost locations, supervised by fewer senior people. AI threatens the junior base."
+      },
+      {
+        "term": "Attrition",
+        "meaning": "The rate at which staff leave. High attrition raises hiring and training costs and can hurt project quality."
+      },
+      {
+        "term": "Revenue per employee",
+        "meaning": "Revenue divided by headcount. A quick gauge of pricing and productivity; it can rise if AI lets fewer people deliver the same work."
+      },
+      {
+        "term": "Constant currency",
+        "meaning": "Growth with exchange-rate changes stripped out. Services firms with global clients and costs in other currencies report it alongside US dollar growth."
+      },
+      {
+        "term": "Large deal / TCV",
+        "meaning": "A contract above a size threshold, with total contract value (TCV) counting its whole life. Companies disclose them to show momentum."
+      },
+      {
+        "term": "Global capability centre (GCC)",
+        "meaning": "A client's own offshore technology centre. Growth in GCCs lets clients do in-house some work they once outsourced."
+      }
+    ],
+    "drivers": [
+      {
+        "name": "Corporate technology budgets",
+        "how": "Clients spend on IT projects when profits and confidence are good. In weak periods discretionary consulting is cut first, while multi-year managed services hold up better."
+      },
+      {
+        "name": "AI and pricing",
+        "how": "AI can cut the hours needed for coding and testing. If clients demand lower prices, revenue per project falls; if cheaper work lets clients do more projects, volume can offset it."
+      },
+      {
+        "name": "Utilisation, attrition and wage inflation",
+        "how": "Salaries are the main cost. Rising pay or high attrition squeezes margins unless prices rise, and idle staff cost money."
+      },
+      {
+        "name": "Mix of contracts",
+        "how": "Fixed-price and outcome-based deals can earn higher margins when delivery is efficient, but add risk. Managed services add stability."
+      },
+      {
+        "name": "Acquisitions",
+        "how": "Large firms buy specialist companies to add skills and clients. This lifts reported growth but adds integration risk and goodwill."
+      },
+      {
+        "name": "Currency and offshore costs",
+        "how": "Revenue is mostly in dollars and euros while many staff are paid in rupees or other currencies, so exchange rates move margins."
+      }
+    ]
+  },
+  "fundamentals": {
+    "business": [
+      "Revenue comes from consulting projects, systems integration and long-running managed services. Accenture splits its revenue between Consulting and Managed Services, which were $9.28 billion and $9.40 billion in Q4 FY26 [1]. Fees are billed per hour, at fixed prices or on outcomes.",
+      "Customers are large corporations and governments across industries. Accenture serves more than 9,000 clients; US federal work was about 7% of its fiscal 2026 revenue [10]. Cognizant draws roughly 60% of revenue from healthcare and financial services [6].",
+      "People are the main cost. Accenture had about 814,000 employees at 31 August 2026, mostly in India, the Philippines and the US [10]. Its SG&A was 16.3% of FY26 revenue, so delivery staff cost is the larger piece [1].",
+      "Pricing power rests on trust, scale, industry knowledge and being embedded in clients' systems. Accenture says clients retain it on a non-exclusive basis, and consulting contracts can be ended on about 30 days' notice, which limits pricing power in advisory work [10].",
+      "Main assets are people, client relationships, acquired businesses and cash. Accenture held $12.8 billion of cash and $10.0 billion of long-term debt at 31 August 2026 [1]. Cognizant held $1.52 billion of cash against $1.55 billion of long-term debt at the end of Q3 2026 [2].",
+      "The model is asset-light. There are few factories or networks, and spending goes mostly on staff, training and acquisitions. Accenture spent $4.9 billion on 17 acquisitions in fiscal 2026 [10]."
+    ],
+    "overview": [
+      "Gartner forecasts worldwide IT spending of $6.31 trillion in 2026, up 13.5%, with IT services the largest category [8]. The republished release prints the services figure as $1.87 billion, which is a unit slip, and we could not confirm its growth rate, so we treat it as roughly $1.9 trillion. It is wider than this sub-industry [8]. Pzena puts IT services at about 30% of global technology spending [6].",
+      "The main segments are consulting, systems integration, application development and maintenance, and infrastructure or business process outsourcing. Accenture reports Consulting and Managed Services; Cognizant reports by client industry, such as Financial Services and Health Sciences [1][2].",
+      "Services sit between technology suppliers (cloud, software and hardware vendors) and corporate customers. The firms implement SAP, Salesforce, Microsoft and cloud systems and run them for clients, so they depend on the spending decisions of both sides [10].",
+      "The industry grew from outsourcing and offshoring in the 1990s and 2000s into cloud, digital and now AI work. Accenture says it has invested $3.0 billion in AI over three years and counted nearly 110,000 AI and data practitioners at year end [10].",
+      "Delivery is concentrated in India, with large presences in the Philippines, Eastern Europe and Latin America, while demand is concentrated in North America and Europe. Accenture's Americas revenue was $9.43 billion in Q4 FY26 against $6.58 billion in EMEA and $2.67 billion in Asia Pacific [1]."
+    ],
+    "competition": [
+      "There are hundreds of significant competitors worldwide. Accenture's 10-K names categories rather than firms: large multinational IT providers, offshore providers in India, accounting firms and consultancies, niche specialists and clients' own IT departments [10].",
+      "Accenture is the largest listed player at $74.2 billion of fiscal 2026 revenue [1]. Cognizant guides 2026 revenue at about $22.1 billion [2]. Infosys booked half-year revenue of Rs 97,454 crore [13]. EPAM's Q3 revenue was $1.43 billion [4]. We did not find a sourced market-share table.",
+      "The industry is fragmented. A few giants lead, but the long tail of regional and specialist firms is large, and acquisitions continue: Accenture alone bought 17 companies in fiscal 2026 [10].",
+      "Barriers to entry are modest for a small consulting shop, since the main input is people. They are high for large managed-services deals, which need references, security credentials, global delivery and balance-sheet strength [10].",
+      "Economies of scale exist in recruiting, training, offshore delivery and partnerships. Accenture's revenue per employee is about $90,000, nearly twice India's largest outsourcers, which Pzena reads as evidence of mix and pricing advantage [6].",
+      "Work is partly commoditised. Basic coding, testing and support are increasingly benchmarked on price, while advisory and complex integration are more differentiated. Accenture says 'AI-native companies' are among its competitors [10].",
+      "Customers hold much of the bargaining power in routine work: contracts can be rebid, and renewal price step-downs have moved from 3% to 4% to roughly 6% to 7%, per Pzena [6]. Suppliers are mainly employees, so wage inflation and talent scarcity are the supplier pressure [10]."
+    ],
+    "drivers": [
+      "Revenue growth is driven by client technology budgets, new bookings, price per unit of work and acquisitions. Accenture's Q4 book-to-bill was 1.2 overall, but only 1.0 in Consulting against 1.4 in Managed Services [1].",
+      "Operating margin depends on pricing, utilisation, the share of offshore staff, attrition, and the mix of contracts. Accenture's adjusted operating margin was 15.8% for FY26 and it guides to 50 to 70 basis points of GAAP expansion in FY27 [1].",
+      "The key cost variables are salaries, hiring and training, subcontractors, and acquisition integration. Accenture says it spent about $1.0 billion on learning and development in fiscal 2026 [10].",
+      "Interest-rate sensitivity is indirect and moderate. Higher rates raise financing costs for clients and delay projects, but the firms themselves carry little debt, so earnings are barely touched directly. Accenture issued about $5.0 billion of net debt in fiscal 2026 [1]. We found no sourced rate-sensitivity estimate.",
+      "Inflation lifts wages and pushes costs up, but contract repricing can lag. GDP and corporate profits drive discretionary spending; Cognizant attributed its lower outlook to policy uncertainty, oil prices and supply-chain disruptions delaying decisions [2]. Commodity prices matter mainly through client industries such as energy.",
+      "The industry is cyclical in consulting but defensive in managed services, with a structural AI and cloud tailwind that is now contested. Accenture's Consulting book-to-bill was only 1.0 while Managed Services was 1.4 [1]. Pzena notes that IT services stocks trade as if the structural story is in doubt [6]."
+    ],
+    "financials": [
+      "Growth has slowed to low-to-mid single digits. Accenture grew 5% in local currency in fiscal 2026 and guides 3% to 6% for FY27 [1]; Cognizant guides 4.0% to 4.4% [2]; Infosys guides 1% to 2% [3]; EPAM grew 2.3% in Q3 [4].",
+      "Damodaran's January 2026 data for 64 US Computer Services firms show a gross margin of 24.3%, a net margin of 4.5% and a pre-tax operating margin of 7.4% [7]. Large leaders earn far more: Accenture 15.8% adjusted [1], Cognizant 16.3% adjusted in Q3 [2], EPAM 16.7% non-GAAP [4], and Infosys 21% in Q2 FY27 [13]. The group figure includes smaller, lower-margin firms.",
+      "Returns are very high because the business needs little capital. Damodaran's normalised ROIC for the US Computer Services group is 37.4%, and after-tax ROIC unadjusted is 39.3% [14]. The page's date labels conflict (January 2026 versus January 2025), so treat these as indicative [14].",
+      "Leverage is low. Accenture held $12.8 billion of cash against $10.0 billion of long-term debt [1], while Cognizant's long-term debt rose to $1.55 billion after drawing $1.0 billion on its revolver, against $1.52 billion of cash [2].",
+      "Free cash flow is strong. Accenture generated $11.6 billion in fiscal 2026, about 16% of revenue [1], and Cognizant generated $925 million in Q3, about 16% of revenue [2]. Pzena says the group converts 90% or more of earnings into cash [6].",
+      "Capital expenditure is small relative to cash flow; the main uses of cash are acquisitions and buybacks. Accenture returned a record $11.5 billion to shareholders and spent $4.9 billion on acquisitions [1][10]. Cognizant spent $1.88 billion on buybacks year to date [2].",
+      "Damodaran's January 2026 US Computer Services group trades at 14.1x EV/EBITDA (positive-EBITDA firms) and 19.3x EV/EBIT [15]. Leaders trade lower on forward earnings: Pzena had Accenture at 8.7x and Cognizant at 6.7x on 30 June 2026 [6]."
+    ],
+    "risks": [
+      "Regulation and legislation: visa costs for H-1B and similar visas, trade restrictions and tariffs are named risks in Accenture's 10-K [10]. Data-protection and AI rules add compliance costs. We found no single pending law that changes the sub-industry's economics.",
+      "AI is the central risk. Accenture warns that work 'has been and will continue to be replaced by automation, including AI-enabled solutions', which 'has led and may continue to lead to reduced demand' [10]. ICICI Securities estimates a 10% to 20% deflationary effect at contract renewals, offset by new AI workloads [11].",
+      "Demographics matter through talent supply and offshore wage inflation. Infosys's voluntary attrition eased to 12.7% from 14.3% a year earlier, and its headcount was 332,542 [3]. An ageing workforce and skills shifts are slower-moving pressures that we did not find quantified.",
+      "Changing client behaviour: clients are building in-house teams, including global capability centres, and shifting budgets toward AI investments, which the 10-K lists as competition and as a budget risk [10]. Phil Fersht of HFS says demand is moving to focused AI work while large transformation projects stay under pressure [12].",
+      "New competitors and models include AI-native firms and software platforms. Palantir said its offerings compress SAP migration timelines from years to weeks, and Anthropic launched plug-ins that automate legal, sales and data work, per Business Today [11]. Accenture and Anthropic each committed at least $1 billion over five years to a partnership, showing incumbents are also partnering [5].",
+      "Geopolitical risk is mostly about delivery locations and trade policy. Cognizant cited oil prices and supply-chain disruption delaying decisions [2]; Accenture's 10-K names tariffs and trade restrictions [10]. Concentration of staff in India and the Philippines is a further exposure [10].",
+      "Substitutes include in-house teams, software with built-in AI, and clients simply buying less. Pzena argues disintermediation is limited because clients want to avoid managing non-core transformation and AI start-ups lack embedded relationships [6]. We think the risk is real but the pace is uncertain."
+    ],
+    "horizon": {
+      "opportunities": [
+        "Clients need partners to prepare data, integrate AI into core systems and govern it; Infosys reported AI services at 10.5% of revenue, up 29% sequentially [3].",
+        "Lower unit costs can make more backlog worth doing, so volume could offset price falls, as Pzena argues [6].",
+        "Shifting to fixed-price and outcome-based contracts lets vendors keep productivity gains [6].",
+        "Acquisitions and managed-services demand continue: Accenture expects roughly $5 billion of acquisitions in fiscal 2027 and had $12.77 billion of Q4 managed-services bookings [5][1]."
+      ],
+      "threats": [
+        "AI-led deflation at renewals could cut revenue faster than new work arrives, as ICICI Securities estimates [11].",
+        "AI-native competitors and in-house capability centres could take routine work and weaken pricing [10].",
+        "Cognizant's 7% fall in Q3 bookings and Infosys's guidance cut suggest decisions are being delayed [2][3].",
+        "Visa and tariff changes could raise delivery costs [10]."
+      ],
+      "assessment": "Our read is that the next three to five years bring low-to-mid single-digit industry growth, with a widening gap between leaders and the rest. Leaders such as Accenture have scale, balance sheets and bookings (141 deals of $100 million or more in a quarter) [1], while pricing is clearly softer [10][6]. Whether volume offsets deflation will show up in bookings, revenue per employee and operating margins over several quarters. Guidance from Cognizant and Infosys shows demand is not recovering evenly [2][3]. We see the sector as a transition story in which margins held so far, but growth rates are low and the distribution of outcomes is wide."
+    }
+  },
+  "sections": [
+    {
+      "id": "macro",
+      "paragraphs": [
+        "IT services follows corporate confidence more than consumer demand. Cognizant guided 2026 growth of 4.0% to 4.4% in constant currency and blamed policy uncertainty, oil prices and supply-chain disruption for decision delays in two client sectors [2]. Infosys also lowered its FY27 guide to 1% to 2% from 1.5% to 3% on a challenging demand environment [3].",
+        "Yet spending in aggregate is strong. Gartner forecasts worldwide IT spending at $6.31 trillion in 2026, up 13.5%, but it says the growth is led by AI infrastructure and data-centre systems, not services [8]. The broad market backdrop is also firm: FactSet reports blended S&P 500 Q3 earnings growth of 30.2% [9].",
+        "We did not find a sourced view on how interest rates or currencies are moving this group in 2026. Accenture noted a foreign-exchange drag of about 0.8% on Q4 revenue [1]. Our read is that the macro picture is mixed: clients have money, but they are directing it toward AI infrastructure and delaying services decisions."
+      ]
+    },
+    {
+      "id": "demand",
+      "paragraphs": [
+        "The addressable market is large. Gartner has IT services as the largest category within a $6.31 trillion total, though the republished table prints the number with a unit error and we could not confirm a growth rate [8]. Pzena puts IT services at roughly 30% of global technology spending [6].",
+        "Demand drivers are cloud migration, modernisation of legacy systems, data readiness and AI deployment. Infosys said AI services reached 10.5% of revenue and grew 29% sequentially [3]. Cognizant's CEO said over 50% of code at the company is AI-assisted [2].",
+        "The secular question is whether AI makes the same work cheaper and therefore smaller. ICICI Securities projects the share of global technology spending going to IT services falling by 8 percentage points over calendar 2023 to 2026, based on Gartner data, and 20% to 40% productivity gains in coding, testing and support [11]. Consulting is cyclical and can be cut quickly, while managed services contracts run longer [10].",
+        "Our read is that the market will still grow, but at lower rates than the 2021 peak, and that AI will redistribute revenue among vendors."
+      ]
+    },
+    {
+      "id": "structure",
+      "paragraphs": [
+        "Porter's five forces point to moderate profitability. Rivalry is intense, since firms compete on price and talent, and clients rebid contracts. Accenture says pricing was lower in many areas in Q4 and that clients retain it on a non-exclusive basis [10][5]. Buyer power is high, with renewal price step-downs up to roughly 6% to 7% from 3% to 4% [6].",
+        "Supplier power sits with employees and technology partners, because skilled engineers and platform access are scarce. The threat of new entrants is mixed: low for small boutiques, high for AI-native firms that sell outcomes rather than hours, which Accenture lists among competitors [10]. The threat of substitutes comes from in-house teams, global capability centres and software with embedded AI [10].",
+        "Concentration is low at the whole-industry level but leaders are large: Accenture's fiscal 2026 revenue was $74.2 billion [1], Cognizant guides to about $22.1 billion [2], and EPAM's Q3 revenue was $1.43 billion [4]. We did not find a sourced market-share table.",
+        "Moats come from scale, client history and industry platforms. Accenture says 85% of its top 200 commercial clients have partnered with it for 20 years or more [10], and Cognizant's TriZetto platform processes roughly two-thirds of US healthcare claims, per Pzena [6]."
+      ]
+    },
+    {
+      "id": "environment",
+      "paragraphs": [
+        "Politically, the key exposures are immigration and trade. Accenture's 10-K flags rising costs of H-1B and similar visas and the threat or imposition of tariffs and trade restrictions [10]. Cognizant said policy uncertainty delayed client decisions [2]. We found no new statute this quarter that directly changes sub-industry economics.",
+        "Technologically, AI is both product and threat. Accenture states that work performed by its people has been and will continue to be replaced by automation, which has led and may lead to reduced demand [10]. The sector sold off in February after Anthropic launched plug-ins for its Claude Cowork agent and Palantir said it compresses SAP migration timelines from years to weeks, per Business Today [11].",
+        "Companies are positioning as AI enablers. Accenture and Anthropic each committed at least $1 billion over five years to a partnership, and Accenture announced three cybersecurity deals worth $4.18 billion in June [5]. EPAM launched Frontier AI Services [4].",
+        "Social and legal pressures include data privacy, AI governance and workforce impacts. Pzena notes clients are pressing vendors to share AI savings and moving to fixed-price and outcome-based contracts [6]. Environmental factors are minor for this asset-light group. We did not find a sourced assessment of specific AI regulation costs."
+      ]
+    },
+    {
+      "id": "economics",
+      "paragraphs": [
+        "Revenue growth is low single digit at most leaders, while margins have held. Accenture's adjusted operating margin rose 20 basis points to 15.8% in fiscal 2026 [1], Cognizant's adjusted margin rose 30 basis points to 16.3% in Q3 [2], and EPAM's non-GAAP margin rose to 16.7% from 16.0% [4]. Infosys guides 20% to 22% [3].",
+        "Damodaran's January 2026 US Computer Services group (64 firms) shows a gross margin of 24.3%, net margin of 4.5% and pre-tax operating margin of 7.4% [7]. The gap with the leaders reflects the group's many smaller firms, in our view. Damodaran's normalised ROIC is 37.4%, although the page's own dating is inconsistent [14].",
+        "Operating leverage is moderate: costs are mostly salaries and can be flexed through hiring, but cutting staff takes time. Revenue per employee at Accenture is about $90,000 [6]. Cash generation is strong: Accenture's free cash flow was $11.6 billion in FY26, about 16% of revenue [1], and Cognizant's Q3 free cash flow was $925 million [2]. Cognizant's year-to-date free cash flow is lower than a year earlier ($1.58 billion versus $1.88 billion) [2].",
+        "Capital intensity is low, so cash goes to buybacks, dividends and acquisitions. Accenture returned $11.5 billion in fiscal 2026 [1]; EPAM plans a $500 million accelerated share repurchase and commits to returning at least 50% of free cash flow from 2027 to 2029 [4]."
+      ]
+    },
+    {
+      "id": "earnings",
+      "paragraphs": [
+        "Guidance, not consensus, is the best evidence we have. Accenture guides fiscal 2027 revenue growth of 3% to 6% in local currency and GAAP EPS of $14.39 to $14.81, up 6% to 9% [1]. The midpoint of the revenue range is above the analyst average of 3.9% (LSEG), per Reuters coverage [5].",
+        "Cognizant guides 2026 adjusted EPS of $5.72 to $5.79, up 8% to 10%, and a Q4 revenue range of $5.49 billion to $5.57 billion [2]. EPAM guides 2026 non-GAAP EPS of $13.23 to $13.31 and Q4 revenue of $1.405 billion to $1.420 billion, which is minus 0.2% to plus 0.9% year on year [4]. Infosys's FY27 guide is 1% to 2% [3].",
+        "Estimate revisions: Infosys cut its guide, but Accenture's guide proved conservative at Accenture, where Q4 revenue of $18.68 billion beat its own $17.75 billion to $18.40 billion guide [1][3]. We could not obtain sub-industry consensus EPS growth or revision data, and FactSet's sector figures are for the wider S&P 500 [9].",
+        "Our view: low-single-digit revenue growth combined with buybacks supports mid-to-high single-digit EPS growth, as Accenture's adjusted EPS grew 8% in FY26 [1]. The risk to that view is renewal price cuts arriving faster than new AI work, which is not visible yet in margins."
+      ]
+    },
+    {
+      "id": "valuation",
+      "paragraphs": [
+        "The group is cheap against its own history. At 30 June 2026, Pzena measured Accenture at 8.7x forward earnings versus a five-year median of 24.3x, Cognizant at 6.7x versus 15.2x, and Globant at 4.6x versus 29.6x [6]. Those readings predate the October rebound, when Accenture jumped about 22% in a day and Cognizant about 8% [5], so current multiples are higher; we did not find a current sub-industry forward P/E.",
+        "Damodaran's January 2026 US Computer Services group trades at 14.1x EV/EBITDA and 19.3x EV/EBIT [15]. The S&P 500 trades at 18.7x forward earnings, below its five-year average of 19.8x and ten-year average of 19.1x [9].",
+        "Free cash flow yields are high. Pzena reports double-digit FCF yields for Accenture, Cognizant and Globant at June 30, and about 12% of Accenture's market cap returned annually through dividends and buybacks [6]. Accenture's FY26 free cash flow of $11.6 billion [1] is the cash flow underneath that yield.",
+        "Our read is that the price implied low or negative long-term growth in June. The October guidance reduced that gap but did not close it. Pzena argues the stocks are priced for a difficult transition with little credit for a central role in enterprise AI adoption [6]; investors who disagree point to price step-downs and slowing guidance at Cognizant and Infosys [2][3]."
+      ]
+    },
+    {
+      "id": "positioning",
+      "paragraphs": [
+        "Momentum has been poor, with a sharp reversal. Accenture fell 17.97% on 18 June to $127.98, a drop of 24.8% in a week, after cutting its FY26 growth forecast; Infosys, Cognizant and IBM fell 5.7% to 10.5% and Capgemini 8.9% [12]. Before the 1 October rally, Accenture was down about a third in 2026 [5].",
+        "On 1 October Accenture rose about 22%, its best day on record, Cognizant about 8% and IBM about 3%, while US-listed Wipro and Infosys gained 6% to 7% [5]. An interviewee noted that many institutions feel underinvested in software, so part of the move may be rotation [5].",
+        "Indian IT shares were hit in parallel. Business Today recorded sharp falls at Infosys, TCS, Wipro, HCL Tech and Tech Mahindra in February [11]. We did not obtain a current Nifty IT year-to-date figure, and ETF flow, short interest and breadth data for this sub-industry were not publicly available to us.",
+        "Our read is that positioning is now less one-sided than in June, but the stocks remain driven by the AI-disruption narrative rather than quarterly earnings, which have been steady."
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "n": 1,
+      "title": "Accenture Reports Fourth-Quarter and Full-Year Fiscal 2026 Results",
+      "publisher": "Accenture (8-K exhibit)",
+      "date": "2026-10-01",
+      "url": "https://newsroom.accenture.com/content/4q-full-fy26-earnings/accenture-reports-fourth-quarter-and-full-year-fiscal-2026-results.pdf"
+    },
+    {
+      "n": 2,
+      "title": "Cognizant Reports Third Quarter 2026 Results",
+      "publisher": "Cognizant (SEC 8-K Exhibit 99.1)",
+      "date": "2026-10-29",
+      "url": "https://www.sec.gov/Archives/edgar/data/0001058290/000105829026000039/exhibit9919302026.htm"
+    },
+    {
+      "n": 3,
+      "title": "Infosys posts flat PAT at Rs 7,823 crore, trims FY27 revenue growth guidance",
+      "publisher": "Morung Express",
+      "date": "2026-10-23",
+      "url": "https://morungexpress.com/infosys-posts-flat-pat-at-rs-7823-crore-trims-fy27-revenue-growth-guidance"
+    },
+    {
+      "n": 4,
+      "title": "EPAM Reports Results for Third Quarter 2026",
+      "publisher": "EPAM Systems (SEC 8-K Exhibit 99)",
+      "date": "2026-11-05",
+      "url": "https://www.sec.gov/Archives/edgar/data/0001352010/000135201026000048/exhibit99_q3x2026.htm"
+    },
+    {
+      "n": 5,
+      "title": "Accenture's forecast eases AI disruption fears, lifts battered IT services stocks",
+      "publisher": "The Star (Reuters)",
+      "date": "2026-10-02",
+      "url": "https://www.thestar.com.my/tech/tech-news/2026/10/02/accenture039s-forecast-eases-ai-disruption-fears-lifts-battered-it-services-stocks"
+    },
+    {
+      "n": 6,
+      "title": "Highlighted Holding: IT Services, 2Q 2026",
+      "publisher": "Pzena Investment Management",
+      "date": "2026-07-16",
+      "url": "https://www.pzena.com/uk/institutional-investors/insights/highlighted-holding-it-services-2q-2026/"
+    },
+    {
+      "n": 7,
+      "title": "Margins by Sector (US), January 2026",
+      "publisher": "Aswath Damodaran, NYU Stern",
+      "date": "2026-01-01",
+      "url": "https://pages.stern.nyu.edu/~adamodar/New_Home_Page/datafile/margin.html"
+    },
+    {
+      "n": 8,
+      "title": "Gartner Estimates Worldwide IT Spending at $6.31T for 2026",
+      "publisher": "Campus Technology (Gartner forecast of 22 Apr 2026)",
+      "date": "2026-05-20",
+      "url": "https://campustechnology.com/articles/2026/05/20/gartner-estimates-worldwide-it-spending-at-6-31t-for-2026.aspx"
+    },
+    {
+      "n": 9,
+      "title": "FactSet Earnings Insight",
+      "publisher": "FactSet",
+      "date": "2026-10-30",
+      "url": "https://advantage.factset.com/hubfs/Website/Resources%20Section/Research%20Desk/Earnings%20Insight/EarningsInsight_103026.pdf"
+    },
+    {
+      "n": 10,
+      "title": "Accenture plc Form 10-K for fiscal year ended 31 August 2026",
+      "publisher": "SEC EDGAR",
+      "date": "2026-10-16",
+      "url": "https://www.sec.gov/Archives/edgar/data/0001467373/000146737326000049/acn-20260831.htm"
+    },
+    {
+      "n": 11,
+      "title": "Explainer: why the stock market is jittery over AI and what it means for Infosys, TCS, others",
+      "publisher": "Business Today",
+      "date": "2026-02-16",
+      "url": "https://businesstoday.in/markets/stocks/story/explainer-why-stock-market-is-jittery-over-ai-and-what-it-means-for-infosys-tcs-others-516244-2026-02-16"
+    },
+    {
+      "n": 12,
+      "title": "Accenture cuts forecast; IT services shares slide (market report, 18 June trading)",
+      "publisher": "HFS Research",
+      "date": "2026-06-19",
+      "url": "https://www.hfsresearch.com/?p=205866"
+    },
+    {
+      "n": 13,
+      "title": "Infosys Q2 FY27 Results: Net Profit Rises 6.2% To Rs 7,823 Crore; Revenue Jumps 10.7%",
+      "publisher": "Free Press Journal",
+      "date": "2026-10-23",
+      "url": "https://www.freepressjournal.in/business/infosys-q2-fy27-results-net-profit-rises-62-to-7823-crore-revenue-jumps-107-to-49244-crore"
+    },
+    {
+      "n": 14,
+      "title": "Return on Capital by Sector (US)",
+      "publisher": "Aswath Damodaran, NYU Stern",
+      "date": "2026-01-01",
+      "url": "https://pages.stern.nyu.edu/~adamodar/New_Home_Page/datafile/roc.html"
+    },
+    {
+      "n": 15,
+      "title": "EV/EBITDA multiples by sector (US), January 2026",
+      "publisher": "Aswath Damodaran, NYU Stern",
+      "date": "2026-01-01",
+      "url": "https://pages.stern.nyu.edu/~adamodar/New_Home_Page/datafile/vebitda.html"
+    }
+  ]
+}

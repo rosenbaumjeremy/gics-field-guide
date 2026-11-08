@@ -1,0 +1,437 @@
+{
+  "code": "45102030",
+  "added": "2026-11-08",
+  "asOf": "2026-11-06",
+  "summary": "Internet Services & Infrastructure is a small, mixed group whose companies sell the plumbing of the web, and the AI buildout is splitting it. Cloudflare grew revenue 39% to $782.5 million and DigitalOcean 40% to $321 million [1][2], while Akamai grew 6% with profit margins falling [3] and GoDaddy grew 6% [4]. Verisign remains a 67%-margin toll road on .com [5]. Cloud infrastructure spending hit $167.7 billion in the September quarter, up 55% [6]. We found no sub-industry consensus or multiples; sector-level data show Information Technology at 17.3x forward earnings, its lowest since March 2020 [7].",
+  "metrics": [
+    {
+      "label": "Global cloud infrastructure spending, Q3 2026",
+      "value": "$167.7B",
+      "context": "+55% y/y; Amazon 26%, Microsoft 19%, Google 16% (Synergy, 30 Oct 2026)",
+      "source": 6
+    },
+    {
+      "label": "Cloudflare revenue, Q3 2026",
+      "value": "$782.5M",
+      "context": "+39% y/y; non-GAAP operating margin 17.5%, down from a year ago as gross margin slipped to 72.4% from 75.3%",
+      "source": 1
+    },
+    {
+      "label": "Akamai non-GAAP operating margin, Q3 2026",
+      "value": "25%",
+      "context": "Down 6 points y/y on revenue +6% to $1.122B; cloud infrastructure services +34% to $109M",
+      "source": 3
+    },
+    {
+      "label": "Verisign operating margin, Q3 2026",
+      "value": "about 66.9%",
+      "context": "Our calculation: $296.5M operating income on $443.0M revenue; .com/.net base 182.5M names, +6.1% y/y",
+      "source": 5
+    },
+    {
+      "label": "GoDaddy normalized EBITDA margin, Q3 2026",
+      "value": "33.5%",
+      "context": "Revenue $1.342B, +6%; 2026 free cash flow target about $1.8B",
+      "source": 4
+    },
+    {
+      "label": "DigitalOcean AI-customer ARR, Q3 2026",
+      "value": "$376M",
+      "context": "+288% y/y; revenue guidance for 2027 is growth of 60% or more",
+      "source": 2
+    },
+    {
+      "label": "Information Technology sector forward P/E (S&P 500)",
+      "value": "17.3x",
+      "context": "25-year average 20.0x; lowest since 23 Mar 2020; sector figure, not this sub-industry (5 Nov 2026)",
+      "source": 7
+    }
+  ],
+  "watch": [
+    "Whether Akamai's cloud infrastructure services build, backed by more than $14 billion of multi-year commitments and 2027 growth guidance of 17% to 22%, arrives on schedule while margins fall [3].",
+    "Cloudflare's gross margin, which fell about three points year over year to 72.4% in the quarter [1].",
+    "Verisign's .com wholesale price: contract terms allow up to 7% increases in the final four years of the pricing period, and commentators read 2026 as the first year an increase is possible [8][9].",
+    "GoDaddy's ability to turn AI tools (Airo above $100 million of annualized bookings) into growth faster than AI website generators erode its basics [4][10].",
+    "The AI capex cycle: Amazon alone expects about $220 billion of 2026 capital spending, and its trailing free cash flow turned negative [11]."
+  ],
+  "bellwethers": [
+    "Cloudflare",
+    "Akamai Technologies",
+    "GoDaddy",
+    "Verisign",
+    "DigitalOcean",
+    "Fastly"
+  ],
+  "basics": {
+    "intro": "These companies run pieces of the internet's plumbing and rent them to other businesses. Some deliver and protect web traffic (Cloudflare, Akamai, Fastly), some register and host domains and websites (GoDaddy, Verisign), and some rent simple cloud servers to developers (DigitalOcean). Revenue is mostly subscriptions or usage fees. The giant cloud providers (Amazon, Microsoft, Alphabet) are classified elsewhere in GICS, as are IT consulting firms in the neighbouring sub-industry. Snowflake-style data platforms and software-heavy security vendors are, we believe, not here either, but we could not verify GICS constituent lists.",
+    "products": [
+      {
+        "name": "Content delivery and edge networks",
+        "what": "Servers placed around the world that store and serve websites, video and software downloads close to the user, so pages load faster and the origin site carries less load.",
+        "examples": "Akamai delivery, Fastly, Cloudflare CDN"
+      },
+      {
+        "name": "Security and traffic protection",
+        "what": "Services that sit in front of a customer's site or network to block attacks, bots and fraud, and to control who gets in. Sold as subscriptions, often bundled.",
+        "examples": "Akamai Security, Cloudflare Zero Trust and DDoS protection, Fastly Security"
+      },
+      {
+        "name": "Cloud servers and AI compute for developers",
+        "what": "Rented virtual machines, storage and, increasingly, graphics chips (GPUs) for running AI models, aimed at developers and small and mid-sized firms rather than large enterprises.",
+        "examples": "DigitalOcean Droplets and Inference Engine, Akamai Cloud Infrastructure Services"
+      },
+      {
+        "name": "Domain registration and registry",
+        "what": "A registry runs the master database of a domain ending such as .com; a registrar sells names to the public. Registries charge a regulated fee per name per year.",
+        "examples": "Verisign (.com, .net registry), GoDaddy (registrar)"
+      },
+      {
+        "name": "Web hosting and small-business tools",
+        "what": "Packages that give a small business a website, email, online store and marketing tools for a monthly fee.",
+        "examples": "GoDaddy hosting, website builder, Airo AI tools"
+      },
+      {
+        "name": "Developer and edge platforms",
+        "what": "Services that let programmers run code at the network edge, close to users, instead of in a central data center.",
+        "examples": "Cloudflare Workers, Fastly Compute"
+      }
+    ],
+    "terms": [
+      {
+        "term": "CDN (content delivery network)",
+        "meaning": "A network of servers that copies content close to users. The original business of Akamai and Fastly; it is now a slower-growing, price-competitive product."
+      },
+      {
+        "term": "Registry vs. registrar",
+        "meaning": "A registry (Verisign for .com) operates a domain ending and earns a set fee per name. A registrar (GoDaddy) sells names to customers and competes on price and service."
+      },
+      {
+        "term": "Domain name base",
+        "meaning": "The number of registered names in a registry. Verisign's revenue grows with this base and with price increases, so analysts track net adds each quarter."
+      },
+      {
+        "term": "Renewal rate",
+        "meaning": "The share of expiring domains that are renewed. High renewal rates are what make registry revenue so predictable."
+      },
+      {
+        "term": "ARR (annual recurring revenue)",
+        "meaning": "The current quarter's recurring revenue annualized. Used by DigitalOcean and others as a gauge of momentum before revenue shows it."
+      },
+      {
+        "term": "RPO (remaining performance obligations)",
+        "meaning": "Contracted revenue not yet recognized. Rising RPO signals bookings that will turn into revenue, and matters for companies signing multi-year deals."
+      },
+      {
+        "term": "Net retention",
+        "meaning": "Revenue from existing customers this year divided by the same customers' revenue last year. Above 100% means customers are spending more over time."
+      },
+      {
+        "term": "DDoS",
+        "meaning": "Distributed denial of service: an attack that floods a site with traffic to knock it offline. Defending against it is a core security product."
+      },
+      {
+        "term": "Edge",
+        "meaning": "Computing and caching done in many locations near users rather than in a few central data centers. Reduces delay."
+      },
+      {
+        "term": "Inference",
+        "meaning": "Running a trained AI model to answer a request. It is repetitive, latency-sensitive work that edge and developer clouds hope to win."
+      },
+      {
+        "term": "Neocloud",
+        "meaning": "A newer cloud provider built around AI chips (CoreWeave, Nebius, Crusoe). A competitor to developer clouds and a sign of how fast AI compute demand is growing."
+      },
+      {
+        "term": "Normalized EBITDA / non-GAAP margin",
+        "meaning": "Company-defined profit measures that exclude stock compensation and one-offs. Useful for comparison, but they flatter companies with large stock pay, so check the GAAP figure too."
+      }
+    ],
+    "drivers": [
+      {
+        "name": "Internet traffic, bots and attacks",
+        "how": "More traffic and more attacks mean more spend on delivery and security. Security is now the larger and faster-growing line at Akamai and Fastly, while delivery is shrinking at Akamai."
+      },
+      {
+        "name": "AI workloads",
+        "how": "AI model training and inference need compute, networking and security. This is lifting DigitalOcean, Cloudflare and Akamai's cloud unit, but it also pulls down gross margins because chips and capacity cost money up front."
+      },
+      {
+        "name": "Pricing power and contract terms",
+        "how": "Verisign's .com price can rise up to 7% in each of four years of a six-year cycle, which flows almost entirely to profit. Others compete on price and bundle products."
+      },
+      {
+        "name": "Small-business formation and web habits",
+        "how": "GoDaddy's customer count and revenue per customer follow small-business creation and how people build online presences, increasingly through AI tools."
+      },
+      {
+        "name": "Capital intensity",
+        "how": "Cloud growth requires servers and chips ahead of revenue. Akamai's capital spending rose to about $1.02 billion in nine months from about $615 million, which trims free cash flow before the revenue arrives."
+      },
+      {
+        "name": "Customer concentration in new AI deals",
+        "how": "Large multi-year AI contracts can add a lot of revenue quickly but make results depend on a few customers, as Fastly's top ten customers now being 39% of revenue shows."
+      }
+    ]
+  },
+  "fundamentals": {
+    "business": [
+      "Subscriptions and usage fees dominate. Akamai reports Security ($622 million in Q3 2026), Delivery and other ($391 million) and Cloud Infrastructure Services ($109 million) [3]; GoDaddy sells domains, hosting and commerce tools, and Verisign earns almost all revenue from per-name fees on .com and .net [10][9]. Cloudflare and Fastly sell network and security subscriptions plus usage.",
+      "Customers range from consumers and small businesses (GoDaddy has 20.5 million customers [4]) to large enterprises and media firms (Akamai, Fastly) and developers (Cloudflare, DigitalOcean). Verisign's direct customers are registrars, who pay it per domain per year [9].",
+      "The main costs are network capacity and data-center space, depreciation of servers and chips, bandwidth, and staff. Cloudflare's non-GAAP gross margin fell to 72.4% from 75.3% in Q3 2026, showing how infrastructure cost bites [1]. Verisign's cost base is tiny, with 928 employees [9].",
+      "Pricing power is highest for Verisign, whose .com price can rise up to 7% in each of the last four years of a six-year period under its agreements [9][8]. For delivery it is low: Akamai's Delivery revenue fell 3% [3]. Security, bundled and sticky, supports better pricing.",
+      "Assets are networks of servers, fiber and data centers, intangible assets (domains, customer bases) and cash. Liabilities include convertible debt: Akamai had $7.57 billion of convertible notes at 30 Sep 2026 [12], GoDaddy $2.69 billion of net debt [4], Verisign $1.79 billion of senior notes [5].",
+      "Mixed. Verisign is asset-light (nine-month capex of $33.6 million [5]). Network and cloud businesses are more capital-intensive, and AI demand is raising that: Akamai spent about $1.02 billion on capex in nine months against about $615 million a year earlier [12]."
+    ],
+    "overview": [
+      "No official size exists for this sub-industry, and we did not find a source that totals it. The related market is large: Synergy puts global cloud infrastructure services spending at $167.7 billion in Q3 2026, up 55%, with $558 billion over twelve months [6]. Most of that goes to the hyperscalers, not this sub-industry.",
+      "Main segments are content delivery and security, developer and AI clouds, domain registries and registrars, and hosting and small-business web tools. Revenue mixes differ widely: Akamai's Security was $622 million against $109 million for Cloud Infrastructure Services in Q3 2026 [3].",
+      "The group sits between hyperscale cloud and the end customer. Suppliers are chip makers, data-center landlords and carriers; customers are businesses that need their sites fast and safe. Hyperscalers are both suppliers and rivals: Amazon, Microsoft and Google hold 61% of cloud infrastructure spending between them [6].",
+      "It evolved from hosting and CDN to security and edge computing, and now to AI. Akamai has pivoted toward cloud infrastructure, targeting $1.1 billion to $1.3 billion of that revenue in 2027 [3]. Cloudflare calls itself the development platform for the AI-powered Internet [1].",
+      "The industry is US-centred: the United States is 44% of global cloud spending [6]. Akamai's revenue split is $559 million US and $563 million international in Q3 2026 [3]. GoDaddy and Verisign are US companies selling globally; the .com space has about 182.5 million names [5]."
+    ],
+    "competition": [
+      "There are few large listed pure plays: Cloudflare, Akamai, GoDaddy, Verisign, DigitalOcean and Fastly are the main names we found [1][3][4][5][2][13]. We could not verify an official constituent list. Against hyperscalers and neoclouds, the real competitor set is far bigger.",
+      "Leaders differ by niche. Verisign is the sole .com registry operator through 30 Nov 2030 [9]. GoDaddy manages about 81 million of roughly 387 million registered domains (about 21%) [10]. In cloud infrastructure, Amazon holds 26%, Microsoft 19% and Google 16% [6]. We did not find CDN or security share data.",
+      "It is a mix. Domain registries are concentrated by contract; registrars, CDNs and developer clouds are contested. Verisign names GoDaddy, Google, Identity Digital, Nominet, PIR and Radix as registry rivals for domain demand [9].",
+      "Barriers vary. A registry needs an ICANN agreement; a CDN needs global network scale and years of traffic data. Neoclouds show chip access, not tradition, can be an entry ticket: Synergy counts nine neoclouds in the top 40 cloud providers [14].",
+      "Economies of scale are strong in network and security: more traffic improves threat detection and spreads fixed cost. Akamai's operating cash flow was 39% of revenue in Q3 2026 [3], while the scale advantage of hyperscalers is visible in AWS's roughly 39% operating margin on $46 billion of revenue [11].",
+      "Delivery is increasingly commoditized and priced down (Akamai's Delivery fell 3% [3]). Security, edge platforms and registry are more differentiated, and AI inference could go either way. Domain registration is a regulated commodity at wholesale level.",
+      "Customers hold the power in delivery and hosting, where switching is easy and big customers negotiate; Fastly's top ten customers were 39% of revenue [13]. Suppliers (chip and memory vendors, data-center owners) gain power when AI demand is tight; Akamai is buying capacity ahead of demand [12]."
+    ],
+    "drivers": [
+      "Revenue follows internet traffic, security spending and AI compute demand. Cloud infrastructure spending grew 55% in Q3 2026, with AI services about a third of the market [6]. Domain revenue follows the name base (+6.1% y/y) and price [5].",
+      "Margins depend on mix and utilization. Security is more profitable than delivery; Verisign runs near a 67% operating margin on its fee model [5]. New AI capacity weighs on margins first: Akamai's non-GAAP operating margin fell 6 points to 25% [3].",
+      "Key costs: bandwidth and transit, server and GPU hardware, power and space, and stock compensation. Akamai's nine-month capex rose from about $615 million to $1.02 billion [12], and Cloudflare's gross margin slipped 2.9 points [1].",
+      "Rate sensitivity is moderate. Several firms carry zero-coupon converts (Cloudflare's 2030 notes are $2.0 billion at 0% [15]), which keeps interest cost low, and Verisign and GoDaddy borrow at fixed rates. The bigger rate effect is on valuation of long-duration growth names such as Cloudflare, at about 190x forward earnings [16].",
+      "Inflation matters through pricing and component costs. Verisign's contract allows up to 7% annual price increases in four of six years, which offsets inflation [8]. Unemployment and GDP matter through small-business formation (GoDaddy) and advertising and e-commerce traffic. We did not find a published sensitivity estimate.",
+      "Mixed: secular growth in security, edge and AI compute, defensive characteristics in domain registries (75.2% renewal rate [5]), and cyclical exposure in small-business and media-linked delivery. Akamai's guidance for faster growth in 2027 rests on the AI-driven cloud build [3]."
+    ],
+    "financials": [
+      "Wide dispersion. Q3 2026 revenue growth: Cloudflare +39%, DigitalOcean +40%, Fastly +20%, GoDaddy +6%, Akamai +6%, Verisign +5.7% [1][2][13][4][3][5]. Damodaran's 29-firm Software (Internet) group, a rough proxy and not the GICS sub-industry, had a net margin of -0.93% [17].",
+      "Margins diverge. Verisign's operating margin is about 66.9% on our calculation from its release [5]; Akamai's non-GAAP operating margin is 25% [3]; Cloudflare's 17.5% [1]; Fastly's non-GAAP gross margin is 65.8% [13]. Damodaran's Software (Internet) group shows 62.6% gross and 18.6% operating margin (pre-stock-pay) [17].",
+      "We did not find published industry ROE or ROIC for this exact group, and we do not estimate them. Single-name: Verisign's low capital need and 67% margin imply very high returns on capital, though its negative equity base makes ROE hard to interpret (our judgment; equity figures not collected).",
+      "Leverage is common but manageable. Akamai has $7.57 billion of convertible notes against $4.24 billion of cash and securities [12][3]; GoDaddy has $3.81 billion of debt and $1.12 billion cash [4]; Verisign has $1.79 billion of notes and $476 million of cash [5]; DigitalOcean has about $462 million of debt plus about $924 million of leases [2].",
+      "Free cash flow is strong. GoDaddy generated $480.8 million in Q3 and targets about $1.8 billion for 2026 [4]. DigitalOcean's adjusted FCF margin was 41% [2]. Cloudflare's was 10% ($82.1 million) [1]. Fastly produced $25.2 million in Q3 (about 13% of revenue by our calculation) [13].",
+      "Capex needs are rising where AI is involved. Akamai's nine-month capex was about $1.02 billion [12]; Cloudflare's Q1 2026 property purchases were only $65.2 million [15]; Verisign's nine-month capex was $33.6 million [5].",
+      "Valuations span extremes. Damodaran's January 2026 data show 30.3x EV/EBITDA for Software (Internet) (positive-EBITDA firms) and 11.5x for Information Services, versus 19.7x for the whole US market [18]. Cloudflare traded near 190x forward earnings at 30 Oct 2026 [16]. We did not find a verified multiple for the other names."
+    ],
+    "risks": [
+      "Regulation: Verisign's .com price and terms are bound by agreements with ICANN and the US Department of Commerce, and ICANN policy changes could add costs [9][8]. Privacy rules (GDPR, NIS 2) raise compliance costs, and China requires gTLD licenses [9]. Antitrust and content-liability debates also touch CDNs and security.",
+      "AI cuts both ways. It drives demand for compute, security and bot management, but GoDaddy says AI website generators and closed AI ecosystems could reduce demand for its website products [10]. Verisign warns AI and social platforms may lower demand for domain names [9].",
+      "Demographics barely matter. The relevant population is businesses and developers, not age groups. Small-business formation affects GoDaddy, and we did not find a source that ties it to demographics.",
+      "Behavior is shifting: people reach information through AI assistants rather than websites, and businesses build in platforms rather than on their own domains. This is a risk to domains, hosting and traffic-based delivery, which is the thesis behind Verisign's and GoDaddy's AI risk language [9][10].",
+      "New competitors are plentiful: neoclouds such as CoreWeave, Nebius and Crusoe grow quickly, and Synergy now ranks nine in the top 40 providers [14]. Hyperscalers take 61% of cloud spend and are growing faster than the smaller providers [6].",
+      "Geopolitical and supply risks: dependence on chips, memory and power for AI capacity, and cross-border regulation. Akamai said it would use note proceeds for accelerated capital expenditure for its cloud build [12]. DNS operators like Verisign face state-level cyber threats [9].",
+      "Substitutes: hyperscaler CDNs and security, in-house infrastructure, and non-domain identities such as social profiles and app stores. Delivery shrinking at Akamai (-3%) shows the substitution is already real for the oldest product [3]."
+    ],
+    "horizon": {
+      "opportunities": [
+        "AI inference and agent traffic could make edge networks and developer clouds a growth channel: DigitalOcean guides to 2027 revenue growth of 60% or more and Akamai to 17% to 22% [2][3].",
+        "Security keeps growing faster than delivery: Akamai Security +9% and Fastly Security +32% in Q3 2026 [3][13].",
+        "Verisign's pricing and base growth (6.1% in Q3) give a steady, high-margin income stream, with the new .web domain on track [5].",
+        "AI-assisted tools could raise revenue per customer at GoDaddy: Airo passed $100 million of annualized bookings [4]."
+      ],
+      "threats": [
+        "Hyperscalers and neoclouds capture most AI cloud spending, and the group's capital-intensive entrants risk lower returns on new builds [6].",
+        "AI search, agents and website generators could reduce demand for domains and traditional hosting [10][9].",
+        "Delivery commoditization continues to erode the oldest revenue pool (Akamai Delivery -3%) [3].",
+        "Gross and operating margins are falling at companies investing early in AI (Cloudflare, Akamai) [1][3]."
+      ],
+      "assessment": "We think the group will keep splitting into three types over the next three to five years. Registry-style franchises (Verisign) should keep compounding slowly with pricing and name growth, with AI-driven demand for domains as the main unknown. Security and edge platforms (Cloudflare, Akamai, Fastly) are priced and guided for acceleration, but depend on turning AI traffic into revenue without losing margin. Small-business web platforms (GoDaddy) are fighting for relevance as AI changes how sites are made. The Q3 2026 guidance from Akamai (2028 revenue above $7.0 billion) and DigitalOcean (60% growth in 2027) shows how much the market is leaning on AI, so a slowdown in AI spending would hit the faster-growing names hardest [3][2]."
+    }
+  },
+  "sections": [
+    {
+      "id": "macro",
+      "paragraphs": [
+        "This group is a levered play on technology spending rather than on the broad economy. FactSet shows S&P 500 earnings growth for Q3 2026 running at 31.4% blended, with the Information Technology sector at 69.2%, so the backdrop for tech buyers is strong [7]. Those are sector-level numbers, not this sub-industry; no sub-industry aggregate was available to us.",
+        "The cycle is being set by AI infrastructure rather than rates. Amazon alone expects about $220 billion of capital spending in 2026, and its trailing free cash flow has turned negative [11]. Cloud spending grew 55% in Q3 [6]. That demand spills over into the smaller infrastructure names, but also pushes up their costs.",
+        "On rates and inflation, we did not collect a current policy path. The group's exposure is indirect: zero-coupon converts (Cloudflare's 2030 notes are at 0% [15]) limit interest cost, and Verisign's contractual price increases of up to 7% a year are a built-in hedge against inflation [8]. Currency matters mostly for Akamai, where revenue grew 6% reported and 7% in constant currency [3]."
+      ]
+    },
+    {
+      "id": "demand",
+      "paragraphs": [
+        "The addressable market is hard to size for this exact sub-industry. The adjacent cloud infrastructure market reached $167.7 billion in Q3 2026, up 55% from a year earlier, with $558 billion over twelve months and AI services about a third of the total [6]. Earlier, Synergy had Q2 at $143 billion, up 43%, with generative AI services growing 165% [14].",
+        "This group captures only a small fraction of that. The structural drivers are more traffic, more attacks, AI inference and agent traffic, and more small businesses online. Akamai targets $1.1 billion to $1.3 billion of cloud infrastructure revenue in 2027 and cites more than $14 billion of multi-year commitments signed this year [3]. DigitalOcean's AI-customer ARR rose to $376 million [2].",
+        "Demand is mixed in cyclicality. Domain registrations are stable and recurring: Verisign's base reached 182.5 million names, up 6.1%, with a 75.2% renewal rate [5]. Delivery is mature: Akamai's Delivery revenue fell 3% [3]. Demographics matter little, and we did not find a long-term forecast for the group specifically."
+      ]
+    },
+    {
+      "id": "structure",
+      "paragraphs": [
+        "Porter's five forces show a split picture. Rivalry is intense in delivery and developer cloud, mild in registries. Threat of new entrants is high in AI compute, where neoclouds rank nine of the top 40 providers [14], but low in .com, where Verisign is the sole operator through 30 Nov 2030 [9].",
+        "Buyer power is high for large customers: Fastly's top ten customers were 39% of revenue [13]. Supplier power sits with chip, memory and data-center providers, especially while AI demand is tight; Akamai is raising capex to secure capacity [12]. Threat of substitutes comes from hyperscaler services and AI tools: GoDaddy flags AI website tools and closed ecosystems as a risk [10].",
+        "Shares are known only in adjacent markets: Amazon 26%, Microsoft 19% and Google 16% of cloud infrastructure spending in Q3 2026 [6]. GoDaddy manages about 21% of registered domains [10]. Moats are strongest at Verisign (contractual), then security and edge platforms with network scale, and weakest in generic hosting."
+      ]
+    },
+    {
+      "id": "environment",
+      "paragraphs": [
+        "Regulation is concentrated on the domain business. Verisign operates under the .com Registry Agreement with ICANN, renewed in November 2024, and a Cooperative Agreement with the Department of Commerce; price rises are capped at 7% in each of the final four years of a six-year period [9]. Commentators noted that the contract language allowed an increase from late October 2026, potentially from $10.26 to $10.97 [8]. We did not independently confirm the announced effective date.",
+        "Other political and legal factors include GDPR and NIS 2 compliance costs and China's license requirements [9]. Technologically, AI is the disruptor: it creates inference and bot-management demand at Cloudflare, DigitalOcean and Akamai, and creates substitution risk for GoDaddy and domains [1][2][10].",
+        "Emerging risks include AI-enabled cyberattacks on DNS and networks [9], and restructuring around AI: Cloudflare disclosed a workforce reduction and restructuring charges as it moves to an agentic AI-first operating model [1]."
+      ]
+    },
+    {
+      "id": "economics",
+      "paragraphs": [
+        "Economics vary sharply by model. Verisign earns about a 67% operating margin on $443 million of quarterly revenue (our calculation) and spent only $33.6 million on capex in nine months [5]. GoDaddy's normalized EBITDA margin was 33.5% with free cash flow of $480.8 million in Q3 [4]. DigitalOcean's adjusted EBITDA margin was 45% and adjusted FCF margin 41% [2].",
+        "The infrastructure-heavy names show operating leverage under pressure. Cloudflare's non-GAAP operating margin was 17.5% and its GAAP operating margin -8.7%, with FCF at 10% of revenue [1]. Akamai's non-GAAP operating margin dropped 6 points to 25% while operating cash flow stayed at 39% of revenue [3]. Fastly's GAAP operating loss narrowed to 5.9% of revenue from 18.2% [13].",
+        "Damodaran's January 2026 data, which are US-wide and not a GICS match, show Software (Internet) at 62.6% gross margin and 18.6% operating margin (before stock pay) and Information Services at 34.1% gross and 13.5% operating margin, against 14.4% for all US firms [17]. We did not find industry ROE or ROIC figures for this group."
+      ]
+    },
+    {
+      "id": "earnings",
+      "paragraphs": [
+        "Third-quarter reports were mostly strong at the top line. Cloudflare raised full-year revenue guidance to $2.963 to $2.964 billion and Q4 to $845 to $846 million [1]. DigitalOcean guided to 2026 revenue of $1.208 to $1.211 billion and 2027 growth of 60% or more [2]. Fastly guided 2026 to $744 to $748 million [13].",
+        "Akamai is the swing case: it guided 2026 revenue to $4.44 to $4.465 billion with a 25% non-GAAP operating margin, 2027 growth of 17% to 22% in constant currency, and 2028 revenue above $7.0 billion [3]. That implies a sharp acceleration from 6% now and rests on AI cloud commitments. GoDaddy expects revenue toward the high end of $5.215 to $5.255 billion [4]. We did not capture Verisign's current-year guidance from the release text we opened, so we leave it out.",
+        "We did not find consensus estimates or revisions for the sub-industry. At sector level, FactSet shows the Information Technology blended Q3 growth rate rising to 69.2% on positive surprises [7], but that is dominated by other sub-industries. Our read is that the guidance for Akamai and DigitalOcean is the part most likely to be disputed, because it assumes AI demand holds."
+      ]
+    },
+    {
+      "id": "valuation",
+      "paragraphs": [
+        "The group has no single multiple. At the sector level, FactSet puts Information Technology at 17.3x forward earnings on 5 Nov 2026, below its 25-year average of 20.0x and the lowest since March 2020; the S&P 500 is at 17.7x against a 10-year average of 19.1x [7]. This is a different set of companies, and the sector has been dominated by hardware and semiconductors.",
+        "Within the group, valuation gaps are extreme. Cloudflare was near 190x forward earnings at the 30 Oct 2026 close, against an average of about 173x since mid-2023, and its share price was up about 35% in 2026 through 2 November (before its Q3 results) [16]. Damodaran's January 2026 data show Software (Internet) at 30.3x EV/EBITDA for firms with positive EBITDA and Information Services at 11.5x [18].",
+        "We could not obtain verified current multiples for Akamai, GoDaddy, Verisign or DigitalOcean, so we do not quote them. In our judgment, Cloudflare is priced for sustained growth near 40%, while the slower names (Akamai, GoDaddy) must show that AI-driven acceleration is real before the market pays for it."
+      ]
+    },
+    {
+      "id": "positioning",
+      "paragraphs": [
+        "We did not find sub-industry ETF flow, short-interest or institutional-positioning data for this group, and we do not estimate them.",
+        "Price momentum is visible only for Cloudflare, which was up about 35% year to date at $265 on 2 November but about 28% below its 6 October high of $370, before its Q3 results [16]. Fastly and Akamai share moves after results were reported in news items we did not open, so we leave them out.",
+        "At the broad level, FactSet's data show the S&P 500 forward P/E fell from 22.0 at the end of 2025 to 17.7 because estimates rose 33.6% while the index rose 7.4% [7]. The setup for the group is therefore one of rising earnings expectations and falling sector multiples, but with this sub-industry's results depending heavily on a handful of AI-linked names."
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "n": 1,
+      "title": "Cloudflare, Inc. Form 8-K: third quarter 2026 results",
+      "publisher": "Cloudflare / SEC",
+      "date": "2026-11-05",
+      "url": "https://www.sec.gov/Archives/edgar/data/0001477333/000147733326000060/q326exhibit991.htm"
+    },
+    {
+      "n": 2,
+      "title": "DigitalOcean Holdings Form 8-K: third quarter 2026 press release",
+      "publisher": "DigitalOcean / SEC",
+      "date": "2026-11-03",
+      "url": "https://www.sec.gov/Archives/edgar/data/0001582961/000162828026069125/a2026-q3dopressrelease.htm"
+    },
+    {
+      "n": 3,
+      "title": "Akamai reports third quarter 2026 financial results",
+      "publisher": "Akamai Technologies",
+      "date": "2026-11-05",
+      "url": "https://www.akamai.com/newsroom/press-release/akamai-reports-third-quarter-2026-financial-results"
+    },
+    {
+      "n": 4,
+      "title": "GoDaddy Inc. Form 8-K: third quarter 2026 results",
+      "publisher": "GoDaddy / SEC",
+      "date": "2026-10-29",
+      "url": "https://www.sec.gov/Archives/edgar/data/0001609711/000160971126000117/gddyex991-20260930xq3earni.htm"
+    },
+    {
+      "n": 5,
+      "title": "Verisign Form 8-K: third quarter 2026 earnings release",
+      "publisher": "Verisign / SEC",
+      "date": "2026-10-22",
+      "url": "https://www.sec.gov/Archives/edgar/data/0001014473/000101447326000038/q32026earningsrelease.htm"
+    },
+    {
+      "n": 6,
+      "title": "Cloud Infrastructure Services Market: Q3 2026 update",
+      "publisher": "Synergy Research Group (via TechInsights)",
+      "date": "2026-10-30",
+      "url": "https://techinsights.com/ja/node/61958"
+    },
+    {
+      "n": 7,
+      "title": "FactSet Earnings Insight, 6 November 2026",
+      "publisher": "FactSet",
+      "date": "2026-11-06",
+      "url": "https://advantage.factset.com/hubfs/Website/Resources%20Section/Research%20Desk/Earnings%20Insight/EarningsInsight_110626.pdf"
+    },
+    {
+      "n": 8,
+      "title": "Verisign can increase .com prices in 2026",
+      "publisher": "Domain Name Wire",
+      "date": "2025-11-19",
+      "url": "https://domainnamewire.com/2025/11/19/verisign-can-increase-com-prices-in-2026/"
+    },
+    {
+      "n": 9,
+      "title": "Verisign Form 10-K for fiscal 2025",
+      "publisher": "Verisign / SEC",
+      "date": "2026-02-01",
+      "url": "https://www.sec.gov/Archives/edgar/data/1014473/000101447326000006/vrsn-20251231.htm"
+    },
+    {
+      "n": 10,
+      "title": "GoDaddy Inc. Form 10-K for fiscal 2025",
+      "publisher": "GoDaddy / SEC",
+      "date": "2026-02-01",
+      "url": "https://www.sec.gov/Archives/edgar/data/1609711/000160971126000010/gddy-20251231.htm"
+    },
+    {
+      "n": 11,
+      "title": "AWS grows by nearly 40 percent, but AI investments put pressure on cash flow",
+      "publisher": "Techzine",
+      "date": "2026-10-30",
+      "url": "https://www.techzine.eu/news/infrastructure/145406/aws-grows-by-nearly-40-percent-but-ai-investments-put-pressure-on-cash-flow/"
+    },
+    {
+      "n": 12,
+      "title": "Akamai Technologies Form 10-Q for the quarter ended 30 September 2026",
+      "publisher": "Akamai / SEC",
+      "date": "2026-11-05",
+      "url": "https://www.sec.gov/Archives/edgar/data/0001086222/000108622226000100/akam-20260930.htm"
+    },
+    {
+      "n": 13,
+      "title": "Fastly, Inc. Form 8-K: third quarter 2026 press release",
+      "publisher": "Fastly / SEC",
+      "date": "2026-11-04",
+      "url": "https://www.sec.gov/Archives/edgar/data/0001517413/000151741326000342/ex991-fslypressrelease93026.htm"
+    },
+    {
+      "n": 14,
+      "title": "Q2 Cloud Market Passes $143 Billion; Highest Growth Rate in Eight Years",
+      "publisher": "Synergy Research Group",
+      "date": "2026-07-30",
+      "url": "https://www.srgresearch.com/articles/q2-cloud-market-passes-143-billion-highest-growth-rate-in-eight-years"
+    },
+    {
+      "n": 15,
+      "title": "Cloudflare, Inc. Form 10-Q for the quarter ended 31 March 2026",
+      "publisher": "Cloudflare / SEC",
+      "date": "2026-05-01",
+      "url": "https://www.sec.gov/Archives/edgar/data/0001477333/000147733326000038/cloud-20260331.htm"
+    },
+    {
+      "n": 16,
+      "title": "Cloudflare Is Up 35% in 2026: Take Profits, or Buy More?",
+      "publisher": "TIKR",
+      "date": "2026-11-03",
+      "url": "https://www.tikr.com/blog/cloudflare-is-up-35-in-2026-take-profits-or-buy-more"
+    },
+    {
+      "n": 17,
+      "title": "Margins by sector (US), January 2026",
+      "publisher": "Aswath Damodaran, NYU Stern",
+      "date": "2026-01-01",
+      "url": "https://pages.stern.nyu.edu/~adamodar/New_Home_Page/datafile/margin.html"
+    },
+    {
+      "n": 18,
+      "title": "Enterprise value multiples by sector (US), January 2026",
+      "publisher": "Aswath Damodaran, NYU Stern",
+      "date": "2026-01-01",
+      "url": "https://pages.stern.nyu.edu/~adamodar/New_Home_Page/datafile/vebitda.html"
+    }
+  ]
+}

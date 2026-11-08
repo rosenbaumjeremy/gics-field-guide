@@ -1,0 +1,340 @@
+{
+  "code": "45203010",
+  "added": "2026-11-08",
+  "asOf": "2026-11-06",
+  "summary": "Electronic Equipment & Instruments is in a strong earnings phase, led by test and measurement and machine vision. Keysight's July-quarter revenue rose about 36% and orders 56% on AI and communications demand [1], Teledyne raised its full-year outlook [5], and Cognex posted a 32.2% operating margin [8]. Weak spots are memory-cost pressure on Zebra's gross margin [6], slower Trimble recurring-revenue growth [7] and flat Itron utility hardware [9]. US manufacturing is expanding, with the ISM index at 55.5 in October [11]. Sub-industry forward multiples and consensus were not available to us; the technology sector trades at 17.3x, a multi-year low [12].",
+  "metrics": [
+    {
+      "label": "Keysight orders, fiscal Q3 2026",
+      "value": "$2,091M",
+      "context": "+56% y/y; revenue $1,846M, quarter ended 31 Jul 2026",
+      "source": 1
+    },
+    {
+      "label": "Teledyne non-GAAP operating margin",
+      "value": "23.9%",
+      "context": "Up from 22.1%; Q3 2026 sales $1,684.9M, +9.4%",
+      "source": 5
+    },
+    {
+      "label": "Cognex GAAP operating margin",
+      "value": "32.2%",
+      "context": "Up from 20.9%; revenue $313M, +13% (Q3 2026)",
+      "source": 8
+    },
+    {
+      "label": "Zebra gross margin",
+      "value": "45.7%",
+      "context": "Down from 48.0%, attributed to memory costs and mix; sales +22.3% (organic +11.3%)",
+      "source": 6
+    },
+    {
+      "label": "Trimble ARR",
+      "value": "$2.56B",
+      "context": "+11% y/y (10% organic); non-GAAP operating margin 27.2% (Q3 2026)",
+      "source": 7
+    },
+    {
+      "label": "ISM Manufacturing PMI, October 2026",
+      "value": "55.5",
+      "context": "10th straight month above 50; prices index 75.2",
+      "source": 11
+    },
+    {
+      "label": "Electronics (General) ROIC, after tax",
+      "value": "24.5%",
+      "context": "Damodaran, 114 US firms; normalized 17.5%; broad proxy, not the GICS group",
+      "source": 17
+    },
+    {
+      "label": "Information Technology forward P/E (sector)",
+      "value": "17.3x",
+      "context": "25-yr average 20.0x; lowest since Mar 2020; 5 Nov 2026; not this sub-industry",
+      "source": 12
+    }
+  ],
+  "watch": [
+    "Keysight reports fiscal Q4 on 19 Nov against guidance of $1.93-1.95B revenue, and says demand is strong but supply availability limits conversion of orders [1][3].",
+    "Whether memory costs keep squeezing hardware makers: Zebra's gross margin fell 2.3 points on memory and mix, and contract DRAM prices are still rising though more slowly [6][18].",
+    "Trimble's ARR growth of 11% is its key recurring-revenue measure, and its Q3 release updates full-year guidance without explaining the change [7].",
+    "Utility and scientific-instrument budgets: Itron's bookings rose 27% to $482M, while an ISM respondent says global demand for capital scientific instruments has slowed [9][11].",
+    "Rates and tariffs: the Fed held at 3.75-4.00% with two dissents favoring a hike, and Keysight is still processing IEEPA tariff refunds [13][2]."
+  ],
+  "bellwethers": [
+    "Keysight Technologies",
+    "Teledyne Technologies",
+    "Trimble",
+    "Zebra Technologies",
+    "Cognex",
+    "Itron",
+    "Vontier"
+  ],
+  "basics": {
+    "intro": "These companies make the instruments, sensors and electronic systems that other businesses use to measure, test, locate, scan and control things. Customers are engineers, factories, utilities, governments, defence agencies and logistics firms, not consumers. Revenue comes from hardware, increasingly with software and recurring subscriptions attached. GICS also puts here scanners, machine vision, GPS positioning and smart meters. Passive parts, connectors and display makers sit in the neighbouring Electronic Components sub-industry, and contract assemblers sit in Electronic Manufacturing Services.",
+    "products": [
+      {
+        "name": "Test and measurement",
+        "what": "Oscilloscopes, signal analysers and network testers that engineers use to design and verify chips, radios, cars and data-centre links.",
+        "examples": "Keysight, Teledyne LeCroy"
+      },
+      {
+        "name": "Machine vision and barcode scanning",
+        "what": "Cameras and software that read codes and inspect parts on production lines and in warehouses.",
+        "examples": "Cognex vision systems, Zebra scanners and mobile computers"
+      },
+      {
+        "name": "Positioning and field technology",
+        "what": "GPS and laser positioning hardware paired with software for surveying, construction, farming and trucking.",
+        "examples": "Trimble"
+      },
+      {
+        "name": "Smart meters and grid devices",
+        "what": "Electricity, gas and water meters with communications and software that let utilities read and manage networks remotely.",
+        "examples": "Itron"
+      },
+      {
+        "name": "Imaging and sensors",
+        "what": "Thermal, X-ray and other sensors and cameras for industrial, scientific and defence customers.",
+        "examples": "Teledyne FLIR and Teledyne Digital Imaging"
+      },
+      {
+        "name": "Fuelling and vehicle technology",
+        "what": "Pumps, payment terminals, tank monitoring and diagnostics sold to fuel retailers and vehicle repair shops.",
+        "examples": "Vontier (Gilbarco Veeder-Root, Matco)"
+      }
+    ],
+    "terms": [
+      {
+        "term": "Book-to-bill",
+        "meaning": "Orders received divided by revenue shipped in a period. Above 1 means the order book is growing, which points to future revenue."
+      },
+      {
+        "term": "Backlog",
+        "meaning": "Orders booked but not yet delivered or recognized. It gives visibility, especially for defence and utility projects."
+      },
+      {
+        "term": "ARR (annual recurring revenue)",
+        "meaning": "The yearly value of subscriptions and software contracts that repeat. Investors pay more for it because it is steadier than hardware sales."
+      },
+      {
+        "term": "Organic growth",
+        "meaning": "Growth excluding acquisitions, disposals and currency. It shows whether the existing business is expanding."
+      },
+      {
+        "term": "Core sales",
+        "meaning": "Vontier's version of organic growth, excluding acquired and divested businesses and currency effects."
+      },
+      {
+        "term": "Installed base",
+        "meaning": "The equipment already in customers' hands. It generates calibration, service, software and upgrade revenue."
+      },
+      {
+        "term": "Calibration and service",
+        "meaning": "Recurring work to keep instruments accurate and repaired. It is steady, higher-margin revenue behind one-off equipment sales."
+      },
+      {
+        "term": "Capex cycle",
+        "meaning": "Customers' spending on new equipment. Instrument orders typically rise and fall with it, ahead of or alongside the economy."
+      },
+      {
+        "term": "Bill of materials (BOM)",
+        "meaning": "The cost of components in a device. Memory chips are an increasing share, so chip price moves feed straight into gross margins."
+      },
+      {
+        "term": "Non-GAAP operating margin",
+        "meaning": "Operating profit excluding items such as acquisition amortization and restructuring. It is the figure most of these companies guide to, so check the reconciliation."
+      },
+      {
+        "term": "Machine vision",
+        "meaning": "Cameras plus software that let machines see, used to inspect products and guide robots. Demand follows factory automation and logistics volumes."
+      },
+      {
+        "term": "AMI (advanced metering infrastructure)",
+        "meaning": "Meters that report usage by network rather than being read by hand. Utilities buy them in multi-year rollouts."
+      }
+    ],
+    "drivers": [
+      {
+        "name": "Customer R&D and capital spending",
+        "how": "Test and measurement follows engineering budgets in 5G/6G, AI data centres, semiconductors, aerospace and automotive. When customers launch new technology generations, orders for new instruments jump."
+      },
+      {
+        "name": "Industrial and logistics activity",
+        "how": "Scanners, vision systems and positioning gear sell into factories, warehouses and construction. Weak manufacturing or freight slows orders within a few quarters."
+      },
+      {
+        "name": "Defence and government budgets",
+        "how": "Imaging, sensing and electronics makers with defence exposure carry multi-year contracts, which smooths revenue but ties it to appropriations."
+      },
+      {
+        "name": "Utility capital plans",
+        "how": "Meter makers depend on regulated utilities approving grid upgrades. Orders arrive in large rollouts, so revenue is lumpy but backlog is visible."
+      },
+      {
+        "name": "Component costs and tariffs",
+        "how": "Memory, chips and import duties change the bill of materials. Makers either pass costs on in price or accept lower gross margin."
+      },
+      {
+        "name": "Software and recurring mix",
+        "how": "A higher share of subscriptions and services raises margins and cuts cyclicality, which is why portfolio changes often target software."
+      },
+      {
+        "name": "Acquisitions",
+        "how": "Roll-up buyers add products and distribution, lifting reported growth and, after integration costs, margins. Most large names here are serial acquirers."
+      }
+    ]
+  },
+  "fundamentals": {
+    "business": [
+      "Revenue comes mainly from selling instruments and devices, then software, subscriptions, calibration and repair. Keysight sells test equipment and software to about 40,000 customers a year [4]. Trimble counts ARR of $2.56B [7] and Itron reports ARR of $423M, up 25% [9], showing how recurring revenue is growing alongside hardware.",
+      "Customers are engineers and operators rather than consumers: communications and chip designers, aerospace and defence, automakers, factories, logistics operators, utilities and fuel retailers [4][9][10]. Orders come from budgeted projects, which makes revenue lumpy but visible in backlog; Teledyne cites funded backlog of nearly $5.3B [5].",
+      "Principal costs are components and manufacturing, research and development, and selling. Keysight spent $1,007M on R&D in fiscal 2025, roughly 19% of revenue on our arithmetic from its $5.4B of revenue [4]. Damodaran's broad Electronics (General) group shows R&D of 4.23% of sales [14], so the leaders spend far more on engineering than the average group member.",
+      "Pricing power depends on measurement accuracy, the installed base and software lock-in. Cognex's gross margin of 70.8% [8] and Keysight's segment margins of 31-34% [1] show how much differentiated products earn, while Zebra's 45.7% gross margin fell on memory costs it could only partly pass on [6].",
+      "Main assets are intellectual property, acquired goodwill and intangibles, and inventory and receivables. Keysight booked $712M of goodwill on its Spirent purchase [2]. Liabilities are modest: Keysight has net cash of roughly $88M on our arithmetic from its balance sheet [2] and Cognex holds $846M with no debt [8], though Vontier carries net debt of $1,647M [10].",
+      "The group is asset-light compared with semiconductors. Teledyne spent $33M on capex against $352.5M of operating cash flow in Q3 [5], and Zebra spent $50M against $711M over nine months [6]. Design and engineering are the real investment; assembly is largely outsourced or modest in scale."
+    ],
+    "overview": [
+      "No authoritative market-size figure was available to us. Published test-and-measurement estimates differ widely by scope, and the sources we could open did not give one. We therefore size the group by its leaders: Keysight revenue was $5.4B in fiscal 2025 [4], Teledyne $1.68B in one quarter [5], Zebra $1.61B in a quarter [6].",
+      "Main segments are communications and electronic test (Keysight CSG revenue $1,345M, EISG $501M in the July quarter [1]), imaging and sensing (Teledyne Digital Imaging $903M [5]), enterprise mobility and data capture (Zebra [6]), software-enabled positioning (Trimble [7]), vision (Cognex [8]) and grid and fuelling equipment (Itron, Vontier [9][10]).",
+      "In the value chain these firms buy chips, memory, optics and sensors from component suppliers, and sell to engineers, operators and system integrators. Zebra says rising memory component costs squeezed its gross margin [6], which shows how exposed they are to the electronic-component tier upstream.",
+      "The industry has shifted from pure hardware to hardware plus software and services, and consolidated through deals. Keysight acquired Spirent for $1,564M and Synopsys's optical solutions group for $580M in October 2025 [2]; Teledyne agreed to buy Varex for about $1.1B [5]; Cognex is buying RealSense [8]; Zebra reports organic growth of 11.3% against 22.3% reported growth, the gap being acquisitions and currency [6].",
+      "Geography is global. Keysight's July quarter revenue was 39.5% Americas, 16.6% Europe and 43.9% Asia Pacific [2]. Production relies on Asian supply chains, so trade policy matters; Keysight recorded a $100M receivable for recovered IEEPA tariffs [2]."
+    ],
+    "competition": [
+      "There are a few dozen significant competitors, but most niches have only a handful. Keysight says it competes with large firms and with specialised regional players, and sees new entrants and consolidation among customers [4]. Cognex, Zebra and Trimble each face a similarly small set of direct rivals, though we did not find sourced counts.",
+      "Leaders by niche: Keysight in electronic and communications test, Teledyne in imaging and instrumentation, Zebra in scanners and mobile computers, Cognex in machine vision, Trimble in positioning and Itron in smart metering [1][5][6][7][8][9]. Sourced market shares were unavailable, so we do not quote any. Named rivals such as Rohde & Schwarz or Emerson's NI did not appear in the filings we opened.",
+      "The industry is fragmented overall but concentrated within segments, and consolidating through acquisitions [2][5][8]. Our read is that scale matters most in test and measurement, where breadth across technologies is a selling point Keysight itself stresses [4].",
+      "Barriers to entry are measurement accuracy, deep engineering know-how, certification, and long relationships with customers who design the instruments into their workflows. High R&D intensity (Keysight about 19% of revenue on our arithmetic [4]) raises the cost of competing at the frontier.",
+      "Economies of scale appear in R&D spread over a large installed base, global service networks and purchasing. They show up in margins: Keysight's segments earn 31-34% operating margins [1] against about 10.4% pre-tax operating margin for Damodaran's broad Electronics (General) group [14].",
+      "Products are differentiated at the leading edge and commoditised in simpler categories. Cognex's gross margin of 70.8% [8] reflects differentiation; Zebra's 45.7% [6] and Itron's 40.9% [9] show more hardware-like economics where customers have more choice.",
+      "Customers hold bargaining power when buying large utility or retail rollouts, which Itron's multi-year backlog of $4.3B illustrates [9], but power is weaker for mission-critical instruments with few substitutes. Suppliers, especially memory makers, currently have the upper hand: Zebra cites memory costs [6] and DRAM contract prices keep rising [18]."
+    ],
+    "drivers": [
+      "Revenue growth follows customer technology spending and industrial activity. Keysight's orders rose 56% in the July quarter [1], Cognex's logistics and electronics markets posted repeated double-digit quarters [8], and US manufacturing has expanded for ten months [11]. Government and utility budgets drive the rest [9].",
+      "Operating margins depend on mix (software and recurring revenue versus hardware), volume leverage on fixed R&D, component costs and acquisitions. Cognex lifted operating margin from 20.9% to 32.2% on mix, volume and pricing [8]; Zebra's gross margin fell 2.3 points on memory costs and mix [6].",
+      "Key cost variables are memory and semiconductors, labour for engineering, tariffs, and freight. Contract DRAM prices were still rising in the fourth quarter though gains are narrowing [18], and the ISM prices index was 75.2, meaning input prices are rising broadly [11].",
+      "Sensitivity to interest rates is moderate. Customers finance capital equipment and acquisitions are debt-funded: Vontier's net leverage is 2.3x [10], Zebra has $2,578M of debt [6]. The Fed held at 3.75-4.00% on 28 October, said inflation remains elevated, and two members wanted a hike [13].",
+      "Inflation, GDP and unemployment matter through industrial production and capex. The ISM manufacturing index of 55.5 signals expansion [11], while one ISM respondent says scientific-instrument demand slowed on research-funding and geopolitical uncertainty [11]. Commodity prices matter mainly via components.",
+      "The group is cyclical with defensive pockets and secular growth layers. Test equipment and vision are cyclical but supported by AI, communications and automation trends [1][8]; defence and utility products give some stability through backlog [5][9]; recurring revenue is a growing stabiliser [7][9]."
+    ],
+    "financials": [
+      "Growth is currently strong and uneven. Keysight revenue grew about 36% [1], Teledyne 9.4% [5], Cognex 13% [8], Trimble 7% [7], Itron 3% [9]. Vontier fell 2.1% on a disposal but core sales rose 5.7% [10]. Damodaran does not give a growth rate for the broad group.",
+      "Margins differ by business. Damodaran's Electronics (General) group, 114 US firms, has a 26.76% gross margin and 10.42% pre-tax operating margin as of January 2026 [14]. Leaders are well above: Teledyne 23.9% non-GAAP operating margin [5], Trimble 27.2% [7], Vontier 24.3% adjusted [10], Cognex 32.2% [8].",
+      "Returns on capital are high on Damodaran's data: after-tax ROIC of 24.48% against 10.08% for the total US market, and a ten-year normalized ROIC of 17.47% [17]. The page header says January 2026 but its footer says January 2025, so treat the vintage with caution. Damodaran's ROE column was not on that page, so we do not quote one.",
+      "Debt is generally moderate. Keysight has roughly net cash [2], Cognex has no debt [8], Itron's net debt is about $737M on our arithmetic from its release [9], Trimble has $1,533M of debt against $214M of cash [7] and Vontier's net leverage is 2.3x [10].",
+      "Free cash flow conversion is high. Teledyne generated $319.5M of free cash flow in Q3 [5], Cognex $104M [8], Keysight $403M [1] and Vontier $133M with 107% conversion [10]. Zebra guides to at least $1B for the year [6]. Itron's fell to $96M from $113M [9].",
+      "Capital expenditure needs are light: Teledyne spent $33M against operating cash flow of $352.5M [5]. R&D is the main reinvestment, and acquisitions the main use of cash, with buybacks as well (Keysight $520M over nine months [2], Zebra $643M [6]).",
+      "Multiples are high against the market. Damodaran's January 2026 data show Electronics (General) at 19.99x EV/EBITDA for positive-EBITDA firms [15] and a forward P/E of 29.61x against 27.66x for the whole US market [16]. This is a broad proxy; current multiples for the GICS sub-industry were not available to us."
+    ],
+    "risks": [
+      "Regulatory and trade policy are the main legislative risks: tariff changes, export controls, and, for utilities, rate-case approvals. Keysight lists trade and export-control tightening as a risk and has booked IEEPA tariff recoveries and a $40M customer refund liability [2]. Defence and government funding rules also matter [5].",
+      "Technology disruption is double-edged. AI is a demand source for test and vision (Keysight lists AI infrastructure among its markets [1], Cognex sees logistics and electronics strength [8]) but could also erode simpler measurement and data-capture products. We think the more immediate risk is customers pausing between technology generations.",
+      "Demographic effects are small and indirect: ageing populations affect labour supply in factories and warehouses, which supports automation demand for vision and scanning, though no source we opened quantifies this.",
+      "Changing customer behaviour shows up in budget caution. An ISM respondent said customers are optimising existing scientific instruments rather than buying new ones [11], and Itron's networked and device revenue edged down while its outcomes business grew [9].",
+      "New competitors and business models include software-defined and cloud-based test, low-cost Asian instrument makers and customers that build in-house. Keysight notes new entrants and consolidation among customers [4]. Subscription models are spreading, as Trimble's $2.56B of ARR shows [7].",
+      "Geopolitical and supply-chain risks are material: Asia Pacific is 43.9% of Keysight's revenue [2], memory supply is tight and contract prices are rising [18], and Zebra says it is working to secure memory supply [6]. Supply availability, not demand, is Keysight's stated constraint [3].",
+      "Substitutes include in-house testing, general-purpose computing with software for measurement, and lower-cost sensors. These cap prices in simpler categories. We found no sourced figure on how quickly any substitute is gaining, so this remains our judgment."
+    ],
+    "horizon": {
+      "opportunities": [
+        "AI data-centre and communications build-outs are driving record test orders, with Keysight orders up 56% and demand described as strong [1][3].",
+        "Recurring software and services growth, such as Trimble's $2.56B ARR and Itron's 25% ARR growth, can lift margins and reduce cyclicality [7][9].",
+        "Factory and warehouse automation supports machine vision, where Cognex raised its full-year outlook [8].",
+        "Acquisitions such as Varex for Teledyne and RealSense for Cognex extend portfolios into imaging and depth sensing [5][8]."
+      ],
+      "threats": [
+        "Memory and component inflation compresses hardware margins, as at Zebra, while tight supply limits shipments [6][18][3].",
+        "A manufacturing or research-funding slowdown would cut instrument orders from the current high base [11].",
+        "Tariff and export-control policy remains unsettled and can raise costs or block sales [2].",
+        "Higher-for-longer interest rates would raise financing costs for leveraged buyers and acquirers [13][10]."
+      ],
+      "assessment": "We think the next three to five years favour the companies tied to AI, communications and automation, which are reporting record orders and rising margins [1][8]. The structural shift to recurring revenue should make earnings steadier, though Trimble's 11% ARR growth shows recurring revenue does not grow as fast as orders at the test leaders [7][1]. The main caution is that the order surge sits on a few technology cycles, and component cost inflation and trade policy can erode margins [6][2]. Valuation data for the sub-industry were unavailable; broad Electronics multiples were above the market in January 2026 [16], so expectations look demanding, while the technology sector's forward multiple has fallen to 17.3x [12]."
+    }
+  },
+  "sections": [
+    {
+      "id": "macro",
+      "paragraphs": [
+        "The cycle looks supportive for this group. The ISM Manufacturing PMI was 55.5 in October 2026, up from 54.5, the tenth straight month above 50, with new orders at 55.5 [11]. That is the clearest cyclical signal for customers who buy instruments, scanners and sensors for factories and warehouses.",
+        "There are cracks. The ISM prices index was 75.2, still showing rapid input-cost inflation, and a respondent in computer and electronic products said global demand for capital scientific instruments has slowed amid geopolitical uncertainty and research-funding worries [11].",
+        "On policy, the Federal Reserve held its target range at 3.75-4.00% on 28 October, said inflation remains elevated and recorded two dissents in favour of a quarter-point increase [13]. Our read is that rates are a headwind for financed capital spending and acquisitions, not a threat to current demand. Trade policy is also a swing factor: Keysight has booked a $100M receivable for recovered IEEPA tariffs and a $40M liability to refund tariff surcharges to customers [2]."
+      ]
+    },
+    {
+      "id": "demand",
+      "paragraphs": [
+        "A reliable market-size number for the whole group was not available to us, so we describe demand through company results. Keysight's orders reached $2,091M in the quarter ended 31 July 2026, up 56%, and management said demand across end markets remains strong ahead of its 19 November report [1][3]. Cognex's revenue grew 13%, or 19% excluding a one-off prior-year benefit, with logistics and electronics growing at double digits [8].",
+        "Structural drivers are communications and AI infrastructure, factory and warehouse automation, grid modernisation and defence. Itron's bookings rose 27% to $482M and its backlog is $4.3B [9]; Teledyne's funded backlog is nearly $5.3B [5].",
+        "Demand is cyclical but with growing recurring layers: Trimble's ARR is $2.56B [7]. Demographics matter little directly. Weak spots exist: Trimble's ARR grew 11% [7], and Itron's device and networked solutions revenue fell 2% and 1% [9]. We think long-term prospects are good, but growth is uneven across sub-segments."
+      ]
+    },
+    {
+      "id": "structure",
+      "paragraphs": [
+        "Applying Porter's five forces: rivalry is moderate because most niches have a few strong players and Keysight says competition includes large firms and specialised regional players [4]. The threat of new entrants is low at the high end, given engineering depth, certification and customer relationships, but rising from new entrants in simpler categories [4].",
+        "Buyer power is mixed: utilities and large retailers negotiate hard on volume programmes such as Itron's $4.3B backlog [9], but design engineers have few alternatives for critical measurements. Supplier power is high at present because memory makers can raise prices and Zebra's gross margin fell to 45.7% from 48.0% [6][18]. Substitutes, such as in-house or software-based testing, are a limited threat in our view.",
+        "The industry is consolidating through acquisitions: Keysight bought Spirent and Synopsys's optical group [2], Teledyne is buying Varex [5], Cognex is buying RealSense [8]. Sourced market shares were not available. Moats come from installed base, brand, software and calibration services; Keysight serves about 40,000 customers a year [4]."
+      ]
+    },
+    {
+      "id": "environment",
+      "paragraphs": [
+        "Politically, the key issues are tariffs, export controls and defence budgets. Keysight lists trade and export-control tightening among risks and has recognised both tariff recoveries and refund obligations from IEEPA duties [2][4]. Defence-related electronics at Teledyne depend on government funding, with funded backlog near $5.3B [5].",
+        "Economically, input-cost inflation is the live issue: the ISM prices index was 75.2 [11] and memory costs hurt Zebra's gross margin [6]. Technologically, AI is a source of demand for test and vision [1][8], and the shift to software and subscriptions is changing how products are sold [7][9]. Supply availability is currently a limit on shipments, according to Keysight management [3].",
+        "Social and environmental factors are less prominent: utility modernisation and energy-transition projects support meter and grid demand, as Itron's chief executive said when citing capacity, reliability, resiliency and affordability needs [9]. We did not find sector-specific regulation that is changing the economics of the group."
+      ]
+    },
+    {
+      "id": "economics",
+      "paragraphs": [
+        "Economics are attractive at the leaders. Damodaran's broad Electronics (General) group (114 US firms, January 2026) has a 26.76% gross margin, 10.42% pre-tax operating margin and 4.23% R&D to sales [14], and after-tax ROIC of 24.48% (normalized 17.47%) against 10.08% for the total market [17]. The ROIC page's header and footer disagree on vintage, and no ROE figure was on it.",
+        "Bellwethers are well above the broad average: Teledyne 23.9% non-GAAP operating margin [5], Trimble 27.2% [7], Vontier 24.3% adjusted [10], Cognex 32.2% GAAP [8], and Keysight about 25% on our arithmetic from its reported operating income [1]. Operating leverage is significant: Cognex's operating income rose 74% on 13% revenue growth [8].",
+        "Capital intensity is low and cash conversion high. Teledyne's free cash flow was $319.5M in Q3 [5], Keysight's $403M [1], Cognex's $104M [8]. Zebra guides to at least $1B for the year [6]. Margin risk comes from components: Zebra's gross margin fell 2.3 points [6]."
+      ]
+    },
+    {
+      "id": "earnings",
+      "paragraphs": [
+        "Reported earnings are strong. Keysight's non-GAAP EPS was $3.07 against $1.72, and it guides fiscal Q4 to $3.34-3.40 on $1.93-1.95B revenue, with results due 19 November [1][3]. Teledyne raised full-year non-GAAP EPS to $25.40-25.50 [5]. Cognex raised its full-year adjusted EPS to $1.68-1.72 [8]. Vontier raised adjusted EPS guidance to $3.60-3.64 [10].",
+        "Mixed signals: Zebra beat with non-GAAP EPS of $4.95 and guides Q4 to $5.00-5.40, but its gross margin fell [6]. Itron guides full-year non-GAAP EPS to $6.72-6.82 [9]. Trimble guides full-year non-GAAP EPS to $3.63-3.69 on $3.91-3.94B of revenue [7].",
+        "Consensus estimates for this specific sub-industry were not available to us. At the market level, FactSet reports blended S&P 500 Q3 earnings growth of 31.4% and analysts expecting 28.4% for Q4 [12]. Our view is that many bellwether results are already above company guidance, so the risk is less about the next quarter and more about whether record orders convert, given supply limits at Keysight [3]."
+      ]
+    },
+    {
+      "id": "valuation",
+      "paragraphs": [
+        "A forward multiple for the GICS sub-industry was not available to us. The best proxy is Damodaran's Electronics (General) group of 114 US firms, which in January 2026 traded at 19.99x EV/EBITDA for positive-EBITDA firms [15] and a 29.61x forward P/E against 27.66x for the total US market [16]. That group is a broad mix, and the data are ten months old.",
+        "Market context is more current. FactSet reports the S&P 500 forward P/E at 18.7x, below its five-year average of 19.8x and ten-year average of 19.1x, and the Information Technology sector at 17.3x on 5 November against a 25-year average of 20.0x, the lowest since March 2020 [12]. Those are sector, not sub-industry, figures.",
+        "Our read: January data suggest this group commanded a premium to the market, but the technology sector has since de-rated, so current multiples are probably lower. We cannot say where the sub-industry sits without data, and we refrain from drawing a conclusion. Free-cash-flow yields were not available; the cash flows in the results above are strong relative to their capital needs [5][8][1]."
+      ]
+    },
+    {
+      "id": "positioning",
+      "paragraphs": [
+        "Positioning data for this sub-industry, including ETF flows, short interest and relative performance, were not available to us from the sources we opened, so we do not quote any.",
+        "What we can say rests on sector context. Share-price reactions to the latest results were not available from the sources we opened. FactSet reports that across the S&P 500 positive Q3 surprises were rewarded slightly less than average [12].",
+        "The technology sector's forward P/E fell to its lowest level since March 2020 on 5 November [12], which suggests investors have been cautious on the sector even as earnings rise. We think the group's momentum is therefore likely to depend on whether record orders such as Keysight's convert into revenue on 19 November [3]. The sector's earnings revisions and breadth are not broken out for this sub-industry in the FactSet report we opened [12]."
+      ]
+    }
+  ],
+  "sources": [
+    {"n": 1, "title": "Keysight Technologies Form 8-K: fiscal Q3 2026 results", "publisher": "Keysight / SEC", "date": "2026-08-18", "url": "https://www.sec.gov/Archives/edgar/data/0001601046/000160104626000029/exhibit991-q326pressrelease.htm"},
+    {"n": 2, "title": "Keysight Technologies Form 10-Q, quarter ended 31 July 2026", "publisher": "Keysight / SEC", "date": "2026", "url": "https://www.sec.gov/Archives/edgar/data/0001601046/000160104626000036/keys-20260731.htm"},
+    {"n": 3, "title": "Keysight Form 8-K: CFO succession and fiscal Q4 outlook unchanged", "publisher": "Keysight / SEC", "date": "2026-11-02", "url": "https://www.sec.gov/Archives/edgar/data/0001601046/000160104626000038/exhibit991keystransitionpr.htm"},
+    {"n": 4, "title": "Keysight Technologies Form 10-K, fiscal year ended 31 October 2025", "publisher": "Keysight / SEC", "date": "2025", "url": "https://www.sec.gov/Archives/edgar/data/1601046/000160104625000127/keys-20251031.htm"},
+    {"n": 5, "title": "Teledyne Technologies Q3 2026 earnings release", "publisher": "Teledyne / SEC", "date": "2026-10-21", "url": "https://www.sec.gov/Archives/edgar/data/0001094285/000109428526000055/q3-2026earningsrelease.htm"},
+    {"n": 6, "title": "Zebra Technologies Form 8-K: third quarter 2026 results", "publisher": "Zebra / SEC", "date": "2026-11-03", "url": "https://www.sec.gov/Archives/edgar/data/0000877212/000162828026069148/zbraex99120261003.htm"},
+    {"n": 7, "title": "Trimble Form 8-K: third quarter 2026 results", "publisher": "Trimble / SEC", "date": "2026-11-04", "url": "https://www.sec.gov/Archives/edgar/data/0000864749/000086474926000119/a2026q3-8kex991.htm"},
+    {"n": 8, "title": "Cognex Form 8-K: third quarter 2026 results", "publisher": "Cognex / SEC", "date": "2026-11-04", "url": "https://www.sec.gov/Archives/edgar/data/0000851205/000085120526000079/a10042026-xex991xq32026ear.htm"},
+    {"n": 9, "title": "Itron Form 8-K: third quarter 2026 results", "publisher": "Itron / SEC", "date": "2026-10-27", "url": "https://www.sec.gov/Archives/edgar/data/0000780571/000117184326006839/exh_991.htm"},
+    {"n": 10, "title": "Vontier Form 8-K: third quarter 2026 results", "publisher": "Vontier / SEC", "date": "2026-11-05", "url": "https://www.sec.gov/Archives/edgar/data/0001786842/000162828026070524/a20261002-ex991.htm"},
+    {"n": 11, "title": "October 2026 ISM Manufacturing PMI Report (excerpt)", "publisher": "ISM via Webull", "date": "2026-11-02", "url": "https://www.webull.com/news/15854774774635520"},
+    {"n": 12, "title": "FactSet Earnings Insight", "publisher": "FactSet", "date": "2026-11-06", "url": "https://advantage.factset.com/hubfs/Website/Resources%20Section/Research%20Desk/Earnings%20Insight/EarningsInsight_103026.pdf"},
+    {"n": 13, "title": "Federal Reserve press release, FOMC statement, 28 October 2026", "publisher": "Federal Reserve", "date": "2026-10-28", "url": "https://www.federalreserve.gov/newsevents/pressreleases/monetary20261028a.htm"},
+    {"n": 14, "title": "Margins by sector (US), January 2026", "publisher": "Aswath Damodaran, NYU Stern", "date": "2026-01", "url": "https://pages.stern.nyu.edu/~adamodar/New_Home_Page/datafile/margin.html"},
+    {"n": 15, "title": "EV/EBITDA multiples by sector (US), January 2026", "publisher": "Aswath Damodaran, NYU Stern", "date": "2026-01", "url": "https://pages.stern.nyu.edu/~adamodar/New_Home_Page/datafile/vebitda.html"},
+    {"n": 16, "title": "PE ratios by sector (US), January 2026", "publisher": "Aswath Damodaran, NYU Stern", "date": "2026-01", "url": "https://pages.stern.nyu.edu/~adamodar/New_Home_Page/datafile/pedata.html"},
+    {"n": 17, "title": "Return on capital by sector (US)", "publisher": "Aswath Damodaran, NYU Stern", "date": "2026-01", "url": "https://pages.stern.nyu.edu/~adamodar/New_Home_Page/datafile/roc.html"},
+    {"n": 18, "title": "DRAM Contract Price, October 2026", "publisher": "TrendForce", "date": "2026-10-30", "url": "https://trendforce.com/research/download/RP261030WD"}
+  ]
+}
