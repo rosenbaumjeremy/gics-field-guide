@@ -25,13 +25,15 @@ function markSeen(code){seen.add(code);try{localStorage.setItem("gics-seen",JSON
 
 let current=null;
 function go(code){location.hash=code?"c-"+code:"start"}
-let weightsFocus=null, research=false;
+let weightsFocus=null, research=false, searchQ=null;
 function route(){
   const m=location.hash.match(/^#c-(\d{2,8})$/);
   current=m&&N[m[1]]?m[1]:null;
   const w=location.hash.match(/^#weights(?:-(\d{2}|all))?$/);
   weightsFocus=!current&&w?(w[1]||"all"):null;
   research=!current&&location.hash==="#research";
+  const sq=!current&&location.hash.match(/^#search=(.+)$/);
+  searchQ=null; if(sq){try{searchQ=decodeURIComponent(sq[1]).trim()||null}catch(e){}}
   render(); window.scrollTo(0,0);
 }
 
@@ -123,12 +125,14 @@ function renderTree(){
   const t=$("tree"); t.replaceChildren();
   const q=$("q").value.trim().toLowerCase();
   if(q){
-    const hits=ORDER.filter(c=>c.startsWith(q)||N[c].name.toLowerCase().includes(q)||N[c].desc.toLowerCase().includes(q)||(N[c].note||"").toLowerCase().includes(q))
-      .sort((a,b)=>(N[b].name.toLowerCase().includes(q))-(N[a].name.toLowerCase().includes(q))).slice(0,30);
+    const all=classificationHits(q), briefs=briefSearchable(q), hits=all.slice(0,briefs?8:30);
     t.className="tree results";
-    if(!hits.length) t.append(el("li",{class:"empty"},"No matches. Try a company type, like \"pipelines\" or \"insurers\"."));
+    if(briefs) t.append(el("li",{class:"rhead"},all.length?`In the classification · ${all.length}`:"In the classification"));
+    if(!hits.length) t.append(el("li",{class:"empty"},briefs?"No classification matches.":"No matches. Try a company type, like \"pipelines\" or \"insurers\"."));
     hits.forEach(c=>t.append(el("li",{},el("button",{class:"tn",type:"button",h:HUES[N[c].sector],onclick:()=>{go(c)}},
       el("span",{class:"lvl"},`${LEVELS[N[c].lvl]} · ${N[N[c].sector].name}`),el("code",{},c),el("span",{},N[c].name)))));
+    if(all.length>hits.length) t.append(el("li",{},el("button",{type:"button",class:"linkbtn rall",onclick:()=>(location.hash="search="+encodeURIComponent(q))},`${all.length-hits.length} more on the results page →`)));
+    railBriefHits(t,q);
     return;
   }
   t.className="tree";
@@ -154,7 +158,7 @@ function renderTree(){
 
 function render(){
   const v=$("view"); v.replaceChildren(); v.removeAttribute("data-h");
-  if(current){markSeen(current);renderNode(v,current)} else if(weightsFocus) renderWeights(v,weightsFocus); else if(research) renderResearch(v); else renderIntro(v);
+  if(current){markSeen(current);renderNode(v,current)} else if(weightsFocus) renderWeights(v,weightsFocus); else if(research) renderResearch(v); else if(searchQ) renderSearch(v,searchQ); else renderIntro(v);
   $("wlink").setAttribute("aria-current",weightsFocus?"page":"false");
   $("rlink").setAttribute("aria-current",research?"page":"false");
   renderTree();
@@ -168,7 +172,7 @@ function render(){
     el("b",{},nxt?`Next: ${N[nxt].name}`:"End of the tour"));
   $("prog").textContent=`${seen.size} of ${TOTAL} explored`;
   $("progbar").style.width=(seen.size/TOTAL*100)+"%";
-  document.title=current?`${N[current].name} · GICS Field Guide`:weightsFocus?"Sector weights · GICS Field Guide":research?"Research briefs · GICS Field Guide":"GICS Field Guide";
+  document.title=current?`${N[current].name} · GICS Field Guide`:weightsFocus?"Sector weights · GICS Field Guide":research?"Research briefs · GICS Field Guide":searchQ?`Search: ${searchQ} · GICS Field Guide`:"GICS Field Guide";
   $("rail").classList.remove("open"); $("menu").setAttribute("aria-expanded","false");
 }
 
@@ -177,8 +181,19 @@ $("next").onclick=()=>{const i=current?ORDER.indexOf(current):-1;if(i<TOTAL-1)go
 $("home").onclick=()=>go(null);
 $("wlink").onclick=()=>(location.hash="weights");
 $("rlink").onclick=()=>(location.hash="research");
+/* the side panel can be folded away on wide screens; the choice is remembered per browser */
+function setRail(hidden,focus){
+  document.body.classList.toggle("railhidden",hidden);
+  $("fold").setAttribute("aria-expanded",String(!hidden)); $("unfold").setAttribute("aria-expanded",String(!hidden));
+  try{localStorage.setItem("gics-rail",hidden?"hidden":"shown")}catch(e){}
+  if(focus)(hidden?$("unfold"):$("fold")).focus();
+}
+try{if(localStorage.getItem("gics-rail")==="hidden")setRail(true)}catch(e){}
+$("fold").onclick=()=>setRail(true,true);
+$("unfold").onclick=()=>setRail(false,true);
 $("menu").onclick=()=>{const r=$("rail");r.classList.toggle("open");$("menu").setAttribute("aria-expanded",r.classList.contains("open"))};
 $("q").addEventListener("input",()=>{renderTree();if($("q").value)$("rail").classList.add("open")});
+$("q").addEventListener("keydown",e=>{const q=$("q").value.trim();if(e.key==="Enter"&&q)location.hash="search="+encodeURIComponent(q)});
 document.addEventListener("keydown",e=>{
   if(e.target.closest("input"))return;
   if(e.key==="ArrowRight")$("next").click();

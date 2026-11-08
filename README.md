@@ -28,6 +28,13 @@ year `x`, and `w` keyed by sector code. Every year-end 1990–2025 is present. A
 data; keep `sources` up to date when you add rows. Values come from Bespoke Investment Group (1990–Jul 2023), MacroMicro (end 2023 and 2024, from screenshots the owner supplied), S&P DJI via Finiki (end 2025) and a ChartRow SPY-holdings
 estimate (Nov 2026).
 
+## Search
+
+`scripts/build_library.py` turns the published briefs into `site/data/writeups/search.json`
+(every passage, with its place in the brief). The side-panel search and the results page
+(`#search=<words>`) read it; `site/search.js` draws both. `publish.py` rebuilds it on every
+publish; after editing a brief by hand, run the script yourself.
+
 If you add a new site file, add it to `SHELL` in `site/sw.js` and bump `CACHE`.
 
 ## Run locally

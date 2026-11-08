@@ -65,7 +65,7 @@ function briefSection(code) {
     return box;
   }
   box.append(el("p", { class: "muted" }, "Loading the research brief…"));
-  const fill = b => { box.replaceChildren(...briefBody(b, box)); };
+  const fill = b => { box.replaceChildren(...briefBody(b, box)); if (typeof revealHit === "function") revealHit(code, box); };
   if (BRIEFS[code]) fill(BRIEFS[code]);
   else fetch(`data/writeups/${code}.json`).then(r => { if (!r.ok) throw new Error(r.status); return r.json(); })
     .then(b => { BRIEFS[code] = b; fill(b); })
@@ -93,15 +93,15 @@ function briefBody(b, root) {
   parts.push(el("div", { class: "brief-head" },
     el("div", {}, el("div", { class: "eyebrow" }, "Research brief"), el("h2", {}, "Sector research: eight-part framework")),
     el("span", { class: "asof" }, "Data as of " + fmtDate(b.asOf))));
-  parts.push(group("Bottom line", true, "bottomline", el("p", {}, ...cited(b.summary, root))));
+  parts.push(group("Bottom line", true, "bottomline", el("p", { "data-loc": "summary" }, ...cited(b.summary, root))));
   if (b.basics) parts.push(basicsBlock(b.basics, root));
   parts.push(group("What to watch", false, "",
-    el("ul", { class: "watch" }, ...b.watch.map(x => el("li", {}, ...cited(x, root)))),
-    el("h4", { class: "gap-top grph" }, "Bellwethers"), el("div", { class: "chips" }, ...b.bellwethers.map(x => el("span", { class: "chip" }, x)))));
+    el("ul", { class: "watch" }, ...b.watch.map((x, i) => el("li", { "data-loc": "watch." + i }, ...cited(x, root)))),
+    el("h4", { class: "gap-top grph" }, "Bellwethers"), el("div", { class: "chips", "data-loc": "bellwethers" }, ...b.bellwethers.map(x => el("span", { class: "chip" }, x)))));
   if (b.fundamentals) parts.push(fundamentalsBlock(b.fundamentals, root));
   const secs = b.sections.map((s, i) => el("details", { class: "fw" },
     el("summary", {}, el("span", { class: "fwn" }, String(i + 1)), el("span", {}, FRAMEWORK[s.id] || s.id)),
-    el("div", { class: "fwbody" }, ...s.paragraphs.map(p => el("p", {}, ...cited(p, root))))));
+    el("div", { class: "fwbody" }, ...s.paragraphs.map((p, j) => el("p", { "data-loc": `sec.${s.id}.${j}` }, ...cited(p, root))))));
   parts.push(group("Market view: eight-part analysis", false, "",
     el("div", { class: "grptools" }, openAll(secs, "sections")), el("div", { class: "fwlist" }, ...secs)));
   parts.push(group(`Sources (${b.sources.length})`, false, "srcs",
@@ -113,29 +113,29 @@ function briefBody(b, root) {
 
 // The basics: what the business is, what it sells, the vocabulary, and what moves it
 function basicsBlock(x, root) {
-  const dl = (rows, extra) => el("dl", { class: "bdl" }, ...rows.map(r => el("div", {},
+  const dl = (rows, key, extra) => el("dl", { class: "bdl" }, ...rows.map((r, i) => el("div", { "data-loc": `basics.${key}.${i}` },
     el("dt", {}, r[0]),
     el("dd", {}, ...cited(r[1], root), extra && extra(r) ? el("small", {}, extra(r)) : null))));
   return group("Start here: the basics", false, "basics",
-    el("p", { class: "bintro" }, ...cited(x.intro, root)),
+    el("p", { class: "bintro", "data-loc": "basics.intro" }, ...cited(x.intro, root)),
     el("div", { class: "brief-grid" },
       el("div", { class: "fact" }, el("h3", {}, "What they sell"),
-        dl(x.products.map(p => [p.name, p.what, p.examples]), r => r[2] ? "e.g. " + r[2] : "")),
+        dl(x.products.map(p => [p.name, p.what, p.examples]), "products", r => r[2] ? "e.g. " + r[2] : "")),
       el("div", { class: "fact" }, el("h3", {}, "What drives the business"),
-        dl(x.drivers.map(d => [d.name, d.how])))),
+        dl(x.drivers.map(d => [d.name, d.how]), "drivers"))),
     el("div", { class: "fact bterms" }, el("h3", {}, "Key terms"),
-      dl(x.terms.map(t => [t.term, t.meaning]))));
+      dl(x.terms.map(t => [t.term, t.meaning]), "terms")));
 }
 
 function fundamentalsBlock(f, root) {
   const parts = FUNDAMENTALS.map(([id, title, lede, qs], i) => {
     const body = el("div", { class: "fwbody" }, el("p", { class: "fqlede" }, lede),
-      el("dl", { class: "fq" }, ...qs.map((q, j) => el("div", {}, el("dt", {}, q), el("dd", {}, ...cited((f[id] || [])[j] || "", root))))));
+      el("dl", { class: "fq" }, ...qs.map((q, j) => el("div", { "data-loc": `fund.${id}.${j}` }, el("dt", {}, q), el("dd", {}, ...cited((f[id] || [])[j] || "", root))))));
     if (id === "risks" && f.horizon) {
-      const h = f.horizon, list = (t, xs, cls) => el("div", { class: "hz " + cls }, el("h4", {}, t), el("ul", {}, ...xs.map(x => el("li", {}, ...cited(x, root)))));
+      const h = f.horizon, list = (t, xs, cls, key) => el("div", { class: "hz " + cls }, el("h4", {}, t), el("ul", {}, ...xs.map((x, i) => el("li", { "data-loc": `horizon.${key}.${i}` }, ...cited(x, root)))));
       body.append(el("div", { class: "horizon" }, el("h4", { class: "hzt" }, "The next 3 to 5 years"),
-        el("div", { class: "hzgrid" }, list("Biggest opportunities", h.opportunities, "up"), list("Biggest threats", h.threats, "down")),
-        el("p", {}, ...cited(h.assessment, root))));
+        el("div", { class: "hzgrid" }, list("Biggest opportunities", h.opportunities, "up", "opportunities"), list("Biggest threats", h.threats, "down", "threats")),
+        el("p", { "data-loc": "horizon.assessment" }, ...cited(h.assessment, root))));
     }
     return el("details", { class: "fw" }, el("summary", {}, el("span", { class: "fwn" }, String(i + 1)), el("span", {}, title)), body);
   });
@@ -149,6 +149,7 @@ function renderResearch(v) {
     el("nav", { class: "crumbs", "aria-label": "Breadcrumb" }, el("button", { type: "button", onclick: () => go(null) }, "GICS"), el("span", { "aria-hidden": "true" }, "›"), el("span", {}, "Research briefs")),
     el("div", { class: "eyebrow" }, `${WI.length} of 163 sub-industries`),
     el("h1", {}, "Sub-industry research briefs"),
+    el("p", { class: "muted" }, "Use the search box to find any topic across every published brief."),
     el("p", { class: "lede" }, "Each brief opens with the basics (what the companies sell, the key terms and what drives the business) and a six-part fundamentals analysis (business model, industry overview, competition, economic drivers, financial characteristics, and risks over the next 3 to 5 years), then gives a current market view in eight steps: the economy, demand, competition, regulation and technology, financial fundamentals, earnings, valuation, and market positioning. Three new briefs are added each day, starting with the sectors that make up most of the S&P 500."),
     el("div", { class: "bar wbar" }, el("i", { class: "wfill" })));
   v.querySelector(".wfill").style.width = (WI.length / 163 * 100) + "%";

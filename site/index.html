@@ -18,14 +18,16 @@
     <div class="toprow">
       <button class="brand" id="home" type="button"><b>GICS Field Guide</b></button>
       <button class="btn menu" id="menu" type="button" aria-expanded="false">Browse</button>
+      <button class="fold" id="fold" type="button" aria-controls="rail" aria-expanded="true" title="Hide the side panel"><span class="arr" aria-hidden="true">‹</span> Hide</button>
     </div>
-    <input class="search" id="q" type="search" placeholder="Search names, codes, topics…" aria-label="Search the classification">
+    <input class="search" id="q" type="search" placeholder="Search the guide and every brief…" aria-label="Search the classification and the research briefs">
     <div class="progress"><span id="prog">0 of 273 explored</span><div class="bar"><i id="progbar"></i></div></div>
     <button class="wlink" id="wlink" type="button">Sector weights in the S&amp;P 500, 1990–2026</button>
     <button class="wlink" id="rlink" type="button">Sub-industry research briefs</button>
     <div class="tree-wrap"><ul class="tree" id="tree"></ul></div>
   </aside>
   <main>
+    <button class="unfold" id="unfold" type="button" aria-controls="rail" aria-expanded="true" title="Show the side panel"><span class="arr" aria-hidden="true">›</span> Menu</button>
     <div class="view" id="view"></div>
     <nav class="tour" aria-label="Tour">
       <button class="btn" id="prev" type="button">← Previous</button>
@@ -37,6 +39,7 @@
 <script src="app.js"></script>
 <script src="weights.js"></script>
 <script src="writeups.js"></script>
+<script src="search.js"></script>
 <script src="offline.js"></script>
 </body>
 </html>

@@ -26,6 +26,9 @@ def git(*args, check=True):
 
 if subprocess.run([sys.executable, str(ROOT / "scripts" / "check_writeups.py")], cwd=ROOT).returncode:
     sys.exit("Not publishing: fix what check_writeups.py reports first.")
+# search.json is built from the briefs, so rebuild it with every publish
+if subprocess.run([sys.executable, str(ROOT / "scripts" / "build_library.py")], cwd=ROOT).returncode:
+    sys.exit("Not publishing: build_library.py failed.")
 
 today = israel_today()
 names = {r["code"]: r["name"] for r in json.loads((ROOT / "site/data/gics.json").read_text(encoding="utf-8"))}
