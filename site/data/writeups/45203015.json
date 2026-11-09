@@ -1,0 +1,218 @@
+{
+  "code": "45203015",
+  "added": "2026-11-09",
+  "asOf": "2026-11-04",
+  "summary": "Electronic Components is in a broad upswing led by AI data-centre interconnect, optical and capacitor demand. Amphenol's Q3 sales rose 65% to $10.2B, with orders of $12.2B and a 29.5% operating margin [1]. TE Connectivity's fiscal Q4 orders rose 29% [2], Corning's core sales rose 19% [3], Vishay's book-to-bill was 1.29 [4] and Littelfuse's sales rose 22.7% [5]. High-end ceramic capacitors are expected to stay short through the first half of 2027, while consumer-device demand is weak [6]. FactSet shows the wider Electronic Equipment, Instruments and Components industry growing Q3 earnings 46% [7]. Sub-industry forward multiples and consensus were not available to us.",
+  "metrics": [
+    {"label": "Amphenol orders, Q3 2026", "value": "$12.2B", "context": "Book-to-bill 1.19; sales $10,229.7M, +65% (organic +37%); quarter ended 30 Sep 2026", "source": 1},
+    {"label": "Amphenol GAAP operating margin", "value": "29.5%", "context": "Adjusted 29.7%; Communications Solutions segment 33.1%; Q3 2026", "source": 1},
+    {"label": "TE Connectivity orders, fiscal Q4 2026", "value": "$6.1B", "context": "+29% y/y; sales $5,312M, +11.9% reported, +13.4% organic; quarter ended 25 Sep 2026", "source": 2},
+    {"label": "Corning core sales, Q3 2026", "value": "$5,081M", "context": "+19% y/y; core operating margin 22.7%; Optical Communications $2,379M", "source": 3},
+    {"label": "Vishay book-to-bill, Q3 2026", "value": "1.29", "context": "Passive components 1.31; gross margin 25.5% vs 19.5% a year earlier; backlog 6.6 months", "source": 4},
+    {"label": "Littelfuse operating margin, Q3 2026", "value": "20.0%", "context": "Up from 15.6%; net sales $766.7M, +22.7%", "source": 5},
+    {"label": "Electronics (General) after-tax ROIC", "value": "24.48%", "context": "Damodaran, 114 US firms; total market 10.08%; broad proxy, not the GICS group; vintage unclear", "source": 14},
+    {"label": "Electronics (General) forward P/E", "value": "29.61x", "context": "Damodaran, January 2026; total US market 27.66x; proxy, not the GICS group", "source": 15}
+  ],
+  "watch": [
+    "Fourth-quarter guidance sets the bar: Amphenol guides sales of $10.3-10.5B excluding deals not yet closed [1], Corning $5.2-5.3B of core sales [3], Vishay about $990M [4] and Littelfuse $750-770M [5].",
+    "High-end MLCC (multilayer ceramic capacitor) shortages are expected to last through 1H27, price talks for 1Q27 begin in November, and Murata says new capacity is unlikely before 2028 [6].",
+    "Amphenol's CommScope integration: the 10-K expects net interest expense to rise from $367.8M in 2025 to about $800M in 2026 after the debt-funded deal [10].",
+    "Policy and costs: the Fed held at 3.75-4.00% with two dissents favouring a hike [9], the ISM prices index is 75.2 [8], and TE carries an $87M reconciling item for IEEPA tariff refunds [2].",
+    "Consumer weakness is the offset: major notebook makers expect 4Q26 orders down 10-15% year on year [6]."
+  ],
+  "bellwethers": [
+    "Amphenol",
+    "TE Connectivity",
+    "Corning",
+    "Littelfuse",
+    "Vishay Intertechnology",
+    "Murata Manufacturing"
+  ],
+  "basics": {
+    "intro": "These companies make the small parts inside almost every electronic system: connectors and cables that carry power and signals, passive components such as capacitors and resistors, sensors, fuses, optical fibre and specialty glass for displays. Customers are makers of servers, phones, cars, aircraft, factory equipment and networks, who buy through direct sales and distributors. Revenue is per-part and tied to unit volumes and content per device. Test and measurement gear sits in Electronic Equipment and Instruments, contract assemblers in Electronic Manufacturing Services, and chips in Semiconductors.",
+    "products": [
+      {"name": "Connectors and interconnect", "what": "Plugs, sockets, cables and assemblies that link boards, boxes and vehicles, from high-speed data links to rugged power connectors.", "examples": "Amphenol, TE Connectivity, Molex"},
+      {"name": "Passive components", "what": "Capacitors, resistors and inductors that store charge, limit current and filter signals on every circuit board. They are cheap per part but needed in huge numbers.", "examples": "Murata and Vishay capacitors and resistors"},
+      {"name": "Sensors", "what": "Devices that measure pressure, temperature, position or current and turn it into an electrical signal, widely used in vehicles and factories.", "examples": "TE Connectivity and Amphenol sensors"},
+      {"name": "Circuit protection and power control", "what": "Fuses, switches and other parts that protect equipment from surges and overloads and control power in vehicles and industrial systems.", "examples": "Littelfuse"},
+      {"name": "Optical connectivity", "what": "Fibre, cable and connectors that carry data as light inside data centres and across telecom networks.", "examples": "Corning Optical Communications"},
+      {"name": "Display and specialty glass", "what": "Glass for screens, vehicles and other uses, a materials business that GICS places here alongside electronic parts.", "examples": "Corning Glass Innovations"}
+    ],
+    "terms": [
+      {"term": "Passive component", "meaning": "A part that does not amplify or switch a signal, such as a capacitor, resistor or inductor. Each is cheap, but boards use hundreds or thousands of them."},
+      {"term": "MLCC", "meaning": "Multilayer ceramic capacitor, the most common capacitor type. Servers, phones and cars use huge numbers, and high-capacitance versions can run short in an AI build-out."},
+      {"term": "Interconnect", "meaning": "The wiring layer that links chips, boards and systems: connectors, cables and backplanes. Speed and reliability requirements make it a design-led, not a pure commodity, business."},
+      {"term": "Content per device", "meaning": "The dollar value of a company's parts in one phone, car or server. Rising content (for example in AI servers or electric vehicles) lets sales grow faster than unit volumes."},
+      {"term": "Design-in", "meaning": "When a customer's engineers choose a specific part for a product that will ship for years. It creates sticky revenue and makes switching suppliers costly."},
+      {"term": "Book-to-bill", "meaning": "Orders divided by shipments in a period. Above 1.0 means the order book is growing and future revenue should rise."},
+      {"term": "Backlog", "meaning": "Orders booked but not yet shipped. It gives visibility, and in shortages it also shows how long customers are queuing."},
+      {"term": "Organic growth", "meaning": "Growth excluding acquisitions, disposals and currency. It shows whether the existing business is expanding or whether deals are doing the work."},
+      {"term": "Core sales", "meaning": "Corning's adjusted sales measure, which excludes certain items such as the effects of hedging. Read the reconciliation to GAAP sales."},
+      {"term": "Distribution channel", "meaning": "Sales through distributors rather than directly to manufacturers. Distributor stocking can amplify swings when they build or run down inventory."},
+      {"term": "Harsh environment", "meaning": "Connectors and sensors built to survive heat, vibration, moisture or radiation, as in aircraft, military and industrial equipment. They carry higher margins than standard parts."},
+      {"term": "Operating leverage", "meaning": "Fixed plant and engineering costs spread over more sales. When volumes jump, margin rises faster than revenue; when they fall, it drops faster too."}
+    ],
+    "drivers": [
+      {"name": "Data-centre and AI build-out", "how": "AI servers use more high-speed connectors, optical links and capacitors per rack than ordinary servers. Orders and backlog rise first, then revenue, so the segment is a main growth engine."},
+      {"name": "Automotive and electrification", "how": "More sensors, connectors and power-protection parts go into each vehicle, but sales follow vehicle production, which is cyclical and tariff-sensitive."},
+      {"name": "Industrial and defence spending", "how": "Factory automation, energy and aerospace buy rugged, long-life parts. Orders follow capital spending and government budgets, with longer product cycles than consumer goods."},
+      {"name": "Consumer device volumes", "how": "Phones and PCs use many commodity parts. Weak unit demand cuts volume and prices for the simplest parts quickly."},
+      {"name": "Capacity and supply tightness", "how": "Ceramic capacitors and similar parts need years to expand capacity. When demand jumps, shortages let suppliers raise prices and widen margins; when supply catches up, pricing reverses."},
+      {"name": "Metals and input costs", "how": "Copper, gold, silver, palladium and plastics are major inputs. Makers pass costs through with a lag, so quick metal moves can squeeze or flatter margins."},
+      {"name": "Acquisitions", "how": "The leaders buy product lines to widen coverage. Deals lift reported growth and add debt and integration costs."}
+    ]
+  },
+  "fundamentals": {
+    "business": [
+      "Revenue comes from selling physical parts and assemblies in large volumes: connectors, cables, sensors, capacitors, fuses, optical fibre and glass. Amphenol reports three segments, Communications Solutions (52% of 2025 sales), Harsh Environment Solutions (26%) and Interconnect and Sensor Systems (22%) [10]. TE splits into Transportation (54%) and Industrial (46%) [11]. Software and services are a minor share.",
+      "Customers are manufacturers: Amphenol sells to thousands of OEMs, EMS companies, ODMs and service providers, with distributors about 19% of 2025 sales and no customer at 10% or more [10]. Its end markets were IT datacom about 36%, industrial 19%, automotive 15%, communications networks 10% and defence 9% [10]. TE had about 41% of fiscal 2025 sales in automotive [11].",
+      "Principal costs are raw materials, manufacturing labour, and engineering. Raw materials include gold, silver and palladium for plating, copper, aluminium, steel and plastic resins [10][11]. TE has about 93,000 employees, roughly 55,000 of them in manufacturing [11]; Amphenol has about 170,000 [10]. Damodaran's broad Electronics (General) group spends 4.23% of sales on R&D [13].",
+      "Pricing power rests on design-in, qualification and specialisation. Standard parts compete on price and delivery, while high-speed, harsh-environment and optical products earn more: Amphenol's Communications Solutions margin was 33.1% against 20.0% in Interconnect and Sensor Systems [1]. In shortages pricing power shifts to suppliers, as with high-end MLCCs [6].",
+      "Main assets are plants, inventory, receivables, and acquired goodwill. Liabilities are mainly debt taken for acquisitions: on our arithmetic from the balance sheet, Amphenol's debt less cash was about $12.6B at 30 September 2026 [1], Corning's debt was $8.2B [3] and Littelfuse's net debt was $437.3M [5].",
+      "The business is moderately capital-intensive, between asset-light and heavy industry. Damodaran's Electronics (General) group has net capex of 5.68% of sales against 4.23% for the whole US market [17]. Vishay spent $253.4M on capex in nine months, $47.5M in its latest quarter [4]. Roughly 79% of Amphenol's long-lived assets sit outside the US, about 37% in China [10]."
+    ],
+    "overview": [
+      "No single authoritative figure covers the whole sub-industry. Bishop & Associates says the global connector market grew by more than $12.7B in 2025, or 14.7% [12]; that growth rate implies a base of about $86B in 2024 and roughly $99B in 2025 on our arithmetic. TE puts the combined market its two segments serve at about $200B [11]. We found no sourced passive-components market size.",
+      "Main segments are connectors and interconnect, passive components, sensors, circuit protection, optical connectivity and display glass. Bishop ranks telecom and datacom first among connector end uses, driven by data centres and AI, and automotive second [12]. Corning's largest segment is Optical Communications at $2,379M of Q3 core sales [3].",
+      "In the value chain these firms sit between materials suppliers (metals, resins, ceramic and glass inputs) and equipment makers, EMS contractors and distributors, which assemble the parts into servers, vehicles and devices [10][11]. Chips are bought and sold separately; the parts here connect and protect them.",
+      "The industry has shifted toward AI-linked and electrified end markets and consolidated. Amphenol spent about $3.8B on five acquisitions in 2025 and closed the $10.5B CommScope business in January 2026, the largest in its history [10]. Connector growth was uneven by region: Asia Pacific rose 32.6% in 2025 and Japan 2.9% [12].",
+      "Sales are global but production is Asia-heavy. About 65% of Amphenol's 2025 sales were outside the US, with China about 16% [10]. TE's fiscal 2025 split was Asia-Pacific 38%, EMEA 33% and Americas 29%, with about 25% of sales to Chinese customers [11]. Bishop reports Asia Pacific as the fastest-growing connector region [12]."
+    ],
+    "competition": [
+      "There are thousands of competitors, but a handful of scaled players. TE says it competes with thousands of firms, from multinationals to local manufacturers [11]. Amphenol names Aptiv, Belden, Corning, Foxconn Interconnect, Glenair, Huber+Suhner, Luxshare, Jonhon, Molex, Rosenberger, Sensata, TE and Yazaki [10].",
+      "Leaders are Amphenol, with $10.2B of Q3 2026 sales [1], and TE, with $19.9B of fiscal 2026 sales [2]. In optical and glass, Corning had $5.1B of Q3 core sales [3]. In passives, TrendForce names Murata and Samsung Electro-Mechanics among the key MLCC suppliers [6], and Vishay's quarterly sales were $978.9M [4]. We found no sourced market-share percentages, so we quote none.",
+      "The group is fragmented overall but concentrated in niches such as high-speed data connectors and high-capacitance MLCCs, where a few firms supply most of the volume [6][10]. The leaders keep consolidating, as Amphenol's CommScope deal shows [10].",
+      "Barriers to entry include qualification and design-in cycles, global manufacturing and service networks, tooling and process know-how, and capital for capacity. In MLCCs, capacity takes years to add: Murata says new capacity is unlikely before 2028 [6]. Amphenol cites technology, quality, price, service and delivery time as the competitive basis [10].",
+      "Economies of scale matter in purchasing, tooling, global plants and engineering. Amphenol's 29.5% operating margin [1] and TE's 22.1% adjusted margin [2] sit well above Damodaran's 10.42% pre-tax margin for the broad Electronics (General) group [13], which includes lower-margin assemblers.",
+      "Products range from commodity to highly differentiated. Consumer-grade MLCCs are close to commodities and spot prices fell about 5% in early October, while high-end AI-grade parts are in shortage [6]. Gross margins show the split: Vishay 25.5% [4] against Damodaran's group at 26.76% [13].",
+      "Bargaining power depends on the part. Large server, auto and phone makers negotiate hard on standard parts, while suppliers hold power in shortages: TrendForce says the shortage gives suppliers leverage in pricing talks [6]. Customers are diversified, as Amphenol has no customer at 10% or more of sales [10], which limits any one buyer's leverage. Raw material suppliers are fragmented, but metals prices pass through with a lag [10]."
+    ],
+    "drivers": [
+      "Revenue growth follows end-market demand and content per device. AI infrastructure is currently the strongest: Amphenol's orders of $12.2B and organic growth of 37% [1], TE's Industrial sales growth of 19.8% in the fiscal fourth quarter [2], and Corning's Optical Communications segment at $2,379M [3]. Acquisitions added 28 points to Amphenol's growth [1].",
+      "Operating margins depend on volume leverage, mix, pricing and input costs. Amphenol's adjusted operating margin was 29.7% on sales up 65%, and its Communications Solutions segment earned 33.1% [1]. Vishay's operating margin was 9.4% on a 25.5% gross margin [4].",
+      "Key costs are metals (copper, gold, silver, palladium), plastics, labour and freight. TrendForce says nickel, copper and silver raised electrode material costs, with Japan's import price index up 24.5% year on year in September [6]. The ISM raw-materials price index has risen 25 months straight [8].",
+      "Interest-rate sensitivity is moderate. Customers' capital spending is financed, and the leaders carry acquisition debt: Amphenol expects net interest expense to rise to about $800M in 2026 [10]. The Fed held at 3.75-4.00% on 28 October with two members preferring a hike [9]. Damodaran's broad group has debt of 2.69 times EBITDA versus 6.52 for the market [18].",
+      "Inflation, GDP and employment matter through manufacturing activity and consumer spending. The ISM Manufacturing PMI was 55.5 in October, the tenth straight month of expansion, with prices at 75.2 [8]. Commodity prices pass through to costs with a lag [10]. Weak consumer spending shows in notebook orders expected down 10-15% [6].",
+      "The group is cyclical, with secular growth layers. Datacom, electrification and automation are structural drivers [10][12], while consumer electronics and inventory swings are cyclical. Vishay's book-to-bill of 1.29 [4] and Bishop's 14.7% connector growth in 2025 [12] show an upswing phase."
+    ],
+    "financials": [
+      "Growth is strong but uneven. In the latest quarters Amphenol grew 65% (organic 37%) [1], TE 11.9% (13.4% organic) [2], Corning's core sales 19% [3], Vishay 24% [4] and Littelfuse 22.7% [5]. FactSet puts the broader Electronic Equipment, Instruments and Components industry at 27% blended Q3 revenue growth and 46% earnings growth [7].",
+      "Margins vary with mix. Damodaran's Electronics (General) group of 114 US firms has a 26.76% gross margin, 10.42% pre-tax operating margin and 6.47% net margin as of January 2026 [13]. Leaders are higher: Amphenol 29.5% [1], Corning 22.7% core [3], Littelfuse 20.0% [5], TE 22.1% adjusted [2]; Vishay is lower at 9.4% [4].",
+      "Returns on capital are high on Damodaran's data: after-tax ROIC of 24.48% against 10.08% for the total market and a ten-year normalized ROIC of 17.47% against 7.72% [14]. The page's header says January 2026 but its footer says January 2025, so the vintage is uncertain [14]. The table has no ROE column, so we quote none.",
+      "Leverage is moderate for the broad group, with book debt to capital of 33.97% against 61.72% for the market and debt of 2.69 times EBITDA against 6.52 [18]. Company balance sheets vary: Littelfuse net debt is $437.3M [5], Vishay holds $1,139.9M of cash against $735.5M of long-term debt [4], and Amphenol and Corning carry far more after deals [1][3].",
+      "Free cash flow is solid. Amphenol generated $1,622.7M in Q3, about 16% of sales on our arithmetic [1]; TE $3,412M for fiscal 2026, about 17% of sales [2]; Corning $661M adjusted [3]; Vishay $98.5M [4]; Littelfuse $215.7M [5]. Quarterly figures are not annual run-rates.",
+      "Capital spending needs are moderate and rise with capacity expansions. Damodaran's group shows capex at 141.09% of depreciation, versus 148.57% for the market, and net capex of 5.68% of sales [17]. Vishay's quarterly capex was about 4.9% of sales on our arithmetic [4].",
+      "Valuation: Damodaran's January 2026 data show Electronics (General) at a forward P/E of 29.61x against 27.66x for the whole US market [15] and EV/EBITDA of 19.99x for positive-EBITDA firms against 19.73x [16]. These are broad-proxy figures ten months old; current multiples for the GICS sub-industry were not available to us."
+    ],
+    "risks": [
+      "Regulatory risk is mostly trade policy. Amphenol's 10-K flags new US tariffs, retaliation and export restrictions, and a Chinese tax challenge with potential cost of $100M to $300M, of which $100M is recorded [10]. TE cites tariffs and trade barriers [11] and has an $87M reconciling item tied to IEEPA tariff refunds [2].",
+      "Technology and AI are mainly a tailwind, since AI servers lift demand for connectors, optics and capacitors [1][6]. The disruption risk is faster architecture change: for example, TrendForce notes the shift from AI training to inference is changing which parts are short [6]. We think the larger risk is an AI-spending pause after a heavy order surge.",
+      "Demographic effects are small and indirect; we found no sourced evidence that they move this industry. Ageing populations raise medical and automation demand at the margin, and medical was the slowest-growing connector end use at 5.9% in 2025 [12].",
+      "Consumer behaviour matters for phones and PCs. TrendForce says consumer MLCC demand is weak, with notebook ODMs expecting 4Q26 orders down 10-15% and smartphone brands cutting entry and midrange shipments [6]. Mobile devices were only about 6% of Amphenol's 2025 sales [10].",
+      "New competitors include Chinese and Taiwanese suppliers that gain spillover consumer orders [6], and Chinese connector firms such as Luxshare and Jonhon, which Amphenol names as competitors [10]. New business models are limited because the product is physical.",
+      "Geopolitics and supply chain are material. About 25% of TE's fiscal 2025 sales went to Chinese customers and it has 19 principal plants there [11]; China is about 16% of Amphenol's sales and 37% of its long-lived assets [10]. Currency also matters: about 60% of TE's sales are in non-dollar currencies, unhedged [11].",
+      "Substitutes are limited for the core parts: signals still need physical or optical links and boards need capacitors. Wireless links, higher integration of passives into chips and package-level optics could reduce parts per device over time, but we found no sourced estimate, so this stays our judgment. Copper-to-optical shifts help Corning [3]."
+    ],
+    "horizon": {
+      "opportunities": [
+        "AI and data-centre build-outs are lifting orders sharply, with Amphenol booking $12.2B of orders in one quarter and high-end MLCCs short into 2027 [1][6].",
+        "Electrification and automation keep raising content per vehicle and per factory, with Industrial the faster-growing TE segment at 19.8% in the quarter [2].",
+        "Optical demand supports Corning, whose Optical Communications segment had $2,379M of Q3 core sales [3].",
+        "Scale through acquisitions, such as Amphenol's $10.5B CommScope deal, widens product coverage in data networks [10]."
+      ],
+      "threats": [
+        "An AI-spending pause or inventory correction would hit orders from today's high base, and consumer demand is already weak [6].",
+        "Tariffs and export restrictions could raise costs or block sales in China, where TE earns about 25% of sales [11][10].",
+        "Metals and input-cost inflation can squeeze margins, with the ISM prices index at 75.2 [8][6].",
+        "Acquisition debt and higher-for-longer rates raise financing costs, such as Amphenol's rising interest expense [10][9]."
+      ],
+      "assessment": "We think the next three to five years favour suppliers tied to AI data centres, optical links and electrified vehicles, which are reporting record orders and rising margins [1][2][3]. The structural story rests on content per device and on scarce, qualified capacity, particularly MLCCs, where relief is not expected before 2028 [6]. The caution is that the current surge sits on a narrow set of AI programmes and a shortage cycle, and shortages historically reverse when capacity arrives; consumer parts are already weak [6]. Margin expansion at Amphenol and Littelfuse shows operating leverage [1][5], but the same leverage works in reverse. Acquisition integration and trade policy are the main execution risks [10]. Valuation data for the sub-industry were not available to us, so we cannot say how much of this is priced in."
+    }
+  },
+  "sections": [
+    {
+      "id": "macro",
+      "paragraphs": [
+        "The cycle is supportive. The ISM Manufacturing PMI was 55.5 in October 2026, up from 54.5, the tenth straight month of expansion, with new orders at 55.5 [8]. That helps the industrial, automotive and equipment customers that buy connectors, sensors and protection parts. The ISM prices index was 75.2, down from 77.9 but still showing broad input-cost inflation, with raw material prices rising for 25 straight months [8].",
+        "The Federal Reserve held its target range at 3.75-4.00% on 28 October, said inflation remains elevated, and recorded two dissents in favour of a quarter-point rise [9]. Our read is that rates are a modest headwind for financed capital spending and acquisition-led strategies, not a threat to current demand. Amphenol's own 10-K expects net interest expense to rise from $367.8M to about $800M in 2026 after its CommScope purchase [10].",
+        "Trade policy and currency are swing factors. TE reports an $87M reconciling item related to IEEPA tariff refunds [2], and says about 60% of its fiscal 2025 sales were in non-dollar currencies and not hedged [11]. Across the S&P 500, FactSet reports blended Q3 earnings growth of 30.2% [7], a strong backdrop for corporate spending."
+      ]
+    },
+    {
+      "id": "demand",
+      "paragraphs": [
+        "The addressable market is large but is measured differently by each source. Bishop & Associates says the global connector market grew by more than $12.7B in 2025, or 14.7%, with telecom and datacom the leading end use and automotive second [12]. TE says its two segments serve a market of about $200B [11]. We found no sourced figure for passive components or the group as a whole.",
+        "Structural drivers are AI data centres, electrification, factory automation and aerospace and defence. Amphenol's IT datacom was about 36% of 2025 sales [10], and in Q3 2026 it booked $12.2B of orders against $10.2B of sales [1]. Corning's Optical Communications segment reached $2,379M [3]. TrendForce says AI servers and the shift to inference are lifting demand for high-capacitance MLCCs [6].",
+        "Demand is cyclical, with the consumer segment weakest: notebook makers expect 4Q26 orders down 10-15% and smartphone brands are cutting entry-level shipments [6]. Demographics matter little directly. Our view is that long-term prospects are good, but today's growth rate is boosted by a shortage and an AI investment surge, and should not be extrapolated."
+      ]
+    },
+    {
+      "id": "structure",
+      "paragraphs": [
+        "Applying Porter's five forces: rivalry is moderate to high in standard parts, where Amphenol lists more than a dozen named competitors including TE, Molex, Luxshare and Aptiv [10], and lower in specialised niches. The threat of new entrants is low at the high end, because of qualification, tooling and capacity needs, but higher in commodity parts where Chinese and Taiwanese suppliers are gaining orders [6].",
+        "Buyer power is mixed: large OEMs negotiate on standard parts, but Amphenol has no customer at 10% or more of sales [10], and in shortages suppliers hold the leverage, as TrendForce notes for high-end MLCCs [6]. Supplier power is moderate: metals such as gold, silver, copper and palladium are bought on world markets [10][11], and electrode materials rose in cost [6]. The threat of substitutes is limited, in our view, since signals still need physical or optical links.",
+        "Concentration is high in niches and low overall. We found no sourced market shares. The leaders are scaling up by acquisition: Amphenol spent about $3.8B on five deals in 2025 and then closed CommScope's connectivity business for about $10.5B [10]. Moats are design-in relationships, qualified capacity and global plants; Murata says new MLCC capacity is unlikely before 2028 [6]."
+      ]
+    },
+    {
+      "id": "environment",
+      "paragraphs": [
+        "Politics and trade dominate. Amphenol's 10-K lists new US tariffs, retaliation and export restrictions as risks, plus a Chinese tax dispute with potential costs of $100M to $300M, of which $100M is recorded [10]. TE cites tariffs and trade barriers [11] and its release shows a reconciling item of $87M for IEEPA tariff refunds [2].",
+        "Economically, input-cost inflation is the live issue. The ISM prices index was 75.2 [8], and TrendForce says Japan's import price index rose 24.5% year on year in September, with nickel, copper and silver raising electrode costs [6]. Technologically, AI is the main source of new demand, and the shift from training to inference is changing which components are short [6].",
+        "Social and environmental factors are secondary but real: electrification and energy-grid investment support demand for sensors, connectors and protection parts, and TE's Industrial Solutions includes energy (17% of the segment) and medical (9%) [11]. We did not find sector-specific regulation that is changing the economics of the group, apart from trade and export controls. Geopolitical concentration is a risk: Amphenol has about 37% of its long-lived assets in China [10]."
+      ]
+    },
+    {
+      "id": "economics",
+      "paragraphs": [
+        "Economics are attractive at the leaders. Damodaran's broad Electronics (General) group (114 US firms, January 2026) has a 26.76% gross margin, 10.42% pre-tax operating margin and 6.47% net margin [13], and after-tax ROIC of 24.48% against 10.08% for the whole market [14]. The ROIC page's header and footer disagree on vintage, and it has no ROE column.",
+        "Bellwethers are above the broad average: Amphenol's GAAP operating margin was 29.5% [1], Corning's core operating margin 22.7% [3], TE's adjusted 22.1% [2], Littelfuse 20.0% [5] and Vishay 9.4% [4]. Operating leverage is visible: Vishay's gross margin rose from 19.5% to 25.5% on 24% sales growth [4], and Littelfuse's operating margin rose from 15.6% to 20.0% [5].",
+        "Capital intensity is moderate: Damodaran's group shows net capex of 5.68% of sales [17], and Vishay spent $47.5M on capex against $145.8M of operating cash flow in the quarter [4]. Cash conversion is good: Amphenol's free cash flow was $1,622.7M in Q3 [1] and TE's $3,412M for fiscal 2026 [2]. Margins are exposed to metals prices, tariffs and the end of shortage pricing."
+      ]
+    },
+    {
+      "id": "earnings",
+      "paragraphs": [
+        "Reported earnings are strong. Amphenol's adjusted EPS was $0.80, up 74%, and it guides Q4 to $0.81-0.83 on sales of $10.3-10.5B, excluding acquisitions not yet closed [1]. TE's adjusted EPS was $3.14, up 21%, and it guides fiscal Q1 2027 to about $3.30 on sales near $5.35B [2]. Corning guides Q4 core EPS to $0.96-1.00 [3], Vishay guides $990M of revenue and a 26.0% gross margin [4], and Littelfuse guides adjusted EPS of $5.05-5.25 [5].",
+        "Across the broader industry, FactSet reports Electronic Equipment, Instruments and Components blended Q3 earnings growth of 46% and revenue growth of 27%, as of 30 October [7]. For the S&P 500 it reports 30.2% blended Q3 growth, with 82% of companies beating EPS estimates and Q4 growth of 28.4% expected [7]. Sub-industry consensus and revision data were not available to us.",
+        "Our view: the guidance implies growth continues but mostly at a slower sequential pace, for example Littelfuse's guide of $750-770M against $766.7M in Q3, which included a $28.5M one-time reduction [5]. The risk is not the next quarter but whether record orders convert, given supply limits and a consumer slowdown [6]."
+      ]
+    },
+    {
+      "id": "valuation",
+      "paragraphs": [
+        "A current forward multiple for the GICS sub-industry was not available to us. The best proxy is Damodaran's Electronics (General) group of 114 US firms, which in January 2026 traded at a forward P/E of 29.61x against 27.66x for the total US market [15], and at 19.99x EV/EBITDA for positive-EBITDA firms against 19.73x [16]. That group is a broad mix, and the data are ten months old.",
+        "Market context is more current but on a different basis. FactSet puts the S&P 500 forward 12-month P/E at 18.7 on 30 October 2026, below its five-year average of 19.8 and ten-year average of 19.1 [7]. Damodaran's market forward P/E of 27.66x is much higher because his method and date differ, so the two should not be compared directly.",
+        "Our read: in January, the group traded at a modest premium to the market on both measures, which is not extreme for businesses with ROIC above the market [14][15][16]. We cannot say where the sub-industry sits today relative to its own history without current data, and we do not draw a conclusion. Free-cash-flow yields were not available; the cash flows reported by the bellwethers are strong against their capital needs [1][2]."
+      ]
+    },
+    {
+      "id": "positioning",
+      "paragraphs": [
+        "Positioning data for this sub-industry, including ETF holdings and flows, short interest, relative performance and price momentum, were not available to us from the sources we opened, so we do not quote any.",
+        "What we can say rests on earnings and orders, which are inputs to momentum. FactSet reports that the broader Electronic Equipment, Instruments and Components industry has the second-ranked earnings growth among the Information Technology industries at 46%, behind only Semiconductors at 132% [7]. Breadth within the group is good: Amphenol, TE, Corning, Vishay and Littelfuse all reported growth of 11.9% or more [1][2][3][4][5].",
+        "Share-price reactions to these reports were not available from the sources we opened. We think momentum will depend on whether record orders such as Amphenol's $12.2B convert into sales [1], on how long the MLCC shortage lasts, with TrendForce expecting it through 1H27 [6], and on consumer-device demand, which is weakening [6]."
+      ]
+    }
+  ],
+  "sources": [
+    {"n": 1, "title": "Amphenol Form 8-K: third quarter 2026 results", "publisher": "Amphenol / SEC", "date": "2026-10-28", "url": "https://www.sec.gov/Archives/edgar/data/0000820313/000110465926119421/aph-ex99d1.htm"},
+    {"n": 2, "title": "TE Connectivity Form 8-K: fourth quarter and full year fiscal 2026 results", "publisher": "TE Connectivity / SEC", "date": "2026-10-28", "url": "https://www.sec.gov/Archives/edgar/data/0001385157/000110465926119326/tel-ex99d1.htm"},
+    {"n": 3, "title": "Corning Form 8-K: third quarter 2026 results", "publisher": "Corning / SEC", "date": "2026-10-27", "url": "https://www.sec.gov/Archives/edgar/data/0000024741/000002474126000273/glw-20261027xex99xq32026.htm"},
+    {"n": 4, "title": "Vishay Intertechnology Form 8-K: third quarter 2026 results", "publisher": "Vishay / SEC", "date": "2026-11-04", "url": "https://www.sec.gov/Archives/edgar/data/0000103730/000010373026000079/exhibit99-1.htm"},
+    {"n": 5, "title": "Littelfuse Form 8-K: third quarter 2026 results", "publisher": "Littelfuse / SEC", "date": "2026-10-28", "url": "https://www.sec.gov/Archives/edgar/data/0000889331/000162828026067718/q32026earningsreleaseex991.htm"},
+    {"n": 6, "title": "TrendForce press release on the high-end MLCC shortage outlook", "publisher": "TrendForce", "date": "2026-10-29", "url": "https://www.trendforce.com/presscenter/news/20261029-13284.html"},
+    {"n": 7, "title": "FactSet Earnings Insight", "publisher": "FactSet", "date": "2026-10-30", "url": "https://advantage.factset.com/hubfs/Website/Resources%20Section/Research%20Desk/Earnings%20Insight/EarningsInsight_103026.pdf"},
+    {"n": 8, "title": "October 2026 ISM Manufacturing PMI Report (excerpt)", "publisher": "ISM via Webull", "date": "2026-11-02", "url": "https://www.webull.com/news/15854774774635520"},
+    {"n": 9, "title": "Federal Reserve press release, FOMC statement, 28 October 2026", "publisher": "Federal Reserve", "date": "2026-10-28", "url": "https://www.federalreserve.gov/newsevents/pressreleases/monetary20261028a.htm"},
+    {"n": 10, "title": "Amphenol Form 10-K, fiscal year ended 31 December 2025", "publisher": "Amphenol / SEC", "date": "2026-02-11", "url": "https://www.sec.gov/Archives/edgar/data/820313/000110465926013549/aph-20251231x10k.htm"},
+    {"n": 11, "title": "TE Connectivity Form 10-K, fiscal year ended 26 September 2025", "publisher": "TE Connectivity / SEC", "date": "2025", "url": "https://www.sec.gov/Archives/edgar/data/1385157/000110465925109150/tel-20250926x10k.htm"},
+    {"n": 12, "title": "Global Connector Market Posts 14.7% Growth in 2025, Led by Asia Pacific Surge", "publisher": "Connector Supplier (Bishop & Associates)", "date": "2026-03-24", "url": "https://connectorsupplier.com/global-connector-market-posts-14-7-growth-in-2025-led-by-asia-pacific-surge/"},
+    {"n": 13, "title": "Margins by sector (US), January 2026", "publisher": "Aswath Damodaran, NYU Stern", "date": "2026-01", "url": "https://pages.stern.nyu.edu/~adamodar/New_Home_Page/datafile/margin.html"},
+    {"n": 14, "title": "Return on capital by sector (US)", "publisher": "Aswath Damodaran, NYU Stern", "date": "2026-01", "url": "https://pages.stern.nyu.edu/~adamodar/New_Home_Page/datafile/roc.html"},
+    {"n": 15, "title": "PE ratios by sector (US), January 2026", "publisher": "Aswath Damodaran, NYU Stern", "date": "2026-01", "url": "https://pages.stern.nyu.edu/~adamodar/New_Home_Page/datafile/pedata.html"},
+    {"n": 16, "title": "EV/EBITDA multiples by sector (US), January 2026", "publisher": "Aswath Damodaran, NYU Stern", "date": "2026-01", "url": "https://pages.stern.nyu.edu/~adamodar/New_Home_Page/datafile/vebitda.html"},
+    {"n": 17, "title": "Capital expenditures by sector (US), January 2026", "publisher": "Aswath Damodaran, NYU Stern", "date": "2026-01", "url": "https://pages.stern.nyu.edu/~adamodar/New_Home_Page/datafile/capex.html"},
+    {"n": 18, "title": "Debt fundamentals by sector (US), January 2026", "publisher": "Aswath Damodaran, NYU Stern", "date": "2026-01", "url": "https://pages.stern.nyu.edu/~adamodar/New_Home_Page/datafile/dbtfund.html"}
+  ]
+}

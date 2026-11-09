@@ -1,0 +1,444 @@
+{
+  "code": "45203030",
+  "added": "2026-11-09",
+  "asOf": "2026-11-05",
+  "summary": "Technology Distributors are in a boom that is absorbing cash. Latest-quarter sales rose 38% at TD Synnex [1], 39% at Arrow [3], 82% at Avnet (about 71% excluding an extra week) [4], 21% at Ingram Micro [6] and 30% at ScanSource [5], on AI infrastructure demand and, we think, higher component prices [15][16][17]. Margins are thin and mixed: gross margin fell to 6.61% at TD Synnex [1] and 6.55% at Ingram [6]. Operating cash flow was negative at TD Synnex, Arrow and Avnet as receivables and inventory grew [1][3][4]. Consensus and valuation for the sub-industry were not available to us; the S&P 500 trades at 18.7x forward earnings [12].",
+  "metrics": [
+    {
+      "label": "TD Synnex revenue, fiscal Q3 2026",
+      "value": "$21.56B",
+      "context": "+37.7% y/y; non-GAAP gross billings $31.8B, +40.0%; quarter ended 31 Aug 2026",
+      "source": 1
+    },
+    {
+      "label": "Arrow Electronics sales, Q3 2026",
+      "value": "$10.72B",
+      "context": "+39% y/y; operating margin 4.0% vs 2.3%; quarter ended 3 Oct 2026",
+      "source": 3
+    },
+    {
+      "label": "Avnet sales, fiscal Q1 2027",
+      "value": "$10.72B",
+      "context": "+81.7% y/y, +70.6% excluding the extra week (14 vs 13 weeks); operating margin 4.4%",
+      "source": 4
+    },
+    {
+      "label": "Ingram Micro gross margin, Q3 2026",
+      "value": "6.55%",
+      "context": "Down from 6.90%; 7.06% excluding large GPU and AI deals; net sales $15.2B, +20.8%",
+      "source": 6
+    },
+    {
+      "label": "TD Synnex operating cash flow, fiscal Q3 2026",
+      "value": "-$916.7M",
+      "context": "Nine-month operating cash flow -$2,078.2M; inventories $15.3B and receivables $15.0B",
+      "source": 1
+    },
+    {
+      "label": "Avnet total debt, 3 Oct 2026",
+      "value": "$4.17B",
+      "context": "Up from about $3.21B at 27 Jun 2026; operating cash flow -$842.4M in the quarter",
+      "source": 4
+    },
+    {
+      "label": "ISM Manufacturing PMI, October 2026",
+      "value": "55.5",
+      "context": "Up from 54.5; prices index 75.2; economy-wide, not this sub-industry",
+      "source": 13
+    },
+    {
+      "label": "Retail (Distributors) EV/EBITDA",
+      "value": "13.71x",
+      "context": "Damodaran, 62 US firms, January 2026; a broad proxy with a 30.6% gross margin, not the GICS group",
+      "source": 10
+    }
+  ],
+  "watch": [
+    "Fourth-quarter guidance: Arrow guides sales to $11.55-12.15B, TD Synnex to revenue of $21.8-22.6B and Avnet's December quarter to $11.1-11.4B, so any miss would show quickly [3][1][4].",
+    "Working capital: operating cash flow was negative at TD Synnex (-$916.7M), Arrow (-$441.4M) and Avnet (-$842.4M) in the latest quarter, and Avnet's debt rose to $4.17B [1][3][4].",
+    "Memory and PC demand: DRAM contract prices are still rising but gains are narrowing, while TrendForce reports weak PC demand and falling notebook shipments [15].",
+    "Margin mix: large GPU and AI-infrastructure deals lower gross margin at Ingram Micro, and lower-margin hardware deals hurt ScanSource's specialty segment [6][5].",
+    "Rates and trade policy: the Fed held at 3.75-4.00% with two dissents favoring a hike, and TD Synnex lists tariffs among its risks [14][2]."
+  ],
+  "bellwethers": [
+    "TD Synnex",
+    "Arrow Electronics",
+    "Avnet",
+    "Ingram Micro",
+    "Insight Enterprises",
+    "ScanSource"
+  ],
+  "basics": {
+    "intro": "Technology distributors buy hardware, software, cloud services and electronic components in bulk from manufacturers and sell them on to resellers, system builders and manufacturers. They add logistics, credit, financing, configuration and technical support, and live on small percentage margins earned on very large sales. TD Synnex, Ingram Micro and ScanSource serve IT resellers; Arrow and Avnet serve electronics makers and also sell components. GICS also places IT resellers such as Insight here; we have not verified every constituent. Chip and device makers sit in other sub-industries.",
+    "products": [
+      {
+        "name": "IT product distribution",
+        "what": "Servers, PCs, networking, storage and software bought from vendors and sold to resellers and managed service providers, with credit and delivery.",
+        "examples": "TD Synnex, Ingram Micro, ScanSource"
+      },
+      {
+        "name": "Electronic components distribution",
+        "what": "Chips, passives, connectors and sensors supplied to equipment makers in small lots, often with design support and stocking programs.",
+        "examples": "Arrow Global Components, Avnet Electronic Components, Farnell"
+      },
+      {
+        "name": "Enterprise computing and cloud solutions",
+        "what": "Data-center, security and cloud offerings packaged with services and financing for corporate buyers and their resellers.",
+        "examples": "Arrow ECS, Ingram Micro Cloud-based Solutions"
+      },
+      {
+        "name": "Hyperscale and custom systems",
+        "what": "Building and integrating servers and racks to order for large cloud operators.",
+        "examples": "TD Synnex Hyve Solutions"
+      },
+      {
+        "name": "IT reseller and services",
+        "what": "Selling hardware, software and services directly to businesses, with cloud and consulting layers.",
+        "examples": "Insight Enterprises"
+      },
+      {
+        "name": "Specialty and communications products",
+        "what": "Barcode, payments, networking and communications equipment, plus telecom and cloud service brokerage.",
+        "examples": "ScanSource Specialty Technology Solutions and Intelisys"
+      }
+    ],
+    "terms": [
+      {
+        "term": "Gross billings",
+        "meaning": "The total value of goods and services a distributor sells, before netting items such as software or cloud licences that are booked on a net basis. TD Synnex reports it as a non-GAAP measure."
+      },
+      {
+        "term": "Net vs. gross revenue",
+        "meaning": "Some sales, such as software and cloud, are recorded as only the distributor's fee. A shift in mix therefore changes reported revenue growth and gross margin."
+      },
+      {
+        "term": "Gross margin",
+        "meaning": "Sales minus the cost of products, as a share of sales. For distributors it is usually single digits for IT products and higher for components."
+      },
+      {
+        "term": "Operating margin",
+        "meaning": "Operating profit as a share of sales. Because gross margin is thin, small cost changes move it a lot."
+      },
+      {
+        "term": "Working capital",
+        "meaning": "Receivables plus inventory minus payables. Growth in sales ties up cash here, so profitable growth can still produce negative operating cash flow."
+      },
+      {
+        "term": "Return on working capital",
+        "meaning": "Operating profit relative to the net money tied up in receivables and inventory. Avnet reports it as a headline efficiency measure."
+      },
+      {
+        "term": "Book-to-bill",
+        "meaning": "Orders received divided by sales shipped. Above 1 means backlog is growing."
+      },
+      {
+        "term": "Backlog",
+        "meaning": "Orders accepted but not yet shipped. A long backlog can reflect strong demand or supply that cannot keep up."
+      },
+      {
+        "term": "Lead time",
+        "meaning": "The wait between ordering and receiving a part. Lengthening lead times often cause customers to over-order."
+      },
+      {
+        "term": "Line card",
+        "meaning": "The list of suppliers a distributor represents. A broad line card helps customers buy in one place."
+      },
+      {
+        "term": "Floor-plan financing",
+        "meaning": "Credit that lets resellers buy inventory from the distributor and pay later. It makes distributors lenders as well as sellers."
+      },
+      {
+        "term": "Supplier finance program",
+        "meaning": "An arrangement where a manufacturer's receivables from the distributor are sold to a bank, usually giving the distributor longer payment terms."
+      },
+      {
+        "term": "Value-added distribution",
+        "meaning": "Services beyond shipping, such as configuration, design help, financing and technical support, which earn higher margins than moving boxes."
+      }
+    ],
+    "drivers": [
+      {
+        "name": "End-demand for IT and electronics",
+        "how": "Distributor sales follow what customers spend on servers, PCs, networking and electronic equipment. Strong cycles lift sales within a quarter or two."
+      },
+      {
+        "name": "Component prices and shortages",
+        "how": "Rising chip and memory prices lift sales values, and shortages lengthen lead times and prompt double ordering, which can inflate sales until customers destock."
+      },
+      {
+        "name": "Product mix",
+        "how": "Large low-margin deals (GPUs, hyperscale racks) add sales but dilute gross margin, while services, cloud and components lift it."
+      },
+      {
+        "name": "Working capital and financing costs",
+        "how": "Faster growth ties up cash in inventory and receivables, forcing more borrowing. Higher interest rates then cut into thin operating profits."
+      },
+      {
+        "name": "Vendor and customer concentration",
+        "how": "A few vendors and customers account for large shares of sales, so program changes at one of them move revenue."
+      },
+      {
+        "name": "Currency, tariffs and trade rules",
+        "how": "Distributors invoice in many currencies and import across borders, so exchange rates and duties alter sales and costs."
+      },
+      {
+        "name": "Acquisitions",
+        "how": "Smaller specialists are bought to add capabilities or geography, lifting reported growth and, after integration, margins."
+      }
+    ]
+  },
+  "fundamentals": {
+    "business": [
+      "Revenue comes from reselling products bought from manufacturers, plus smaller fees for services, financing and cloud or software brokerage. TD Synnex had $62.5B of revenue in fiscal 2025 [2]. Arrow splits into Global Components and Global ECS [3], Avnet into Electronic Components and Farnell [4], and Insight sells hardware (62% of Q3 net sales), software and services [7].",
+      "Customers are resellers, integrators, managed service providers and equipment makers, not end consumers. TD Synnex counts more than 150,000 active reseller customers and about 2,500 vendors [2]. Concentration is meaningful: one customer was 11% of its FY2025 revenue, and Apple and HP were 12% and 10% of revenue as vendors [2].",
+      "The main cost is the product itself, so cost of sales swallows most revenue. TD Synnex's FY2025 gross margin was 6.99% and operating margin 2.26% [2]. Selling, general and administrative costs (people, warehouses, credit losses) and interest on working-capital debt make up most of the rest. Insight spends more on services and sales staff, with a 21.4% gross margin [7].",
+      "Pricing power is limited for commodity products because competition rests on availability, credit terms, price and delivery speed [2]. It improves with value-added services and specialized components: Avnet's Farnell earned a 10.1% operating margin against 4.8% in its core components business [4]. In shortages, distributors with allocation from suppliers gain leverage.",
+      "The main assets are receivables and inventory, financed by payables to vendors and by debt. TD Synnex held $15.3B of inventory and $15.0B of receivables against $22.4B of payables at 31 Aug 2026 [1]. It also uses supplier finance programs and credit insurance [2]. Debt: about $5.5B of borrowings against $0.75B of cash [1].",
+      "The model is asset-light in plant and equipment but capital-intensive in working capital. Arrow's capex was $26.9M in the quarter against $10.7B of sales [3], yet growth consumed cash: its operating cash flow was -$441.4M [3]. Money is tied up in stock and credit extended to customers, not factories."
+    ],
+    "overview": [
+      "No authoritative market-size figure for technology distribution was available to us. We size it by its leaders: TD Synnex $62.5B of FY2025 revenue [2], and a quarterly run-rate of $21.6B at TD Synnex [1], $10.7B at Arrow [3], $10.7B at Avnet [4] and $15.2B at Ingram Micro [6]. Gartner projects total 2026 IT spending of $6.37T, which is the broader pool distributors serve [16].",
+      "Main segments are IT products and services distribution (TD Synnex, Ingram Micro, ScanSource), electronic components (Arrow Global Components $7.94B and Avnet Electronic Components $10.13B in the latest quarter [3][4]), enterprise computing and cloud (Arrow ECS $2.78B [3]), hyperscale systems (TD Synnex's Hyve [1]) and IT resellers such as Insight [7].",
+      "Distributors sit between manufacturers and the people who install or build with products. Upstream are chip, device and software makers; downstream are resellers, system builders and equipment makers. TD Synnex says most vendor agreements are nonexclusive and short-term [2], so the middle position depends on service rather than contracts.",
+      "The industry has moved from moving boxes to bundling services, cloud, financing and custom systems, and it has consolidated. ScanSource's fiscal 2027 outlook includes the MicroAge acquisition, closed 1 September 2026 [5]. TD Synnex names Hyve as a hyperscale business [2].",
+      "Activity is global and concentrated in the Americas, Europe and Asia. About 48% of TD Synnex's FY2025 revenue came from international operations [2]. Avnet's latest quarter was $2.86B Americas, $2.74B EMEA and $5.12B Asia [4]; Ingram Micro's was $5.8B North America, $3.9B EMEA, $4.3B Asia-Pacific and $1.1B Latin America [6]."
+    ],
+    "competition": [
+      "There are a handful of global distributors and many regional ones. TD Synnex names Ingram Micro, Arrow and Westcon-Comstor as international rivals and ScanSource, ALSO Holding, Esprinet and VSTECS as regional ones, plus hyperscale rivals such as Jabil, Celestica, Flex, Quanta and Wiwynn [2].",
+      "By latest-quarter sales the leaders are TD Synnex ($21.6B) [1], Ingram Micro ($15.2B) [6], then Arrow ($10.7B) [3] and Avnet ($10.7B, 14 weeks) [4]. Sourced market-share figures were not available to us, so we do not quote any. The IT-reseller specialist Insight reported $2.44B [7], and ScanSource says its sales grew 30% [5].",
+      "The group is concentrated at the top in each niche but fragmented overall, with regional specialists. We read the evidence as consolidating: ScanSource just bought MicroAge [5], and TD Synnex competes against a mix of other distributors and manufacturers [2].",
+      "Barriers to entry are credit capacity, scale in purchasing, vendor authorizations, logistics networks and risk management. Financing needs are visible in the numbers: TD Synnex has about $5.5B of borrowings [1] and Ingram about $3.9B [6]. A newcomer would need that balance sheet before it could win large vendor programs.",
+      "Scale matters for purchasing terms, warehouse use and the cost of credit. Ingram's operating margin is 1.93% [6] and TD Synnex's is 2.98% [1], so fixed costs spread over huge volumes are what produce a profit. Smaller players such as ScanSource lean on specialty niches [5].",
+      "Commodity hardware is largely undifferentiated, and competition is on availability, credit terms, price and delivery [2]. Differentiation comes from services, solutions and specialty products, as in Farnell's 10.1% operating margin [4], Insight's 21.4% gross margin [7] and ScanSource's Intelisys services [5].",
+      "Bargaining power sits mainly with suppliers and large customers. A few vendors are large (Apple 12% and HP 10% of TD Synnex revenue) [2] and can change programs; customers can switch for small price differences. In shortages, power moves to component makers, as TrendForce's description of an undersupplied memory market suggests [15]."
+    ],
+    "drivers": [
+      "Revenue growth follows technology spending and prices. Gartner expects 2026 data-center systems spending up 62.5% and devices up 9.8% [16]. The results reflect it: Ingram's Advanced Solutions rose 40% [6] and Insight's hardware sales rose 32% [7]. Component prices add to sales values when they rise [15].",
+      "Operating margin is set by mix, scale and cost control. Ingram's gross margin was 6.55% against 7.06% without large GPU and AI deals [6]. At Arrow, Components earned 5.2% and ECS about 3.5% operating margin on our arithmetic from its segment figures [3]. Value-added services and specialty lines raise margins.",
+      "Key cost variables are product cost, labor and freight, credit losses and interest. ScanSource booked a reserve for a Brazilian customer, Oi S.A. [5]. Arrow expects about $50M of interest expense in the fourth quarter [3], showing that financing is a real cost line for a distributor.",
+      "Interest-rate sensitivity is high because inventory and receivables are financed with debt. Avnet's debt rose to $4.17B [4] and TD Synnex's borrowings are $5.5B [1]. The Fed held its target at 3.75-4.00% and two members preferred a hike [14], which suggests financing costs will not fall soon.",
+      "Inflation and GDP matter through IT budgets and component prices. The ISM prices index was 75.2 and the PMI 55.5 [13], while DRAM contract prices keep rising [15]. Gartner says rising hardware and memory costs are straining budgets [16]. Unemployment matters little directly; business investment matters more.",
+      "The industry is cyclical, with secular layers from cloud, AI and security. Arrow's interim chief executive cited modernization spending in AI, cloud and cybersecurity [3]; TD Synnex cited enterprise AI adoption [1]. Component distributors also swing with inventory cycles, so we think booms and busts are both amplified."
+    ],
+    "financials": [
+      "Growth is exceptional at present but cyclical. Latest-quarter sales rose 37.7% at TD Synnex [1], 39% at Arrow [3], 81.7% at Avnet (70.6% excluding the extra week) [4], 20.8% at Ingram [6] and about 30% at ScanSource [5]. TD Synnex's fiscal 2025 growth was only 6.9% [2], so these quarters are far above the norm.",
+      "Gross margins are low: TD Synnex 6.61% [1], Ingram 6.55% [6], Avnet about 10.0% [4], Arrow about 10.8% [3] and Insight 21.4% [7]. Operating margins run from 1.93% at Ingram [6] and 2.98% at TD Synnex [1] to 4.0% at Arrow [3], 4.4% at Avnet [4] and 6.8% adjusted at Insight [7].",
+      "Returns look decent for the capital used. Damodaran's Retail (Distributors) group (62 US firms) shows after-tax ROIC of 17.41% and a ten-year normalized 16.12% against 10.08% for the whole market [9]. The group is broad: its gross margin of 30.57% [8] is far above tech distributors, so it is only a loose guide. Its ROE was not on the page. Avnet reports a 25.2% return on working capital [4].",
+      "Leverage is moderate to high. TD Synnex has about $4.8B of net debt on our arithmetic from its balance sheet [1]; Ingram has $3.9B of debt against $1.0B of cash [6]; Avnet's debt is $4.17B against $5.28B of equity [4]; Arrow has $2.64B of long-term debt and $7.19B of equity [3]; ScanSource is near 2x trailing adjusted EBITDA [5].",
+      "Free cash flow is lumpy and turns negative in growth. TD Synnex's free cash flow was -$975.6M in the quarter and -$2,237.0M over nine months [1]; Avnet's operating cash flow was -$842.4M [4]; ScanSource's free cash flow was -$44M [5]. Ingram generated $249.5M of adjusted free cash flow [6]. Cash returns when sales slow and inventory unwinds.",
+      "Capital spending is light: Arrow spent $26.9M in the quarter [3], Avnet $24.3M [4] and Insight guides to $20-30M for the year [7]. The big uses of cash are working capital, acquisitions and shareholder returns, such as TD Synnex's $292.4M of nine-month buybacks and $0.48 quarterly dividend [1].",
+      "Multiples are low relative to the market for the broad group. Damodaran's January 2026 Retail (Distributors) EV/EBITDA was 13.71x against 19.73x for the whole market [10]. Its forward P/E of 43.84x against 27.66x for the market [11] looks distorted by low earnings in the group, and we do not rely on it. No sub-industry current multiple was available."
+    ],
+    "risks": [
+      "Trade policy and credit rules are the main regulatory risks. TD Synnex cites uncertainty over global trade policies and tariffs [2] and Ingram lists tariff changes as a risk [6]. Tariffs raise costs and can distort ordering. Export controls on advanced chips and GPUs, which drive Ingram's Advanced Solutions growth [6], are a further risk we think matters.",
+      "AI is a demand source today: Ingram's Advanced Solutions grew 40% [6] and TD Synnex describes progress toward broader enterprise AI deployments [1]. The risk is that GPU and server buying is lumpy, low-margin and concentrated with a few hyperscale customers, and that hyperscale builders such as Jabil, Celestica and Quanta compete with Hyve [2].",
+      "Demographics matter little directly. The nearest effect is labor: warehouses and service desks depend on workers, and automation is a long-term cost lever. We did not find a source quantifying this.",
+      "Customer behaviour is shifting toward cloud and subscription buying and away from owned hardware. Insight's software sales fell 3% while cloud gross profit grew more than 20% [7], and Ingram's cloud-based solutions grew 31% [6]. TrendForce also reports weak PC demand and falling notebook shipments [15].",
+      "New competitors and models include vendors selling direct, cloud marketplaces and contract manufacturers moving into hyperscale systems [2]. TD Synnex says its vendor agreements are nonexclusive and short-term [2], so a vendor can reroute volume. Consolidation also continues, as with ScanSource's MicroAge deal [5].",
+      "Geopolitical and supply-chain risks are material: Asia is $5.12B of Avnet's quarterly sales [4], memory supply is tight with suppliers planning negative PC DRAM supply growth [15]. Supply shortages are listed among TD Synnex's risks [1]. Customer credit risk also matters, as ScanSource's Brazil reserve shows [5].",
+      "Substitutes include direct vendor-to-customer sales, hyperscaler marketplaces and manufacturers' own channel programs. TD Synnex notes that supplier finance programs and credit are part of the offer [2], which direct sellers must replicate. We found no sourced measure of how much volume is moving away from distributors, so this remains our judgment."
+    ],
+    "horizon": {
+      "opportunities": [
+        "AI infrastructure and data-center spending: Gartner expects data-center systems spending up 62.5% in 2026 [16], and TD Synnex's Hyve and Ingram's Advanced Solutions are ways to capture it [1][6].",
+        "A growing mix of cloud, security and services can lift margins; Arrow's ECS sales rose 29% and Insight's cloud and core services gross profit each grew more than 20% [3][7].",
+        "Semiconductor growth: WSTS forecasts the chip market to grow 26.6% in 2027 after 89.9% in 2026, supporting component distributors [17].",
+        "Acquisitions that add specialist capabilities, such as ScanSource's MicroAge deal [5]."
+      ],
+      "threats": [
+        "An inventory correction: customers who over-ordered into shortages may stop buying, as component distributors have seen before; backlogs are growing and memory is undersupplied now [3][15].",
+        "Working-capital strain and higher interest costs if growth continues and rates stay at 3.75-4.00% or rise [1][4][14].",
+        "Margin dilution from large low-margin GPU deals and competition from direct and hyperscale channels [6][2].",
+        "Tariff and export-control changes that raise costs or limit sales [2][6]."
+      ],
+      "assessment": "We think the next three to five years favour distributors that keep their role as the credit, logistics and integration layer for AI and cloud buildouts. Demand is strong now: sales are up 21% to 82% across the leaders, and guidance for the next quarter is higher still [1][3][4][6]. But much of the growth is lower-margin hardware, and it is absorbing cash, with three bellwethers reporting negative operating cash flow [1][3][4]. The record also sits on a chip market forecast to grow 90% in 2026, driven by memory, which cannot be assumed to repeat [17]. Our read is that results will stay strong while shortages persist, and then turn on how cleanly inventory unwinds. Sub-industry valuation data were not available, so we cannot judge how much of this is priced."
+    }
+  },
+  "sections": [
+    {
+      "id": "macro",
+      "paragraphs": [
+        "The cycle is supportive for hardware demand. The ISM Manufacturing PMI was 55.5 in October 2026 (54.5 in September), with new orders at 55.5 and inventories at 51.4 after 48.6 [13]. The prices index was 75.2, down from 77.9 but still showing broad input-cost inflation [13]. For distributors, rising prices lift sales values but make customers' budgets and distributors' working capital more stretched.",
+        "Gartner's July forecast puts 2026 worldwide IT spending at $6.37T, up 14.2%, with data-center systems up 62.5% and devices up 9.8%; it says budgets are strained by rising hardware and memory costs [16]. WSTS expects the 2026 semiconductor market to grow 89.9%, with memory up about 250% [17].",
+        "On policy, the Federal Reserve held its range at 3.75-4.00% on 28 October, said inflation remains elevated, and had two dissents in favour of a quarter-point increase [14]. Our read: distributors borrow against inventory and receivables, so a higher-for-longer path is a cost headwind rather than a demand threat. Currency is a smaller effect: TD Synnex revenue grew 38.4% in constant currency against 37.7% reported [1], and Arrow guides a currency drag of about $88M on fourth-quarter sales [3]."
+      ]
+    },
+    {
+      "id": "demand",
+      "paragraphs": [
+        "A market-size estimate for technology distribution itself was not available to us, so we describe demand through the leaders and through the spending pools they serve. TD Synnex generated $62.5B of revenue in fiscal 2025, up 6.9% [2]; the latest quarters are far faster, at $21.6B for TD Synnex (+37.7%) and $15.2B for Ingram Micro (+20.8%) [1][6].",
+        "Structural drivers are AI and data-center buildouts, cloud migration, security spending and the growing electronics content of products. Gartner expects data-center systems spending up 62.5% in 2026 [16], and enterprise AI is moving toward broader production, according to TD Synnex's chief executive [1]. Arrow cites modernization spending in AI, cloud and cybersecurity at its enterprise computing business, whose sales rose 29% [3].",
+        "Demand is cyclical and uneven. PC demand is weak: TrendForce says notebook shipments are falling sharply and inventory weeks are rising [15]. Insight's software sales fell 3% while hardware rose 32% [7]. Component distributors are especially exposed to inventory cycles, with Arrow describing Global Components book-to-bill as well above parity and its backlog as growing [3]. Demographics matter little. We think the long-run prospect is steady growth at the pace of IT and electronics spending, with the present surge partly price-driven."
+      ]
+    },
+    {
+      "id": "structure",
+      "paragraphs": [
+        "Rivalry is intense and based on availability, credit terms, price and delivery speed, according to TD Synnex's 10-K, which names Ingram Micro, Arrow and Westcon-Comstor as international competitors and ScanSource, ALSO, Esprinet and VSTECS as regional ones [2]. Thin margins, such as 6.55% gross at Ingram [6] and 6.61% at TD Synnex [1], show how little room price competition leaves.",
+        "Supplier power is high in shortages and moderate otherwise: TD Synnex says vendor agreements are nonexclusive and short-term, and that Apple and HP were 12% and 10% of revenue [2]. Buyer power is high because resellers can switch, though distributors lend them money and bundle services. The threat of new entrants is low because of credit capacity, with TD Synnex at about $5.5B of borrowings [1]. The threat of substitutes comes from vendors selling direct and from cloud marketplaces; we found no sourced measure.",
+        "Concentration is high at the top and consolidating: ScanSource acquired MicroAge on 1 September [5]. Sourced market shares were unavailable. Moats come from scale, vendor relationships and services; Farnell earned a 10.1% operating margin against 4.8% in Avnet's components arm [4], which shows where pricing power sits."
+      ]
+    },
+    {
+      "id": "environment",
+      "paragraphs": [
+        "Politically, trade policy is the central issue. TD Synnex lists uncertainty over trade policy and tariffs [2], and Ingram lists tariff changes as a risk [6]. We did not find a quantified tariff effect in the releases we opened, and Ingram's release lists tariffs only as a risk factor, so we cannot size it.",
+        "Economically, input prices are high. The ISM prices index was 75.2 [13], DRAM contract prices are still rising, and TrendForce describes the memory market as undersupplied, with suppliers planning negative PC DRAM supply growth next year [15]. Gartner says rising hardware and memory costs are straining IT budgets [16]. Supply shortages are named among TD Synnex's risks [1].",
+        "Technologically, AI is the main force. Ingram's Advanced Solutions, including GPU and AI infrastructure, grew 40% [6], and TD Synnex competes for hyperscale system builds against Jabil, Celestica, Flex, Quanta and Wiwynn [2]. Social and legal factors are lighter: the main one is customer credit, as ScanSource's reserve against a Brazilian customer shows [5]. Environmental rules matter little to the economics from the sources we opened."
+      ]
+    },
+    {
+      "id": "economics",
+      "paragraphs": [
+        "Distribution is a low-margin, high-volume business. In the latest quarter gross margin was 6.61% at TD Synnex [1], 6.55% at Ingram [6], about 10.0% at Avnet [4], about 10.8% at Arrow [3] and 21.4% at Insight [7]. Operating margins were 2.98% (TD Synnex), 1.93% (Ingram), 4.0% (Arrow) and 4.4% (Avnet) [1][6][3][4]. Operating leverage is visible: Arrow's operating income rose from $179.0M to $430.3M on 39% higher sales [3].",
+        "Capital intensity is light in fixed assets but heavy in working capital. TD Synnex's inventories were $15.3B and receivables $15.0B, partly funded by $22.4B of payables [1]. Growth consumed cash: operating cash flow was -$916.7M at TD Synnex [1], -$441.4M at Arrow [3] and -$842.4M at Avnet [4], while Ingram generated $251.4M [6].",
+        "Returns: Damodaran shows after-tax ROIC of 17.41% for Retail (Distributors), a broad group of 62 US firms, against 10.08% for the market [9]; ROE was not on the page. Avnet reports a 25.2% return on working capital [4]. Gross margin in the Damodaran group was 30.57% [8], so it is a loose proxy only."
+      ]
+    },
+    {
+      "id": "earnings",
+      "paragraphs": [
+        "Reported earnings are strong. TD Synnex's non-GAAP EPS was $5.68, up 58.7%, and it guides fiscal Q4 to $5.65-6.15 on revenue of $21.8-22.6B [1]. Arrow's non-GAAP EPS was $6.22 against $2.41 and it guides $7.00-7.20 on sales of $11.55-12.15B [3]. Avnet's adjusted EPS was $3.63 against $0.84, and it guides $3.90-4.10 on sales of $11.1-11.4B [4].",
+        "Ingram's non-GAAP EPS was $0.91 and it guides Q4 to $1.05-1.15 on net sales of $17.5-17.9B, which includes a 14-week quarter [6]. Insight raised its 2026 adjusted EPS outlook to $13.55-13.75 [7]. ScanSource raised fiscal 2027 sales guidance to $3.8-4.0B and adjusted EBITDA to $175-185M, with 10 months of MicroAge, although its non-GAAP EPS of $0.86 was hurt by hardware mix and a Brazil reserve [5].",
+        "Consensus estimates for this sub-industry were not available to us. At the index level, FactSet shows analysts expecting S&P 500 earnings growth of 28.4% in Q4 2026, 32.9% in calendar 2026 and 16.3% in 2027 [12]. Our view differs from a straight-line reading of guidance: the sequential step-ups are large, extra weeks flatter Avnet and Ingram, and cash is going into inventory, so earnings quality depends on how the cycle ends [4][6]."
+      ]
+    },
+    {
+      "id": "valuation",
+      "paragraphs": [
+        "A current forward multiple for the sub-industry was not available to us. The nearest dataset is Damodaran's Retail (Distributors) group (62 US firms, January 2026), which traded at 13.71x EV/EBITDA against 19.73x for the whole US market and 19.99x for Electronics (General) [10]. That group is broad and its 30.57% gross margin [8] shows it is not a tech-distributor peer set, so treat it as indicative at best.",
+        "On forward P/E the same group shows 43.84x against 27.66x for the market [11], a number we think is distorted by depressed earnings in the group and is not useful for tech distributors, whose earnings have since risen sharply. We therefore do not draw a valuation conclusion from it.",
+        "Market context: FactSet puts the S&P 500 at 18.7x forward earnings, below its five-year average of 19.8x and ten-year average of 19.1x [12]. Free-cash-flow yields are not meaningful at the moment because three bellwethers reported negative operating cash flow [1][3][4]. Our read: with operating margins well above a year earlier but cash flow negative, investors are being asked to look through working-capital build, but we cannot say how that is priced without current data."
+      ]
+    },
+    {
+      "id": "positioning",
+      "paragraphs": [
+        "Positioning data for this sub-industry, including ETF flows, short interest and relative price performance, were not available to us from the sources we opened, so we quote none.",
+        "What we can observe is capital return and balance-sheet behaviour. TD Synnex repurchased about $100.3M of shares in the quarter ($292.4M over nine months) and raised its quarterly dividend 9% to $0.48 [1]. Arrow repurchased $174.5M year to date [3]. ScanSource bought back only $5M and says it plans to reduce debt [5]. Avnet paid $30.4M of dividends while debt rose to $4.17B [4].",
+        "At the market level, FactSet reports 82% of S&P 500 companies beating EPS estimates and says the Information Technology sector was among the largest contributors to higher blended revenue growth [12]. We think the group's momentum depends on whether the next quarter's guidance is met and whether cash conversion recovers [1][3][4]; we cannot say whether positioning is crowded without flow data."
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "n": 1,
+      "title": "TD SYNNEX Form 8-K: fiscal Q3 2026 results",
+      "publisher": "TD SYNNEX / SEC",
+      "date": "2026-09",
+      "url": "https://www.sec.gov/Archives/edgar/data/0001177394/000162828026063314/ex991-fy26q3pressrelease.htm"
+    },
+    {
+      "n": 2,
+      "title": "TD SYNNEX Form 10-K, fiscal year ended 30 November 2025",
+      "publisher": "TD SYNNEX / SEC",
+      "date": "2026",
+      "url": "https://www.sec.gov/Archives/edgar/data/1177394/000162828026003598/snx-20251130.htm"
+    },
+    {
+      "n": 3,
+      "title": "Arrow Electronics Form 8-K: third quarter 2026 results",
+      "publisher": "Arrow Electronics / SEC",
+      "date": "2026-11-05",
+      "url": "https://www.sec.gov/Archives/edgar/data/0000007536/000000753626000150/arw-ex99d1.htm"
+    },
+    {
+      "n": 4,
+      "title": "Avnet earnings release: first quarter fiscal 2027 (quarter ended 3 October 2026)",
+      "publisher": "Avnet / SEC (via last10k.com)",
+      "date": "2026-11-04",
+      "url": "https://last10k.com/sec-filings/avt/0000008858-26-000120.htm"
+    },
+    {
+      "n": 5,
+      "title": "ScanSource Q1 fiscal 2027 earnings call highlights",
+      "publisher": "ScanSource via MarketBeat",
+      "date": "2026-11-05",
+      "url": "https://www.marketbeat.com/instant-alerts/transcript-scansource-q1-earnings-call-highlights-2026-11-05/"
+    },
+    {
+      "n": 6,
+      "title": "Ingram Micro Form 8-K: third quarter 2026 results",
+      "publisher": "Ingram Micro / SEC",
+      "date": "2026-10-29",
+      "url": "https://www.sec.gov/Archives/edgar/data/0001897762/000162828026068232/earningsreleaseq326.htm"
+    },
+    {
+      "n": 7,
+      "title": "Insight Enterprises Form 8-K: third quarter 2026 results",
+      "publisher": "Insight Enterprises / SEC",
+      "date": "2026-11-05",
+      "url": "https://www.sec.gov/Archives/edgar/data/0000932696/000093269626000076/nsit-20261105xerx8kex991.htm"
+    },
+    {
+      "n": 8,
+      "title": "Margins by sector (US), January 2026",
+      "publisher": "Aswath Damodaran, NYU Stern",
+      "date": "2026-01",
+      "url": "https://pages.stern.nyu.edu/~adamodar/New_Home_Page/datafile/margin.html"
+    },
+    {
+      "n": 9,
+      "title": "Return on capital by sector (US)",
+      "publisher": "Aswath Damodaran, NYU Stern",
+      "date": "2026-01",
+      "url": "https://pages.stern.nyu.edu/~adamodar/New_Home_Page/datafile/roc.html"
+    },
+    {
+      "n": 10,
+      "title": "EV/EBITDA multiples by sector (US), January 2026",
+      "publisher": "Aswath Damodaran, NYU Stern",
+      "date": "2026-01",
+      "url": "https://pages.stern.nyu.edu/~adamodar/New_Home_Page/datafile/vebitda.html"
+    },
+    {
+      "n": 11,
+      "title": "PE ratios by sector (US), January 2026",
+      "publisher": "Aswath Damodaran, NYU Stern",
+      "date": "2026-01",
+      "url": "https://pages.stern.nyu.edu/~adamodar/New_Home_Page/datafile/pedata.html"
+    },
+    {
+      "n": 12,
+      "title": "FactSet Earnings Insight",
+      "publisher": "FactSet",
+      "date": "2026-10-30",
+      "url": "https://advantage.factset.com/hubfs/Website/Resources%20Section/Research%20Desk/Earnings%20Insight/EarningsInsight_103026.pdf"
+    },
+    {
+      "n": 13,
+      "title": "October 2026 ISM Manufacturing PMI Report (excerpt)",
+      "publisher": "ISM via Webull",
+      "date": "2026-11-02",
+      "url": "https://www.webull.com/news/15854774774635520"
+    },
+    {
+      "n": 14,
+      "title": "Federal Reserve press release, FOMC statement, 28 October 2026",
+      "publisher": "Federal Reserve",
+      "date": "2026-10-28",
+      "url": "https://www.federalreserve.gov/newsevents/pressreleases/monetary20261028a.htm"
+    },
+    {
+      "n": 15,
+      "title": "DRAM Contract Price, October 2026",
+      "publisher": "TrendForce",
+      "date": "2026-10-30",
+      "url": "https://trendforce.com/research/download/RP261030WD"
+    },
+    {
+      "n": 16,
+      "title": "Gartner forecasts worldwide IT spending to grow 14.2% in 2026, totalling $6.37tn",
+      "publisher": "TelecomTV citing Gartner",
+      "date": "2026-07-27",
+      "url": "https://www.telecomtv.com/content/digital-platforms-services/gartner-forecasts-worldwide-it-spending-to-grow-14-2-in-2026-totalling-6-37tn-55964/"
+    },
+    {
+      "n": 17,
+      "title": "WSTS Spring 2026 semiconductor market forecast",
+      "publisher": "WSTS",
+      "date": "2026-06-02",
+      "url": "https://www.wsts.org/esraCMS/extension/media/f/WST/7618/WSTS_FC-Release-2026-May.pdf"
+    }
+  ]
+}

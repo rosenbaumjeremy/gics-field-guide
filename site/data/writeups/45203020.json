@@ -1,0 +1,434 @@
+{
+  "code": "45203020",
+  "added": "2026-11-09",
+  "asOf": "2026-11-06",
+  "summary": "Electronic Manufacturing Services is in an AI-driven growth phase with thin margins. Jabil grew fiscal 2026 revenue about 21% to $36.0B and guides fiscal 2027 to $44.5B [1]. Celestica's September-quarter revenue rose 83% and it guides 2027 to $40.0B [2]. Flex, Fabrinet and Plexus also grew double digits [3][6][7], while Benchmark's growth was 19% [5]. Margins stay in the mid-single to high-single digits, but returns on capital are strong at Celestica and Plexus [2][6]. Consensus and valuation data for this exact sub-industry were not available to us; US manufacturing is expanding, with the ISM index at 55.5 [9].",
+  "metrics": [
+    {
+      "label": "Jabil fiscal 2026 revenue",
+      "value": "$35,954M",
+      "context": "Up about 21%; core operating margin 5.8%; year ended 31 Aug 2026; fiscal 2027 guide $44.5B",
+      "source": 1
+    },
+    {
+      "label": "Celestica Q3 2026 revenue",
+      "value": "$5,829.7M",
+      "context": "Up 83% y/y; adjusted operating margin 8.5%; quarter ended 30 Sep 2026",
+      "source": 2
+    },
+    {
+      "label": "Celestica adjusted ROIC",
+      "value": "64.7%",
+      "context": "Q3 2026; GAAP ROIC 60.0%; 2027 revenue outlook $40.0B",
+      "source": 2
+    },
+    {
+      "label": "Flex Q1 fiscal 2027 net sales",
+      "value": "$7.9B",
+      "context": "Up 21% y/y; adjusted operating margin 6.7%; quarter ended 26 Jun 2026",
+      "source": 3
+    },
+    {
+      "label": "Fabrinet Q1 fiscal 2027 revenue",
+      "value": "$1.474B",
+      "context": "Up 51% y/y; data center 53% of revenue; non-GAAP operating margin 10.8%",
+      "source": 7
+    },
+    {
+      "label": "Plexus fiscal 2026 ROIC",
+      "value": "15.8%",
+      "context": "680 bp above a 9.0% weighted average cost of capital; non-GAAP operating margin 6.2%",
+      "source": 6
+    },
+    {
+      "label": "Electronics (General) gross margin",
+      "value": "26.76%",
+      "context": "Damodaran, 114 US firms, Jan 2026; broad proxy, not the GICS group, so far above EMS gross margins",
+      "source": 12
+    },
+    {
+      "label": "ISM Manufacturing PMI, October 2026",
+      "value": "55.5",
+      "context": "10th straight month of expansion; prices index 75.2",
+      "source": 9
+    }
+  ],
+  "watch": [
+    "Flex holds an Investor Day on 10 November and plans to spin off its Cloud and Power Infrastructure segment, which its fiscal 2027 guidance does not reflect [3].",
+    "Whether the AI ramp converts as guided: Celestica sees 2027 revenue of $40.0B, up from $21.0B in 2026, but cut its 2026 free cash flow outlook to $460M from $600M [2].",
+    "Memory and component costs and availability: ISM says supplier deliveries are slowing in computer and electronic products, and TrendForce says DRAM contract prices are still rising, more slowly [9][16].",
+    "Customer concentration and working capital: Jabil's five largest customers were about 36% of fiscal 2025 revenue, and Sanmina's inventory rose to $3.15B from $1.99B [8][4].",
+    "Rates and policy: the Fed held at 3.75-4.00% with two dissents favouring a hike, and Sanmina flags tariffs and Middle East conflict as risks [10][4]."
+  ],
+  "bellwethers": [
+    "Jabil",
+    "Flex",
+    "Celestica",
+    "Sanmina",
+    "Benchmark Electronics",
+    "Plexus",
+    "Fabrinet"
+  ],
+  "basics": {
+    "intro": "Electronic manufacturing services (EMS) companies build, test and ship electronic products designed and sold by other companies. Customers are brand owners in cloud and AI infrastructure, networking, medical, automotive, industrial, defence and consumer markets. Revenue comes from manufacturing programs, plus design, supply-chain and repair services, and most of the revenue is the pass-through cost of components. Margins are thin. GICS places these assemblers here; the brands they build for sit in hardware or other sub-industries, and component makers sit in Electronic Components.",
+    "products": [
+      {
+        "name": "Printed circuit board assembly",
+        "what": "Mounting chips and parts onto boards and testing them. This is the original EMS service and still the base of most programs.",
+        "examples": "Benchmark, Sanmina, Plexus"
+      },
+      {
+        "name": "Data-centre systems and rack integration",
+        "what": "Building servers, networking switches and full racks for cloud and AI customers, often with power and cooling, and shipping them ready to install.",
+        "examples": "Celestica, Sanmina (ZT Systems), Jabil, Flex"
+      },
+      {
+        "name": "Regulated-industry manufacturing",
+        "what": "Making medical, aerospace, defence and automotive electronics under strict quality rules, with long program lives and higher margins.",
+        "examples": "Plexus, Benchmark, Jabil"
+      },
+      {
+        "name": "Optical and precision manufacturing",
+        "what": "Assembling optical modules and complex hardware for communications and data-centre links, often in lower-cost Asian sites.",
+        "examples": "Fabrinet"
+      },
+      {
+        "name": "Design, supply chain and aftermarket services",
+        "what": "Engineering design, procurement, logistics, repair and recycling that keep a customer's product supplied through its life.",
+        "examples": "Jabil, Flex, Plexus"
+      },
+      {
+        "name": "Power and thermal equipment",
+        "what": "Power supplies, cooling and electrical infrastructure for data centres, increasingly made by the same companies.",
+        "examples": "Flex Cloud and Power Infrastructure segment"
+      }
+    ],
+    "terms": [
+      {
+        "term": "OEM",
+        "meaning": "Original equipment manufacturer: the brand that designs and sells the product and hires the EMS firm to build it."
+      },
+      {
+        "term": "Turnkey vs consignment",
+        "meaning": "In turnkey work the EMS firm buys the components and bills for them, so revenue and working capital rise. In consignment the customer supplies parts and the EMS firm bills only for labour."
+      },
+      {
+        "term": "Core or adjusted operating margin",
+        "meaning": "Operating profit excluding items such as stock compensation, amortization and restructuring. It is the figure most firms guide to; check the reconciliation to GAAP."
+      },
+      {
+        "term": "Program",
+        "meaning": "A specific product a customer asks the EMS firm to build, with a ramp, a peak and an end of life. New program wins drive future revenue."
+      },
+      {
+        "term": "Ramp",
+        "meaning": "The period when a new program rises from first units to volume. Ramps strain cash and margins before they help them."
+      },
+      {
+        "term": "Cash cycle",
+        "meaning": "Days of inventory plus receivables minus payables. A longer cycle ties up cash, especially when firms buy components in advance for AI programs."
+      },
+      {
+        "term": "ROIC",
+        "meaning": "Return on invested capital. EMS firms earn thin margins, so they depend on turning capital quickly to earn acceptable returns."
+      },
+      {
+        "term": "Free cash flow",
+        "meaning": "Operating cash flow less capital spending. It swings with working capital, so fast growth can depress it even when profits rise."
+      },
+      {
+        "term": "Pass-through pricing",
+        "meaning": "Charging customers for component cost changes. Where it works, component inflation lifts revenue but not profit."
+      },
+      {
+        "term": "Customer concentration",
+        "meaning": "Share of revenue from the largest customers. A few large cloud customers can add growth but give them bargaining power."
+      },
+      {
+        "term": "Vertical integration",
+        "meaning": "Making more of the product, such as enclosures, cables or power units, in-house. It lifts content per program and margin."
+      },
+      {
+        "term": "Footprint",
+        "meaning": "The set of factories by country. Moving production close to customers, for example into the US or Mexico, is a response to tariffs and customer demands."
+      }
+    ],
+    "drivers": [
+      {
+        "name": "Customer end-market demand",
+        "how": "EMS revenue is the sum of customers' unit builds. AI infrastructure, networking and medical programs have lifted growth, while weaker consumer or industrial demand shows up as cancelled or delayed orders within a quarter or two."
+      },
+      {
+        "name": "Program wins and ramps",
+        "how": "New wins add revenue over several quarters. Early production costs depress margins, then yields and volume improve them."
+      },
+      {
+        "name": "Mix",
+        "how": "Regulated-industry and complex systems work earn higher margins than commodity assembly, so a shift toward them lifts operating margin."
+      },
+      {
+        "name": "Component cost and availability",
+        "how": "Memory and chip shortages delay shipments and tie up working capital. Higher prices raise revenue under turnkey pricing but not profit dollars."
+      },
+      {
+        "name": "Working capital and cash",
+        "how": "Rapid growth means more inventory and receivables. Free cash flow can fall in a growth year, and financing rises."
+      },
+      {
+        "name": "Trade policy and footprint",
+        "how": "Tariffs and export controls change where products are built and who pays duties. Firms with multi-region factories can shift production."
+      },
+      {
+        "name": "Capital allocation",
+        "how": "Firms use cash for buybacks, capacity and acquisitions. Large deals such as Sanmina's ZT Systems purchase change scale and balance sheets."
+      }
+    ]
+  },
+  "fundamentals": {
+    "business": [
+      "Revenue comes from manufacturing programs, design and engineering, supply-chain management and aftermarket repair. Jabil describes revenue from electronics design, production and product management services across three segments: Regulated Industries, Intelligent Infrastructure, and Connected Living and Digital Commerce [8]. Most of the revenue billed in turnkey work is component cost passed through, so revenue is large relative to profit.",
+      "Customers are brand owners that outsource manufacturing. Jabil's five largest customers were about 36% of fiscal 2025 revenue and 87 customers made up about 90%; one customer was 16% [8]. Fabrinet's Q1 fiscal 2027 revenue split was data center 53%, communications 30% and automotive, industrial and other 17% on our arithmetic from its figures [7]. Benchmark's Q3 mix included semi-cap 30% and industrial 21% [5].",
+      "The principal cost is purchased components and materials, followed by labour, plant costs and depreciation. Benchmark's non-GAAP gross margin was 10.5% in Q3 2026 and Celestica's gross margin was 11.0% [5][2]. That means about 89 to 90 cents of each revenue dollar is cost of sales, so small changes in yield, mix or component pricing move profit sharply.",
+      "Pricing power is limited and rests on scale, quality certification, speed to ramp and the difficulty of moving a qualified program. Jabil lists cost, time-to-market, global locations, scaling, technology, quality and component pricing as competitive factors [8]. Regulated and complex work earns more: Plexus's goal is a 6.5% to 7.0% non-GAAP operating margin in fiscal 2027 [6].",
+      "Major assets are inventory, receivables and plants; liabilities are payables, customer advances and debt. Sanmina's June 2026 balance sheet showed inventories of $3,152M, receivables of $1,987M and payables of $2,453M, with debt of $2,172M and customer advances of $1,150M [4]. Jabil had debt of $3,379M and cash of $1,739M at 31 August 2026 [1].",
+      "The business is asset-light relative to semiconductors but working-capital heavy. Jabil's net capex was $470M on $35,954M of revenue, about 1.3% on our arithmetic [1]. Capex is now rising at AI-focused firms: Celestica guides 2027 capex of $1.5B to $2.0B [2] and Fabrinet is adding roughly $4B of capacity this fiscal year [7]."
+    ],
+    "overview": [
+      "No authoritative market-size figure was available to us from the sources we opened; published estimates vary with scope. We size the group by its leaders: Jabil's fiscal 2026 revenue was $35,954M [1], Flex guides fiscal 2027 net sales of $33.7B to $35.2B [3], Celestica expects 2026 revenue of $21.0B [2], Sanmina guides fiscal 2026 to $14.0B to $14.3B [4].",
+      "Main segments are cloud and AI infrastructure, networking and communications, regulated industries (medical, aerospace and defence, automotive) and industrial. Jabil reports Regulated Industries, Intelligent Infrastructure and Connected Living and Digital Commerce [8]; Celestica reports CCS and ATS segments, with CCS revenue of $4.87B [2]; Flex is spinning off Cloud and Power Infrastructure [3].",
+      "EMS firms sit between component suppliers (chips, memory, boards) and brand owners. They buy parts in volume, assemble, test and ship. That puts them downstream of the memory market: TrendForce says DRAM contract prices are still rising in Q4 2026, though more slowly [16], and ISM reports slower supplier deliveries in computer and electronic products [9].",
+      "The industry moved from consumer and handset assembly toward higher-value work. Jabil now reports regulated and infrastructure segments rather than the older EMS and DMS split [8]. Sanmina has added ZT Systems capacity and says it expects growth to ramp through fiscal 2027 and into 2028 [4].",
+      "Production is global and concentrated in Asia, Mexico and the US. Jabil operates about 100 locations in 30 countries and has about 135 thousand employees, with 71 thousand in Asia [8]. Fabrinet builds in Thailand, with $10B of revenue capacity planned by January [7]. Flex operates in 30 countries [3]."
+    ],
+    "competition": [
+      "There are several dozen EMS providers, but only a handful are large and listed in the US. Jabil faces domestic and foreign EMS providers, diversified manufacturing service providers and design providers, as well as customers' own factories [8]. We did not find a sourced count of competitors.",
+      "Among the listed firms we opened, Jabil, Flex, Celestica and Sanmina are the largest by revenue [1][3][2][4]. We did not open data on non-listed Asian rivals. A sourced global share table was not available to us, so we do not quote shares. Jabil's fiscal 2026 revenue was about 1.7 times Celestica's expected 2026 revenue on our arithmetic [1][2].",
+      "The industry is fragmented overall but concentrated at the top, and it consolidates through acquisitions. Sanmina bought ZT Systems' manufacturing, Flex bought Electrical Power Products, and Celestica and Jabil have expanded in AI systems [4][3]. Specialists such as Fabrinet and Plexus hold niche positions in optical and regulated work [6][7].",
+      "Barriers to entry are moderate in basic assembly and high in regulated or complex work. Entrants need capital, qualified plants, quality certifications and customer trust, and Plexus's 36 new manufacturing wins in one quarter show that program wins are won one at a time [6]. Basic board assembly can be copied by many smaller shops.",
+      "Scale matters in purchasing, global footprint and ability to fund inventory. Jabil funds $35,954M of revenue with $1,739M of cash and $3,379M of debt [1]. Larger firms can pre-buy memory and chips for customers, which is difficult for small rivals when components are scarce [9][16].",
+      "Basic assembly is commoditized; system integration, optical, regulated and AI rack work is more differentiated. The spread shows in margins: Fabrinet's non-GAAP operating margin was 10.8% and Celestica's adjusted margin 8.5%, against Benchmark's 5.5% and Flex's 6.7% [7][2][5][3].",
+      "Customers hold most bargaining power because they can dual-source and some can build in-house. Cloud customers are especially large: Jabil's biggest customer was 16% of revenue [8]. Component suppliers are strong when parts are short. Differentiated capabilities, such as Fabrinet's capacity and Celestica's AI systems, shift some power back to the EMS firm [7][2]."
+    ],
+    "drivers": [
+      "Revenue growth follows customer unit demand and new program wins. In the latest quarters AI infrastructure is the dominant driver: Celestica grew 83% [2], Fabrinet's data-centre revenue grew 78% [7], and Jabil guides fiscal 2027 revenue to $44.5B, up 24% [1]. Plexus guides mid- to upper-teens growth [6].",
+      "Operating margins depend on mix, utilisation, yield and component pricing. Jabil's core operating margin was 5.8% for fiscal 2026 and is guided to 6.1% for fiscal 2027 [1]. Celestica guides a 9.0% adjusted margin for 2027 against 8.4% in 2026 [2].",
+      "Key cost variables are components (memory, chips, boards), labour in each country, freight, energy and tariffs. TrendForce says DRAM contract prices are still rising [16], and the ISM prices index was 75.2 in October, with prices up for 25 straight months [9]. Where pricing is pass-through, margin dollars are protected but percentage margins are diluted.",
+      "Interest-rate sensitivity runs through working capital and debt. The Fed held the target range at 3.75-4.00% and said inflation remains elevated [10]. Sanmina carries $2,172M of debt against $1,845M of cash [4], while Benchmark's debt is about $158M [5]. Higher rates also affect customers' capital spending plans.",
+      "Inflation, GDP and industrial activity matter through customers' orders. ISM's manufacturing index was 55.5 and new orders 55.5 in October [9]. Commodity prices matter through copper, metals and especially memory. We think consumer-linked programs are more exposed to unemployment than regulated or infrastructure programs.",
+      "The group is cyclical, with defensive pockets. Programs can be cut quickly: Jabil notes that customers generally do not commit to firm production schedules beyond one quarter [8]. Medical and aerospace and defence work is steadier, and AI infrastructure is currently a secular growth layer, though it depends on a few large buyers [8][5]."
+    ],
+    "financials": [
+      "Growth is currently very high at AI-exposed firms and moderate elsewhere: Celestica 83% [2], Fabrinet 51% [7], Plexus fiscal 2026 23% [6], Jabil 21% [1], Flex 21% [3], Benchmark 19% [5]. Over a full cycle growth is much lower, and Jabil's fiscal 2025 revenue grew only 3.2% [8].",
+      "Margins are thin. Damodaran's Electronics (General) group of 114 US firms shows a 26.76% gross margin and an 11.80% pre-tax, pre-stock-comp operating margin in January 2026 [12], but it is a broad proxy that is far richer than EMS. Actual EMS margins: Jabil core operating margin 5.8% [1], Plexus 6.2% [6], Sanmina 8.0% in Q3 [4].",
+      "Returns on capital are good at the leaders despite thin margins because capital turns quickly. Celestica's adjusted ROIC was 64.7% [2] and Plexus earned 15.8% against a 9.0% cost of capital [6]. Damodaran's Electronics (General) after-tax ROIC is 24.48%, normalized 17.47%, but its vintage is ambiguous [13]. We did not find ROE figures.",
+      "Leverage is moderate. Jabil has $3,379M of debt and $1,739M of cash, roughly $1.6B net debt on our arithmetic [1]. Celestica holds $3,961M of cash against $819M of borrowings [2], Benchmark $291M against $158M [5], and Sanmina $1,845M against $2,172M [4].",
+      "Free cash flow is positive but lumpy because working capital absorbs cash in growth. Jabil generated $1,532M of adjusted free cash flow in fiscal 2026 [1]; Celestica's was $412.5M over nine months [2]; Benchmark's $64.9M [5]; Plexus's Q4 was $6.4M [6]; Flex's Q1 was $41M [3]; Sanmina's Q3 was $24M [4].",
+      "Capital expenditure is low as a share of revenue but rising with AI. Jabil spent $628M gross on $35,954M of revenue [1], while Celestica spent $274M in the September quarter alone and guides 2027 capex of $1.5B to $2.0B [2]. Benchmark's capex was $15.5M in Q3 [5].",
+      "Multiples are modest compared with high-growth technology. Damodaran's January 2026 data show Electronics (General) at 19.99x EV/EBITDA [14] and a 29.61x forward P/E against 27.66x for the total US market [15], but that group is a broad mix and ten months old. Current multiples for EMS were not available to us."
+    ],
+    "risks": [
+      "Trade and tax policy is the main regulatory risk. Sanmina lists tariffs and trade policy among its risk factors [4], and Flex lists tariff and trade tensions between the US and China and others [3]. Rule changes can move production sites and customers' costs. Quality regulation in medical and defence adds compliance cost but also barriers.",
+      "AI is a demand source rather than a threat to EMS today, since it drives server, networking and optical builds [2][7]. The risk is a pause in cloud capital spending: Sanmina names adverse changes in cloud and AI infrastructure as a risk [4], and Fabrinet's data-centre revenue is 53% of its total [7].",
+      "Demographic effects are indirect. An ageing workforce and labour costs in Asia and Mexico affect factory staffing and automation spending, and ageing populations raise medical-device demand, but none of the sources we opened quantify this.",
+      "Consumer and customer behaviour show up as order volatility. Jabil notes that customers do not commit to firm schedules beyond a quarter and can cancel or change orders [8]. ISM respondents in computer and electronic products report customers optimising existing tools rather than buying new ones [9].",
+      "New competitors include Asian giants moving into the US and customers integrating production themselves. Jabil competes with customers' internal manufacturing [8]. Sanmina's ZT Systems and Flex's power equipment are examples of EMS firms moving into higher-value areas [4][3], which changes who competes with whom.",
+      "Geopolitical and supply-chain risk is high. Sanmina cites Middle East conflict and tariffs [4], Flex cites Russia-Ukraine, the Middle East and US-China tension [3], and Fabrinet concentrates capacity in Thailand [7]. Memory supply is tight: TrendForce says suppliers plan negative PC DRAM supply growth next year [16].",
+      "Substitutes are in-house manufacturing by customers and moving to vertically integrated suppliers, such as chip or server makers building their own capacity. Jabil names customers' internal manufacturing as a competitor [8]. We found no sourced figure on how much volume is moving in-house, so this remains our judgment."
+    ],
+    "horizon": {
+      "opportunities": [
+        "AI infrastructure demand supports large forward guidance, with Jabil at $44.5B for fiscal 2027 and Celestica at $40.0B for 2027 [1][2].",
+        "Vertical integration into power, cooling and optical content can raise margins, as Flex's planned Cloud and Power spin-off and Fabrinet's $10B capacity plan indicate [3][7].",
+        "Higher-margin regulated and aerospace work gives balance; Plexus targets a 6.5% to 7.0% non-GAAP operating margin in fiscal 2027 [6].",
+        "Onshoring and multi-region footprints could favour firms with plants near customers as trade policy stays unsettled [4]."
+      ],
+      "threats": [
+        "A pause in cloud and AI capital spending would hit the firms with the most exposure, such as Celestica and Fabrinet [2][7].",
+        "Memory and component shortages delay shipments and absorb cash, and Celestica has already cut its 2026 free cash flow outlook [2][16].",
+        "Tariff, export-control and geopolitical shocks can disrupt factories in Asia and cost-sharing with customers [3][4].",
+        "Customer concentration lets a few large buyers push prices down or take work in-house [8]."
+      ],
+      "assessment": "We think the next three to five years favour EMS firms that can build complex AI systems, integrate power and optical content and fund the working capital. Guidance points to strong growth: Jabil expects fiscal 2027 revenue of $44.5B and Celestica $40.0B for 2027 [1][2]. The margin story is more modest, with Jabil guiding a 6.1% core margin [1], so returns come from asset turns rather than margin, as Celestica's 64.7% ROIC shows [2]. The main risks are a cloud capital-spending pause, memory constraints, tariffs and customer concentration [4][8][16]. Valuation data for EMS were not available, and the broader electronics proxy was above the market in January 2026 [15]."
+    }
+  },
+  "sections": [
+    {
+      "id": "macro",
+      "paragraphs": [
+        "The cycle is supportive for EMS customers. The ISM Manufacturing PMI was 55.5 in October 2026, up from 54.5, the tenth straight month of expansion, with new orders at 55.5 and inventories back in expansion at 51.4 [9]. Employment grew more slowly at 52.4 [9]. That is a favourable backdrop for firms that build products for industrial, medical and infrastructure customers.",
+        "Cost pressure is the counterweight. The ISM prices index was 75.2, with prices rising for 25 straight months, and computer and electronic products respondents reported slower supplier deliveries and customer inventories that were too low [9]. TrendForce says DRAM contract prices are still rising in Q4 2026, though more slowly [16].",
+        "On policy, the Federal Reserve held its target range at 3.75-4.00% on 28 October by a 10-2 vote, with two members preferring a quarter-point increase, and said inflation remains elevated [10]. Our read is that rates mainly matter to EMS through working-capital financing. Sanmina cites tariffs and trade policy among its risks [4], and Flex lists US-China trade tension [3]. We found no sourced currency data."
+      ]
+    },
+    {
+      "id": "demand",
+      "paragraphs": [
+        "A reliable total market-size estimate for EMS was not available to us from the sources we opened, so we describe demand through company results and guidance. Jabil reported fiscal 2026 revenue of $35,954M and guides fiscal 2027 to $44.5B, up 24% [1]. Celestica guides 2027 revenue of $40.0B and a 9.0% adjusted operating margin [2]. Flex raised its fiscal 2027 net sales guidance to $33.7B to $35.2B [3].",
+        "The structural driver is AI and cloud infrastructure. Fabrinet's data-centre revenue was $777M, up 78%, and 53% of its total [7]; Sanmina says it has strong demand for fiscal 2027 with growth ramping into fiscal 2028 [4]. Benchmark's semi-capital equipment sector was $241M, or 30% of its revenue [5].",
+        "Demand is cyclical and short-notice: customers generally do not commit to firm schedules beyond a quarter [8]. Medical and aerospace programs are steadier. Demographics matter little except through medical devices. Our view is that long-term prospects are good but concentrated in a few AI-related programs, and the pace of cloud capital spending is the main unknown."
+      ]
+    },
+    {
+      "id": "structure",
+      "paragraphs": [
+        "Porter's five forces point to a tough but workable industry. Rivalry is intense in basic assembly and moderate in complex work: Jabil says its business is highly competitive and competes with other EMS firms, diversified manufacturers, design providers and its customers' own plants [8]. The threat of new entrants is moderate; qualification, quality systems and capital protect incumbents in regulated work.",
+        "Buyer power is high because customers can dual-source, and the largest buyers are big: Jabil's five largest customers were about 36% of revenue and one was 16% [8]. Supplier power is high when components are short, with DRAM contract prices still rising [16]. Substitutes, mainly customers manufacturing in-house, are a real limit on pricing [8].",
+        "Concentration is high at the top, but we could not source market shares. Consolidation continues, with Sanmina's ZT Systems deal [4] and Flex's spin-off plan [3]. Moats are scale, certification, long customer relationships and, increasingly, specialised capacity. Fabrinet's planned expansion to about $10B of revenue capacity by January is an example [7]. Margins show that moats are modest: Jabil's core operating margin is 5.8% [1]."
+      ]
+    },
+    {
+      "id": "environment",
+      "paragraphs": [
+        "Politically, trade policy is the dominant factor. Sanmina lists tariffs and trade policy changes and Middle East conflict among its risks [4]. Flex lists tariffs, sanctions and the US-China relationship, plus Russia-Ukraine and the Middle East [3]. These matter because many programs are built in Asia and sold in the US and Europe, and costs depend on who bears duties.",
+        "Economically, input-cost inflation is live: the ISM prices index was 75.2 [9] and DRAM contract prices are still rising [16]. Technologically, AI drives demand for servers, networking and optical modules [2][7], and shifts value toward power, cooling and rack-scale integration, which is why Flex is separating its Cloud and Power Infrastructure segment [3].",
+        "Legal and regulatory factors include medical and defence quality rules, which raise barriers for regulated work, and tax-law changes, which Flex lists as a risk [3]. Social and environmental factors, such as labour conditions, sustainability reporting and climate-related physical risks, are named in Flex's risk list [3]. We did not find evidence that any single regulation is changing the economics of the group."
+      ]
+    },
+    {
+      "id": "economics",
+      "paragraphs": [
+        "EMS economics are high revenue, thin margins and heavy turns. Jabil's fiscal 2026 core operating margin was 5.8% (GAAP 4.7%) [1]. Plexus earned 6.2% non-GAAP [6], Flex 6.7% adjusted [3], Benchmark 5.5% non-GAAP [5], Sanmina 8.0% non-GAAP [4], Celestica 8.5% adjusted [2] and Fabrinet 10.8% [7]. Damodaran's broad Electronics (General) group has a 26.76% gross margin, so it is not a good proxy for EMS [12].",
+        "Returns on capital are the redeeming feature. Celestica's adjusted ROIC was 64.7% [2], and Plexus earned 15.8% against a 9.0% cost of capital [6]. Operating leverage is visible: Celestica's adjusted operating earnings rose to $496.1M from $242.2M on 83% revenue growth [2]. We did not find ROE figures.",
+        "Free cash flow is real but variable. Jabil generated $1,532M of adjusted free cash flow in fiscal 2026 [1], while Plexus's Q4 was only $6.4M and Flex's Q1 $41M, reflecting inventory build [6][3]. Celestica cut its 2026 free cash flow outlook to $460M from $600M [2]. Capital intensity is rising for AI capacity: Celestica guides $1.5B to $2.0B of capex in 2027 [2]."
+      ]
+    },
+    {
+      "id": "earnings",
+      "paragraphs": [
+        "Reported earnings are strong. Jabil's fiscal 2026 core EPS was $13.09 and it guides fiscal 2027 to $17.55, up 34% [1]. Celestica guides 2026 adjusted EPS of $11.55 and 2027 of $21.50 [2]. Flex raised fiscal 2027 adjusted EPS guidance to $4.42 to $4.74 [3]. Sanmina raised fiscal 2026 non-GAAP EPS guidance to $11.90 to $12.20 as of 27 July [4].",
+        "Smaller and specialised names are also growing. Fabrinet's non-GAAP EPS was a record $4.34 and it guides the next quarter to $4.77 to $4.92 [7]. Plexus guides fiscal Q1 2027 non-GAAP EPS of $2.46 to $2.62 and mid- to upper-teens revenue growth [6]. Benchmark expects Q4 non-GAAP EPS of $0.85 to $0.91 [5].",
+        "Consensus estimates for EMS were not available to us. FactSet reports blended S&P 500 Q3 2026 earnings growth of 30.2% and analysts expecting 28.4% for Q4 [11]. Our view is that guidance is already steep, so the question is delivery: Celestica's 2027 outlook implies revenue up about 90% on its 2026 outlook, and its cash flow outlook was cut [2]. Note that Sanmina's fiscal Q4 actuals and Flex's fiscal Q2 are not yet in our sources."
+      ]
+    },
+    {
+      "id": "valuation",
+      "paragraphs": [
+        "A forward multiple for the GICS sub-industry was not available to us. The best proxy is Damodaran's Electronics (General) group of 114 US firms, which in January 2026 traded at 19.99x EV/EBITDA for positive-EBITDA firms [14] and a 29.61x forward P/E against 27.66x for the total US market [15]. That group is a broad mix that includes component and device makers, and the data are ten months old.",
+        "Market context is more current. FactSet reports the S&P 500 forward P/E at 18.7, below its five-year average of 19.8 and ten-year average of 19.1 as of the 30 October report [11]. That is a market figure, not an EMS figure.",
+        "We can derive one data point from the sources: Plexus repurchased shares at an average of $254.32 in Q4 against non-GAAP EPS of $2.84 for the quarter and guidance of $2.46 to $2.62 for the next [6]. We do not extrapolate a multiple from that. Free-cash-flow yields were not available. Our read is that expectations are demanding because the guided growth, such as Celestica's 2027 EPS of $21.50 [2], is steep, and we cannot say where the sub-industry sits against its own history."
+      ]
+    },
+    {
+      "id": "positioning",
+      "paragraphs": [
+        "Positioning data for this sub-industry, including ETF flows, short interest, relative performance and price momentum, were not available to us from the sources we opened, so we do not quote any.",
+        "What we can say rests on company actions and market context. Plexus repurchased $85.0M of shares in fiscal 2026 and has a further $100M authorisation for fiscal 2027 [6], and Jabil repurchased $1,060M [1]. Benchmark and Sanmina shared no comparable figures in the releases we opened.",
+        "At market level, FactSet reports that companies with positive Q3 EPS surprises saw an average price change of 1.6% around the report, and those with negative surprises fell 2.1% [11]. We think the group's momentum depends on delivery against steep AI-linked guidance, in particular Flex's investor day on 10 November and its planned spin-off [3], and Celestica's cash conversion [2]. Breadth and revisions are not broken out for EMS in the sources we opened."
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "n": 1,
+      "title": "Jabil Form 8-K: fourth quarter and fiscal 2026 results",
+      "publisher": "Jabil / SEC",
+      "date": "2026-09-30",
+      "url": "https://www.sec.gov/Archives/edgar/data/0000898293/000162828026063890/jbl-20260930ex991.htm"
+    },
+    {
+      "n": 2,
+      "title": "Celestica Form 8-K: third quarter 2026 results",
+      "publisher": "Celestica / SEC",
+      "date": "2026-10-26",
+      "url": "https://www.sec.gov/Archives/edgar/data/0001030894/000103089426000049/cls-20260930prcondensedfs.htm"
+    },
+    {
+      "n": 3,
+      "title": "Flex reports first quarter fiscal 2027 results",
+      "publisher": "Flex",
+      "date": "2026-07-29",
+      "url": "https://s202.q4cdn.com/732614612/files/doc_earnings/2027/q1/earnings-result/FLEX_PR_27Q1.pdf"
+    },
+    {
+      "n": 4,
+      "title": "Sanmina reports third quarter fiscal 2026 financial results",
+      "publisher": "Sanmina",
+      "date": "2026-07-27",
+      "url": "https://s201.q4cdn.com/209924174/files/doc_financials/2026/q3/SANM-Q326-Earnings-Release-7_27_26-FINAL.pdf"
+    },
+    {
+      "n": 5,
+      "title": "Benchmark Electronics Form 8-K: third quarter 2026 results",
+      "publisher": "Benchmark / SEC",
+      "date": "2026-10-28",
+      "url": "https://www.sec.gov/Archives/edgar/data/0000863436/000119312526436278/bhe-ex99_1.htm"
+    },
+    {
+      "n": 6,
+      "title": "Plexus announces fiscal Q4 and fiscal year 2026 financial results",
+      "publisher": "iConnect007 (Plexus release)",
+      "date": "2026-10-28",
+      "url": "https://iconnect007.com/article/152214/plexus-announces-fiscal-q4-fiscal-year-2026-financial-results/152211/pcb"
+    },
+    {
+      "n": 7,
+      "title": "Fabrinet Q1 earnings call highlights",
+      "publisher": "MarketBeat",
+      "date": "2026-11-02",
+      "url": "https://www.marketbeat.com/instant-alerts/transcript-fabrinet-q1-earnings-call-highlights-2026-11-02/"
+    },
+    {
+      "n": 8,
+      "title": "Jabil Form 10-K, fiscal year ended 31 August 2025",
+      "publisher": "Jabil / SEC",
+      "date": "2025-10",
+      "url": "https://www.sec.gov/Archives/edgar/data/898293/000162828025045293/jbl-20250831.htm"
+    },
+    {
+      "n": 9,
+      "title": "October 2026 ISM Manufacturing PMI Report (excerpt)",
+      "publisher": "ISM via Webull",
+      "date": "2026-11-02",
+      "url": "https://www.webull.com/news/15854774774635520"
+    },
+    {
+      "n": 10,
+      "title": "Federal Reserve press release, FOMC statement, 28 October 2026",
+      "publisher": "Federal Reserve",
+      "date": "2026-10-28",
+      "url": "https://www.federalreserve.gov/newsevents/pressreleases/monetary20261028a.htm"
+    },
+    {
+      "n": 11,
+      "title": "FactSet Earnings Insight",
+      "publisher": "FactSet",
+      "date": "2026-10-30",
+      "url": "https://advantage.factset.com/hubfs/Website/Resources%20Section/Research%20Desk/Earnings%20Insight/EarningsInsight_103026.pdf"
+    },
+    {
+      "n": 12,
+      "title": "Margins by sector (US), January 2026",
+      "publisher": "Aswath Damodaran, NYU Stern",
+      "date": "2026-01",
+      "url": "https://pages.stern.nyu.edu/~adamodar/New_Home_Page/datafile/margin.html"
+    },
+    {
+      "n": 13,
+      "title": "Return on capital by sector (US)",
+      "publisher": "Aswath Damodaran, NYU Stern",
+      "date": "2026-01",
+      "url": "https://pages.stern.nyu.edu/~adamodar/New_Home_Page/datafile/roc.html"
+    },
+    {
+      "n": 14,
+      "title": "EV/EBITDA multiples by sector (US), January 2026",
+      "publisher": "Aswath Damodaran, NYU Stern",
+      "date": "2026-01",
+      "url": "https://pages.stern.nyu.edu/~adamodar/New_Home_Page/datafile/vebitda.html"
+    },
+    {
+      "n": 15,
+      "title": "PE ratios by sector (US), January 2026",
+      "publisher": "Aswath Damodaran, NYU Stern",
+      "date": "2026-01",
+      "url": "https://pages.stern.nyu.edu/~adamodar/New_Home_Page/datafile/pedata.html"
+    },
+    {
+      "n": 16,
+      "title": "DRAM Contract Price, October 2026",
+      "publisher": "TrendForce",
+      "date": "2026-10-30",
+      "url": "https://trendforce.com/research/download/RP261030WD"
+    }
+  ]
+}
