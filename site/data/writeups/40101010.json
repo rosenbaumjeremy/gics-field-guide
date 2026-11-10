@@ -1,0 +1,426 @@
+{
+ "code": "40101010",
+ "added": "2026-11-10",
+ "asOf": "2026-11-06",
+ "summary": "Large U.S. banks are posting strong returns on a higher-for-longer rate backdrop: JPMorgan earned $15.3 billion in the third quarter with a 20% return on tangible equity [1], Wells Fargo 16.3% [4], Citi 11.5% [3] and Bank of America 12.6% after a $1.2 billion anti-money-laundering charge [2]. The Fed held at 3.75% to 4.00% with two dissents favouring a hike [5] while CPI ran 3.7% [6]. Capital rules are easing [10][11], yet loan demand is softening [7]. We could not source a diversified-bank-only forward P/E; the broad financials ETF trades at 15.8x [15].",
+ "metrics": [
+  {
+   "label": "JPMorgan Q3 2026 ROTCE",
+   "value": "20%",
+   "context": "21% excluding securities losses; net income $15.3B; reported 13 Oct 2026",
+   "source": 1
+  },
+  {
+   "label": "Wells Fargo Q3 2026 ROTCE",
+   "value": "16.3%",
+   "context": "Net interest margin 2.43%; CET1 10.0% (preliminary)",
+   "source": 4
+  },
+  {
+   "label": "Citigroup Q3 2026 RoTCE",
+   "value": "11.5%",
+   "context": "8.0% a year earlier; CET1 12.8%",
+   "source": 3
+  },
+  {
+   "label": "Bank of America Q3 2026 ROTCE",
+   "value": "12.6%",
+   "context": "14.9% excluding the $1.2B settlement charge; CET1 10.9%",
+   "source": 2
+  },
+  {
+   "label": "Fed funds target range",
+   "value": "3.75%-4.00%",
+   "context": "Held 28 Oct 2026 by a 10-2 vote; both dissenters wanted a 0.25-point hike",
+   "source": 5
+  },
+  {
+   "label": "FDIC-insured industry net interest margin",
+   "value": "3.32%",
+   "context": "Q2 2026; ROA 1.37%; quarterly net income $90.1B",
+   "source": 8
+  },
+  {
+   "label": "Money-center bank price-to-book (Damodaran)",
+   "value": "1.62x",
+   "context": "15 firms, global; ROE 12.86%; January 2026",
+   "source": 14
+  },
+  {
+   "label": "XLF forward P/E (broad financials)",
+   "value": "15.8x",
+   "context": "Sector fund, not diversified banks alone; as of 6 Nov 2026; P/B 2.44",
+   "source": 15
+  }
+ ],
+ "watch": [
+  "Whether the Fed hikes again in the coming months: higher rates have so far helped bank interest income, but two committee members already want a further 0.25-point rise [5].",
+  "Loan demand: banks reported weaker commercial and industrial and commercial real estate demand and tighter CRE standards in the October survey [7].",
+  "Final form of the Basel III endgame rewrite, proposed in March 2026 to modestly lower capital requirements for large banks [10].",
+  "Further regulatory penalties after Bank of America's $1.2 billion anti-money-laundering settlement charge [2].",
+  "Capital deployment: JPMorgan cut its buybacks to $664 million in the quarter while Bank of America repurchased $6.0 billion [1][2]."
+ ],
+ "bellwethers": [
+  "JPMorgan Chase",
+  "Bank of America",
+  "Citigroup",
+  "Wells Fargo",
+  "U.S. Bancorp",
+  "PNC Financial",
+  "Truist"
+ ],
+ "basics": {
+  "intro": "Diversified banks take deposits from households, companies and governments and lend the money out, earning the gap between what loans pay and what deposits cost. The big ones also run trading desks, advise on mergers, process payments, manage wealth and issue credit cards. GICS reserves this group for large banks with retail and commercial operations across regions or countries. Banks focused on one region sit in Regional Banks, and pure investment banks and brokers in Capital Markets.",
+  "products": [
+   {
+    "name": "Consumer and small-business banking",
+    "what": "Checking and savings accounts, mortgages, auto loans and branch networks. Cheap, stable deposits are the raw material for the whole bank.",
+    "examples": "Chase, Bank of America and Wells Fargo branches"
+   },
+   {
+    "name": "Credit cards",
+    "what": "Revolving loans to consumers that earn high interest plus fees paid by merchants on each purchase.",
+    "examples": "Chase Sapphire, Citi cards, Bank of America cards"
+   },
+   {
+    "name": "Commercial and corporate lending",
+    "what": "Loans and credit lines to companies, from small firms to multinationals, plus commercial real estate lending.",
+    "examples": "JPMorgan Commercial Bank, Wells Fargo Commercial Banking"
+   },
+   {
+    "name": "Markets and investment banking",
+    "what": "Trading stocks, bonds, currencies and derivatives for clients, and underwriting securities and advising on deals.",
+    "examples": "JPMorgan Markets, Citi Markets, BofA Global Markets"
+   },
+   {
+    "name": "Treasury and payment services",
+    "what": "Cash management, cross-border payments and custody for corporations. Fees are steady and tied to clients' operating volumes.",
+    "examples": "Citi Services, JPMorgan Payments"
+   },
+   {
+    "name": "Wealth and asset management",
+    "what": "Advice, brokerage and investment products for affluent clients, paid by fees on assets.",
+    "examples": "Merrill, Wells Fargo Advisors, Citi Wealth"
+   }
+  ],
+  "terms": [
+   {
+    "term": "Net interest income (NII)",
+    "meaning": "Interest earned on loans and securities minus interest paid on deposits and borrowings. It is the largest revenue line for most banks."
+   },
+   {
+    "term": "Net interest margin (NIM)",
+    "meaning": "NII divided by average earning assets. It shows how profitable the spread is, independent of bank size."
+   },
+   {
+    "term": "Deposit beta",
+    "meaning": "The share of a change in market rates that a bank passes on to depositors. Low betas protect margins when rates rise."
+   },
+   {
+    "term": "CET1 ratio",
+    "meaning": "Common equity tier 1 capital as a share of risk-weighted assets, the main regulatory measure of loss-absorbing capital. Regulators set minimums and buffers above it."
+   },
+   {
+    "term": "ROTCE",
+    "meaning": "Return on tangible common equity: profit to common shareholders divided by equity excluding goodwill and intangibles. The standard profitability yardstick for big banks."
+   },
+   {
+    "term": "Efficiency ratio",
+    "meaning": "Noninterest expense divided by revenue. Lower means more of each revenue dollar reaches profit."
+   },
+   {
+    "term": "Provision for credit losses",
+    "meaning": "The charge a bank takes now for loans it expects to go bad. It rises when the outlook weakens, even before defaults occur."
+   },
+   {
+    "term": "Net charge-offs",
+    "meaning": "Loans actually written off as uncollectable, net of recoveries. Quoted as a percentage of average loans."
+   },
+   {
+    "term": "Stress capital buffer",
+    "meaning": "An extra capital cushion set from the Fed's annual stress test, sized to the bank's modelled losses under a severe recession."
+   },
+   {
+    "term": "Price to tangible book",
+    "meaning": "Share price divided by tangible equity per share. It is the main valuation shortcut and rises with expected ROTCE."
+   },
+   {
+    "term": "Risk-weighted assets",
+    "meaning": "Assets scaled by how risky regulators judge them. The Basel rules decide the weights, so they directly set how much capital a loan needs."
+   }
+  ],
+  "drivers": [
+   {
+    "name": "Interest-rate level and curve",
+    "how": "Higher short rates lift what banks earn on floating-rate loans and cash faster than deposit costs rise, widening NII. A flat or inverted curve and falling rates compress it."
+   },
+   {
+    "name": "Loan growth",
+    "how": "More lending to companies and households adds interest income but also needs capital and future provisions. Growth depends on business investment and consumer confidence."
+   },
+   {
+    "name": "Credit quality",
+    "how": "Unemployment, property values and corporate defaults drive net charge-offs and reserve builds. A turn in credit can erase a year of profit growth."
+   },
+   {
+    "name": "Capital markets activity",
+    "how": "Trading, underwriting and advisory fees swing with market volatility, deal volume and valuations. They are the most cyclical part of revenue."
+   },
+   {
+    "name": "Regulation and capital rules",
+    "how": "Capital minimums decide how much of earnings can be returned through dividends and buybacks. Looser rules free capital; stricter ones lock it up."
+   },
+   {
+    "name": "Deposit competition",
+    "how": "If customers move cash to higher-yielding alternatives, banks must pay more for funding, which squeezes the margin."
+   }
+  ]
+ },
+ "fundamentals": {
+  "business": [
+   "Diversified banks earn money from net interest income, fees and trading. JPMorgan's third-quarter 2026 managed net interest income was $27.1 billion on $50.9 billion of managed revenue, so interest still supplied just over half of revenue [1]. Fees come from cards, payments, wealth management, underwriting and advice, and the rest from markets trading.",
+   "Customers span households, small and midsize businesses, large corporations, institutions and governments. Citi's Services unit, for example, earned a 31.2% return on tangible equity in the quarter by moving cash and securities for corporate clients [3]. The mix of consumer and wholesale clients differs by bank.",
+   "The principal costs are interest paid on deposits and debt, compensation and technology, and credit losses. JPMorgan's noninterest expense was $27.3 billion in the quarter, and its provision for credit losses $2.7 billion [1]. Wells Fargo carried a 63% efficiency ratio [4].",
+   "Pricing power comes from the deposit franchise, scale in payments and cards, and client relationships. Large banks gather cheap, sticky deposits, which lets them price loans competitively; lending to large companies is more competitive than consumer or small-business lending. We read the near-uniform net interest margins within a bank's loan type as evidence that pricing is set largely by the market.",
+   "The assets are loans, securities and cash; the liabilities are deposits and wholesale funding. Bank of America had $1.25 trillion of loans and $2.04 trillion of deposits at quarter-end [2], and Citi $820 billion of loans and $1.5 trillion of deposits [3]. Deposits exceeding loans is the usual pattern at the largest banks.",
+   "Banks are balance-sheet-intensive rather than asset-light in the industrial sense: they need little physical capital but must hold regulated equity against assets. Equity is the scarce input. Wells Fargo's CET1 ratio was 10.0% and JPMorgan's 13.9%, so capital constrains growth and payouts differently at each bank [1][4]."
+  ],
+  "overview": [
+   "The U.S. banking sector is vast. FDIC-insured institutions earned $90.1 billion in the second quarter of 2026, a 1.37% return on assets, across 4,238 institutions [8]. Large domestically chartered banks held about $15.3 trillion of assets in September 2026 per the Fed's H.8 release [9]; growth in loans was 6.8% year on year in the second quarter [8].",
+   "Segments are consumer banking, commercial and corporate banking, markets and investment banking, wealth management and payments. JPMorgan reports consumer banking net income of $5.7 billion and asset and wealth management of $1.8 billion for the quarter [1], while Citi emphasises Services and Wealth, where revenue rose 15% [3].",
+   "In the value chain, these banks sit between savers and borrowers and between buyers and sellers. Suppliers are depositors, bond investors and technology vendors; customers are households, companies and governments. The Fed's interest-rate and reserve policy sets the cost of their raw material, money [5].",
+   "The industry evolved after the 2008 crisis toward heavier capital and liquidity requirements and annual stress tests. The 2026 stress test covered 32 banks, up from 22 the year before [11], and capital rules are now being rewritten [10]. Branch banking has shifted online while payments and wealth businesses have grown.",
+   "Sales are concentrated in the United States for JPMorgan, Bank of America and Wells Fargo, while Citi runs Services and Markets units for corporate clients [3]. We could not source a regional revenue split for the group as a whole."
+  ],
+  "competition": [
+   "The U.S. has 4,238 FDIC-insured institutions [8], but only a handful are diversified at national scale: JPMorgan, Bank of America, Citigroup and Wells Fargo, with U.S. Bancorp, PNC and Truist often grouped alongside them. The S&P banks index and GICS mapping place them in this group.",
+   "The leaders by balance sheet are JPMorgan, with about $1.6 trillion of average loans [1], Bank of America with $1.25 trillion of period-end loans [2], Wells Fargo with $1.03 trillion of average loans [4] and Citi with $820 billion [3]. We did not find a single sourced market-share table across deposits or loans.",
+   "The industry is concentrated at the top yet fragmented below it: thousands of small banks coexist with a few giants. Large banks dominate in credit cards, global payments and trading, while community banks compete locally. Fragmentation persists mainly because of local relationships and regulation.",
+   "Barriers to entry are high. A new entrant needs a charter, regulatory approval, deposit insurance and substantial capital, and must meet requirements such as the Basel capital rules that regulators are currently rewriting [10]. Trust and brand also take decades to build.",
+   "Economies of scale are large in technology, compliance, funding and payments processing. JPMorgan's roughly $1.6 trillion of loans and Bank of America's $2.04 trillion of deposits spread fixed costs over a huge base [1][2]. Scale also helps with regulatory spending, such as Bank of America's $1.2 billion anti-money-laundering charge [2], which smaller firms would find harder to absorb.",
+   "Basic banking products are commoditised: a checking account or a mortgage is similar across banks. Differentiation comes from service, digital tools, cards and rewards, advice, and relationships with corporate clients. Wealth and treasury services are stickier than lending.",
+   "Customers hold power in lending to large companies, which can play banks off against each other and tap bond markets. In consumer banking, customers are less sensitive to price. Depositors gained power as rates rose; suppliers of funding, such as bondholders, are less powerful than depositors. The October survey showed borrowing shifting to other bank or nonbank funding sources [7]."
+  ],
+  "drivers": [
+   "Revenue growth is driven by loan and deposit growth, the level of interest rates, capital-markets activity and fee growth in payments and wealth. Bank of America's loans grew 7% year over year and net interest income 8% [2]; JPMorgan's net interest income rose 13% [1]. Markets revenue adds a cyclical layer on top.",
+   "Operating margins depend on the net interest spread, expense control and credit costs. Citi's efficiency ratio improved to 58.5% from 64.7% a year earlier [3], and Bank of America's adjusted efficiency ratio was 62% versus 66% reported [2]. Operating leverage is the key source of profit improvement when revenue outgrows costs.",
+   "Key cost variables are deposit costs, wages and technology spending, regulatory and legal costs, and loan-loss provisions. Wells Fargo's provision was about $1.0 billion against $983 million of charge-offs [4]; JPMorgan's $2.7 billion provision included a $539 million net reserve build [1].",
+   "Interest rates matter more to banks than to most industries. The Fed held at 3.75% to 4.00% in October [5], and Wells Fargo's net interest margin was 2.43%, below JPMorgan's scale of interest income [4]. Higher short rates help asset-sensitive banks but raise funding costs and can hurt borrowers.",
+   "Inflation, unemployment, GDP and commodity prices affect banks mostly through credit and rates. CPI rose 3.7% in the year to September 2026, with energy up 20.4% [6]. Unemployment drives charge-offs; commodity prices matter for energy lending. Weak growth would raise provisions, as the Fed's stress scenario with 10% unemployment shows [11].",
+   "Diversified banks are cyclical. Credit losses and trading revenue swing with the business cycle, but deposit franchises, payments and wealth fees provide a more defensive base. The 2026 stress test showed aggregate capital falling only 1.6 percentage points in a severe recession [11]."
+  ],
+  "financials": [
+   "Revenue and earnings growth tracked the rate cycle and markets. JPMorgan's third-quarter revenue rose 8% and net income 6% [1]; Citi's revenue rose 8% and net income 40% off a depressed base [3]; Bank of America's revenue rose 3% [2]. FactSet expected diversified-bank earnings growth of 11% for the second quarter [12].",
+   "Gross margin is not a meaningful concept for banks. Damodaran's January 2026 dataset reports a 28.89% net margin for 15 money-center banks, and its operating margin figure is not meaningful for financial firms [13]. Efficiency ratios of 58% to 66% in the quarter are the practical cost measure [2][3][4].",
+   "Returns on equity are moderate to high among the leaders. Damodaran shows a 12.86% ROE for money-center banks [14], while JPMorgan's ROTCE was 20% and ROE 17% [1]. Wells Fargo posted ROE of 13.8% [4]. We could not source an ROIC figure; it is rarely used for banks.",
+   "Leverage is inherent: equity funds a small share of assets, with deposits funding most. We cite regulatory capital instead: CET1 of 13.9% at JPMorgan, 12.8% at Citi, 10.9% at Bank of America and 10.0% at Wells Fargo [1][2][3][4]. Citi's supplementary leverage ratio was 5.0% [3].",
+   "Free cash flow is not meaningful for banks because lending and deposits flow through operating activities. Cash generation is judged by earnings less retained capital. Citi returned $4.1 billion, an 85% payout [3], and Bank of America $6.0 billion of buybacks plus $2.2 billion of dividends [2].",
+   "Capital expenditure is modest in physical terms; the spend goes to technology, cybersecurity and compliance, which sit in noninterest expense. JPMorgan's quarterly noninterest expense was $27.3 billion, up 12% [1], showing how large the operating budget is.",
+   "Valuation is based on price to book and earnings. Damodaran's January 2026 money-center price-to-book was 1.62x [14]. The broad financials ETF trades at 15.8x forward earnings and 2.44x book, and the regional-bank KBE at 11.3x and 1.30x [15][16]; neither is a diversified-bank-only measure."
+  ],
+  "risks": [
+   "Regulation is easing for now. The March 2026 Basel III endgame reproposals would modestly cut aggregate CET1 requirements, by an estimated 4.8% for the largest firms, versus the rescinded 2023 version that would have raised them [10]. Governor Barr dissented [10]. Final rules are not yet confirmed in sources we opened, so a tougher outcome remains possible.",
+   "AI and technology can lower costs and raise fraud and cyber risk, while new platforms compete in payments. We found no sourced figures on AI cost savings for these banks, so this risk reads as judgment: technology spend is rising, as JPMorgan's 12% expense growth suggests [1].",
+   "Demographics matter only mildly: an ageing population shifts demand toward wealth and retirement products and away from some borrowing, and younger customers prefer digital banking. The effect is slow and hardly shows in quarterly results; credit-card demand strengthened in the latest survey [7].",
+   "Consumer behavior is shifting toward digital channels and, in parts of lending, toward nonbank sources. The October survey cited borrowing moving to other bank or nonbank funding sources [7]. Spending stays resilient, per the Fed [5], but approval rates for subprime card applicants fell [7].",
+   "New competitors include fintechs, private credit funds and payment networks. The October survey asked specifically about lending to nondepository financial institutions [7], which signals how banks now partly fund their rivals. Visa and Mastercard sit outside this group, in Transaction & Payment Processing.",
+   "Geopolitical and supply-chain risks affect banks through energy prices, trade, sanctions and client exposures. CPI energy rose 20.4% over the year [6]. Compliance with sanctions is also a cost: Bank of America's penalty related to Bank Secrecy Act, anti-money-laundering and sanctions programs [2].",
+   "Substitutes include bond and private-credit markets for corporate borrowing, buy-now-pay-later and stablecoin or other digital payments for consumers and money-market funds for deposits. We have no sourced sizing here; the October survey's mention of borrowing shifting to nonbank sources is the nearest evidence [7]."
+  ],
+  "horizon": {
+   "opportunities": [
+    "Capital rules are being eased, which could free capital for lending and buybacks if the proposals are finalised [10].",
+    "Loan growth is solid, with Bank of America reporting its tenth consecutive quarter of growth and loans up 7% year on year [2].",
+    "Wealth, payments and treasury services are growing fee lines, such as Citi Wealth revenue up 15% [3].",
+    "Strong stress-test results give banks room to raise dividends and buybacks once buffers are reset in 2027 [11]."
+   ],
+   "threats": [
+    "Inflation of 3.7% and a possible Fed hike could slow the economy and raise credit losses [5][6].",
+    "Weaker loan demand and tighter commercial real estate standards point to slower lending growth [7].",
+    "Compliance failures can be costly, as Bank of America's $1.2 billion charge shows [2].",
+    "Borrowing is shifting to other bank or nonbank funding sources, a drag on loan growth [7]."
+   ],
+   "assessment": "Our read is that returns for the largest banks look durable over the next three to five years, helped by sticky deposits, scale and an easier capital regime, with JPMorgan's 20% ROTCE and Wells Fargo's 16.3% showing what the best franchises earn [1][4]. The main swing factors are the credit cycle and the rate path: with inflation at 3.7% and the Fed leaning toward hikes [5][6], net interest income could stay high, but borrowers would be strained. Capital relief [10] should support payouts. Weaker returns at Citi (11.5%) and Bank of America (12.6%) [2][3] suggest dispersion will persist, and nonbank competition is a slow drag on lending share."
+  }
+ },
+ "sections": [
+  {
+   "id": "macro",
+   "paragraphs": [
+    "The cycle looks late and inflationary rather than recessionary. The Fed held the target range at 3.75% to 4.00% on 28 October 2026 by a 10-2 vote, with Governors Cook and Hammack preferring a quarter-point increase, and described inflation as elevated and activity as expanding at a strong pace [5]. Consumer prices rose 3.7% in the year to September, with energy up 20.4% and core up 2.6% [6].",
+    "For banks this is a mixed backdrop. Higher short rates have supported income: JPMorgan's managed net interest income rose 13% to $27.1 billion and Bank of America's 8% [1][2]. Wells Fargo's net interest margin was a thinner 2.43% [4]. A stronger economy keeps credit losses in check, but an energy-led inflation shock could strain lower-income borrowers.",
+    "The Fed's statement does not change the balance sheet and says it is maintaining ample reserves [5], which keeps bank liquidity comfortable. We did not find sourced figures on currency effects this quarter."
+   ]
+  },
+  {
+   "id": "demand",
+   "paragraphs": [
+    "Banking demand grows roughly with nominal GDP, credit demand and capital-markets activity. FDIC data show loans up 6.8% year on year and domestic deposits rising for an eighth straight quarter in the second quarter of 2026 [8]. Large banks held about $15.3 trillion of assets in September [9].",
+    "Within the group, growth is uneven. Bank of America's loans rose 7% year on year to $1.25 trillion while deposits rose 2% [2]; Citi's loans rose 12% and deposits 9% [3]; JPMorgan's average loans were up 10% [1]. Wealth and Services are structural growth areas: Citi's wealth revenue was up 15% [3].",
+    "The near-term demand signal is softer. In the Fed's October survey, banks reported weaker commercial and industrial demand from firms of all sizes, weaker demand across commercial real estate and in residential mortgages, while credit-card demand strengthened [7]. We think this points to moderating loan growth even as the sector's long-term prospects depend on deposits, payments and fee-based advice rather than lending alone."
+   ]
+  },
+  {
+   "id": "structure",
+   "paragraphs": [
+    "Porter's five forces point to an attractive but regulated industry. Threat of new entrants is low because of charters, capital and compliance, and the Basel rewrite keeps barriers high even as it lowers some requirements [10]. Rivalry among the big four is intense in cards, markets and corporate lending, though their balance sheets are of similar scale: loans of $820 billion to about $1.6 trillion [1][2][3][4].",
+    "Buyer power is high in wholesale lending, where companies can switch to bond markets or nonbank lenders; the October survey noted borrowing shifting to other funding sources [7]. Supplier power sits with depositors and the Fed; depositors have gained leverage as rates have risen. The threat of substitutes comes from private credit, fintech payments and money-market funds, which we could not size from sources we opened.",
+    "Moats are deposit franchises, scale in technology and compliance, brand and client relationships. Pricing power is greatest in cards and treasury services and weakest in plain lending. We did not find a sourced concentration table for deposit or loan share. The sector has 4,238 insured institutions, but the largest few dominate wholesale and card markets [8]."
+   ]
+  },
+  {
+   "id": "environment",
+   "paragraphs": [
+    "Regulation is the largest external lever. In March 2026 the agencies reproposed the Basel III endgame; they estimate aggregate CET1 requirements would fall 4.8% for the largest firms and 3.8% from a recalibrated GSIB surcharge, replacing a 2023 plan that would have raised requirements [10]. Governor Barr dissented, citing over twenty material deviations from Basel [10]. The comment period closed on 18 June 2026, and a final rule is not confirmed in our sources.",
+    "Supervision also looks lighter-touch on capital: the 2026 stress test of 32 banks showed aggregate CET1 falling 1.6 points to 11.2% under a scenario with 10% unemployment and a 39% fall in commercial property prices, and the Fed kept stress capital buffers unchanged until 2027 [11]. Enforcement remains active: OCC and FinCEN orders led to Bank of America's $1.2 billion charge [2].",
+    "Technology and politics both matter. Technology spending is rising, and AI and digital payments could shift costs and competition, but we found no sourced estimate. Political risk centres on the capital rules, where Governor Barr's dissent shows the proposals are contested [10]."
+   ]
+  },
+  {
+   "id": "economics",
+   "paragraphs": [
+    "Bank economics rest on spread, fees, costs and credit. At JPMorgan, third-quarter revenue was $50.2 billion, expenses $27.3 billion and the provision $2.7 billion, leaving net income of $15.3 billion and a 20% return on tangible equity [1]. Citi's efficiency ratio was 58.5% [3]; Wells Fargo's was 63% [4]; Bank of America's was 66% reported and 62% adjusted [2].",
+    "Operating leverage is visible: Citi's efficiency ratio fell from 64.7% a year earlier, and its RoTCE rose from 8.0% to 11.5% [3]. Returns remain well spread: 20% at JPMorgan, 16.3% at Wells Fargo, 12.6% at Bank of America and 11.5% at Citi [1][2][3][4]. Damodaran's money-center ROE of 12.86% and net margin of 28.89% give an industry anchor for January 2026 [13][14].",
+    "Capital intensity is expressed in CET1 rather than fixed assets: 13.9% at JPMorgan and 10.0% at Wells Fargo [1][4]. Free cash flow is not a useful measure for banks; we look at payout instead. Citi returned $4.1 billion, an 85% payout [3]. ROIC is not widely reported for banks and we did not source it."
+   ]
+  },
+  {
+   "id": "earnings",
+   "paragraphs": [
+    "Earnings momentum is positive. The industry's second-quarter net income was $90.1 billion [8], and in the third quarter JPMorgan's EPS rose 10% to $5.57, Wells Fargo's reached $1.87 and Citi's $2.85 [1][3][4]. Bank of America's EPS was $0.91 reported and $1.08 excluding the settlement charge [2].",
+    "Consensus figures for the group in the third quarter were not publicly available in sources we opened. FactSet's July preview expected financials earnings growth of 2.3% for the third quarter of 2026, 10.7% for the fourth, and 7.3% and 12.1% for the first two quarters of 2027; diversified banks were expected to grow 11% in the second quarter [12]. These estimates predate the results.",
+    "Management guidance was not stated in the release text we opened: JPMorgan's earnings release contained no formal forecasts [1]. Our view is that interest income should stay firm while rates remain high, but a credit downturn or lower trading revenue would reverse that, and we cannot say where this sits against consensus."
+   ]
+  },
+  {
+   "id": "valuation",
+   "paragraphs": [
+    "We could not find a published forward P/E for diversified banks alone. The broad Financials Select Sector SPDR ETF traded at 15.8x forward earnings and 2.44x book on 6 November 2026, but its largest holdings include Berkshire Hathaway, Visa and Mastercard, so it does not describe banks only [15]. The regional-bank KBE ETF traded at 11.3x forward earnings and 1.30x book [16].",
+    "Damodaran's January 2026 dataset put 15 money-center banks at 1.62x book against a 12.86% ROE [14]. That implies investors were paying about 1.6 times equity for a return near 13%, which looks fair rather than stretched; JPMorgan's 17% ROE and 20% ROTCE [1] argue for a premium for the best franchise.",
+    "We did not find sourced free-cash-flow yields or normalised-earnings estimates, and FCF yield is not meaningful for banks. Dividend and buyback yields are a better guide. Citi's 85% payout and Bank of America's $8.2 billion of buybacks and dividends in the quarter [2][3] show capital being returned, though JPMorgan slowed repurchases to $664 million [1]. Against the 10-year range we have no sourced history, so we draw no conclusion."
+   ]
+  },
+  {
+   "id": "positioning",
+   "paragraphs": [
+    "Bank stocks have risen but trail the broad market. The Financials Select Sector SPDR ETF returned 9.66% year to date and 22.30% over one year through 31 October 2026 and held $53.4 billion of net assets [15]. JPMorgan was 11.04% of the fund, Bank of America 3.99%, Wells Fargo 3.15% and Citigroup 2.48% on 6 November [15].",
+    "The regional-bank KBE ETF returned 8.84% year to date and 22.82% over one year as of 30 September, a little behind its index, with assets of $1.5 billion [16]. Large diversified banks and regionals have therefore moved together this year.",
+    "We did not find sourced short-interest, institutional flow or breadth data for diversified banks. The earnings season has been a positive driver for the financials sector overall, but the October rate-hike dissents [5] and softer loan demand [7] are the main sentiment risks. Our read is that positioning is constructive but not crowded; we cannot confirm that with data."
+   ]
+  }
+ ],
+ "sources": [
+  {
+   "n": 1,
+   "title": "JPMorgan Chase & Co. Form 8-K, Q3 2026 earnings release",
+   "publisher": "SEC / JPMorgan Chase",
+   "date": "2026-10-13",
+   "url": "https://www.sec.gov/Archives/edgar/data/0000019617/000162828026065582/a3q26erfexhibit991narrative.htm"
+  },
+  {
+   "n": 2,
+   "title": "Bank of America Form 8-K, Q3 2026 earnings release",
+   "publisher": "SEC / Bank of America",
+   "date": "2026-10-14",
+   "url": "https://www.sec.gov/Archives/edgar/data/0000070858/000007085826000481/bac09302026ex992.htm"
+  },
+  {
+   "n": 3,
+   "title": "Citigroup Form 8-K, Q3 2026 earnings release",
+   "publisher": "SEC / Citigroup",
+   "date": "2026-10-13",
+   "url": "https://www.sec.gov/Archives/edgar/data/0000831001/000110465926115323/c-ex99d1.htm"
+  },
+  {
+   "n": 4,
+   "title": "Wells Fargo Form 8-K, Q3 2026 earnings release",
+   "publisher": "SEC / Wells Fargo",
+   "date": "2026-10-13",
+   "url": "https://www.sec.gov/Archives/edgar/data/0000072971/000007297126000318/wfc3qer10-13x26ex991xrelea.htm"
+  },
+  {
+   "n": 5,
+   "title": "Federal Reserve FOMC statement, October 28, 2026",
+   "publisher": "Federal Reserve Board",
+   "date": "2026-10-28",
+   "url": "https://www.federalreserve.gov/newsevents/pressreleases/monetary20261028a.htm"
+  },
+  {
+   "n": 6,
+   "title": "Consumer Price Index summary, September 2026",
+   "publisher": "U.S. Bureau of Labor Statistics",
+   "date": "2026-10-14",
+   "url": "https://www.bls.gov/news.release/archives/cpi_10142026.htm"
+  },
+  {
+   "n": 7,
+   "title": "Senior Loan Officer Opinion Survey on Bank Lending Practices, October 2026",
+   "publisher": "Federal Reserve Board",
+   "date": "2026-10",
+   "url": "https://www.federalreserve.gov/data/sloos/sloos-202610.htm"
+  },
+  {
+   "n": 8,
+   "title": "FDIC Quarterly Banking Profile, Q2 2026 (summary)",
+   "publisher": "Crane Data, summarising FDIC",
+   "date": "2026-08-25",
+   "url": "https://cranedata.com/archives/all-articles/11492/"
+  },
+  {
+   "n": 9,
+   "title": "Total Assets, Large Domestically Chartered Commercial Banks (H.8)",
+   "publisher": "FRED / Federal Reserve Board",
+   "date": "2026-11-06",
+   "url": "https://fred.stlouisfed.org/series/TLALCBM027SBOG"
+  },
+  {
+   "n": 10,
+   "title": "Basel III Endgame Take Two: 8 key takeaways from the agencies' re-proposals",
+   "publisher": "Freshfields",
+   "date": "2026-03",
+   "url": "https://www.freshfields.com/en/our-thinking/blogs/a-fresh-take/basel-iii-endgame-take-two-8-key-takeaways-from-the-federal-banking-agencies-c-102mnm3"
+  },
+  {
+   "n": 11,
+   "title": "2026 June Dodd-Frank Act Stress Test: introduction",
+   "publisher": "Federal Reserve Board",
+   "date": "2026-06-24",
+   "url": "https://www.federalreserve.gov/publications/2026-june-dodd-frank-act-stress-test-introduction.htm"
+  },
+  {
+   "n": 12,
+   "title": "S&P 500 Financials Sector Earnings Preview: Q2 2026",
+   "publisher": "FactSet Insight",
+   "date": "2026-07-13",
+   "url": "https://insight.factset.com/sp-500-financials-sector-earnings-preview-q2-2026"
+  },
+  {
+   "n": 13,
+   "title": "Margins by Sector (US), January 2026",
+   "publisher": "Aswath Damodaran, NYU Stern",
+   "date": "2026-01",
+   "url": "https://pages.stern.nyu.edu/~adamodar/New_Home_Page/datafile/margin.html"
+  },
+  {
+   "n": 14,
+   "title": "Price to Book and ROE by industry, January 2026",
+   "publisher": "Aswath Damodaran, NYU Stern",
+   "date": "2026-01",
+   "url": "https://pages.stern.nyu.edu/~adamodar/New_Home_Page/datafile/pbvdata.html"
+  },
+  {
+   "n": 15,
+   "title": "Financial Select Sector SPDR ETF (XLF)",
+   "publisher": "State Street Investment Management",
+   "date": "2026-11-06",
+   "url": "https://www.ssga.com/us/en/intermediary/etfs/state-street-financial-select-sector-spdr-etf-xlf"
+  },
+  {
+   "n": 16,
+   "title": "SPDR S&P Bank ETF (KBE)",
+   "publisher": "State Street Investment Management",
+   "date": "2026-11-06",
+   "url": "https://www.ssga.com/us/en/intermediary/etfs/state-street-spdr-sp-bank-etf-kbe"
+  }
+ ]
+}

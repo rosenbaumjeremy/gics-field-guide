@@ -1,0 +1,490 @@
+{
+ "code": "40203010",
+ "added": "2026-11-10",
+ "asOf": "2026-11-09",
+ "summary": "Asset managers and custody banks are riding record asset levels, but the two halves earn money differently. BlackRock took in $205 billion in the third quarter and ended at $15.5 trillion [1]; Blackstone, KKR and Apollo each grew fee-earning assets 9% to 11% or more [2][3][4]; and the custody banks grew assets under custody 10% to 14.5% [5][6]. Fee growth rests on market levels and a swing to cheap ETFs and private markets [7][8]. We think the risks are private-credit redemptions [9], rising rates [10] and a market drop. Sector-level consensus for this sub-industry wasn't publicly available.",
+ "metrics": [
+  {
+   "label": "BlackRock AUM",
+   "value": "$15.5T",
+   "context": "Up ~15% y/y; Q3 net inflows $205B, $869B over 12 months; reported 14 Oct 2026",
+   "source": 1
+  },
+  {
+   "label": "Blackstone fee-related earnings",
+   "value": "$1.6B",
+   "context": "Q3 2026; $6.4B over 12 months; total AUM $1,368B, up 10%; reported 22 Oct 2026",
+   "source": 2
+  },
+  {
+   "label": "KKR fee-related earnings",
+   "value": "$1.316B",
+   "context": "Up 27% y/y; AUM $804.4B, up 11%; reported 9 Nov 2026",
+   "source": 3
+  },
+  {
+   "label": "Apollo inflows",
+   "value": "$53B",
+   "context": "Q3 2026; $270B over 12 months; AUM $1,074B; reported 3 Nov 2026",
+   "source": 4
+  },
+  {
+   "label": "State Street assets under custody/administration",
+   "value": "$59.2T",
+   "context": "Up 14.5% y/y; pre-tax margin 34.6%, ROE 16.4%; quarter ended 30 Sep 2026",
+   "source": 5
+  },
+  {
+   "label": "BNY return on tangible common equity",
+   "value": "29.0%",
+   "context": "Q3 2026; fee revenue $4,078M, up 12%; AUC/A $63.4T",
+   "source": 6
+  },
+  {
+   "label": "Passive vs. active fund flows, 12 months",
+   "value": "+$1,340B / -$70B",
+   "context": "U.S. funds, passive vs. active, to 30 Sep 2026",
+   "source": 7
+  },
+  {
+   "label": "Forward P/E, asset managers (Damodaran)",
+   "value": "18.77x",
+   "context": "Investments & Asset Management, 283 firms, Jan 2026; Financials sector forward P/E 15.0 on 5 Nov 2026",
+   "source": 20
+  }
+ ],
+ "watch": [
+  "Private-credit redemptions: Blackstone's flagship non-traded BDC received requests for about 10% of shares against a 5% cap in the second quarter, so any spread to other funds would hit fees and sentiment [9].",
+  "The Fed held at 3.75% to 4.00% on 28 October with two members wanting a hike, which pressures bond-fund flows and alternatives fundraising but lifts custody banks' interest income [10].",
+  "The Labor Department's 401(k) alternatives rule, proposed on 30 March 2026, which could open a large new channel for private-markets managers if finalized [11].",
+  "Fee compression as money pours into passive funds: passive took in $1,340 billion over 12 months while active funds lost $70 billion [7].",
+  "Capital rules for custody banks, since the final eSLR rule made no custodial adjustment [12]."
+ ],
+ "bellwethers": [
+  "BlackRock",
+  "Blackstone",
+  "KKR",
+  "Apollo Global Management",
+  "State Street",
+  "BNY",
+  "Northern Trust"
+ ],
+ "basics": {
+  "intro": "These companies look after other people's money. Asset managers charge a fee, usually a small percentage of the assets they run, on mutual funds, ETFs and private funds. Alternatives firms such as Blackstone, KKR and Apollo run private equity, credit and real estate funds and take performance fees. Custody banks, such as State Street, BNY and Northern Trust, safekeep and administer clients' assets for a fee. GICS keeps these together; brokers and investment banks sit in the neighbouring Investment Banking & Brokerage.",
+  "products": [
+   {
+    "name": "Index funds and ETFs",
+    "what": "Funds that track a market index at very low fees. They win most new money, so scale matters more than stock-picking.",
+    "examples": "BlackRock iShares, State Street SPDR"
+   },
+   {
+    "name": "Actively managed funds",
+    "what": "Funds where a manager picks securities to beat a benchmark, charging higher fees. Many investors have been moving away from them.",
+    "examples": "Mutual funds and active ETFs run by large and mid-sized managers"
+   },
+   {
+    "name": "Private equity, credit and real estate funds",
+    "what": "Funds that buy companies, lend directly to them or own property, locking in investors' capital for years. They pay management fees plus a share of profits.",
+    "examples": "Blackstone, KKR and Apollo flagship funds"
+   },
+   {
+    "name": "Insurance-linked asset management",
+    "what": "Managers that own or serve life insurers and annuity writers, investing the premiums in credit and earning both fees and a spread.",
+    "examples": "Apollo's Athene, KKR's Global Atlantic"
+   },
+   {
+    "name": "Custody and asset servicing",
+    "what": "Holding clients' securities safely, settling trades, valuing funds and keeping their books. Clients are other asset managers, pension funds and insurers.",
+    "examples": "State Street, BNY, Northern Trust"
+   },
+   {
+    "name": "Wealth management",
+    "what": "Advice, banking and investing for wealthy families, often run inside the same group as custody.",
+    "examples": "Northern Trust Wealth Management, BNY Wealth"
+   }
+  ],
+  "terms": [
+   {
+    "term": "AUM",
+    "meaning": "Assets under management: client money a firm invests. Fees are mostly a percentage of it, so market moves and flows both change revenue."
+   },
+   {
+    "term": "AUC/A",
+    "meaning": "Assets under custody and/or administration: assets a bank holds or services but does not invest itself. It is far larger than AUM at custody banks."
+   },
+   {
+    "term": "Net flows",
+    "meaning": "New money in minus money withdrawn. Strong flows grow fees even when markets are flat."
+   },
+   {
+    "term": "Fee-earning AUM",
+    "meaning": "The part of assets that actually pays management fees. Private-fund firms watch it more than total AUM."
+   },
+   {
+    "term": "Fee-related earnings (FRE)",
+    "meaning": "Profit from steady management fees after the costs of earning them, excluding volatile performance fees. Investors pay a higher multiple for it."
+   },
+   {
+    "term": "Performance fees (carried interest)",
+    "meaning": "A share of fund profits, usually above a hurdle return. They are large in good years and shrink when asset sales stall."
+   },
+   {
+    "term": "Spread-related earnings",
+    "meaning": "Profit from investing insurance premiums at higher yields than the insurer pays out, as at Apollo's Athene."
+   },
+   {
+    "term": "Perpetual capital",
+    "meaning": "Money that stays invested with no fixed end date, such as insurance balance sheets and evergreen funds. It makes fees more predictable."
+   },
+   {
+    "term": "Operating margin",
+    "meaning": "Profit after operating costs as a share of revenue. Asset managers have high margins because adding assets costs little."
+   },
+   {
+    "term": "Net interest income",
+    "meaning": "What a custody bank earns investing client cash above what it pays on deposits. It rises with interest rates."
+   },
+   {
+    "term": "Pre-tax margin",
+    "meaning": "Pre-tax profit divided by revenue, the standard efficiency gauge for custody banks."
+   },
+   {
+    "term": "CET1 ratio",
+    "meaning": "Core capital relative to risk-weighted assets, the main regulatory capital measure for banks. It limits buybacks and dividends."
+   },
+   {
+    "term": "Fee compression",
+    "meaning": "The steady fall in the average fee per dollar managed as cheaper passive products gain share."
+   },
+   {
+    "term": "Non-traded BDC",
+    "meaning": "A private-credit vehicle sold to individuals that lets investors withdraw only a limited share of assets each quarter."
+   }
+  ],
+  "drivers": [
+   {
+    "name": "Market levels",
+    "how": "Fees are charged on assets, so a rising stock and bond market lifts revenue almost automatically and a fall cuts it, usually with costs fixed. This is why earnings swing with markets."
+   },
+   {
+    "name": "Net flows",
+    "how": "Investors adding or withdrawing money changes assets independently of markets. Flows towards cheap ETFs grow total assets but at lower average fees."
+   },
+   {
+    "name": "Fee rates and mix",
+    "how": "Active, private and alternative products pay much higher fees than index funds, so the mix of assets sets revenue growth as much as total AUM."
+   },
+   {
+    "name": "Fundraising and deal exits",
+    "how": "Private-markets firms earn fees when they raise funds and performance fees when they sell assets. Frozen deal markets delay the second."
+   },
+   {
+    "name": "Interest rates",
+    "how": "Higher rates raise custody banks' interest income on client cash and can lure savers to cash funds, but they can hurt bond-fund values and private-credit borrowers."
+   },
+   {
+    "name": "Operating leverage",
+    "how": "Technology and people costs are largely fixed, so extra assets drop mostly to profit and falling assets squeeze margins."
+   },
+   {
+    "name": "Regulation and capital",
+    "how": "Bank capital rules cap how much custody banks can return to shareholders, and fund rules shape what products can be sold."
+   }
+  ]
+ },
+ "fundamentals": {
+  "business": [
+   "Revenue is mostly fees. Asset managers charge a percentage of assets managed; alternatives firms add performance fees and, for insurance-linked groups, investment spread; custody banks earn servicing fees, foreign-exchange and net interest income. At State Street, fee revenue was $3,140 million of $4,004 million total in the third quarter of 2026 [5].",
+   "Customers are individuals, advisers, pension funds, insurers, sovereign funds and corporations. BlackRock's inflows came from ETFs, active strategies and cash management [1], while custody banks serve other asset managers and institutions. BNY's third-quarter results cited net new business and client activity [6].",
+   "The main cost is people, then technology and distribution. Moody's notes lower management fees alongside rising personnel, technology and distribution costs [13]. BlackRock's adjusted operating margin was 47.8% in the quarter [1].",
+   "Pricing power comes from scale, brand, performance and distribution. ETF fees are close to zero for commodity exposures; private funds and bespoke mandates keep higher fees. BCG says institutional fees have fallen about 3% a year and each added dollar of AUM carries a lower average fee [8].",
+   "Asset managers hold little on their own balance sheets, so liabilities are modest. Custody banks hold large deposits and securities portfolios against client cash. Alternatives firms with insurers hold big investment books: Apollo's Athene has $322 billion of net invested assets [4].",
+   "Asset managers are largely asset-light; Damodaran's table shows 24.6% after-tax operating margin for the group [14]. Custody banks are more capital-intensive because of regulatory capital and technology: BNY's CET1 ratio was 10.9% [6]. Alternatives firms using insurance balance sheets are more asset-heavy."
+  ],
+  "overview": [
+   "BCG puts global assets under management at $147 trillion at the end of 2025 [8]. We could not source a U.S.-only total from a page we opened. Custody is bigger still: BNY alone administered $63.4 trillion [6] and State Street $59.2 trillion [5].",
+   "Main segments: passive and ETF products, active mutual funds, institutional mandates, private markets (equity, credit, real estate, infrastructure), insurance-related asset management, wealth management and custody. U.S.-listed ETFs held $16.4 trillion at 30 September 2026 [15]; BlackRock's ETFs alone were about $6.36 trillion [1].",
+   "The industry sits between asset owners and the markets. Suppliers are data, technology and trading providers; customers are savers and institutions, often reached through advisers and platforms. Custody banks sit behind managers, settling and safekeeping their trades; Moody's expects private markets to produce more than half of industry revenue by 2030 [13].",
+   "The industry has shifted from active mutual funds to index funds and ETFs, and more recently to private markets. Over twelve months to September 2026, passive funds took in $1,340 billion and active funds lost $70 billion [7], while Blackstone, KKR and Apollo each reported 12-month inflows or capital raised of $116 billion to $272 billion [2][3][4].",
+   "Sales and production are concentrated in the U.S. in our judgment: BlackRock, State Street, BNY, Northern Trust and the big alternatives firms are all U.S.-based, and Northern Trust alone reports $19.8 trillion of assets under custody and administration [16]. We did not find a sourced regional split for custody or private markets."
+  ],
+  "competition": [
+   "The group is large and fragmented at the edges but concentrated at the top. It includes a very large number of managers globally; among the largest are BlackRock, Vanguard, State Street, Fidelity, Blackstone, KKR and Apollo. We could not source an exact count of significant competitors.",
+   "Leaders by assets in our set: BlackRock $15.5 trillion [1]; State Street $6.3 trillion of AUM and $59.2 trillion of AUC/A [5]; BNY $2.2 trillion of AUM and $63.4 trillion of AUC/A [6]; Blackstone $1,368 billion [2]; Apollo $1,074 billion [4]; KKR $804 billion [3]. Vanguard and Fidelity are private and not in our sources.",
+   "Passive management is concentrated: BCG found the top ten U.S. passive providers took more than 90% of net inflows over a decade, and private-markets capital is flowing to fewer, larger firms [8]. Moody's says smaller and mid-sized managers face fee compression and higher fixed costs, which keeps consolidation on the agenda [13].",
+   "Barriers to entry are brand, track record, distribution and, for custody, technology and regulatory capital. Launching a fund is easy, but gathering assets is not: 106 new ETFs launched in September 2026 alone, 75% of them active [15], and most gather little.",
+   "Economies of scale are strong. Fixed technology and compliance costs spread across more assets, which shows in BlackRock's 47.8% adjusted operating margin [1] and State Street's 34.6% pre-tax margin [5]. BCG found cost growth slightly outpacing revenue growth since 2010 for the industry [8].",
+   "Index exposures are commoditized: competition is on price. Active and private products are differentiated by manager skill and access, though BCG notes each incremental dollar of AUM carries a lower average fee [8]. Custody is a utility-like service with sticky relationships and modest differentiation.",
+   "Customers hold the bargaining power in public products: platforms, advisers and large institutions negotiate fees. In private markets, scarce access to top funds shifts power to managers, though non-traded vehicles still face investor redemption rights [9]. Suppliers (data and technology vendors) hold little power, except in custody technology."
+  ],
+  "drivers": [
+   "Revenue growth comes from market appreciation and net flows. BCG says more than 80% of industry revenue growth since 2010 came from market performance [8]. In BlackRock's third quarter, organic base fee growth was 10% over twelve months, on top of higher markets [1].",
+   "Operating margins depend on assets versus fixed costs and on product mix. BlackRock's adjusted margin rose from 44.6% to 47.8% year on year as revenue grew 19% [1]. For custody banks, margins also depend on interest income: State Street's net interest income was up 20.8% from a year earlier [5].",
+   "Key cost variables are compensation, technology and distribution [13]. Custody banks add regulatory capital and funding costs. For alternatives firms, compensation scales with carried interest, which makes costs partly variable.",
+   "Rates cut both ways. Higher rates lift custody banks' net interest income: BNY's rose 15% y/y [6]. But the Fed's 3.75% to 4.00% range, with two members wanting a hike [10], can pull money from bond funds to cash, raise borrowers' costs in private credit and slow deal exits.",
+   "Inflation, GDP and unemployment matter through asset prices. The Fed called inflation elevated [10]. Strong equity markets lift fees; recessions cut asset values and slow fundraising. Commodity prices matter little, except via infrastructure and real-asset funds.",
+   "The sector is cyclical in earnings because fees follow markets, but the secular growth stories are ETFs, private markets and retirement savings. Moody's calls industry organic growth just under 2% a year over a decade [13], so market returns do most of the work."
+  ],
+  "financials": [
+   "Growth: Damodaran's January 2026 table shows a 5.69% five-year revenue growth rate for Investments & Asset Management, with analysts expecting 20.22% over two years and 6.40% over five [17]. Recent results are stronger: Blackstone's fee-earning AUM grew 9% [2], and KKR's fee-related earnings 27% [3].",
+   "Margins: Damodaran puts gross margin at 69.77% and after-tax operating margin at 24.60% for 283 asset-management firms [14]. Individual firms differ: BlackRock reported 47.8% adjusted operating margin [1], and State Street 34.6% pre-tax [5]; BNY's pre-tax operating margin was 38.5% [6].",
+   "Returns: Damodaran's ROE for the group is 15.88% [18]. Custody banks report higher or similar figures: State Street 16.4% ROE [5], Northern Trust 20.1% [16] and BNY a 29.0% return on tangible common equity [6]. We did not find a sourced ROIC for this group.",
+   "Leverage: the Damodaran table shows market debt-to-capital of 24.24% and market D/E of 32.00% [19], but it blends asset managers with leveraged balance-sheet firms. Custody banks run bank leverage: BNY's CET1 ratio was 10.9% and Tier 1 leverage ratio 5.7% [6].",
+   "Free cash flow is strong for pure fee businesses because little capital is needed, and most is returned to shareholders: BNY repurchased $937 million of stock in the third quarter [6], and Blackstone paid $5.06 per share in dividends over twelve months [2].",
+   "Capital expenditure is low for asset managers relative to revenue; spending goes to technology and acquisitions rather than plant. Damodaran's net capex figure for the group was distorted by negative depreciation in his data, so we do not quote it. Custody banks spend steadily on technology.",
+   "Valuation: Damodaran's forward P/E for the group is 18.77, with a 1.53 PEG ratio [20]; the trailing P/E of 75.30 is distorted by low earnings at some firms. The S&P 500's forward P/E was 17.7 on 5 November 2026, and Financials' was 15.0 [21]."
+  ],
+  "risks": [
+   "Regulation: the Labor Department's March 2026 proposal would give 401(k) fiduciaries a safe harbor for weighing alternatives on six factors, including fees and liquidity [11]. Bank capital rules matter for custody banks: the final eSLR rule made no custodial adjustment [12]. SEC fund and liquidity rules also shape products.",
+   "Technology and AI: BCG says AI could cut costs and reshape the industry [8], helping scaled firms but lowering the barrier for rivals. Tokenized funds and automated advice could pressure fees and distribution; custody banks face a competing technology race in settlement.",
+   "Demographics: aging savers shift money from accumulation to income and retirement products, and wealth transfers favor wealth managers. Defined-contribution plans are a growth channel if the Labor Department's proposal is finalized [11].",
+   "Consumer behavior: savers keep preferring low-cost index funds and ETFs. Passive took in $1,340 billion over twelve months to September 2026, active lost $70 billion [7], and 60% of September ETF inflows went to passive ETFs [15]. Individuals are also moving into private credit through non-traded vehicles [9].",
+   "New competitors: banks, insurers and fintechs are entering private credit and wealth, and cheap-ETF issuers keep taking share. BCG finds the winners are the largest firms [8]. Active ETFs are growing fast: 75% of September's new ETF launches were active [15].",
+   "Geopolitics and supply chains matter less directly than for goods industries. The channels are market volatility, sanctions on custody clients and cross-border fund restrictions. We found no sourced figures here, so we treat this as a judgment-based risk.",
+   "Substitutes include direct indexing, do-it-yourself investing on low-cost platforms and cash alternatives. Private-credit funds face a liquidity test: requests to redeem hit about 10% of Blackstone's flagship BDC in the second quarter against a 5% cap [9]."
+  ],
+  "horizon": {
+   "opportunities": [
+    "Private markets could produce more than half of industry revenue by 2030, per Moody's [13].",
+    "A final 401(k) alternatives rule could open a large retirement channel for private-markets managers [11].",
+    "Custody and servicing assets keep growing: State Street's AUC/A rose 14.5% in a year [5].",
+    "Insurance-linked capital gives alternatives firms stable, growing balance sheets, such as KKR's Global Atlantic at $223 billion [3]."
+   ],
+   "threats": [
+    "Fee compression: each added dollar of AUM carries a lower average fee, and costs have grown faster than revenue [8].",
+    "A private-credit liquidity event, signalled by redemption requests of about 10% against a 5% cap at Blackstone's flagship BDC [9].",
+    "A market decline would cut fees quickly because over 80% of revenue growth came from market performance [8].",
+    "Higher rates and elevated inflation, with two Fed dissenters wanting a hike [10]."
+   ],
+   "assessment": "We think the next three to five years favor scale and private markets. The largest firms are taking most flows, ETFs are growing fastest, and private-markets managers are building recurring fee streams and insurance balance sheets [8][1][3]. Against that, fees keep falling in public products, and the group's earnings remain tied to markets. The main unknown is whether retail-oriented private credit survives its first real liquidity test; early signs of strain are visible [9]. Custody banks look like steadier compounders, helped by rising asset volumes and net interest income [5][6], but the capital regime limits their payouts [12]. A 401(k) opening could extend private markets' growth if finalized [11]."
+  }
+ },
+ "sections": [
+  {
+   "id": "macro",
+   "paragraphs": [
+    "The cycle is late and the rate path has turned less friendly. The Fed held its target at 3.75% to 4.00% on 28 October 2026 with Governors Cook and Hammack dissenting in favor of another hike, and it said inflation remains elevated [10]. For asset managers that is a mixed backdrop: it lowers bond-fund values and raises borrowers' costs in private credit, but it supports cash and short-bond products.",
+    "The equity backdrop is the bigger driver. Fees follow asset levels, and the S&P 500 is still earning strong profits: FactSet's blended third-quarter growth rate was 31.4%, though the index forward P/E has fallen to 17.7, its lowest since November 2023, as the price index fell 3.9% after 30 September [21]. For custody banks, higher rates help: BNY's net interest income rose 15% [6] and State Street's 20.8% [5]. We cannot source a currency effect."
+   ]
+  },
+  {
+   "id": "demand",
+   "paragraphs": [
+    "Demand is structural but slowing in organic terms. BCG puts global AUM at $147 trillion at the end of 2025, with more than 80% of revenue growth since 2010 coming from market performance rather than new money [8]. Moody's puts industry organic growth just under 2% a year over a decade [13].",
+    "The growth is in ETFs and private markets. U.S.-listed ETFs held $16.4 trillion at 30 September 2026, with a record year-to-date inflow of more than $1.5 trillion [15]. BlackRock took in $205 billion in the quarter and $869 billion over twelve months [1]. Private-markets firms are raising capital faster than the industry: Apollo reported $270 billion of twelve-month inflows [4], Blackstone $271.6 billion [2] and KKR raised $116 billion [3].",
+    "Public active funds are the weak spot. Long-term mutual funds had net outflows of $132.2 billion in September, following $94.0 billion in August [22]. Demographics (retirement saving) and the proposed 401(k) opening support the long-run story [11], but rate and valuation risks cut against it."
+   ]
+  },
+  {
+   "id": "structure",
+   "paragraphs": [
+    "Porter's five forces point to a scale game. Rivalry is intense in public products and is what drives fee compression; BCG finds institutional fees falling about 3% a year [8]. Buyer power is high because platforms and institutions can switch, though private-fund investors face lock-ups. The threat of new entrants is high for products (106 new ETFs launched in September 2026 [15]) but low for scaled platforms. Supplier power is low, and the main substitutes are direct indexing and cash.",
+    "Concentration is rising. In U.S. passive funds the top ten providers took more than 90% of net inflows over a decade, and private-markets capital is also concentrating in fewer, larger firms [8]. Moats are scale, brand, distribution and, in alternatives, access to insurance balance sheets and perpetual capital: KKR reports $344 billion of perpetual capital [3] and Apollo's Athene holds $322 billion of net invested assets [4].",
+    "Custody is a near-oligopoly with high switching costs. BNY ($63.4 trillion), State Street ($59.2 trillion) and Northern Trust ($19.8 trillion) all report assets under custody and administration [6][5][16]. Pricing power is limited by large clients, but the servicing relationship is sticky."
+   ]
+  },
+  {
+   "id": "environment",
+   "paragraphs": [
+    "Regulation is the main political variable. The Labor Department proposed a rule on 30 March 2026 that would give 401(k) fiduciaries a process-based safe harbor for considering alternatives on six factors: performance, fees, liquidity, valuation, benchmarks and complexity; comments closed on 1 June [11]. A final rule would help private-markets managers; we found no final rule as of this writing.",
+    "Bank capital rules shape custody banks. The final enhanced supplementary leverage ratio rule took effect on 1 April 2026 and did not adopt the custody-specific adjustment that commenters sought [12]. State Street's CET1 ratio was 11.0% [5] and BNY's 10.9% [6].",
+    "On technology, BCG says AI can cut costs and reshape the competitive landscape [8]. The emerging risk is private-credit liquidity: Blackstone's largest non-traded BDC saw record first-quarter redemption requests of 7.9% of shares, which it fully met, and about 10% in the second quarter against a 5% cap [9]. Valuation transparency in private assets is also a political concern."
+   ]
+  },
+  {
+   "id": "economics",
+   "paragraphs": [
+    "Economics are attractive: high margins, low capital needs and operating leverage. Damodaran's January 2026 table shows 69.77% gross margin, 24.60% after-tax operating margin and 15.88% ROE for 283 firms [14][18]. BlackRock's adjusted operating margin reached 47.8% on revenue up 19% [1].",
+    "Operating leverage works both ways. BCG found revenue grew 5.1% a year and costs 5.4% a year from 2010 to 2025, with industry margins around 30% [8]. Rising markets hide the cost creep; falling markets expose it.",
+    "Custody banks are more modest but improving. State Street's pre-tax margin was 34.6% and ROE 16.4% [5]; BNY's pre-tax operating margin was 38.5% with a 29.0% ROTCE [6]; Northern Trust's ROE was 20.1% [16]. Alternatives firms convert fees into cash earnings: Blackstone's fee-related earnings were $1.6 billion in the quarter [2] and KKR's $1.316 billion [3]. We could not source a sector ROIC or free-cash-flow yield."
+   ]
+  },
+  {
+   "id": "earnings",
+   "paragraphs": [
+    "Reported earnings are strong. Blackstone's distributable earnings were $1.7 billion for the quarter and $7.7 billion over twelve months [2]; KKR's fee-related earnings rose 27% and adjusted net income 29% [3]; Apollo's fee-related earnings were a record $802 million [4]. BlackRock's revenue was up 19% [1]. Custody banks beat as well: State Street's EPS rose 32.7% [5] and BNY's 24% [6].",
+    "Consensus figures for this sub-industry weren't publicly available to us. At the sector level, FactSet shows Financials' blended third-quarter earnings growth at 6.4% against 31.4% for the S&P 500, and its revenue growth rate slipped to 6.8% from 7.3% after quarter-end on downward estimate revisions [21]. Analysts expect 16.1% S&P 500 earnings growth in 2027 [21].",
+    "Our read: fee earnings should stay firm as long as markets hold and fundraising continues. Blackstone's realizations of $33.1 billion in the quarter show how performance fees depend on the timing of asset sales [2]. We would watch private-credit returns, since Blackstone's private credit returned 1.8% net in the quarter and 3.9% net over twelve months [2]."
+   ]
+  },
+  {
+   "id": "valuation",
+   "paragraphs": [
+    "Valuation looks undemanding on the broad measure and uneven underneath. Damodaran's January 2026 forward P/E for Investments & Asset Management is 18.77, with a PEG ratio of 1.53 [20]. The trailing P/E of 75.30 is not meaningful, because of low earnings at some firms.",
+    "Against the market, FactSet puts the S&P 500's forward P/E at 17.7 on 5 November 2026, below the 5-year average of 19.8 and the 10-year average of 19.1, with Financials among the two cheapest sectors at 15.0 [21]. We could not source the Financials sector's own historical average, nor a P/E for this sub-industry as of today.",
+    "We think the multiple mix reflects what investors pay for: fee-related earnings for private-markets managers (Blackstone, KKR and Apollo each report them [2][3][4]), and returns on equity for custody banks (BNY's ROTCE is 29.0% [6]). Priced against the group's modest growth and the risks around private credit [9], the January multiple does not look stretched, but it is a January reading that may be stale."
+   ]
+  },
+  {
+   "id": "positioning",
+   "paragraphs": [
+    "Positioning data is thin. We could not source short interest or institutional ownership for this group. On the flows we can see, money is rotating towards ETFs and private markets and away from active funds: passive funds took in $1,340 billion over twelve months while active funds lost $70 billion [7], and U.S. ETF net inflows were a record over $1.5 trillion year to date [15].",
+    "For price momentum, the State Street SPDR S&P Capital Markets ETF (KCE), a broader capital-markets fund that holds asset managers alongside brokers and exchanges, was up 5.72% year to date on 6 November 2026 with net outflows of $103 million for the year [23]. Because it spans more than asset managers, we treat it as a rough proxy only.",
+    "Sentiment toward private credit is the cautionary part. Non-traded BDC redemptions exceeded new sales by $2 billion in the first quarter of 2026, according to Stanger data cited by InvestmentNews [9]. Our read is that flows have favored the largest platforms, and that any further stress would test that."
+   ]
+  }
+ ],
+ "sources": [
+  {
+   "n": 1,
+   "title": "BlackRock Q3 2026 results: AUM hits $15.5 trillion on $205 billion of net inflows",
+   "publisher": "Pulse 2 (reporting BlackRock's 14 Oct 2026 release)",
+   "date": "2026-10-14",
+   "url": "https://pulse2.com/blackrock-q3-2026-results"
+  },
+  {
+   "n": 2,
+   "title": "Blackstone Reports Third Quarter 2026 Results (Form 8-K, Ex. 99.1)",
+   "publisher": "Blackstone / SEC",
+   "date": "2026-10-22",
+   "url": "https://www.sec.gov/Archives/edgar/data/0001393818/000119312526428297/d160590dex991.htm"
+  },
+  {
+   "n": 3,
+   "title": "KKR Reports Third Quarter 2026 Results (Form 8-K)",
+   "publisher": "KKR / SEC",
+   "date": "2026-11-09",
+   "url": "https://www.sec.gov/Archives/edgar/data/0001404912/000140491226000030/q326earningsrelease_vf.htm"
+  },
+  {
+   "n": 4,
+   "title": "Apollo Global Management Third Quarter 2026 earnings release (Form 8-K)",
+   "publisher": "Apollo / SEC",
+   "date": "2026-11-03",
+   "url": "https://ir.apollo.com/sec-filings/content/0001858681-26-000063/agmearningsrelease3q2026.htm"
+  },
+  {
+   "n": 5,
+   "title": "State Street Third Quarter 2026 earnings release (Form 8-K, Ex. 99.2)",
+   "publisher": "State Street / SEC",
+   "date": "2026-09-30",
+   "url": "https://www.sec.gov/Archives/edgar/data/0000093751/000009375126000592/exhibit992-3q26earningsrel.htm"
+  },
+  {
+   "n": 6,
+   "title": "BNY Reports Third Quarter 2026 Earnings",
+   "publisher": "BNY",
+   "date": "2026-10",
+   "url": "https://www.bny.com/content/dam/bnymellon/documents/pdf/investor-relations/earnings/earnings-press-release-3q-2026.pdf"
+  },
+  {
+   "n": 7,
+   "title": "Passive vs. Active Fund Flows (Morningstar Direct data, 12 months to 30 Sep 2026)",
+   "publisher": "First Trust Advisors",
+   "date": "2026-10-29",
+   "url": "https://www.ftportfolios.com/Commentary/MarketCommentary/2026/10/29/passive-vs.-active-fund-flows"
+  },
+  {
+   "n": 8,
+   "title": "Global Asset Management Report 2026 (as reported by WealthBriefing)",
+   "publisher": "BCG / WealthBriefing",
+   "date": "2026-04-28",
+   "url": "https://www.wealthbriefing.com/html/article.php/global-asset-managers-can%27t-rely-on-rising-markets-as-much-for-growth--bcg"
+  },
+  {
+   "n": 9,
+   "title": "Blackstone BDC redemption surge signals a warning for other funds",
+   "publisher": "InvestmentNews",
+   "date": "2026-06-08",
+   "url": "https://www.investmentnews.com/alternatives/blackstone-bdc-redemption-surge-signals-a-warning-for-other-funds/266922"
+  },
+  {
+   "n": 10,
+   "title": "FOMC statement, 28 October 2026",
+   "publisher": "Federal Reserve",
+   "date": "2026-10-28",
+   "url": "https://www.federalreserve.gov/newsevents/pressreleases/monetary20261028a.htm"
+  },
+  {
+   "n": 11,
+   "title": "DOL Proposes Rule to Reduce Risks Associated with Opening 401(k) Plans to Private Market Assets",
+   "publisher": "Morrison Foerster",
+   "date": "2026-04-03",
+   "url": "https://www.mofo.com/resources/insights/260403-dol-proposed-rule-401-k-alternative-assets"
+  },
+  {
+   "n": 12,
+   "title": "Federal Banking Agencies Finalize the eSLR Rule, With Some Adjustments",
+   "publisher": "Davis Wright Tremaine",
+   "date": "2025-12-11",
+   "url": "https://www.dwt.com/blogs/financial-services-law-advisor/2025/12/banking-eslr-rule-finalized-for-gsib-companies"
+  },
+  {
+   "n": 13,
+   "title": "Is the global asset management industry ready for its next phase of growth in 2026?",
+   "publisher": "Moody's",
+   "date": "2025-12-10",
+   "url": "https://www.moodys.com/web/en/us/creditview/blog/asset-management-2026.html"
+  },
+  {
+   "n": 14,
+   "title": "Margins by Sector (US), Investments & Asset Management",
+   "publisher": "Aswath Damodaran, NYU Stern",
+   "date": "2026-01",
+   "url": "https://pages.stern.nyu.edu/~adamodar/New_Home_Page/datafile/margin.html"
+  },
+  {
+   "n": 15,
+   "title": "U.S. ETF Monthly Summary: September 2026 Results",
+   "publisher": "FactSet Insight",
+   "date": "2026-10-05",
+   "url": "https://insight.factset.com/u.s.-etf-monthly-summary-september-2026-results"
+  },
+  {
+   "n": 16,
+   "title": "Northern Trust Corporation Form 10-Q, quarter ended 30 September 2026",
+   "publisher": "Northern Trust / SEC",
+   "date": "2026-09-30",
+   "url": "https://www.sec.gov/Archives/edgar/data/0000073124/000007312426000066/ntrs-20260930.htm"
+  },
+  {
+   "n": 17,
+   "title": "Historical Growth by Sector (US), Investments & Asset Management",
+   "publisher": "Aswath Damodaran, NYU Stern",
+   "date": "2026-01",
+   "url": "https://pages.stern.nyu.edu/~adamodar/New_Home_Page/datafile/histgr.html"
+  },
+  {
+   "n": 18,
+   "title": "Return on Equity by Sector (US), Investments & Asset Management",
+   "publisher": "Aswath Damodaran, NYU Stern",
+   "date": "2026-01",
+   "url": "https://pages.stern.nyu.edu/~adamodar/New_Home_Page/datafile/roe.html"
+  },
+  {
+   "n": 19,
+   "title": "Debt Fundamentals by Sector (US), Investments & Asset Management",
+   "publisher": "Aswath Damodaran, NYU Stern",
+   "date": "2026-01",
+   "url": "https://pages.stern.nyu.edu/~adamodar/New_Home_Page/datafile/dbtfund.html"
+  },
+  {
+   "n": 20,
+   "title": "PE Ratios by Sector (US), Investments & Asset Management",
+   "publisher": "Aswath Damodaran, NYU Stern",
+   "date": "2026-01",
+   "url": "https://pages.stern.nyu.edu/~adamodar/New_Home_Page/datafile/pedata.html"
+  },
+  {
+   "n": 21,
+   "title": "Earnings Insight, 6 November 2026",
+   "publisher": "FactSet",
+   "date": "2026-11-06",
+   "url": "https://advantage.factset.com/hubfs/Website/Resources%20Section/Research%20Desk/Earnings%20Insight/EarningsInsight_110626.pdf"
+  },
+  {
+   "n": 22,
+   "title": "Trends in Mutual Fund Investing, September 2026",
+   "publisher": "Investment Company Institute",
+   "date": "2026-10-29",
+   "url": "https://www.ici.org/research/stats/trends_08_26"
+  },
+  {
+   "n": 23,
+   "title": "State Street SPDR S&P Capital Markets ETF (KCE) fund page",
+   "publisher": "ETF Central",
+   "date": "2026-11-06",
+   "url": "https://www.etfcentral.com/fund/KCE"
+  }
+ ]
+}

@@ -1,0 +1,452 @@
+{
+ "code": "40201060",
+ "added": "2026-11-10",
+ "asOf": "2026-11-06",
+ "summary": "Card networks and payment processors keep compounding: Visa's fiscal 2026 net revenue rose 15% to $45.9 billion with payments volume up 9% [1], and Mastercard's third-quarter revenue grew 14% at a 59.8% GAAP operating margin [2]. Growth is bifurcated, though. PayPal's revenue rose only 2% [3] and Fiserv booked a $6.45 billion goodwill impairment on flat organic revenue [4]. Regulation, the US swipe-fee settlement and the Credit Card Competition Act are the main overhangs [5][6]; we could not source a payments-specific forward P/E.",
+ "metrics": [
+  {
+   "label": "Visa FY2026 net revenue",
+   "value": "$45.9B",
+   "context": "+15% y/y; payments volume +9% constant-dollar; FY ended 30 Sep 2026",
+   "source": 1
+  },
+  {
+   "label": "Visa GAAP operating margin (FY2026)",
+   "value": "~61.2%",
+   "context": "Our calculation: operating income $28.1B on revenue $45.9B",
+   "source": 1
+  },
+  {
+   "label": "Mastercard Q3 2026 net revenue",
+   "value": "$9.8B",
+   "context": "+14%; GDV about $3.0T, +7% local currency; adjusted operating margin 60.5%",
+   "source": 2
+  },
+  {
+   "label": "PayPal Q3 2026 total payment volume",
+   "value": "$487.1B",
+   "context": "+6% (+7% currency-neutral); revenue +2%; non-GAAP operating margin 18.8%",
+   "source": 3
+  },
+  {
+   "label": "Fiserv Q3 2026 adjusted operating margin",
+   "value": "31.2%",
+   "context": "Versus 37.0% a year earlier; organic revenue flat",
+   "source": 4
+  },
+  {
+   "label": "Mastercard forward P/E",
+   "value": "29.3x",
+   "context": "Five-year average 31.0x; as of 26 Oct 2026; Visa not given",
+   "source": 7
+  },
+  {
+   "label": "Financials sector forward P/E",
+   "value": "15.0x",
+   "context": "S&P 500 17.7x; 5 Nov 2026; sector, not payments-specific",
+   "source": 8
+  },
+  {
+   "label": "Visa share of XLF",
+   "value": "7.50%",
+   "context": "Mastercard 5.46%; holdings as of 30 Jun 2026",
+   "source": 9
+  }
+ ],
+ "watch": [
+  "Final court approval and implementation of the revised $38 billion US merchant settlement, including the 1.25% credit interchange cap and the loosened honor-all-cards rule [10].",
+  "Whether the Credit Card Competition Act, reintroduced in January 2026 with presidential support, advances in Congress [6].",
+  "Cross-border volume growth, which was 11% at Mastercard in Q3 2026 and 13% at Visa for fiscal 2026 [2][1].",
+  "Fiserv's Q4 recovery claim (Merchant Solutions growth of 6% to 8%) after a $6.45 billion goodwill impairment [4].",
+  "Stablecoin rules: GENIUS Act enforcement is due 18 January 2027 and agencies missed their July 2026 rule-writing deadline [11]."
+ ],
+ "bellwethers": [
+  "Visa",
+  "Mastercard",
+  "PayPal",
+  "Fiserv",
+  "Global Payments",
+  "Block",
+  "Fidelity National Information Services",
+  "Corpay"
+ ],
+ "basics": {
+  "intro": "These companies move money between buyers and sellers. Card networks such as Visa and Mastercard run the rails and set the rules but do not lend; they earn small fees on every transaction. Processors and acquirers such as Fiserv and Global Payments serve merchants and banks. Wallets such as PayPal sit on top. Since 2023 GICS has put all of these here, including Visa, Mastercard and PayPal, which used to be in Information Technology. Banks that issue cards sit in Banks, and card lenders sit in Consumer Finance.",
+  "products": [
+   {
+    "name": "Card networks",
+    "what": "Networks connect banks that issue cards with banks that serve merchants, and charge fees for authorizing, clearing and settling each payment.",
+    "examples": "Visa, Mastercard"
+   },
+   {
+    "name": "Merchant acquiring and point of sale",
+    "what": "Firms that sign up merchants, supply terminals and software, and process their card payments for a percentage and a small fixed fee.",
+    "examples": "Global Payments (with Worldpay), Fiserv Clover and First Data"
+   },
+   {
+    "name": "Digital wallets and checkout",
+    "what": "Consumer and merchant accounts for online and mobile payments, earning a take rate on payment volume plus interest on balances.",
+    "examples": "PayPal, Venmo, Block Cash App"
+   },
+   {
+    "name": "Value-added services",
+    "what": "Fraud and risk tools, data analytics, tokenization and consulting that networks sell on top of basic processing.",
+    "examples": "Visa Advanced Authorization, Mastercard value-added services"
+   },
+   {
+    "name": "Money movement",
+    "what": "Pushing funds to cards and accounts for payouts, remittances and business payments, including across borders.",
+    "examples": "Visa Direct, Mastercard Send"
+   },
+   {
+    "name": "Bank processing technology",
+    "what": "Core and card-processing platforms that run bank accounts and card programs for financial institutions.",
+    "examples": "Fiserv Financial Solutions"
+   }
+  ],
+  "terms": [
+   {
+    "term": "Interchange",
+    "meaning": "A fee paid by the merchant's bank to the cardholder's bank on each card purchase. Networks set the schedule but the issuing bank keeps the money."
+   },
+   {
+    "term": "Merchant discount rate",
+    "meaning": "The total percentage a merchant pays for accepting a card: interchange, network fees and the acquirer's margin."
+   },
+   {
+    "term": "Four-party model",
+    "meaning": "The standard card structure: cardholder, merchant, issuing bank and acquiring bank, with the network in the middle. Networks take no credit risk."
+   },
+   {
+    "term": "Payments volume",
+    "meaning": "Total value of purchases on a network's cards. It is the base to which network fees are applied."
+   },
+   {
+    "term": "Cross-border volume",
+    "meaning": "Transactions where card and merchant are in different countries. It earns higher fees, so it drives network revenue more than its share of volume suggests."
+   },
+   {
+    "term": "Take rate",
+    "meaning": "Revenue divided by payment volume. It shows how much of each dollar processed the company keeps."
+   },
+   {
+    "term": "Transaction margin dollars",
+    "meaning": "PayPal's measure of revenue after transaction and credit losses, funding and processing costs; the base for its profit."
+   },
+   {
+    "term": "Client incentives",
+    "meaning": "Payments networks make to banks and merchants to win and keep volume. They are subtracted from gross revenue, so they act as the networks' price discount."
+   },
+   {
+    "term": "Tokenization",
+    "meaning": "Replacing a card number with a one-time digital token to cut fraud and make wallets and recurring payments work."
+   },
+   {
+    "term": "Surcharging",
+    "meaning": "A merchant adding a fee for using a certain card. Rules on when this is allowed shape the networks' bargaining power."
+   },
+   {
+    "term": "Honor-all-cards rule",
+    "meaning": "A network rule requiring merchants that take one of its cards to take all of them. Loosening it would weaken the networks' pricing."
+   },
+   {
+    "term": "Gross dollar volume",
+    "meaning": "Mastercard's term for the total value of transactions on its cards, used as the base for its revenue growth."
+   }
+  ],
+  "drivers": [
+   {
+    "name": "Consumer spending and inflation",
+    "how": "Network revenue scales with the dollar value of purchases, so nominal consumer spending, and higher prices, lift volume and revenue with little added cost."
+   },
+   {
+    "name": "Cross-border travel and e-commerce",
+    "how": "International transactions carry higher fees and currency-conversion income, so travel and cross-border online sales grow revenue faster than domestic volume."
+   },
+   {
+    "name": "Shift from cash to digital",
+    "how": "Each dollar moving from cash and cheques onto cards or wallets adds to volume. The shift is mature in the US and still running in emerging markets."
+   },
+   {
+    "name": "Regulation of fees",
+    "how": "Caps on interchange, limits on routing and honor-all-cards rules change what networks and issuers can charge, and can reduce revenue directly."
+   },
+   {
+    "name": "Value-added services",
+    "how": "Selling fraud, data and tokenization tools to existing clients adds revenue that grows faster than volume and carries high margins."
+   },
+   {
+    "name": "Competition from new rails",
+    "how": "Bank transfers, real-time payment systems and stablecoins can route around card networks, which pressures take rates over time."
+   },
+   {
+    "name": "Merchant software and acquiring share",
+    "how": "Processors win by bundling terminals, software and payments; losing merchants, or price competition, shows up directly in organic revenue."
+   }
+  ]
+ },
+ "fundamentals": {
+  "business": [
+   "Networks earn fees on volume and transactions. Visa splits net revenue into service, data processing, international transaction and other revenue, less client incentives [5]. Processors such as Fiserv and Global Payments earn merchant-processing fees and software subscriptions [4][12]. PayPal also earns interest on customer balances [3].",
+   "Customers differ by model. Networks serve banks, fintechs and merchants; Visa counts over 14,000 financial-institution clients and over 400 million seller locations [5]. Acquirers serve merchants. PayPal serves roughly 440 million active accounts [3].",
+   "Networks are lean: Visa's GAAP operating expenses were $17.8 billion against $45.9 billion of revenue in fiscal 2026 [1]. Acquirers and wallets also carry processing, transaction losses and technology costs, which is why PayPal's transaction margin is only 46.0% of revenue [3].",
+   "Pricing power rests on scale, ubiquity and rules. Visa and Mastercard together hold about 85% of the US credit card market, according to Senate sponsors of the Credit Card Competition Act [6]. Acquirers have far less pricing power because merchants can switch.",
+   "Networks hold little credit risk, so their balance sheets are cash and investments against senior debt: Visa had $12.9 billion of cash and about $22.1 billion of debt at 30 September 2026 [1]. Litigation accruals and acquired goodwill are the other large items; Fiserv wrote down $6.45 billion of goodwill [4].",
+   "Networks are asset-light: Damodaran's non-bank financial services group spends about 90% of depreciation on capex [13]. Acquirers are more capital-intensive: Global Payments' capex was $728.9 million in nine months of 2026 [12]."
+  ],
+  "overview": [
+   "Visa alone reported $18 trillion of payments and cash volume and 355 billion branded transactions in fiscal 2026 [5]. We did not open an independent estimate of global payments revenue, so we do not quote an industry-wide figure or growth rate.",
+   "Main segments are card networks, merchant acquirers and processors, wallets and checkout, and bank-technology providers. Visa Direct reaches more than 200 countries and processed over 15 billion transactions in fiscal 2026 [5].",
+   "Networks sit in the middle of the value chain between issuers and merchants; the issuing bank, the acquiring bank and the network share each purchase's fees [6]. Processors supply merchants and banks, and fintech wallets sit on the consumer side.",
+   "The industry has moved from cash toward cards, then to tap and wallets. Tap to Pay was 84% of face-to-face Visa transactions globally and 76% in the US in September 2026, and over 60% of e-commerce transactions were tokenized [5]. Consolidation has continued: Global Payments acquired Worldpay and sold Issuer Solutions [12].",
+   "More than half of Visa's net revenue is earned outside the US [5], and about 65% of its staff are outside the US."
+  ],
+  "competition": [
+   "The market has a few dominant networks and many acquirers. Besides Visa and Mastercard, Visa lists more than 100 domestic payment schemes and more than 60 card and wallet networks as competitors for Visa Direct [5]. We did not open a count of acquirers.",
+   "Visa and Mastercard are the leaders, and sponsors of the Credit Card Competition Act put their combined US credit card share at about 85% [6]. Mastercard's Q3 2026 gross dollar volume was about $3.0 trillion [2].",
+   "Networks are consolidated; acquiring and processing are more fragmented and consolidating, as Global Payments' Worldpay deal shows [12].",
+   "Barriers to entry are high for networks: they need issuers and merchants on both sides, trust, fraud systems and regulatory standing. Visa has over 5 billion credentials and over 14,000 financial-institution clients [5]. Acquiring barriers are lower, which is why Fiserv's merchant revenue fell 2% in Q3 2026 [4].",
+   "Scale economies are large for networks, since added transactions cost little: Visa processed 281.3 billion transactions in fiscal 2026 at a GAAP operating margin around 61% [1].",
+   "Basic authorization is close to commoditized; differentiation comes from value-added services. Mastercard's value-added services and solutions revenue grew 19% against 11% for payment network revenue in Q3 2026 [2].",
+   "Banks and merchants hold some power over networks through incentives and routing choices, and large merchants lobby regulators. The Credit Card Competition Act would force routing choices on banks with over $100 billion of assets [6]."
+  ],
+  "drivers": [
+   "Revenue follows payments volume, transaction counts and cross-border activity. Visa's fiscal 2026 payments volume grew 9% and cross-border volume 13%, against 15% net revenue growth [1], so pricing and services added to volume growth.",
+   "Network margins depend on client incentives, personnel and marketing, and litigation. Visa's non-GAAP operating expenses rose 16% in fiscal 2026, faster than the 12% non-GAAP profit growth [1]; for acquirers and wallets, processing costs and losses matter more [3].",
+   "Key cost variables are staff, technology, client incentives and litigation provisions. Visa booked a $1.76 billion litigation provision for fiscal 2026 and $563 million of severance [1].",
+   "Rates matter modestly for networks, since they hold no loan books. PayPal's transaction margin includes interest on customer balances, which was $0.3 billion of its $3.95 billion in Q3 2026 (our calculation from the release) [3]. Higher rates also raise the cost of the large debt loads some processors carry, such as Global Payments' roughly $22.5 billion [12].",
+   "Inflation lifts nominal spending and therefore revenue; unemployment and weak GDP reduce consumer volume and transaction counts. Mastercard reported 7% gross dollar volume growth in local currency in Q3 2026 [2]. Commodity prices matter indirectly through fuel and travel spending.",
+   "Networks look defensive-to-secular growth: spending is steady and digital adoption is rising. Merchant acquiring is more cyclical and competitive: Fiserv's nine-month organic revenue fell 3% in 2026 [4]."
+  ],
+  "financials": [
+   "Network growth is double-digit: Visa fiscal 2026 net revenue +15% and non-GAAP EPS +16% [1]; Mastercard Q3 revenue +14% [2]. Acquirers and wallets are slower: PayPal +2% and Fiserv down 1% adjusted in Q3 2026 [3][4].",
+   "Margins differ by model. Visa's GAAP operating margin was about 61% (our calculation) [1] and Mastercard's adjusted margin 60.5% [2]. PayPal's non-GAAP margin was 18.8% [3] and Fiserv's adjusted margin 31.2% [4]. Damodaran does not carry a payments row; its broad non-bank financial group shows a 16.3% after-tax operating margin [14].",
+   "Return on equity: Damodaran's non-bank financial services group shows 28.8% in January 2026 [15]; payments is not separated, and we did not source ROIC for it. Share buybacks make network equity small, which flatters ROE.",
+   "Networks run modest debt against huge cash flow: Visa's debt was about $22.1 billion [1], Mastercard's about $23.9 billion (our sum) [2]. Processors are more leveraged: Global Payments' debt was about $22.5 billion after Worldpay [12] and Fiserv's about $27.1 billion [4]. Damodaran's non-bank financial group shows 73% market debt to capital, but it includes lenders and is not comparable [16].",
+   "Free cash flow is strong. PayPal generated $1.43 billion in Q3 2026 [3]; Fiserv generated $2.04 billion in nine months, down from $2.88 billion [4]. Visa returned $25.6 billion via buybacks and dividends in fiscal 2026 [1].",
+   "Capital needs are low for networks; Damodaran's non-bank financial group shows net capex of 2.38% of sales [13]. Global Payments spent $728.9 million in nine months [12].",
+   "Valuation: Damodaran shows a forward P/E of 16.4x for non-bank financial services in January 2026 [17], while Mastercard's forward P/E was 29.3x in October 2026 against a five-year average of 31.0x [7]. Networks trade at a premium to the broad group."
+  ],
+  "risks": [
+   "Regulation is the largest risk: the US interchange settlement, the Credit Card Competition Act, Regulation II debit caps and EU limits on interchange [5][6][10]. In the UK, a court affirmed the regulator's power to cap cross-border card fees in January 2026 [18].",
+   "AI and tokenization raise fraud defence and agentic payments, but also let rivals build rails; Visa says over 60% of e-commerce is tokenized [5]. We found no sourced measure of AI's effect on revenue.",
+   "Demographics matter little: payments follow consumer spending, though younger consumers favour wallets and buy-now-pay-later, which is where PayPal is competing [3].",
+   "Consumers are shifting to tap, wallets and account-based payments. Tap to Pay was 84% of face-to-face Visa transactions in September 2026 [5], which helps the networks, while PayPal's active accounts grew only 0.6% year over year [3].",
+   "New entrants include stablecoin rails; Visa reports $20 billion of annualized stablecoin settlement and Mastercard agreed to acquire BVNK [11]. Fiserv and others compete on merchant software [4].",
+   "Geopolitics matters: Visa has staff in 90 countries and territories, so sanctions and local-scheme rules reach it [5]. Cross-border volume is exposed to travel shocks; Mastercard's cross-border volume grew 11% in Q3 2026 [2].",
+   "Substitutes are bank-to-bank real-time payments and stablecoins; Visa lists over 100 domestic payment schemes among its competitors [5]. The GENIUS Act becomes fully enforceable on 18 January 2027, and rules are still being written [11]."
+  ],
+  "horizon": {
+   "opportunities": [
+    "Value-added services are growing faster than core networks: Mastercard's grew 19% in Q3 2026 [2].",
+    "Cash and cheque conversion in emerging markets and commercial payments adds volume; Visa fiscal 2026 volume grew 9% [1].",
+    "Visa and Mastercard are buying into stablecoin and fraud tools rather than ceding them, as with BioCatch and BVNK [1][11].",
+    "Worldpay synergies of $650 million run-rate could lift Global Payments' margins [12]."
+   ],
+   "threats": [
+    "A fee-cutting settlement or routing mandate under the Credit Card Competition Act could lower network and issuer economics [6][10].",
+    "Stablecoin and account-to-account rails could erode take rates if rules and adoption move faster than expected [11].",
+    "Merchant-acquiring share loss and impairments, as at Fiserv, show how competitive the processing layer is [4]."
+   ],
+   "assessment": "Our read is that the networks' economics are resilient for the next three to five years: volume and cross-border activity keep growing, and the shift to value-added services diversifies revenue. The pressure is on price and rules rather than demand, from the US settlement, possible routing legislation and UK or EU caps. Processors face a harder path, as Fiserv's impairment and PayPal's 2% growth show, although integration savings at Global Payments could help. Stablecoins look more like an addition to the networks than a replacement within this horizon, given how small Visa's reported settlement still is next to its $18 trillion of volume [11][5]."
+  }
+ },
+ "sections": [
+  {
+   "id": "macro",
+   "paragraphs": [
+    "Payments follow nominal consumer spending, so the cycle matters less than for lenders. Mastercard's gross dollar volume grew 7% in local currency in the third quarter of 2026 and switched transactions 9% [2]; Visa's payments volume grew 9% in constant dollars in its fiscal fourth quarter [1]. Both are steady rather than accelerating.",
+    "Currency and travel are the main macro swing factors. Mastercard's cross-border volume grew 11% in local currency [2]. Visa's cross-border volume excluding intra-Europe rose 14% in the quarter and 12% for the year [1].",
+    "Rates matter more for wallets and lenders than for networks, which hold no loan book. PayPal's transaction margin includes interest on customer balances, so rate moves hit its profit more directly [3]. At the market level, the S&P 500 forward P/E fell to 17.7 on 5 November 2026 from 22.0 at year-end 2025 as earnings estimates rose faster than prices [8]."
+   ]
+  },
+  {
+   "id": "demand",
+   "paragraphs": [
+    "Visa processed $18 trillion of payments and cash volume across 355 billion branded transactions in fiscal 2026 [5]. Its payments volume grew 9% and processed transactions 9% for the year [1]. That scale still has room to grow: the shift from cash and cheques is long-running, and Visa has over 400 million seller locations [5].",
+    "We did not open an independent estimate of the industry's total revenue pool, so we do not give one. Secular growth drivers are e-commerce, tap and wallets, with tap at 84% of face-to-face Visa transactions globally in September 2026 [5].",
+    "Demand is not very elastic: payments follow spending, though cross-border and travel are more cyclical. Visa's fiscal 2026 net revenue grew 15% against 9% payments volume growth [1], so some of the growth is pricing and services rather than volume.",
+    "Demographics are a tailwind in younger, mobile-first markets and a small factor in the US. PayPal's 440 million active accounts grew only 0.6% year over year [3], a reminder that growth is not uniform."
+   ]
+  },
+  {
+   "id": "structure",
+   "paragraphs": [
+    "Rivalry is intense among processors but muted among networks. Visa and Mastercard together hold about 85% of the US credit card market, according to the sponsors of the Credit Card Competition Act [6]. Barriers to entry, the first of Porter's forces, are very high for networks because both sides of the market must be on board; Visa has over 5 billion credentials and over 14,000 financial-institution clients [5].",
+    "Buyer power (merchants and issuing banks) is the constraint on pricing. Merchants lobby regulators and want routing choice; the revised US settlement would cap standard consumer credit interchange at 1.25% for eight years and let merchants decline some high-fee cards, according to a secondary report [10]. Supplier power is low, since networks buy mostly technology and talent.",
+    "The threat of substitutes is the fourth force: account-to-account payments, domestic schemes and stablecoins. Visa lists over 100 domestic schemes among its Visa Direct competitors [5], and reports $20 billion of annualized stablecoin settlement [11].",
+    "Acquirers have thinner moats. Fiserv's Merchant Solutions organic revenue fell 2% in Q3 2026 and it took a $6.45 billion goodwill impairment, which it tied to a sustained fall in its share price [4]. Global Payments is consolidating through Worldpay [12]."
+   ]
+  },
+  {
+   "id": "environment",
+   "paragraphs": [
+    "Regulation is the central issue. Visa's 10-K says regulators worldwide are widening their reach over interchange, network fees and rules; conflicting court decisions on Regulation II could lower the US debit cap, and the Credit Card Competition Act has been reintroduced [5]. The bill, reintroduced on 13 January 2026 by Senators Durbin and Marshall, would require banks with more than $100 billion of assets to offer a second, unaffiliated network [6].",
+    "Litigation is also a cost. Visa recorded a $1.76 billion litigation provision in fiscal 2026 and had $990 million accrued at 30 September 2026 [1]. Mastercard booked $74 million in Q3, mainly for merchants that opted out of the US class litigation [2]. A revised $38 billion class settlement received preliminary approval in June 2026, according to a secondary report that did not give a final hearing date [10].",
+    "Abroad, a UK High Court ruling in January 2026 upheld the regulator's power to cap cross-border card fees, though no cap level has been set [18].",
+    "Technology is both threat and opportunity. Visa and Mastercard are building stablecoin settlement, and GENIUS Act enforcement is due 18 January 2027 although agencies missed their July 2026 rule-writing deadline [11]."
+   ]
+  },
+  {
+   "id": "economics",
+   "paragraphs": [
+    "Networks are among the most profitable large businesses. Visa's fiscal 2026 GAAP operating income was $28.1 billion on $45.9 billion of revenue, a margin of about 61% by our calculation [1]; Mastercard's adjusted operating margin was 60.5% in Q3 [2]. Operating leverage is high because added volume costs little.",
+    "The rest of the group earns far less. PayPal's non-GAAP operating margin was 18.8% [3] and Fiserv's adjusted margin fell to 31.2% from 37.0% [4]. Damodaran's broad non-bank financial group, which is not payments-specific, shows a 22.2% net margin and a 28.8% ROE in January 2026 [14][15].",
+    "Capital intensity is low for networks; Damodaran's group shows net capex of 2.38% of sales [13]. Processors spend more, and Global Payments' capex was $728.9 million in nine months [12].",
+    "Cash generation is high and mostly returned. Visa returned $25.6 billion through buybacks and dividends in fiscal 2026 [1]. We did not source ROIC for the sub-industry."
+   ]
+  },
+  {
+   "id": "earnings",
+   "paragraphs": [
+    "Reported earnings are strong at the networks. Visa's fiscal 2026 non-GAAP EPS rose 16% to $13.27 [1]; Mastercard's Q3 adjusted EPS was $5.31 [2]. Neither release carried numerical guidance for the next period.",
+    "Processors give guidance. PayPal raised 2026 non-GAAP EPS guidance to about $5.60 and guided Q4 to about $1.43 with slightly positive transaction margin dollar growth [3]. Fiserv affirmed adjusted EPS of $7.20 to $7.40 and expects Merchant Solutions revenue to return to 6% to 8% growth in Q4 [4]. Global Payments reaffirmed adjusted EPS of $13.60 to $13.80 [12].",
+    "We could not source a consensus earnings-growth or revision series for payments. For context, FactSet shows blended Q3 2026 earnings growth of 6.4% for the Financials sector against 31.4% for the S&P 500 [8]. Our read is that network earnings look more reliable than processor earnings, where Fiserv's guided Q4 rebound is still to be shown."
+   ]
+  },
+  {
+   "id": "valuation",
+   "paragraphs": [
+    "We could not find a sourced payments-wide forward multiple. At the sector level, FactSet put Financials at 15.0 times forward earnings and the S&P 500 at 17.7 on 5 November 2026, against a five-year S&P average of 19.8 [8]. These describe the whole Financials sector, not payments.",
+    "For individual networks, TIKR showed Mastercard at 29.3 times forward earnings in late October 2026, up from 23.3 in June and just under its five-year average of 31.0; Visa's multiple was not given [7]. Damodaran's January 2026 forward P/E for non-bank financial services was 16.4 [17], so networks trade at roughly a premium to that group, though that group is not a clean peer set.",
+    "Our read is that network multiples are no longer cheap against their own recent past, while the processors' share prices have fallen far enough to trigger Fiserv's impairment [4]. We did not compute free-cash-flow yields because market capitalizations were not sourced."
+   ]
+  },
+  {
+   "id": "positioning",
+   "paragraphs": [
+    "Visa and Mastercard are among the largest holdings of the Financial Select Sector SPDR ETF, at 7.50% and 5.46% of its roughly $51.4 billion in net assets on 30 June 2026 [9]. Payments therefore drive a meaningful part of passive sector exposure.",
+    "Momentum recovered in October 2026. TIKR reported Visa up 13% and Mastercard up 12% over the past month, with Mastercard about 32% above its June low, while the S&P 500 fell 1% and the Nasdaq 100 fell 6% [7]. That points to a rotation toward steadier compounders.",
+    "Processors were weaker: Fiserv's goodwill impairment followed a sustained fall in its share price and market capitalization [4]. We did not find current short-interest or fund-flow data for the group, so we make no claim about positioning beyond price action."
+   ]
+  }
+ ],
+ "sources": [
+  {
+   "n": 1,
+   "title": "Visa Reports Fiscal Fourth Quarter and Full-Year 2026 Results (Form 8-K)",
+   "publisher": "Visa Inc. / SEC",
+   "date": "2026-10-27",
+   "url": "https://www.sec.gov/Archives/edgar/data/0001403161/000140316126000126/q42026earningsrelease.htm"
+  },
+  {
+   "n": 2,
+   "title": "Mastercard Reports Third-Quarter 2026 Financial Results (Form 8-K)",
+   "publisher": "Mastercard Inc. / SEC",
+   "date": "2026-10-29",
+   "url": "https://www.sec.gov/Archives/edgar/data/0001141391/000114139126000122/ma09302026-exx991xearnings.htm"
+  },
+  {
+   "n": 3,
+   "title": "PayPal Reports Third Quarter 2026 Results (Form 8-K)",
+   "publisher": "PayPal Holdings / SEC",
+   "date": "2026-10-27",
+   "url": "https://www.sec.gov/Archives/edgar/data/0001633917/000163391726000086/pypl3q-26earningsrelease.htm"
+  },
+  {
+   "n": 4,
+   "title": "Fiserv Reports Third Quarter 2026 Results (Form 8-K)",
+   "publisher": "Fiserv Inc. / SEC",
+   "date": "2026-11-03",
+   "url": "https://www.sec.gov/Archives/edgar/data/0000798354/000079835426000039/fisvq326earningsrelease.htm"
+  },
+  {
+   "n": 5,
+   "title": "Visa Inc. Annual Report on Form 10-K for fiscal year ended 30 September 2026",
+   "publisher": "Visa Inc. / SEC",
+   "date": "2026-11-01",
+   "url": "https://www.sec.gov/Archives/edgar/data/0001403161/000140316126000134/v-20260930.htm"
+  },
+  {
+   "n": 6,
+   "title": "Durbin, Marshall Reintroduce the Credit Card Competition Act",
+   "publisher": "Office of Sen. Dick Durbin",
+   "date": "2026-01-13",
+   "url": "https://www.durbin.senate.gov/newsroom/press-releases/durbin-marshall-reintroduce-the-credit-card-competition-act"
+  },
+  {
+   "n": 7,
+   "title": "Visa and Mastercard Just Gained More Than 12% in a Month",
+   "publisher": "TIKR",
+   "date": "2026-10-26",
+   "url": "https://www.tikr.com/blog/visa-and-mastercard-just-gained-more-than-12-in-a-month-take-profits-or-buy-more"
+  },
+  {
+   "n": 8,
+   "title": "FactSet Earnings Insight, 6 November 2026",
+   "publisher": "FactSet",
+   "date": "2026-11-06",
+   "url": "https://advantage.factset.com/hubfs/Website/Resources%20Section/Research%20Desk/Earnings%20Insight/EarningsInsight_110626.pdf"
+  },
+  {
+   "n": 9,
+   "title": "XLF: State Street Financial Select Sector SPDR ETF (holdings as of 30 Jun 2026)",
+   "publisher": "Equibles",
+   "date": "2026-06-30",
+   "url": "https://equibles.com/etfs/XLF"
+  },
+  {
+   "n": 10,
+   "title": "US Judge Approves $38B Visa and Mastercard Swipe Fee Settlement",
+   "publisher": "KuCoin News (secondary report)",
+   "date": "2026-06-10",
+   "url": "https://www.kucoin.com/news/flash/us-judge-approves-38b-visa-and-mastercard-swipe-fee-settlement"
+  },
+  {
+   "n": 11,
+   "title": "Visa's stablecoin settlement just hit $20 billion: the rail is built before the rules are",
+   "publisher": "Forkast",
+   "date": "2026-09-21",
+   "url": "https://forkast.news/visas-stablecoin-settlement-just-hit-20-billion-the-rail-is-built-before-the-rules-are/"
+  },
+  {
+   "n": 12,
+   "title": "Global Payments Reports Third Quarter 2026 Results (Form 8-K, Exhibit 99.1)",
+   "publisher": "Global Payments Inc. / SEC",
+   "date": "2026-11-05",
+   "url": "https://www.sec.gov/Archives/edgar/data/0001123360/000112336026000091/exhibit99120260930.htm"
+  },
+  {
+   "n": 13,
+   "title": "Damodaran Online: Capital Expenditures by Sector (US), January 2026",
+   "publisher": "NYU Stern, A. Damodaran",
+   "date": "2026-01-01",
+   "url": "https://pages.stern.nyu.edu/~adamodar/New_Home_Page/datafile/capex.html"
+  },
+  {
+   "n": 14,
+   "title": "Damodaran Online: Margins by Sector (US), January 2026",
+   "publisher": "NYU Stern, A. Damodaran",
+   "date": "2026-01-01",
+   "url": "https://pages.stern.nyu.edu/~adamodar/New_Home_Page/datafile/margin.html"
+  },
+  {
+   "n": 15,
+   "title": "Damodaran Online: Return on Equity by Sector (US), January 2026",
+   "publisher": "NYU Stern, A. Damodaran",
+   "date": "2026-01-01",
+   "url": "https://pages.stern.nyu.edu/~adamodar/New_Home_Page/datafile/roe.html"
+  },
+  {
+   "n": 16,
+   "title": "Damodaran Online: Debt Fundamentals by Sector (US), January 2026",
+   "publisher": "NYU Stern, A. Damodaran",
+   "date": "2026-01-01",
+   "url": "https://pages.stern.nyu.edu/~adamodar/New_Home_Page/datafile/dbtfund.html"
+  },
+  {
+   "n": 17,
+   "title": "Damodaran Online: PE Ratios by Sector (US), January 2026",
+   "publisher": "NYU Stern, A. Damodaran",
+   "date": "2026-01-01",
+   "url": "https://pages.stern.nyu.edu/~adamodar/New_Home_Page/datafile/pedata.html"
+  },
+  {
+   "n": 18,
+   "title": "UK High Court Backs Regulator's Authority To Cap Cross-Border Card Fees",
+   "publisher": "FinancialIT",
+   "date": "2026-01-16",
+   "url": "https://financialit.net/news/payments/uk-high-court-backs-regulators-authority-cap-cross-border-card-fees"
+  }
+ ]
+}
