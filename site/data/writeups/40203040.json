@@ -1,0 +1,192 @@
+{
+  "code": "40203040",
+  "added": "2026-11-11",
+  "asOf": "2026-11-10",
+  "summary": "Exchanges and data providers just posted a strong third quarter. CME's average daily volume hit a third-quarter record of 29.4 million contracts [2], ICE's adjusted operating margin was 61% [1], S&P Global raised its 2026 guidance [3] and MSCI's asset-based fees grew 24.9% [7]. Growth comes from three engines: trading volume, fees tied to asset levels, and subscriptions. The soft spots are credit-rating issuance, where Moody's rated issuance fell 2% [4], and futures at Cboe [6]. The Financials sector that contains the group trades on 15.0x forward earnings against 17.7x for the S&P 500 [11]. Consolidation, led by ICE's MarketAxess deal [1], is the main structural story.",
+  "metrics": [
+    {"label": "CME average daily volume, Q3 2026", "value": "29.4M contracts", "context": "Third-quarter record, versus 25.3M in Q3 2025; quarter to 30 Sep 2026", "source": 2},
+    {"label": "ICE adjusted operating margin", "value": "61%", "context": "Q3 2026; nine-month figure 63%; Exchanges segment 76%", "source": 1},
+    {"label": "CME adjusted operating margin (our calculation)", "value": "69.4%", "context": "Adjusted operating income $1,205.5M on revenue $1,737.3M, Q3 2026", "source": 2},
+    {"label": "MSCI asset-based fees", "value": "$246.6M, +24.9%", "context": "Q3 2026; fees tied to assets in index-linked funds", "source": 7},
+    {"label": "Moody's rated issuance volume", "value": "-2%", "context": "Q3 2026 year on year; corporate finance issuance -16%", "source": 4},
+    {"label": "Cboe index options ADV, October 2026", "value": "6.89M contracts, +25.0%", "context": "Record month for Cboe's proprietary index options", "source": 15},
+    {"label": "Forward P/E, Financials sector", "value": "15.0x", "context": "Sector, not this sub-industry; S&P 500 17.7x (10-yr average 19.1x); 5 Nov 2026", "source": 11},
+    {"label": "S&P Global 2026 adjusted EPS guidance", "value": "$17.70 to $17.95", "context": "Raised from $17.50 to $17.75 on 27 Oct 2026", "source": 3}
+  ],
+  "watch": [
+    "ICE now expects its MarketAxess acquisition to close in the first quarter of 2027 after US antitrust early termination, though other approvals are still required [1].",
+    "Trading volumes swing with volatility: CME's average daily volume was 36.2M contracts in Q1 2026 and 29.4M in Q3 [2], and Cboe futures volume fell 7% in Q3 while index options rose 24% [6].",
+    "The Fed held rates at 3.75% to 4.00% on 28 Oct 2026 with two dissenters who wanted a hike, so rate expectations could move both rates-futures volume and debt issuance [12].",
+    "S&P Global opened a strategic review of Capital IQ and Kensho on 27 Oct 2026 that could end in a separation [3].",
+    "Credit-rating revenue depends on issuance: Moody's corporate finance rated issuance fell 16% in Q3 even though its full-year guidance was reaffirmed [4]."
+  ],
+  "bellwethers": ["CME Group", "Intercontinental Exchange", "S&P Global", "Moody's", "Nasdaq", "Cboe Global Markets", "MSCI", "Tradeweb"],
+  "basics": {
+    "intro": "This group has two halves. Exchanges and clearing houses such as CME, ICE, Nasdaq and Cboe run the markets where shares, futures and options trade, and earn fees per trade, per contract cleared and for listing companies. Data and index providers such as S&P Global, Moody's, MSCI and LSEG's FTSE Russell sell credit ratings, benchmarks, analytics and datasets, mostly by subscription or as a small fee on assets that track an index. Investment banks that advise on deals sit next door in Capital Markets, and card networks sit in Transaction and Payment Processing.",
+    "products": [
+      {"name": "Derivatives exchanges and clearing", "what": "Venues where futures and options on interest rates, stock indexes, energy, farm goods and currencies trade, plus the clearing house that guarantees each trade and collects margin.", "examples": "CME Group futures, ICE energy futures, Cboe SPX options"},
+      {"name": "Cash equities and listings", "what": "Markets where shares trade and where companies pay to be listed and to stay listed.", "examples": "Nasdaq, NYSE (owned by ICE), Cboe US and European equities"},
+      {"name": "Electronic fixed income trading", "what": "Online platforms where bond, swap and money-market trades that once happened by phone are matched between dealers and investors.", "examples": "Tradeweb, MarketAxess, ICE bond trading, CME BrokerTec"},
+      {"name": "Index and ETF licensing", "what": "Benchmarks that funds copy. The provider is paid a licence fee, often a small percentage of the assets in funds tracking its index.", "examples": "S&P Dow Jones Indices, MSCI indexes, FTSE Russell, Nasdaq indexes"},
+      {"name": "Credit ratings", "what": "Opinions on whether a borrower will repay. Issuers pay for a rating when they sell bonds, so revenue follows debt issuance.", "examples": "S&P Global Ratings, Moody's Investors Service"},
+      {"name": "Data, analytics and software", "what": "Market data feeds, research platforms, risk models and workflow software sold on annual contracts.", "examples": "Moody's Analytics, S&P Capital IQ, LSEG Data and Analytics, Nasdaq Financial Technology"}
+    ],
+    "terms": [
+      {"term": "ADV (average daily volume)", "meaning": "The average number of contracts or shares traded per day. It is the main activity gauge for exchanges and drives transaction revenue."},
+      {"term": "Clearing house", "meaning": "A central counterparty that steps between buyer and seller, guarantees the trade and holds margin. Clearing is hard to replicate and sticky once clients are set up."},
+      {"term": "Net revenue", "meaning": "Revenue after deducting costs that rise with trading, such as liquidity rebates and fees paid to other venues. Exchanges quote it because gross revenue overstates what they keep."},
+      {"term": "Recurring revenue", "meaning": "Fees that repeat regardless of daily activity, such as data subscriptions and listing fees. A higher share means steadier earnings."},
+      {"term": "ARR (annualized recurring revenue)", "meaning": "The yearly value of subscriptions in force at a date. It signals future revenue before it shows in the income statement."},
+      {"term": "Asset-based fees", "meaning": "Fees calculated as a share of assets in funds that track an index. They rise with markets and ETF inflows and fall in a sell-off."},
+      {"term": "Retention rate", "meaning": "The share of subscription revenue a data provider keeps from one year to the next. Rates in the mid-90s percent show how sticky the products are."},
+      {"term": "0DTE options", "meaning": "Options that expire the same day. They have become a large part of index options trading and lift volume on venues such as Cboe."},
+      {"term": "Rated issuance", "meaning": "The volume of debt a rating agency rates in a period. Companies pay a fee per rating, so agency revenue tracks bond and loan issuance."},
+      {"term": "Margin (performance bond)", "meaning": "Collateral that traders post at a clearing house. The clearing house earns interest on cash collateral, which is why rates affect exchange income."},
+      {"term": "Operating leverage", "meaning": "Costs are mostly fixed, so extra volume or subscriptions flow to profit at high incremental margins. It works in reverse when volume falls."},
+      {"term": "Open interest", "meaning": "The number of futures or options contracts still outstanding. It shows how much risk is held on a market and supports clearing revenue."}
+    ],
+    "drivers": [
+      {"name": "Trading volume and volatility", "how": "Rate moves, market swings and big news bring hedgers and speculators in. Volume lifts transaction revenue at nearly full margin because the platform cost is already paid."},
+      {"name": "Asset levels and fund flows", "how": "Index providers earn a fee on assets in tracking funds, so rising markets and ETF inflows raise revenue with no extra cost."},
+      {"name": "Debt issuance", "how": "Rating agencies are paid when borrowers sell bonds. Cheaper credit and open markets bring more issuance and more fees."},
+      {"name": "Interest rates", "how": "Exchanges and clearing houses earn interest on collateral. Rate changes also create hedging demand in rates futures."},
+      {"name": "Subscription pricing and retention", "how": "Data contracts renew annually with price increases. Retention and upsell set growth in the steady half of revenue."},
+      {"name": "Acquisitions and regulation", "how": "Firms buy platforms and data to widen their reach. Regulators approve deals and set rules that can force trading or clearing onto particular venues."},
+      {"name": "AI adoption", "how": "AI tools need licensed data, which can lift data sales, but they may also change how analysts use platforms and how many seats clients buy."}
+    ]
+  },
+  "fundamentals": {
+    "business": [
+      "Revenue comes from three streams. Transaction and clearing fees dominate at exchanges: at CME, clearing and transaction fees were $1,378.1M of $1,737.3M revenue in Q3 2026, with market data at $243.1M [2]. ICE reported 2025 recurring revenue of $5,056M and transaction revenue of $4,875M [17]. Data firms add subscriptions, asset-based fees and rating fees [7][4].",
+      "Customers are trading firms, banks, asset managers, corporates, producers, governments and central banks. CME says members account for 85% of contract volume and one clearing firm represented 12% of clearing and transaction fees in 2025 [14]. Data and index firms sell to asset managers, banks and bond issuers, and ETF sponsors pay index licence fees [7].",
+      "The main costs are people, technology and, for trading venues, costs that move with volume. Nasdaq's net revenue of $1,481M compares with total revenues of $2,393M once those transaction costs come out [5]. Cboe likewise reports net revenue after cost of revenues [6]. MSCI guides to 2026 operating expenses of $1,535M to $1,575M [7].",
+      "Pricing power rests on liquidity, regulation and brand. CME's 10-K cites the depth and liquidity of its markets and exclusive index licences [14]. Ratings and index units post very high margins, 66% at S&P Global Ratings and 72% in Indices on an adjusted basis [3], which we read as evidence of pricing power.",
+      "Principal assets are technology platforms, licences, brands and goodwill from acquisitions; clearing houses also run guaranty funds [14]. Liabilities are mainly debt: ICE $23.3B [1], S&P Global about $13.1B [3], Nasdaq about $8.7B [5], MSCI $6.8B principal [7], Moody's about $6.9B [4], CME $3.4B [2] and Cboe $1.44B [6], all as of 30 Sep 2026.",
+      "The model is asset-light compared with industrials. ICE guides to about $1.05B of 2026 capital spending against $9.9B of 2025 net revenue [1][17], and S&P Global to $155M to $165M against $11.1B of nine-month revenue [3]. Spending is mostly software and technology infrastructure."
+    ],
+    "overview": [
+      "We did not find a single sourced estimate of the industry's total revenue. The backdrop is large: the World Federation of Exchanges counted equity market capitalisation of USD 151.94 trillion at end-2025, up 18.5%, with trading value up 36.8% [13]. In Q3 2026 revenue rose 13% at CME, 15% at ICE, 18% at Cboe, 13% at Nasdaq and 7% at S&P Global [2][1][6][5][3].",
+      "The main segments are derivatives (CME's Q3 average daily volume split across interest rates at 15.1M, equity indexes 7.7M and energy 2.7M contracts) [2], cash equities and listings, electronic bond trading (Tradeweb averaged $3.2 trillion a day) [8], indexes, ratings, and data and software such as Nasdaq's $529M Financial Technology unit [5].",
+      "The industry sits between issuers and investors. Suppliers include market makers, who supply liquidity, and technology partners; CME has a ten-year Google Cloud partnership [14]. Customers are banks, asset managers and borrowers. Post-trade services extend the chain: Deutsche Börse cites rising assets under custody in fund and securities services [10].",
+      "The industry has moved from floors to screens and is now consolidating and extending hours. ICE agreed to buy MarketAxess [1], Tradeweb to buy Trumid [8], LSEG to buy Octus for $3.535bn [9], and Nasdaq closed LeveL Markets in early Q4 2026 and plans 23/5 trading from 6 Dec 2026 [5]. S&P Global spun off Mobility on 1 July 2026 [3].",
+      "Activity is concentrated in the US and Europe. About 53% of CME's market data revenue comes from outside the US [14]. Tradeweb's international revenue was $258.5M of $584.5M in Q3 2026 [8]. In Europe, Deutsche Börse posted net revenue of EUR 1,633M and LSEG total income growth of 8.8% [10][9]."
+    ],
+    "competition": [
+      "A handful of scaled operators dominate. CME's 10-K names ICE, Cboe, Euronext, HKEX and Deutsche Börse as exchange rivals, and ICE, LCH Group, OCC, Cboe Clear, DTCC and Eurex Clearing in clearing [14]. In data, S&P Global, Moody's, MSCI and LSEG's FTSE Russell are the main global names [3][4][7][9].",
+      "Sourced market shares are scarce. Cboe's own figures for Q3 2026 show 30.5% of US options, 8.9% of US equities on exchanges, 21.3% off-exchange and 23.0% of European equities [6]. We did not find comparable published shares for CME, ICE or the rating agencies.",
+      "The structure is concentrated where liquidity pools, such as index futures and options and credit ratings, and fragmented in cash equities, where Cboe holds 8.9% of on-exchange US share [6]. CME's 10-K describes a fragmented field of alternative venues in FX and fixed income, some competing on price [14].",
+      "Barriers to entry are regulatory approval, the network effect of liquidity, clearing capital and exclusive licences. CME is a systemically important clearing organisation overseen by the CFTC and the Federal Reserve [14]. The 10-K still names new entrants: the FMX Futures Exchange, digital asset platforms and prediction markets [14].",
+      "Scale economies are strong. ICE's Exchanges segment earned a 76% adjusted operating margin against 61% for the group [1]. CME's adjusted margin was 69.4% on our calculation [2] and Cboe's was 71.4% [6]. Fixed technology and clearing costs spread over rising volumes.",
+      "Matching cash equities is close to a commodity, and Cboe's US on-exchange share slipped to 8.9% from 9.8% [6]. Liquid futures contracts and indexes are differentiated because liquidity is the product. Ratings are differentiated by brand and history. This is our judgment.",
+      "Bargaining power sits with clearing members and large customers at the venue level, and with the platforms over small users. One CME clearing firm accounted for 12% of fees [14], and Tradeweb expects about $105M of 2026 revenue from an LSEG market data contract [8]. Index licensors such as S&P, Dow Jones, Nasdaq and FTSE Russell hold leverage over CME on licensed products [14]."
+    ],
+    "drivers": [
+      "Revenue growth follows volume, asset levels and subscriptions. CME's Q3 average daily volume rose to 29,445K from 25,322K contracts [2]. MSCI's asset-based fees grew 24.9% [7]. Moody's analytics ARR rose 8% while rated issuance fell 2% [4]. Nasdaq's ARR was up 12% [5].",
+      "Margins depend on fixed-cost leverage. Q3 adjusted operating margins were 61% at ICE, 69.4% at CME on our calculation, 71.4% at Cboe, 54% at S&P Global and 52.6% at Moody's [1][2][6][3][4]. MSCI's adjusted EBITDA margin was 62.2% and Tradeweb's 54.5% [7][8].",
+      "Key costs are compensation, technology, and data and licence costs. Deutsche Börse's Q3 operating costs rose 7% to EUR 646M, about 3% excluding share-based pay and Allfunds deal costs [10]. Cboe lowered its 2026 adjusted operating expense guidance to $830M to $845M [6].",
+      "Rates matter in two ways. Higher rates earn more on collateral: Deutsche Börse's treasury result rose 7% to EUR 218M, its first rise since 2024 [10]. Rate uncertainty also feeds hedging: CME's interest rate volume was 15.1M contracts a day [2]. The Fed held at 3.75% to 4.00% on 28 Oct 2026 [12].",
+      "Commodity and macro swings drive activity more than demand for any single product. ICE's energy revenue rose 25% and ags and metals 62% in Q3 [1]. The Fed describes activity as expanding at a strong pace while inflation remains elevated [12]. Higher inflation also supports price escalators in data contracts, in our view.",
+      "The industry is a mix. Trading is cyclical: ICE's transaction revenue rose 23% in Q3 while recurring revenue rose 7% [1], and CME volumes ran 36.2M contracts a day in Q1 against 29.4M in Q3 [2]. Subscriptions are defensive and secular. Ratings are cyclical with issuance."
+    ],
+    "financials": [
+      "Growth has been strong in 2026. For nine months, ICE's adjusted EPS was $6.27 against $5.24 [1], CME's $9.38 against $8.43 [2] and Cboe's $10.88 against $7.62 [6]. In Q3, S&P Global's adjusted EPS grew 9% and Moody's 6% [3][4].",
+      "Exchanges and data firms report net revenue rather than gross margin. Adjusted operating margins in Q3 2026 were ICE 61% [1], CME 69.4% on our arithmetic [2], Cboe 71.4% [6] and S&P Global 54% [3]. We did not obtain Damodaran industry-table margins for this group, and his broad financial-services bucket is not a close match.",
+      "We did not find a sourced ROE or ROIC for this sub-industry. We think returns on capital are held down at acquisitive firms by large goodwill balances, and that tangible returns are far higher. The group's margins and low capital spending point that way, but that is judgment.",
+      "Leverage is moderate to high. MSCI had debt of 3.2 times adjusted EBITDA against a target range of 3.0 to 3.5 times [7]. ICE had $23.3B of debt on 30 Sep 2026 and plans a deleveraging after the MarketAxess close [1]. Cboe held $2.66B of cash against $1.44B of debt [6].",
+      "Free cash flow is large. ICE's adjusted free cash flow was $4.2B in 2025 and $3.7B for nine months of 2026 [17][1]. S&P Global's nine-month free cash flow was $3.3B [3]. Moody's guides to $2.7B to $2.9B and MSCI to $1,485M to $1,545M for 2026 [4][7].",
+      "Capital spending is modest relative to revenue. 2026 guidance is about $1.05B at ICE [1], $155M to $165M at S&P Global [3], $160M to $170M at MSCI [7], $98M to $108M at Cboe [6] and $107M to $117M for Tradeweb's capex and capitalised software [8].",
+      "No sub-industry multiple was obtained. The Financials sector traded at 15.0x forward earnings against 17.7x for the S&P 500 on 5 Nov 2026 [11]. As a rough pointer, Cboe's Q3 average buyback price of $266.17 against annualised Q3 adjusted EPS of $3.63 implies about 18x, our own arithmetic and not a current quote [6]."
+    ],
+    "risks": [
+      "Regulation shapes both rules and deals. CME's 10-K points to CFTC oversight, EMIR, MiFID II and Basel III as drivers of competition and compliance [14]. A FINRA TRACE rule change took effect on 31 Aug 2026 with mandatory compliance from 2 Aug 2027 [8], and ICE's MarketAxess deal needs further approvals [1].",
+      "AI cuts both ways. LSEG reports 47,000 AI Search users and says 80% of its AI agreements include extra datasets, which supports data demand [9]. We think the risk is that AI agents change seat-based pricing or let clients build their own analysis. S&P Global's review of Capital IQ and Kensho shows the pressure to reshape [3].",
+      "Demographics matter little directly. The indirect effect is ageing savers moving into funds, which feeds asset-based fees [7], and Deutsche Börse cites European investors shifting to capital-market products [10].",
+      "Investor behaviour is shifting toward short-dated options, passive funds and longer trading hours. Cboe's SPX 0DTE options reached a record 3.6M average daily contracts in October 2026 [15], and Nasdaq plans 23/5 trading [5]. Reliance on passive assets raises exposure to equity sell-offs [7].",
+      "New entrants are named in CME's 10-K: FMX Futures Exchange, digital asset platforms and prediction markets [14]. Cboe plans to launch company-KPI event contracts in November 2026 [6], showing incumbents entering the same space.",
+      "Geopolitics and supply chains matter through markets and data. The Fed says uncertainty is elevated, partly because of geopolitical developments [12]. About 53% of CME's market data revenue is non-US [14]. Conflict also drives commodity volumes, as ICE's energy revenue showed [1].",
+      "Substitutes are growing around the edges. Off-exchange trading took 21.3% of US equities at Cboe's measure against 17.9% a year earlier [6], and platforms such as Tradeweb are taking fixed income away from voice trading [8]. Free or low-cost data and AI-generated research could substitute for some analytics, in our view."
+    ],
+    "horizon": {
+      "opportunities": [
+        "Fixed income and credit keep moving to electronic trading, with Tradeweb ADV up 22.4% and ICE buying MarketAxess [8][1].",
+        "Passive and ETF assets keep growing, lifting fees at MSCI (up 24.9%) and S&P Global Indices (up 20%) [7][3].",
+        "AI raises demand for licensed data, with 95% of LSEG's top 200 customers using its AI products [9].",
+        "New products and hours, such as 23/5 trading and event contracts, widen the addressable market [5][6]."
+      ],
+      "threats": [
+        "Volume could normalise as volatility fades, as CME's fall from 36.2M to 29.4M contracts a day between Q1 and Q3 2026 shows [2].",
+        "Rate hikes or weak issuance could hurt ratings, with Moody's corporate finance rated issuance down 16% in Q3 [4][12].",
+        "New entrants and regulation could narrow moats in clearing and trading [14].",
+        "Large debt-funded deals raise leverage and integration risk, with ICE debt at $23.3B [1]."
+      ],
+      "assessment": "We think the next three to five years favour the data and index half of the group, where subscriptions, asset-linked fees and AI-driven demand give steadier growth, while the trading half stays hostage to volatility. Q3 volumes were a record for the quarter yet below the Q1 peak, so the 2026 run rate should not be assumed to be permanent [2]. Consolidation will probably continue as scale in clearing, fixed income and data compounds returns [1][8][9]. The main threats are a volume pullback, a hawkish rate path [12] and entrants in event contracts and digital assets [14]. Balance-sheet capacity is ample, though leverage is rising at the deal-makers [1]."
+    }
+  },
+  "sections": [
+    {"id": "macro", "paragraphs": [
+      "The group sits late in a strong market cycle. FactSet's 6 Nov 2026 data show S&P 500 earnings growth of 33.3% expected for calendar 2026, and its forward P/E has fallen to 17.7 from 22.0 at the start of the year because earnings estimates rose faster than prices [11]. Financials, the sector that contains this group, is reporting Q3 blended earnings growth of 6.4% [11].",
+      "Rates are the key macro input. On 28 Oct 2026 the Fed held its target range at 3.75% to 4.00% by a 10 to 2 vote, with both dissenters preferring a quarter-point increase; it said activity was expanding at a strong pace and inflation remained elevated [12]. Higher-for-longer rates help exchanges that earn interest on collateral, as Deutsche Börse's treasury result of EUR 218M, its first rise since 2024, shows [10]. They also feed hedging volume: CME's interest-rate futures averaged 15.1M contracts a day in Q3, up from 13.4M [2].",
+      "The risk is on the issuance side. Moody's rated issuance fell 2% in Q3 and corporate finance issuance 16% [4]. Currency also matters for the non-US business: Cboe reports European revenue growth of 7% in constant currency against 6% reported [6]. We see the cycle as supportive for trading and indexes, but a hike could slow bond issuance."
+    ]},
+    {"id": "demand", "paragraphs": [
+      "Demand has two structural supports: the growth of financial assets and the shift to electronic, data-driven markets. The World Federation of Exchanges reports equity market capitalisation of USD 151.94 trillion at end-2025, up 18.5%, trading value up 36.8% and 1,471 IPOs, up 8.7% [13]. A bigger asset base means more to hedge, rate and index.",
+      "Passive investing is the clearest secular channel. MSCI's asset-based fees reached $246.6M in Q3, up 24.9%, and its run-rate for those fees was $975.6M, up 22.0% [7]. S&P Global's Indices revenue grew 20% to $554M [3]. Nasdaq's index revenue grew 39% to $286M [5].",
+      "Data demand looks sticky. MSCI's retention rate was 95.0% [7], Moody's Analytics ARR was $3,688M, up 8% [4], and Nasdaq's ARR was $3.4B, up 12% [5]. LSEG says Data and Analytics grew 5.2% while its markets division grew 12.5% [9].",
+      "Trading demand is more cyclical: CME's volume was 29,445K contracts a day in Q3 against 25,322K a year earlier [2], but Cboe's October index options ADV of 6.89M contracts was a record [15] while its multi-listed options ADV fell 10.3% [15]. Demographics matter only indirectly, through retirement savings flowing into funds."
+    ]},
+    {"id": "structure", "paragraphs": [
+      "Porter's five forces point to a strong industry. Barriers to entry, the first force, are high: regulatory approval, clearing capital and the network effect of liquidity [14]. CME's 10-K nonetheless names new entrants including the FMX Futures Exchange, digital asset platforms and prediction markets, so the threat of new entrants is not zero [14].",
+      "Supplier power is moderate: market makers supply liquidity and index licensors hold exclusive rights, which CME flags in its 10-K [14]. Buyer power is concentrated among clearing firms, with one representing 12% of CME's clearing and transaction fees [14]. Substitutes include off-exchange trading, which took 21.3% of US equities at Cboe's measure [6].",
+      "Rivalry is intense in cash equities and moderate in derivatives. Cboe's US exchange share fell to 8.9% from 9.8% [6], while ICE's Exchanges segment earned a 76% adjusted operating margin [1], which implies pricing power in derivatives and data.",
+      "The moat varies by business. Ratings carry adjusted margins of 66% at S&P Global [3] and 64.4% at Moody's Investors Service [4]. Consolidation is reshaping structure, with ICE's pending MarketAxess purchase, Tradeweb's Trumid purchase and LSEG's Octus deal all announced in 2026 [1][8][9]. We would expect further bolt-on deals."
+    ]},
+    {"id": "environment", "paragraphs": [
+      "Regulation is the dominant outside force. CME's 10-K cites CFTC oversight under Dodd-Frank, a systemically important clearing designation overseen with the Federal Reserve, and EMIR, MiFID II and Basel III in Europe as drivers of competition and compliance [14]. A FINRA rule change on TRACE reporting took effect on 31 Aug 2026 with mandatory compliance from 2 Aug 2027 [8].",
+      "Antitrust review shapes deals. ICE said in its 29 Oct 2026 release that the US antitrust waiting period for MarketAxess had ended early on 21 Oct and now expects a Q1 2027 close, but other approvals remain [1].",
+      "Technology is both opportunity and threat. LSEG says 95% of its top 200 customers use its AI products and AI Search users reached 47,000 [9]. S&P Global opened a strategic review of Capital IQ and Kensho on 27 Oct 2026 [3]. Nasdaq will launch 23/5 trading on 6 Dec 2026 [5].",
+      "Political and geopolitical factors enter through the Fed's statement that uncertainty is elevated partly because of geopolitical developments [12] and through the 53% of CME market data revenue earned outside the US [14]. Emerging risks include prediction markets and digital asset platforms [14], and Cboe plans to launch company-KPI event contracts in November 2026 [6]."
+    ]},
+    {"id": "economics", "paragraphs": [
+      "The economics are among the best in listed financials. Q3 2026 adjusted operating margins were 61% at ICE [1], 69.4% at CME on our calculation from the release [2], 71.4% at Cboe [6], 54% at S&P Global [3] and 52.6% at Moody's [4]. MSCI's adjusted EBITDA margin was 62.2% and Tradeweb's 54.5% [7][8].",
+      "Operating leverage shows in the numbers: CME's Q3 revenue rose 13% to $1,737.3M while adjusted operating income rose about 15% to $1,205.5M [2], and Cboe's adjusted margin widened 6.1 points to 71.4% as net revenue rose 18% [6]. The exception was Moody's, whose adjusted margin slipped 0.3 points as revenue rose 1% [4].",
+      "Capital intensity is low. Nine-month free cash flow was $3.7B at ICE and $3.3B at S&P Global [1][3], and 2026 capital spending guidance is $98M to $108M at Cboe and $160M to $170M at MSCI [6][7]. Returns on equity and invested capital were not available at the sub-industry level; goodwill from acquisitions likely depresses reported ROIC, in our view.",
+      "Balance sheets differ. MSCI runs debt at 3.2 times adjusted EBITDA [7], ICE carries $23.3B of debt [1] and Cboe holds more cash than debt [6]. Net revenue, rather than gross revenue, is the right base for comparing exchanges, since Nasdaq's $1,481M net revenue sits within $2,393M of total revenues [5]."
+    ]},
+    {"id": "earnings", "paragraphs": [
+      "Earnings momentum is strong and revisions are upward. S&P Global raised 2026 adjusted EPS guidance to $17.70 to $17.95 and revenue growth guidance to 7.4% to 8.4% [3]. Cboe lifted its 2026 organic net revenue growth outlook to the high teens [6], and LSEG now expects total income growth of at least 8.0% with EBITDA margin expansion of 100 to 120 basis points [9]. Deutsche Börse raised its 2026 forecast again [10].",
+      "Others held steady: Moody's reaffirmed adjusted EPS of $16.50 to $17.00 and an adjusted operating margin of 52% to 53% [4], and MSCI kept its expense and cash flow guidance with only interest expense raised [7]. ICE guided to 9% Exchanges recurring revenue growth and 8% in Fixed Income and Data Services for 2026 [1]. Nasdaq gave no revenue or EPS guidance [5].",
+      "Sector context is less strong: FactSet shows Financials blended Q3 earnings growth of 6.4% and a revenue surprise of -0.3%, the largest negative among sectors [11]. In our read, this sub-industry has outgrown the wider sector.",
+      "Our view differs from caution in one place: volume comparisons get harder from here, because Q3 ADV at CME was far below Q1's 36.2M contracts a day [2], so we think growth in transaction revenue should slow while subscription and asset-linked fees carry the group. We have no consensus figures for the group and do not estimate them."
+    ]},
+    {"id": "valuation", "paragraphs": [
+      "We could not obtain a forward multiple for this sub-industry, so we use the sector as a guide. On 5 Nov 2026 the Financials sector traded on 15.0x forward earnings, the second lowest of the eleven sectors, against 17.7x for the S&P 500, whose 5-year average is 19.8x and 10-year average 19.1x [11]. These are sector figures, not this group's.",
+      "As a rough pointer for one name, Cboe repurchased shares at an average of $266.17 in Q3 [6]. Against annualised Q3 adjusted EPS of $3.63 (four times the quarter) that is about 18x, our arithmetic and not a current price. We did not obtain prices for the other bellwethers, so we do not rank them.",
+      "Normalised earnings are the open question. With CME volumes at 29.4M contracts a day in Q3 against 36.2M in Q1 [2], and Cboe's futures line weaker [6], we would not capitalise peak transaction revenue. The steadier half, subscriptions and asset-based fees, deserves a higher multiple.",
+      "Free cash flow supports valuation. ICE's adjusted free cash flow was $3.7B for nine months [1], S&P Global's $3.3B [3], and Moody's guides to $2.7B to $2.9B [4]. S&P Global expects to repurchase more than $7 billion of stock in 2026 [3]. Without prices we cannot compute yields."
+    ]},
+    {"id": "positioning", "paragraphs": [
+      "Sector funds show caution despite strong prices. The Financial Select Sector SPDR (XLF) closed at a record $59.20 on 4 Nov 2026 and traded at $58.29 on 10 Nov, yet it lost about $4.5B of net flows over the 13 weeks to 6 Nov, or 7.6% of starting assets [16]. This is sector-level evidence; we found no ETF flow data for exchanges and data providers alone.",
+      "Company buybacks are a clear source of demand. ICE returned a record $2.5B to stockholders in nine months including $1.6B of repurchases [1], S&P Global bought back more than $4B year to date [3], Moody's about $2.6B [4], MSCI $552.3M in Q3 [7], Nasdaq $323M [5] and LSEG GBP 2.6bn [9]. Cboe's board added $550M to its authorisation on 22 Oct [6].",
+      "Momentum is mixed in the data we have. FactSet shows the S&P 500 down 3.9% since 30 Sep while forward earnings estimates rose 3.1% [11], so multiples are compressing market-wide. We did not obtain short-interest, institutional positioning or breadth data for the group, and we make no claim about them."
+    ]}
+  ],
+  "sources": [
+    {"n": 1, "title": "Intercontinental Exchange Reports Third Quarter 2026 Results (Form 8-K, Exhibit 99.1)", "publisher": "Intercontinental Exchange / SEC", "date": "2026-10-29", "url": "https://www.sec.gov/Archives/edgar/data/0001571949/000110465926119880/tm2628301d1_ex99-1.htm"},
+    {"n": 2, "title": "CME Group Reports Q3 2026 Results (Form 8-K, Exhibit 99.1)", "publisher": "CME Group / SEC", "date": "2026-10-21", "url": "https://www.sec.gov/Archives/edgar/data/0001156375/000115637526000065/exhibit9919302026.htm"},
+    {"n": 3, "title": "S&P Global Third Quarter 2026 Earnings Release (Form 8-K)", "publisher": "S&P Global / SEC", "date": "2026-10-27", "url": "https://www.sec.gov/Archives/edgar/data/0000064040/000006404026000053/spgi3q2026-earningsrelease.htm"},
+    {"n": 4, "title": "Moody's Corporation Third Quarter 2026 Earnings Release (Form 8-K)", "publisher": "Moody's / SEC", "date": "2026-10-21", "url": "https://www.sec.gov/Archives/edgar/data/0001059556/000162828026066594/a3q26earningsrelease.htm"},
+    {"n": 5, "title": "Nasdaq Reports Third Quarter 2026 Results", "publisher": "Nasdaq via Mondo Visione", "date": "2026-10-22", "url": "https://mondovisione.com/news/nasdaq-reports-third-quarter-2026-results-strong-execution-drives-12-billion-20261022/"},
+    {"n": 6, "title": "Cboe Global Markets Reports Results for Third Quarter 2026 (Form 8-K, Exhibit 99.1)", "publisher": "Cboe Global Markets / SEC", "date": "2026-10-30", "url": "https://www.sec.gov/Archives/edgar/data/0001374310/000162828026068432/cboe-20261030xex991.htm"},
+    {"n": 7, "title": "MSCI Reports Financial Results for Third Quarter and Nine Months 2026 (Form 8-K)", "publisher": "MSCI / SEC", "date": "2026-10-20", "url": "https://www.sec.gov/Archives/edgar/data/0001408198/000140819826000054/exhibit991earningsrelease-.htm"},
+    {"n": 8, "title": "Tradeweb Reports Third Quarter 2026 Financial Results (Form 8-K, Exhibit 99.1)", "publisher": "Tradeweb Markets / SEC", "date": "2026-10-29", "url": "https://www.sec.gov/Archives/edgar/data/0001758730/000175873026000143/tw-2026xq3xex991.htm"},
+    {"n": 9, "title": "London Stock Exchange Group plc Q3 2026 Trading Update", "publisher": "LSEG via Mondo Visione", "date": "2026-10-22", "url": "https://mondovisione.com/news/london-stock-exchange-group-plc-q3-2026-trading-update-sustained-high-growth-20261022/"},
+    {"n": 10, "title": "Q3/2026: Deutsche Börse Group continues strong growth in the third quarter", "publisher": "Deutsche Börse via Mondo Visione", "date": "2026-10-20", "url": "https://mondovisione.com/news/q32026-deutsche-brse-group-continues-strong-growth-in-the-third-quarter-and-r-20261020/"},
+    {"n": 11, "title": "FactSet Earnings Insight (6 November 2026)", "publisher": "FactSet", "date": "2026-11-06", "url": "https://advantage.factset.com/hubfs/Website/Resources%20Section/Research%20Desk/Earnings%20Insight/EarningsInsight_110626.pdf"},
+    {"n": 12, "title": "Federal Reserve issues FOMC statement, October 28, 2026", "publisher": "Federal Reserve Board", "date": "2026-10-28", "url": "https://www.federalreserve.gov/newsevents/pressreleases/monetary20261028a.htm"},
+    {"n": 13, "title": "New WFE data: public markets post strong growth in 2025 despite geopolitical instability", "publisher": "World Federation of Exchanges", "date": "2026-02-27", "url": "https://www.world-exchanges.org/news/articles/new-wfe-data-public-markets-post-strong-growth-2025-despite-geopolitical-instability"},
+    {"n": 14, "title": "CME Group Form 10-K for fiscal year 2025", "publisher": "CME Group / SEC", "date": "2026", "url": "https://www.sec.gov/Archives/edgar/data/1156375/000115637526000009/cme-20251231.htm"},
+    {"n": 15, "title": "Cboe Global Markets Reports Trading Volume for October 2026", "publisher": "Cboe Global Markets via Finviz", "date": "2026-11-04", "url": "https://finviz.com/news/416084/cboe-global-markets-reports-trading-volume-for-october-2026"},
+    {"n": 16, "title": "XLF fund flows and price snapshot", "publisher": "thetrading.tools", "date": "2026-11-10", "url": "https://www.thetrading.tools/xlf"},
+    {"n": 17, "title": "Intercontinental Exchange Reports Strong Full Year 2025 Results", "publisher": "Intercontinental Exchange via Mondo Visione", "date": "2026-02-05", "url": "https://mondovisione.com/news/intercontinental-exchange-reports-strong-full-year-2025-results-20th-consecuti-202625/"}
+  ]
+}
