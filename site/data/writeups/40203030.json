@@ -1,0 +1,432 @@
+{
+  "code": "40203030",
+  "added": "2026-11-12",
+  "asOf": "2026-11-10",
+  "summary": "The big mixed-model capital-markets houses are earning well but unevenly. Deutsche Bank booked a record Q3 profit after tax of EUR 1.9 billion, UBS earned $2.7 billion, Nomura's half-year net income rose 27% and Macquarie's rose 50% [1][2][4][5]. Equities trading carried the quarter while fixed income was soft, and dealmaking slowed as the US 10-year yield hit 5.34% [3][6][7]. Central banks are on hold, with the Fed at 3.75% to 4.00% and the ECB at 2.50% [9][10]. Capital rules, above all the Swiss plan for UBS, matter as much as the cycle [13]. Europe's financials ETF trades near 13 times earnings [17].",
+  "metrics": [
+    {
+      "label": "Deutsche Bank profit after tax",
+      "value": "EUR 1.9B",
+      "context": "Q3 2026, a record; RoTE 10.6%, CET1 14.0%, cost/income 62.4%",
+      "source": 1
+    },
+    {
+      "label": "UBS net profit",
+      "value": "$2.7B",
+      "context": "Q3 2026; pre-tax profit $3.6B, up 27%; Global Markets revenue $2.55B, up 17%",
+      "source": 2
+    },
+    {
+      "label": "Nomura net income, first half",
+      "value": "JPY 249.3B",
+      "context": "April to September 2026, up 27% y/y; half-year ROE 13.3%",
+      "source": 4
+    },
+    {
+      "label": "Macquarie net profit, 1H27",
+      "value": "A$2,478M",
+      "context": "Up 50% y/y, down 22% on the prior half; annualised ROE 13.8%",
+      "source": 5
+    },
+    {
+      "label": "Global M&A value, Q3 2026",
+      "value": "$993B",
+      "context": "Down 41% from Q2; year to date $3.9T, up 28%",
+      "source": 7
+    },
+    {
+      "label": "Global equity issuance, 9M 2026",
+      "value": "$870.7B",
+      "context": "Up 62% y/y; IPOs $214.4B, highest since 2021",
+      "source": 8
+    },
+    {
+      "label": "iShares MSCI Europe Financials ETF P/E",
+      "value": "13.09x",
+      "context": "10 Nov 2026; P/B 1.70; YTD NAV total return 11.13%",
+      "source": 17
+    },
+    {
+      "label": "S&P 500 forward P/E",
+      "value": "17.7x",
+      "context": "5 Nov 2026; 5-year average 19.8, 10-year 19.1; US Financials 15.0x",
+      "source": 18
+    }
+  ],
+  "watch": [
+    "The lower house of Swiss parliament's economic committee meets on 23 and 24 November on UBS capital rules, with a 90% backing of foreign units still on the table and about $16 billion of extra capital at stake [13].",
+    "Basel 3.1 starts in the UK on 1 January 2027 and Barclays says it adds 8 to 15 billion pounds of risk-weighted assets, so full-year results will show how it affects capital plans [3][12].",
+    "Fixed-income trading was soft at Deutsche Bank and Barclays while equities surged, so a reversal in either would change forward earnings [3][6].",
+    "A 10-year US yield of 5.34% and two Fed dissenters favoring a hike could keep deal conversion low into 2027 [7][9].",
+    "Macquarie says Macquarie Capital transaction activity and investment income are expected to fall, and it is working with APRA on a remediation plan [5]."
+  ],
+  "bellwethers": [
+    "Deutsche Bank",
+    "UBS Group",
+    "Nomura Holdings",
+    "Macquarie Group"
+  ],
+  "basics": {
+    "intro": "These are banks and securities houses that do many capital-markets jobs at once: advising on mergers, underwriting shares and bonds, trading for clients, financing hedge funds, and often managing wealth. Customers are corporations, governments, funds and rich individuals. Income comes from advisory and underwriting fees, trading revenue and spreads, interest and asset-based fees. GICS puts here the firms with large, mixed capital-markets businesses, in practice mostly non-US houses. Few US-listed names sit here: pure US investment banks and brokers are in Investment Banking & Brokerage, asset managers and custody banks in their own sub-industries, and commercial-style lenders in banks. Classification is set by MSCI and S&P and can change, so check the index provider for any single name.",
+    "products": [
+      {
+        "name": "Advisory and underwriting",
+        "what": "Advice on mergers, asset sales and restructurings, and selling new shares or bonds to investors. Fees are paid when deals close or securities are placed.",
+        "examples": "Deutsche Bank IBCM, UBS Global Banking, Nomura Investment Banking, Macquarie Capital"
+      },
+      {
+        "name": "Sales and trading",
+        "what": "Making markets for clients in equities, bonds, currencies, rates and commodities, and lending to them against securities.",
+        "examples": "UBS Global Markets, Deutsche Bank FIC, Nomura Global Markets, Macquarie CGM"
+      },
+      {
+        "name": "Wealth management",
+        "what": "Advice and custody for wealthy clients, paid by fees on assets and interest on deposits and loans.",
+        "examples": "UBS Global Wealth Management, Nomura Wealth Management"
+      },
+      {
+        "name": "Asset management and principal investing",
+        "what": "Running funds and infrastructure assets for outside investors, and investing the firm's own capital.",
+        "examples": "Macquarie Asset Management, DWS (Deutsche Bank)"
+      },
+      {
+        "name": "Commodities trading",
+        "what": "Physical and financial trading of gas, power, oil and metals, with margins that jump when prices are volatile.",
+        "examples": "Macquarie Commodities and Global Markets"
+      }
+    ],
+    "terms": [
+      {
+        "term": "IBCM",
+        "meaning": "Investment banking and capital markets: the advisory and underwriting fee business, as Deutsche Bank labels it."
+      },
+      {
+        "term": "FICC",
+        "meaning": "Fixed income, currencies and commodities trading, driven by client activity and volatility in rates, credit and currencies."
+      },
+      {
+        "term": "Risk-weighted assets (RWA)",
+        "meaning": "Assets scaled by how risky regulators think they are. Capital ratios divide equity by RWA, so rules that raise RWA force banks to hold more equity or shrink."
+      },
+      {
+        "term": "CET1 ratio",
+        "meaning": "Common equity tier 1 capital divided by RWA: the core measure of a bank's loss-absorbing cushion, and the base for dividends and buybacks."
+      },
+      {
+        "term": "RoTE",
+        "meaning": "Return on tangible equity: profit divided by shareholders' equity excluding goodwill and intangibles. The main profitability yardstick for banks."
+      },
+      {
+        "term": "Cost/income ratio",
+        "meaning": "Operating costs divided by revenue. Lower means more of each revenue dollar reaches profit."
+      },
+      {
+        "term": "Universal bank",
+        "meaning": "A bank that combines lending, deposits, wealth and investment banking under one balance sheet, as UBS and Deutsche Bank do."
+      },
+      {
+        "term": "Basel III / Basel 3.1",
+        "meaning": "International bank capital standards. National rules, such as the UK's Basel 3.1, set how much capital banks must hold against trading and lending risk."
+      },
+      {
+        "term": "FRTB",
+        "meaning": "Fundamental Review of the Trading Book: a rewrite of market-risk capital rules that can raise the capital needed for trading, and has been delayed in several regions."
+      },
+      {
+        "term": "Pipeline",
+        "meaning": "Deals that are signed or mandated but not yet closed. Advisory fees are usually recognized only at closing, so pipelines hint at future revenue."
+      },
+      {
+        "term": "Payout ratio",
+        "meaning": "Share of profit returned through dividends and buybacks, constrained by capital rules."
+      }
+    ],
+    "drivers": [
+      {
+        "name": "Client trading activity",
+        "how": "Volatility and volume lift trading revenue, mainly equities and financing. Quiet or one-way markets cut it, so results swing from quarter to quarter."
+      },
+      {
+        "name": "Deal and issuance cycle",
+        "how": "Advisory and underwriting fees follow equity prices, credit spreads and financing costs. Higher borrowing costs delay deals and fees with them."
+      },
+      {
+        "name": "Capital rules",
+        "how": "Higher requirements cap buybacks and dividends and reduce the return on trading balance sheets; relief does the opposite."
+      },
+      {
+        "name": "Interest rates",
+        "how": "Rates set income on deposits, loans and client cash, and affect deal valuations and the cost of funding trading books."
+      },
+      {
+        "name": "Wealth and asset flows",
+        "how": "Fee income on client assets grows with inflows and market levels and is steadier than trading."
+      },
+      {
+        "name": "Cost discipline",
+        "how": "Pay and technology make up most of the cost base, so revenue gains that outrun costs raise margins quickly."
+      }
+    ]
+  },
+  "fundamentals": {
+    "business": [
+      "Revenue comes from four streams: advisory and underwriting fees, trading revenue (spreads and financing), net interest income from loans, deposits and client cash, and asset-based fees from wealth and asset management. Deutsche Bank's 9M 2026 revenue was EUR 25.5B, with its investment bank, private bank and others contributing [1]. UBS's Global Wealth Management alone had underlying Q3 revenue of $6.89B against $2.55B in Global Markets [2]. Macquarie adds commodities trading and infrastructure asset management [5].",
+      "Customers are corporations, governments, asset managers, hedge funds, and wealthy individuals. Corporates and sponsors pay advisory and underwriting fees; funds pay for trading and financing; private clients pay asset-based fees. Wealth clients are stickier than deal clients, which is why UBS (Global Wealth Management assets under management $7.3 trillion) and Nomura stress wealth franchises [2][4].",
+      "Compensation is the largest cost, followed by technology, regulation and credit provisions. Deutsche Bank's Q3 noninterest expenses were EUR 5.2B on EUR 8.3B of revenue, and provisions for credit losses were EUR 501M [1]. Macquarie's 1H27 operating expenses were A$6,317M against net operating income of A$9,568M [5].",
+      "Pricing power is modest in commodity-like activities (execution, vanilla underwriting) and stronger where relationships, balance sheet or expertise matter: large advisory mandates, structured financing, private wealth. Scale in flow trading and a trusted brand help; no firm sets prices alone.",
+      "Major assets are trading inventory, loans and securities financing; liabilities are deposits, repo and long-term debt. Equity cushion is regulated: Deutsche Bank's CET1 ratio is 14.0% and Barclays' 14.2% [1][3]; UBS targets a hard CET1 ratio of about 14% [2]. Macquarie reports an APRA CET1 ratio of 12.9% [5].",
+      "Balance-sheet-heavy rather than asset-light. Trading and lending businesses need large capital and funding, and regulators control how much. Advisory is asset-light but only a minority of group revenue: Deutsche Bank's IBCM revenue was EUR 507M in Q3 against group revenue of EUR 8.3B [1]."
+    ],
+    "overview": [
+      "We opened no sourced estimate of total global investment-banking and markets revenue, so we give none. The activity pool is visible in issuance: global debt issuance reached $10 trillion in the first nine months of 2026, a record, and equity issuance was $870.7B, up 62% [8].",
+      "Segments are advisory, equity and debt underwriting, equities and FICC trading, financing and prime brokerage, plus wealth and asset management in the universal models. UBS's Global Markets earned $2.55B in Q3 while Global Banking is smaller, and Nomura's wholesale arm had net revenue of JPY 308.9B in Q2 [2][4].",
+      "These firms sit between issuers and investors. Suppliers are funding markets, data and technology providers and talent; customers are corporates, funds, governments and individuals. Regulators sit across the chain and set the capital cost.",
+      "UBS absorbed Credit Suisse, and finews describes UBS as still working through integration [2]. The Q3 league tables show US houses at the top: JP Morgan, BofA, Morgan Stanley, Citi and Goldman lead debt underwriting [8]. Few US-listed names are in this GICS sub-industry; most are foreign-listed.",
+      "Activity is concentrated in the US, Europe and Asia Pacific. Asia Pacific M&A was $242B in Q3, up 36% from a year earlier [7]. Home bases of the firms here are Switzerland, Germany, Japan and Australia."
+    ],
+    "competition": [
+      "Only a small set of firms offers full-service global capital markets. They include the US houses that top underwriting tables, which GICS typically classifies elsewhere, and European and Asian peers such as Barclays and BNP Paribas, whose trading results we cite for comparison but whose GICS placement should be checked with the index provider [6][8]. We opened no count of competitors.",
+      "Leaders in issuance are US banks: in the first nine months JP Morgan led debt underwriting and Goldman led equity underwriting; no European or Asian house appeared in the debt top five or the equity top four [8]. The names in this sub-industry are regional leaders and niche leaders such as Macquarie in infrastructure and commodities.",
+      "The industry is concentrated at the top and fragmented below. Boutique advisers, regional brokers and private-credit funds compete for pieces of the work. No source we opened gives market shares for this sub-industry, so we give none.",
+      "Barriers to entry are high for balance-sheet businesses: capital, licenses, technology and client trust. Rules such as the UK's Basel 3.1 and the Swiss plan to raise UBS's capital raise the barrier further [12][13]. Advisory barriers are lower, as boutiques show.",
+      "Scale economies are real in trading, clearing, technology and funding, and in global client coverage. They are less decisive in advisory, where senior talent matters more.",
+      "Execution of flow products is commodity-like and compressed by electronification. Differentiation comes from advice, structuring, financing and wealth relationships. Barclays' and BNP's equities revenue gains of 47% and 50% show that franchise strength differs even in the same market [3][6].",
+      "Clients, especially large funds and corporates, have strong bargaining power because they spread business across many banks; suppliers (talent, technology) are strong on pay. Regulators also set terms. Overall bargaining power sits with clients and regulators more than with the banks."
+    ],
+    "drivers": [
+      "Revenue growth follows market volumes, issuance and asset levels. In Q3 2026 equities led: Barclays' equities revenue rose 47%, BNP's 50%, and UBS's stock trading 22%, while fixed income fell at Deutsche Bank (3%) [3][6]. Wealth and asset fees add a steadier base.",
+      "Margins depend on revenue mix, compensation ratio and operating leverage. Deutsche Bank cut its cost/income ratio to 62.4% from 64.4% a year earlier by holding costs flat while revenue rose 4% [1].",
+      "The key cost variables are bonus pools, technology, litigation and regulation, and credit provisions. Deutsche Bank's Q3 provisions were EUR 501M [1]; Macquarie reported higher credit provisions in banking [5].",
+      "Rates matter in two ways: they set interest income on deposits and cash, and they raise or lower deal activity through financing costs. The Fed is at 3.75% to 4.00%, the ECB's deposit rate is 2.50% and the SNB's is 0% [9][10][11]. Q3 M&A fell 41% as the 10-year yield reached 5.34% [7].",
+      "Inflation and energy prices matter through rates and volatility: the ECB sees upside inflation and downside growth risk from an energy shock, and the SNB expects inflation to rise somewhat in the short term [10][11]. Commodity prices matter directly to Macquarie, whose commodities income was A$1,800M in 1H27, up 30% [5]. GDP and unemployment matter through deal flow and credit costs.",
+      "The group is cyclical, with defensive pieces. Trading and advisory swing with markets; wealth fees and net interest are steadier. Nomura's wholesale pre-tax income fell 51% from Q1 to Q2 while its group result fell 29% [4]."
+    ],
+    "financials": [
+      "Growth is lumpy. Nomura's net revenue rose 25% in the first half but fell 12% from Q1 to Q2 [4]. Macquarie's profit rose 50% y/y and fell 22% against the prior half [5]. Deutsche Bank's revenue rose 5% in the first nine months [1].",
+      "Damodaran's January 2026 data shows a 53.27% gross margin and 14.45% net margin for 32 brokerage and investment banking firms, against 28.89% net margin for money-center banks [15]. This is a broad group, not this sub-industry alone.",
+      "Returns run low-double-digit to high-teens. Damodaran's unadjusted ROE for brokerage and investment banking is 17.77% against 12.86% for money-center banks [16]. Deutsche Bank's Q3 RoTE was 10.6%, Nomura's half-year ROE 13.3% and Macquarie's annualised ROE 13.8% [1][4][5]. We found no ROIC figure; ROIC is rarely used for banks.",
+      "Leverage is high by design and regulated rather than chosen. Deutsche Bank's CET1 is 14.0% and Barclays' 14.2% [1][3]; Macquarie's is 12.9% on the APRA basis [5]. Capital levels, not debt-to-equity, are the working constraint.",
+      "Free cash flow is hard to define for a bank, since trading and lending balances move cash. Analysts look at distributable earnings instead: Deutsche Bank targets a 60% payout and had bought back EUR 1.5B of shares in 2026 to date [1]; UBS bought back $1.8B in Q3 [2].",
+      "Capital expenditure is light relative to revenue, with technology spending mostly in operating costs. The heavier requirement is regulatory capital, not property or plant. Our sources give no capex figures for these firms, so we give none.",
+      "Multiples are low against the market. Damodaran's January 2026 forward P/E was 19.86 for brokerage and investment banking and 13.04 for money-center banks [14]. The iShares MSCI Europe Financials ETF traded at 13.09 times earnings and 1.70 times book on 10 Nov 2026 [17]."
+    ],
+    "risks": [
+      "Regulation is the largest single risk. The Swiss parliament is weighing UBS capital backing for foreign units at 90%, about $16 billion more capital [13]. UK Basel 3.1 takes effect on 1 January 2027, with the FRTB internal-model approach delayed to 1 January 2028 [12]. Barclays estimates 8 to 15 billion pounds of added RWA [3].",
+      "Technology and AI can cut costs in operations and coding but also compress execution revenue and let rivals into trading. Our sources opened here give no measured AI effect on these firms, so we do not quantify it.",
+      "Demographics matter mainly through wealth: an aging population holds more assets, supporting wealth and asset management. UBS reported assets under management of $7.3 trillion and net new money of $55.1B in Q3 [2].",
+      "Client behavior is shifting toward electronic and direct execution, and toward private markets and funds rather than public ones. Macquarie's gain from selling an aircraft lessor shows how asset sales and funds can matter more than fees in some halves [5].",
+      "New competitors include US banks with larger balance sheets, boutiques, and private-credit funds. US houses dominate underwriting league tables [8], and European desks' equities gains in Q3 were compared with Wall Street's 43% average [6].",
+      "Geopolitics and energy are live risks: the ECB's October statement cites an energy shock that raises inflation and weighs on growth [10]. Reuters cites bankers pointing to energy prices, rate rises, election risk and IPO delays [7].",
+      "There are few true substitutes for balance-sheet intermediation, but private credit, direct deals between investors and exchanges' tools substitute for specific services. Our sources give no market-share estimate for these substitutes."
+    ],
+    "horizon": {
+      "opportunities": [
+        "Record debt and equity issuance and a deep IPO market give a base of fees, with Reuters quoting JPMorgan's expectation of another robust year in 2027 [7][8].",
+        "Wealth and advisory franchises keep compounding: UBS took in $55.1B of net new money in Q3 and Nomura's investment banking net revenue rose 26% y/y in Q2 [2][4].",
+        "Cost cuts keep lifting returns: Deutsche Bank targets RoTE above 13% by 2028 and Barclays a cost/income ratio in the low 50s [1][3].",
+        "Clarity on capital, if the Swiss compromise lowers the requirement, would free buybacks [13]."
+      ],
+      "threats": [
+        "Higher borrowing costs could keep deal completion low, as the 10-year yield hit 5.34% and Q3 M&A fell 41% [7].",
+        "Heavier capital rules in Switzerland and the UK could cut returns and payouts [3][13].",
+        "Fixed-income and commodities results can reverse: Macquarie guides to lower Macquarie Capital activity and Nomura's wholesale pre-tax income fell 13% y/y in Q2 [4][5].",
+        "Competition from larger US banks keeps pressure on European and Asian share of fees [8]."
+      ],
+      "assessment": "Our read is that the next three to five years offer moderate growth with high variance and regulation as the swing factor. The steady parts, wealth and asset fees, keep growing and should cushion cyclical swings. The cyclical parts are strong now, so a normal slowdown would cut growth even without a downturn. For UBS, the Swiss capital decision could alter returns more than the cycle; for others, Basel 3.1 and FRTB timing will matter. Cost discipline and mix toward wealth could lift returns toward the 13% to 14% area some firms already report, though that is a judgment, not a forecast. The sources we opened give no consensus long-term estimates."
+    }
+  },
+  "sections": [
+    {
+      "id": "macro",
+      "paragraphs": [
+        "The cycle looks late and uneven rather than broken. The Fed held at 3.75% to 4.00% on 28 October by a 10-2 vote, with two members preferring a quarter-point increase and the statement saying inflation remains elevated [9]. The ECB held its deposit rate at 2.50% on 29 October, saw upside inflation risk and downside growth risk from an energy shock, and refused to pre-commit to a path [10]. The SNB held at 0% in September, with Swiss inflation at 0.8% and the franc about 3% weaker in trade-weighted terms since June [11].",
+        "Rates reach this group through three channels. First, financing costs: the US 10-year yield reached 5.34%, its highest since 2002, and Reuters tied higher borrowing costs and energy prices to a 41% fall in Q3 M&A to $993 billion [7]. Second, interest income on deposits and client cash, which stays high while policy rates hold. Third, volatility, which helps trading: equities revenue rose 47% at Barclays and 50% at BNP Paribas [3][6].",
+        "Currency matters through translation and funding. Barclays quoted its markets growth in dollar terms, and the SNB noted the franc is about 3% weaker since June [3][11]. Fiscal policy was not covered in sources we opened, so we do not comment on it."
+      ]
+    },
+    {
+      "id": "demand",
+      "paragraphs": [
+        "Demand for capital-markets services is large and growing, but cyclical. Global debt issuance reached a record $10 trillion in the first nine months of 2026, up 9%, and equity issuance rose 62% to $870.7 billion, with IPOs at $214.4 billion, the highest since 2021 [8]. Year-to-date M&A of $3.9 trillion is up 28% and the strongest for the period since 2001, although deal count fell 8% and Q3 value fell 41% from Q2 [7].",
+        "Secular drivers include corporate demand for scale and technology, with AI and data-centre stakes about a quarter of M&A so far this year, rising private-equity activity and growing wealth [7]. Asia Pacific M&A was $242 billion in Q3, up 36% from a year earlier, which supports Nomura and Macquarie [7]. Wealth is the steadier demand leg: UBS reported $7.3 trillion of assets under management and $55.1 billion of Q3 net new money [2].",
+        "Demand is highly elastic to financing costs and market levels, as Q3 showed. Clifford Chance called the third quarter a normalization rather than the end of a cycle, and JPMorgan expects 2027 to be robust [7]. Demographics matter mostly through wealth accumulation. Our sources give no long-term market-size forecast, so we give none."
+      ]
+    },
+    {
+      "id": "structure",
+      "paragraphs": [
+        "Applying Porter's five forces. Rivalry is intense and global: US houses lead underwriting, with JP Morgan first in debt and Goldman first in equity in the first nine months, and no non-US firm in the debt top five or equity top four [8]. Threat of new entrants is low in balance-sheet businesses because of capital and licensing, and higher in advisory, where boutiques compete. Rules such as UK Basel 3.1 and Swiss capital demands raise the barrier [12][13].",
+        "Buyer power is high: corporates and funds split business across many banks, so execution is priced tightly. Supplier power sits with talent, which drives the cost base: Deutsche Bank's expenses were EUR 5.2 billion in Q3 against revenue of EUR 8.3 billion [1]. Substitutes include private credit and direct execution between investors, though we found no sourced share estimate.",
+        "Moats come from client relationships, balance sheet, wealth franchises and scale in trading. Europe's equities results show that franchise matters: BNP's equities revenue rose 50%, Barclays' 47%, UBS's 22% against a 43% Wall Street average, while Deutsche Bank's fixed income fell 3% and the report said it lacked an equities business to offset [6]. Pricing power is modest in execution and better in advice and wealth. We have no sourced concentration ratio for this sub-industry."
+      ]
+    },
+    {
+      "id": "environment",
+      "paragraphs": [
+        "Regulation is the dominant environmental factor. In Switzerland, the upper house backed a 90% CET1 backing for UBS's foreign subsidiaries, which UBS puts at about $16 billion of extra capital; the lower house's committee debates a compromise on 23 and 24 November, including valuing subsidiaries by the equity method [13]. UBS says buyback size depends on clarity here [2].",
+        "In the UK, the PRA's Basel 3.1 rules take effect on 1 January 2027, with the FRTB internal-model approach delayed to 1 January 2028 and existing model permissions retained meanwhile [12]. Barclays estimates 8 to 15 billion pounds of added RWA, or 30 to 55 basis points of CET1, partly offset by Pillar 2A clarity [3]. The EU's treatment of the trading-book rules is not confirmed by sources we opened, so we do not state it. In Australia, Macquarie is working with APRA on a remediation plan and disclosed a capital-treatment breach in August 2026 corrected with a A$100 million overlay [5].",
+        "Political factors include energy-driven inflation, as the ECB's October statement stresses, and election and IPO-timing risks bankers cited to Reuters [10][7]. On technology, we opened no source quantifying AI's effect on these firms, so we treat it as an unmeasured risk and an opportunity for operating cost."
+      ]
+    },
+    {
+      "id": "economics",
+      "paragraphs": [
+        "Revenue is volatile and margins swing with mix. Damodaran's January 2026 brokerage and investment banking data shows a gross margin of 53.27% and net margin of 14.45%, against 28.89% for money-center banks [15]. Its ROE is 17.77% against 12.86% [16]. These are broad industry groupings and not this sub-industry alone.",
+        "The firms here report lower or similar returns: Deutsche Bank's Q3 RoTE was 10.6%, with cost/income 62.4%; Nomura's Q2 ROE was 10.9% and first-half 13.3%; Macquarie's annualised ROE was 13.8% against 9.6% a year earlier and 18.3% the previous half [1][4][5]. Barclays' Investment Bank RoTE was 9.5% in Q3 [3].",
+        "Operating leverage is high because pay and technology costs are semi-fixed. Deutsche Bank held noninterest expenses flat at EUR 5.2 billion while revenue rose 4% [1]; Macquarie's expenses rose 1% on a 10% rise in net operating income [5]. Capital intensity is regulatory: CET1 ratios of 14.0% at Deutsche Bank and 14.2% at Barclays [1][3]. Free cash flow is better read as capital generation and payout: Deutsche Bank targets 60% and UBS bought back $1.8 billion in Q3 [1][2]. We found no ROIC figure and no capex data for these firms."
+      ]
+    },
+    {
+      "id": "earnings",
+      "paragraphs": [
+        "Reported earnings are strong. Deutsche Bank's Q3 pre-tax profit rose 8% to EUR 2.6 billion, nine-month profit after tax rose 7% to EUR 5.9 billion, and it expects to exceed EUR 33 billion of 2026 revenue [1]. UBS's Q3 pre-tax profit rose 27% to $3.6 billion [2]. Nomura's first-half net income rose 27% to JPY 249.3 billion, though Q2 was 29% below Q1 [4]. Macquarie's half-year profit rose 50% on commodities, with Macquarie Capital down 61% [5].",
+        "Guidance is mixed. Barclays targets 2026 income of about 31.5 billion pounds, RoTE above 12% and roughly 20% EPS growth [3]. Deutsche Bank targets 2028 RoTE above 13% [1]. Macquarie guides commodities and global markets slightly higher, Macquarie Capital lower and banking margins under pressure [5]. UBS gave no earnings guidance in the sources we opened and said it will set 2027 capital returns in February [2].",
+        "We opened no consensus estimates for these specific names, so we cannot say how revisions are trending. Our view is qualitative: Q3's mix was equities-led and fixed income was soft, which makes forward trading comparisons harder, while fee pipelines are slowing with rates. As US context only, FactSet shows the Financials sector's Q3 blended earnings growth at 6.4%, which covers US companies [18]."
+      ]
+    },
+    {
+      "id": "valuation",
+      "paragraphs": [
+        "Valuations are modest. The iShares MSCI Europe Financials ETF, a proxy for European financials, traded at 13.09 times earnings and 1.70 times book on 10 November 2026, with an 11.13% year-to-date NAV return [17]. FactSet puts the S&P 500's forward P/E at 17.7, below its 5-year average of 19.8 and 10-year average of 19.1, and US Financials at 15.0 [18].",
+        "Damodaran's January 2026 data gives forward P/E of 19.86 for brokerage and investment banking and 13.04 for money-center banks; the trailing P/E of 86.54 for brokers is distorted by earnings and not meaningful [14]. The data predate the Q3 results and are not matched to GICS 40203030.",
+        "Price-to-book should be read against returns: with RoTE of about 10.6% at Deutsche Bank and ROE of 13% to 14% at Nomura and Macquarie, a book multiple near 1.7 for the broad group implies the market expects returns to hold in the low teens [1][4][5][17]. That is our inference, not a sourced estimate. We opened no free-cash-flow yield data, and for banks capital return is the better lens: UBS's $3 billion buyback and Deutsche Bank's 60% payout both depend on capital rules [1][2]."
+      ]
+    },
+    {
+      "id": "positioning",
+      "paragraphs": [
+        "We opened limited positioning data for this narrow group. The iShares MSCI Europe Financials ETF holds 83 positions, has $3.1 billion in net assets and a year-to-date NAV total return of 11.13% at 10 November 2026 [17]. One ETF is a thin guide to ownership of this group.",
+        "Momentum is supportive: the ETF's double-digit year-to-date gain compares with a S&P 500 price rise of 7.4% year to date, and FactSet notes the US benchmark's valuation compressed because earnings estimates rose 33.6% while prices rose far less [17][18]. The two use different currencies and baskets, so the comparison is rough.",
+        "Event-driven flows matter more here than broad flows. UBS shares traded at 40.92 Swiss francs on 4 November, the date of the report on the capital compromise, and the committee meeting on 23 and 24 November is the near-term catalyst [13]. Barclays will update its CET1 operating level within 13% to 14% at full-year results, and UBS will set 2027 capital returns in February [3][2]. We opened no short-interest, institutional flow or breadth data for this group and do not guess at it."
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "n": 1,
+      "title": "Deutsche Bank reports record third-quarter post-tax profit of EUR 1.9 billion",
+      "publisher": "Deutsche Bank",
+      "date": "2026-10-28",
+      "url": "https://www.db.com/news/detail/20261028-deutsche-bank-reports-on-the-third-quarter-results-of-2026"
+    },
+    {
+      "n": 2,
+      "title": "UBS: More profit, integration targets exceeded",
+      "publisher": "finews.com",
+      "date": "2026-11",
+      "url": "https://www.finews.com/news/english-news/74187-ubs-q3-results-integration-cs-switzerland-gwm-investmentbanking-switzerland"
+    },
+    {
+      "n": 3,
+      "title": "Barclays Q3 earnings call highlights",
+      "publisher": "MarketBeat",
+      "date": "2026-10-22",
+      "url": "https://www.marketbeat.com/instant-alerts/transcript-barclays-q3-earnings-call-highlights-2026-10-22/"
+    },
+    {
+      "n": 4,
+      "title": "Nomura Holdings Form 6-K: second quarter and first half FY2026/27 results",
+      "publisher": "Nomura Holdings / SEC",
+      "date": "2026-10",
+      "url": "https://www.sec.gov/Archives/edgar/data/0001163653/000119312526435048/d77369d6k.htm"
+    },
+    {
+      "n": 5,
+      "title": "Macquarie Group 1H27 profit result",
+      "publisher": "StockwireX",
+      "date": "2026-11-06",
+      "url": "https://stockwirex.com/asx-stock-news/financials-fintech/mqg-macquarie-group-1h27-profit-result-november-2026/"
+    },
+    {
+      "n": 6,
+      "title": "Deutsche Bank, BNP show Europe can out-do Wall Street desks",
+      "publisher": "Swissinfo (Bloomberg)",
+      "date": "2026-10-28",
+      "url": "https://www.swissinfo.ch/eng/deutsche-bank%2C-bnp-show-europe-can-out-do-wall-street-desks/92288450"
+    },
+    {
+      "n": 7,
+      "title": "Global M&A deal rush fades in third quarter as rising borrowing costs bite",
+      "publisher": "Reuters (via Zawya)",
+      "date": "2026-10",
+      "url": "https://www.zawya.com/en/business/global/global-ma-deal-rush-fades-in-third-quarter-as-rising-borrowing-costs-bite-1486475"
+    },
+    {
+      "n": 8,
+      "title": "Global capital markets cool in Q3: LSEG",
+      "publisher": "Investment Executive (citing LSEG Data & Analytics)",
+      "date": "2026-10-01",
+      "url": "https://www.investmentexecutive.com/news/markets/global-capital-markets-cool-in-q3-lseg/"
+    },
+    {
+      "n": 9,
+      "title": "Federal Reserve issues FOMC statement",
+      "publisher": "Federal Reserve Board",
+      "date": "2026-10-28",
+      "url": "https://www.federalreserve.gov/newsevents/pressreleases/monetary20261028a.htm"
+    },
+    {
+      "n": 10,
+      "title": "Monetary policy decisions, 29 October 2026",
+      "publisher": "European Central Bank",
+      "date": "2026-10-29",
+      "url": "https://ecb.europa.eu/press/pr/date/2026/html/ecb.mp261029~9a493adf17.en.html"
+    },
+    {
+      "n": 11,
+      "title": "Monetary policy assessment summary, September 2026",
+      "publisher": "Swiss National Bank",
+      "date": "2026-09-24",
+      "url": "https://www.snb.ch/en/publications/communication/summaries/zus_20261022"
+    },
+    {
+      "n": 12,
+      "title": "Implementation of Basel 3.1: PRA publishes final rules (PS1/26)",
+      "publisher": "Regulation Tomorrow (Norton Rose Fulbright)",
+      "date": "2026-01-20",
+      "url": "https://www.regulationtomorrow.com/2026/01/implementation-of-basel-3-1-pra-publishes-final-rules/"
+    },
+    {
+      "n": 13,
+      "title": "UBS has new chance of capital compromise after lawmaker plan",
+      "publisher": "Swissinfo (Bloomberg)",
+      "date": "2026-11-04",
+      "url": "https://www.swissinfo.ch/eng/ubs-has-new-chance-of-capital-compromise-after-lawmaker-plan/92327107"
+    },
+    {
+      "n": 14,
+      "title": "Damodaran Online: PE ratios by industry (Brokerage & Investment Banking)",
+      "publisher": "Aswath Damodaran, NYU Stern",
+      "date": "2026-01",
+      "url": "https://pages.stern.nyu.edu/~adamodar/New_Home_Page/datafile/pedata.html"
+    },
+    {
+      "n": 15,
+      "title": "Damodaran Online: margins by industry",
+      "publisher": "Aswath Damodaran, NYU Stern",
+      "date": "2026-01",
+      "url": "https://pages.stern.nyu.edu/~adamodar/New_Home_Page/datafile/margin.html"
+    },
+    {
+      "n": 16,
+      "title": "Damodaran Online: return on equity by industry",
+      "publisher": "Aswath Damodaran, NYU Stern",
+      "date": "2026-01",
+      "url": "https://pages.stern.nyu.edu/~adamodar/New_Home_Page/datafile/roe.html"
+    },
+    {
+      "n": 17,
+      "title": "iShares MSCI Europe Financials ETF (EUFN) fund page",
+      "publisher": "BlackRock iShares",
+      "date": "2026-11-10",
+      "url": "https://www.ishares.com/us/products/239645/EUFN"
+    },
+    {
+      "n": 18,
+      "title": "FactSet Earnings Insight",
+      "publisher": "FactSet",
+      "date": "2026-11-06",
+      "url": "https://advantage.factset.com/hubfs/Website/Resources%20Section/Research%20Desk/Earnings%20Insight/EarningsInsight_110626.pdf"
+    }
+  ]
+}
