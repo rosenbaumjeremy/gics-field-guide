@@ -1,0 +1,438 @@
+{
+  "code": "40201050",
+  "added": "2026-11-13",
+  "asOf": "2026-11-12",
+  "summary": "Mortgage finance is in a high-rate squeeze. The 30-year mortgage rate was 7.11% on 12 Nov 2026 against 6.24% a year earlier [1], and the MBA expects 2027 originations to fall 5% to $1.99 trillion with refinancing down 17% [2]. Servicing and the government-backed enterprises are carrying earnings: Rocket earned $709 million in Q3 [3], Fannie Mae $4.2 billion [4], while PennyMac's production unit lost money and ROE fell to 3% [5]. Credit provisions are rising at Fannie, Freddie and the mortgage insurers [4][6][7]. Policy on the enterprises' future remains unresolved [8].",
+  "metrics": [
+    {
+      "label": "30-year fixed mortgage rate",
+      "value": "7.11%",
+      "context": "15-year 6.45%; year-ago 6.24% (30-year); 12 Nov 2026",
+      "source": 1
+    },
+    {
+      "label": "MBA 2027 origination forecast",
+      "value": "$1.99T",
+      "context": "-5% vs about $2.1T in 2026; refi $571B (-17%), purchase $1.42T (+0.8%); 11 Oct 2026",
+      "source": 2
+    },
+    {
+      "label": "Rocket Q3 2026 adjusted EBITDA",
+      "value": "$748M",
+      "context": "About 29% of adjusted revenue ($2.57B); servicing book $2.0T UPB",
+      "source": 3
+    },
+    {
+      "label": "PennyMac Q3 2026 annualized ROE",
+      "value": "3%",
+      "context": "Net income $29M; production segment pretax loss $7M; book value per share $83.85",
+      "source": 5
+    },
+    {
+      "label": "Fannie Mae Q3 2026 net income",
+      "value": "$4.2B",
+      "context": "Net worth $119.6B; credit provision $1.1B vs $485M in Q2",
+      "source": 4
+    },
+    {
+      "label": "Freddie Mac Q3 2026 net income",
+      "value": "$3.2B",
+      "context": "+17% y/y; net worth $81B; serious delinquency 0.61%",
+      "source": 6
+    },
+    {
+      "label": "Enact Q3 2026 adjusted ROE",
+      "value": "12.4%",
+      "context": "Mortgage insurer; insurance in force $275B; persistency 81%",
+      "source": 7
+    },
+    {
+      "label": "Financials sector forward P/E",
+      "value": "15.0x",
+      "context": "S&P 500 17.7x; 5 Nov 2026; sector, not mortgage-specific",
+      "source": 9
+    }
+  ],
+  "watch": [
+    "Whether mortgage rates stay above 7%: the MBA expects 25-bp Fed hikes in December 2026 and Q1 2027 and a 30-year rate above 7% through 2027 [2].",
+    "Any move to take Fannie Mae and Freddie Mac public or out of conservatorship, which was under study in late 2025 but unresolved in our sources [8].",
+    "Credit: Fannie's quarterly provision more than doubled to $1.1 billion and Enact flagged higher new delinquencies [4][7].",
+    "Servicing-right (MSR) sales and leverage: UWM plans to sell $70 to $80 billion of MSRs in Q4 and PennyMac $29 billion [10][5].",
+    "Fed path: two FOMC members dissented in favor of a rate hike on 28 Oct 2026 [11]."
+  ],
+  "bellwethers": [
+    "Rocket Companies",
+    "Fannie Mae",
+    "Freddie Mac",
+    "PennyMac Financial",
+    "UWM Holdings",
+    "Enact Holdings"
+  ],
+  "basics": {
+    "intro": "These companies lend against homes, service the loans, or guarantee and insure them. Customers are home buyers and owners, plus investors who buy mortgage bonds. Money comes from fees and gain on sale when loans are originated, steady fees for servicing, interest and guarantee fees for the government-sponsored enterprises (GSEs), and premiums for mortgage insurers. GICS includes non-deposit mortgage lenders, loan servicers and mortgage insurers [12]. Deposit-funded banks sit in banking sub-industries instead.",
+    "products": [
+      {
+        "name": "Origination",
+        "what": "Making new purchase and refinance loans and selling them into mortgage bonds, usually at a small premium called gain on sale.",
+        "examples": "Rocket, UWM, PennyMac production"
+      },
+      {
+        "name": "Servicing",
+        "what": "Collecting payments, handling escrow and delinquent borrowers for a fee, often held as a mortgage servicing right (MSR) asset that lasts years.",
+        "examples": "Rocket (with Mr. Cooper), PennyMac"
+      },
+      {
+        "name": "Guarantee and securitization",
+        "what": "Buying loans, packaging them into securities and guaranteeing timely payment to bond investors in return for a fee.",
+        "examples": "Fannie Mae, Freddie Mac"
+      },
+      {
+        "name": "Mortgage insurance",
+        "what": "Private insurance that pays the lender if a low-down-payment borrower defaults.",
+        "examples": "Enact, Essent, Radian, MGIC"
+      },
+      {
+        "name": "Subservicing and technology",
+        "what": "Servicing loans owned by others for a fee, with little balance-sheet risk.",
+        "examples": "PennyMac's planned Cenlar subservicing purchase"
+      }
+    ],
+    "terms": [
+      {
+        "term": "Gain on sale margin",
+        "meaning": "Profit on originated loans as a percentage of volume. It rises when competition is light and falls when volume is scarce."
+      },
+      {
+        "term": "UPB",
+        "meaning": "Unpaid principal balance, the loan balance outstanding. Servicers are sized by the UPB they service."
+      },
+      {
+        "term": "MSR",
+        "meaning": "Mortgage servicing right, the asset created by owning the servicing. It gains value when rates rise because loans stay on the books longer."
+      },
+      {
+        "term": "Recapture",
+        "meaning": "When a servicer refinances its own borrowers, keeping the loan and the servicing instead of losing it to a rival."
+      },
+      {
+        "term": "Conservatorship",
+        "meaning": "The federal control Fannie Mae and Freddie Mac have been under since 2008, with the FHFA as conservator."
+      },
+      {
+        "term": "Guarantee fee",
+        "meaning": "The charge the GSEs make for guaranteeing a loan's credit risk to bond investors."
+      },
+      {
+        "term": "Persistency",
+        "meaning": "The share of insured mortgages that stay in force over twelve months. Higher persistency extends mortgage-insurer premiums."
+      },
+      {
+        "term": "PMIERs",
+        "meaning": "The capital rules private mortgage insurers must meet to insure loans bought by the GSEs."
+      },
+      {
+        "term": "Serious delinquency",
+        "meaning": "Loans 90 or more days past due or in foreclosure. It is the GSEs' headline credit metric."
+      },
+      {
+        "term": "Warehouse line",
+        "meaning": "Short-term bank funding a lender uses between making a loan and selling it."
+      }
+    ],
+    "drivers": [
+      {
+        "name": "Mortgage rates",
+        "how": "Lower rates unlock refinancing and lift volume and gain on sale. Higher rates cut originations but make servicing rights more valuable."
+      },
+      {
+        "name": "Home purchase activity",
+        "how": "Purchase volume depends on affordability, inventory and household formation, and is steadier than refinancing."
+      },
+      {
+        "name": "Credit performance",
+        "how": "Delinquencies raise provisions at the GSEs and insurers and servicing costs everywhere."
+      },
+      {
+        "name": "Funding and leverage",
+        "how": "Originators rely on warehouse and secured debt, so credit spreads and liquidity determine how fast they can grow."
+      },
+      {
+        "name": "Policy toward the GSEs",
+        "how": "Capital rules, guarantee fees and any move out of conservatorship change profit and mortgage pricing across the system."
+      }
+    ]
+  },
+  "fundamentals": {
+    "business": [
+      "There are four revenue models. Originators earn gain on sale, which is volatile. Servicers earn recurring fees: Rocket services a $2.0 trillion book for 9.1 million clients [3]. The GSEs earn net interest and guarantee fees; Fannie's average single-family guarantee fee was 49.1 basis points [4]. Mortgage insurers earn premiums [7].",
+      "Customers are borrowers (direct or through brokers), banks and investors in mortgage bonds. UWM's Q3 volume was about 68% purchase loans [10]. The GSEs' customers are lenders who sell them loans.",
+      "Principal costs are compensation, marketing and technology for lenders, funding interest on warehouse and corporate debt, and credit provisions at the GSEs. UWM's Q3 expenses were $576 million, down 10% from Q2 [10]. PennyMac said it would cut annualized operating expenses by $160 million by Q1 2027 [5].",
+      "Pricing power is limited for originators, because rates are quoted nationwide and brokers shop them. It is stronger for servicers with scale and for the GSEs, which have a duopoly position under federal oversight. Mortgage insurers price in a regulated, competitive market.",
+      "Assets are loans held for sale, servicing rights and securities; liabilities are warehouse lines and corporate debt. Rocket's secured and unsecured financing totals about $24.9 billion (our sum of two lines) against $11.4 billion of liquidity [3]. Fannie's net worth is $119.6 billion but it holds a $238 billion senior preferred liquidation preference [4].",
+      "Mostly asset-light operationally but balance-sheet heavy financially. Lenders need little physical capital yet carry large borrowed positions. Fannie Mae's actual available CET1 capital was a deficit of $30 billion at 30 Sep 2026 [4], which shows how thin the GSEs' regulatory capital is against $4.1 trillion of guarantees."
+    ],
+    "overview": [
+      "The US residential market is about $2.1 trillion of annual originations in 2026 on the MBA's forecast, shrinking to $1.99 trillion in 2027, around 5 million loans a year against a peak near 14 million [2][13]. The GSEs guarantee a $4.1 trillion book at Fannie and $3.7 trillion total portfolio at Freddie [4][6].",
+      "Segments are single-family and multifamily lending, servicing, GSE guarantee and insurance. Fannie's multifamily book is $545 billion and Freddie's $510 billion [4][6]. Within originations, purchase is $1.42 trillion and refinancing $571 billion in the MBA's 2027 forecast [2].",
+      "The industry sits between homeowners and capital markets. Suppliers are funding banks, bond investors and software vendors; customers are households. It is a link in housing finance between builders and agents upstream and bond buyers downstream.",
+      "It evolved from deposit-funded thrifts to non-bank lenders and servicers, and consolidated: Rocket acquired Mr. Cooper, with the combined servicing book now $2.0 trillion [3]. GICS merged the old thrifts group into this sub-industry in 2023.",
+      "Activity is overwhelmingly US-centered, since the GSEs and these lenders operate domestically. GICS also includes building societies and similar institutions abroad [12], but the large listed names in this brief are American."
+    ],
+    "competition": [
+      "There are a few large players and many small ones. Rocket, UWM and PennyMac are the largest listed non-bank lenders; Fannie and Freddie are two guarantors; insurers include Enact and several rivals [7].",
+      "Rocket describes itself as number one in purchase, refinance, home equity and servicing, citing Inside Mortgage Finance rankings for Q2 2026 [3]. We did not find a sourced current-share table for the whole industry.",
+      "Originations are fragmented below the top, with banks and independents. Servicing is consolidating, and PennyMac plans to add Cenlar's subservicing business in early 2027 [5]. The GSEs remain a two-firm duopoly.",
+      "Barriers are meaningful at the top: capital, warehouse lines, investor approvals and, for the GSEs, a federal charter. They are low for small brokers, which is why volume cuts hurt weaker lenders first.",
+      "Scale economies show up in servicing cost per loan, technology and funding costs. Rocket reports servicing UPB of $2.0 trillion [3], and UWM carries $269.8 billion [10], which is the kind of scale that lowers unit cost.",
+      "The product is commoditized on price and differentiated by speed, service and technology. Rocket's gain on sale is 4.31% in direct-to-consumer but 0.70% in Rocket Pro and 0.15% in correspondent [3], which shows how much brand and channel matter.",
+      "Customers (borrowers and brokers) shop on rate, so they hold power in lending. Suppliers such as warehouse banks and the GSEs have power too: the GSEs' pricing and rules set the market's terms."
+    ],
+    "drivers": [
+      "Revenue follows originations and the servicing book. UWM's Q3 volume was $33.4 billion versus $41.7 billion a year earlier [10]; PennyMac's loan acquisitions and originations were $24.4 billion, down 30% from Q2 [5].",
+      "Margins depend on gain on sale, servicing fees and expense control. UWM's gain margin was 124 basis points versus 133 in Q2 [10]. PennyMac's production revenue margin was 76 basis points [5].",
+      "Key costs are loan officer pay, marketing, warehouse interest and credit provisions. Fannie's provision was $1.14 billion in Q3 versus $485 million in Q2 [4]; Freddie's was $0.8 billion [6].",
+      "Rate sensitivity is very high. The 30-year rate is 7.11% versus 6.24% a year ago [1], and the MBA's scenarios range from $1.54 trillion of originations with rates 100 basis points higher to $2.64 trillion with rates 100 basis points lower [13].",
+      "The group is exposed to unemployment through delinquencies: Fannie's single-family serious delinquency rate rose to 0.62% from 0.58% [4]. Inflation matters through rates; the FOMC said on 28 Oct 2026 that inflation remains elevated [11]. GDP and house prices affect purchase demand.",
+      "It is cyclical, with defensive pieces. Originations swing with rates, while servicing and guarantee income are steadier and rise in value when rates rise. Mortgage insurers are cyclical with credit."
+    ],
+    "financials": [
+      "Growth is cyclical, not secular. Rocket's Q3 net income was $709 million against a $124 million loss a year earlier [3], while PennyMac's net income fell 84% year on year to $29 million [5]. Financials sector Q3 earnings growth was 6.4% [9].",
+      "Gross margins are not a useful measure for lenders. Damodaran's non-bank financial services group (not mortgage-specific, 176 firms) shows a 22.2% net margin and an 18.5% pre-tax operating margin, as of January 2026 [14]. Rocket's adjusted EBITDA margin was about 29% of adjusted revenue in Q3 (our calculation) [3].",
+      "Return on equity is volatile: PennyMac's annualized ROE was 3% in Q3 versus 18% a year earlier [5]; Enact's adjusted ROE was 12.4% [7]. Damodaran's non-bank financial group shows 28.8% ROE (January 2026), which is inflated by leverage [15]. We did not source ROIC.",
+      "Leverage is high. Damodaran's non-bank financial group shows 73% market debt-to-capital and 91% on book [16]. UWM's net non-funding leverage was 1.77x and it plans to cut below 1.5x [10].",
+      "Free cash flow is hard to define for lenders because loans are working capital, so we did not source a comparable figure. Capital return is the practical test: Enact guided to about $600 million of 2026 returns [7], and PennyMac plans to buy back shares with MSR sale proceeds [5].",
+      "Physical capex is small. Damodaran's non-bank financial group shows capex at 89.7% of depreciation and net capex at 2.4% of sales [17]. The real investment is in servicing rights and technology.",
+      "Valuation: the group trades on book value more than earnings. PennyMac said its stock trades at a sizable discount to its $83.85 book value per share [5]. Damodaran's non-bank group has a 16.4x forward P/E versus 27.7x for the whole market in January 2026 [18]."
+    ],
+    "risks": [
+      "Regulation and policy: the future of the GSEs, including a possible offering, was under study in late 2025 with talk of a roughly $500 billion valuation [8]. We did not find a decision as of November 2026. Capital rules and guarantee fees would reprice the system.",
+      "Technology and AI: PennyMac is deploying AI across production workflows to cut costs [5]. We think this lowers cost per loan but also lowers barriers, which pressures margins.",
+      "Demographics: household formation and an aging homeowner base shape purchase demand. The MBA projects about 5 million loans a year for the next three years against a peak near 14 million [13].",
+      "Consumer behavior: borrowers with low-rate loans will not refinance or move. The MBA says that with rates of 7% to 7.5% it is very hard to find a reason to refinance [2].",
+      "New competitors: banks lost share (a HousingWire headline says Bank of America's home loan volume fell 12% in Q3) [19], while non-banks consolidate. Fintech lenders and the GSE direct channels are possible entrants.",
+      "Geopolitics matters through rates and inflation rather than supply chains. The 10-year Treasury is forecast near 5% and the mortgage spread has widened to about 220 basis points [2].",
+      "Substitutes are renting, cash purchases and government loans; a fall in bond demand would hit the market, as would any removal of the implicit government guarantee [8]."
+    ],
+    "horizon": {
+      "opportunities": [
+        "A lower-rate environment would revive refinancing: the MBA scenario for 100 basis points lower rates is $2.64 trillion of 2027 originations [13].",
+        "Servicing scale and subservicing grow with fee income that is steadier than origination, as PennyMac's Cenlar deal and Rocket's $2.0 trillion book show [5][3].",
+        "Technology and AI can cut cost per loan and make lenders more profitable once volume returns [5]."
+      ],
+      "threats": [
+        "Rates staying above 7% through 2027, with Fed hikes expected, would keep volume near cycle lows [2].",
+        "Credit deterioration is starting to show in GSE and insurer provisions [4][6][7].",
+        "Policy risk around the GSEs and the guarantee is unresolved [8]."
+      ],
+      "assessment": "Over three to five years this is a rate-driven industry whose profits come increasingly from servicing and guarantees rather than origination. If rates ease, volume has room to recover from about 5 million loans a year, and leaner cost bases at PennyMac and UWM would amplify earnings [5][10][13]. If rates stay above 7%, we expect more consolidation, more MSR sales and rising credit costs. We think the GSEs' regulatory outcome is the largest swing factor for the whole system and cannot be forecast from the sources we found."
+    }
+  },
+  "sections": [
+    {
+      "id": "macro",
+      "paragraphs": [
+        "Mortgage finance is at the weak end of the rate cycle. The 30-year fixed rate averaged 7.11% on 12 Nov 2026 against 6.24% a year earlier, and the 15-year rate was 6.45% [1]. The FOMC held the funds rate at 3.75% to 4% on 28 Oct 2026 by a 10-2 vote, with both dissenters preferring a quarter-point hike, and said inflation remains elevated [11].",
+        "The MBA expects the 10-year Treasury to average 5.1% in Q4 2026, the mortgage spread to stay near 220 basis points, and the Fed to hike by 25 basis points in December and again in Q1 2027 [2]. That is the opposite of the easing that refinancing needs.",
+        "Currency matters little for a domestic group. The macro hit comes through volume, which the MBA sees at about 5 million loans a year for three years, and through credit if the labor market weakens [13]."
+      ]
+    },
+    {
+      "id": "demand",
+      "paragraphs": [
+        "Annual originations are about $2.1 trillion in 2026 and forecast to fall to $1.99 trillion in 2027: purchase $1.42 trillion, up 0.8%, and refinancing $571 billion, down 17% [2]. Purchase activity was about 9% below January levels in the MBA's commentary [2].",
+        "Secular demand rests on household formation and the stock of homes, but the lock-in effect holds many owners with low-rate loans in place. The servicing book is therefore larger and more stable than origination: Rocket services $2.0 trillion for 9.1 million clients [3], and PennyMac owns $496 billion of servicing, up 6% year on year [5].",
+        "Demand is highly elastic to rates. The MBA's scenarios give $1.54 trillion of 2027 originations with rates 100 basis points higher and $2.64 trillion with rates 100 basis points lower [13]. We see that spread as the best single picture of the industry's sensitivity."
+      ]
+    },
+    {
+      "id": "structure",
+      "paragraphs": [
+        "On Porter's five forces, buyer power is high in origination because borrowers and brokers compare rates, and supplier power sits with the GSEs and warehouse banks, whose rules and pricing set the market. Threat of new entrants is moderate: capital and approvals are barriers, but small brokers enter easily. Substitutes are renting and cash buying. Rivalry is intense, which shows in gain on sale ranging from 0.15% in Rocket's correspondent channel to 4.31% in direct-to-consumer [3].",
+        "Concentration is rising in servicing. Rocket gained Mr. Cooper's book, and PennyMac plans to add Cenlar's subservicing business in early 2027 [5][3]. UWM, a wholesale leader, has a servicing portfolio of $269.8 billion and plans to sell $70 billion to $80 billion in MSRs in Q4 [10].",
+        "The GSEs' moat is their charter: Fannie guarantees a $4.1 trillion book and Freddie a $3.7 trillion portfolio [4][6]. We did not find a current industry-wide market share table."
+      ]
+    },
+    {
+      "id": "environment",
+      "paragraphs": [
+        "Policy dominates. Fannie Mae and Freddie Mac remain in conservatorship, with Fannie's senior preferred liquidation preference at $238 billion and its available CET1 capital at a $30 billion deficit [4]. Freddie has $140.2 billion of Treasury funding available and a $150.4 billion preference [6].",
+        "An offering was under study in late 2025, with officials reportedly envisioning about a $500 billion valuation and a $30 billion raise, and Treasury holding warrants over about 80% of the shares [8]. We found no November 2026 update, so treat it as unresolved.",
+        "On the technology side, AI is entering origination and servicing: PennyMac is deploying it across production workflows [5]. On the definitional side, GICS includes servicers and mortgage insurers in the group [12], so GSE capital standards and insurer capital rules both matter."
+      ]
+    },
+    {
+      "id": "economics",
+      "paragraphs": [
+        "Origination is a thin-margin, high-fixed-cost business, so operating leverage is large both ways. PennyMac's production segment lost $7 million pretax in Q3 on a 76 basis-point revenue margin, while servicing earned strongly [5]. Its net income of $29 million compares with $182 million a year ago [5].",
+        "Rocket earned $709 million GAAP, but adjusted net income was $419 million and adjusted EBITDA $748 million, about 29% of adjusted revenue (our calculation) [3]. The gap between GAAP and adjusted reflects fair-value marks on servicing and other items.",
+        "Returns are uneven. Enact's adjusted ROE was 12.4% [7]; Fannie's return on average required CET1 capital was 11.1% [4]; PennyMac's ROE was 3% [5]. Damodaran's broad non-bank financial group (not mortgage-specific) shows a 22.2% net margin and 28.8% ROE, but 73% market debt-to-capital, so returns are leveraged [14][15][16]. Capex is minor at 2.4% of sales for that group [17]."
+      ]
+    },
+    {
+      "id": "earnings",
+      "paragraphs": [
+        "Earnings are diverging. Fannie's net income rose to $4.2 billion from $4.0 billion in Q2, but its provision rose to $1.1 billion [4]. Freddie earned $3.2 billion, up 17%, on revenue up 19% [6]. Rocket guided Q4 adjusted revenue to $2.1 billion to $2.3 billion, below Q3's $2.57 billion [3].",
+        "For the lenders, we think the key is 2027 volume. The MBA expects originations to fall 5% and refinancing 17% [2]. PennyMac says mortgage demand will stay subdued and has taken action to cut annualized expenses by $160 million by Q1 2027 [5]. UWM returned to a $212.5 million profit after a Q2 loss driven by hedging [10].",
+        "We could not source a consensus EPS table for this sub-industry. At the sector level, FactSet shows Financials Q3 blended earnings growth of 6.4% against 31.4% for the S&P 500 [9]. Our read is that consensus for the lenders is more exposed to a rate downside than the GSEs, but we have no sourced estimates to test that."
+      ]
+    },
+    {
+      "id": "valuation",
+      "paragraphs": [
+        "We could not find a sourced sub-industry forward P/E. The Financials sector trades at 15.0x forward earnings against 17.7x for the S&P 500 [9]; XLF shows a 16.5x P/E and 2.50x price to book on 11 Nov 2026 [20].",
+        "Damodaran's non-bank financial group had a 16.4x forward P/E in January 2026 versus 27.7x for the whole market, but this is not mortgage-specific [18]. Mortgage lenders are better read on book value: PennyMac says its stock trades at a sizable discount to $83.85 of book value per share [5].",
+        "Fannie and Freddie trade over the counter, and the late-2025 reports of a roughly $500 billion IPO valuation compared with a market value of about $20 billion at that time [8]. We read that gap as the market's discount for conservatorship risk, not a forecast of earnings."
+      ]
+    },
+    {
+      "id": "positioning",
+      "paragraphs": [
+        "None of this group is large in the main Financials ETF. XLF's top ten holdings, as of 11 Nov 2026, are Berkshire, JPMorgan, Visa, Mastercard and large banks and brokers, with total fund assets of $54.2 billion across 76 holdings [20]. Mortgage names are not in the top ten.",
+        "XLF returned 9.66% year to date and 22.30% over one year to 31 Oct 2026 [20]. We did not find sourced short-interest or flow data for the mortgage names.",
+        "Corporate actions are a signal: PennyMac plans to repurchase shares and cut debt using $490 million of MSR sale proceeds [5]; UWM plans a $1.65 billion preferred package led by Oaktree and a $400 million rights offering to cut debt [10]; Enact bought back about $118 million in Q3 [7]."
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "n": 1,
+      "title": "Primary Mortgage Market Survey",
+      "publisher": "Freddie Mac",
+      "date": "2026-11-12",
+      "url": "https://www.freddiemac.com/pmms"
+    },
+    {
+      "n": 2,
+      "title": "MBA forecast: originations, rates and Fed outlook",
+      "publisher": "HousingWire",
+      "date": "2026-10-11",
+      "url": "https://www.housingwire.com/articles/mba-originations-forecast-2027-rates/"
+    },
+    {
+      "n": 3,
+      "title": "Rocket Companies Q3 2026 earnings release (8-K)",
+      "publisher": "Rocket Companies / SEC",
+      "date": "2026-10-29",
+      "url": "https://www.sec.gov/Archives/edgar/data/0001805284/000180528426000121/rkt-093020268xkex991earnin.htm"
+    },
+    {
+      "n": 4,
+      "title": "Fannie Mae Q3 2026 earnings release (8-K)",
+      "publisher": "Fannie Mae / SEC",
+      "date": "2026-10-28",
+      "url": "https://www.sec.gov/Archives/edgar/data/0000310522/000031052226000090/fnma2026q3pressrelease.htm"
+    },
+    {
+      "n": 5,
+      "title": "PennyMac Financial Q3 2026 earnings release",
+      "publisher": "PennyMac Financial Services",
+      "date": "2026-10-29",
+      "url": "https://s201.q4cdn.com/340896660/files/content_files/PFSI-3Q26-Earnings-Press-Release-FINAL.pdf"
+    },
+    {
+      "n": 6,
+      "title": "Freddie Mac Q3 2026 earnings release (8-K)",
+      "publisher": "Freddie Mac / SEC",
+      "date": "2026-10-29",
+      "url": "https://www.sec.gov/Archives/edgar/data/0001026214/000102621426000064/a3q2026erexhibit991.htm"
+    },
+    {
+      "n": 7,
+      "title": "Enact reports third quarter 2026 results",
+      "publisher": "Enact Holdings via Finviz",
+      "date": "2026-11-04",
+      "url": "https://finviz.com/news/416013/enact-reports-third-quarter-2026-results-announces-024-quarterly-dividend"
+    },
+    {
+      "n": 8,
+      "title": "Could we see a Fannie-Freddie IPO by year-end?",
+      "publisher": "Mortgage Professional America",
+      "date": "2025-10-22",
+      "url": "https://www.mpamag.com/us/mortgage-industry/industry-trends/could-we-see-a-fannie-freddie-ipo-by-year-end/553880"
+    },
+    {
+      "n": 9,
+      "title": "FactSet Earnings Insight, 6 Nov 2026",
+      "publisher": "FactSet",
+      "date": "2026-11-06",
+      "url": "https://advantage.factset.com/hubfs/Website/Resources%20Section/Research%20Desk/Earnings%20Insight/EarningsInsight_110626.pdf"
+    },
+    {
+      "n": 10,
+      "title": "UWM Q3 2026 earnings",
+      "publisher": "HousingWire",
+      "date": "2026-11-05",
+      "url": "https://www.housingwire.com/articles/uwm-q3-2026-earnings/"
+    },
+    {
+      "n": 11,
+      "title": "FOMC statement, 28 Oct 2026",
+      "publisher": "Federal Reserve Board",
+      "date": "2026-10-28",
+      "url": "https://www.federalreserve.gov/newsevents/pressreleases/monetary20261028a.htm"
+    },
+    {
+      "n": 12,
+      "title": "GICS Methodology, April 2026",
+      "publisher": "MSCI / S&P Dow Jones Indices",
+      "date": "2026-04",
+      "url": "https://www.msci.com/indexes/documents/methodology/1_MSCI_Global_Industry_Classification_Standard_GICS_Methodology_20250220.pdf"
+    },
+    {
+      "n": 13,
+      "title": "2027 mortgage originations to fall 5% to $1.99 trillion, MBA forecasts",
+      "publisher": "Mortgage Professional America",
+      "date": "2026-10-12",
+      "url": "https://www.mpamag.com/us/mortgage-industry/market-updates/2027-mortgage-originations-to-fall-5-to-199-trillion-mba-forecasts/593085"
+    },
+    {
+      "n": 14,
+      "title": "Margins by sector (US), Jan 2026",
+      "publisher": "NYU Stern, A. Damodaran",
+      "date": "2026-01",
+      "url": "https://pages.stern.nyu.edu/~adamodar/New_Home_Page/datafile/margin.html"
+    },
+    {
+      "n": 15,
+      "title": "Return on equity by sector (US), Jan 2026",
+      "publisher": "NYU Stern, A. Damodaran",
+      "date": "2026-01",
+      "url": "https://pages.stern.nyu.edu/~adamodar/New_Home_Page/datafile/roe.html"
+    },
+    {
+      "n": 16,
+      "title": "Debt fundamentals by sector (US), Jan 2026",
+      "publisher": "NYU Stern, A. Damodaran",
+      "date": "2026-01",
+      "url": "https://pages.stern.nyu.edu/~adamodar/New_Home_Page/datafile/dbtfund.html"
+    },
+    {
+      "n": 17,
+      "title": "Capital expenditures by sector (US), Jan 2026",
+      "publisher": "NYU Stern, A. Damodaran",
+      "date": "2026-01",
+      "url": "https://pages.stern.nyu.edu/~adamodar/New_Home_Page/datafile/capex.html"
+    },
+    {
+      "n": 18,
+      "title": "PE ratios by sector (US), Jan 2026",
+      "publisher": "NYU Stern, A. Damodaran",
+      "date": "2026-01",
+      "url": "https://pages.stern.nyu.edu/~adamodar/New_Home_Page/datafile/pedata.html"
+    },
+    {
+      "n": 19,
+      "title": "Q3 2026 earnings: mortgage, real estate, homebuilding",
+      "publisher": "HousingWire",
+      "date": "2026-11",
+      "url": "https://www.housingwire.com/articles/q3-2026-earnings-mortgage-real-estate-homebuilding/"
+    },
+    {
+      "n": 20,
+      "title": "Financial Select Sector SPDR Fund (XLF)",
+      "publisher": "State Street Investment Management",
+      "date": "2026-11-11",
+      "url": "https://www.ssga.com/us/en/intermediary/etfs/the-financial-select-sector-spdr-fund-xlf"
+    }
+  ]
+}

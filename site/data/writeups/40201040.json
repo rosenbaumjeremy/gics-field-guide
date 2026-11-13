@@ -1,0 +1,407 @@
+{
+  "code": "40201040",
+  "added": "2026-11-13",
+  "asOf": "2026-11-12",
+  "summary": "Specialized Finance is a small, mixed sub-industry of niche financiers, and large benchmark weights are essentially absent. The names we could source are doing well on volume: Farmer Mac's business volume rose 24% to $38.5 billion [1], HASI's managed assets grew 27% to $19.0 billion at a 16.1% adjusted ROE [2], and equipment finance is on pace for a record $137.7 billion in 2026 [3]. Offsetting that, Farmer Mac's credit provision rose [1], farm net income is forecast down 2.6% [4], clean-energy credits are being phased out [5], and litigation funders face tax and disclosure bills [6]. We found no sub-industry forward P/E.",
+  "metrics": [
+    {
+      "label": "Farmer Mac outstanding business volume",
+      "value": "$38.5B",
+      "context": "+24% y/y; core ROE 16%; Tier 1 capital ratio 12.9%; Q3 2026",
+      "source": 1
+    },
+    {
+      "label": "Farmer Mac Q3 2026 core earnings",
+      "value": "$52.6M",
+      "context": "$4.82 per diluted share; +7% y/y; provision $11.1M vs $7.4M a year earlier",
+      "source": 1
+    },
+    {
+      "label": "HASI managed assets",
+      "value": "$19.0B",
+      "context": "+27% y/y; adjusted ROE 16.1% in Q3 2026; debt-to-equity 1.8x",
+      "source": 2
+    },
+    {
+      "label": "HASI new portfolio yields",
+      "value": "Above 11%",
+      "context": "Underwritten, first three quarters of 2026; portfolio yield 9.2% year to date",
+      "source": 2
+    },
+    {
+      "label": "Burford Q3 2026 total revenues",
+      "value": "$135M",
+      "context": "Company says over $200M excluding a non-cash discount-rate increase",
+      "source": 7
+    },
+    {
+      "label": "ELFA new business volume, Aug 2026",
+      "value": "$11.8B",
+      "context": "YTD +17.3%; 2026 forecast $137.7B, a record; delinquency 1.8%",
+      "source": 3
+    },
+    {
+      "label": "US net farm income, 2026 forecast",
+      "value": "$158.4B",
+      "context": "-2.6% vs 2025; farm debt $605.1B (+4.6%); USDA, 3 Sep 2026",
+      "source": 4
+    },
+    {
+      "label": "Financials sector forward P/E",
+      "value": "15.0x",
+      "context": "S&P 500 17.7x; 5 Nov 2026; sector, not specialized finance",
+      "source": 8
+    }
+  ],
+  "watch": [
+    "Farmer Mac's credit costs: the quarterly provision rose to $11.1 million, including a single telecom credit, while farm net income is forecast down [1][4].",
+    "HASI's exposure to the clean-energy tax-credit phase-out, with wind and solar credits ending for projects that start construction after 4 July 2026 unless in service by end-2027 [5].",
+    "Legislation on litigation funding: a 41% tax on recoveries (S. 1821, H.R. 2675) and disclosure bills could still advance [6].",
+    "Equipment-finance credit: the approval rate fell 2.0 points to 75.4%, the lowest since February 2025, from record volumes [3].",
+    "Funding costs: the FOMC held at 3.75% to 4% on 28 Oct 2026 with two dissents favoring a hike [9]."
+  ],
+  "bellwethers": [
+    "HASI",
+    "Farmer Mac",
+    "Burford Capital"
+  ],
+  "basics": {
+    "intro": "GICS defines Specialized Finance as providers of specialized financial services not classified elsewhere, deriving most revenue from one specialized line. It includes commercial financing companies, central banks, leasing institutions, factoring services and specialty boutiques [10]. It is a grab bag: examples include a farm and infrastructure lender, a clean-energy financier and a litigation funder. Exchanges, payments firms, banks and asset managers sit in other sub-industries. Revenue is mainly spread income, fees and gains from the specialty.",
+    "products": [
+      {
+        "name": "Agricultural and rural finance",
+        "what": "Buying or guaranteeing farm, ranch, utility and rural infrastructure loans, funded by agency debt.",
+        "examples": "Farmer Mac"
+      },
+      {
+        "name": "Climate and infrastructure finance",
+        "what": "Lending to and investing in energy projects such as solar and efficiency upgrades, earning interest and equity-like returns.",
+        "examples": "HASI"
+      },
+      {
+        "name": "Litigation finance",
+        "what": "Funding legal claims in return for a share of any recovery. If the claim loses, the funder loses its money.",
+        "examples": "Burford Capital"
+      },
+      {
+        "name": "Equipment leasing and finance",
+        "what": "Financing machinery, vehicles and technology on leases or loans, with the asset as collateral.",
+        "examples": "ELFA members; captive and independent lessors"
+      },
+      {
+        "name": "Factoring and commercial finance",
+        "what": "Buying invoices or lending against receivables for businesses that need cash sooner.",
+        "examples": "Specialty commercial lenders"
+      }
+    ],
+    "terms": [
+      {
+        "term": "Net effective spread",
+        "meaning": "Farmer Mac's measure of income after funding costs on its portfolio, shown as a percentage of assets."
+      },
+      {
+        "term": "Core earnings",
+        "meaning": "Non-GAAP earnings that strip out fair-value swings; Farmer Mac reports it as its headline measure."
+      },
+      {
+        "term": "Tier 1 capital ratio",
+        "meaning": "Core capital as a share of risk-weighted assets, the regulator's measure of loss-absorbing buffers."
+      },
+      {
+        "term": "Adjusted ROE",
+        "meaning": "Return on equity on the company's own adjusted earnings, as HASI reports. It excludes some fair-value items."
+      },
+      {
+        "term": "Managed assets",
+        "meaning": "Assets on the balance sheet plus assets managed for co-investors who pay fees."
+      },
+      {
+        "term": "Tax credit transfer",
+        "meaning": "Selling clean-energy tax credits to another taxpayer for cash, which finances projects."
+      },
+      {
+        "term": "Fair value option",
+        "meaning": "Accounting that marks an asset to market each quarter, creating non-cash gains and losses."
+      },
+      {
+        "term": "ROIC (litigation)",
+        "meaning": "Return on invested capital for a concluded case; Burford cites a 12x return on one 2015-vintage matter."
+      },
+      {
+        "term": "Seasonally adjusted NBV",
+        "meaning": "New business volume, used by the equipment-finance industry survey, adjusted for seasonal swings."
+      },
+      {
+        "term": "Factoring",
+        "meaning": "Buying a company's unpaid invoices at a discount to give it cash now."
+      }
+    ],
+    "drivers": [
+      {
+        "name": "Funding cost versus asset yield",
+        "how": "Spread lenders profit from the gap between borrowing and lending rates, so rate moves hit margins."
+      },
+      {
+        "name": "Credit quality",
+        "how": "Provisions rise when borrowers weaken, as with Farmer Mac's single telecom credit."
+      },
+      {
+        "name": "Policy and tax rules",
+        "how": "Credits, taxes and disclosure rules change returns for climate lenders and litigation funders."
+      },
+      {
+        "name": "Capital formation and demand",
+        "how": "Equipment demand, farm income and project pipelines decide how fast portfolios grow."
+      },
+      {
+        "name": "Lumpy gains",
+        "how": "Case outcomes and fair-value marks make litigation and equity-like earnings uneven quarter to quarter."
+      }
+    ]
+  },
+  "fundamentals": {
+    "business": [
+      "Revenue comes from spread income on loans and securities, fees, and gains on investments or case outcomes. Farmer Mac's net effective spread was $113.9 million, 1.16% of assets [1]. HASI's recurring net investment income was $121.3 million in Q3 [2]. Burford books gains when cases resolve [7].",
+      "Customers are narrow groups: farmers and rural utilities for Farmer Mac, energy developers for HASI, law firms and claimants for litigation funders. Farmer Mac's business is Farm & Ranch ($22.3 billion), Power & Utilities ($8.4 billion), Renewable Energy ($3.6 billion), Corporate AgFinance ($2.1 billion) and Broadband ($2.0 billion) [1].",
+      "The main costs are interest on debt and credit losses. HASI's weighted-average interest cost was 6.2% in Q3 and debt $6.5 billion [2]. Farmer Mac's provision was $11.1 million [1]. Litigation funders carry legal-case risk rather than loan losses.",
+      "Pricing power comes from specialization. Farmer Mac's Corporate AgFinance spread is 2.38% and Broadband 2.32%, versus 0.35% in Power & Utilities [1]. HASI's new-asset yields are above 11% [2]. Competition and low switching barriers cap pricing in plain equipment finance.",
+      "Assets are loans, leases and investments; liabilities are agency, bank and bond debt. HASI's debt-to-equity was 1.8x [2]. Farmer Mac's total core capital was $1.9 billion against $38.5 billion of business volume, with a 12.9% Tier 1 ratio [1]. Burford held more than half a billion dollars of cash and cut debt by $100 million [7].",
+      "Balance-sheet heavy. These firms need funding and capital rather than plants. Damodaran's non-bank financial group shows capex at 89.7% of depreciation and net capex at 2.4% of sales (January 2026), so physical investment is minor [11]."
+    ],
+    "overview": [
+      "There is no single market size. GICS describes a basket of niche financiers [10]. The pieces we can size: US equipment finance is forecast at $137.7 billion of deal volume in 2026, a record [3]; Farmer Mac's own volume is $38.5 billion [1]; HASI manages $19.0 billion [2].",
+      "Segments include agricultural and rural finance, climate infrastructure, litigation finance, equipment leasing and commercial finance. Within Farmer Mac, renewable energy and broadband volumes grew 57% and 56% year on year [1].",
+      "The group sits between investors and a narrow borrower base. Suppliers of funds are agency-debt markets, banks and bond investors; customers are farms, developers, law firms and businesses buying equipment. ELFA data shows banks supplying a record $6.0 billion of volume in August [3].",
+      "The group has evolved toward infrastructure and alternative assets. Farmer Mac now earns from power, renewables and broadband as well as farm loans [1], and HASI grew managed assets 27% in a year [2].",
+      "Activity is concentrated in the United States for these names. Farm sector debt is forecast at $605.1 billion in 2026 [4]. GICS' own constituent list for global peers was not available to us, so we cannot give a geographic split of the whole sub-industry."
+    ],
+    "competition": [
+      "The sub-industry is small in the US. We could not source a constituent count or an index weight, so we treat the sub-industry as a collection of niche leaders.",
+      "Leaders are by niche: Farmer Mac in agricultural secondary-market finance, HASI in climate finance, Burford in litigation finance [1][2][7]. In equipment finance, banks, captives and independents compete; August volume was $6.0 billion from banks, $3.6 billion from captives and $2.2 billion from independents [3].",
+      "The sub-industry is fragmented overall and often concentrated within each niche. We did not find sourced share figures for any niche.",
+      "Barriers include specialist expertise, access to cheap funding and regulatory charters. Farmer Mac is a federally chartered institution with a 12.9% Tier 1 ratio [1]; litigation funding depends on underwriting skill and patient capital.",
+      "Economies of scale come from funding cost and diversification. HASI's co-investment fee-generating assets reached $2.0 billion, up 231% [2], which spreads fixed costs.",
+      "Products are mostly differentiated by niche, but plain equipment finance is commoditized. The industry's credit approval rate of 75.4% suggests lenders still choose carefully [3].",
+      "Customers have limited power in specialized niches because few lenders will take the risk, but strong borrowers can shop in leasing. Suppliers of funding (banks and bond buyers) have more power: HASI pays 6.2% on its debt [2]."
+    ],
+    "drivers": [
+      "Revenue growth is driven by portfolio growth. Farmer Mac's volume rose 24% [1]; HASI's portfolio grew to $9.1 billion from $7.5 billion [2]; equipment finance volume was up 17.3% year to date in August [3].",
+      "Operating margins depend on spread, credit costs and fee income. Farmer Mac's net effective spread was 1.16% [1]; HASI's portfolio yield was 9.2% year to date [2].",
+      "Key cost variables are funding cost, credit provisions and compensation. Farmer Mac's provision rose to $11.1 million [1]; equipment finance delinquency was 1.8% and the loss rate 0.44% [3].",
+      "Interest-rate sensitivity is substantial because funding is borrowed. The FOMC held 3.75% to 4% on 28 Oct 2026, with two members preferring a hike [9]. Rising funding costs squeeze spreads unless loans reprice.",
+      "Inflation and GDP matter through capex and farm incomes. Net farm income is forecast at $158.4 billion, down 2.6%, and farm debt up 4.6% to $605.1 billion [4]. Equipment demand follows business investment. Commodity prices affect farm credit.",
+      "Mixed: equipment finance and litigation gains are cyclical or lumpy, while farm and infrastructure lending is steadier. Policy-backed growth in renewables is secular but now rule-dependent [5]."
+    ],
+    "financials": [
+      "Growth is uneven. Farmer Mac's core earnings rose 7% in Q3 from a year earlier, and HASI's adjusted EPS rose 15% year to date to $2.34 [2]. Burford's Q3 revenue of $135 million was held down by a non-cash discount-rate effect [7]. Financials sector Q3 earnings growth was 6.4% [8].",
+      "Gross margin is not meaningful for lenders. Damodaran's non-bank financial group (176 firms; not specialized-finance-specific) has a 69.2% gross margin, 22.2% net margin and 18.5% pre-tax operating margin as of January 2026 [12].",
+      "ROE: Farmer Mac's core ROE was 16% [1]; HASI's adjusted ROE was 16.1% in Q3 and 15.6% year to date [2]. Damodaran's non-bank financial group shows 28.8% ROE, which is leverage-aided [13]. We did not source ROIC.",
+      "Leverage is high by design. HASI's debt-to-equity was 1.8x [2]; Damodaran shows 73% market debt-to-capital for the broader non-bank group [14]. Burford reduced debt by $100 million and retired its nearest maturity [7].",
+      "FCF is not the right lens for lenders. Burford collected $64 million after quarter-end from a single 2015 matter at a 12x return [7], showing how lumpy cash is. Distribution policy is the practical gauge: HASI targets a payout below 50% of adjusted EPS by 2028 [2].",
+      "Physical capex is minimal; Damodaran's non-bank group shows net capex of 2.4% of sales [11]. The capital need is balance-sheet growth, which HASI funds with debt and some equity.",
+      "Valuation: Damodaran's non-bank financial group had a 16.4x forward P/E in January 2026 versus 27.7x for the total market [15], and the Financials sector trades at 15.0x forward earnings [8]. We found no Specialized Finance multiple."
+    ],
+    "risks": [
+      "Regulation and legislation are central. Wind and solar credits end for projects starting construction after 4 July 2026 unless placed in service by end-2027 [5]. Litigation funders face a proposed 41% tax on recoveries and disclosure bills [6].",
+      "Technology and AI have a smaller direct role. We think AI mostly affects underwriting and legal analytics, but we found no sourced evidence for this sub-industry.",
+      "Demographics matter through agriculture: farm consolidation and aging operators shape rural lending. USDA forecasts farm debt of $605.1 billion [4]. We found no sourced demographic data beyond that.",
+      "Consumer behavior matters little because customers are businesses. The main shift is businesses' appetite for investment: equipment finance volume hit near-record levels [3].",
+      "New competitors include banks and private credit funds. Banks supplied a record $6.0 billion of ELFA volume in August [3], and HASI itself brings in co-investors [2].",
+      "Geopolitical and supply-chain risks include foreign-entity-of-concern rules on clean-energy supply chains, with material-assistance thresholds of 40% in 2026 rising to 60% from 2030 [5].",
+      "Substitutes include bank loans, public bond issuance and in-house funding; for litigation, law-firm contingency fees. Disclosure rules could change how funded cases are run [6]."
+    ],
+    "horizon": {
+      "opportunities": [
+        "Infrastructure and energy-transition demand keeps lending volume growing: Farmer Mac's renewables and broadband volumes grew 57% and 56% [1].",
+        "Record equipment demand: ELFA forecasts $137.7 billion of 2026 deal volume [3].",
+        "Co-investment and fee income can raise returns on capital: HASI's co-investment fee-generating assets grew 231% to $2.0 billion [2]."
+      ],
+      "threats": [
+        "Clean-energy credit phase-outs and foreign-content rules could slow new projects [5].",
+        "Litigation-finance taxes and disclosure mandates could cut returns [6].",
+        "Farm incomes under pressure and rising provisions could weigh on credit quality [4][1]."
+      ],
+      "assessment": "Over three to five years we expect this basket to remain defined by niche expertise and policy. Farm and infrastructure lenders have growing volumes and respectable returns of around 16% on equity [1][2], but their credit and policy exposures are concentrated. Litigation funding has high payoffs per case but regulatory risk. Equipment finance is at record volumes, and the approval-rate slip suggests lenders are tightening [3]. We think the picture depends on funding costs, which the Fed's hawkish dissents make uncertain [9], and on whether tax-credit rules are tightened further."
+    }
+  },
+  "sections": [
+    {
+      "id": "macro",
+      "paragraphs": [
+        "Specialized finance follows credit conditions and funding costs. The FOMC held the funds rate at 3.75% to 4% on 28 Oct 2026, 10 to 2, with two members preferring a hike, and said inflation remains elevated [9]. Spread lenders with floating or short funding feel that quickly.",
+        "Equipment finance is a good read on the investment cycle. ELFA's August volume was $11.8 billion, up 19.1% on a year ago, after a record $14.3 billion in July, though August fell 17.3% from July and the approval rate dropped to 75.4% [3]. Delinquency was steady at 1.8% [3].",
+        "Farm credit sits in a softer cycle: USDA forecasts 2026 net farm income of $158.4 billion, down 2.6%, with farm debt up 4.6% [4]. HASI's pipeline above $6.5 billion shows project demand despite policy changes [2]. Currency is not a major factor for these domestic names."
+      ]
+    },
+    {
+      "id": "demand",
+      "paragraphs": [
+        "No single addressable market describes this sub-industry; GICS lists commercial financing, leasing and factoring as examples [10]. Equipment finance is forecast at a record $137.7 billion of deal volume in 2026, 14.4% above the 2024 record [3].",
+        "Secular demand drivers differ by niche. Energy-transition and digital infrastructure drive HASI and Farmer Mac's renewables and broadband books, which grew 57% and 56% [1]; HASI's managed assets rose 27% to $19.0 billion [2]. Farm lending is steadier but slow: farm debt is forecast up 4.6% [4].",
+        "Demand is elastic to funding costs and to policy. With solar and wind credits ending for later projects, we think some demand is being pulled forward into 2026 and 2027 [5]; this is judgment, not a sourced estimate. Demographics play a small role, mainly through farm succession, which we did not find quantified."
+      ]
+    },
+    {
+      "id": "structure",
+      "paragraphs": [
+        "Porter's five forces vary by niche. Supplier power is high because funding comes from agency debt and banks; HASI pays 6.2% on its debt [2]. Buyer power is low in specialized niches and higher in leasing. Threat of entry is moderate: private credit funds and banks can enter, and banks supplied a record $6.0 billion of ELFA volume in August [3]. Substitutes include bank loans and bonds. Rivalry is niche-specific.",
+        "Moats are expertise, charter and relationships. Farmer Mac is a federally chartered institution with a 12.9% Tier 1 ratio [1]. Burford's moat is underwriting and capital, but it is leveraged and said it retired its nearest debt maturity [7].",
+        "Concentration is high within niches and low across the group. We could not source market shares. Pricing power shows in spread differences within Farmer Mac: 2.38% for Corporate AgFinance versus 0.35% for Power & Utilities [1]."
+      ]
+    },
+    {
+      "id": "environment",
+      "paragraphs": [
+        "Policy is the main variable. Under the 2025 tax law, wind and solar credits end for projects that begin construction after 4 July 2026 unless in service by the end of 2027; other technologies phase down from 2033 to 2035, and foreign-entity rules add thresholds of 40% in 2026 rising to 60% by 2030 [5]. HASI reaffirmed its 2028 targets, including an adjusted ROE of at least 17% [2].",
+        "Litigation funders face a proposed 41% tax on recoveries in S. 1821 and H.R. 2675, with withholding requirements, and disclosure bills such as Rep. Issa's; Ohio has passed disclosure rules [6]. The article is an opinion piece, so we treat its detail cautiously.",
+        "Technologically, we think digital underwriting and legal analytics are helpful but not disruptive. Agricultural credit adds weather, commodity and trade-policy risk: net farm income is forecast down and debt-to-asset rising to 13.54% [4]. Rural broadband and utilities are policy-supported areas of Farmer Mac growth [1]."
+      ]
+    },
+    {
+      "id": "economics",
+      "paragraphs": [
+        "Spread and fee economics are the core. Farmer Mac earned a 1.16% net effective spread, $113.9 million, and $52.6 million of core earnings for a 16% core ROE [1]. HASI earned a 16.1% adjusted ROE with 1.8x debt-to-equity and 9.2% portfolio yield [2].",
+        "Burford's economics are lumpy. Revenue was $135 million, and the company says it would have been over $200 million without a non-cash discount-rate increase; a single 2015 matter returned 12x and $64 million after quarter-end [7].",
+        "Damodaran's non-bank financial group (not specific to this sub-industry) shows a 22.2% net margin, 28.8% ROE, 73% market debt-to-capital and net capex of 2.4% of sales as of January 2026 [12][13][14][11]. Operating leverage is moderate for spread lenders and high for litigation funders."
+      ]
+    },
+    {
+      "id": "earnings",
+      "paragraphs": [
+        "Earnings are growing for the lenders. Farmer Mac's Q3 core earnings were $52.6 million, up 7% from a year earlier but down from Q2 [1]. HASI's adjusted EPS was $0.82 versus $0.80, with a $35 million fair-value gain flattering the quarter, and year-to-date adjusted EPS was up 15% to $2.34 [2].",
+        "HASI reaffirmed targets of adjusted ROE of at least 17% in 2028 and a payout ratio below 50% [2]. Farmer Mac said it is mindful of evolving conditions in agricultural markets [1]. Burford said it cut debt by $100 million and has over half a billion of cash [7].",
+        "We could not source consensus estimates for this sub-industry. At sector level Financials Q3 earnings growth was 6.4% against 31.4% for the S&P 500 [8]. Our view is that near-term earnings are more exposed to credit and policy surprises than to rate moves, but we cannot back that with consensus data."
+      ]
+    },
+    {
+      "id": "valuation",
+      "paragraphs": [
+        "We found no forward multiple for the sub-industry. The Financials sector trades at 15.0x forward earnings versus 17.7x for the S&P 500 [8]. Damodaran's non-bank financial group was at 16.4x forward and 26.1x trailing in January 2026, against 27.7x forward for the whole US market [15].",
+        "HASI's own targets give some anchors: adjusted EPS grew 15% YTD to $2.34 and the quarterly dividend is $0.425 [2]. We did not source current share prices, so we are not computing yields. Farmer Mac's 16% core ROE and Tier 1 ratio of 12.9% [1] are the figures to compare with price-to-book.",
+        "Hard-to-value items (litigation case values, fair-value gains) make normalized earnings hard. We think Burford's reported revenue understates its run-rate if discount rates ease, per its own comment [7]. Investors should therefore compare price with tangible assets and case values rather than a single year's earnings, and we found no sourced figure for either."
+      ]
+    },
+    {
+      "id": "positioning",
+      "paragraphs": [
+        "Specialized finance is not a large part of mainstream sector ETFs. XLF's top ten holdings on 11 Nov 2026 are Berkshire, JPMorgan, Visa, Mastercard and large banks and brokers, and the fund holds 76 names with $54.2 billion of assets [16].",
+        "XLF returned 9.66% year to date and 22.30% over one year to 31 Oct 2026 [16]. We did not find sourced flow, short-interest or relative-performance data for these names; the sub-industry's small size means liquidity is thinner. In our read, that makes the group harder for large funds to own and more dependent on single-company news than on sector flows, though this is judgment rather than a sourced measure.",
+        "Corporate signals are mixed: HASI says ATM issuance was minimal in 2026 and its pipeline exceeds $6.5 billion [2]; Burford is deleveraging [7]; Farmer Mac's Tier 1 ratio edged down to 12.9% as volume grew [1]."
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "n": 1,
+      "title": "Farmer Mac reports third quarter 2026 results",
+      "publisher": "Farmer Mac via Finviz",
+      "date": "2026-11-05",
+      "url": "https://finviz.com/news/417665/farmer-mac-reports-third-quarter-2026-results"
+    },
+    {
+      "n": 2,
+      "title": "HASI Q3 2026 earnings release (8-K)",
+      "publisher": "HA Sustainable Infrastructure Capital / SEC",
+      "date": "2026-11-05",
+      "url": "https://www.sec.gov/Archives/edgar/data/0001561894/000156189426000141/q32026earningspressrelease.htm"
+    },
+    {
+      "n": 3,
+      "title": "ELFA CapEx Finance Index, August 2026",
+      "publisher": "Textile World (ELFA release)",
+      "date": "2026-09-29",
+      "url": "https://www.textileworld.com/textile-world/2026/09/elfa-capex-finance-index-august-2026-demand-cools-from-record-high-and-financial-conditions-improve/"
+    },
+    {
+      "n": 4,
+      "title": "Highlights from the farm income forecast",
+      "publisher": "USDA Economic Research Service",
+      "date": "2026-09-03",
+      "url": "https://ers.usda.gov/topics/farm-economy/farm-sector-income-finances/highlights-from-the-farm-income-forecast"
+    },
+    {
+      "n": 5,
+      "title": "Congress phases out energy tax credits",
+      "publisher": "Pierce Atwood",
+      "date": "2025-07",
+      "url": "https://www.pierceatwood.com/alerts/congress-phases-out-energy-tax-credits"
+    },
+    {
+      "n": 6,
+      "title": "Congress' litigation finance bills threaten privacy, free speech",
+      "publisher": "Bloomberg Law (opinion)",
+      "date": "2026-07-07",
+      "url": "https://news.bgov.com/business-and-practice/congress-litigation-finance-bills-threaten-privacy-free-speech"
+    },
+    {
+      "n": 7,
+      "title": "Burford reports 3Q26 and YTD26 financial results",
+      "publisher": "Burford Capital via Finviz",
+      "date": "2026-11-04",
+      "url": "https://finviz.com/news/415320/burford-reports-3q26-and-ytd26-financial-results"
+    },
+    {
+      "n": 8,
+      "title": "FactSet Earnings Insight, 6 Nov 2026",
+      "publisher": "FactSet",
+      "date": "2026-11-06",
+      "url": "https://advantage.factset.com/hubfs/Website/Resources%20Section/Research%20Desk/Earnings%20Insight/EarningsInsight_110626.pdf"
+    },
+    {
+      "n": 9,
+      "title": "FOMC statement, 28 Oct 2026",
+      "publisher": "Federal Reserve Board",
+      "date": "2026-10-28",
+      "url": "https://www.federalreserve.gov/newsevents/pressreleases/monetary20261028a.htm"
+    },
+    {
+      "n": 10,
+      "title": "GICS Methodology, April 2026",
+      "publisher": "MSCI / S&P Dow Jones Indices",
+      "date": "2026-04",
+      "url": "https://www.msci.com/indexes/documents/methodology/1_MSCI_Global_Industry_Classification_Standard_GICS_Methodology_20250220.pdf"
+    },
+    {
+      "n": 11,
+      "title": "Capital expenditures by sector (US), Jan 2026",
+      "publisher": "NYU Stern, A. Damodaran",
+      "date": "2026-01",
+      "url": "https://pages.stern.nyu.edu/~adamodar/New_Home_Page/datafile/capex.html"
+    },
+    {
+      "n": 12,
+      "title": "Margins by sector (US), Jan 2026",
+      "publisher": "NYU Stern, A. Damodaran",
+      "date": "2026-01",
+      "url": "https://pages.stern.nyu.edu/~adamodar/New_Home_Page/datafile/margin.html"
+    },
+    {
+      "n": 13,
+      "title": "Return on equity by sector (US), Jan 2026",
+      "publisher": "NYU Stern, A. Damodaran",
+      "date": "2026-01",
+      "url": "https://pages.stern.nyu.edu/~adamodar/New_Home_Page/datafile/roe.html"
+    },
+    {
+      "n": 14,
+      "title": "Debt fundamentals by sector (US), Jan 2026",
+      "publisher": "NYU Stern, A. Damodaran",
+      "date": "2026-01",
+      "url": "https://pages.stern.nyu.edu/~adamodar/New_Home_Page/datafile/dbtfund.html"
+    },
+    {
+      "n": 15,
+      "title": "PE ratios by sector (US), Jan 2026",
+      "publisher": "NYU Stern, A. Damodaran",
+      "date": "2026-01",
+      "url": "https://pages.stern.nyu.edu/~adamodar/New_Home_Page/datafile/pedata.html"
+    },
+    {
+      "n": 16,
+      "title": "Financial Select Sector SPDR Fund (XLF)",
+      "publisher": "State Street Investment Management",
+      "date": "2026-11-11",
+      "url": "https://www.ssga.com/us/en/intermediary/etfs/the-financial-select-sector-spdr-fund-xlf"
+    }
+  ]
+}

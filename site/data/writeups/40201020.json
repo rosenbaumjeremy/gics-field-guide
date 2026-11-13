@@ -1,0 +1,379 @@
+{
+  "code": "40201020",
+  "added": "2026-11-13",
+  "asOf": "2026-11-12",
+  "summary": "Diversified Financial Services is a residual bucket for firms with no dominant line, so we read the group through Equitable Holdings, which mixes annuities, asset management and wealth management. Equitable's Q3 2026 non-GAAP operating earnings rose to $595 million from $455 million [1], and first-year retirement premiums grew 14% on index-linked annuities [2]. Its all-stock merger with Corebridge, due by year-end 2026, would create a $1.5 trillion platform [3]. We could not confirm a public GICS constituent list and found no sub-industry forward P/E; the Financials sector trades at 15.0x [4].",
+  "metrics": [
+    {
+      "label": "Equitable Q3 2026 non-GAAP operating earnings",
+      "value": "$595M",
+      "context": "$2.13 per share vs $1.48; $554M ($1.98) excluding notable items",
+      "source": 1
+    },
+    {
+      "label": "Equitable AUM and AUA",
+      "value": "$1.16T",
+      "context": "Asset Management AUM $900.4B; Retirement total assets $189.0B; Wealth AUA $140.4B",
+      "source": 1
+    },
+    {
+      "label": "Equitable first-year retirement premiums",
+      "value": "$6.2B",
+      "context": "+14% y/y, led by registered index-linked annuities (RILAs)",
+      "source": 2
+    },
+    {
+      "label": "Equitable Q3 shareholder returns",
+      "value": "$320M",
+      "context": "$238M buybacks plus $82M dividends; payout ratio 59% vs 60-70% target",
+      "source": 1
+    },
+    {
+      "label": "Equitable-Corebridge combined AUM/A",
+      "value": "$1.5T",
+      "context": "All-stock merger; about $22B combined value; close expected by year-end 2026",
+      "source": 3
+    },
+    {
+      "label": "Merger expense synergies",
+      "value": "$500M+",
+      "context": "Run-rate by end-2028; EPS accretion above 10% by end-2028",
+      "source": 3
+    },
+    {
+      "label": "Fed funds target range",
+      "value": "3.75%-4%",
+      "context": "Held 28 Oct 2026, 10-2 vote; both dissenters wanted a hike",
+      "source": 5
+    },
+    {
+      "label": "Financials sector forward P/E",
+      "value": "15.0x",
+      "context": "S&P 500 17.7x; 5 Nov 2026; sector, not this sub-industry",
+      "source": 4
+    }
+  ],
+  "watch": [
+    "Completion and integration of the Equitable-Corebridge merger, which targets more than $500 million of run-rate expense synergies by the end of 2028 [3].",
+    "Whether annuity demand, especially RILAs, stays strong: Equitable's first-year retirement premiums rose 14% [2].",
+    "Equity-market levels, which drive asset management fees: Equitable's Asset Management AUM was $900.4 billion [1].",
+    "Rates: the FOMC held at 3.75% to 4% with two dissents for a hike [5].",
+    "How investors treat holding-company discounts: Equitable's book value ranges from negative $10.69 to $34.25 per share depending on the basis used [1]."
+  ],
+  "bellwethers": [
+    "Equitable Holdings",
+    "Corebridge Financial",
+    "Voya Financial"
+  ],
+  "basics": {
+    "intro": "GICS defines this sub-industry as providers of a diverse range of financial services, or with an interest in a wide range of them, including banking, annuity, insurance, investment management and capital markets, but with no dominant business line [6]. It excludes regional and diversified banks, and multi-sector holding companies sit in a separate sub-industry [6]. In practice it is a residual group, and index vendors classify individual names differently. Revenue comes from fees, spread and premiums across several businesses.",
+    "products": [
+      {
+        "name": "Retirement and annuities",
+        "what": "Selling annuities and retirement products that guarantee income or link returns to market indexes, earning spread and fees.",
+        "examples": "Equitable's RILAs and variable annuities"
+      },
+      {
+        "name": "Asset management",
+        "what": "Managing money for institutions and individuals for a fee based on assets.",
+        "examples": "AllianceBernstein within Equitable"
+      },
+      {
+        "name": "Wealth management",
+        "what": "Advising individuals and charging fees on assets advised or administered.",
+        "examples": "Equitable Advisors"
+      },
+      {
+        "name": "Banking and lending",
+        "what": "Where present, taking deposits or lending alongside other lines.",
+        "examples": "Diversified groups outside the US"
+      },
+      {
+        "name": "Corporate and other",
+        "what": "Holding-company costs, debt and legacy businesses.",
+        "examples": "Equitable's Corporate and Other segment"
+      }
+    ],
+    "terms": [
+      {
+        "term": "AUM",
+        "meaning": "Assets under management, money the firm manages and charges fees on."
+      },
+      {
+        "term": "AUA",
+        "meaning": "Assets under administration, assets the firm advises or holds without managing them."
+      },
+      {
+        "term": "RILA",
+        "meaning": "Registered index-linked annuity: returns follow an index with a limit on losses and on gains."
+      },
+      {
+        "term": "Non-GAAP operating earnings",
+        "meaning": "The profit measure many insurers and diversified firms use, excluding market-driven swings in derivatives and investments."
+      },
+      {
+        "term": "Payout ratio",
+        "meaning": "Share of earnings returned as dividends and buybacks."
+      },
+      {
+        "term": "Book value ex-AOCI",
+        "meaning": "Equity per share excluding unrealized bond gains and losses, which can swing book value heavily."
+      },
+      {
+        "term": "Run-rate synergies",
+        "meaning": "Annual cost savings expected once a merger is fully integrated."
+      },
+      {
+        "term": "Holding-company discount",
+        "meaning": "When a diversified firm trades below the sum of its parts."
+      },
+      {
+        "term": "Net flows",
+        "meaning": "New money in minus money withdrawn, excluding market moves."
+      },
+      {
+        "term": "Spread",
+        "meaning": "Difference between what the firm earns on invested assets and what it credits to policyholders."
+      }
+    ],
+    "drivers": [
+      {
+        "name": "Equity markets",
+        "how": "Higher markets lift fee-based AUM and annuity account values, and the reverse in a sell-off."
+      },
+      {
+        "name": "Interest rates",
+        "how": "Rates change investment income and demand for guaranteed products and affect bond values on the balance sheet."
+      },
+      {
+        "name": "Product demand and flows",
+        "how": "Strong annuity sales and net inflows grow assets and fees."
+      },
+      {
+        "name": "Capital return",
+        "how": "Buybacks and dividends depend on regulatory capital and earnings, and move the share count."
+      },
+      {
+        "name": "Mergers and cost savings",
+        "how": "Integration synergies and strategic combinations reshape earnings power."
+      }
+    ]
+  },
+  "fundamentals": {
+    "business": [
+      "Revenue comes from several streams: fees on asset management and wealth advice, annuity and retirement spread and fees, and investment income. Equitable's Q3 operating earnings were Retirement $432 million, Asset Management $152 million, Wealth Management $75 million and Corporate and Other minus $64 million [1].",
+      "Customers are individual savers and retirees, institutions that hire asset managers, and advisors who distribute products. The Equitable-Corebridge combination would have more than 1,200 distribution agreements [2]. Assets under administration for wealth clients were $140.4 billion [1].",
+      "Principal costs are compensation, distribution and interest on debt, plus the cost of benefits and hedging. Equitable's long-term debt was $3.84 billion at 30 September 2026 [1]. The merger targets more than $500 million of run-rate expense savings by 2028 [3].",
+      "Pricing power is modest. Annuity features and fee rates are shaped by competition and advisors, and the market is large enough that scale and distribution matter. Equitable ranked first in RILA sales in 2025 with $15.4 billion while Corebridge ranked tenth with $2.4 billion [2].",
+      "Assets are invested portfolios and separate-account balances; liabilities are policyholder obligations and debt. Equitable's book value per common share is minus $10.69 including AOCI, $20.17 excluding it and $34.25 with AllianceBernstein at fair value [1], showing how the basis changes the answer.",
+      "Mostly asset-light for fee businesses but balance-sheet heavy for annuity insurance. Capital is needed to back guarantees. Damodaran's non-bank financial group shows capex at 89.7% of depreciation and net capex at 2.4% of sales [7], so physical capital is minor."
+    ],
+    "overview": [
+      "There is no single market. The combined Equitable-Corebridge firm would manage and administer $1.5 trillion for more than 12 million customers [3]. Equitable alone had $1.16 trillion of AUM and AUA in Q3 2026 [1].",
+      "Main segments are retirement and annuities, asset management and wealth management. Equitable's Asset Management AUM was $900.4 billion, Retirement total assets $189.0 billion and Wealth AUA $140.4 billion [1].",
+      "The group sits between savers and capital markets: it gathers savings through advisors and annuities and invests them through asset managers. Distribution partners and broker-dealers are suppliers of customers; independent broker-dealers accounted for more than half of registered annuity product sales in 2025 [2].",
+      "The industry has evolved toward consolidation and fee-based models. Equitable's wealth business includes assets acquired from Stifel [1], and the Corebridge merger, announced in March 2026, would create the largest annuity seller by 2025 volume, more than $50 billion [2][3].",
+      "Operations are concentrated in the US for the firms we sourced; the merged firm would be based in Houston [3]. GICS' definition also covers international diversified financial firms [6], but we did not source their data."
+    ],
+    "competition": [
+      "We did not find a sourced count of significant competitors. In annuities the combined Equitable and Corebridge would rank first ahead of Athene by 2025 volume [2].",
+      "Market leaders by niche: Equitable led RILA sales with $15.4 billion in 2025, and RILA sales overall were $79.5 billion [2]. For the whole sub-industry we could not find sourced market shares.",
+      "The industry is fragmented as a classification but consolidating in practice, with Equitable and Corebridge combining [3].",
+      "Barriers to entry include regulatory capital, ratings and distribution relationships. The merger, with 1,200 distribution agreements, shows distribution scale is valuable [2].",
+      "Economies of scale matter: the companies target more than $500 million of run-rate savings, which implies large shared costs [3].",
+      "Products are partly differentiated (RILAs, advice) and partly commoditized (index funds, fixed annuities). Equitable Advisors sells about $2 billion of fixed annuities a year [2].",
+      "Distributors and advisors have strong bargaining power over products; asset owners can shift managers. Suppliers of capital (bond and debt investors) matter for leverage. We did not find a sourced measure of power."
+    ],
+    "drivers": [
+      "Growth follows retirement savings flows and market levels. Equitable's first-year retirement premiums were $6.2 billion, up 14%, and Retirement net inflows were $1.1 billion [2].",
+      "Operating margins depend on market levels, expenses and hedging. Equitable's non-GAAP operating earnings were $595 million in Q3, including a $28 million benefit from an actuarial assumption update [1].",
+      "Key cost variables are distribution compensation, market-driven benefit costs and interest. The merger aims for more than $500 million of expense synergies [3].",
+      "Rate sensitivity is high: rates affect investment income, guaranteed-product demand and unrealized bond values. Equitable's book value swings from minus $10.69 to $20.17 per share depending on whether AOCI is included [1]. The FOMC held at 3.75% to 4% on 28 Oct 2026 [5].",
+      "Inflation and GDP matter through markets and savings. The FOMC said inflation remains elevated [5]. Unemployment matters through savings capacity and surrenders. Commodity prices matter little.",
+      "Mixed: asset-management fees are cyclical with markets, annuity demand has been secular, with RILA sales of $79.5 billion in 2025 up 20% and a forecast above $85 billion in 2026 [2]."
+    ],
+    "financials": [
+      "Earnings growth is strong but partly one-time. Equitable's non-GAAP operating earnings per share rose to $2.13 from $1.48; excluding notable items, $1.98 [1]. Financials sector Q3 growth was 6.4% [4].",
+      "Margins are not comparable across such varied businesses. Damodaran's non-bank financial group (176 firms; a proxy, not this sub-industry) shows a 69.2% gross margin, 22.2% net margin and 18.5% pre-tax operating margin as of January 2026 [8].",
+      "ROE: Damodaran's non-bank financial group shows 28.8% ROE, inflated by leverage [9]. The merger targets adjusted ROE above 15% by end-2027 [3]. We did not source ROIC.",
+      "Leverage: Equitable's long-term debt was $3.84 billion [1]. Damodaran's non-bank financial group shows market debt-to-capital of 73% and 91% on book [10].",
+      "Cash generation is shown through capital return. Equitable returned $320 million in Q3, including $238 million of buybacks, a 59% payout ratio against a 60% to 70% target [1]. We did not source free cash flow.",
+      "Capex is minimal: net capex was 2.4% of sales for Damodaran's non-bank group [7]. The capital need is regulatory.",
+      "Valuation: the group's forward P/E was 16.4x in January 2026 versus 27.7x for the full market [11]; Financials sector forward P/E is 15.0x [4]. We found no Equitable multiple."
+    ],
+    "risks": [
+      "Regulation: insurance and retirement rules, capital standards and the merger approvals are central. The merger needs regulatory and shareholder approval and is targeted by year-end 2026 [3].",
+      "Technology and AI: we think AI will mostly change servicing and advice costs and could lower the cost of advice, but we found no sourced evidence for this sub-industry.",
+      "Demographics: aging savers support annuity demand: RILA sales were $79.5 billion in 2025, up 20% [2]. Fewer working-age savers would be a longer-term drag.",
+      "Consumer behavior: clients shift between guaranteed and market-linked products depending on rates and volatility. Equitable's growth was led by RILAs [2].",
+      "New competitors: private-capital-backed insurers such as Athene are large; the merged firm would rank ahead by 2025 annuity volume [2].",
+      "Geopolitics and markets affect AUM: Equitable's Asset Management AUM of $900.4 billion is market-sensitive [1]. We found no sourced supply-chain exposure.",
+      "Substitutes include index funds, bank products and in-house advice. Fee-based flows could move to lower-cost alternatives."
+    ],
+    "horizon": {
+      "opportunities": [
+        "Merger synergies: more than $500 million of run-rate expense savings and over 10% EPS accretion by 2028 [3].",
+        "Retirement demand: RILA sales are projected above $85 billion in 2026 [2].",
+        "Wealth distribution growth, helped by acquired assets such as Stifel's [1]."
+      ],
+      "threats": [
+        "Merger execution and approval risk [3].",
+        "Market declines would cut fee income on $1.16 trillion of AUM and AUA [1].",
+        "Rate and credit shocks could hit book value, which is already negative including AOCI [1]."
+      ],
+      "assessment": "Over three to five years we expect this sub-industry's identity to depend on consolidation. The Equitable-Corebridge merger would create a firm with $1.5 trillion of assets and, if targets hold, adjusted ROE above 15% by the end of 2027 [3]. Demand for retirement products is strong [2]. The weaknesses are sensitivity to markets and rates and the difficulty of valuing a conglomerate of fee and spread businesses. We think the merger's execution is the key variable; because sources about the whole sub-industry are thin, we treat this as a view of one company rather than the group."
+    }
+  },
+  "sections": [
+    {
+      "id": "macro",
+      "paragraphs": [
+        "Diversified financials track markets, rates and savings. The FOMC held the funds rate at 3.75% to 4% on 28 Oct 2026 by 10 to 2, with both dissenters preferring a hike, and said inflation remains elevated [5]. Higher-for-longer rates support annuity spreads and investment income but can hurt bond values: Equitable's book value per common share is minus $10.69 including AOCI and $20.17 excluding it [1].",
+        "The business cycle matters through markets: Equitable's AUM and AUA of $1.16 trillion, including $900.4 billion in Asset Management, move with equities [1]. The S&P 500 forward P/E is 17.7x and Q3 earnings growth is 31.4%, a strong backdrop for fee assets [4].",
+        "Currency is a minor factor for the US names we sourced. Fiscal policy matters through retirement-savings incentives, which we did not source."
+      ]
+    },
+    {
+      "id": "demand",
+      "paragraphs": [
+        "Structural demand comes from retirement savings. LIMRA-based figures in the trade press put RILA sales at $79.5 billion in 2025, up 20%, with more than $85 billion projected for 2026 [2]. Equitable's first-year retirement premiums rose 14% to $6.2 billion in Q3 [2].",
+        "The combined Equitable and Corebridge would have over $50 billion of annuity sales in 2025 and $1.5 trillion of assets under management and administration for more than 12 million customers [2][3]. Asset management and wealth are tied to market levels and advisor adoption.",
+        "Demand is cyclical for fee assets and fairly elastic to rates for guaranteed products. Demographics are a tailwind: aging savers need income, though we did not source a population figure. We think the long-term picture is positive but tied to markets. Over a full cycle, we would expect fee-based assets to grow with savings and markets, and annuity sales to hold up as long as rates keep guaranteed products attractive to savers and retirees."
+      ]
+    },
+    {
+      "id": "structure",
+      "paragraphs": [
+        "On Porter's five forces, supplier power is moderate: capital markets and reinsurers fund the business, and distributors hold power because independent broker-dealers account for more than half of registered annuity sales [2]. Buyer power is meaningful because advisors compare products. The threat of entry is low in annuities because of capital, ratings and distribution barriers, but moderate in asset management. Substitutes include funds and bank products. Rivalry is intense and consolidating.",
+        "The merger reflects scale economics: more than $500 million of run-rate expense synergies and over 10% accretion by 2028, with Corebridge holders owning about 51% and Equitable holders 49% [3].",
+        "Equitable led RILA sales in 2025 with $15.4 billion, while Corebridge ranked tenth with $2.4 billion [2]. Pricing power is limited, and the moat is distribution and brand. We could not source market shares for the sub-industry as a whole."
+      ]
+    },
+    {
+      "id": "environment",
+      "paragraphs": [
+        "Regulation is largely insurance and securities law: capital rules for insurers, fiduciary standards for advisors and registered product rules for RILAs. We did not find a specific 2026 rule change in our sources, so we focus on the merger: it requires regulatory and shareholder approvals and is expected to close by year-end 2026 [3][1].",
+        "Politically, retirement policy and tax treatment of annuities matter; we found no sourced 2026 proposal. Technologically, we think AI and digital advice will change cost structures. Equitable's Wealth Management earnings of $75 million included a one-time payment tied to the Stifel acquisition [1].",
+        "The key emerging risk is integration: combining two large insurers and distribution networks, headquartered in Houston under the Equitable name [3]. A second is market risk, since Asset Management AUM alone is $900.4 billion [1]."
+      ]
+    },
+    {
+      "id": "economics",
+      "paragraphs": [
+        "Economics are a blend of fee and spread businesses. Equitable's Q3 non-GAAP operating earnings were $595 million, including a $28 million actuarial benefit, and $554 million excluding notable items, up from $455 million a year earlier on the headline measure [1]. Retirement was the largest segment at $432 million, up from $405 million [1][2].",
+        "Returns are leveraged. Damodaran's non-bank financial group (not this sub-industry) shows a 22.2% net margin, 28.8% ROE and 73% market debt-to-capital, with net capex of 2.4% of sales [8][9][10][7]. The merger targets adjusted ROE above 15% by end-2027 [3].",
+        "Operating leverage comes from fee assets: when markets rise, revenue on $1.16 trillion of AUM and AUA rises faster than costs [1]. We did not source free cash flow; capital return is the proxy, at $320 million in Q3 [1]."
+      ]
+    },
+    {
+      "id": "earnings",
+      "paragraphs": [
+        "Equitable's Q3 non-GAAP operating EPS was $2.13 against $1.48, or $1.98 excluding notable items; net income was $1.12 billion against a $1.31 billion loss a year earlier [1]. Part of the gain came from an actuarial assumption update [1].",
+        "Guidance: the merger targets more than 10% EPS accretion by the end of 2028 and over $500 million of expense synergies [3]. The company's 2026 payout target is 60% to 70% and the Q3 ratio was 59% [1].",
+        "We could not source consensus estimates for the sub-industry. At sector level, Financials Q3 earnings growth is 6.4% against 31.4% for the S&P 500 [4]. Our view is that Equitable's headline growth overstates the run rate because of one-time items, but we have no consensus data to compare."
+      ]
+    },
+    {
+      "id": "valuation",
+      "paragraphs": [
+        "No sourced sub-industry forward P/E is available. The Financials sector trades at 15.0x forward earnings versus 17.7x for the S&P 500 [4], and XLF has a 16.5x P/E and 2.50x price to book [12].",
+        "Damodaran's non-bank financial group had a 16.4x forward P/E and a PEG of 1.0 in January 2026 [11]; it is a proxy. For Equitable, book value per share ranges from minus $10.69 to $34.25 depending on whether AOCI is included and whether AllianceBernstein is at fair value [1].",
+        "The merger values the combined company at about $22 billion [3]. We think the main valuation question for diversified firms is the conglomerate discount. We did not source current Equitable share prices, so we do not compute a multiple."
+      ]
+    },
+    {
+      "id": "positioning",
+      "paragraphs": [
+        "XLF's top ten holdings on 11 Nov 2026 are Berkshire, JPMorgan, Visa, Mastercard and large banks and brokers; the fund holds 76 names and $54.2 billion of assets [12]. Equitable is not in the top ten.",
+        "XLF returned 9.66% year to date and 22.30% over one year to 31 Oct 2026 [12]. We did not find sourced flow, short-interest or relative-strength data for Equitable or Corebridge.",
+        "Positioning is shaped by the merger: all-stock, with exchange ratios of 1.0000 for Corebridge and 1.55516 for Equitable holders [3]. Equitable bought back $238 million of stock in Q3 [1]. In our read, the pending exchange makes Equitable's own share price the main market signal on how investors value the combined firm, since the deal is paid in stock rather than cash. Until closing, we would expect trading in both shares to track the exchange ratio and the market's view of integration risk, which we could not measure from sourced data. Index and ETF holders will also need to decide how to treat the new holding company once it lists."
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "n": 1,
+      "title": "Equitable Holdings Q3 2026 earnings release (8-K)",
+      "publisher": "Equitable Holdings / SEC",
+      "date": "2026-11-03",
+      "url": "https://www.sec.gov/Archives/edgar/data/0001333986/000133398626000054/eqh3q2026earningsrelease.htm"
+    },
+    {
+      "n": 2,
+      "title": "Equitable retirement premiums jump 14% as RILA leads ahead of Corebridge close",
+      "publisher": "Insurance Business",
+      "date": "2026-11",
+      "url": "https://www.insurancebusinessmag.com/us/news/life-insurance/equitable-retirement-premiums-jump-14-as-rila-leads-ahead-of-corebridge-close-595938.aspx"
+    },
+    {
+      "n": 3,
+      "title": "Corebridge Financial and Equitable Holdings announce transformational merger",
+      "publisher": "InsuranceNewsNet",
+      "date": "2026-03-26",
+      "url": "https://insurancenewsnet.com/oarticle/corebridge-financial-and-equitable-holdings-announce-transformational-merger"
+    },
+    {
+      "n": 4,
+      "title": "FactSet Earnings Insight, 6 Nov 2026",
+      "publisher": "FactSet",
+      "date": "2026-11-06",
+      "url": "https://advantage.factset.com/hubfs/Website/Resources%20Section/Research%20Desk/Earnings%20Insight/EarningsInsight_110626.pdf"
+    },
+    {
+      "n": 5,
+      "title": "FOMC statement, 28 Oct 2026",
+      "publisher": "Federal Reserve Board",
+      "date": "2026-10-28",
+      "url": "https://www.federalreserve.gov/newsevents/pressreleases/monetary20261028a.htm"
+    },
+    {
+      "n": 6,
+      "title": "GICS Methodology, April 2026",
+      "publisher": "MSCI / S&P Dow Jones Indices",
+      "date": "2026-04",
+      "url": "https://www.msci.com/indexes/documents/methodology/1_MSCI_Global_Industry_Classification_Standard_GICS_Methodology_20250220.pdf"
+    },
+    {
+      "n": 7,
+      "title": "Capital expenditures by sector (US), Jan 2026",
+      "publisher": "NYU Stern, A. Damodaran",
+      "date": "2026-01",
+      "url": "https://pages.stern.nyu.edu/~adamodar/New_Home_Page/datafile/capex.html"
+    },
+    {
+      "n": 8,
+      "title": "Margins by sector (US), Jan 2026",
+      "publisher": "NYU Stern, A. Damodaran",
+      "date": "2026-01",
+      "url": "https://pages.stern.nyu.edu/~adamodar/New_Home_Page/datafile/margin.html"
+    },
+    {
+      "n": 9,
+      "title": "Return on equity by sector (US), Jan 2026",
+      "publisher": "NYU Stern, A. Damodaran",
+      "date": "2026-01",
+      "url": "https://pages.stern.nyu.edu/~adamodar/New_Home_Page/datafile/roe.html"
+    },
+    {
+      "n": 10,
+      "title": "Debt fundamentals by sector (US), Jan 2026",
+      "publisher": "NYU Stern, A. Damodaran",
+      "date": "2026-01",
+      "url": "https://pages.stern.nyu.edu/~adamodar/New_Home_Page/datafile/dbtfund.html"
+    },
+    {
+      "n": 11,
+      "title": "PE ratios by sector (US), Jan 2026",
+      "publisher": "NYU Stern, A. Damodaran",
+      "date": "2026-01",
+      "url": "https://pages.stern.nyu.edu/~adamodar/New_Home_Page/datafile/pedata.html"
+    },
+    {
+      "n": 12,
+      "title": "Financial Select Sector SPDR Fund (XLF)",
+      "publisher": "State Street Investment Management",
+      "date": "2026-11-11",
+      "url": "https://www.ssga.com/us/en/intermediary/etfs/the-financial-select-sector-spdr-fund-xlf"
+    }
+  ]
+}
