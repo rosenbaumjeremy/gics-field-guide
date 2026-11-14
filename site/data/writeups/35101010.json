@@ -1,0 +1,194 @@
+{
+  "code": "35101010",
+  "added": "2026-11-14",
+  "asOf": "2026-11-12",
+  "summary": "Medical device makers just reported a split third quarter. Intuitive Surgical grew revenue 22% on 14% more da Vinci procedures [1], Edwards raised its 2026 sales outlook to about 11.5% growth [8] and Abbott's devices rose 7.8% on a comparable basis [4]. Boston Scientific grew only 1.5% after a cybersecurity incident and cut its outlook [3], and Stryker cut its guidance on weaker hip and knee demand [7]. Tariffs are a cost but a manageable one at Intuitive, about 0.9% of revenue [1]. The iShares device ETF trades on a 33.6 P/E and is down 7.2% this year [15].",
+  "metrics": [
+    {"label": "Intuitive Surgical revenue growth", "value": "+22%", "context": "Q3 2026, $3.05B; da Vinci procedures up about 14%; quarter to 30 Sep 2026", "source": 1},
+    {"label": "Boston Scientific organic sales growth", "value": "+1.5%", "context": "Q3 2026, $5.138B; Q4 guided down 1% to 3%; FY2026 about 3.75% organic", "source": 3},
+    {"label": "Abbott Medical Devices comparable growth", "value": "+7.8%", "context": "Q3 2026, $5,826M; electrophysiology +15.5%", "source": 4},
+    {"label": "Edwards 2026 sales growth guidance", "value": "about 11.5%", "context": "Raised from 10% to 11% on 4 Nov 2026; TAVR guided to 9.0% to 9.5%", "source": 8},
+    {"label": "Stryker adjusted operating margin", "value": "26.2%", "context": "Q3 2026; FY2026 organic growth guided to 6.5% to 7.0%", "source": 7},
+    {"label": "Damodaran Healthcare Products operating margin", "value": "15.34%", "context": "204 US firms, January 2026 data; gross margin 54.00%; a broader group than this sub-industry", "source": 10},
+    {"label": "iShares U.S. Medical Devices ETF (IHI) P/E", "value": "33.58x", "context": "As of 12 Nov 2026; year-to-date NAV return -7.20%; net assets $4.03B", "source": 15},
+    {"label": "Global medical devices market, 2025", "value": "$572B", "context": "One research firm's estimate, forecast 6.90% annual growth for 2026 to 2034", "source": 21}
+  ],
+  "watch": [
+    "Medtronic reports fiscal second-quarter results on 24 Nov 2026, the next read on cardiac ablation after 88% growth in that line last quarter [6][5].",
+    "The Commerce Department's Section 232 investigation into medical device imports was still open at 28 Oct 2026 with no published decision, so new tariffs remain possible [16].",
+    "Boston Scientific guided Q4 net sales down 1% to 3% after an August cybersecurity incident, so recovery in the first half of 2027 is the test [3].",
+    "Joint replacement demand is soft: Stryker's hip sales fell 1.0% and knees rose 1.1%, and Stryker cut its outlook [7], while Tenet's hospital surgeries fell 1.1% [19].",
+    "CMS proposed a 2.4% outpatient payment update for 2027 and a further phase-out of the inpatient-only list; the final rule is due later this year [17]."
+  ],
+  "bellwethers": ["Abbott", "Intuitive Surgical", "Boston Scientific", "Medtronic", "Stryker", "Edwards Lifesciences"],
+  "basics": {
+    "intro": "These companies design, make and sell the physical tools of medicine: surgical robots, heart valves and stents, joint implants, monitors, imaging systems and glucose sensors. Customers are mainly hospitals and surgery centres, which buy through purchasing groups, and patients paying through insurers or Medicare. Revenue comes from selling devices, from single-use supplies used in every procedure, and from service contracts. GICS keeps diagnostics tools and supplies in other sub-industries, and drug companies, distributors and hospital operators sit elsewhere in Health Care.",
+    "products": [
+      {"name": "Surgical robotics", "what": "Robotic systems that let surgeons operate through small incisions. The maker sells or leases the system, then earns on instruments and accessories used in each procedure.", "examples": "Intuitive da Vinci and Ion, Medtronic Hugo, Stryker Mako"},
+      {"name": "Cardiovascular devices", "what": "Implants and catheters that treat the heart and blood vessels, including heart valves, stents, pacemakers and ablation tools for abnormal rhythms.", "examples": "Edwards TAVR valves, Boston Scientific Watchman, Medtronic and Abbott electrophysiology"},
+      {"name": "Orthopaedic implants", "what": "Hip, knee, shoulder and spine implants plus the instruments and navigation used to place them, used mostly in planned operations.", "examples": "Stryker knees and hips, Zimmer Biomet, Medtronic spine"},
+      {"name": "Diabetes technology", "what": "Continuous glucose monitors and insulin pumps worn by patients, sold as recurring sensors and supplies.", "examples": "Abbott FreeStyle Libre, Medtronic diabetes (being separated as MiniMed)"},
+      {"name": "Neuromodulation", "what": "Implanted devices that send electrical pulses to nerves to treat chronic pain or movement disorders.", "examples": "Boston Scientific neuromodulation, Abbott neuromodulation, Medtronic"},
+      {"name": "Monitoring and imaging equipment", "what": "Bedside monitors, ultrasound and other equipment sold to hospitals as capital purchases or through leases.", "examples": "Masimo pulse oximetry, hospital monitors"}
+    ],
+    "terms": [
+      {"term": "Procedure volume", "meaning": "The number of operations or interventions performed using a company's devices. It is the main demand gauge because most revenue is used up in each procedure."},
+      {"term": "Installed base", "meaning": "The count of systems already placed in hospitals. A larger base means more future sales of instruments and service."},
+      {"term": "Razor and blade model", "meaning": "Selling or leasing the system at a modest margin and earning repeatedly on the single-use instruments and accessories that go with it."},
+      {"term": "Recurring revenue", "meaning": "Revenue from supplies, instruments and service that repeats with each procedure or contract, rather than one-off equipment sales."},
+      {"term": "Organic growth", "meaning": "Sales growth excluding acquisitions, divestitures and currency moves. It is the cleanest measure of underlying demand."},
+      {"term": "Premarket approval (PMA)", "meaning": "The FDA's most demanding review route, for high-risk implants such as heart valves. Clinical data are required, which keeps rivals out."},
+      {"term": "510(k) clearance", "meaning": "An FDA route for devices shown to be substantially equivalent to one already on the market. It is faster and cheaper than PMA."},
+      {"term": "Reimbursement", "meaning": "What Medicare and insurers pay for a procedure or device. A new device needs adequate coverage to be adopted."},
+      {"term": "Pass-through payment", "meaning": "Extra temporary Medicare payment to hospitals for a new, costly device, so they can afford to adopt it."},
+      {"term": "Pulsed field ablation (PFA)", "meaning": "A newer way to treat atrial fibrillation using electrical pulses rather than heat or cold. It is a major growth area for several leaders."},
+      {"term": "TAVR", "meaning": "Transcatheter aortic valve replacement: a heart valve implanted through a catheter without open-heart surgery."},
+      {"term": "Value-based or volume-based procurement", "meaning": "Government or hospital buying that sets a low price in exchange for volume, as China has done for some devices. It cuts prices."}
+    ],
+    "drivers": [
+      {"name": "Procedure volumes", "how": "More operations mean more instruments, implants and supplies sold. Elective procedures such as knee replacement can be delayed when patients lose insurance or worry about costs."},
+      {"name": "New product cycles", "how": "A new generation such as a next-model robot or ablation system lifts both volume and price per procedure, until competitors catch up."},
+      {"name": "Reimbursement and hospital budgets", "how": "Medicare rates and hospital finances set what buyers can pay. Tighter budgets slow capital purchases and delay adoption of new devices."},
+      {"name": "Tariffs and supply chains", "how": "Many companies manufacture in Mexico, Ireland, Germany and Asia. Duties on imports raise cost of goods and press gross margin unless prices rise."},
+      {"name": "Regulation and recalls", "how": "FDA decisions open or close markets, and recalls or cybersecurity problems can stop shipments for weeks."},
+      {"name": "Acquisitions", "how": "Large firms buy fast-growing niches, lifting growth and adding debt and integration risk."},
+      {"name": "Currency", "how": "Sales abroad are translated into dollars, so a weaker dollar adds to reported growth and a stronger one subtracts."}
+    ]
+  },
+  "fundamentals": {
+    "business": [
+      "Revenue splits into capital equipment, single-use or implanted products, and service. At Intuitive Surgical in Q3 2026, instruments and accessories were 59.0% of $3,048.7M revenue, systems 25.2% and service 15.8% [2]. Orthopaedic and cardiac makers mostly sell implants and disposables, and Abbott adds diabetes sensors in its devices total of $5,826M for the quarter [4].",
+      "Customers are hospitals, surgery centres and, for wearables, patients through insurers. Government payers shape demand: CMS proposes a 2.4% 2027 outpatient payment update [17]. Fortune Business Insights puts hospitals and ambulatory surgery centres at 48.97% of its device market in 2026 [21].",
+      "Principal costs are manufacturing, sales forces, clinical trials and R&D, plus tariffs and litigation. Intuitive guides non-GAAP gross margin of 68.7% to 69.3% for 2026 including a tariff cost of 0.9% of revenue, and non-GAAP operating expense growth of 11% to 13% [1]. Abbott took about $670M of specified charges for infant formula claims in Q3 [4].",
+      "Pricing power rests on clinical evidence, surgeon training and switching costs. Edwards earned an adjusted gross margin of 78.7% and an adjusted operating margin of 30.3% in Q3 [8], and Intuitive a non-GAAP gross margin of 69.9% [1]. We think weaker pricing power shows in Stryker's reported gross margin of 65.2% in more commoditised implants [7].",
+      "Major assets are plants, intangible assets and goodwill from acquisitions, plus cash. At 30 Sep 2026 Intuitive had $6.80B of cash and investments [1], Edwards about $3.1B of cash and about $600M of debt [8], and Stryker $3.3B of cash against $14.2B of long-term debt [7]. Impairments of $293M at Stryker and $220.2M at Edwards followed past deals [7][8].",
+      "The industry is moderately capital-intensive: it needs plants and clinical trials but little heavy industry. Damodaran's January 2026 table for US Healthcare Products shows net capex of 4.53% of sales and capex at 79.54% of depreciation [14]. Intuitive also funds leasing of systems, with lease revenue of about $300M in Q3 [2]."
+    ],
+    "overview": [
+      "One research firm, Fortune Business Insights, values the global medical device market at $572.31B in 2025 and $604.99B in 2026, growing 6.90% a year to 2034 [21]. Definitions vary widely by publisher and this includes diagnostics, so we treat it as an order of magnitude, not an exact market for this sub-industry.",
+      "Main segments are cardiovascular, orthopaedics, surgery and robotics, diabetes care, neuromodulation and monitoring. In Abbott's Q3, electrophysiology grew 15.5%, rhythm management 10.0%, diabetes care 6.7% and vascular 5.7% [4]. At Boston Scientific, Cardiovascular was $3.406B and MedSurg $1.733B [3].",
+      "Makers sit between component suppliers and hospitals. Intuitive cites manufacturing in Mexico and Germany and component imports from China [1]. The buyers are hospitals, surgery centres and patients, and reimbursement decides what they can pay: Tenet reported 18% lower exchange admissions in Q3 [19].",
+      "The industry has shifted from simple implants to platforms: robots, catheter-based valves and sensors worn on the body. Dealmaking is active: PwC counted $36.5B of medtech acquisitions in the first half of 2026, including Boston Scientific's $14.5B Penumbra deal and Danaher's $9.9B Masimo deal [20].",
+      "North America is the largest region, holding 38.1% of the market in 2025 according to Fortune Business Insights [21]. Boston Scientific's Q3 growth was 0.5% in the US and 6.1% in EMEA on an operational basis [3]."
+    ],
+    "competition": [
+      "A few diversified giants and many specialists. This brief covers Abbott, Medtronic, Boston Scientific, Stryker, Edwards and Intuitive; Fortune Business Insights also names Johnson & Johnson, GE HealthCare, Philips, Siemens Healthineers, BD and Fresenius [21]. The 49 holdings of IHI show how many US-listed names there are [15].",
+      "Leadership is by niche rather than overall share. Intuitive has an installed base of 12,094 da Vinci systems [1], Edwards holds a TAVR franchise of $1,241.6M a quarter [8], and Boston Scientific and Abbott compete in ablation and heart implants [3][4]. We did not find published market shares for these niches.",
+      "The industry is consolidated at the top and fragmented below. Large firms keep buying: Medtronic bought CathWorks for $585M, Stryker bought Amplitude Vascular for $435M upfront, and Boston Scientific agreed to buy Penumbra for $14.5B [20].",
+      "Barriers to entry are high for implants and robots. CDRH authorised 151 novel devices in fiscal 2026 [18], so approval is possible, but clinical evidence, surgeon training and hospital contracts take years. Intuitive's release lists domestic competitors in China as a risk [1].",
+      "Scale matters through sales forces and trial funding. Stryker's adjusted operating margin was 26.2% [7], Edwards' 30.3% [8] and Intuitive's roughly 41.6% on our calculation from its non-GAAP figures [1]. These margins do not look like a commodity business.",
+      "Products are differentiated by clinical data, not price. Edwards' TMTT line grew 44.3% as a new category [8], while hips at Stryker fell 1.0% in a more mature segment [7].",
+      "Hospitals hold bargaining power through group purchasing and Medicare rates, but surgeons choose products and prefer familiar systems, which lowers customer power in robots and implants. Suppliers have moderate power: Intuitive warns that suppliers may pass on tariff costs [2]."
+    ],
+    "drivers": [
+      "Revenue growth follows procedure volumes, new products and pricing. Intuitive's revenue rose 22% while procedures grew about 14% [1]; our read is that system placements, up to 546 from 427, and a richer mix explain the gap [1]. Edwards guided TAVR growth of 9.0% to 9.5% [8].",
+      "Operating margins depend on gross margin, operating leverage and one-off charges. Stryker's adjusted operating margin rose 60 basis points to 26.2% while reported margin was 15.9% after a $293M impairment [7]. Damodaran's January 2026 data show a 15.34% operating margin for the broad Healthcare Products group [10].",
+      "Key cost variables are materials, labour, tariffs, freight and currency. Intuitive guides to a tariff cost of 0.9% of revenue in 2026 [1]. Edwards names currency and hedging as its main margin headwind [8]. Boston Scientific recorded an $83M benefit from recovering IEEPA tariffs over nine months [3].",
+      "Interest rates matter through hospital capital budgets, deal financing and equity multiples. The Fed held at 3.75% to 4.00% on 28 Oct 2026, with two members wanting an increase [22]. Edwards has about $600M of debt and Stryker $14.2B [8][7], so balance sheets differ greatly.",
+      "Inflation, unemployment and GDP act mainly through insurance coverage and elective surgery. Tenet said exchange admissions fell 18% and its hospital surgeries fell 1.1% [19]. The Fed says activity is expanding at a strong pace and inflation remains elevated [22]. Commodity exposure is small compared with labour and components.",
+      "The industry is a mix. Cardiac and diabetes lines are secular growers, as Abbott's electrophysiology rose 15.5% [4]. Orthopaedics and other elective lines are more cyclical, with Stryker's hip sales down 1.0% [7]. Devices tied to life-threatening disease, such as valves, behave more defensively."
+    ],
+    "financials": [
+      "Growth is solid but uneven. Q3 2026 revenue growth was 22% at Intuitive [1], 10.5% at Edwards [8], 7.7% at Stryker [7] and 1.5% at Boston Scientific [3]. Adjusted EPS rose 10.3% at Stryker [7] and 19% at Edwards [8], but Boston Scientific's adjusted EPS slipped to $0.73 from $0.75 [3].",
+      "Margins are high versus most industries. Damodaran's January 2026 table for 204 US Healthcare Products companies shows a gross margin of 54.00%, an operating margin of 15.34% and a net margin of 9.61% [10]. Leaders run above that: Edwards had a 78.7% adjusted gross margin [8] and Intuitive 69.9% [1].",
+      "Damodaran's January 2026 return on equity for Healthcare Products is 11.26% unadjusted and 9.37% adjusted for R&D [11]. We did not obtain a sourced ROIC for this sub-industry. Goodwill from deals likely holds reported returns below the underlying business, which is our judgment.",
+      "Leverage ranges from light to heavy. Edwards has about $3.1B of cash and about $600M of debt [8]. Stryker has $14.2B of long-term debt [7]. Boston Scientific's Q3 interest expense was $100M against $87M a year earlier [3], and its $14.5B Penumbra deal adds to financing needs [20].",
+      "Free cash flow is generally strong but we found few reported figures. Intuitive's cash and investments fell $1.83B in Q3 mainly from buybacks and capital spending, including $2.94B of repurchases [1]. Stryker bought back $1.0B of stock in Q3 and its board added $3.0B in October [7]. Edwards and Boston Scientific did not report free cash flow in the releases we read [8][3].",
+      "Capital spending is modest. Damodaran's table shows net capex of 4.53% of sales for US Healthcare Products and capex at 79.54% of depreciation, suggesting plants are being maintained rather than rapidly expanded [14]. R&D and acquisitions matter more than plant spending.",
+      "Multiples are high. Damodaran's January 2026 data show EV/EBITDA of 19.78 for firms with positive EBITDA and a forward P/E of 42.33 for US Healthcare Products [12][13]. These cover all 204 firms, many smaller and loss-making, so they are not directly comparable with the large-cap leaders."
+    ],
+    "risks": [
+      "Regulation and legislation: Commerce's Section 232 probe of medical device imports remains open [16], CMS proposes a 2.4% outpatient update and removal of 638 more procedures from the inpatient-only list [17], and CDRH has lost about 22% of its staff, including 30% of reviewers [18]. FDA user-fee talks (MDUFA VI) are headed to Congress by January 2027 [18].",
+      "Technology and AI: Boston Scientific announced a collaboration with Heartflow on AI-powered CT planning for heart procedures [3], and robotics keeps raising the bar, with Intuitive's da Vinci 5 placements at 315 of 546 systems in Q3 [1]. The risk is that software and AI reduce hardware differentiation, in our view.",
+      "Demographics are a tailwind: older populations need more heart, joint and diabetes care. Intuitive's procedure growth of about 14% [1] and Abbott's CGM growth of 7.7% comparable [4] fit that. We do not have a cited figure for ageing's contribution specifically.",
+      "Changing behaviour includes the move of joint surgery to surgery centres and deferral of elective care. Tenet's USPI joint replacements rose 12.8% while its hospital surgeries fell 1.1% [19], and Stryker's hips and knees were flat to down [7]. Coverage losses on ACA exchanges add pressure [19].",
+      "New competitors and business models: large firms are buying rivals in hot niches, with intravascular lithotripsy a crowded example, and Boston Scientific and Abbott have entered it [20]. Medtronic's Hugo challenges Intuitive in robotics, though we found no Hugo sales figure in the sources we read.",
+      "Geopolitics and supply chains: Intuitive makes products in Mexico and Germany and imports components from China, and warns that additional tariffs could have a material impact [1]. Intuitive also names domestic competitors in China as a risk [1]. Boston Scientific's August cyber incident shows operational fragility [3].",
+      "Substitutes include drugs and non-device therapies. We found no sourced figure for substitution this quarter, but we think the biggest watch item is whether new obesity and diabetes medicines change demand for some cardiac and orthopaedic procedures. That is our judgment, not a cited fact."
+    ],
+    "horizon": {
+      "opportunities": [
+        "Cardiac ablation and structural heart are growing fast, with Medtronic's ablation line up 88% and Abbott's electrophysiology up 15.5% [5][4].",
+        "Robotic surgery keeps expanding as installed base rises 12% to 12,094 systems and procedures grow about 14% [1].",
+        "Ageing populations and new categories such as mitral and tricuspid repair, up 44.3% at Edwards, widen the market [8].",
+        "Consolidation lets leaders buy growth in faster niches, as $36.5B of first-half deals show [20]."
+      ],
+      "threats": [
+        "Tariffs could widen beyond the current level, with Section 232 still open and Intuitive guiding to a 0.9% revenue cost [16][1].",
+        "Elective procedures remain weak as exchange coverage falls, hitting orthopaedics and hospital volumes [19][7].",
+        "Competition from domestic makers in China and possible price pressure could weigh on international growth [1].",
+        "FDA staffing losses and payment rule changes could slow approvals or adoption [18][17]."
+      ],
+      "assessment": "We think the next three to five years favour companies in cardiac rhythm, structural heart and robotics, where procedure growth is double-digit and the evidence moat is deep [1][4][8]. Orthopaedics and other elective lines look more exposed to coverage, site-of-care shifts and price pressure [7][19]. Margins should hold at the leaders, though tariffs, which Intuitive puts at 0.9% of 2026 revenue, take a bite out of gross margin [1]. Execution risk is concentrated in large deals and in single events such as Boston Scientific's incident, which pushed its Q4 guidance below zero growth [3][20]. Policy risk is real but still unresolved [16][17][18]."
+    }
+  },
+  "sections": [
+    {"id": "macro", "paragraphs": [
+      "Medical devices sit in a cycle driven less by the economy than by hospital volumes and insurance coverage. FactSet's 6 Nov 2026 report shows the S&P 500 blended Q3 earnings growth at 31.4%, while the Health Care sector as a whole is growing 9.3% and its revenue 6.3% [9]. That sector includes drug makers, insurers and services, so it describes the group only loosely.",
+      "Interest rates are a secondary input. The Fed held its target range at 3.75% to 4.00% on 28 Oct 2026 by a 10 to 2 vote, with both dissenters preferring an increase, and said activity is expanding at a strong pace while inflation remains elevated [22]. Higher rates raise financing costs for hospitals and deal-making firms, though large device makers carry modest debt: Edwards had about $600M and Stryker $14.2B of long-term debt [8][7].",
+      "Coverage and labour matter more. Tenet said exchange admissions and revenues fell 18% in Q3 and its hospital surgeries fell 1.1% [19]. Currency also moves reported results: Edwards' sales rose 10.5% reported and 11.2% in constant currency [8]. Our read is that the cycle is supportive for emergency and cardiac care and less so for elective orthopaedics."
+    ]},
+    {"id": "demand", "paragraphs": [
+      "Demand rests on ageing populations, chronic disease and technology that makes less invasive treatment possible. Fortune Business Insights estimates the global device market at $572.31B in 2025 and $604.99B in 2026, growing 6.90% a year to 2034, with North America at 38.1% [21]. Publishers differ, and this estimate covers diagnostics and other products beyond this sub-industry.",
+      "Company data show demand is strongest in procedure-led categories. Intuitive's da Vinci procedures grew about 14% in Q3 and its installed base reached 12,094 systems, up 12% [1]. Abbott's electrophysiology grew 15.5% and rhythm management 10.0% [4]. Edwards expects 2026 TAVR growth of 9.0% to 9.5% and mitral and tricuspid sales of $780M to $790M [8].",
+      "Elasticity is higher in elective care. Stryker's knee sales rose 1.1% and hips fell 1.0% in Q3, and the company cut its 2026 organic growth guidance to 6.5% to 7.0% [7]. Tenet's ambulatory surgeries fell 1.5% while its joint replacements at surgery centres rose 12.8% [19]. We read this as a shift of venue and a patient-affordability squeeze, not an end of demand. Long-term prospects remain good because of demographics."
+    ]},
+    {"id": "structure", "paragraphs": [
+      "Porter's five forces point to an attractive but uneven industry. Threat of new entrants is low in implants and robots because approval, clinical evidence and surgeon training are slow; CDRH authorised 151 novel devices in fiscal 2026, so entry happens but not quickly [18]. Substitutes, including drugs and alternative treatments, are a watch item.",
+      "Buyer power rests with hospitals and Medicare, whose rates set budgets: CMS proposes a 2.4% update for 2027 [17]. Supplier power is moderate, and Intuitive warns that suppliers may pass on tariff and inflation costs [2]. Rivalry is intense in contested categories such as intravascular lithotripsy and PFA, where Boston Scientific, Abbott and Medtronic compete [20][5].",
+      "Concentration is high at the top. Medtronic, Stryker, Abbott, Boston Scientific and Edwards each sell billions of dollars a quarter; Boston Scientific reported $5.138B in Q3 and Abbott's devices $5,826M [3][4]. We did not find sourced market shares. Moats come from installed bases, evidence and switching costs: Intuitive's 12,094 systems and Edwards' 78.7% adjusted gross margin are examples [1][8]. Pricing power is strong in new categories and weaker in hips and knees."
+    ]},
+    {"id": "environment", "paragraphs": [
+      "Regulation is the dominant outside force. The FDA's CDRH authorised 151 novel devices in fiscal 2026 but has lost about 22% of its staff over 18 months, including 30% of reviewers, and says it remains on track for nearly all review goals. A new user-fee agreement (MDUFA VI) for fiscal 2028 to 2032 is headed to Congress, targeted for January 2027 [18].",
+      "Reimbursement policy is proposed to tighten. CMS released the 2027 hospital outpatient rule on 2 Jul 2026, proposing a 2.4% payment update, removal of 638 more procedures from the inpatient-only list over a three-year phase-out, and site-neutral payments for some imaging; comments closed on 31 Aug 2026 [17]. Moving procedures outpatient favours surgery centres.",
+      "Trade policy is a live political risk. Commerce opened its Section 232 investigation of medical devices on 2 Sep 2025; the 270-day report period appears to have passed near the end of May 2026, but as of 28 Oct 2026 no report or proclamation had been published [16]. Intuitive includes a tariff cost of 0.9% of revenue in its guidance and warns more tariffs could have a material impact [1].",
+      "Technology cuts both ways: AI-guided planning, robotics and cyber exposure. Boston Scientific disclosed a cybersecurity incident on 26 Aug 2026 and later guided Q4 sales lower [3]. Intuitive names domestic competition in China as a risk factor [1]."
+    ]},
+    {"id": "economics", "paragraphs": [
+      "Margins are structurally high. Q3 2026 non-GAAP gross margin was 69.9% at Intuitive [1], adjusted gross margin 78.7% at Edwards [8] and adjusted 65.4% at Stryker [7]. Adjusted operating margins were 30.3% at Edwards and 26.2% at Stryker [8][7]; on our calculation from the releases, about 41.6% at Intuitive and 26.5% at Boston Scientific [1][3].",
+      "Operating leverage is visible at the leaders: Intuitive's non-GAAP operating margin rose from about 39.0% to about 41.6% as revenue rose 22% [1], and Edwards' adjusted operating margin widened from 27.5% to 30.3% [8]. It cuts the other way when volume stalls, as Boston Scientific's adjusted EPS slipped to $0.73 from $0.75 on 1.5% growth [3].",
+      "Damodaran's January 2026 US Healthcare Products data show a 54.00% gross margin, 15.34% operating margin and 11.26% return on equity [10][11]. The gap between this and the leaders is explained by many smaller, loss-making firms in his group. Capital intensity is low to moderate, at net capex of 4.53% of sales [14].",
+      "Free cash flow is strong but under-reported in the releases we read. Intuitive spent $2.94B on buybacks in Q3, Stryker $1.0B and Edwards about $700M year to date [1][7][8]. We did not obtain sourced ROIC figures; reported returns are likely depressed by acquisition goodwill, which is our judgment."
+    ]},
+    {"id": "earnings", "paragraphs": [
+      "Revisions are mixed. Edwards raised its 2026 sales growth guidance to about 11.5% from 10% to 11% and its adjusted EPS range to $2.97 to $3.05 [8]. Intuitive narrowed procedure growth to 14% to 15% and expects results near the midpoint [1]. Medtronic raised fiscal 2027 organic growth guidance to 7.25% to 7.75% and adjusted EPS to $5.94 to $6.00 on 1 Sep 2026 [5].",
+      "Others cut. Boston Scientific now expects about 3.75% organic growth in 2026, with Q4 sales down 1% to 3% and adjusted EPS of $3.16 to $3.18 for the year [3]. Stryker lowered organic growth guidance to 6.5% to 7.0% and adjusted EPS to $14.80 to $14.90 [7]. Abbott guided about 6.0% comparable sales growth and tightened adjusted EPS to $5.50 to $5.55 [4].",
+      "Sector context: FactSet shows the Health Care sector's Q3 blended earnings growth at 9.3% and revenue growth at 6.3%, against 31.4% earnings growth for the S&P 500 [9]. These are sector figures that include drugs and insurers. We found no consensus EPS growth for this sub-industry and do not estimate one.",
+      "Where we differ: we would not read Medtronic's 13.7% growth as a run rate, since the extra week in a 53-week year added about $570M [5], and Medtronic's next update on 24 Nov 2026 will show the cleaner base [6]. We also see Boston Scientific's weakness as largely event-driven, but the Q4 guide shows the effect runs beyond one quarter [3]."
+    ]},
+    {"id": "valuation", "paragraphs": [
+      "The best sub-industry gauge we found is the iShares U.S. Medical Devices ETF, which is 99.84% Health Care Equipment and traded on a P/E of 33.58 on 12 Nov 2026 [15]. We could not obtain a forward multiple for the group, nor its own ten-year average. For context, FactSet shows the S&P 500 at 17.7 times forward earnings, below its 5-year average of 19.8 and 10-year average of 19.1 [9].",
+      "On Damodaran's January 2026 data, US Healthcare Products traded at EV/EBITDA of 19.78 for firms with positive EBITDA and a forward P/E of 42.33 [12][13]. These cover 204 firms and many are small or unprofitable, so they overstate what large profitable names trade on. We read the group as priced at a premium to the market, which is a judgment from these two sources, not a ranking of any stock.",
+      "Growth implied by a premium multiple is high-single-digit to low-double-digit revenue and expanding margins. The leaders are delivering that in some lines, such as Intuitive's 22% revenue growth and Edwards' guidance of about 11.5% [1][8], but not all: Boston Scientific's 1.5% growth and Stryker's cut show how a premium can compress [3][7]. We did not obtain free cash flow yields for the group and do not compute them."
+    ]},
+    {"id": "positioning", "paragraphs": [
+      "The IHI ETF had net assets of $4.03B and 49 holdings on 12 Nov 2026, and its NAV return year to date was -7.20%, with a NAV of $57.46 inside a 52-week range of $47.53 to $64.50 [15]. By the sector-wide measure, devices have lagged the broader market, which FactSet shows is still at healthy earnings growth [9]. We found no fund-flow figure for the ETF.",
+      "Company buybacks are a clear source of demand. Intuitive repurchased 7.8M shares for $2.94B in Q3 [1], Stryker $1.0B with a further $3.0B authorisation added in October [7], and Edwards about $700M year to date with about $1.3B left [8]. Boston Scientific's weighted diluted share count fell to 1,452.0M from 1,495.5M a year earlier [3].",
+      "Momentum is weak and dispersed: the ETF's one-day move on 12 Nov 2026 was -1.24% [15]. Earnings reactions in the quarter appear to have been sharp for single names, though we did not open price data to confirm. We obtained no short interest, institutional positioning or breadth data for the group and make no claim about them."
+    ]}
+  ],
+  "sources": [
+    {"n": 1, "title": "Intuitive Surgical Q3 2026 earnings release (Form 8-K, Exhibit 99.1)", "publisher": "Intuitive Surgical / SEC", "date": "2026-10", "url": "https://www.sec.gov/Archives/edgar/data/0001035267/000103526726000067/q326ex-991earningsrelease.htm"},
+    {"n": 2, "title": "Intuitive Surgical Form 10-Q for the quarter ended 30 Sep 2026", "publisher": "Intuitive Surgical / SEC", "date": "2026-10", "url": "https://www.sec.gov/Archives/edgar/data/0001035267/000103526726000071/isrg-20260930.htm"},
+    {"n": 3, "title": "Boston Scientific announces results for third quarter 2026", "publisher": "Boston Scientific via Finviz", "date": "2026-10-28", "url": "https://finviz.com/news/409766/boston-scientific-announces-results-for-third-quarter-2026"},
+    {"n": 4, "title": "Abbott reports third quarter 2026 results and reaffirms full year EPS guidance", "publisher": "Abbott via Finviz", "date": "2026-10-21", "url": "https://finviz.com/news/405133/abbott-reports-third-quarter-2026-results-and-reaffirms-full-year-eps-guidance"},
+    {"n": 5, "title": "Medtronic reports first quarter fiscal 2027 results and raises fiscal 2027 guidance", "publisher": "Medtronic", "date": "2026-09-01", "url": "https://news.medtronic.com/2026-09-01-Medtronic-reports-first-quarter-fiscal-2027-results-delivers-broad-based-portfolio-performance-and-raises-fiscal-2027-guidance"},
+    {"n": 6, "title": "Medtronic to announce financial results for its second quarter of fiscal year 2027", "publisher": "Medtronic", "date": "2026-11-04", "url": "https://news.medtronic.com/2026-11-04-Medtronic-to-announce-financial-results-for-its-second-quarter-of-fiscal-year-2027"},
+    {"n": 7, "title": "Stryker reports third quarter 2026 operating results (Form 8-K, Exhibit 99.1)", "publisher": "Stryker / SEC", "date": "2026-10", "url": "https://www.sec.gov/Archives/edgar/data/0000310764/000031076426000059/sykex991earningsq32026.htm"},
+    {"n": 8, "title": "Edwards Lifesciences reports third quarter 2026 results (Form 8-K, Exhibit 99.1)", "publisher": "Edwards Lifesciences / SEC", "date": "2026-11-04", "url": "https://www.sec.gov/Archives/edgar/data/0001099800/000109980026000053/ex-991q32026.htm"},
+    {"n": 9, "title": "FactSet Earnings Insight (6 November 2026)", "publisher": "FactSet", "date": "2026-11-06", "url": "https://advantage.factset.com/hubfs/Website/Resources%20Section/Research%20Desk/Earnings%20Insight/EarningsInsight_110626.pdf"},
+    {"n": 10, "title": "Margins by sector (US), January 2026", "publisher": "Aswath Damodaran, NYU Stern", "date": "2026-01", "url": "https://pages.stern.nyu.edu/~adamodar/New_Home_Page/datafile/margin.html"},
+    {"n": 11, "title": "Return on equity and capital by sector (US), January 2026", "publisher": "Aswath Damodaran, NYU Stern", "date": "2026-01", "url": "https://pages.stern.nyu.edu/~adamodar/New_Home_Page/datafile/roe.html"},
+    {"n": 12, "title": "EV/EBITDA multiples by sector (US), January 2026", "publisher": "Aswath Damodaran, NYU Stern", "date": "2026-01", "url": "https://pages.stern.nyu.edu/~adamodar/New_Home_Page/datafile/vebitda.html"},
+    {"n": 13, "title": "PE ratios by sector (US), January 2026", "publisher": "Aswath Damodaran, NYU Stern", "date": "2026-01", "url": "https://pages.stern.nyu.edu/~adamodar/New_Home_Page/datafile/pedata.html"},
+    {"n": 14, "title": "Capital expenditures by sector (US), January 2026", "publisher": "Aswath Damodaran, NYU Stern", "date": "2026-01", "url": "https://pages.stern.nyu.edu/~adamodar/New_Home_Page/datafile/capex.html"},
+    {"n": 15, "title": "iShares U.S. Medical Devices ETF (IHI) fund page", "publisher": "BlackRock iShares", "date": "2026-11-12", "url": "https://www.ishares.com/us/products/239516/ishares-us-medical-devices-etf"},
+    {"n": 16, "title": "Section 232 Medical Device Tariffs: The Investigation That Never Closed", "publisher": "SPS Commerce", "date": "2026-10-28", "url": "https://www.spscommerce.com/community/articles/section-232-medical-device-tariffs-the-investigation-that-never-closed"},
+    {"n": 17, "title": "CMS CY 2027 OPPS/ASC proposed rule: key payment and policy changes", "publisher": "K&L Gates", "date": "2026-08-03", "url": "https://www.klgates.com/thought-leadership/CMS-CY-2027-OPPS/ASC-Proposed-Rule-Key-Payment-and-Policy-Changes-for-Hospitals-Health-Systems-and-ASCs-8-3-2026"},
+    {"n": 18, "title": "Tarver: CDRH on a recruiting tear, looking ahead to MDUFA VI", "publisher": "RAPS", "date": "2026-10-21", "url": "https://www.raps.org/resource/tarver-cdrh-on-a-recruiting-tear-looking-ahead-to-mdufa-vi.html"},
+    {"n": 19, "title": "High-acuity strategy helped Tenet weather surgery, uninsured headwinds in Q3", "publisher": "Healthcare Dive", "date": "2026-10", "url": "https://www.healthcaredive.com/news/high-acuity-strategy-helped-tenet-weather-surgery-uninsured-headwinds-q3/873305/"},
+    {"n": 20, "title": "Top 10 medtech deals in the first half of 2026", "publisher": "MedTech Dive", "date": "2026-07-06", "url": "https://www.medtechdive.com/news/top-10-medtech-deals-in-the-first-half-of-2026/824435/"},
+    {"n": 21, "title": "Medical Devices Market Size, Share and Industry Analysis", "publisher": "Fortune Business Insights", "date": "2026", "url": "https://www.fortunebusinessinsights.com/medical-devices-market-100085"},
+    {"n": 22, "title": "Federal Reserve issues FOMC statement, October 28, 2026", "publisher": "Federal Reserve Board", "date": "2026-10-28", "url": "https://www.federalreserve.gov/newsevents/pressreleases/monetary20261028a.htm"}
+  ]
+}

@@ -1,0 +1,469 @@
+{
+  "code": "35202010",
+  "added": "2026-11-14",
+  "asOf": "2026-11-13",
+  "summary": "Large drugmakers just reported a strong third quarter, but the profit pool is concentrating in obesity and immunology. Eli Lilly's revenue rose 39% to $24.4B on volume up 53% and realized prices down 15% [1]. AbbVie grew 10.3% [2] and Merck 5% [3], while Pfizer was flat [4] and Teva fell 2% as generics slipped [5]. Policy is the swing factor: Section 232 tariffs of up to 100% are waived for firms with pricing deals [6], and 26 drugmakers covering about 90% of branded US sales had signed by September [7]. Patent expiries put roughly $300B of revenue at risk by 2030 [8].",
+  "metrics": [
+    {
+      "label": "Eli Lilly revenue growth, Q3 2026",
+      "value": "+39% to $24.4B",
+      "context": "Volume +53%, realized price -15%; quarter to 30 Sep 2026",
+      "source": 1
+    },
+    {
+      "label": "AbbVie adjusted operating margin",
+      "value": "48.7%",
+      "context": "Q3 2026; adjusted gross margin 85.1%",
+      "source": 2
+    },
+    {
+      "label": "Pre-tax operating margin, Drugs (Pharmaceutical)",
+      "value": "29.5%",
+      "context": "Damodaran US industry data, 228 firms, January 2026",
+      "source": 9
+    },
+    {
+      "label": "Return on capital, Drugs (Pharmaceutical)",
+      "value": "29.3%",
+      "context": "Damodaran US industry data, January 2026",
+      "source": 10
+    },
+    {
+      "label": "Forward P/E, Drugs (Pharmaceutical)",
+      "value": "24.2x",
+      "context": "Damodaran US industry data, January 2026; trailing 55.7x; S&P 500 forward P/E was 17.7x on 5 Nov 2026",
+      "source": 11
+    },
+    {
+      "label": "Health Care sector Q3 2026 earnings growth",
+      "value": "9.3% blended",
+      "context": "Sector, not this sub-industry; S&P 500 blended 31.4%; FactSet, 6 Nov 2026",
+      "source": 12
+    },
+    {
+      "label": "Patent cliff revenue at risk by 2030",
+      "value": "$300B",
+      "context": "Evaluate estimate, about a sixth of industry revenue, cited 30 Jan 2026",
+      "source": 8
+    },
+    {
+      "label": "FDA novel approvals in 2026",
+      "value": "48",
+      "context": "Latest entry approved 9 Nov 2026",
+      "source": 13
+    }
+  ],
+  "watch": [
+    "Lilly's Q3 realized price fell 15% as volume rose 53%, so the obesity franchise is growing on volume while price erodes [1].",
+    "Novo Nordisk plans to cut US list prices on Wegovy by about 50% and Ozempic by about 35% from 1 January, which it expects to pressure 2027 cash flow [14].",
+    "Section 232 tariffs took effect from 31 Jul 2026 for named firms and 29 Sep 2026 for the rest, with relief for companies that sign MFN pricing deals; generics are exempt for now [6].",
+    "Bristol Myers' Eliquis and Opdivo and Merck's Keytruda, which is over half of Merck's sales, are the largest franchises facing expiry and biosimilar erosion [8].",
+    "Medicare's third negotiation cycle covers 15 drugs, including Part B drugs for the first time, with negotiated prices applying from 2028 [15]."
+  ],
+  "bellwethers": [
+    "Eli Lilly",
+    "Johnson & Johnson",
+    "AbbVie",
+    "Merck",
+    "Pfizer",
+    "Bristol Myers Squibb",
+    "Zoetis",
+    "Teva"
+  ],
+  "basics": {
+    "intro": "These companies discover, make and sell prescription medicines. Branded firms such as Lilly, Merck and Pfizer earn most of their profit from patented drugs sold to patients through insurers, pharmacy benefit managers, hospitals and governments; when a patent expires, cheaper generics or biosimilars arrive and sales drop. Generic makers such as Teva compete on price and volume. GICS also places animal health, such as Zoetis, here. Biotechnology companies sit in a separate sub-industry, Life Sciences Tools and Services firms supply the labs, and drug distributors and pharmacies sit in Health Care Distributors and Retail.",
+    "products": [
+      {
+        "name": "Branded small-molecule drugs",
+        "what": "Pills made by chemical synthesis and protected by patents, usually for 20 years from filing. They carry high margins until generics arrive.",
+        "examples": "Eliquis, Rinvoq, Jardiance"
+      },
+      {
+        "name": "Biologics and antibodies",
+        "what": "Large molecules made in living cells, often injected or infused. Copies called biosimilars are harder to make than generics, so erosion is slower.",
+        "examples": "Keytruda, Skyrizi, Humira"
+      },
+      {
+        "name": "Obesity and diabetes injectables",
+        "what": "GLP-1 type drugs that mimic a gut hormone to lower blood sugar and body weight. They have become the largest new category by sales.",
+        "examples": "Mounjaro, Zepbound, Wegovy"
+      },
+      {
+        "name": "Vaccines",
+        "what": "Products that prevent infection. Demand depends on public health recommendations and government purchasing.",
+        "examples": "Gardasil, Prevnar, Comirnaty"
+      },
+      {
+        "name": "Generics and biosimilars",
+        "what": "Copies of drugs whose patents have expired, sold at a fraction of the brand price to many buyers.",
+        "examples": "Teva generics and biosimilars"
+      },
+      {
+        "name": "Animal health",
+        "what": "Medicines and vaccines for pets and farm animals, sold through veterinarians and distributors.",
+        "examples": "Zoetis Simparica and Librela, Merck Animal Health"
+      }
+    ],
+    "terms": [
+      {
+        "term": "Patent cliff",
+        "meaning": "The sharp revenue drop when a blockbuster loses patent protection and cheaper copies enter. It is the central risk for branded drugmakers."
+      },
+      {
+        "term": "Loss of exclusivity (LOE)",
+        "meaning": "The date a drug can legally face generic or biosimilar competition. Analysts model each major product's LOE date."
+      },
+      {
+        "term": "Biosimilar",
+        "meaning": "A close copy of a biologic drug. It needs more testing than a generic pill, so entry is slower and discounts are smaller."
+      },
+      {
+        "term": "Gross-to-net",
+        "meaning": "The gap between a drug's list price and what the company keeps after rebates and discounts paid to insurers and middlemen. A widening gap cuts reported revenue."
+      },
+      {
+        "term": "Pharmacy benefit manager (PBM)",
+        "meaning": "An intermediary that negotiates rebates with drugmakers for insurers and decides which drugs are covered. It gives buyers leverage over price."
+      },
+      {
+        "term": "Most favored nation (MFN) pricing",
+        "meaning": "A policy that ties US prices to the lowest prices paid in other rich countries. It is the main US pricing threat to branded drug margins."
+      },
+      {
+        "term": "Acquired IPR&D",
+        "meaning": "The cost of buying unfinished research assets, expensed immediately. It can cut reported profit by a lot in the quarter of a deal, so firms show adjusted figures as well."
+      },
+      {
+        "term": "Pipeline",
+        "meaning": "Drugs in clinical trials. Investors value a company partly on how likely the pipeline is to replace sales lost to patent expiry."
+      },
+      {
+        "term": "Phase 3 trial",
+        "meaning": "The final, large human trial before approval. Results often move share prices sharply."
+      },
+      {
+        "term": "Orphan drug",
+        "meaning": "A drug for a rare disease, which gets extra market protection and, under US law, some exemption from Medicare price negotiation."
+      },
+      {
+        "term": "Medicare negotiation",
+        "meaning": "A US program under the Inflation Reduction Act in which the government sets prices for selected high-spend drugs."
+      },
+      {
+        "term": "Operational growth",
+        "meaning": "Growth excluding currency swings. Companies quote it to show underlying demand."
+      }
+    ],
+    "drivers": [
+      {
+        "name": "Volume of new blockbusters",
+        "how": "A successful launch, such as an obesity or immunology drug, can add billions in sales within two years because the cost of making the next unit is low."
+      },
+      {
+        "name": "Patent expiries",
+        "how": "Revenue on a lost-exclusivity drug can fall fast once copies arrive, so analysts track the calendar of expiries for each large company."
+      },
+      {
+        "name": "Net price",
+        "how": "Discounts, rebates, government price rules and tariffs set the price the company actually keeps. A fall in realized price shows up directly in revenue and margin."
+      },
+      {
+        "name": "R&D productivity",
+        "how": "Spending on trials and acquired research assets drives cost. Approvals and trial results decide whether that spending is rewarded."
+      },
+      {
+        "name": "Policy and regulation",
+        "how": "FDA approvals, Medicare negotiation, tariffs and pricing deals change which drugs can be sold and at what price."
+      },
+      {
+        "name": "Acquisitions and licensing",
+        "how": "Large companies buy or license assets to refill their pipelines. Deals bring one-off charges and later, if successful, new revenue."
+      },
+      {
+        "name": "Currency and public purchasing",
+        "how": "Foreign sales are converted into dollars, and vaccine or antiviral sales swing with government orders."
+      }
+    ]
+  },
+  "fundamentals": {
+    "business": [
+      "Revenue comes mainly from patented prescription drugs. In Q3 2026 Lilly's Mounjaro and Zepbound together made $16.1B of $24.4B revenue [1], AbbVie's Skyrizi and Rinvoq $8.5B of $17.4B [2] and Merck's Keytruda family $8.6B of $18.1B [3]. Generic makers like Teva and animal-health firms like Zoetis add different models [5][16].",
+      "Customers are not usually patients directly. Drugs are bought through wholesalers, pharmacies, hospitals, insurers and governments, with Medicare and Medicaid central in the US. Lilly said its US price fell mainly on Zepbound after rebate and discount adjustments, which shows how payers shape net revenue [1]. Merck cited lower US public-sector purchasing for Vaxneuvance [3].",
+      "The main costs are research and development, marketing and administration, and manufacturing. Lilly spent $4.25B on R&D, 17% of Q3 revenue [1], AbbVie's adjusted R&D was 13.9% of revenue [2], and Pfizer guides 2026 adjusted R&D to $10.8B to $11.8B and SI&A to $12.5B to $13.5B [4]. Cost of goods is small for branded drugs, shown by Lilly's 84.4% non-GAAP gross margin [1].",
+      "Pricing power comes from patents, clinical evidence and a lack of substitutes, and is checked by payers and governments. It is strongest for new drugs with no close rival and weakest after expiry. Lilly's realized price fell 15% worldwide in Q3 while volume rose 53% [1], which in our view shows pricing power being traded for volume in a competitive, price-scrutinised category.",
+      "Major assets are patents, a drug pipeline, plants and acquired intangibles; major liabilities are debt, rebate accruals and litigation. J&J booked a $5.5B pre-tax litigation-related adjustment for its proposed talc resolution in Q3 [17]. Teva carried net debt of $12.6B on 30 Sep 2026 [5]. We did not obtain balance sheets for the others.",
+      "Branded pharma is moderately capital-intensive: heavy on R&D, light on fixed assets relative to revenue. Damodaran's January 2026 US data show net capital spending of only 1.12% of revenue for the industry [9]. Biologics plants and the new US onshoring push raise spending, but these are small beside R&D."
+    ],
+    "overview": [
+      "We did not find a single sourced global market-size figure. The best available gauge is company revenue: the companies in this brief guide to 2026 revenue of about $101.2B at J&J (including MedTech) [17], $91B to $92B at Lilly [1], $66.8B to $67.3B at Merck [3], $62B to $64B at Pfizer [4] and $49.75B to $50.25B at Bristol Myers [18].",
+      "The main segments are immunology, oncology, obesity and diabetes, cardiovascular, vaccines, neuroscience, generics and animal health. In Q3, obesity and diabetes led growth at Lilly [1], immunology at AbbVie [2], oncology and vaccines at Merck [3], and generics fell 16% at Teva while its branded drugs grew 33% [5]. Animal health made up $1.7B at Merck and $2.4B at Zoetis [3][16].",
+      "Drugmakers sit between research suppliers (biotechs, contract labs, universities) and buyers (insurers, governments, hospitals). Large firms refill pipelines by buying or licensing: Pfizer took a $650M charge for an Innovent deal [4] and Lilly booked $4.2B of acquired IPR&D in Q3 [1]. Regulators, led by the FDA, gate every launch.",
+      "The industry has shifted from small-molecule blockbusters to biologics and now to obesity drugs, with costs of replacing expiring products pushing firms toward deals. FDA's list shows 48 novel drug approvals in 2026 so far, the latest on 9 Nov [13]. Drug pricing has become a trade and political issue, with tariffs tied to pricing agreements [6].",
+      "Sales are concentrated in the US, where prices are highest, but growth outside it is large. Lilly's Q3 US revenue rose 34% to $15.1B and non-US revenue 47% to $9.3B, helped by China [1]. We did not find a sourced table of production by country; of the companies here, Novo is Danish and Teva Israeli, and the rest are US-based."
+    ],
+    "competition": [
+      "A small number of large companies dominate by value, with hundreds of smaller ones. Damodaran's US industry data count 228 firms in Drugs (Pharmaceutical) [9]. The group is broader than this sub-industry, but the top names in this brief hold most of the sales.",
+      "The leaders by size on 2026 revenue guidance are J&J (including MedTech), Lilly, AbbVie, Merck, Pfizer and Bristol Myers [17][1][2][3][4][18]. Novo Nordisk is Lilly's main obesity rival, guiding to adjusted sales growth of -2% to +2% against Lilly's 39% quarter [14][1]. We did not find sourced market-share tables across the industry.",
+      "The industry is concentrated at the top for branded drugs and fragmented in generics. Teva's US generic revenue of $718M fell 39% in Q3, which in our view reflects crowded generic markets and price pressure [5]. Branded firms compete drug by drug within each disease area rather than across the whole industry.",
+      "Barriers to entry are very high: patents, years of clinical trials, FDA approval, manufacturing know-how and the cost of discovery. Drugs reaching approval still face payer scrutiny. The FDA approved 48 novel drugs in 2026 through 9 Nov, so new entrants are possible but a small number of drugs [13].",
+      "Scale helps with trial funding, global launches and negotiating with payers. AbbVie earned a 48.7% adjusted operating margin and Lilly's operating income was $8.6B on $24.4B of revenue [2][1]. Smaller firms often sell or license drugs to the large firms to reach scale, as the Innovent deal shows [4].",
+      "Branded drugs are differentiated, but within a class they can be close substitutes: payers decide formulary placement. Generics are commodities. Lilly's price decline of 15% and Novo's planned list-price cuts suggest competition is turning even the newest classes toward price [1][14].",
+      "Bargaining power sits with payers and governments for large drugs, and with drugmakers for new drugs with no rival. Medicare will set prices for 15 more drugs from 2028 [15], and MFN deals plus tariffs tie access to concessions [6][7]. Suppliers have little power because the key inputs are mostly the companies' own intellectual property."
+    ],
+    "drivers": [
+      "Revenue growth is driven by new products and volume, offset by price and patent expiry. Lilly's volume rose 53% and price fell 15% [1]. J&J's Innovative Medicine grew 7.7% despite Stelara's loss of exclusivity, which cut about 690 basis points from operational growth [17]. AbbVie's Humira fell 31.2% while Skyrizi grew 22.7% [2].",
+      "Operating margin depends on gross margin, R&D intensity and acquired-research charges. AbbVie's adjusted operating margin was 48.7% [2], Teva's non-GAAP operating margin 31.7% [5] and Lilly's reported operating income 35% of revenue (our arithmetic from $8.6B on $24.4B) [1]. Damodaran's industry pre-tax operating margin is 29.5% [9].",
+      "Key costs are R&D, acquired IPR&D, sales and marketing and tax. Bristol Myers' non-GAAP EPS fell to $1.35 from $1.63 as acquired IPRD cost $0.58 a share [18]. Lilly's $4.57 per share of IPR&D charges offset a $4.07 rise in underlying EPS guidance [1]. Tariffs add a new cost for imports without a pricing deal [6].",
+      "Interest rates matter modestly: demand for prescription drugs does not depend on borrowing, but rates affect deal financing and the discount rate on distant pipeline cash flows. Damodaran's data show high multiples on forward earnings of 24.2x [11], which in our view makes the group sensitive to rate expectations. We did not find a sourced rate-sensitivity estimate for the industry.",
+      "Inflation, unemployment, GDP and commodities matter less than for most industries. Demand follows disease burden and insurance coverage, not the cycle, though job losses can reduce coverage. Inflation matters through price controls: the Inflation Reduction Act ties negotiated prices to government rules [15]. We did not find a sourced commodity sensitivity.",
+      "Pharma is mainly defensive with secular growth drivers, but not immune. Health Care's blended Q3 earnings growth was 9.3% against 31.4% for the S&P 500 [12], and individual companies swing with patents and trials: Pfizer's revenue was flat as Paxlovid fell 63% and Comirnaty 29% [4]."
+    ],
+    "financials": [
+      "Growth varies widely by company. In Q3 2026 revenue rose 39% at Lilly [1], 10.3% at AbbVie [2], 7% at Bristol Myers [18], 5.9% at J&J [17], 5% at Merck [3], flat at Pfizer [4] and fell 2% at Teva and 1% at Zoetis [5][16]. Health Care sector earnings grew 9.3% blended [12].",
+      "Margins are high. Damodaran's January 2026 data give a 29.5% pre-tax operating margin and 26.4% after tax for 228 US firms [9][10]. Company gross margins are higher: 85.1% adjusted at AbbVie [2], 84.4% non-GAAP at Lilly [1] and 58.7% non-GAAP at Teva [5]. Zoetis's adjusted net income margin was about 30.1% in Q3, our calculation [16].",
+      "Returns on capital are high. Damodaran gives a 29.3% return on capital and a sales-to-invested-capital ratio of 1.11 for the industry [10]. Goodwill from acquisitions lowers reported returns at acquisitive firms. We did not find a sourced ROE for this sub-industry.",
+      "Leverage differs by company. Teva had $16.7B of debt and $4.1B of cash, net debt of $12.6B, on 30 Sep 2026 [5]. AbbVie's Q3 net interest expense was $700M GAAP [2]. Pfizer paid $7.3B of dividends in nine months and guides to no 2026 buybacks [4]. We did not obtain debt balances for the other companies.",
+      "Free cash flow is large at the leaders but uneven. Teva guides 2026 free cash flow of $2.1B to $2.4B on $16.7B to $17.0B of revenue [5]. Novo Nordisk raised its 2026 free cash flow guidance to DKK 60B to 70B [14]. We did not obtain free cash flow figures for Lilly, J&J or Merck.",
+      "Capital spending is low relative to revenue. Damodaran's industry net capital spending was 1.12% of revenue, with working capital at 38.3% of revenue [9]. The heaviest outflows are R&D and deals rather than plants, though onshoring pledges tied to tariff relief may raise factory spending [6].",
+      "Multiples are high on current earnings. Damodaran's January 2026 US data give forward P/E 24.2x, trailing P/E 55.7x and EV/EBITDA of 15.3x for profitable firms (18.6x for all) [11][19]. EV/EBIT was 20.3x on the same basis [19]. The trailing figure is inflated by depressed earnings at some firms, in our view."
+    ],
+    "risks": [
+      "Regulation is the largest risk. Section 232 tariffs reach 100% on patented imports for companies without pricing or onshoring deals [6]. Medicare negotiation will cover 15 more drugs from 2028, including the first Part B drugs [15]. MFN agreements covering about 90% of the branded market are in place, but terms are confidential [7]. The proposed Medicare MFN models were not confirmed as final in the source we opened [7].",
+      "We did not find a sourced figure on AI's effect on drug-development productivity, so we make no claim. The clearer technological shift is new drug formats: Merck's under-the-skin Keytruda Qlex had $830M of Q3 sales [3], and Novo's Wegovy pill passed 8 million US prescriptions [14].",
+      "Demographics are a support rather than a risk. Ageing populations raise demand for cancer, heart and immunology drugs, and Merck, J&J and AbbVie all report growth in cancer and immunology [3][17][2]. The risk is that payers, facing the cost of ageing, push harder on price, as the Medicare programme shows [15].",
+      "Consumer behavior is shifting toward direct-to-patient channels and cash-pay obesity drugs. The Pfizer MFN agreement was announced alongside TrumpRx, a government site for discounted direct purchases [7], and Novo's Wegovy pill passed 8 million US prescriptions after launch [14].",
+      "New competitors include Chinese-licensed drugs and, in obesity, Novo plus a wave of entrants. Lilly's non-US price fell 29% mainly because Mounjaro joined China's national reimbursement list [1]. Pfizer's Innovent deal is an example of licensing from Asia [4].",
+      "Geopolitical and supply-chain risk is now concrete. Tariffs apply at 15% for EU, Japanese, South Korean and Swiss goods under trade deals and at 10% for the UK, with a 100% default for others [6]. Lilly names trade protection measures as a risk but did not quantify a tariff cost [1].",
+      "Substitutes are mainly generics and biosimilars, plus new drug classes. Pfizer expects a $1.1B 2026 revenue hit from generic and biosimilar competition [4]. Evaluate puts revenue at risk from patent expiries at $300B by 2030 [8]. Bristol Myers' Eliquis and Opdivo are among the largest drugs expiring [8]."
+    ],
+    "horizon": {
+      "opportunities": [
+        "Obesity and diabetes demand is still growing fast, with Lilly's Mounjaro and Zepbound up 65% and 49% in Q3 [1].",
+        "Immunology franchises keep compounding, with AbbVie's Skyrizi and Rinvoq up 22.7% and 23.9% [2].",
+        "New formats such as subcutaneous Keytruda Qlex can extend franchises past patent expiry [3].",
+        "Pricing deals that exempt companies from tariffs give clearer policy terms for the 26 signatories [7][6]."
+      ],
+      "threats": [
+        "Patent expiries put about $300B of revenue at risk by 2030, with Bristol Myers, Merck and Pfizer the most exposed [8].",
+        "Price erosion is spreading to new classes, with Lilly's realized price down 15% and Novo cutting US list prices [1][14].",
+        "Medicare negotiation widens to Part B drugs, with 15 more drugs priced from 2028 [15].",
+        "Tariffs of up to 100% remain the default for firms without pricing or onshoring deals [6]."
+      ],
+      "assessment": "We think the next three to five years split the group into winners and refillers. Lilly, AbbVie and parts of J&J have products growing double digits [1][2][17], while Bristol Myers, Merck and Pfizer must replace large expiring franchises, which is where the Evaluate estimate of $300B at risk bites hardest [8]. Policy has become more predictable for companies that signed pricing deals, but net price pressure continues, as Lilly's 15% fall in realized price shows [1][7]. Volume growth has so far outrun price cuts, but we would not assume that continues as obesity drugs mature. Deal-making is likely to stay active as firms fill gaps."
+    }
+  },
+  "sections": [
+    {
+      "id": "macro",
+      "paragraphs": [
+        "Pharmaceuticals are a defensive, policy-driven group rather than a cyclical one, so the macro backdrop matters mainly through the equity market and policy. FactSet's 6 Nov 2026 report shows the S&P 500 forward P/E at 17.7x, the lowest since late 2023. The index is on track for 33.3% calendar-2026 earnings growth [12]. Health Care is growing far slower: its blended Q3 earnings growth is 9.3% against 31.4% for the index, and revenue growth is 6.3% [12]. These are sector figures that include insurers and services.",
+        "Policy is the more important input than the rate path. The April 2026 Section 232 proclamation set a 100% default tariff on patented drug imports, 15% for the EU, Japan, South Korea and Switzerland and 10% for the UK, with exemptions for companies that have pricing agreements and for generics [6]. By September, 26 drugmakers covering about 90% of the branded US market had signed such agreements, according to a White House statement cited by Wikipedia [7]. We treat that source with care.",
+        "Currency has a modest effect: Merck's worldwide sales grew 5% reported and 4% excluding currency [3], and Novo's DKK sales grew 6% reported and 4% at constant rates [14]. We found no sourced estimate of how the interest-rate path changes the group's earnings."
+      ]
+    },
+    {
+      "id": "demand",
+      "paragraphs": [
+        "Demand rests on disease burden, ageing and new treatments, not the economic cycle. We did not find a sourced estimate of total industry revenue or its growth. The largest firms' 2026 guidance provides a floor on scale: about $101.2B at J&J including MedTech [17], $91B to $92B at Lilly [1], and $66.8B to $67.3B at Merck [3].",
+        "Growth is concentrated in a few categories. Lilly's Mounjaro and Zepbound together sold $16.1B in Q3 [1]. AbbVie's Skyrizi and Rinvoq reached $8.5B, up from a year earlier by 22.7% and 23.9% respectively [2]. Merck's Keytruda family sold $8.6B and Winrevair rose 93% to $694M [3]. Novo's obesity sales were DKK 26.1B, up 22%, with the Wegovy pill adding DKK 5.4B [14].",
+        "The new-product flow is steady: the FDA lists 48 novel approvals for 2026 as of 9 Nov [13]. Against that, mature categories are shrinking: Pfizer's Paxlovid fell 63% and Comirnaty 29% [4], and Teva's global generics revenue fell 16% [5]. Animal health shows more mixed demand, with Zoetis companion animal revenue down 5% and livestock up 7% [16].",
+        "Demand is inelastic for needed medicines but elastic for discretionary or high-cost categories, and payers can restrict use. In our view, ageing populations are a durable tailwind, but their effect on revenue is limited by price control rather than patient numbers."
+      ]
+    },
+    {
+      "id": "structure",
+      "paragraphs": [
+        "On Porter's five forces, entry barriers are very high, since discovery, trials, FDA approval and manufacturing take years and billions of dollars; the FDA approved 48 novel drugs in 2026 through 9 Nov, a small flow against thousands of candidates [13]. Rivalry is intense within each therapeutic class, as Lilly and Novo show in obesity, where Novo is guiding to flat sales while Lilly grows 39% [1][14].",
+        "Buyer power is the strongest force. Governments and insurers set coverage and increasingly price: Medicare negotiation extends to 15 more drugs from 2028 [15], and MFN agreements tie prices to other countries [7]. Supplier power is low for the large firms because discovery is largely in-house, but they depend on acquired assets: Lilly booked $4.2B of acquired IPR&D in a quarter [1].",
+        "The threat of substitutes comes from generics, biosimilars and rival classes. Pfizer expects a $1.1B hit in 2026 from generic and biosimilar competition [4]. Evaluate's estimate of $300B at risk by 2030 puts Bristol Myers' gap at about $38B, Merck's at $23B and Pfizer's at $21B, while Lilly has limited exposure [8].",
+        "Moats are patents and clinical data, so they expire. AbbVie shows a company that has replaced a lost franchise: Humira fell 31.2% to $683M while Skyrizi and Rinvoq grew to $8.5B [2]. Generic makers have no moat but scale: Teva's US generic revenue fell 39% [5]. We did not find sourced industry concentration ratios."
+      ]
+    },
+    {
+      "id": "environment",
+      "paragraphs": [
+        "Government is the dominant outside force. Politically, the Section 232 proclamation of 2 Apr 2026 imposes tariffs of up to 100% on patented drug imports, effective 31 Jul 2026 for named companies and 29 Sep for others, and waives them for firms with MFN pricing agreements or approved onshoring plans (20%, rising to 100% in April 2030) [6]. Generics and several specialty categories, including orphan-only drugs and cell and gene therapies, are exempt for now [6].",
+        "Pricing regulation is moving on two tracks. Medicare's third negotiation cycle named 15 drugs on 27 Jan 2026, including Part B drugs for the first time, with prices applying from 2028; the 2025 budget law widened the orphan-drug exclusion, delaying Keytruda and Opdivo to later cycles [15]. Separately, CMS proposed mandatory Medicare MFN models, and a voluntary Medicaid model had been joined by all states by September 2026, per the source we opened [7].",
+        "FDA remains the gatekeeper and has kept a steady flow, with 48 novel approvals in 2026 through 9 Nov [13]. Technology is changing formats more than the science of approval: Merck's Qlex had $830M of sales in Q3 [3] and Novo's Wegovy pill passed 8 million prescriptions [14].",
+        "The social and legal environment matters too. J&J's Q3 earnings include a special charge for a proposed talc litigation resolution, with a $5.5B pre-tax litigation adjustment [17]. We did not find a sourced assessment of how AI affects drug development and make no claim."
+      ]
+    },
+    {
+      "id": "economics",
+      "paragraphs": [
+        "The economics are among the best in the market. Damodaran's January 2026 data for 228 US pharmaceutical firms show a pre-tax operating margin of 29.5%, an after-tax margin of 26.4% and a return on capital of 29.3% on a sales-to-capital ratio of 1.11 [9][10]. Net capital spending is only 1.12% of revenue [9]. These are broad industry averages that include small firms.",
+        "Company data show the range. AbbVie's Q3 adjusted gross margin was 85.1% and its adjusted operating margin 48.7% [2]. Lilly's non-GAAP gross margin was 84.4% and its operating income was $8.6B on $24.4B revenue, held down by $4.2B of acquired IPR&D [1]. Teva's non-GAAP operating margin was 31.7% [5]. Zoetis's adjusted net income was $720M on $2.39B of revenue [16].",
+        "Operating leverage is strong when a product scales: Lilly's gross profit rose 40% on revenue up 39%, while R&D rose 23% [1]. It reverses when a franchise expires: AbbVie's Humira dropped 31.2% [2]. Deal charges distort comparisons, as Bristol's non-GAAP EPS fell 17% with a $0.58 charge [18].",
+        "Free cash flow is strong but varies. Teva guides 2026 free cash flow of $2.1B to $2.4B [5] and Novo of DKK 60B to 70B [14]. Pfizer paid $7.3B of dividends in nine months [4]. We did not find a sourced ROE for the sub-industry."
+      ]
+    },
+    {
+      "id": "earnings",
+      "paragraphs": [
+        "Revisions in Q3 were mostly upward for revenue. Lilly raised 2026 revenue guidance to $91B to $92B from $85B to $87B and lifted underlying EPS by $4.07 at the midpoint, though reported non-GAAP EPS guidance of $35.00 to $36.00 fell slightly because of the Q3 IPR&D charge [1]. Pfizer raised revenue guidance to $62B to $64B and EPS to $2.95 to $3.05 [4]. AbbVie raised EPS to $13.95 to $13.99 [2], J&J to $11.05 to $11.15 [17] and Merck narrowed and raised its sales midpoint to $66.8B to $67.3B [3].",
+        "Others were mixed. Bristol Myers raised revenue guidance to $49.75B to $50.25B but set non-GAAP EPS at $6.35 to $6.55, which includes a $0.60 per share acquired-IPRD hit [18]. Teva raised revenue guidance to $16.7B to $17.0B [5]. Zoetis narrowed revenue to $9.22B to $9.32B and raised adjusted EPS to $6.25 to $6.35 [16]. Novo raised its outlook to -2% to +2% growth [14].",
+        "At sector level, FactSet shows Health Care blended Q3 earnings growth rising to 9.3% from 5.2% a week earlier, with the sector reporting the largest aggregate positive surprise, +13.7%; Pfizer ($0.87 vs $0.74) and Lilly ($7.48 vs $5.71) were among the largest beats [12]. This is the sector, which includes insurers.",
+        "Our view: the headline beats overstate underlying momentum for the older franchises, because growth is narrow. Merck and Pfizer depend on a few products and large expiries are ahead [8]. We did not find consensus 2027 estimates for the group and make no estimate."
+      ]
+    },
+    {
+      "id": "valuation",
+      "paragraphs": [
+        "We did not obtain a current forward P/E for the group, so we use Damodaran's January 2026 US industry data, which are ten months old. They show a forward P/E of 24.2x for Drugs (Pharmaceutical), a trailing P/E of 55.7x and a PEG ratio of 1.40 [11]. EV/EBITDA was 15.3x for firms with positive EBITDA and 18.6x for all firms, with EV/EBIT at 20.3x and 21.1x [19].",
+        "For comparison, FactSet put the S&P 500 forward P/E at 17.7x on 5 Nov 2026, below its 5-year average of 19.8x and 10-year average of 19.1x [12]. If the industry still traded near Damodaran's 24.2x, it would sit at a premium to the market; we cannot confirm that today. We did not find a FactSet Health Care forward P/E in the report text we could read.",
+        "Earnings quality complicates multiples. Reported EPS is cut by deal charges (Lilly $4.57 a share, Bristol $0.58) [1][18], and some earnings come from products with known expiry dates [8]. In our view, a high multiple on today's earnings embeds the assumption that pipelines replace lost sales.",
+        "Free cash flow yields cannot be computed without current prices, which we did not obtain for individual names. Teva guides free cash flow of $2.1B to $2.4B [5]. We make no claim about whether the group is cheap or expensive against its own 10-year history because we did not find that series."
+      ]
+    },
+    {
+      "id": "positioning",
+      "paragraphs": [
+        "The best positioning data are for the broader Health Care sector, not the sub-industry. The Health Care Select Sector SPDR (XLV) held $50.49B of assets, closed at $188.85 on 13 Nov 2026 and returned 25.64% over one year [20]. Its top holdings are Eli Lilly at 16.75%, J&J at 10.04%, AbbVie at 7.64%, Merck at 5.32% and Pfizer at 2.41% [20]. Pharmaceutical names make up a large share of the 64 holdings but the fund also holds insurers and device makers.",
+        "Concentration is notable: Lilly alone is 16.75% of the fund, so sector performance is tied to the obesity trade [20]. Lilly's Q3 revenue beat of $24.40B against $22.58B expected was a leading contributor to Health Care's revenue upgrade [12].",
+        "Capital returns support the group: Pfizer paid $7.3B of dividends in nine months and expects no 2026 buybacks [4]. We did not obtain short-interest, institutional flow or breadth data for pharmaceuticals, nor the group's year-to-date performance against the S&P 500, and make no claim about them."
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "n": 1,
+      "title": "Eli Lilly Q3 2026 sales and earnings release (Form 8-K)",
+      "publisher": "Eli Lilly / SEC",
+      "date": "2026-10-29",
+      "url": "https://www.sec.gov/Archives/edgar/data/0000059478/000005947826000104/q326lillysalesandearningsp.htm"
+    },
+    {
+      "n": 2,
+      "title": "AbbVie Third-Quarter 2026 Results (Form 8-K, Exhibit 99.1)",
+      "publisher": "AbbVie / SEC",
+      "date": "2026-10-30",
+      "url": "https://www.sec.gov/Archives/edgar/data/0001551152/000155115226000033/abbv-20260930xexhibit991.htm"
+    },
+    {
+      "n": 3,
+      "title": "Merck & Co. Form 10-Q for Q3 2026 (filing index excerpt)",
+      "publisher": "Merck / SEC via last10k.com",
+      "date": "2026-10-29",
+      "url": "https://last10k.com/sec-filings/mrk/0000310158-26-000248.htm"
+    },
+    {
+      "n": 4,
+      "title": "Pfizer Reports Strong Third-Quarter 2026 Results and Raises 2026 Guidance",
+      "publisher": "Pfizer via Finviz",
+      "date": "2026-11-03",
+      "url": "https://finviz.com/news/414019/pfizer-reports-strong-third-quarter-2026-results-and-raises-2026-guidance"
+    },
+    {
+      "n": 5,
+      "title": "Teva's Pivot to Growth Strategy Delivers 33% Growth Across Key Innovative Brands, Raises 2026 Outlook",
+      "publisher": "Teva via Finviz",
+      "date": "2026-11-03",
+      "url": "https://finviz.com/news/414071/tevas-pivot-to-growth-strategy-delivers-33-growth-across-key-innovative-brands-raises-2026-outlook-for-austedo-ajovy-and-uzedy-delivers-substantial-gross-margin-expansion"
+    },
+    {
+      "n": 6,
+      "title": "New tariffs imposed on pharmaceuticals following Section 232 investigation",
+      "publisher": "EY Tax News",
+      "date": "2026-04",
+      "url": "https://taxnews.ey.com/news/2026-0786-new-tariffs-imposed-on-pharmaceuticals-following-section-232-investigation"
+    },
+    {
+      "n": 7,
+      "title": "Most Favored Nation Drug Pricing",
+      "publisher": "Wikipedia",
+      "date": "2026-11-14",
+      "url": "https://en.wikipedia.org/wiki/Most_Favored_Nation_Drug_Pricing"
+    },
+    {
+      "n": 8,
+      "title": "How Big Pharma is navigating a $300 billion patent cliff",
+      "publisher": "PharmaVoice",
+      "date": "2026-01-30",
+      "url": "https://www.pharmavoice.com/news/big-pharma-navigating-patent-cliff-300-billion-jnj-merck-abbvie/810915/"
+    },
+    {
+      "n": 9,
+      "title": "Cash Flow Drivers by Sector (US), January 2026",
+      "publisher": "Aswath Damodaran, NYU Stern",
+      "date": "2026-01",
+      "url": "https://pages.stern.nyu.edu/~adamodar/New_Home_Page/datafile/cfbasics.html"
+    },
+    {
+      "n": 10,
+      "title": "Margin/ROIC by Sector (US), January 2026",
+      "publisher": "Aswath Damodaran, NYU Stern",
+      "date": "2026-01",
+      "url": "https://pages.stern.nyu.edu/~adamodar/New_Home_Page/datafile/mgnroc.html"
+    },
+    {
+      "n": 11,
+      "title": "PE Ratios by Sector (US), January 2026",
+      "publisher": "Aswath Damodaran, NYU Stern",
+      "date": "2026-01",
+      "url": "https://pages.stern.nyu.edu/~adamodar/New_Home_Page/datafile/pedata.html"
+    },
+    {
+      "n": 12,
+      "title": "FactSet Earnings Insight (6 November 2026)",
+      "publisher": "FactSet",
+      "date": "2026-11-06",
+      "url": "https://advantage.factset.com/hubfs/Website/Resources%20Section/Research%20Desk/Earnings%20Insight/EarningsInsight_110626.pdf"
+    },
+    {
+      "n": 13,
+      "title": "Novel Drug Approvals for 2026",
+      "publisher": "US Food and Drug Administration",
+      "date": "2026-11-09",
+      "url": "https://www.fda.gov/drugs/novel-drug-approvals-fda/novel-drug-approvals-2026"
+    },
+    {
+      "n": 14,
+      "title": "Novo Nordisk beats Q3 profit forecast with 27% growth, raises 2026 outlook",
+      "publisher": "StockAnalysis.com",
+      "date": "2026-11-04",
+      "url": "https://stockanalysis.com/news/novo-nordisk-q3-2026-profit-beats-raises-outlook/"
+    },
+    {
+      "n": 15,
+      "title": "Key takeaways from the third Medicare drug price negotiation",
+      "publisher": "Milliman",
+      "date": "2026-02",
+      "url": "https://www.milliman.com/en/insight/key-takeaways-third-medicare-drug-price-negotiation"
+    },
+    {
+      "n": 16,
+      "title": "Zoetis Announces Third Quarter 2026 Results",
+      "publisher": "Zoetis",
+      "date": "2026-11-05",
+      "url": "https://investor.zoetis.com/news/news-details/2026/Zoetis-Announces-Third-Quarter-2026-Results-Highlights-Progress-Advancing-Innovation-Across-Diversified-Portfolio-and-Narrows-Full-Year-2026-Revenue-Guidance-Raises-Full-Year-2026-Adjusted-EPS-Guidance/default.aspx"
+    },
+    {
+      "n": 17,
+      "title": "Johnson & Johnson Reports Q3 2026 Results, Raises 2026 Guidance",
+      "publisher": "Johnson & Johnson via Finviz",
+      "date": "2026-10-13",
+      "url": "https://finviz.com/news/401522/johnson-johnson-reports-q3-2026-results-raises-2026-guidance"
+    },
+    {
+      "n": 18,
+      "title": "Bristol Myers Squibb Form 10-Q for Q3 2026 (filing index excerpt)",
+      "publisher": "Bristol Myers Squibb / SEC via last10k.com",
+      "date": "2026-10-29",
+      "url": "https://last10k.com/sec-filings/bmy/0000014272-26-000024.htm"
+    },
+    {
+      "n": 19,
+      "title": "Enterprise Value Multiples by Sector (US), January 2026",
+      "publisher": "Aswath Damodaran, NYU Stern",
+      "date": "2026-01",
+      "url": "https://pages.stern.nyu.edu/~adamodar/New_Home_Page/datafile/vebitda.html"
+    },
+    {
+      "n": 20,
+      "title": "State Street Health Care Select Sector SPDR ETF (XLV)",
+      "publisher": "StockAnalysis.com",
+      "date": "2026-11-13",
+      "url": "https://stockanalysis.com/stocks/xlv/"
+    }
+  ]
+}

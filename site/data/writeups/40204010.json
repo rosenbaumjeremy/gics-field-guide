@@ -1,0 +1,423 @@
+{
+  "code": "40204010",
+  "added": "2026-11-14",
+  "asOf": "2026-11-10",
+  "summary": "Mortgage REITs just had a bruising third quarter. A jump in long-term rates and wider mortgage spreads cut book value per share by 11.4% at Annaly [1], 16.9% at AGNC [2] and 15.4% at Dynex [3], and credit-focused Starwood and Blackstone Mortgage Trust booked large loan-loss charges [4][5]. Earnings available for distribution still covered dividends at Annaly [1], but fell short at Starwood [4]. The 30-year mortgage rate was 7.18% on 5 Nov, below its early-October 7.4% peak [6]. The sector ETF REM is down 17.1% year to date [7]. We read the group as a leveraged bet on spreads, now repricing after a drawdown.",
+  "metrics": [
+    {
+      "label": "Annaly book value per share",
+      "value": "$17.86",
+      "context": "Down 11.4% from $20.15 at 30 Jun 2026; economic return (7.6%) for Q3 2026",
+      "source": 1
+    },
+    {
+      "label": "AGNC tangible net book value per share",
+      "value": "$7.13",
+      "context": "Fell $1.45 in Q3 2026; economic return (12.7%); at-risk leverage 7.9x",
+      "source": 2
+    },
+    {
+      "label": "Dynex book value per share",
+      "value": "$10.91",
+      "context": "Down from $12.90 at 30 Jun 2026; leverage 9.0x including TBAs",
+      "source": 3
+    },
+    {
+      "label": "Starwood distributable earnings",
+      "value": "$0.31 per share",
+      "context": "Q3 2026; $0.41 before realized commercial lending losses; dividend $0.48",
+      "source": 4
+    },
+    {
+      "label": "Blackstone Mortgage Trust repayments",
+      "value": "$2.3B",
+      "context": "Q3 2026, highest since Q4 2021; net loss $327.6M on office loans",
+      "source": 5
+    },
+    {
+      "label": "US 30-year fixed mortgage rate (Freddie Mac)",
+      "value": "7.18%",
+      "context": "Week to 5 Nov 2026; 6.22% a year earlier; early-October peak 7.4%",
+      "source": 6
+    },
+    {
+      "label": "iShares Mortgage Real Estate ETF (REM) year-to-date return",
+      "value": "-17.11%",
+      "context": "As of 9 Nov 2026; assets $439.8M; trailing yield 11.39%",
+      "source": 7
+    },
+    {
+      "label": "Fed funds target range",
+      "value": "3.75% to 4.00%",
+      "context": "Held 28 Oct 2026 by a 10 to 2 vote; both dissenters wanted a hike",
+      "source": 8
+    }
+  ],
+  "watch": [
+    "Mortgage spreads and long-term rates drive book value, and the 10-year Treasury yield was 4.84% on 5 Nov after topping 5.30% in early October [6].",
+    "Two Fed officials dissented in favour of a rate hike on 28 Oct, so a hawkish turn would pressure funding costs and hedges again [8].",
+    "Federal housing agencies were authorized in January to buy up to $225 billion of mortgage bonds each, a possible support for spreads that analysts questioned [9].",
+    "Commercial-property credit remains the weak link: Starwood booked a $336.6M provision and Blackstone Mortgage Trust took reserves on six newly impaired loans [4][5].",
+    "Dividend coverage is thin outside agency names: Starwood's distributable earnings of $0.31 were below its $0.48 dividend [4]."
+  ],
+  "bellwethers": [
+    "Annaly Capital Management",
+    "AGNC Investment",
+    "Starwood Property Trust",
+    "Rithm Capital",
+    "Blackstone Mortgage Trust",
+    "Dynex Capital",
+    "ARMOUR Residential REIT",
+    "Ladder Capital"
+  ],
+  "basics": {
+    "intro": "Mortgage REITs own loans and mortgage bonds rather than buildings. Most borrow short-term money and buy longer-term mortgage assets, earning the gap between what the assets yield and what the borrowing costs. As REITs they pay out almost all taxable income, so they are bought for dividends. Two families sit here: residential names such as Annaly and AGNC that mainly hold government-backed mortgage bonds, and commercial lenders such as Starwood and Blackstone Mortgage Trust that make loans on offices, apartments and other property. Owners of physical property sit in the Real Estate sector's equity REIT groups, and banks sit in Financials.",
+    "products": [
+      {
+        "name": "Agency mortgage bonds",
+        "what": "Bonds backed by home loans and guaranteed by Fannie Mae, Freddie Mac or Ginnie Mae. Credit risk is low, so returns come from the spread over Treasuries, amplified by borrowing.",
+        "examples": "AGNC, Annaly's Agency group, Dynex, ARMOUR"
+      },
+      {
+        "name": "Residential credit",
+        "what": "Home loans and bonds with no government guarantee, so the owner takes the risk of borrowers not paying in exchange for higher yield.",
+        "examples": "Annaly's Onslow Bay securitizations, Chimera, MFA"
+      },
+      {
+        "name": "Mortgage servicing rights",
+        "what": "The right to collect payments on a home loan and keep a fee. These gain value when rates rise and loans repay more slowly, which offsets losses on bonds.",
+        "examples": "Rithm's Newrez, Annaly's MSR group"
+      },
+      {
+        "name": "Commercial real estate loans",
+        "what": "Floating-rate loans to owners of offices, apartments, hotels and industrial property, often held on balance sheet and funded with debt.",
+        "examples": "Starwood Property Trust, Blackstone Mortgage Trust, Ladder"
+      },
+      {
+        "name": "Origination and asset management",
+        "what": "Some names also make new loans, sell them, or manage money for outside investors and earn fees.",
+        "examples": "Rithm's Newrez and Genesis Capital, Starwood's servicing and infrastructure lending"
+      }
+    ],
+    "terms": [
+      {
+        "term": "Book value per share",
+        "meaning": "Net assets divided by shares. Because mortgage REITs hold marked-to-market securities, book value moves with markets, and the share price is often quoted as a multiple of it."
+      },
+      {
+        "term": "Economic return",
+        "meaning": "The change in book value per share plus dividends paid, as a share of starting book value. It is the cleanest quarterly scorecard."
+      },
+      {
+        "term": "Agency MBS",
+        "meaning": "Mortgage-backed securities guaranteed by a US government agency or a government-sponsored enterprise, so investors bear rate and prepayment risk but little default risk."
+      },
+      {
+        "term": "Mortgage spread",
+        "meaning": "The extra yield on mortgage bonds over Treasuries or swaps. When it widens, existing bonds fall in price and book value drops."
+      },
+      {
+        "term": "Repo (repurchase agreement)",
+        "meaning": "Short-term secured borrowing in which the REIT pledges bonds as collateral. It is the main funding for agency names and has to be rolled over every few weeks."
+      },
+      {
+        "term": "Leverage",
+        "meaning": "Debt relative to equity. Higher leverage magnifies both gains and losses on book value."
+      },
+      {
+        "term": "Prepayment",
+        "meaning": "Homeowners paying off loans early, usually when they refinance or move. Faster prepayment on bonds bought above par cuts yield."
+      },
+      {
+        "term": "Earnings available for distribution (EAD)",
+        "meaning": "A non-GAAP profit measure that strips out unrealized market swings. Managements use it to judge whether the dividend is covered."
+      },
+      {
+        "term": "Distributable earnings",
+        "meaning": "The commercial lenders' version of EAD, adjusted for items like loan-loss provisions and realized gains. Dividend coverage is tested against it."
+      },
+      {
+        "term": "CECL reserve",
+        "meaning": "An accounting provision for expected loan losses booked up front. A big increase hits GAAP income even before a loan is sold or foreclosed."
+      },
+      {
+        "term": "TBA",
+        "meaning": "To-be-announced forward market for agency bonds. Firms use it to buy or sell mortgage exposure for future delivery without funding it on balance sheet."
+      },
+      {
+        "term": "Hedge ratio",
+        "meaning": "The share of interest-rate risk offset with swaps or Treasury futures. Hedging cuts rate risk but not the risk of mortgage spreads widening."
+      }
+    ],
+    "drivers": [
+      {
+        "name": "Mortgage spreads",
+        "how": "When the extra yield investors demand rises, agency bond prices fall and book value drops, even with hedges. When it narrows, book value recovers. It is the single largest driver of residential names."
+      },
+      {
+        "name": "Interest-rate level and volatility",
+        "how": "Big, fast moves in long-term yields make hedging harder and widen spreads. Calm markets let a levered portfolio earn its carry."
+      },
+      {
+        "name": "Funding costs",
+        "how": "Repo rates follow the Fed's short-term rate. Higher funding costs shrink the gap between asset yield and borrowing cost."
+      },
+      {
+        "name": "Prepayment speeds",
+        "how": "Lower mortgage rates speed refinancing, which shortens the life of bonds bought at a premium and reduces income. Higher rates slow it."
+      },
+      {
+        "name": "Commercial real estate credit",
+        "how": "Property values, rents and refinancing access decide whether loans repay. Losses appear as reserves, impairments and dividend cuts."
+      },
+      {
+        "name": "Equity issuance and share price versus book",
+        "how": "Names trading above book can sell shares and add assets without diluting book value. Trading below book blocks that growth and may prompt buybacks."
+      },
+      {
+        "name": "Government housing policy",
+        "how": "Decisions on how much Fannie Mae and Freddie Mac buy, and on the future of the agencies, change mortgage demand and spreads."
+      }
+    ]
+  },
+  "fundamentals": {
+    "business": [
+      "The main revenue is net interest income: interest on mortgage assets minus the cost of borrowing and hedging. Annaly describes earning the spread between asset yield and borrowing cost [10]. In Q3 2026 its average asset yield was 5.58% and its cost of interest-bearing liabilities 4.34%, a net interest spread of 1.24% [1]. Rithm and Starwood add servicing, origination and fee businesses [11][4].",
+      "Customers are not consumers but borrowers and capital markets. Residential names buy loans or bonds created by lenders and agencies, while commercial lenders such as Blackstone Mortgage Trust lend to property owners [5]. Shareholders are mostly income investors; REM's trailing distribution yield was 11.39% [7]. Rithm's Newrez originates loans and Genesis made $1.5B of transition loans in Q3 [11].",
+      "The principal cost is funding. Annaly had $85.5B of repurchase agreements at 30 Sep 2026, with a weighted average of 30 days to maturity [1]. Interest is followed by hedging costs, management or compensation expense, and credit-loss provisions. Starwood's Q3 provision was $336.6M [4].",
+      "Pricing power is minimal in agency bonds, which trade at market spreads, and slightly greater in credit, servicing and origination, where underwriting skill, sourcing and scale matter. Management cannot set the asset yield. In our view, the differentiator is the ability to buy cheaply when spreads widen and fund at low cost, so scale in repo and securitization is the closest thing to pricing power.",
+      "Assets are mortgage bonds, loans and servicing rights; liabilities are mostly repo, securitization debt and unsecured notes. Annaly's $106.5B portfolio was 86% agency by market value ($91.8B), with $10.4B of residential credit and $4.3B of servicing rights [1]. Starwood's commercial lending portfolio was a record $17.8B [4]. AGNC's was $94.4B at fair value [2].",
+      "The group is asset-light in the sense of no plants or stores, yet balance-sheet intensive: it needs equity and funding rather than capital spending. Annaly had 212 employees at the end of 2025 [10]. Growth is financed by issuing shares, and AGNC raised $992M through at-the-market sales in Q3 [2]."
+    ],
+    "overview": [
+      "We did not find a sourced estimate of total sub-industry revenue or assets. As a size marker, REM, which tracks the FTSE Nareit All Mortgage Capped index, held 30 companies and $439.8M of assets at 9 Nov 2026 [7]. Annaly's non-affiliate market value was about $12.1B in mid-2025 [10]. The ETF's year-to-date return was -17.11% [7].",
+      "The main segments are agency mortgage bonds (Annaly, AGNC, Dynex, ARMOUR), residential credit and servicing (Rithm, Annaly's credit and MSR groups), and commercial real estate lending (Starwood, Blackstone Mortgage Trust, Ladder). REM's top holdings were Annaly 21.73%, AGNC 15.37% and Starwood 6.88% at 30 Sep 2026 [7].",
+      "These companies sit between homeowners or property owners, who borrow, and investors who buy mortgage bonds. Suppliers are lenders, the agencies Fannie Mae, Freddie Mac and Ginnie Mae, and repo dealers. Annaly's OBX program issued 29 deals backed by $15.2B of whole loans in 2025 [10].",
+      "The industry's current form is the legacy of the financial crisis. Agency guarantees, central-bank bond buying and tighter bank capital rules pushed mortgage risk toward REITs and funds. A recent policy turn: in January 2026 the FHFA raised the cap on each government-sponsored enterprise's mortgage-bond holdings from $40B to $225B [9].",
+      "Geography is almost entirely the United States, since the assets are US home loans, US agency bonds and mainly US commercial property. The mortgage rate benchmark is the Freddie Mac survey, which stood at 7.18% on 5 Nov 2026 [6]. We did not find a regional split of holdings."
+    ],
+    "competition": [
+      "We did not find a sourced count of listed mortgage REITs; REM holds 30 [7]. Annaly lists its competitors as financial institutions, institutional investors, other lenders, government entities and other REITs [10]. The competitive set also includes banks, insurers, hedge funds and the housing agencies themselves.",
+      "By REM's weights at 30 Sep 2026, the leaders are Annaly (21.73%), AGNC (15.37%), Starwood (6.88%), Ellington Financial (4.57%), Dynex (4.53%), Rithm (4.52%), ARMOUR (4.44%) and Blackstone Mortgage Trust (4.23%) [7]. These are ETF weights, which reflect capped market value, not market share of mortgages.",
+      "The group is concentrated at the top among agency names and fragmented below. The top two holdings make up 37.10% of REM, and the top 15 make up 84.35% [7]. Against a $13 trillion mortgage market [9], even the largest firms hold a small fraction.",
+      "Barriers are modest in capital terms but real in funding. A new REIT must raise equity, secure repo lines and meet REIT and Investment Company Act tests [10]. Established firms have access to dozens of counterparties and securitization programs, such as Annaly's 101 OBX deals since 2018 [10].",
+      "Scale helps with funding terms, hedging costs and securitization access, and with the cost base. Annaly ran with 212 employees at end-2025 [10]. The advantage does not show up in asset yield, which is set by the market. We found no sourced operating-cost ratios by company.",
+      "Agency bonds are close to commodities, since the credit guarantee is the same across issuers. Differentiation comes from portfolio composition, hedging, leverage and, in credit, underwriting and servicing. Rithm's mix of Newrez servicing and lending earned $329.7M of pretax operating income in Q3 [11].",
+      "Bargaining power sits with funding providers and the government agencies. Annaly's repo averaged 30 days to maturity [1], so lenders can reprice or pull funding quickly. The agencies decide how much supply and demand enters the market, as the cap on their purchases shows [9]. Borrowers have little power over the REIT."
+    ],
+    "drivers": [
+      "Revenue growth follows portfolio size and the net spread. Growth comes mostly from raising equity and adding assets. AGNC sold 97.6M shares for $992M in Q3 [2]. Commercial lenders grow through originations and shrink through repayments, as Blackstone Mortgage Trust collected $2.3B [5].",
+      "Operating margin is the net interest spread minus costs. Annaly's net interest margin was 1.54% on a GAAP basis in Q3 [1]. Spreads widen when funding costs fall relative to asset yield and compress when funding costs rise or assets prepay. Hedging gains and losses blur reported margins.",
+      "Key cost variables are repo rates, hedging costs, prepayment speeds and credit costs. Annaly's economic cost of liabilities was 4.03% [1]. In commercial lending the largest variable is the provision for loan losses: $336.6M at Starwood [4].",
+      "Interest-rate sensitivity is high and cuts several ways. Short rates set funding cost; long rates and volatility set bond prices and prepayment. Annaly's hedge ratio was 100% [1], yet book value still fell 11.4% as the 30-year mortgage rate reached a three-year high near 7.4% [6].",
+      "GDP, unemployment and inflation matter mostly through rates and credit. The Fed said on 28 Oct that activity was expanding at a strong pace and inflation remained elevated [8]. Starwood's chairman said higher interest costs were hurting borrowers [4]. Commodity prices matter little directly.",
+      "The industry is cyclical with a secular income appeal. Book value swings with rates and spreads: Dynex's fell 15.4% in one quarter [3]. Dividends are the attraction, but payouts can be cut when earnings fall short, as when Starwood's distributable earnings of $0.31 trailed its $0.48 dividend [4]."
+    ],
+    "financials": [
+      "Earnings are volatile because GAAP results include market-value changes. Annaly lost $1.36 per share in Q3 2026 on GAAP, yet its earnings available for distribution were $0.80, up from $0.79 [1]. Rithm earned $0.38 GAAP and $0.55 in earnings available for distribution [11]. Starwood lost $1.08 per share on GAAP [4].",
+      "Gross margin is not meaningful for lenders. Damodaran's January 2026 table for the broad R.E.I.T. industry (190 firms, mostly equity REITs, so not a close match) shows a 58.08% gross margin, 26.37% pre-tax operating margin and 13.23% net margin [12]. A better indicator here is Annaly's 1.24% GAAP net interest spread [1].",
+      "Returns on equity are low and volatile. Damodaran's broad R.E.I.T. group showed a 5.04% return on equity and a price-to-book of 1.99 in January 2026 [13], though that mixes property owners with mortgage REITs. Annaly's annualized GAAP return on average equity was (24.35%) in Q3 2026 [1]. ROIC is not a useful measure for lenders.",
+      "Leverage is the defining feature. Annaly's economic leverage was 5.9x and GAAP leverage 8.0x at 30 Sep 2026 [1], AGNC's at-risk leverage was 7.9x [2] and Dynex's 9.0x including TBAs [3]. Starwood's equity was $5.84B against roughly $24.3B of debt on a rough calculation [4].",
+      "Free cash flow is not a standard measure because the balance sheet is the business. Cash earnings are tracked as EAD or distributable earnings: $0.80 for Annaly, $0.31 for Starwood, and $0.42 for Blackstone Mortgage Trust before realized items [1][4][5]. Dividends declared were $0.75 at Annaly, $0.48 at Starwood and $0.51 at Dynex [1][4][3].",
+      "Capital expenditure is negligible. Growth uses equity and debt instead: AGNC raised $992M through at-the-market share sales in Q3 2026 [2]. Liquidity is the constraint: AGNC held $6.3B of cash and unencumbered agency bonds [2].",
+      "Valuation is quoted against book value, not earnings. Damodaran's broad REIT price-to-book was 1.99 in January 2026 [13]. We did not obtain current price-to-book ratios for the group. REM's trailing yield was 11.39% at 9 Nov 2026 [7]."
+    ],
+    "risks": [
+      "Regulatory risk centres on housing finance and REIT status. Annaly must distribute at least 90% of REIT taxable income and meet Investment Company Act exemptions, and its 10-K says the cumulative impact of recent policy shifts is unclear [10]. The January 2026 move to lift the agencies' mortgage-bond cap to $225B is one example [9].",
+      "Technology disruption is limited to origination and servicing, where automation affects Rithm's Newrez [11]. We found no sourced evidence on AI affecting the sub-industry. In our view the main technology effect is in analytics and hedging rather than a threat to the business model.",
+      "Demographics matter through household formation and mortgage demand. We did not find sourced demographic data for this group. The more immediate effect is that high rates keep fewer homeowners moving, which slows prepayments: the 30-year rate was 7.18%, against 6.22% a year earlier [6].",
+      "Changing consumer behavior shows up in mortgage demand and lender volume. We found no sourced origination volumes for the group. Rate-lock effects and the choice between renting and owning affect the pipeline. Investor behaviour matters too: REM saw $69M of outflows year to date [7].",
+      "New competitors include banks returning to mortgage bonds, hedge funds and the housing agencies, which can buy bonds directly. The agencies' retained-portfolio caps were raised to $225B each, and analysts questioned whether they have the liquidity to use it [9]. Private credit funds also compete with commercial mortgage REITs, in our view.",
+      "Geopolitical shocks flow through rates. The 10-year Treasury yield was 3.97% before the US war with Iran began in late February and exceeded 5.30% in early October [6]. Supply chains matter little, but sanctions, energy prices and inflation expectations affect bond yields and the Fed [8].",
+      "Substitutes exist for income investors, including bonds, credit funds and bank deposits. A mortgage REIT's dividend is only as safe as its earnings. Starwood's distributable earnings did not cover its dividend in Q3 [4], and Blackstone Mortgage Trust took reserves against six impaired loans of about $800M [5]."
+    ],
+    "horizon": {
+      "opportunities": [
+        "Wider spreads raise forward returns on new agency purchases, as Dynex's chief executive called the market a compelling forward opportunity [3].",
+        "If long-term yields keep easing from 5.30% in early October toward the 4.84% of 5 Nov, book values could recover [6].",
+        "Commercial lenders are collecting repayments and shrinking watch lists, with Blackstone Mortgage Trust's watch list the lowest since 2019 [5].",
+        "Bigger agency purchases could narrow spreads if the January 2026 authority is used [9]."
+      ],
+      "threats": [
+        "A hawkish Fed could push long rates and spreads higher again, as two Fed officials already wanted a hike [8].",
+        "More office and property loan losses could force further reserves and dividend pressure at credit lenders [4][5].",
+        "High leverage of 7.9x to 9.0x leaves agency names exposed to funding squeezes [2][3].",
+        "Housing finance policy is unsettled, and analysts questioned the agencies' ability to execute large purchases [9]."
+      ],
+      "assessment": "We think the next three to five years depend on whether rates settle. The third quarter showed how fast leveraged mortgage portfolios can lose book value when spreads widen, with declines of 11.4% to 16.9% in the agency names [1][2][3]. The same widening raises the yield on new purchases, which management teams are citing as a reason to stay invested [3]. Credit lenders face a longer clean-up in commercial property, where reserves and sales continue [4][5]. Policy is the wild card, since agency purchases and any changes to the housing agencies would alter mortgage demand [9]. We would watch dividend coverage and book value trends rather than headline yields."
+    }
+  },
+  "sections": [
+    {
+      "id": "macro",
+      "paragraphs": [
+        "The group is in a rate shock rather than a recession. The Fed held its target range at 3.75% to 4.00% on 28 Oct 2026 by a 10 to 2 vote, with both dissenters preferring a quarter-point rise, and said activity was expanding at a strong pace while inflation remained elevated [8]. That is a difficult mix for levered holders of fixed-rate assets.",
+        "Long rates did the damage. The 10-year Treasury yield surged above 5.30% in early October, against 3.97% before the war with Iran began in late February, and stood at 4.84% on 5 Nov [6]. The Freddie Mac 30-year rate peaked near 7.4%, a nearly three-year high, and eased to 7.18% by 5 Nov against 6.22% a year earlier [6].",
+        "The hit showed up in Q3 book values: Annaly's fell 11.4% to $17.86 [1], AGNC's tangible book fell $1.45 to $7.13 [2], and Dynex's fell to $10.91 from $12.90 [3]. Blackstone Mortgage Trust said the impact of higher rates was largely reflected in its book value [5]. Our read is that the cycle is turning from a shock to a repricing, and a hawkish Fed would reopen the risk."
+      ]
+    },
+    {
+      "id": "demand",
+      "paragraphs": [
+        "We did not find a sourced estimate of the addressable market for mortgage REIT capital. The underlying mortgage market is large: a news report put it at about $13 trillion [9]. Mortgage REITs are a small part of that, funding a slice of agency and credit risk.",
+        "Demand for the product is demand for income. REM's trailing 12-month distribution yield was 11.39% [7], but the fund returned -17.11% year to date and -13.32% over one year, against +8.36% over three years [7]. Flows were -$69M year to date [7]. This is a cyclical, rate-sensitive demand pool.",
+        "On the asset side, high mortgage rates cap lending. The 30-year rate was 7.18% on 5 Nov, up from 6.22% a year earlier [6]. Rithm's Newrez and Genesis Capital still originated, with Genesis making $1.5B of transition loans in Q3 [11]. Annaly's residential credit group has been growing securitization volume, with 29 OBX deals in 2025 [10].",
+        "Demographics matter only indirectly. Household formation and the pace of home sales set new mortgage supply, and we found no sourced demographic data for this group. Our view is that the long-term prospects depend more on rates and on housing policy than on population growth."
+      ]
+    },
+    {
+      "id": "structure",
+      "paragraphs": [
+        "Applying Porter's five forces, rivalry is high in agency bonds, where products are interchangeable and the largest names compete for the same assets. Annaly and AGNC together make up 37.10% of REM's weights [7]. Buyer power, in the sense of borrowers, is low, but supplier power is high: repo lenders can reprice quickly, with Annaly's repo averaging 30 days to maturity [1].",
+        "The threat of new entrants is moderate. Capital is available, but a new REIT must manage REIT distribution rules, the Investment Company Act and funding access [10]. The threat of substitutes comes from banks, insurers, hedge funds and the housing agencies themselves, which can buy mortgage bonds directly, as FHFA's January 2026 cap change allows [9].",
+        "Moats are thin in agency bonds and stronger where origination, servicing or underwriting skills matter. Rithm's Newrez produced $329.7M of pretax operating income in Q3 [11], and Starwood has a record $17.8B commercial lending book alongside servicing and infrastructure lending [4]. Our read is that scale and diversified franchises explain who recovers fastest.",
+        "Concentration is high at the top: REM's top 15 holdings made up 84.35% of the fund at 30 Sep 2026 [7]. We found no sourced share of the overall mortgage market for these firms."
+      ]
+    },
+    {
+      "id": "environment",
+      "paragraphs": [
+        "Regulation shapes the business model. Annaly distributes at least 90% of REIT taxable income and must fit within an exemption from the Investment Company Act [10]. It has also claimed relief from CFTC commodity pool operator rules for mortgage REITs [10]. Housing finance is political: in January 2026 the FHFA raised each agency's limit on mortgage-bond holdings from $40B to $225B, against a $200B target [9].",
+        "The policy has critics. Analysts said neither Fannie Mae nor Freddie Mac appeared to have the liquidity to buy $225B, and economists called it a short-lived boost [9]. FHFA's director said purchases would not exceed $200B [9]. Treasury's $450B cap still applies [9]. For REITs, agency buying competes for supply but can narrow spreads.",
+        "The Fed is the other key policy actor. Its 28 Oct statement said inflation was elevated and two members wanted to raise rates [8]. Geopolitics enters through energy and rates: the 10-year yield was 3.97% before the war with Iran began in late February and topped 5.30% in early October [6].",
+        "Technology is a modest factor. It affects loan origination and servicing at Rithm [11] and hedging and analytics across the group. We found no sourced evidence of AI disrupting the business, and we do not claim any."
+      ]
+    },
+    {
+      "id": "economics",
+      "paragraphs": [
+        "Reported margins are not comparable with other industries. The core measure is net interest spread: Annaly earned 5.58% on assets and paid 4.34% on liabilities, a 1.24% spread, and a net interest margin of 1.54% in Q3 2026 [1]. Leverage of 5.9x economic and 8.0x GAAP turns that thin spread into a mid-single-digit return on equity before market-value moves [1].",
+        "Damodaran's January 2026 data for the broad R.E.I.T. group (190 firms) show a 26.37% pre-tax operating margin and 13.23% net margin, and a 5.04% return on equity [12][13]. That group includes property-owning REITs, so it is not a clean read for mortgage REITs. We did not find ROIC or free cash flow, which are not standard for lenders.",
+        "Operating leverage is limited because the business is spread capture. Costs are small in dollars, since Annaly runs on 212 employees [10], but credit losses can swamp it. Starwood's $336.6M provision produced a $389.7M GAAP loss against distributable earnings of $116.8M [4]. Blackstone Mortgage Trust posted a $327.6M net loss but $0.42 of distributable earnings [5].",
+        "Capital intensity is about equity, not capex. Growth needs equity issuance and funding lines: AGNC raised $992M in Q3 [2]. Dividends are then paid out of distributable earnings, which is why REIT payout rules make equity markets essential."
+      ]
+    },
+    {
+      "id": "earnings",
+      "paragraphs": [
+        "Underlying earnings held up better than GAAP. Annaly's earnings available for distribution were $0.80 per share, up from $0.79, against a GAAP loss of $1.36 [1]. Rithm's were $0.55 against GAAP $0.38 [11]. AGNC declared a $0.36 dividend against a GAAP loss of $1.17 per share [2].",
+        "Credit lenders are weaker. Starwood's distributable earnings were $0.31 ($0.41 before realized losses) against a $0.48 dividend [4]. Blackstone Mortgage Trust's were $0.42 per share before realized items on a GAAP loss of $1.95 [5]. Credit costs are the swing factor here.",
+        "Consensus figures for this group were not publicly available in the sources we opened, and we do not estimate them. FactSet's 6 Nov report covers the S&P 500, where Financials reported 6.4% blended Q3 earnings growth [14], but it does not isolate this sub-industry.",
+        "Our view: the next two quarters will be set by book value recovery and dividend decisions. Management commentary is constructive on new asset returns [3]. We think dividend cuts are the likeliest negative surprise at credit names, since coverage is already below 100% at Starwood [4]."
+      ]
+    },
+    {
+      "id": "valuation",
+      "paragraphs": [
+        "Mortgage REITs are valued on price to book and yield rather than forward earnings. We did not obtain current prices or price-to-book multiples for the bellwethers, so we do not rank them. REM's trailing yield was 11.39% at 9 Nov 2026 [7], and the fund fell 17.11% year to date [7].",
+        "For context, Damodaran's January 2026 price-to-book for the broad R.E.I.T. industry was 1.99, with a 5.04% return on equity [13]. That figure includes equity REITs and predates the Q3 drawdown, so we would not apply it to mortgage REITs. A useful rule is that a company's price-to-book should relate to its sustainable return on equity.",
+        "Market-wide, FactSet shows the S&P 500's forward 12-month P/E at 17.7 on 5 Nov 2026, below its 5-year average of 19.8 and 10-year average of 19.1, with Financials at 15.0 and among the lowest of the sectors [14]. These are not this group's multiples.",
+        "Book value after the drawdown is lower and, if spreads hold, so is the base on which dividends are earned. Management teams argue that wider spreads create attractive entry yields [3]. Our read is that the group looks priced for continued risk, but the sources we opened do not give prices, so we do not say it is cheap or dear."
+      ]
+    },
+    {
+      "id": "positioning",
+      "paragraphs": [
+        "Momentum is negative and flows are weak. REM returned -17.11% year to date and -13.32% over one year, with $69M of outflows year to date, and assets of $439.82M at 9 Nov 2026 [7]. It returned +8.36% over three years and -27.52% over five [7].",
+        "Ownership is concentrated in a few names. REM held Annaly at 21.73%, AGNC at 15.37% and Starwood at 6.88% at 30 Sep 2026 [7]. The ETF holds 30 securities and costs 0.48% a year [7]. This is ETF evidence from one fund; we did not obtain institutional holdings, short interest or breadth data.",
+        "Companies themselves are active in the market. Starwood repurchased a record $108M of its shares in Q3 [4], while AGNC issued 97.6M shares for $992M [2]. Firms buy back stock when below book and issue when above, so the mix signals relative valuation versus book value at each company.",
+        "Market-wide context is cautious: FactSet shows Financials with the lowest forward P/E among sectors at 15.0 [14]. We make no claim about positioning beyond what these sources show."
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "n": 1,
+      "title": "Annaly Capital Management Reports Third Quarter 2026 Results (Form 8-K, Exhibit 99.1)",
+      "publisher": "Annaly Capital Management / SEC",
+      "date": "2026-10-20",
+      "url": "https://www.sec.gov/Archives/edgar/data/0001043219/000104321926000077/a2026q3nlyex991.htm"
+    },
+    {
+      "n": 2,
+      "title": "AGNC Investment Corp. Announces Third Quarter 2026 Financial Results (Form 8-K)",
+      "publisher": "AGNC Investment / SEC",
+      "date": "2026-10-19",
+      "url": "https://www.sec.gov/Archives/edgar/data/0001423689/000142368926000144/agnc-20261019.htm"
+    },
+    {
+      "n": 3,
+      "title": "Dynex Capital Announces Third Quarter 2026 Results (Form 8-K)",
+      "publisher": "Dynex Capital / SEC",
+      "date": "2026-10-19",
+      "url": "https://www.sec.gov/Archives/edgar/data/0000826675/000082667526000114/a3q26earningsrelease.htm"
+    },
+    {
+      "n": 4,
+      "title": "Starwood Property Trust Reports Results for Quarter Ended September 30, 2026 (Form 8-K)",
+      "publisher": "Starwood Property Trust / SEC",
+      "date": "2026-11-06",
+      "url": "https://www.sec.gov/Archives/edgar/data/0001465128/000146512826000030/stwd_pressrelease-q32026.htm"
+    },
+    {
+      "n": 5,
+      "title": "Blackstone Mortgage Trust Reports $327.6M Loss as It Cuts Older Office Loans",
+      "publisher": "Commercial Observer",
+      "date": "2026-10-29",
+      "url": "https://commercialobserver.com/2026/10/blackstone-mortgage-trust-q3-earnings-office-loans/"
+    },
+    {
+      "n": 6,
+      "title": "The average US 30-year mortgage rate falls to 7.18% this week, its third straight decline",
+      "publisher": "Associated Press via WCAX",
+      "date": "2026-11-05",
+      "url": "https://www.wcax.com/2026/11/05/average-us-30-year-mortgage-rate-falls-718-this-week-its-third-straight-decline/"
+    },
+    {
+      "n": 7,
+      "title": "iShares Mortgage Real Estate ETF (REM) fund page",
+      "publisher": "ETF Central",
+      "date": "2026-11-10",
+      "url": "https://www.etfcentral.com/fund/REM"
+    },
+    {
+      "n": 8,
+      "title": "Federal Reserve issues FOMC statement, October 28, 2026",
+      "publisher": "Federal Reserve Board",
+      "date": "2026-10-28",
+      "url": "https://www.federalreserve.gov/newsevents/pressreleases/monetary20261028a.htm"
+    },
+    {
+      "n": 9,
+      "title": "What happened with Trump, Pulte and the Fannie Mae and Freddie Mac mortgage bond push",
+      "publisher": "Fortune",
+      "date": "2026-01-24",
+      "url": "https://fortune.com/2026/01/24/what-happened-mortgage-bonds-trump-pulte-fannie-mae-freddie-mac/"
+    },
+    {
+      "n": 10,
+      "title": "Annaly Capital Management Form 10-K for fiscal year 2025",
+      "publisher": "Annaly Capital Management / SEC",
+      "date": "2026-02-12",
+      "url": "https://www.sec.gov/Archives/edgar/data/1043219/000104321926000013/nly-20251231.htm"
+    },
+    {
+      "n": 11,
+      "title": "Rithm Capital Reports $217.1 Million Q3 2026 GAAP Net Income",
+      "publisher": "Quiver Quantitative",
+      "date": "2026-10-23",
+      "url": "https://www.quiverquant.com/news/Rithm+Capital+Reports+%24217.1+Million+Q3+2026+GAAP+Net+Income"
+    },
+    {
+      "n": 12,
+      "title": "Margins by industry, US (January 2026)",
+      "publisher": "Aswath Damodaran, NYU Stern",
+      "date": "2026-01-01",
+      "url": "https://pages.stern.nyu.edu/~adamodar/New_Home_Page/datafile/margin.html"
+    },
+    {
+      "n": 13,
+      "title": "Price to Book Value and ROE by industry, US (January 2026)",
+      "publisher": "Aswath Damodaran, NYU Stern",
+      "date": "2026-01-01",
+      "url": "https://pages.stern.nyu.edu/~adamodar/New_Home_Page/datafile/pbvdata.html"
+    },
+    {
+      "n": 14,
+      "title": "FactSet Earnings Insight (6 November 2026)",
+      "publisher": "FactSet",
+      "date": "2026-11-06",
+      "url": "https://advantage.factset.com/hubfs/Website/Resources%20Section/Research%20Desk/Earnings%20Insight/EarningsInsight_110626.pdf"
+    }
+  ]
+}
