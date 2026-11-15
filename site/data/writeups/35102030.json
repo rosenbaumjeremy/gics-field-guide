@@ -1,0 +1,450 @@
+{
+  "code": "35102030",
+  "added": "2026-11-15",
+  "asOf": "2026-11-13",
+  "summary": "Managed care is recovering from a two-year margin squeeze, but unevenly. UnitedHealth cut its medical care ratio to 88.4% from 89.9% and guides to at least $20.50 of adjusted EPS [1]; Elevance raised its outlook to at least $29.00 [2]; CVS lifted Aetna's benefit margin [3]. Humana is still growing Medicare Advantage fast but at a 93.7% insurance benefit ratio [4]. The pressure points are Medicaid and the ACA exchanges: Centene's Marketplace membership fell to 3.4 million from 5.8 million [5]. Employer family premiums reached $28,303 [6]. The provider ETF IHF is up 26.81% this year on a 27.08 P/E [7].",
+  "metrics": [
+    {
+      "label": "UnitedHealth medical care ratio",
+      "value": "88.4%",
+      "context": "Q3 2026 vs 89.9% a year earlier, helped by $610M favorable prior-period reserve development; FY2026 adjusted EPS guided to at least $20.50",
+      "source": 1
+    },
+    {
+      "label": "Elevance benefit expense ratio",
+      "value": "90.6%",
+      "context": "Q3 2026, improved 70 bp; adjusted EPS $6.99; FY2026 guided to at least $29.00",
+      "source": 2
+    },
+    {
+      "label": "Aetna (CVS) medical benefit ratio",
+      "value": "91.3%",
+      "context": "Q3 2026 vs 92.8%; Health Care Benefits adjusted operating income $912M vs $314M",
+      "source": 3
+    },
+    {
+      "label": "Centene Marketplace membership",
+      "value": "3.4M",
+      "context": "At 30 Sep 2026, down from 5.8M a year earlier; full-year health benefits ratio guided to 90.75% at midpoint",
+      "source": 5
+    },
+    {
+      "label": "Humana individual Medicare Advantage growth",
+      "value": "+23%",
+      "context": "About 1,208,000 members added in the first nine months of 2026; Q3 insurance benefit ratio 93.7%",
+      "source": 4
+    },
+    {
+      "label": "Medicare Advantage share of eligible beneficiaries",
+      "value": "55%",
+      "context": "35.2M of 64.2M in 2026; UnitedHealth 26% share (from 29%), Humana 20% (from 17%)",
+      "source": 12
+    },
+    {
+      "label": "Employer family premium",
+      "value": "$28,303",
+      "context": "KFF 2026 survey, up 5%; worker contribution $7,471, up 9%",
+      "source": 6
+    },
+    {
+      "label": "iShares U.S. Healthcare Providers ETF (IHF)",
+      "value": "27.08x P/E",
+      "context": "As of 12 Nov 2026; NAV return year to date +26.81%; net assets $1.58B; a providers fund, broader than insurers",
+      "source": 7
+    }
+  ],
+  "watch": [
+    "Medicaid work requirements and six-month redeterminations start on 1 Jan 2027, and Centene expects them to reduce its Medicaid membership [8][5].",
+    "Humana's Q4 insurance benefit ratio is guided to just above 95.5%, so the seasonal Q4 cost step-up and 2027 Medicare Advantage pricing are the next test [4].",
+    "UnitedHealth's long-running Justice Department case over Medicare risk-adjustment coding is unresolved, and Elevance has accrued $935M for possible exposure on historical risk adjustment data [9][2].",
+    "Cigna exits individual ACA coverage on 1 Jan 2027 and Centene's Marketplace book has shrunk by more than 40%, so exchange risk pools are the main swing factor for 2027 pricing [10][5].",
+    "Commercial cost trend remains the key unknown: Molina says medical cost trend appears to be plateauing but is still elevated [11]."
+  ],
+  "bellwethers": [
+    "UnitedHealth Group",
+    "Elevance Health",
+    "Cigna",
+    "CVS Health (Aetna)",
+    "Centene",
+    "Humana",
+    "Molina Healthcare"
+  ],
+  "basics": {
+    "intro": "These companies are health insurers and managed-care organisations. They collect premiums from employers, individuals and governments (Medicare Advantage, Medicaid, ACA exchange plans), pay doctors and hospitals for members' care, and keep the difference after administrative costs. Most also own pharmacy benefit managers, clinics or data businesses. GICS places hospital operators, labs and drug distributors in other Health Care sub-industries. Insurers earn thin margins on very large revenue, so a one-point shift in the share of premium spent on care moves profit sharply.",
+    "products": [
+      {
+        "name": "Employer and commercial insurance",
+        "what": "Plans bought by employers for workers, either fully insured (the insurer bears claims risk) or self-funded (the employer bears it and pays a fee).",
+        "examples": "UnitedHealthcare, Elevance Anthem, Cigna Healthcare, Aetna"
+      },
+      {
+        "name": "Medicare Advantage",
+        "what": "Private plans that replace traditional Medicare for people aged 65 and over. The government pays a fixed monthly amount per member, adjusted for how sick the member is.",
+        "examples": "Humana, UnitedHealthcare, Aetna, Elevance"
+      },
+      {
+        "name": "Medicaid managed care",
+        "what": "State-contracted plans covering low-income people for a fixed monthly payment per member.",
+        "examples": "Centene, Molina, Elevance, UnitedHealthcare Community & State"
+      },
+      {
+        "name": "ACA individual (exchange) plans",
+        "what": "Plans sold to individuals on the government marketplaces, mostly subsidised by federal tax credits.",
+        "examples": "Centene Ambetter, Molina Marketplace, Oscar"
+      },
+      {
+        "name": "Pharmacy benefit management",
+        "what": "Negotiates drug prices with manufacturers, runs formularies and processes prescriptions for health plans and employers.",
+        "examples": "Optum Rx, Express Scripts (Cigna Evernorth), CVS Caremark, CarelonRx"
+      },
+      {
+        "name": "Care delivery and services",
+        "what": "Owned clinics, home health, analytics and technology that insurers use to manage cost and earn fees from third parties.",
+        "examples": "Optum Health, CenterWell (Humana), Carelon Services"
+      }
+    ],
+    "terms": [
+      {
+        "term": "Medical loss ratio (MLR) or medical care ratio",
+        "meaning": "Claims paid for care divided by premium revenue. It is the main profit gauge: each 1 point is about 1% of premium. Companies label it differently: medical care ratio, benefit expense ratio, health benefits ratio or medical benefit ratio."
+      },
+      {
+        "term": "Capitation",
+        "meaning": "A fixed monthly payment per member from a government or employer, regardless of how much care the member uses."
+      },
+      {
+        "term": "Medical cost trend",
+        "meaning": "The yearly growth in cost per member from price and usage. Insurers must price premiums ahead of it."
+      },
+      {
+        "term": "Risk adjustment",
+        "meaning": "A formula that pays more for sicker members. It rewards accurate diagnosis coding and attracts regulatory scrutiny."
+      },
+      {
+        "term": "Star ratings",
+        "meaning": "CMS quality scores for Medicare Advantage plans. Four stars or more earns quality bonus payments."
+      },
+      {
+        "term": "Fully insured vs self-funded (ASO)",
+        "meaning": "In fully insured plans the insurer takes claims risk. In administrative-services-only plans the employer does, and the insurer earns a fee."
+      },
+      {
+        "term": "Pharmacy benefit manager (PBM)",
+        "meaning": "An intermediary that negotiates drug prices and manages formularies. Several insurers own one."
+      },
+      {
+        "term": "Prior authorization",
+        "meaning": "A requirement that insurers approve certain care before it is delivered. It restrains cost but draws regulatory and political criticism."
+      },
+      {
+        "term": "Days claims payable",
+        "meaning": "Claims liabilities divided by daily claims cost. A sharp fall can signal under-reserving."
+      },
+      {
+        "term": "Prior-period reserve development",
+        "meaning": "Later revisions to estimates of last period's unpaid claims. Favourable development lifts current profit."
+      },
+      {
+        "term": "Vertical integration",
+        "meaning": "Owning providers, pharmacies and data businesses alongside the plan, so more of each health dollar stays inside the group."
+      },
+      {
+        "term": "Redetermination",
+        "meaning": "A state's check that a person still qualifies for Medicaid. More frequent checks cut membership."
+      }
+    ],
+    "drivers": [
+      {
+        "name": "Medical cost trend versus pricing",
+        "how": "If claims per member grow faster than premiums were priced for, the loss ratio rises and earnings fall. Insurers reprice yearly, so errors show up for 12 months."
+      },
+      {
+        "name": "Government rates",
+        "how": "Medicare Advantage payment rates and state Medicaid rates set revenue per member. A rate below cost trend squeezes margins in that book."
+      },
+      {
+        "name": "Membership mix",
+        "how": "Gaining or shedding members changes revenue and risk. New members, especially in Medicare Advantage, often cost more at first."
+      },
+      {
+        "name": "Risk pool health",
+        "how": "On ACA exchanges, if healthier people leave when subsidies shrink, the remaining pool is sicker and costs per member rise."
+      },
+      {
+        "name": "Reserve estimates",
+        "how": "Insurers estimate unpaid claims. Favourable revisions boost earnings, and unfavourable ones can trigger sharp guidance cuts."
+      },
+      {
+        "name": "Policy and regulation",
+        "how": "Changes to Medicare payment, Medicaid eligibility, ACA subsidies, PBM rules and coding audits can reset the profit pool for a whole line."
+      },
+      {
+        "name": "Services and pharmacy profits",
+        "how": "PBM and care-delivery arms add earnings that do not depend directly on claims cost, though they carry their own regulatory risk."
+      }
+    ]
+  },
+  "fundamentals": {
+    "business": [
+      "Revenue is mainly premiums, plus fees from self-funded employers and income from services businesses. UnitedHealth's Q3 2026 revenue was $112.7B, of which UnitedHealthcare contributed $86.3B and Optum $66.9B before eliminations [1]. Cigna's Evernorth services arm had $63.8B of adjusted revenue against $11.7B at Cigna Healthcare [10].",
+      "Customers are employers, individuals, the federal government (Medicare Advantage, Part D) and states (Medicaid). UnitedHealthcare's Q3 revenue split was $20.2B employer and individual, $42.4B Medicare and Retirement, and $23.7B Community and State [1]. Medicare and Medicaid are therefore bigger than the commercial book.",
+      "The principal cost is medical claims, followed by administration. UnitedHealth spent 88.4% of premium on care in Q3 with an operating cost ratio of 12.8% [1]. Elevance's benefit expense ratio was 90.6% and its operating expense ratio 11.4% [2]. Insurers have little control over what hospitals and doctors charge.",
+      "Pricing power is limited. Medicare Advantage rates are set by CMS, Medicaid rates by states, and exchange rates need regulatory approval. Employer contracts reprice yearly. Scale in provider contracting helps, and our read is that vertical integration into pharmacy and care delivery is the main way to earn above the pure insurance spread.",
+      "The big assets are investment portfolios, goodwill and cash held for regulatory capital; liabilities are claims payable and debt. UnitedHealth carried $74.3B of debt and $104.1B of equity at 30 Sep 2026 [9], and Elevance $30.8B of debt [2]. Days claims payable of 47.0 at UnitedHealth shows the size of the unpaid-claims liability [1].",
+      "The business is asset-light compared with hospitals or industrials. UnitedHealth's capital expenditure was $2,421M over nine months [9]. Capital is held mainly as reserves and investments, and dividends and buybacks are limited by regulators' minimum capital rules."
+    ],
+    "overview": [
+      "We did not find a sourced global market size for managed care. In the US, KFF reports 35.2M Medicare Advantage members in 2026, 55% of eligible beneficiaries [12], and employer family premiums averaging $28,303 a year [6]. Revenue for the group's leaders runs to hundreds of billions of dollars, as UnitedHealth's quarterly $112.7B shows [1].",
+      "Main segments are employer and commercial, Medicare Advantage and Part D, Medicaid and ACA exchange plans, plus pharmacy benefit and care services. Centene's Q3 membership included 11.9M in Medicaid, 8.9M in Medicare prescription drug plans and 3.4M in the Marketplace [5].",
+      "Insurers sit between payers (employers, governments, individuals) and providers (hospitals, doctors, pharmacies). They also own parts of the chain: Optum Health has 92M consumers served and Optum Rx 393M adjusted scripts in Q3 [1]. Hospitals' pricing and drug costs are the inputs that matter most.",
+      "The industry shifted from selling employer plans to government programmes, then to owning services. Medicare Advantage now covers 55% of eligible beneficiaries [12]. Growth has slowed and margins have been squeezed since 2024 by higher utilisation.",
+      "The industry is almost wholly US-based, so geography is state by state. Medicaid is run by states, and ACA exchange pricing and enrolment varied widely across states in 2026 [13]. Cigna's customer relationships fell 6% in 2026 partly from a government behavioural contract ending, showing even service lines are mostly domestic [10]."
+    ],
+    "competition": [
+      "Seven large public groups dominate: UnitedHealth, Elevance, Cigna, CVS (Aetna), Centene, Humana and Molina, plus Blue Cross plans and Kaiser outside the listed set. Smaller listed names and regional plans hold niches. This brief covers the seven.",
+      "In Medicare Advantage, KFF puts UnitedHealth at 26% of enrolment (down from 29%) and Humana at 20% (up from 17%) in 2026 [12]. By membership, UnitedHealthcare has 48.3M medical members [1], Elevance 44.9M [2], CVS 26.1M [3], Molina 4.9M [11]. We found no overall US market-share figure.",
+      "The industry is concentrated at national scale and fragmented by state and product. Medicare Advantage is concentrated: UnitedHealth and Humana together hold 46% [12]. Medicaid and exchange markets have more local competitors, and rivals bid for state contracts.",
+      "Barriers to entry are substantial: regulatory licences, minimum capital, provider networks, data and Star rating track records. Our read is that network contracts and enrolment scale take years to build, but new entrants appear in small exchange and Medicare niches.",
+      "Economies of scale are real in provider contracting, data, pharmacy purchasing and claims processing. Elevance's operating expense ratio of 11.4% and UnitedHealth's 12.8% [2][1] suggest smaller firms such as Molina must run lean to compete.",
+      "Insurance is largely a commodity at the plan level: customers compare price and network. Differentiation comes from Star ratings (69% of Aetna's members are in 4-star-plus plans for 2027 [3]), brokers, care programmes and integrated pharmacy and clinics.",
+      "Bargaining power is shared. Employers and governments are strong buyers because rates are set or negotiated; hospitals and drug makers are strong suppliers where they dominate a region or a drug. Insurers hold power over small physician groups and in markets with scale."
+    ],
+    "drivers": [
+      "Revenue growth follows membership, rate increases and mix. Elevance's revenue rose 0.7% in Q3 while Medicare Advantage membership fell 15.5% and Medicaid revenue rose 5.7% [2]. Humana's individual Medicare Advantage membership rose 23% in nine months [4].",
+      "Operating margins depend mainly on the medical loss ratio. UnitedHealthcare's Q3 operating margin was 3.3% against 2.1% a year earlier as its ratio improved [1]. Elevance's Health Benefits margin was 1.0% against 1.4% [2]. Small ratio changes drive large profit swings.",
+      "Key cost variables are hospital prices, utilisation, specialty drugs and behavioural health. Molina says trend appears to be plateauing but is elevated [11].",
+      "Interest rates matter through investment income, which supports earnings, and through debt service. We did not find a sourced figure for investment income. Debt is large: UnitedHealth's debt-to-capital was 41.7% and Humana's 40.9% [1][4]. Higher rates raise financing cost.",
+      "Unemployment matters because employer coverage follows jobs, and it matters most for commercial membership. UnitedHealth said employer membership fell 165,000 in Q3 on employer attrition [1]. Inflation drives hospital and labour prices; commodity exposure is minor.",
+      "The industry is defensive in demand but cyclical in profit. Care is needed in a downturn, but margins swing with the pricing cycle: UnitedHealth's medical care ratio moved from 89.9% to 88.4% within a year [1]. Medicare ageing is a secular tailwind, and policy changes add event risk."
+    ],
+    "financials": [
+      "Revenue growth is low single digits at the big groups. UnitedHealth's Q3 revenue fell to $112.7B from $113.2B [1], Elevance's operating revenue rose 0.7% [2], Cigna's 6% [10] and CVS's 5.4% [3]. Earnings have recovered faster than revenue as margins repair.",
+      "Margins are thin. Damodaran's January 2026 table for US Healthcare Support Services (104 firms, the nearest category we found, not a pure insurer group) shows a gross margin of 12.08%, an operating margin of 3.21% and net margin of 1.25% [14]. UnitedHealthcare's Q3 operating margin was 3.3% [1].",
+      "Return on equity for Damodaran's Healthcare Support Services group was 9.89% in January 2026 [15]. The page gives no ROIC. Leaders such as UnitedHealth earn more, but we did not obtain a sourced ROIC for the sub-industry and do not estimate one.",
+      "Leverage is meaningful. UnitedHealth's debt-to-capital was 41.7% with a target of about 40% by year-end [1]. Humana's was 40.9% [4]. Elevance had $30.8B of debt [2] and Molina $3.8B of long-term debt [11]. Debt is used mainly for acquisitions.",
+      "Free cash flow is strong but not smooth. UnitedHealth's operating cash flow was $5.1B in Q3 and $25.1B over nine months [1], Elevance's $7.5B over nine months [2], and CVS's $15.3B [3]. Cash flow benefits from timing of Medicare payments and claims, so we would not treat it as a run rate.",
+      "Capital spending is light. UnitedHealth spent $2,421M over nine months [9]. Cash goes to buybacks: UnitedHealth repurchased $5,031M [9], Elevance $1,688M [2] and Cigna about $500M by 4 Nov [10].",
+      "Multiples are modest relative to the market. Damodaran's January 2026 EV/EBITDA for Healthcare Support Services was 11.17 for firms with positive EBITDA [16]. The iShares healthcare providers ETF trades on a P/E of 27.08 [7], a fund-level figure for a broader providers group."
+    ],
+    "risks": [
+      "Regulation is the largest risk. CMS finalised a 2027 Medicare Advantage increase of nearly 5% per enrollee but will exclude unlinked chart-review diagnoses, which it expects to cut average payments by 1.5% [17]. Medicaid work requirements begin on 1 Jan 2027 [8], and UnitedHealth faces a Justice Department risk-adjustment case [9].",
+      "Technology and AI cut both ways. Insurers use data and automation to manage claims and prior authorization, while providers' AI-driven coding may raise billed intensity. We did not obtain a sourced figure for AI's effect, and our read is that it is a cost and scrutiny risk on both sides.",
+      "Demographics are a tailwind for Medicare, since 35.2M people are already in Medicare Advantage [12], but a headwind to margins because older and sicker members cost more. Our read is that new members, who often cost more at first, raise Humana's near-term ratio, though we did not find a sourced figure.",
+      "Consumer behaviour is shifting under affordability pressure. Worker contributions to family coverage rose 9% to $7,471 and 44% of large firms raised workers' share of premiums [6]. On exchanges, effectuated enrolment fell 12% to 19.2M [13]. Cost-conscious members drop coverage or trade down.",
+      "New competitors and models include provider-owned plans, employer-direct contracting, and PBM models that remove rebates. We did not find a sourced figure for new-entrant share.",
+      "Geopolitics and supply chains matter little for premiums, but drug prices and tariffs on pharmaceuticals can raise claims costs. We did not find a sourced figure for this and treat it as a minor factor, which is our judgment.",
+      "Substitutes include self-funding by employers, direct primary care, public options and traditional Medicare. Traditional Medicare is the main alternative: 45% of eligible beneficiaries remain there, by our subtraction from KFF's 55% Medicare Advantage share [12]."
+    ],
+    "horizon": {
+      "opportunities": [
+        "Margins are repairing as insurers reprice and prune unprofitable books: UnitedHealth's medical care ratio fell 1.5 points and Aetna's 1.5 points in a year [1][3].",
+        "Medicare Advantage still draws members, at 55% of eligible beneficiaries, and 2027 payments rise nearly 5% per enrollee [12][17].",
+        "Star-rating gains and integrated pharmacy and care services can add earnings not tied to claims cost, as Humana targets a 3% pre-tax margin in 2028 [4].",
+        "Smaller exchange risk pools are being repriced, and Centene's commercial health benefits ratio improved to 89.0% from 89.9% [5]."
+      ],
+      "threats": [
+        "Medical cost trend is high and commercial premiums are already $28,303 for a family, leaving little room for price rises [6].",
+        "Medicaid work requirements and tighter redeterminations from January 2027 will reduce membership [8][5].",
+        "Risk-adjustment audits and coding rules may cut Medicare Advantage payments, with Elevance already accruing $935M and UnitedHealth in litigation [2][9].",
+        "ACA exchange pools remain fragile after enhanced subsidies expired and enrolment fell 12% [13]."
+      ],
+      "assessment": "We think the next three to five years favour disciplined insurers with scale, good Star ratings and services arms, and challenge those that are concentrated in one government programme. The 2026 recovery came from repricing, benefit cuts and exits, shown by UnitedHealth's lower ratio and shrinking Medicare Advantage book [1]. That playbook is mostly used up, so growth now depends on membership and on policy. Medicaid reductions from 2027 and exchange instability could offset gains in Medicare Advantage [8][13]. Rate setting remains political, which keeps earnings visibility lower than the defensive label suggests [17]. Humana's 2028 margin target will be a test of whether repair lasts [4]."
+    }
+  },
+  "sections": [
+    {
+      "id": "macro",
+      "paragraphs": [
+        "Managed care is defensive in demand but exposed to a pricing cycle and to policy. FactSet's 13 Nov 2026 report shows blended S&P 500 Q3 earnings growth of 31.9% and Health Care revenue growth of 6.3%, with Health Care showing the largest positive earnings surprise of any sector at 13.7%, led by Centene, Elevance and Humana beating estimates [18]. That sector includes drug makers, so it describes managed care only loosely.",
+        "The cycle for insurers is the medical cost cycle. Employer premiums rose 5% to $28,303 for family coverage in 2026, while workers' share rose 9% [6]. Labour-market softness shows up as lost employer members: UnitedHealth said employer and individual membership contracted by 165,000 in Q3 on employer attrition [1].",
+        "Interest rates and fiscal policy matter mainly through government programmes and investment income. We did not obtain a sourced path for rates or inflation and do not claim one. Fiscal policy is the larger lever: expiry of enhanced ACA tax credits cut effectuated marketplace enrolment 12% to 19.2M [13], and Medicaid work requirements start 1 Jan 2027 [8]. Our read is that policy, not the economy, is setting the cycle."
+      ]
+    },
+    {
+      "id": "demand",
+      "paragraphs": [
+        "Demand rests on ageing, chronic disease and government programmes. In 2026, 35.2M of 64.2M eligible Medicare beneficiaries are in Medicare Advantage, 55% [12]. Special needs plans make up 23% of Medicare Advantage enrolment [12]. Humana added about 1,208,000 individual Medicare Advantage members in nine months, a 23% rise [4].",
+        "Commercial demand is stable in volume but expensive. Family premiums reached $28,303, up 28% in five years against 27% for wages, and 44% of large firms raised workers' share of premiums [6]. Our read is that employer demand for coverage is inelastic, but affordability pressure shifts members to higher deductibles.",
+        "Elastic demand sits in subsidised segments. Marketplace effectuated enrolment fell 12% to 19.2M and total individual-market enrolment fell 18% to 20.5M by June 2026 after enhanced tax credits expired [13]. Insurers proposed a median 15% increase for 2027 [13]. Medicaid membership is policy-driven, with CBO projecting 5.2M adults losing coverage by 2034 under the House version of the work-requirement law [8]. Long-term, ageing supports Medicare growth, while Medicaid and exchange volumes depend on legislation."
+      ]
+    },
+    {
+      "id": "structure",
+      "paragraphs": [
+        "Porter's five forces give a mixed picture. Rivalry is intense in price-sensitive employer and exchange markets but more rational in Medicare Advantage, where UnitedHealth and Humana hold 46% of enrolment [12]. Threat of new entrants is low because of licences, capital and network needs. Threat of substitutes is moderate: traditional Medicare and self-funding remain alternatives.",
+        "Buyer power is high. Governments set Medicare Advantage and Medicaid rates, and CMS's 2027 notice raised payments by nearly 5% per enrollee about double the initial proposal, as KFF reports [17]. Supplier power sits with hospitals and drug makers. Insurers answer by integrating: Optum had 92M consumers served and 393M adjusted scripts at Optum Rx [1], and Cigna's Evernorth had $63.8B of adjusted revenue in Q3 [10].",
+        "Concentration is high at the top. UnitedHealthcare has 48.3M medical members, Elevance 44.9M, CVS 26.1M, Cigna 18.5M medical customers, and Molina 4.9M [1][2][3][10][11]. Pricing power is weak; moats come from scale in contracting, Star ratings and data. Share is moving: UnitedHealth's Medicare Advantage share fell to 26% from 29%, while Humana's rose to 20% from 17% [12]."
+      ]
+    },
+    {
+      "id": "environment",
+      "paragraphs": [
+        "Regulation and politics dominate. CMS finalised 2027 Medicare Advantage rates on 6 Apr 2026, raising average per-enrollee payments by nearly 5%, about $26B, but will exclude diagnoses from chart reviews not tied to a provider encounter, expected to reduce average payments by 1.5% [17]. MedPAC estimates MA payments are 14%, or $76B, higher than for similar traditional Medicare beneficiaries, which keeps the programme a political target [12].",
+        "Medicaid and the ACA are changing under the 2025 reconciliation law. States must apply work requirements of 80 hours a month from 1 Jan 2027, with checks every six months [8]. Enhanced ACA tax credits have expired, and effectuated enrolment fell to 19.2M [13]. Cigna leaves the individual market on 1 Jan 2027 [10].",
+        "Legal risk is material. UnitedHealth discloses a Justice Department False Claims Act suit over risk-adjustment submissions, risk-adjustment data validation audits by CMS and the Inspector General, and an IRS proposal to increase taxable income for 2017 to 2020 [9]. Elevance accrued $935M in nine months for potential exposure on historical risk-adjustment data after a CMS notice dated 27 Feb 2026 [2].",
+        "Technology and pharmacy policy matter too. We did not obtain sourced detail on federal PBM legislation."
+      ]
+    },
+    {
+      "id": "economics",
+      "paragraphs": [
+        "The economics are high revenue, thin margin and strong cash conversion. UnitedHealthcare's Q3 operating margin was 3.3% (2.1% a year ago), Optum's 5.6% [1], Elevance's adjusted operating margin 2.7% [2], and Cigna Healthcare's pre-tax margin 10.2% against Evernorth's 2.9% [10]. Damodaran's January 2026 Healthcare Support Services group shows a 3.21% operating margin [14], so single-digit margins are normal.",
+        "Operating leverage runs through the loss ratio. UnitedHealth's medical care ratio fell 1.5 points to 88.4%, lifting earnings from operations to $6.6B from $4.3B on slightly lower revenue [1]. CVS's ratio improved 1.5 points and Health Care Benefits adjusted operating income rose to $912M from $314M [3]. The reverse happens fast: Humana's Q3 insurance benefit ratio was 93.7% and it guides just above 95.5% for Q4 [4].",
+        "Return on equity for Damodaran's Healthcare Support Services group was 9.89% [15]. We have no sourced ROIC. Free cash flow is strong: UnitedHealth's nine-month operating cash flow was $25.1B against $2.4B of capital spending [1][9]. Capital intensity is low, and cash goes to buybacks, with UnitedHealth's at $5.0B over nine months [9]."
+      ]
+    },
+    {
+      "id": "earnings",
+      "paragraphs": [
+        "Revisions are upward. UnitedHealth guides to at least $20.50 of adjusted EPS, from $14.22 for nine months last year to $18.30 this year [1]. Elevance raised to at least $29.00 [2], CVS to at least $8.20 from $7.90 to $8.10 [3], Cigna to at least $30.60 [10], Humana to at least $9.50 from $9.00 [4] and Centene's floor to above $5.20 [5]. Molina reaffirmed at least $5.25 [11].",
+        "Q3 beats were large. FactSet shows Centene earned $0.58 against $0.10 expected, Elevance $6.99 against $4.71 and Humana a loss of $0.70 against a $1.00 loss [18]. FactSet also notes Elevance's figure included a $1.85 non-operating benefit [18], so its beat is flattered. Molina's adjusted EPS was only $0.89 on a 92.9% medical care ratio, showing the Medicaid squeeze [11].",
+        "Forward markers are mixed. Elevance targets at least 12% adjusted EPS growth in 2027 from a base of at least $26.75, a lower base than 2026 [2]. Cigna expects at least 10% growth from a base of about $30 [10]. Humana sees 2027 progress toward a 3% pre-tax margin in 2028 [4]. Centene expects Medicaid membership losses from January 2027 [5].",
+        "Where we differ: much of 2026's recovery came from repricing and shrinkage, so earnings growth in 2027 must come from medical cost control, not another cut to membership. We found no consensus EPS growth for managed care, so we make no claim on it."
+      ]
+    },
+    {
+      "id": "valuation",
+      "paragraphs": [
+        "The cleanest sub-industry gauge we found is the iShares U.S. Healthcare Providers ETF (IHF), on a P/E of 27.08 at 12 Nov 2026 [7]. IHF holds 61 stocks and covers providers more broadly, so it is a proxy for insurers, not an exact match. We did not obtain a forward multiple or a ten-year average for managed care.",
+        "For market context, FactSet shows the S&P 500 at 18.3 times forward earnings against a 5-year average of 19.8 and a 10-year average of 19.1 [18]. Damodaran's January 2026 data show Healthcare Support Services at an EV/EBITDA of 11.17 for firms with positive EBITDA [16]. That group is broad and, we think, only partly insurers.",
+        "Our read is that after the sharp 2026 rebound the group is no longer cheap against its own recent trough, and prices already reflect margin repair. Implied growth depends on loss ratios holding near 2026 levels while membership stabilises. We did not compute free cash flow yields, and give no view on any single stock."
+      ]
+    },
+    {
+      "id": "positioning",
+      "paragraphs": [
+        "Momentum is strong. IHF returned 26.81% year to date to 12 Nov 2026, with a NAV of $60.40 at the top of a 52-week range of $41.02 to $60.91 [7]. Its net assets were $1.58B on 13 Nov 2026 [7]. The ETF is a broader providers fund, so part of the move may reflect non-insurers.",
+        "Buybacks are visible. UnitedHealth repurchased $5,031M of stock over nine months and its board authorised up to 50 million more shares in November 2026 [9]. Elevance bought $1,688M over nine months and has about $5.0B authorised [2]. Cigna repurchased about $500M through 4 Nov [10].",
+        "We did not obtain short interest, fund-flow or breadth data and make no claim about them. Results show dispersion: Humana raised its outlook while Molina only reaffirmed [4][11]. FactSet shows Health Care with the largest positive earnings surprise of any sector [18]."
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "n": 1,
+      "title": "UnitedHealth Group third quarter 2026 results (Form 8-K)",
+      "publisher": "UnitedHealth Group / SEC",
+      "date": "2026-10-13",
+      "url": "https://www.sec.gov/Archives/edgar/data/0000731766/000073176626000255/earningsrelease3q26unh.htm"
+    },
+    {
+      "n": 2,
+      "title": "Elevance Health third quarter 2026 earnings release (Form 8-K)",
+      "publisher": "Elevance Health / SEC",
+      "date": "2026-10-21",
+      "url": "https://www.sec.gov/Archives/edgar/data/0001156039/000115603926000068/a3q2026elvearningsrelease.htm"
+    },
+    {
+      "n": 3,
+      "title": "CVS Health reports third quarter 2026 results and raises full year 2026 guidance",
+      "publisher": "CVS Health via Finviz",
+      "date": "2026-11-04",
+      "url": "https://finviz.com/news/415148/cvs-health-corporation-reports-third-quarter-2026-results-and-raises-full-year-2026-guidance"
+    },
+    {
+      "n": 4,
+      "title": "Humana third quarter 2026 prepared remarks (Form 8-K)",
+      "publisher": "Humana / SEC",
+      "date": "2026-11-06",
+      "url": "https://www.sec.gov/Archives/edgar/data/0000049071/000004907126000064/a3q2026humanaincpostedrema.htm"
+    },
+    {
+      "n": 5,
+      "title": "Centene raises outlook as ACA enrollment losses reshape its business",
+      "publisher": "Insurance Business",
+      "date": "2026-10-27",
+      "url": "https://www.insurancebusinessmag.com/us/news/benefits/centene-raises-guidance-as-medicare-offsets-aca-enrollment-collapse-595112.aspx"
+    },
+    {
+      "n": 6,
+      "title": "Workers now pay $7,471 on average annually for family health coverage, up 9% (2026 Employer Health Benefits Survey)",
+      "publisher": "KFF",
+      "date": "2026-10-22",
+      "url": "https://www.kff.org/other-health/workers-now-pay-7471-on-average-annually-for-family-health-coverage-up-9-or-621-from-2025-benchmark-employer-health-benefits-survey-finds/"
+    },
+    {
+      "n": 7,
+      "title": "iShares U.S. Healthcare Providers ETF (IHF) fund page",
+      "publisher": "BlackRock iShares",
+      "date": "2026-11-13",
+      "url": "https://www.ishares.com/us/products/239510/ishares-us-healthcare-providers-etf"
+    },
+    {
+      "n": 8,
+      "title": "A closer look at the work requirement provisions in the 2025 federal budget reconciliation law",
+      "publisher": "KFF",
+      "date": "2026",
+      "url": "https://www.kff.org/medicaid/a-closer-look-at-the-work-requirement-provisions-in-the-2025-federal-budget-reconciliation-law/"
+    },
+    {
+      "n": 9,
+      "title": "UnitedHealth Group Form 10-Q for the quarter ended 30 Sep 2026",
+      "publisher": "UnitedHealth Group / SEC",
+      "date": "2026-10",
+      "url": "https://www.sec.gov/Archives/edgar/data/0000731766/000073176626000266/unh-20260930.htm"
+    },
+    {
+      "n": 10,
+      "title": "The Cigna Group reports strong third quarter 2026 results, raises 2026 outlook",
+      "publisher": "The Cigna Group via Finviz",
+      "date": "2026-11-05",
+      "url": "https://finviz.com/news/416544/the-cigna-group-reports-strong-third-quarter-2026-results-raises-2026-outlook"
+    },
+    {
+      "n": 11,
+      "title": "Molina Healthcare third quarter 2026 earnings release (Form 8-K)",
+      "publisher": "Molina Healthcare / SEC",
+      "date": "2026-10-21",
+      "url": "https://www.sec.gov/Archives/edgar/data/0001179929/000117992926000042/moh3q26_er.htm"
+    },
+    {
+      "n": 12,
+      "title": "Medicare Advantage in 2026: Enrollment Update and Key Trends",
+      "publisher": "KFF",
+      "date": "2026-07-01",
+      "url": "https://www.kff.org/medicare/medicare-advantage-enrollment-update-and-key-trends/"
+    },
+    {
+      "n": 13,
+      "title": "Individual market enrollment continues to fall through mid-2026",
+      "publisher": "KFF",
+      "date": "2026",
+      "url": "https://www.kff.org/affordable-care-act/individual-market-enrollment-continues-to-fall-through-mid-2026/"
+    },
+    {
+      "n": 14,
+      "title": "Margins by sector (US), January 2026",
+      "publisher": "Aswath Damodaran, NYU Stern",
+      "date": "2026-01",
+      "url": "https://pages.stern.nyu.edu/~adamodar/New_Home_Page/datafile/margin.html"
+    },
+    {
+      "n": 15,
+      "title": "Return on equity and capital by sector (US), January 2026",
+      "publisher": "Aswath Damodaran, NYU Stern",
+      "date": "2026-01",
+      "url": "https://pages.stern.nyu.edu/~adamodar/New_Home_Page/datafile/roe.html"
+    },
+    {
+      "n": 16,
+      "title": "EV/EBITDA multiples by sector (US), January 2026",
+      "publisher": "Aswath Damodaran, NYU Stern",
+      "date": "2026-01",
+      "url": "https://pages.stern.nyu.edu/~adamodar/New_Home_Page/datafile/vebitda.html"
+    },
+    {
+      "n": 17,
+      "title": "Medicare Advantage insurers will see higher payments as CMS backs off a key payment update",
+      "publisher": "KFF",
+      "date": "2026-04-08",
+      "url": "https://www.kff.org/quick-insights/medicare-advantage-insurers-will-see-higher-payments-as-cms-backs-off-a-key-payment-update/"
+    },
+    {
+      "n": 18,
+      "title": "FactSet Earnings Insight (13 November 2026)",
+      "publisher": "FactSet",
+      "date": "2026-11-13",
+      "url": "https://advantage.factset.com/hubfs/Website/Resources%20Section/Research%20Desk/Earnings%20Insight/EarningsInsight_111326.pdf"
+    }
+  ]
+}

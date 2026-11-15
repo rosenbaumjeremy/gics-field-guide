@@ -1,0 +1,193 @@
+{
+  "code": "35201010",
+  "added": "2026-11-15",
+  "asOf": "2026-11-13",
+  "summary": "Large biotech reported a strong third quarter. Amgen grew revenue 8% and raised its 2026 outlook [1], Gilead's product sales rose 13% [2], Vertex raised its revenue guidance [3] and Regeneron's revenue rose 36% [4]. Moderna posted a $162M profit after deep cost cuts [5]. The Health Care sector's blended Q3 earnings growth is 9.3% against 31.4% for the S&P 500 [6]. Biotech shares have rallied, with the iShares biotech ETF up 26.64% this year [7] and XBI up 28.00% to 31 Oct [8]. Drug tariffs and Medicare price setting remain the main policy risks [9][10].",
+  "metrics": [
+    {"label": "Amgen revenue growth", "value": "+8%", "context": "Q3 2026, $10.4B; non-GAAP operating margin 47.3% of product sales; 2026 revenue guided to $38.9B to $39.7B", "source": 1},
+    {"label": "Gilead product sales growth", "value": "+13%", "context": "Q3 2026, $8.3B; HIV +18% to $6.2B; non-GAAP operating margin 50.2%", "source": 2},
+    {"label": "Vertex 2026 revenue guidance", "value": "$13.15B to $13.25B", "context": "Raised on 2 Nov 2026 from $13.1B to $13.2B; Q3 revenue $3.44B, up 12%", "source": 3},
+    {"label": "Regeneron revenue growth", "value": "+36%", "context": "Q3 2026, $5.1B; Dupixent global sales (booked by Sanofi) $6.5B, up 35%", "source": 4},
+    {"label": "Health Care sector blended Q3 earnings growth", "value": "9.3%", "context": "FactSet, 6 Nov 2026; revenue growth 6.3%; S&P 500 earnings growth 31.4%; a sector figure that includes drugs, insurers and services", "source": 6},
+    {"label": "iShares Biotechnology ETF (IBB) P/E", "value": "29.33x", "context": "As of 12 Nov 2026; YTD NAV return 26.64%; net assets $10.97B; 243 holdings", "source": 7},
+    {"label": "SPDR S&P Biotech ETF (XBI) P/E (FY1)", "value": "18.15x", "context": "As of 12 Nov 2026; YTD NAV return 28.00% to 31 Oct; modified equal weighted, 165 holdings", "source": 8},
+    {"label": "Damodaran Biotechnology gross margin", "value": "60.78%", "context": "496 US firms, January 2026 data; net margin -5.00% because many small firms lose money", "source": 11}
+  ],
+  "watch": [
+    "Vertex's FDA decision date for povetacicept in IgA nephropathy is 30 Nov 2026, the next test of its pipeline beyond cystic fibrosis [3].",
+    "Regeneron expects an FDA decision on cemdisiran for generalized myasthenia gravis next month, and plans a Phase 3 MASH study to start in Q4 2026 [4].",
+    "Section 232 tariffs on patented drugs began on 31 Jul and 29 Sep 2026, with a 100% default rate and 0% for firms with pricing and onshoring deals, so smaller biotechs without deals face the most uncertainty [9].",
+    "Medicare's third negotiation round (prices effective 2028) is the first to include Part B drugs and covers Gilead's Biktarvy among 15 products [10].",
+    "Amgen's MariTide obesity drug is still in Phase 3, and the FDA has asked Amgen to withdraw Tavneos, which Amgen is contesting [1]."
+  ],
+  "bellwethers": ["Amgen", "Gilead Sciences", "Vertex Pharmaceuticals", "Regeneron", "Moderna", "Biogen"],
+  "basics": {
+    "intro": "Biotechnology companies discover and sell medicines made from living systems or built on biology: antibodies, proteins, vaccines, gene and cell therapies and small molecules guided by genetics. Customers are patients, reached through insurers, Medicare and hospitals, with wholesalers and specialty pharmacies in between. A few large firms such as Amgen, Gilead, Vertex and Regeneron earn billions in profit. Hundreds of small firms have no sales and live on trial results and outside funding. GICS puts big diversified drug makers and generics in Pharmaceuticals, and lab tools and contract research in Life Sciences Tools and Services.",
+    "products": [
+      {"name": "Monoclonal antibodies", "what": "Lab-made immune proteins that block a specific target. They treat cancer, inflammation, eye disease and high cholesterol, and are usually given by injection or infusion.", "examples": "Regeneron Dupixent (with Sanofi) and Eylea HD, Amgen Repatha and Tezspire"},
+      {"name": "Antivirals and HIV medicines", "what": "Daily pills and long-acting injections that keep a virus under control for life. Patients stay on treatment for years, so revenue is steady.", "examples": "Gilead Biktarvy, Descovy and Yeztugo"},
+      {"name": "Rare and genetic disease drugs", "what": "Treatments for small patient groups with a known genetic cause, sold at high prices per patient.", "examples": "Vertex cystic fibrosis medicines and Casgevy"},
+      {"name": "mRNA medicines and vaccines", "what": "Medicines that deliver genetic instructions so the body makes its own protein. First proven in COVID-19 vaccines, now tested in flu, cancer and rare disease.", "examples": "Moderna Spikevax and mRESVIA, intismeran melanoma vaccine"},
+      {"name": "Oncology biologics and antibody drug conjugates", "what": "Antibodies that engage immune cells or carry a toxic payload straight to tumour cells.", "examples": "Amgen Imdelltra, Gilead Trodelvy, Regeneron Libtayo"},
+      {"name": "Biosimilars", "what": "Near copies of biologic drugs whose patents have ended. They are cheaper and take sales from the original product.", "examples": "Amgen biosimilar portfolio, rivals to Prolia and Eylea"}
+    ],
+    "terms": [
+      {"term": "Pipeline", "meaning": "The set of drug candidates a company is developing. Value rests largely on the chance each candidate reaches the market."},
+      {"term": "Phase 1, 2, 3 trials", "meaning": "Three stages of human testing. Phase 1 checks safety, Phase 2 checks early effectiveness, Phase 3 proves benefit in large groups before approval. Most candidates fail along the way."},
+      {"term": "PDUFA date", "meaning": "The deadline by which the FDA aims to decide on an application. Share prices of small firms can move sharply around it."},
+      {"term": "BLA / NDA", "meaning": "Biologics License Application for biologic drugs and New Drug Application for chemical ones: the formal requests to the FDA for permission to sell."},
+      {"term": "Patent cliff (loss of exclusivity)", "meaning": "The point when a patent or market exclusivity ends and cheaper copies arrive. Sales of the original often fall fast."},
+      {"term": "Biosimilar", "meaning": "A highly similar, lower-priced version of an off-patent biologic. It erodes sales of the original, as Prolia's decline shows."},
+      {"term": "Collaboration revenue", "meaning": "Income from a partner that sells or co-develops a drug. Regeneron books a share of Dupixent through Sanofi this way."},
+      {"term": "Milestone and royalty", "meaning": "Payments a licensee makes when a trial or approval goal is hit, and a percentage of future sales."},
+      {"term": "Non-GAAP earnings", "meaning": "Earnings adjusted for items management calls one-off, such as acquired research costs. They can differ a great deal from reported earnings."},
+      {"term": "Acquired IPR&D", "meaning": "The cost of buying unfinished research in a deal. It is often expensed at once, so acquirers can report a large loss that quarter."},
+      {"term": "Orphan drug", "meaning": "A medicine for a rare disease. It gets extra market exclusivity and tax credits, and now has a wider carve-out from Medicare price negotiation."},
+      {"term": "Most favoured nation (MFN) pricing", "meaning": "A US policy aim of tying US prices to the lowest paid in comparable rich countries. Firms that agree can obtain tariff relief."},
+      {"term": "Cash runway", "meaning": "How long a loss-making company can fund itself with the cash it holds. A short runway forces a share sale or a deal."},
+      {"term": "Cell and gene therapy", "meaning": "Treatments that modify a patient's cells or genes, often one-time and very costly to make and deliver."}
+    ],
+    "drivers": [
+      {"name": "Trial and approval results", "how": "A positive Phase 3 or an FDA approval can lift a company's value in a day, and a failure can remove it. Small, single-asset firms swing most."},
+      {"name": "Drug pricing policy", "how": "Medicare negotiation, MFN deals and insurer rebates set net price per patient. Lower net prices cut revenue without losing a single patient."},
+      {"name": "Patent expiry and biosimilars", "how": "When protection ends, sales of the original fall as cheaper versions arrive, so firms must replace lost revenue with new drugs or acquisitions."},
+      {"name": "Interest rates and funding", "how": "Unprofitable firms rely on equity and debt markets. Lower rates and stronger share prices make financing cheaper and open the market to new listings."},
+      {"name": "Mergers and acquisitions", "how": "Large drug makers buy biotechs to fill pipelines. Takeover premiums lift targets, and the buyers' earnings carry deal charges."},
+      {"name": "Launch uptake", "how": "Sales of a new drug build over months. Faster uptake lifts revenue and operating leverage, because selling costs do not rise in step."},
+      {"name": "Trade policy and manufacturing location", "how": "Tariffs on imported medicines depend on where a product is made and whether a firm has agreements. They raise costs or force new US plants."}
+    ]
+  },
+  "fundamentals": {
+    "business": [
+      "Revenue comes mostly from product sales of patented medicines, plus collaboration, royalty and milestone income. Amgen's Q3 2026 total revenue was $10.4B, of which product sales were $9.9B and other revenues $482M [1]. Regeneron's Q3 revenue of $5.1B includes $2.7B of collaboration revenue from Sanofi, up 68% [4].",
+      "Customers are patients served through insurers, Medicare, hospitals and specialty pharmacies, so payers hold real influence. Amgen noted that Enbrel grew despite lower net pricing tied to Medicare Part D price setting [1]. Vertex's Q3 revenue was $2.17B in the US and $1.27B outside it [3].",
+      "Principal costs are R&D, selling and manufacturing. At Amgen in Q3, non-GAAP R&D was 21.3% of product sales, SG&A 17.0% and cost of sales 19.3% [1]. Regeneron's GAAP R&D was $1.795B, up 22%, and it guides to $6.05B to $6.15B of non-GAAP R&D for 2026 [4].",
+      "Pricing power comes from patents, clinical benefit and the lack of close substitutes. Gilead's non-GAAP operating margin was 50.2% [2] and Amgen's 47.3% of product sales [1]. It erodes when biosimilars arrive: Amgen's Prolia sales fell 45% to $632M [1].",
+      "Major assets are intellectual property, cash and acquired research. Regeneron held about $18.9B of cash and marketable securities [4], Vertex $9.8B after paying about $9.0B net for Crinetics [3], and Amgen $13.2B of cash against $54.0B of debt [1]. Moderna has about $3.0B of convertible notes [5].",
+      "The business is asset-light for most small firms and moderately capital-intensive for large ones that make their own biologics. Amgen guides to about $2.6B of capital spending in 2026 and Regeneron to $1.05B to $1.10B [1][4]. Damodaran's data show net capex of -3.57% of sales for 496 US biotech firms [15]."
+    ],
+    "overview": [
+      "Market size depends on the definition. Fortune Business Insights values the global biotechnology market, a broad measure that includes tools, research services and non-drug uses, at $1,376.1B in 2025 and $1,491.5B in 2026, with a 14.3% annual growth forecast to 2034 [18]. We treat it as an order of magnitude, since the GICS group is narrower.",
+      "Main segments are antibodies and other biologics, HIV and infectious disease, rare and genetic disease, oncology, vaccines and gene or cell therapy. Within Amgen's Q3 sales, Repatha was $1,085M, Evenity $751M, Tezspire $538M and Enbrel $611M [1]. Gilead's HIV franchise was $6.2B of $8.3B [2].",
+      "Biotechs sit between research institutions, contract manufacturers and trial sites upstream, and payers, hospitals and pharmacies downstream. Large firms also license assets from smaller ones: Regeneron's expanded Sanofi deal brought $1.0B upfront and up to $7.0B of milestones [4].",
+      "The industry has moved from simple biologics to genetic medicines, obesity drugs and cell therapy, with deal-making central. IQVIA counts $130B of biopharma M&A value in the first half of 2026 across 42 transactions of $250M or more, nearly matching all of 2025 [17]. The FDA's list shows 48 novel drug approvals for 2026 as of 9 Nov [16].",
+      "North America dominates: Fortune puts it at 43.34% of the global biotech market in 2025 [18]. Amgen's US product sales were $7.26B of $9.88B in Q3, about 73% on our arithmetic [1]. Vertex's Q3 revenue was $2.17B in the US and $1.27B abroad [3]."
+    ],
+    "competition": [
+      "There are hundreds of listed companies. Damodaran's January 2026 dataset counts 496 US biotechnology firms [11], and IBB holds 243 stocks [7] while XBI holds 165 [8]. Only a handful earn large profits.",
+      "Leaders by size include Amgen with $10.4B of Q3 revenue [1], Gilead with $8.3B of product sales [2], Regeneron with $5.1B [4], Vertex with $3.44B [3] and Moderna with $1.3B [5]. We did not find a published market share, because each competes in different disease areas.",
+      "The industry is fragmented at the bottom and concentrated by disease. Vertex's CF medicines and Gilead's HIV drugs hold leading positions in their niches [3][2]. Consolidation continues: Gilead's year-to-date acquisition outflows were $11.3B [2], and AbbVie/Apogee ($10.9B) and GSK/Nuvalent ($10.6B) were among first-half deals above $10B [17].",
+      "Barriers to entry are high: years of trials, FDA approval, patents and manufacturing know-how. Amgen's Phase 3 programmes and Vertex's priority-review filing show the scale of work needed [1][3]. New firms still enter, and XBI's modified equal weighting spreads exposure over many small names [8].",
+      "Economies of scale help in manufacturing, sales and trial funding. Amgen's non-GAAP SG&A fell 1% while revenue grew 8% [1], but Vertex's Q3 SG&A nearly doubled to $844M with the Crinetics deal [3], so scale gains can be offset by deals.",
+      "Products are differentiated by clinical data and patents until copies arrive. After that they commoditise quickly: Amgen's biosimilars grew to $258M from $151M a year ago while Prolia dropped 45% [1].",
+      "Payers and regulators hold bargaining power over price, while suppliers such as contract manufacturers hold little. Medicare's third negotiation round covers 15 drugs and is the first to include Part B products [10]. Prescribers and patients have limited choice for a first-in-class drug, which shields pricing."
+    ],
+    "drivers": [
+      "Revenue growth follows new launches, volume gains and pricing. Amgen's Q3 product sales grew 8% driven mainly by volume [1], and Vertex's Casgevy sales were $99M, nearly six times the $17M in Q3 2025 [3]. Gilead's Yeztugo reached $305M from $39M [2].",
+      "Operating margins depend on gross margin, R&D intensity and one-off deal charges. Amgen's non-GAAP operating margin of 47.3% [1] and Gilead's 50.2% [2] compare with Damodaran's 8.97% unadjusted pre-tax operating margin for the 496-firm group, which is dragged down by unprofitable firms [11].",
+      "Key cost variables are clinical trial costs, headcount, manufacturing and acquired research. Gilead recorded $12.4B of acquired IPR&D charges, which turned its guided non-GAAP 2026 EPS negative at $(1.20) to $(0.85) [2]. Regeneron lifted its 2026 R&D guidance [4].",
+      "Interest rates matter through financing and valuation. The Fed held at 3.75% to 4.00% on 28 Oct 2026 by a 10 to 2 vote, with both dissenters preferring a rise [19]. Vertex borrowed a $4.5B term loan [3], and Moderna raised about $2.6B net through convertible notes [5]. Rate-sensitive biotech valuations are our judgment, not a cited figure.",
+      "Inflation, unemployment and GDP matter little to demand because drugs are paid by insurance, but they do shape payer budgets and policy. The Fed describes inflation as elevated and growth as strong [19]. Commodity prices have a small effect compared with R&D and patent timing.",
+      "The group is secular growth with defensive demand, but earnings are event-driven. Gilead's HIV sales rose 18% [2] while Moderna's 2026 revenue growth guidance is a wide 15% to 25% [5], showing how much depends on a few products and seasons."
+    ],
+    "financials": [
+      "Large caps are growing, with wide dispersion. Q3 growth was 8% at Amgen [1], 13% at Gilead [2], 12% at Vertex [3], 36% at Regeneron [4] and 29% at Moderna [5]. FactSet shows Health Care sector earnings growth of 9.3% and revenue growth of 6.3% [6].",
+      "Margins are high at the leaders but low across the whole group. Damodaran's January 2026 table for 496 US biotech firms shows a 60.78% gross margin, 8.97% unadjusted pre-tax operating margin and a net margin of -5.00% [11]. Amgen's non-GAAP cost of sales was 19.3% of product sales in Q3 [1].",
+      "Returns are weak for the group because many firms are loss-making. Damodaran's January 2026 return on equity for biotech was -5.67% unadjusted and -2.21% adjusted for R&D, against 24.04% and 11.38% for pharmaceuticals [12]. We did not find a sourced ROIC.",
+      "Leverage differs sharply. Amgen has $54.0B of debt [1], Vertex a new $4.5B term loan [3], Moderna about $3.0B of convertible notes [5], while Regeneron held about $18.9B of cash and securities [4]. We did not source leverage for the small firms in the group.",
+      "Free cash flow is strong at large firms. Amgen's was $3.7B in Q3, down from $4.2B [1]. Gilead produced $5.0B of operating cash flow in Q3 and $11.2B year to date [2]. Large firms return cash: Gilead paid $1.0B of dividends in Q3 [2].",
+      "Capital spending is light. Damodaran shows capex at 32.55% of depreciation and net capex of -3.57% of sales for US biotech, versus 80.48% and 1.12% for pharmaceuticals [15]. Research spending and acquisitions are the real investments.",
+      "Multiples are mixed. Damodaran's January 2026 data show EV/EBITDA of 15.78 for the biotech firms with positive EBITDA and 51.49 across all firms, with a forward P/E of 63.76 [13][14]. These cover 496 firms, so are inflated by small earners and not typical of the large caps."
+    ],
+    "risks": [
+      "Regulation is the biggest risk. Section 232 tariffs set a 100% default rate on patented drugs with 0% for firms with MFN and onshoring agreements, and generics and biosimilars are exempt for now [9]. Medicare negotiation reaches Part B drugs and 15 products for 2028 [10].",
+      "Technology and AI offer faster discovery, but the risk is that new medicines in obesity, gene editing and cell therapy make older products obsolete. We did not find a sourced figure on AI's effect on biotech costs; Moderna's R&D fell 27% in Q3, mainly from lower clinical development costs [5].",
+      "Ageing populations raise demand for treatments in cancer, eye disease and inflammation. Regeneron's Eylea HD grew 62% to $699M in the US [4], which fits that trend. We have no sourced figure isolating the effect of demographics.",
+      "Patient and payer behaviour is shifting toward lower-cost biosimilars. Amgen's biosimilar sales grew to $258M while Prolia fell 45% [1]. Medicare's rules exempt a drug from selection once a biosimilar launches [10].",
+      "New competitors include large drug makers buying into the same disease areas. IQVIA lists Gilead/Arcellx, Lilly/Centessa and Merck/Terns among first-half deals of $5B to $10B [17]. We do not have a sourced figure on competition from Chinese-originated assets for 2026.",
+      "Geopolitics and supply chains: tariffs apply by country, at 15% for the EU, Japan, Korea and Switzerland and 10% for the UK in the proclamation [9]. Orphan-only drugs, cell and gene therapies and antibody drug conjugates have conditional exemptions [9].",
+      "Substitutes include other drug classes and non-drug care. Obesity medicines are a possible substitute for cardiovascular and diabetes drugs, and Amgen's MariTide is still in Phase 3 [1]. Whether obesity therapy lowers demand for other drugs is our open question, not a cited fact."
+    ],
+    "horizon": {
+      "opportunities": [
+        "Strong launches and label expansions are lifting growth, such as Amgen's Repatha up 37% and Tezspire up 43% [1].",
+        "Large drug makers have patent expiries to replace and are buying pipelines, as $130B of first-half 2026 M&A shows [17].",
+        "New categories such as cancer vaccines may widen the market, with Moderna's intismeran cutting the risk of recurrence or death by 42% in a melanoma Phase 3 [5].",
+        "Firms with pricing and onshoring deals can face 0% tariffs through 20 Jan 2029, which supports earnings visibility [9]."
+      ],
+      "threats": [
+        "Medicare negotiation and US pricing policy could lower net prices, with 15 more drugs in the 2028 round [10].",
+        "Biosimilars and patent expiries remove sales quickly, as Prolia's 45% decline shows [1].",
+        "Tariff terms could change for firms without deals, and Commerce is due to report on whether generics should be covered [9].",
+        "Acquisition charges and heavy deal spending can depress reported earnings, as at Gilead and Vertex [2][3]."
+      ],
+      "assessment": "We think the next three to five years favour established firms with several growing products and large cash flows, such as Amgen, Gilead and Regeneron, which are growing revenue 8% to 36% with non-GAAP operating margins of 47% to 50% at Amgen and Gilead [1][2][4]. Valuations differ: the equal-weighted XBI trades at 18.15 times FY1 earnings while IBB, weighted to large caps, trades at 29.33 [8][7]. Pricing policy is the main source of uncertainty, since Medicare negotiation is widening and tariffs depend on company deals [10][9]. For small firms the outcome rests on trial results and access to funding. Dealmaking should stay active while patent expiries loom, but acquirers carry integration and charge risk [17][2]."
+    }
+  },
+  "sections": [
+    {"id": "macro", "paragraphs": [
+      "Biotech earnings follow clinical and pricing events more than the business cycle, but funding conditions and policy still matter. The Fed held its target range at 3.75% to 4.00% on 28 Oct 2026 by a 10 to 2 vote, with both dissenters wanting a quarter-point rise, and said inflation remains elevated while activity is strong [19]. Higher rates raise the cost of capital for the many unprofitable firms in the group.",
+      "FactSet's 6 Nov 2026 report shows the S&P 500's blended Q3 earnings growth at 31.4%, while the Health Care sector is at 9.3%, up from 5.2% a week earlier after beats from Pfizer, Moderna, CVS and Amgen [6]. That sector includes pharmaceuticals, insurers and services, so it describes biotech only loosely.",
+      "Large firms are using debt and convertibles to fund deals and cash needs. Vertex took a $4.5B term loan alongside its Crinetics purchase [3], and Moderna raised about $2.6B net from convertible notes [5]. Our read is that the cycle is supportive for large profitable firms and for equity funding, as the sector's rally suggests, but biotech is more exposed to policy than to GDP."
+    ]},
+    {"id": "demand", "paragraphs": [
+      "Demand comes from ageing populations, chronic disease and new therapies. Fortune Business Insights values the broad global biotechnology market at $1,376.1B in 2025 and $1,491.5B in 2026, growing 14.3% a year to 2034, with North America at 43.34% in 2025 [18]. The estimate includes tools and services, so it overstates the narrower drug-maker group.",
+      "Company results show demand is strongest where new products have launched. Amgen's Repatha rose 37% to $1,085M and Tezspire 43% to $538M [1]. Gilead's HIV sales rose 18% to $6.2B, with Descovy up 49% and Yeztugo reaching $305M [2]. Regeneron's Libtayo grew 51% to $550M and Eylea HD 62% to $699M in the US [4].",
+      "Demand for medicines is inelastic in the short term because insurers pay, but products lose volume once copies arrive: Prolia fell 45% [1]. Vaccines are more seasonal and policy-dependent. Moderna's 2026 revenue growth guidance of 15% to 25% reflects that uncertainty [5]. The FDA's list of 48 novel approvals in 2026 as of 9 Nov shows a steady supply of new products [16]."
+    ]},
+    {"id": "structure", "paragraphs": [
+      "Porter's five forces point to an attractive industry for winners and a hard one for most firms. The threat of new entrants is low for approved products because of trials, patents and FDA review, but high for ideas, with 496 US biotech firms in Damodaran's data [11]. Rivalry is intense within each disease area, and the threat of substitutes comes from biosimilars and other drug classes.",
+      "Buyer power sits with payers and the government. Medicare's third negotiation round selects 15 drugs, including Gilead's Biktarvy, and applies to Part B drugs for the first time [10]. Supplier power is moderate. Biosimilar entry exempts a drug from selection, which is why Prolia and Eylea were not on the list [10].",
+      "Concentration is high in each niche. Gilead's HIV franchise is $6.2B a quarter [2], Vertex expects $13.15B to $13.25B of 2026 revenue [3] and Regeneron booked $2.7B of collaboration revenue from Sanofi in Q3 [4]. We did not find market share data. Moats rest on patents and evidence, and last only as long as exclusivity: Amgen's Enbrel grew 5% despite lower net pricing [1]."
+    ]},
+    {"id": "environment", "paragraphs": [
+      "Policy is the dominant outside force. The Section 232 proclamation of 2 Apr 2026 sets a 100% default tariff on patented drugs and ingredients. Rates are 15% for the EU, Japan, Korea and Switzerland, 10% for the UK, 20% for firms with approved onshoring plans, and 0% to 20 Jan 2029 for firms with both MFN pricing and onshoring agreements. Duties began on 31 Jul for 17 named large firms and on 29 Sep 2026 for all others [9].",
+      "Exemptions are conditional. Orphan-only drugs, cell and gene therapies, antibody drug conjugates and plasma-derived products are at 0% subject to conditions, and generics and biosimilars are exempt for now, with Commerce due to report on them within a year [9]. Smaller firms without agreements carry the most uncertainty, in our view.",
+      "Medicare negotiation widens. The 2028 list was published on 27 Jan 2026 and holds 15 drugs, ten under Part D and five under Part B, with an expanded orphan exclusion that delays some oncology drugs [10]. Amgen has already pointed to Part D price setting reducing Enbrel's net price [1].",
+      "FDA activity continues: 48 novel approvals were listed for 2026 as of 9 Nov [16]. Vertex's povetacicept has a decision date of 30 Nov 2026, while the FDA has asked Amgen to withdraw Tavneos, which Amgen contests [3][1]."
+    ]},
+    {"id": "economics", "paragraphs": [
+      "Economics are lopsided. Amgen's non-GAAP operating margin was 47.3% of product sales, and Gilead's 50.2% [1][2]. Damodaran's January 2026 table for 496 US biotech firms shows a 60.78% gross margin, but a net margin of -5.00% and an 8.97% unadjusted pre-tax operating margin [11]. The gap is the cost of the many companies with no product.",
+      "Operating leverage is visible: Amgen's non-GAAP SG&A fell 1% while R&D rose 11% and sales grew 8% [1]. It can reverse with deal costs: Vertex's operating income fell to $713M from $1.19B as SG&A rose to $844M from $445M [3]. Moderna cut R&D 27% to $583M and made a $162M profit on $1,313M of revenue [5].",
+      "Returns on capital are low across the group, with return on equity of -5.67% (-2.21% R&D-adjusted) against 24.04% for pharmaceuticals [12]. Capital intensity is light: capex is 32.55% of depreciation and net capex -3.57% of sales [15]. We did not obtain a sourced ROIC for the group.",
+      "Free cash flow is strong at the leaders. Amgen's was $3.7B in Q3 [1], Gilead's operating cash flow $5.0B [2] and Regeneron held $18.9B of cash and securities after $2.3B of buybacks in nine months [4]."
+    ]},
+    {"id": "earnings", "paragraphs": [
+      "Guidance moved up. Amgen raised 2026 revenue guidance to $38.9B to $39.7B and non-GAAP EPS to $22.90 to $23.70 [1]. Gilead raised 2026 product sales to $31.0B to $31.3B from $30.1B to $30.4B [2]. Vertex lifted revenue guidance to $13.15B to $13.25B [3]. Moderna raised 2026 revenue growth to 15% to 25% from up to 10% [5].",
+      "Beats were large. FactSet shows Amgen's non-GAAP EPS of $6.45 against $5.79 expected and Moderna's $0.38 against a loss of $1.10 expected, and the Health Care sector reported the largest aggregate positive earnings surprise of any sector at 13.7% [6].",
+      "Deal accounting distorts reported earnings. Gilead's guided non-GAAP EPS for 2026 is $(1.20) to $(0.85) after $12.4B of acquired research charges, with non-GAAP operating income of $2.0B to $2.4B [2]. We did not find consensus EPS growth for the biotech group alone and do not estimate one.",
+      "Where we differ: Moderna's profit looks like a combination of one-off cost cuts and a seasonal vaccine quarter, with a nine-month net loss of $1,963M [5]. We would not read a single quarter as a new run rate. Regeneron's Q4 should also include the $1.0B Sanofi upfront payment [4]."
+    ]},
+    {"id": "valuation", "paragraphs": [
+      "Valuation depends heavily on the index. IBB, weighted toward large caps, traded on a P/E of 29.33 and a price-to-book of 6.23 on 12 Nov 2026, while XBI, which is modified equal weighted, showed a P/E of 18.15 on FY1 earnings [7][8]. FactSet puts the S&P 500's forward P/E at 17.7, below its 5-year average of 19.8 and 10-year average of 19.1 [6]. The measures are not on the same basis, so the comparison is rough.",
+      "Damodaran's January 2026 data show US biotech at a forward P/E of 63.76, EV/EBITDA of 15.78 for firms with positive EBITDA and 51.49 across all firms [13][14]. The group's PEG ratio is 0.84, against 1.40 for pharmaceuticals [14]. Many of these 496 firms have little or negative earnings, so the multiples are distorted.",
+      "We read the large caps as priced for continued double-digit growth in new products, and the small-cap names as priced for pipeline success rather than earnings. We did not obtain free cash flow yields for the group, but Amgen's quarterly FCF of $3.7B shows the cash base behind the large names [1]."
+    ]},
+    {"id": "positioning", "paragraphs": [
+      "Momentum is strong. IBB's NAV return was 26.64% year to date as of 12 Nov 2026, with net assets of $10.97B, 243 holdings, a NAV of $212.49 and a 52-week range of $160.42 to $221.08 [7]. XBI returned 28.00% year to date and 38.84% over one year to 31 Oct 2026, with net assets of $10.42B [8].",
+      "XBI is modified equal weighted, so its top holding, Moderna, is only 2.55% and Amgen, Regeneron and Gilead each carry about 1.7% to 1.8% [8]. Its gains therefore reflect the broad small and mid-cap group as well as the large caps.",
+      "Buybacks and dividends are a source of demand. Regeneron repurchased $2.3B in nine months and declared a $0.94 dividend [4]. Gilead paid $1.0B of dividends and $370M of buybacks in Q3 [2]. Amgen raised its dividend 6% to $2.52 a share and guides to up to $3.0B of buybacks in 2026 [1]. We did not obtain short interest or fund-flow data and make no claim about them."
+    ]}
+  ],
+  "sources": [
+    {"n": 1, "title": "Amgen reports third quarter 2026 financial results (press release and Form 8-K)", "publisher": "Amgen / SEC", "date": "2026-11-03", "url": "https://www.amgen.com/newsroom/press-releases/2026/11/amgen-reports-third-quarter-2026-financial-results"},
+    {"n": 2, "title": "Gilead Sciences announces third quarter 2026 financial results (Form 8-K, Exhibit 99.1)", "publisher": "Gilead Sciences / SEC", "date": "2026-10-29", "url": "https://www.sec.gov/Archives/edgar/data/0000882095/000088209526000037/exhibit991earningspressrel.htm"},
+    {"n": 3, "title": "Vertex reports third quarter 2026 financial results", "publisher": "Vertex via Finviz", "date": "2026-11-02", "url": "https://finviz.com/news/413471/vertex-reports-third-quarter-2026-financial-results"},
+    {"n": 4, "title": "Regeneron reports third quarter 2026 financial and operating results", "publisher": "Regeneron via Finviz", "date": "2026-10-30", "url": "https://finviz.com/news/412417/regeneron-reports-third-quarter-2026-financial-and-operating-results"},
+    {"n": 5, "title": "Moderna reports third quarter 2026 financial results and provides business updates (Form 8-K, Exhibit 99.1)", "publisher": "Moderna / SEC", "date": "2026-11-06", "url": "https://www.sec.gov/Archives/edgar/data/0001682852/000168285226000194/exhibit9912026q3pressrelea.htm"},
+    {"n": 6, "title": "FactSet Earnings Insight (6 November 2026)", "publisher": "FactSet", "date": "2026-11-06", "url": "https://advantage.factset.com/hubfs/Website/Resources%20Section/Research%20Desk/Earnings%20Insight/EarningsInsight_110626.pdf"},
+    {"n": 7, "title": "iShares Biotechnology ETF (IBB) fund page", "publisher": "BlackRock iShares", "date": "2026-11-13", "url": "https://www.ishares.com/us/products/239699/ishares-nasdaq-biotechnology-etf"},
+    {"n": 8, "title": "SPDR S&P Biotech ETF (XBI) fund page", "publisher": "State Street Investment Management", "date": "2026-11-12", "url": "https://www.ssga.com/us/en/intermediary/etfs/spdr-sp-biotech-etf-xbi"},
+    {"n": 9, "title": "Trade winds shift for pharma: understanding the Section 232 tariff proclamation on pharmaceuticals", "publisher": "Legal 500 / Mondaq", "date": "2026-04", "url": "https://www.legal500.com/intelligence/united-states/international-law/trade-winds-shift-for-pharma-understanding-the-section-232-tariff-proclamation-on-pharmaceuticals"},
+    {"n": 10, "title": "Key takeaways from the third Medicare drug price negotiation", "publisher": "Milliman", "date": "2026-01", "url": "https://www.milliman.com/en/insight/key-takeaways-third-medicare-drug-price-negotiation"},
+    {"n": 11, "title": "Margins by sector (US), January 2026", "publisher": "Aswath Damodaran, NYU Stern", "date": "2026-01", "url": "https://pages.stern.nyu.edu/~adamodar/New_Home_Page/datafile/margin.html"},
+    {"n": 12, "title": "Return on equity and capital by sector (US), January 2026", "publisher": "Aswath Damodaran, NYU Stern", "date": "2026-01", "url": "https://pages.stern.nyu.edu/~adamodar/New_Home_Page/datafile/roe.html"},
+    {"n": 13, "title": "EV/EBITDA multiples by sector (US), January 2026", "publisher": "Aswath Damodaran, NYU Stern", "date": "2026-01", "url": "https://pages.stern.nyu.edu/~adamodar/New_Home_Page/datafile/vebitda.html"},
+    {"n": 14, "title": "PE ratios by sector (US), January 2026", "publisher": "Aswath Damodaran, NYU Stern", "date": "2026-01", "url": "https://pages.stern.nyu.edu/~adamodar/New_Home_Page/datafile/pedata.html"},
+    {"n": 15, "title": "Capital expenditures by sector (US), January 2026", "publisher": "Aswath Damodaran, NYU Stern", "date": "2026-01", "url": "https://pages.stern.nyu.edu/~adamodar/New_Home_Page/datafile/capex.html"},
+    {"n": 16, "title": "Novel drug approvals for 2026", "publisher": "U.S. Food and Drug Administration", "date": "2026-11-09", "url": "https://www.fda.gov/drugs/novel-drug-approvals-fda/novel-drug-approvals-2026"},
+    {"n": 17, "title": "Biopharma M&A mid-year 2026 update", "publisher": "IQVIA", "date": "2026-07", "url": "https://www.iqvia.com/locations/emea/blogs/2026/07/biopharma-ma-mid-year-2026-update"},
+    {"n": 18, "title": "Biotechnology market size, share and industry analysis", "publisher": "Fortune Business Insights", "date": "2026", "url": "https://www.fortunebusinessinsights.com/biotechnology-market-116041"},
+    {"n": 19, "title": "Federal Reserve issues FOMC statement, October 28, 2026", "publisher": "Federal Reserve Board", "date": "2026-10-28", "url": "https://www.federalreserve.gov/newsevents/pressreleases/monetary20261028a.htm"}
+  ]
+}
