@@ -1,0 +1,408 @@
+{
+  "code": "35102010",
+  "added": "2026-11-16",
+  "asOf": "2026-11-13",
+  "summary": "Health care distributors are posting strong profit growth on thin margins. McKesson raised fiscal 2027 adjusted EPS guidance to $45.60-$46.40 after revenue of $111B, up 8%, with GLP-1 distribution at $16B, up 26% [1][2]. Cencora guides to $19.40-$19.75 [3] and Cardinal Health lifted its range to $12.80-$13.00 [4]. The industry is concentrated: the Big Three are projected at $933B of drug distribution revenue in 2026, with growth slowing to mid-single digits [5]. Weak spots are medical-surgical products, where McKesson's segment profit fell 10% and Cardinal's fell 28% [2][4]. We found no sourced forward multiple for the group.",
+  "metrics": [
+    {
+      "label": "McKesson quarterly revenue",
+      "value": "$111B",
+      "context": "Fiscal Q2 2027 (reported 4 Nov 2026), up 8%; adjusted EPS $11.68, up 18%; FY2027 adjusted EPS guided to $45.60-$46.40",
+      "source": 2
+    },
+    {
+      "label": "McKesson GLP-1 distribution revenue",
+      "value": "$16B",
+      "context": "Fiscal Q2 2027, up 26% year on year and 8% sequentially",
+      "source": 2
+    },
+    {
+      "label": "Cencora fiscal 2026 revenue",
+      "value": "$337.4B",
+      "context": "Year to 30 Sep 2026, up 5.0%; adjusted EPS $17.97, up 12.3%; FY2027 guide $19.40-$19.75",
+      "source": 3
+    },
+    {
+      "label": "Cardinal Health quarterly revenue",
+      "value": "$67.5B",
+      "context": "Fiscal Q1 2027, up 5%; non-GAAP EPS $3.26, up 28%; FY2027 guide raised to $12.80-$13.00",
+      "source": 4
+    },
+    {
+      "label": "Big Three drug distribution revenue (projected 2026)",
+      "value": "$933B",
+      "context": "Drug Channels Institute projection; growth slowing from double digits through 2025 to mid-single digits in 2026",
+      "source": 5
+    },
+    {
+      "label": "McKesson gross margin",
+      "value": "3.61%",
+      "context": "Fiscal 2026; CVS Health was 24% of revenue and the ten largest customers 73%",
+      "source": 6
+    },
+    {
+      "label": "Henry Schein quarterly sales",
+      "value": "$3.47B",
+      "context": "Q3 2026, up 4.0%; non-GAAP EPS $1.56; FY2026 guide raised to $5.50-$5.56",
+      "source": 7
+    },
+    {
+      "label": "Healthcare Support Services operating margin (Damodaran)",
+      "value": "3.21%",
+      "context": "104 US firms, January 2026; nearest Damodaran category, not a pure distributor group; EV/EBITDA 11.17",
+      "source": 10
+    }
+  ],
+  "watch": [
+    "McKesson plans a phased separation of its Medical-Surgical unit (to be called Wellverse) from January 2027, with Apollo funds holding about 13%, which will reshape the group's earnings mix [6].",
+    "Medical-surgical earnings are under pressure: McKesson's segment operating profit fell 10% and Cardinal's Global Medical Products and Distribution profit fell 28% in their latest quarters [2][4].",
+    "Generics and biosimilars are exempt from the 0% to 100% Section 232 drug tariffs for now, but the administration may revisit that within a year of April 2026 [9].",
+    "The Medicare GLP-1 Bridge runs from 1 Jul 2026 to Dec 2027 at $245 net per month to Medicare, so GLP-1 volume depends on policy and payer behavior [8][2].",
+    "Customer concentration is high: CVS Health was 24% of McKesson's fiscal 2026 revenue, and renewal terms are a key swing factor [6]."
+  ],
+  "bellwethers": [
+    "McKesson",
+    "Cencora",
+    "Cardinal Health",
+    "Henry Schein"
+  ],
+  "basics": {
+    "intro": "Health care distributors buy medicines and medical supplies from manufacturers, store them in regional warehouses and deliver them to pharmacies, hospitals, physician practices and dental offices. They earn a small percentage spread on very large sales volumes, plus fees for services such as specialty drug handling and data. The three big drug wholesalers also own physician-practice networks and software businesses. GICS puts drugstore chains in Consumer Staples and drug makers in Pharmaceuticals; PBMs sit with managed care and hospital operators with facilities.",
+    "products": [
+      {
+        "name": "Pharmaceutical distribution",
+        "what": "Wholesaling of branded and generic prescription drugs to retail pharmacies, hospital pharmacies and mail-order operators. It is high volume and low margin, with profit tied to generic sourcing and service fees.",
+        "examples": "McKesson North American Pharmaceutical, Cencora Pharmaceutical Distribution, Cardinal Health Pharmaceutical segment"
+      },
+      {
+        "name": "Specialty and oncology distribution",
+        "what": "Distribution of high-cost injectable and oncology drugs to physician practices, often with practice-management services and group purchasing.",
+        "examples": "McKesson Oncology and Multispecialty, Cencora Specialty (OneOncology)"
+      },
+      {
+        "name": "Medical-surgical products",
+        "what": "Supplies and equipment such as gloves, syringes, gowns and wound care sold to hospitals, clinics and surgery centers. It is more tied to procedure volumes and freight costs.",
+        "examples": "McKesson Medical-Surgical Solutions, Cardinal Global Medical Products and Distribution"
+      },
+      {
+        "name": "Dental and office-based supplies",
+        "what": "Merchandise, equipment and software for dental and medical practices, sold through catalogs, sales representatives and online ordering.",
+        "examples": "Henry Schein dental and medical distribution"
+      },
+      {
+        "name": "Technology and data services",
+        "what": "Software and services that help manufacturers and pharmacies with access, adherence and data, often higher margin than distribution.",
+        "examples": "McKesson Prescription Technology Solutions, Henry Schein practice management software"
+      }
+    ],
+    "terms": [
+      {
+        "term": "Wholesale acquisition cost (WAC)",
+        "meaning": "A manufacturer's list price to wholesalers. Distributors' fees are often a percentage of it, so list price cuts reduce reported revenue."
+      },
+      {
+        "term": "Generic sourcing venture",
+        "meaning": "A joint buying arrangement that purchases generics from manufacturers at scale. It is the main profit source in pharmaceutical distribution."
+      },
+      {
+        "term": "Generic deflation",
+        "meaning": "The steady fall in generic drug prices over time. It squeezes distributor margins unless offset by sourcing gains."
+      },
+      {
+        "term": "Brand inflation",
+        "meaning": "Manufacturer price increases on branded drugs. Historically they helped distributors' profit, but recent list price cuts reverse the effect on revenue."
+      },
+      {
+        "term": "Biosimilar",
+        "meaning": "A lower-cost, near-copy of a biologic drug. Distributors earn useful fees on them, so adoption matters to profit."
+      },
+      {
+        "term": "340B program",
+        "meaning": "A federal drug discount scheme for qualifying safety-net providers. Wholesalers process 340B orders, so rule changes can disrupt contract pharmacy flows."
+      },
+      {
+        "term": "Group purchasing organization (GPO)",
+        "meaning": "A buying group that negotiates prices for hospitals or practices. It strengthens customers' bargaining power."
+      },
+      {
+        "term": "Specialty drug",
+        "meaning": "A high-cost drug, often injected or infused, needing special handling. Distribution revenue is large and margins are percentage-based."
+      },
+      {
+        "term": "Buy and bill",
+        "meaning": "A model in which a physician practice buys a drug, administers it and then bills the payer. Distributors finance and supply the inventory."
+      },
+      {
+        "term": "Customer concentration",
+        "meaning": "Reliance on a few large buyers, such as national pharmacy chains. A lost or repriced contract moves revenue and profit sharply."
+      },
+      {
+        "term": "Working capital",
+        "meaning": "Receivables plus inventory less payables. For distributors it swings operating cash flow from quarter to quarter."
+      },
+      {
+        "term": "Opioid settlement",
+        "meaning": "Payments by the three big wholesalers to states and others over many years to resolve opioid distribution lawsuits."
+      }
+    ],
+    "drivers": [
+      {
+        "name": "Prescription volume and drug mix",
+        "how": "Revenue rises with volume and with the share of expensive specialty and GLP-1 drugs, which inflate sales faster than profit because margins are a small percentage of high prices."
+      },
+      {
+        "name": "Generic sourcing performance",
+        "how": "Profit depends on buying generics well. Deflation outpacing sourcing gains cuts gross profit; good performance lifts segment profit."
+      },
+      {
+        "name": "Drug pricing policy",
+        "how": "List price cuts, most-favored-nation deals and Medicare price negotiation change revenue per unit and fee structures, with uncertain profit effects."
+      },
+      {
+        "name": "Customer contracts",
+        "how": "Large pharmacy and health system contracts renew every few years. Renewal terms and any loss shift volume and margin."
+      },
+      {
+        "name": "Medical procedure volumes and costs",
+        "how": "Medical-surgical products follow hospital and clinic activity, and freight, petroleum-based materials and tariffs move costs."
+      },
+      {
+        "name": "Capital deployment",
+        "how": "Distributors generate cash and use it for buybacks and acquisitions, so deal prices and share repurchases lift or dilute per-share earnings."
+      }
+    ]
+  },
+  "fundamentals": {
+    "business": [
+      "Revenue comes mostly from selling drugs and supplies at a small markup. McKesson's North American Pharmaceutical segment brought in $91.4B of its $111B quarterly revenue, with Oncology and Multispecialty at $15B and Prescription Technology Solutions at $1.5B [2]. Cencora's U.S. Healthcare Solutions was $298.1B of $337.4B in fiscal 2026 [3].",
+      "Customers are pharmacy chains, health systems, physician practices and dental offices. CVS Health was 24% of McKesson's fiscal 2026 revenue and its ten largest customers 73% [6]. Drug Channels projects five companies (CVS Health, Cigna, Walgreens, Walmart and UnitedHealth Group) will account for more than 40% of US drug distribution revenue in 2026 [5].",
+      "The main cost is the product itself, so gross margin is tiny: McKesson's was 3.61% in fiscal 2026 [6]. Remaining costs are warehousing, freight, labor and technology. On our arithmetic, Cencora's adjusted operating income of $4.81B on $337.4B of revenue is about 1.4% [3].",
+      "Pricing power is weak against large customers and manufacturers, who set list prices. Profit comes from scale, generics sourcing and fees. Cardinal credited brand and specialty products and positive generics program performance for its 17% pharmaceutical segment profit rise [4].",
+      "Main assets are inventory, receivables and goodwill from acquisitions; liabilities are payables and debt. McKesson's total debt was $9.2B at 30 Sep 2026, up from $6.5B in March, with a stockholders' deficit of $3.95B [6]. Cencora's long-term debt was $11.06B against $4.88B of cash [3].",
+      "The business is asset-light relative to revenue but capital-intensive in working capital. Cencora guides to capital spending of about $1.0B on adjusted free cash flow of about $3.5B for fiscal 2027 [3]. Cardinal spent $157M on capex in one quarter [4]."
+    ],
+    "overview": [
+      "We did not find a single sourced global market size. For the US, Drug Channels Institute projects drug distribution revenue for the Big Three at $933B in 2026, with growth slowing from double digits through 2025 to mid-single digits [5]. By our sum of reported fiscal results, McKesson, Cencora and Cardinal alone are hundreds of billions each [3][6].",
+      "Segments are pharmaceutical distribution, specialty and oncology, medical-surgical products, dental and office-based supplies, and technology services. McKesson's trailing revenue was $345.6B in North American Pharmaceutical, $54.9B in oncology and multispecialty and $11.8B in medical-surgical [6]. Henry Schein's U.S. dental total was $933M in Q3 [7].",
+      "Distributors sit between manufacturers and dispensers, and increasingly between payers and care. They buy from drug makers and sell to pharmacies, hospitals and practices; Drug Channels says the largest wholesalers have spent over $20B on stakes in physician management organizations [5].",
+      "The industry evolved from regional wholesalers to three national giants, then into specialty, oncology networks and technology. McKesson will invest about $1.4B for roughly 49% of Option Care Health and has closed Precision Medicine Group for about $2.25B [2]. Cencora financed the OneOncology deal with $3.0B of notes and $1.5B of term loans [3].",
+      "The big drug wholesalers are overwhelmingly US-centred. Foreign operations were about 4% of McKesson's fiscal 2026 revenue [6], while Cencora's International Healthcare Solutions was $30.7B of $337.4B [3]. Henry Schein's international distribution was $901M of $3.47B of Q3 sales [7]."
+    ],
+    "competition": [
+      "In US pharmaceutical wholesale there are three dominant public competitors: McKesson, Cencora and Cardinal Health [5]. In dental and office-based supplies Henry Schein competes with other distributors; we did not obtain share data for that niche.",
+      "Market leaders by reported scale are Cencora with $337.4B of fiscal 2026 revenue [3], McKesson (about $111B in one quarter) [2] and Cardinal ($67.5B in one quarter) [4]. We did not find a sourced percentage share for each, so we do not give one.",
+      "The industry is consolidated at the top. Drug Channels projects the Big Three's drug distribution revenue at $933B in 2026 [5], and we found no sourced figure for how much of the US market the rest of the field holds.",
+      "Barriers to entry are high: national warehouse and logistics networks, licenses, access to manufacturer supply, capital for inventory and customer contracts. Our read is that these barriers explain why the Big Three have lasted while retail pharmacy has shrunk; Drug Channels notes two remaining national drugstore chains have closed more than 3,000 locations since 2018 [5].",
+      "Economies of scale are central: fixed distribution networks spread across huge volume, and generic purchasing is done jointly. McKesson's 3.61% gross margin [6] shows that profit rests on volume and cost discipline.",
+      "Distribution is mostly commoditized: a pharmacy gets the same drug from any wholesaler. Differentiation comes from service, specialty networks, technology and financing, which is why all three have moved into oncology and data [2][3].",
+      "Customers hold more bargaining power than suppliers in generics and with large chains; CVS Health alone was 24% of McKesson's revenue [6]. Manufacturers hold power on branded drugs and have cut list prices on more than 30 brands, changing wholesalers' fee base [5]."
+    ],
+    "drivers": [
+      "Revenue growth follows drug volume, mix and list prices. McKesson's revenue rose 8% in the quarter even though January 2026 list price cuts trimmed North American Pharmaceutical growth by about 4 points [2]. GLP-1 revenue of $16B, up 26%, was a major driver [2].",
+      "Operating margins depend on generics sourcing, brand and specialty mix, service fees and cost control. McKesson's North American Pharmaceutical operating profit rose 22% on 6% revenue growth, partly because list price cuts had no meaningful profit effect [2].",
+      "Key cost variables are product cost, freight and fuel, labor and warehouse capacity. Cardinal flagged that Iran-related cost increases and supply disruptions could affect results, though the release did not quantify the impact [4].",
+      "Interest rates matter through financing of inventory and acquisitions. Cencora guides to net interest expense of $490M-$510M in fiscal 2027 [3]. We did not obtain a sourced rate sensitivity for the group.",
+      "Inflation matters through drug prices and costs, but wholesalers earn on percentage fees, so inflation passes through. GDP and unemployment have only a modest effect because prescription demand is largely non-discretionary. Commodities matter mainly through petroleum-based supplies.",
+      "The business is defensive with secular growth. Medical-surgical results are more cyclical: McKesson's segment profit fell 10% and Cardinal's fell 28% while pharmaceutical segments grew [2][4]. Ageing and specialty drug growth are the structural tailwinds."
+    ],
+    "financials": [
+      "Revenue growth is mid-to-high single digits. McKesson's was 8% [2], Cencora's 5.0% for fiscal 2026 [3] and Cardinal's 5% [4]. Earnings grew faster: McKesson adjusted EPS rose 18% [2], Cencora's 12.3% [3] and Cardinal's non-GAAP EPS 28% [4].",
+      "Margins are razor thin. Damodaran's January 2026 table for US Healthcare Support Services (104 firms, the nearest category and not a pure distributor group) shows a 12.08% gross margin, 3.21% operating margin and 1.25% net margin [10]. McKesson's actual gross margin was 3.61% [6].",
+      "Damodaran's ROE for Healthcare Support Services was 9.89% in January 2026 [11]. That page gives no ROIC, and we did not find a sourced ROIC for the distributors. McKesson's negative equity makes its own ROE not meaningful.",
+      "Leverage is moderate and rising with acquisitions. McKesson's debt was $9.2B [6]; Cencora's long-term debt rose to $11.06B from $7.54B [3]; Cardinal's was about $8.8B against $5.26B of cash [4]. Henry Schein's was $3.52B [7].",
+      "Free cash flow is solid but lumpy. McKesson guides to $4.5B-$4.9B for fiscal 2027 [2], Cencora about $3.5B versus $3.8B in fiscal 2026 [3], and Cardinal had adjusted free cash flow of $1.58B in one quarter [4]. Working-capital swings make single quarters unreliable.",
+      "Capital expenditure is modest relative to sales: Cencora guides to about $1.0B on $337B of revenue [3]. Cash goes to buybacks, with McKesson planning about $5B in fiscal 2027 and Cardinal completing $500M in its fiscal Q1 [2][4].",
+      "Damodaran's January 2026 EV/EBITDA for Healthcare Support Services was 11.17 for firms with positive EBITDA [12]. On our arithmetic McKesson's 4 Nov price of $1,065.70 is about 23 times the $46.00 midpoint of its fiscal 2027 EPS guidance [1][2]."
+    ],
+    "risks": [
+      "Regulatory risk is large: most-favored-nation pricing, Medicare negotiation from 2028 for some Part B drugs, 340B changes and tariff policy [5][9]. The 340B program reached $100B of net drug sales, and McKesson says it cannot predict changes but does not expect a material impact now [5][2].",
+      "Technology and AI offer efficiency in warehousing and ordering but also risk. McKesson disclosed a cybersecurity incident on 25 Aug 2026 that led to putative class actions [6]. We did not find a sourced figure for AI's effect on margins.",
+      "Demographics are a tailwind through ageing and chronic disease, though we found no sourced demographic figure for this brief. Expanded GLP-1 coverage adds volume: the Medicare Bridge could cover about 3.8 million eligible enrollees at a $50 copay [8].",
+      "Consumer behavior is shifting toward direct-to-patient and cash-pay channels. The Medicare Bridge prices Wegovy, Zepbound and Foundayo at $245 net per month [8]. Our read is that direct channels could bypass some wholesale margin, but we have no sourced share figure.",
+      "New competitors and models include manufacturers selling direct and physician networks owned by wholesalers. Drug Channels notes wholesalers' MSO investments exceed $20B, a defensive move to protect channel roles [5]. Retail pharmacy closures also shrink the customer base [5].",
+      "Geopolitical and supply-chain risk centers on tariffs and imports. Proclamation 11020 applies up to 100% tariffs on patented drugs but exempts generics and biosimilars for now, with a possible re-evaluation within one year [9]. Henry Schein booked a $0.19 per share net benefit from tariff refunds in Q3 [7].",
+      "Substitutes include manufacturers shipping direct, hospital-owned distribution and online pharmacies. We did not find a sourced figure for how much volume has moved, so we make no estimate. Litigation is a legacy risk: McKesson carried about a $5.2B opioid liability at 30 Sep 2026 [6]."
+    ],
+    "horizon": {
+      "opportunities": [
+        "Specialty, oncology and biosimilar growth, as McKesson's Oncology and Multispecialty revenue rose 24% to $15B [2].",
+        "GLP-1 volume expansion, helped by the Medicare Bridge running to December 2027 [8][2].",
+        "Technology and services businesses that add higher-margin earnings, such as Prescription Technology Solutions with $307M of operating profit [2].",
+        "Capital return from steady cash flow, with McKesson planning about $5B of buybacks and Cencora raising its dividend 10% [2][3]."
+      ],
+      "threats": [
+        "Drug pricing policy and tariffs could change fee bases or generics supply costs [9][5].",
+        "Customer concentration, with CVS Health at 24% of McKesson revenue, makes contract renewals pivotal [6].",
+        "Medical-surgical weakness and the separation of McKesson's unit add execution risk [2][6].",
+        "Rising debt after acquisitions, as McKesson's rose to $9.2B and Cencora's long-term debt to $11.06B [6][3]."
+      ],
+      "assessment": "We think the next three to five years favour the large distributors that keep pushing into specialty, oncology and technology while holding costs. Revenue growth is slowing toward mid-single digits at the Big Three [5], so earnings growth increasingly depends on mix, sourcing and buybacks. McKesson and Cencora guide to high-single to high-teens EPS growth [2][3]. Policy is the main uncertainty: pricing reform, 340B and tariffs could alter fee structures [5][9], and customers hold most of the bargaining power [6]. Medical-surgical is the weakest piece, which may explain McKesson's decision to separate it [2][6]. We make no estimate beyond those company targets."
+    }
+  },
+  "sections": [
+    {
+      "id": "macro",
+      "paragraphs": [
+        "Health care distribution is defensive: prescription demand does not move much with the economy, so the cycle matters less than drug mix and policy. FactSet's 13 Nov 2026 report shows blended S&P 500 Q3 earnings growth of 31.9% and Health Care revenue growth of 6.3%, with Health Care showing the largest positive earnings surprise of any sector at 13.7% [13]. That sector includes drug makers and insurers, so it describes distributors only loosely.",
+        "Distributors' own revenue is growing faster than that: McKesson 8%, Cardinal 5% and Cencora 5.0% for fiscal 2026 [2][4][3]. Drug Channels expects growth to slow to mid-single digits in 2026 after double-digit growth through 2025 [5].",
+        "Interest rates and currency matter mainly at the margin. Cencora guides to $490M-$510M of net interest expense and a roughly 20% tax rate for fiscal 2027 [3]. Foreign operations were only about 4% of McKesson's fiscal 2026 revenue [6]. We did not obtain a sourced rate or inflation path and do not claim one. Fiscal and trade policy matter more: Proclamation 11020 tariffs on patented drugs began on 31 Jul and 29 Sep 2026, while generics are exempt for now [9]."
+      ]
+    },
+    {
+      "id": "demand",
+      "paragraphs": [
+        "Demand rests on prescription volume, an ageing population, specialty drugs and new categories such as GLP-1s. McKesson's GLP-1 distribution revenue reached $16B in its latest quarter, up 26% year on year and 8% sequentially, though management says payer dynamics can cause quarterly swings [2].",
+        "Policy is widening GLP-1 access. The Medicare GLP-1 Bridge started on 1 Jul 2026 and runs 18 months to December 2027, with a $245 net monthly price to Medicare and a $50 copay; KFF found about 3.8 million Part D enrollees met all criteria using 2023 claims data [8]. Projected federal cost ranges from $1.3B to $3.3B if 10% to 25% of eligible enrollees take part [8].",
+        "We did not obtain a sourced estimate of the overall addressable market. Drug Channels projects Big Three drug distribution revenue at $933B in 2026 [5]. Specialty and oncology are growing faster than the base: McKesson's Oncology and Multispecialty revenue rose 24% to $15B [2]. Medical-surgical demand is weaker, with McKesson's segment revenue up 5% but operating profit down 10% [2]. Over the long term, our read is that ageing and specialty therapies support volume, while price policy, not demand, is the main uncertainty."
+      ]
+    },
+    {
+      "id": "structure",
+      "paragraphs": [
+        "Porter's five forces point to a stable but low-margin industry. Rivalry among the Big Three is intense on price but disciplined. Threat of new entrants is low because of national logistics, licensing, capital and manufacturer relationships. Supplier power sits with drug makers, who have cut list prices on more than 30 brands, while buyer power is high [5].",
+        "Customer concentration is the clearest bargaining-power issue. CVS Health was 24% of McKesson's fiscal 2026 revenue and the ten largest customers 73% [6]. Drug Channels projects five companies to account for more than 40% of US drug distribution revenue in 2026 [5]. McKesson's CVS renewal runs through June 2032 [2].",
+        "The threat of substitutes is modest: manufacturers could sell direct, but wholesalers respond by owning physician networks, with more than $20B invested in management organizations [5]. We did not find sourced market shares for the Big Three. Scale shows in size: Cencora's fiscal 2026 revenue was $337.4B [3], McKesson's quarterly revenue $111B [2] and Cardinal's $67.5B [4]. Moats come from logistics scale, specialty relationships and technology, not pricing power; McKesson's gross margin was 3.61% [6]."
+      ]
+    },
+    {
+      "id": "environment",
+      "paragraphs": [
+        "Regulation is the central factor. Drug Channels highlights Medicare price negotiation for some Part B drugs from 2028, most-favored-nation policies, 340B program growth to $100B of net sales, and manufacturers changing 340B terms for external pharmacies (more than 40 have done so) [5]. McKesson says 340B changes are hard to predict but it does not expect a material impact now [2].",
+        "Trade policy is a live variable. Proclamation 11020 of 2 Apr 2026 sets a 100% baseline tariff on certain patented drugs and ingredients from 31 Jul 2026 for large companies and 29 Sep for others, with 15% for Japan, the EU, Korea and Switzerland, and lower rates for firms with onshoring or pricing agreements [9]. Generics and biosimilars face 0% but may be revisited within a year [9]. Cardinal's release cites tariff cost and Iran-related disruption as risks without quantifying them [4].",
+        "Legal and security risks remain. McKesson carried about a $5.2B opioid liability at 30 Sep 2026 and disclosed a cybersecurity incident on 25 Aug 2026 with putative class actions [6]. On technology, we did not find a sourced estimate of automation or AI effects on distributors' costs, and make no claim. Social factors, including GLP-1 access under the Medicare Bridge, affect volume [8]."
+      ]
+    },
+    {
+      "id": "economics",
+      "paragraphs": [
+        "The economics are enormous revenue, tiny margin and good cash conversion. McKesson's fiscal 2026 gross margin was 3.61% [6]. On our arithmetic, McKesson's Q2 adjusted operating profit of $1.9B on $111B of revenue is about 1.7% [2], Cencora's fiscal 2026 adjusted operating income of $4.81B on $337.4B is about 1.4% [3], and Cardinal's Q1 non-GAAP operating earnings of $1,001M on $67.5B is about 1.5% [4]. Henry Schein, with more product margin and services, earned about 5.6% on our calculation [7].",
+        "Operating leverage appears when mix improves. McKesson's North American Pharmaceutical operating profit rose 22% on 6% revenue growth [2], and Cardinal's pharmaceutical segment profit rose 17% on 6% revenue growth [4]. The reverse shows in medical-surgical: McKesson's operating profit fell 10% on 5% revenue growth and Cardinal's fell 28% on flat revenue [2][4].",
+        "Damodaran's January 2026 category for Healthcare Support Services shows operating margin of 3.21% and ROE of 9.89% [10][11]; it is a broader group than distributors. We did not find a sourced ROIC. Free cash flow is strong relative to capex: McKesson guides to $4.5B-$4.9B for fiscal 2027 [2], and Cencora's fiscal 2026 free cash flow was $3.88B after $909.5M of capex [3]."
+      ]
+    },
+    {
+      "id": "earnings",
+      "paragraphs": [
+        "Guidance is moving up. McKesson raised fiscal 2027 adjusted EPS to $45.60-$46.40 from $44.20-$45.00, or 17% to 19% growth, with revenue growth of 6% to 10% [2]. Cardinal raised to $12.80-$13.00 from $12.40-$12.60 and lifted pharmaceutical segment profit growth to 10%-12% [4]. Henry Schein raised to $5.50-$5.56, including a net tariff refund benefit [7]. Cencora guided to $19.40-$19.75, 8% to 10% growth [3].",
+        "Results beat expectations. McKesson's adjusted EPS of $11.68 compared with a $10.75 consensus, per 24/7 Wall St [1]. We did not obtain consensus for Cencora or Cardinal beyond company results. FactSet shows S&P 500 CY2027 expected earnings growth of 16.2% [13], but we found no sourced consensus EPS growth for distributors as a group.",
+        "Quality of earnings deserves care. Cardinal's baseline excludes an IEEPA tariff refund benefit and it reports growth of 17% to 19% on that basis versus 14% to 15% on reported fiscal 2026 [4]. Henry Schein's EPS growth was 19.1% excluding tariff refunds versus 13.0% as reported [7]. Where our view differs: Precision Medicine Group adds only $0.10-$0.20 to fiscal 2027 EPS [2]. Buybacks cut McKesson's share count 6% [2]."
+      ]
+    },
+    {
+      "id": "valuation",
+      "paragraphs": [
+        "We found no sourced forward P/E or ten-year average for the distributors as a group, and no distributor ETF page, so we limit the claim. Our own arithmetic: McKesson closed around $1,065.70 on 4 Nov 2026, a new 52-week high [1], against the $45.60-$46.40 EPS guidance range [2], which is about 23 times the $46.00 midpoint. We did not obtain current prices for Cencora, Cardinal or Henry Schein.",
+        "For context, FactSet shows the S&P 500 at 18.3 times forward earnings, below its 5-year average of 19.8 and its 10-year average of 19.1 [13]. Damodaran's January 2026 EV/EBITDA for Healthcare Support Services was 11.17 for firms with positive EBITDA, though that group is broader than distributors [12]. The iShares U.S. Healthcare Providers ETF trades on a P/E of 27.08 as of 12 Nov 2026, but it is a providers fund and we could not confirm that it holds the distributors [14].",
+        "Our read is that McKesson's multiple sits above the market's forward multiple, which looks like a premium for specialty growth and buybacks, though we did not compute free cash flow yield. FactSet shows analysts' bottom-up price targets implying 8.3% upside for the Health Care sector, among the smallest of the eleven sectors [13]. We give no view on any single stock."
+      ]
+    },
+    {
+      "id": "positioning",
+      "paragraphs": [
+        "Momentum at McKesson is strong: it made a new 52-week high of $1,069.02 on 4 Nov 2026, after a prior peak on 20 Oct, with a market capitalisation cited at about $124B [1]. We did not obtain price momentum for Cencora, Cardinal or Henry Schein.",
+        "Buybacks are the clearest capital flow. McKesson plans about $5B of repurchases in fiscal 2027, with about $3.4B completed in the first half [2]. Cencora repurchased $1.0B in fiscal 2026 and raised its dividend 10% to $0.66 [3]. Cardinal completed a $500M accelerated repurchase [4]. Henry Schein bought back $450M year to date [7].",
+        "The only fund data we opened was the iShares U.S. Healthcare Providers ETF (IHF), up 26.81% year to date to 12 Nov 2026 with net assets of $1.58B [14]. It is a providers fund, and we could not verify its holdings, so we do not treat it as a distributor measure. We did not obtain short interest, fund flows or breadth for the group and make no claim about them. FactSet shows 60% of Health Care sector ratings are Buy [13]."
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "n": 1,
+      "title": "McKesson Tops Q2 2027 EPS Expectations, Raises Full-Year Guidance",
+      "publisher": "24/7 Wall St.",
+      "date": "2026-11-04",
+      "url": "https://247wallst.com/cards/mckesson-q2-2027-earnings-mck-01m6m9wn1b6ej7k7we1rxpsx3k"
+    },
+    {
+      "n": 2,
+      "title": "McKesson Q2 earnings call highlights (fiscal 2027)",
+      "publisher": "MarketBeat",
+      "date": "2026-11-07",
+      "url": "https://www.marketbeat.com/instant-alerts/transcript-mckesson-q2-earnings-call-highlights-2026-11-07/"
+    },
+    {
+      "n": 3,
+      "title": "Cencora reports fiscal 2026 fourth quarter and fiscal year end results (Form 8-K, Exhibit 99.1)",
+      "publisher": "Cencora / SEC",
+      "date": "2026-11-04",
+      "url": "https://www.sec.gov/Archives/edgar/data/0001140859/000114085926000038/exhibit991-q42026.htm"
+    },
+    {
+      "n": 4,
+      "title": "Cardinal Health reports first quarter fiscal year 2027 results and raises outlook (Form 8-K)",
+      "publisher": "Cardinal Health / SEC",
+      "date": "2026-11-05",
+      "url": "https://www.sec.gov/Archives/edgar/data/0000721371/000072137126000042/a27q1_x093026xex991xnewsre.htm"
+    },
+    {
+      "n": 5,
+      "title": "10 crucial trends facing US drug wholesalers",
+      "publisher": "Drug Channels Institute",
+      "date": "2026-10",
+      "url": "https://www.drugchannels.net/2026/10/10-crucial-trends-facing-us-drug.html"
+    },
+    {
+      "n": 6,
+      "title": "McKesson Q2 FY2027 earnings and SEC filing analysis",
+      "publisher": "sec-api.io",
+      "date": "2026-11-05",
+      "url": "https://sec-api.io/insights/mckesson-mck-q2-fy2027-earnings-sec-filing-analysis-111bn-quarter-oncology-24-and-the-wellverse-spin-off"
+    },
+    {
+      "n": 7,
+      "title": "Henry Schein reports 2026 third quarter and raises FY2026 guidance (Form 8-K, Exhibit 99.1)",
+      "publisher": "Henry Schein / SEC",
+      "date": "2026-11-03",
+      "url": "https://www.sec.gov/Archives/edgar/data/0001000228/000100022826000059/exhibit991.htm"
+    },
+    {
+      "n": 8,
+      "title": "Nearly four million Medicare beneficiaries could be eligible for the temporary Medicare GLP-1 Bridge program",
+      "publisher": "KFF",
+      "date": "2026-06-29",
+      "url": "https://www.kff.org/medicare/nearly-four-million-medicare-beneficiaries-could-be-eligible-for-the-temporary-medicare-glp-1-bridge-program-covering-these-drugs-for-weight-loss/"
+    },
+    {
+      "n": 9,
+      "title": "Trump administration announces Section 232 tariffs on patented pharmaceuticals and ingredients",
+      "publisher": "Covington & Burling",
+      "date": "2026-04",
+      "url": "https://www.cov.com/en/news-and-insights/insights/2026/04/trump-administration-announces-section-232-tariffs-on-patented-pharmaceuticals-and-ingredients"
+    },
+    {
+      "n": 10,
+      "title": "Margins by sector (US), January 2026",
+      "publisher": "Aswath Damodaran, NYU Stern",
+      "date": "2026-01",
+      "url": "https://pages.stern.nyu.edu/~adamodar/New_Home_Page/datafile/margin.html"
+    },
+    {
+      "n": 11,
+      "title": "Return on equity by sector (US), January 2026",
+      "publisher": "Aswath Damodaran, NYU Stern",
+      "date": "2026-01",
+      "url": "https://pages.stern.nyu.edu/~adamodar/New_Home_Page/datafile/roe.html"
+    },
+    {
+      "n": 12,
+      "title": "EV/EBITDA multiples by sector (US), January 2026",
+      "publisher": "Aswath Damodaran, NYU Stern",
+      "date": "2026-01",
+      "url": "https://pages.stern.nyu.edu/~adamodar/New_Home_Page/datafile/vebitda.html"
+    },
+    {
+      "n": 13,
+      "title": "FactSet Earnings Insight (13 November 2026)",
+      "publisher": "FactSet",
+      "date": "2026-11-13",
+      "url": "https://advantage.factset.com/hubfs/Website/Resources%20Section/Research%20Desk/Earnings%20Insight/EarningsInsight_111326.pdf"
+    },
+    {
+      "n": 14,
+      "title": "iShares U.S. Healthcare Providers ETF (IHF) fund page",
+      "publisher": "BlackRock iShares",
+      "date": "2026-11-13",
+      "url": "https://www.ishares.com/us/products/239510/ishares-us-healthcare-providers-etf"
+    }
+  ]
+}

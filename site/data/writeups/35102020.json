@@ -1,0 +1,442 @@
+{
+  "code": "35102020",
+  "added": "2026-11-16",
+  "asOf": "2026-11-13",
+  "summary": "Hospital operators are growing volumes but losing payer mix. HCA's Q3 revenue rose 3.6% to $19.849B, yet it estimates about $400M of pretax income was lost to patients who lost exchange coverage and became uninsured [1]. Tenet raised guidance on a 24.1% EBITDA margin that includes $147M of one-off items [2], while Community Health Systems cut guidance after revenue fell 10.7% on divestitures [3]. Specialty operators look steadier: Encompass Health lifted 2026 guidance on 8.9% revenue growth [4]. Marketplace enrolment fell 12% to 19.2M and Medicaid work requirements start 1 Jan 2027 [5][6]. The providers ETF IHF trades on 27.08x earnings [7].",
+  "metrics": [
+    {
+      "label": "HCA revenue",
+      "value": "$19.849B",
+      "context": "Q3 2026, up 3.6% from $19.161B; adjusted EBITDA $3.918B, up 1.2%",
+      "source": 1
+    },
+    {
+      "label": "HCA payer-mix hit",
+      "value": "About $400M",
+      "context": "Company estimate of the Q3 2026 pretax income reduction from uninsured volume of patients who lost exchange coverage",
+      "source": 1
+    },
+    {
+      "label": "Tenet adjusted EBITDA margin",
+      "value": "24.1%",
+      "context": "Q3 2026 vs 20.8%; includes a net $147M favorable revenue-cycle transition item; 2026 adjusted EBITDA guided to $5,050M-$5,200M",
+      "source": 2
+    },
+    {
+      "label": "Community Health Systems revenue",
+      "value": "$2.757B",
+      "context": "Q3 2026, down 10.7% on divestitures; same-store revenue up 3.8%; net loss $86M",
+      "source": 3
+    },
+    {
+      "label": "Encompass Health adjusted EBITDA",
+      "value": "$346.6M",
+      "context": "Q3 2026, up 15.5%; revenue up 8.9% to $1,609.5M; 2026 adjusted EPS guided to $6.23-$6.37",
+      "source": 4
+    },
+    {
+      "label": "ACA Marketplace effectuated enrolment",
+      "value": "19.2M",
+      "context": "February 2026, down 12% from 21.8M; total individual market down 18% to 20.5M by June 2026",
+      "source": 5
+    },
+    {
+      "label": "Medicare inpatient payment update, FY2027",
+      "value": "2.3%",
+      "context": "3.2% market basket less 0.9-point productivity adjustment; effective 1 Oct 2026",
+      "source": 8
+    },
+    {
+      "label": "EV/EBITDA, Hospitals/Healthcare Facilities (US)",
+      "value": "8.86x",
+      "context": "Damodaran, January 2026, 31 firms, positive-EBITDA firms only; 10.69x for all firms",
+      "source": 9
+    }
+  ],
+  "watch": [
+    "Medicaid work requirements must be in place by 1 Jan 2027, adding to coverage losses already visible in the exchanges [6][5].",
+    "HCA's 2027 starting point depends on whether the roughly $400M quarterly exchange payer-mix hit persists; the company only said full-year 2026 will land in the upper half of its July ranges [1].",
+    "Insurers proposed a median 15% premium increase for 2027 exchange plans, a second year of double-digit rises that could push more people out of coverage [5].",
+    "Community Health Systems had operating cash outflow of $55M over nine months against $277M inflow a year earlier, so its cash generation is the weakest in the group [3].",
+    "Mandatory Medicare bundled-payment models widen: TEAM runs from 2026 to 2030 and the CJR-X joint replacement model starts 1 Jan 2028 [8]."
+  ],
+  "bellwethers": [
+    "HCA Healthcare",
+    "Tenet Healthcare",
+    "Universal Health Services",
+    "Community Health Systems",
+    "Encompass Health",
+    "Ensign Group",
+    "Select Medical"
+  ],
+  "basics": {
+    "intro": "These companies own and run hospitals, nursing homes, rehabilitation hospitals and other care facilities. Customers are patients, but the payers are Medicare, Medicaid, commercial insurers and individuals. Revenue comes from per-admission or per-day payments for acute care, surgery, psychiatric stays, rehabilitation and skilled nursing. GICS also places owners of free-standing surgery centres here. Insurers, physician groups, labs and outpatient services sit in neighbouring sub-industries, and not-for-profit hospitals are not listed at all.",
+    "products": [
+      {
+        "name": "Acute care hospitals",
+        "what": "General hospitals providing emergency, inpatient and surgical care. Revenue depends on admissions, procedure mix and what each payer pays.",
+        "examples": "HCA, Tenet, Community Health Systems, UHS"
+      },
+      {
+        "name": "Ambulatory surgery centres",
+        "what": "Outpatient surgical sites, often co-owned with physicians, with lower cost and higher margin than hospital surgery.",
+        "examples": "Tenet's USPI, HCA ambulatory sites"
+      },
+      {
+        "name": "Behavioral health facilities",
+        "what": "Hospitals and units for psychiatric and addiction treatment, paid mostly per day by Medicare, Medicaid and insurers.",
+        "examples": "Universal Health Services"
+      },
+      {
+        "name": "Inpatient rehabilitation hospitals",
+        "what": "Facilities for stroke, brain injury and joint recovery with intensive therapy, largely paid by Medicare.",
+        "examples": "Encompass Health, Select Medical"
+      },
+      {
+        "name": "Skilled nursing and senior living",
+        "what": "Facilities for short-stay rehabilitation after hospital discharge and for long-stay residents, paid by Medicare, Medicaid and managed care.",
+        "examples": "Ensign Group, Pennant Group"
+      },
+      {
+        "name": "Long-term acute care and outpatient therapy",
+        "what": "Hospitals for medically complex patients needing long stays, plus clinics for physical therapy.",
+        "examples": "Select Medical"
+      }
+    ],
+    "terms": [
+      {
+        "term": "Adjusted admission",
+        "meaning": "Inpatient admissions scaled up to include outpatient volume, so hospitals can compare activity across mixes of inpatient and outpatient care."
+      },
+      {
+        "term": "Payer mix",
+        "meaning": "The share of patients covered by Medicare, Medicaid, commercial insurance, exchanges or no insurance. It matters because commercial payers pay far more than Medicaid and the uninsured often pay nothing."
+      },
+      {
+        "term": "Same-facility (same-store)",
+        "meaning": "Results for hospitals owned in both periods, which strips out acquisitions and divestitures."
+      },
+      {
+        "term": "Revenue per adjusted admission",
+        "meaning": "Average payment per unit of volume. It is the cleanest read on price and mix."
+      },
+      {
+        "term": "Uncompensated care",
+        "meaning": "Charity care and bad debt for patients who do not or cannot pay."
+      },
+      {
+        "term": "Exchange (Marketplace) plan",
+        "meaning": "Individual health plan sold under the Affordable Care Act, usually with federal subsidies. Exchange patients generally pay hospitals better than Medicaid."
+      },
+      {
+        "term": "IPPS",
+        "meaning": "Medicare's inpatient prospective payment system: a fixed payment per diagnosis-related group, updated each October."
+      },
+      {
+        "term": "Disproportionate share (DSH) payment",
+        "meaning": "Extra Medicare and Medicaid money for hospitals that treat many low-income patients."
+      },
+      {
+        "term": "Adjusted EBITDA",
+        "meaning": "Earnings before interest, tax, depreciation and amortisation, adjusted by each company for one-offs. It is the main profit measure, but definitions differ between firms."
+      },
+      {
+        "term": "Net leverage",
+        "meaning": "Net debt divided by adjusted EBITDA. Hospital chains use debt heavily, so this ratio signals how much room they have if earnings fall."
+      },
+      {
+        "term": "Certificate of need",
+        "meaning": "State rules that require approval before building or expanding facilities, which restrict competition in some states."
+      },
+      {
+        "term": "Site-neutral payment",
+        "meaning": "A policy to pay the same for a service whether done in a hospital outpatient department or a cheaper setting, which would cut hospital revenue."
+      }
+    ],
+    "drivers": [
+      {
+        "name": "Volume",
+        "how": "More admissions, emergency visits and surgeries spread fixed costs of staff and buildings over more patients, so profit grows faster than revenue."
+      },
+      {
+        "name": "Payer mix",
+        "how": "Each patient who moves from commercial or exchange cover to uninsured or Medicaid cuts revenue per case while costs stay the same."
+      },
+      {
+        "name": "Government rate updates",
+        "how": "Medicare and Medicaid set prices annually. If updates run below wage and supply inflation, margins shrink."
+      },
+      {
+        "name": "Labour costs",
+        "how": "Nurses and physicians are the largest expense. Wage inflation or reliance on contract labour compresses margins quickly."
+      },
+      {
+        "name": "Commercial contract pricing",
+        "how": "Multi-year contracts with insurers set the highest prices. Renegotiations lift or restrain revenue per admission."
+      },
+      {
+        "name": "Capital deployment",
+        "how": "Hospital owners use leverage, buy back stock, acquire or sell hospitals. Portfolio changes shift reported revenue and leverage."
+      },
+      {
+        "name": "Policy and regulation",
+        "how": "Changes to Medicaid eligibility, ACA subsidies, bundled-payment models and staffing rules can reset the profit pool."
+      }
+    ]
+  },
+  "fundamentals": {
+    "business": [
+      "Revenue is patient service revenue: payments for admissions, emergency visits, surgeries, rehabilitation stays and nursing days. HCA earned $19.849B in Q3 2026 [1], Tenet $5.631B [2], UHS $4.733B [10] and Encompass $1,609.5M [4]. Tenet also earns fees from revenue-cycle services, though that Conifer contract is winding down [2].",
+      "Customers are patients, but payers decide revenue: Medicare, Medicaid, commercial insurers, exchange plans and self-pay. We did not find a current sourced payer split across the group. The portion of HCA's 10-Q we could read did not include its revenue mix [11].",
+      "The main cost is labour, followed by supplies, drugs and purchased services. We did not find sourced group-wide percentages. HCA's interest expense was $607M in Q3 2026 and $1,790M over nine months, an unusually large cost for a service business [11].",
+      "Pricing power comes from local market share and commercial contracts, because Medicare and Medicaid prices are set by government. The FY2027 Medicare inpatient update is 2.3%, and skilled nursing is 2.4%, both fixed by rule [8][12]. Our read is that dense local networks are the only real lever.",
+      "Major assets are hospitals, land and equipment, plus goodwill from acquisitions. Liabilities are mostly debt. HCA had $42,400M of long-term debt plus $8,093M of short-term and current debt at 30 Sep 2026 [11]. UHS had $5.707B of debt and a debt-to-capitalisation of 42.9% [10].",
+      "The business is capital-intensive. HCA spent $1.357B on capital in Q3 alone [1], UHS $659.7M over nine months [10], Encompass $617.2M [4]. Tenet is lighter, guiding to $700M-$800M for 2026 because ambulatory sites need less capital [2]."
+    ],
+    "overview": [
+      "The US has 6,100 hospitals in the AHA's FY2024 survey, of which 5,121 are community hospitals [13]. We did not find a sourced dollar market size for the facilities sub-industry. For scale, HCA's nine-month 2026 revenue was $59,188M [11].",
+      "Main segments are acute care, behavioral health, rehabilitation, ambulatory surgery and skilled nursing. Of the 5,121 community hospitals, 1,224 (24%) are investor-owned; 2,984 (58%) are not-for-profit and 913 (18%) are state or local government [13]. Listed operators therefore run a minority of hospitals.",
+      "Facilities sit between payers (insurers and governments) and suppliers (clinicians, drug and device makers). They buy labour, equipment and drugs, and sell care. Tenet's ambulatory arm and Encompass's rehabilitation hospitals sell to the same payers as acute hospitals but with different margins [2][4].",
+      "The industry has moved toward outpatient care and specialisation. Tenet's USPI ambulatory arm earned a 39.2% adjusted EBITDA margin against 19.2% in hospital operations in Q3 2026 [2]. Chains also prune weaker assets: CHS fell from 70 hospitals to 60 in a year [3], HCA from 191 to 189 [1].",
+      "Operations are US-centred and spread by state. Encompass runs 179 hospitals in 39 states and Puerto Rico [4]; Ensign has 418 operations in 18 states [14]. HCA has roughly 2,600 ambulatory sites in 19 states and the United Kingdom [1]. Exposure to each state's Medicaid and exchange rules therefore varies."
+    ],
+    "competition": [
+      "There are a handful of large listed hospital chains (HCA, Tenet, CHS, UHS) and specialty operators (Encompass, Select Medical, Ensign, Pennant). Most of the 6,100 US hospitals are not listed; 1,224 community hospitals are investor-owned [13].",
+      "HCA is the largest listed operator by revenue: $19.849B in Q3 2026 against $5.631B at Tenet, $4.733B at UHS and $2.757B at CHS [1][2][10][3]. We did not find sourced market-share percentages.",
+      "The industry is fragmented nationally but concentrated locally. Only 30% of community hospitals are independent; 70% belong to systems [13]. In a given city, one or two systems often hold most beds, which matters more for pricing than national share.",
+      "Barriers to entry are high locally: licences, certificate-of-need rules in some states, physician relationships and capital. Our read is that specialty niches, such as ambulatory surgery and rehabilitation, are easier to enter than full acute hospitals, as Encompass opening four hospitals in nine months suggests [4].",
+      "Economies of scale exist in purchasing, billing, data and borrowing. HCA bought back $2.970B of stock in one quarter while carrying $50.493B of debt, a scale few peers could match [1]. CHS, with adjusted EBITDA down to $280M from $376M, shows how a smaller base can leave less cushion [3].",
+      "Hospital care is partly differentiated by quality, service lines and location, but Medicare and Medicaid pay set rates, so government business behaves like a commodity. Differentiation matters mostly for commercial patients and physicians.",
+      "Payers hold strong bargaining power where they can steer patients, and governments set prices outright. Hospitals have power where they dominate a market. Suppliers, mainly nurses and physicians, gained power as labour tightened. CHS blamed payer mix and acuity for missing expectations [3]."
+    ],
+    "drivers": [
+      "Revenue growth follows volume, price and mix. UHS acute care adjusted admissions rose 4.9% while revenue per adjusted admission fell 1.7%, so mix offset volume [10]. Tenet hospital adjusted admissions rose 3.2% but revenue per adjusted admission only 0.2% [2].",
+      "Margins depend on labour cost, payer mix and volume leverage. Tenet's hospital EBITDA margin rose to 19.2% from 15.1% [2], while CHS's fell to 10.2% from 12.2% [3]. UHS's operating income was $454.4M on $4,733M revenue, about 9.6% [10].",
+      "Key cost variables are wages, contract labour, supplies and drugs, and bad debt. We did not find a sourced group-wide labour cost share. CMS's FY2027 market basket of 3.2% for hospitals and 3.3% for nursing homes is the government's estimate of input cost inflation [8][12].",
+      "Interest-rate sensitivity is high because of debt. HCA's interest expense rose to $607M from $561M in Q3 [11]. Tenet refinanced $2.0B of 6.250% notes due 2034 to redeem $1.5B of 5.125% notes due 2027 and part of 6.125% notes due 2028 [2]. Net debt to EBITDA was 2.11x at Tenet [2].",
+      "Hospitals are sensitive to unemployment and insurance coverage rather than GDP: job losses push people from commercial coverage to Medicaid or uninsured. Inflation matters through wages against fixed government prices. Commodity exposure is limited to supplies and energy; we have no sourced figure.",
+      "The industry is defensive in demand but cyclical in earnings. Admissions grew in 2026 even as coverage fell, with HCA's total admissions up 2.5% [1], but profit swings with payer mix, as HCA's roughly $400M hit shows [1]. Ageing is a secular tailwind for volume."
+    ],
+    "financials": [
+      "Revenue growth is mid single digits for large chains and double digits for specialty operators. In Q3 2026 HCA grew 3.6% [1], Tenet 6.5% [2], UHS 5.3% [10], Encompass 8.9% [4] and Ensign 14.5% [14], while CHS fell 10.7% on divestitures [3]. Earnings are more volatile than revenue.",
+      "Damodaran's January 2026 table for US Hospitals/Healthcare Facilities (31 firms) shows a 39.10% gross margin, 14.05% pre-tax operating margin, 15.80% EBITDA margin and 6.30% net margin [15]. Tenet's Q3 adjusted EBITDA margin was 24.1% [2] and CHS's 10.2% [3].",
+      "Damodaran's January 2026 return on equity for the group was 50.84% [16]. We think that figure is inflated by heavy debt and share buybacks that shrink book equity. The page gave no ROIC for the group, so we do not estimate one.",
+      "Leverage is high. HCA had $50.493B of total debt [1]; UHS's debt was 42.9% of capitalisation [10]; Tenet's net debt to adjusted EBITDA was 2.11x [2]. CHS's most recent leverage figure was not available to us from its release [3].",
+      "Free cash flow is solid at the leaders but uneven. Tenet guides 2026 adjusted free cash flow of $2,825M-$3,125M [2]. HCA's nine-month operating cash flow was $8.810B versus $10.277B a year earlier [1]. CHS's was negative $55M [3].",
+      "Capital spending is heavy for hospitals and lighter for ambulatory models. HCA's Q3 capex was $1.357B [1], Tenet's $198M [2], UHS's nine-month $659.7M [10] and Encompass's $617.2M [4]. Much of it funds new beds and facilities.",
+      "Damodaran's January 2026 EV/EBITDA for the group was 8.86x for positive-EBITDA firms and 10.69x for all firms [9]. The IHF ETF, which holds a broader providers mix, trades at 27.08x earnings [7]. The two measures are not comparable."
+    ],
+    "risks": [
+      "Regulation is the biggest risk. Federal Medicaid cuts in the 2025 law are estimated at $911B, with work requirements by 1 Jan 2027 [6]. Mandatory bundled-payment models such as TEAM (2026-2030) and CJR-X (from 2028) put payments at risk [8]. Encompass lists audits and TEAM among its risks [4].",
+      "Technology and AI may reduce administrative cost and improve scheduling, but also help payers deny claims. We did not find a sourced estimate of the effect on hospital margins and treat it as unquantified.",
+      "Demographics help volume, since an ageing population uses more care, but older patients are mostly paid by Medicare at government rates. Ensign's Medicare days rose 7.6% year on year at same stores [14], showing the skilled nursing benefit.",
+      "Consumer behaviour is shifting under affordability pressure. Individual-market enrolment fell 18% in a year, and 9% of 2025 Marketplace enrollees surveyed said they were uninsured [5].",
+      "New competitors include insurer-owned care, private-equity surgery and home-based care. Tenet's surgical cases fell 1.5% even as revenue per case rose 6.1% [2]. We did not find sourced share figures for new entrants.",
+      "Geopolitical and supply-chain risk is modest: drugs, devices and supplies are bought through group purchasing, and our read is that tariffs are a cost risk rather than a demand risk. We did not find sourced figures for this.",
+      "Substitutes include outpatient surgery, telehealth, home care and retail clinics. Tenet's USPI margin of 39.2% shows where profit is moving [2]. Skilled nursing and rehabilitation compete with home health for post-acute patients; we have no sourced share data."
+    ],
+    "horizon": {
+      "opportunities": [
+        "Ageing and volume growth continue: HCA admissions rose 2.5% and Encompass discharges 5.7% in Q3 2026 [1][4].",
+        "Medicare rate updates of 2.3% for hospitals and 2.4% for nursing homes are positive, though modest [8][12].",
+        "Ambulatory surgery and specialty facilities earn higher margins, with Tenet's USPI at 39.2% [2].",
+        "Deleveraging and buybacks support per-share earnings, as HCA's $2.970B of Q3 repurchases and Tenet's 2.11x net leverage show [1][2]."
+      ],
+      "threats": [
+        "Coverage losses: exchange enrolment fell 12% and Medicaid work requirements start in 2027 [5][6].",
+        "Payer mix deterioration may be larger than guidance implies, as the roughly $400M quarterly HCA hit shows [1].",
+        "Weaker operators like CHS face cash flow pressure, with nine-month operating cash flow of negative $55M [3].",
+        "Expanding mandatory Medicare payment models could cut hospital payments [8]."
+      ],
+      "assessment": "We think the next three to five years favour scaled, lightly levered operators with strong ambulatory and specialty franchises, and challenge those with high debt and large exposure to exchange and Medicaid patients. Volumes are healthy and Medicare updates are positive, so the main question is who pays. If exchange coverage keeps shrinking and Medicaid work requirements remove members from 2027, uncompensated care will rise before any policy fix [5][6]. HCA and Tenet have shown they can absorb a payer-mix hit through volume and cost control [1][2]. CHS, with adjusted EBITDA down 25.5% and a Q3 net loss, shows the strain on an operator without that cushion [3]. Specialty operators such as Encompass and Ensign are growing faster with less exposure to uninsured patients [4][14]."
+    }
+  },
+  "sections": [
+    {
+      "id": "macro",
+      "paragraphs": [
+        "Hospital operators are defensive on volume but now carry a coverage cycle. Q3 2026 admissions grew 2.5% at HCA, 2.8% at Tenet and 4.9% for UHS acute care adjusted admissions, so demand for care is holding [1][2][10]. The pressure comes from who pays. KFF finds individual-market enrolment fell 18% year on year to 20.5M by June 2026, after enhanced tax credits expired, and 9% of 2025 Marketplace enrollees surveyed said they were uninsured [5].",
+        "Fiscal policy is the larger lever than interest rates. The 2025 reconciliation law cuts federal Medicaid spending by an estimated $911B, with work requirements by 1 Jan 2027 [6]. For the sector, HCA's roughly $400M quarterly hit shows how fast coverage losses show up in earnings [1].",
+        "Interest rates matter through debt: HCA's Q3 interest expense was $607M against $561M a year earlier [11]. FactSet shows Health Care sector revenue growth of 6.3% for Q3 2026, but that sector includes drug makers and insurers, so it describes facilities only loosely [17]. We did not obtain a sourced forecast for rates or inflation."
+      ]
+    },
+    {
+      "id": "demand",
+      "paragraphs": [
+        "Structural demand comes from ageing, chronic disease and procedure growth. Admissions rose in every large operator's results: HCA's total admissions rose 2.5% [1], Tenet's adjusted admissions 3.2% [2] and Encompass's discharges 5.7% [4]. Ensign's same-store skilled nursing days rose 7.2% and Medicare days 7.6% [14].",
+        "Demand is inelastic for emergencies and elastic for elective care and for subsidised coverage. Tenet's same-facility surgical cases fell 1.5% [2], while CHS said payer mix and acuity did not develop as expected [3].",
+        "We did not find a sourced dollar market size for hospitals or a long-run growth forecast, so we make no claim on one. What we can say is that volume is not the problem: the issue is coverage. The June 2026 individual market of 20.5M is still about 53% above June 2019, per KFF [5], but it is shrinking, and KFF cites CBO's earlier House estimate that 5.2M fewer adults would have Medicaid by 2034 and the uninsured would rise by 4.8M [6]."
+      ]
+    },
+    {
+      "id": "structure",
+      "paragraphs": [
+        "Porter's five forces point to a mixed picture. Buyer power is strong: Medicare and Medicaid set prices, and commercial insurers negotiate hard. Supplier power sits with nurses, physicians and drug makers. Threat of new entrants is low for full hospitals because of capital and licensing, but higher in ambulatory surgery. Substitutes (outpatient, home care) are rising. Rivalry is local and tends to be rational.",
+        "The AHA counts 6,100 US hospitals, of which 1,224 community hospitals (24% of community hospitals) are investor-owned and 2,984 are not-for-profit; 70% of community hospitals belong to systems [13]. Listed chains are therefore a minority of capacity. HCA leads on scale with $19.849B of Q3 revenue and 189 hospitals [1].",
+        "Moats come from local density, physician relationships and scale in purchasing and billing. Not all moats hold: CHS has divested hospitals, falling from 70 to 60 in a year, and reported a Q3 net loss of $86M [3]. Pricing power is greatest in commercial contracts and weakest in government business. Specialty niches such as rehabilitation have structural advantages, as Encompass's 8.9% revenue growth suggests [4]."
+      ]
+    },
+    {
+      "id": "environment",
+      "paragraphs": [
+        "Regulation sets revenue. CMS finalised a 2.3% Medicare inpatient update for FY2027 (3.2% market basket less 0.9 points productivity), worth about $2.9B in total, effective 1 Oct 2026, and a 2.4% update for skilled nursing worth $882.74M [8][12]. Medicare disproportionate-share uncompensated care funding is set at $11.82B for FY2027 [8].",
+        "Mandatory payment models are expanding. TEAM runs from 1 Jan 2026 to 31 Dec 2030, and CJR-X starts 1 Jan 2028, delayed from the proposal [8]. Encompass lists audits, CMS review choice, TEAM and Medicaid reimbursement changes among its risks [4].",
+        "Political change is the main source of uncertainty. The 2025 reconciliation law brings Medicaid work requirements by 1 Jan 2027 and an estimated $911B of federal Medicaid cuts, of which $326B come from work requirements [6]. Enhanced ACA tax credits have expired, and KFF reports insurers proposed a median 15% 2027 premium increase [5].",
+        "Technology and AI may change costs and coding but we did not obtain sourced evidence on their effect."
+      ]
+    },
+    {
+      "id": "economics",
+      "paragraphs": [
+        "Economics: high fixed costs, thin to moderate margins, heavy debt. Damodaran's January 2026 data for 31 US hospital and facility firms show a 14.05% pre-tax operating margin, a 15.80% EBITDA margin and a 6.30% net margin [15]. Company adjusted EBITDA margins range from 10.2% at CHS to 24.1% at Tenet in Q3 2026 [3][2].",
+        "Operating leverage is strong. Tenet's hospital EBITDA margin rose to 19.2% from 15.1% on 6.1% revenue growth [2]. The reverse also applies: HCA's revenue rose 3.6% but adjusted EBITDA only 1.2% as roughly $400M of payer-mix pressure absorbed volume gains [1]. Damodaran's ROE of 50.84% is flattered by leverage [16]; no ROIC was available.",
+        "Capital intensity is high for acute hospitals: HCA's Q3 capex of $1.357B compares with $198M at Tenet [1][2]. Free cash flow is solid but uneven: Tenet guides adjusted FCF of $2,825M-$3,125M, HCA's nine-month operating cash flow was $8.810B versus $10.277B, and CHS's was negative $55M [2][1][3]. Interest is a major claim on cash [11]."
+      ]
+    },
+    {
+      "id": "earnings",
+      "paragraphs": [
+        "Guidance was mostly raised, with exceptions. HCA expects full-year 2026 in the upper half of its July ranges [1]. Tenet raised adjusted EBITDA guidance to $5,050M-$5,200M, a $195M rise at the midpoint [2]. Encompass raised EBITDA guidance to $1,395M-$1,415M from $1,365M-$1,395M and EPS to $6.23-$6.37 [4]. Ensign raised EPS guidance to $7.94-$8.02 from $7.75-$7.85 [14]. CHS's 2026 guidance ranges were not in the portion of its release we could read, so we do not quote them [3].",
+        "Quality of earnings differs. Tenet's Q3 adjusted EBITDA included a net $147M favourable revenue-cycle item [2]. UHS's Q3 included a $47M favourable Medicaid supplemental payment and a $26M reserve increase [10]. HCA's net income fell 3.9% to $1.579B despite higher revenue [1].",
+        "We did not find consensus EPS growth for hospital operators and do not estimate one. FactSet shows S&P 500 CY2027 earnings growth of 16.2% and that Health Care's Q3 earnings surprise of 13.7% was the largest of any sector [17]. Where our view differs: with exchange and Medicaid coverage still shrinking, we think 2027 earnings depend on cost control and volumes, not payer mix."
+      ]
+    },
+    {
+      "id": "valuation",
+      "paragraphs": [
+        "The cleanest market gauge we found is the iShares U.S. Healthcare Providers ETF (IHF) at 27.08x earnings on 12 Nov 2026 [7]. It is a mix: Managed Health Care is 43.26%, Health Care Services 35.22% and Health Care Facilities only 14.40% [7]. So it is not a facilities multiple, and we did not find a forward P/E series for facilities.",
+        "Damodaran's January 2026 data show Hospitals/Healthcare Facilities at 8.86x EV/EBITDA for positive-EBITDA firms and 10.69x for all firms [9]. These are trailing-style data from ten months ago, so they miss 2026 earnings revisions.",
+        "For context, FactSet shows the S&P 500 at 18.3x forward earnings, below its 5-year average of 19.8x and 10-year average of 19.1x [17]. FactSet's bottom-up targets imply 8.3% upside for the Health Care sector against 22.2% for the index, one of the smallest gaps [17]. We read that as the sector being priced closer to its estimates than most. We have not computed free cash flow yields and give no view on any single stock."
+      ]
+    },
+    {
+      "id": "positioning",
+      "paragraphs": [
+        "Momentum is strong. IHF's NAV returned 26.81% year to date to 12 Nov 2026, with NAV at $60.3952 against a 52-week range of $41.02-$60.91, close to the top [7]. Net assets were $1.582B on 13 Nov 2026 [7]. The ETF has 61 holdings and is dominated by insurers and services, so it overstates hospital-operator momentum.",
+        "Buybacks are visible. HCA repurchased 7.230M shares for $2.970B in Q3 [1]; Tenet bought back $255M in Q3 and $1.615B over nine months [2]; UHS repurchased $242.1M in Q3 and has $735.4M left on its authorisation [10].",
+        "We did not obtain short interest, fund-flow or breadth data and make no claim on them. Dispersion is wide: Tenet and Encompass raised guidance while CHS cut [2][4][3]. FactSet reports that 91% of Health Care companies beat revenue estimates in Q3 2026 [17]."
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "n": 1,
+      "title": "HCA Healthcare third quarter 2026 earnings release (Form 8-K, Exhibit 99.1)",
+      "publisher": "HCA Healthcare / SEC",
+      "date": "2026-10-27",
+      "url": "https://www.sec.gov/Archives/edgar/data/0000860730/000119312526432665/hca-ex99_1.htm"
+    },
+    {
+      "n": 2,
+      "title": "Tenet Healthcare third quarter 2026 earnings release (Form 8-K, Exhibit 99.1)",
+      "publisher": "Tenet Healthcare / SEC",
+      "date": "2026-10-29",
+      "url": "https://www.sec.gov/Archives/edgar/data/0000070318/000007031826000045/thc-20260930ex991earningsr.htm"
+    },
+    {
+      "n": 3,
+      "title": "Community Health Systems third quarter 2026 earnings release (Form 8-K, Exhibit 99.1)",
+      "publisher": "Community Health Systems / SEC",
+      "date": "2026-10-28",
+      "url": "https://www.sec.gov/Archives/edgar/data/0001108109/000119312526436229/cyh-ex99_1.htm"
+    },
+    {
+      "n": 4,
+      "title": "Encompass Health reports results for third quarter 2026 (Form 8-K, Exhibit 99.1)",
+      "publisher": "Encompass Health / SEC",
+      "date": "2026-10-28",
+      "url": "https://www.sec.gov/Archives/edgar/data/0000785161/000078516126000236/ehcearningsrelease93026.htm"
+    },
+    {
+      "n": 5,
+      "title": "Individual market enrollment continues to fall through mid-2026",
+      "publisher": "KFF",
+      "date": "2026-10-14",
+      "url": "https://www.kff.org/affordable-care-act/individual-market-enrollment-continues-to-fall-through-mid-2026/"
+    },
+    {
+      "n": 6,
+      "title": "A closer look at the work requirement provisions in the 2025 federal budget reconciliation law",
+      "publisher": "KFF",
+      "date": "2026",
+      "url": "https://www.kff.org/medicaid/a-closer-look-at-the-work-requirement-provisions-in-the-2025-federal-budget-reconciliation-law/"
+    },
+    {
+      "n": 7,
+      "title": "iShares U.S. Healthcare Providers ETF (IHF) fund page",
+      "publisher": "BlackRock iShares",
+      "date": "2026-11-13",
+      "url": "https://www.ishares.com/us/products/239510/ishares-us-healthcare-providers-etf"
+    },
+    {
+      "n": 8,
+      "title": "CMS releases fiscal year 2027 IPPS and LTCH final rule",
+      "publisher": "Holland & Knight",
+      "date": "2026-08",
+      "url": "https://www.hklaw.com/en/insights/publications/2026/08/cms-releases-fiscal-year-2027-ipps-and-ltch-final-rule"
+    },
+    {
+      "n": 9,
+      "title": "EV/EBITDA multiples by sector (US), January 2026",
+      "publisher": "Aswath Damodaran, NYU Stern",
+      "date": "2026-01",
+      "url": "https://pages.stern.nyu.edu/~adamodar/New_Home_Page/datafile/vebitda.html"
+    },
+    {
+      "n": 10,
+      "title": "Universal Health Services third quarter 2026 earnings release (Form 8-K, Exhibit 99.1)",
+      "publisher": "Universal Health Services / SEC",
+      "date": "2026-10-27",
+      "url": "https://www.sec.gov/Archives/edgar/data/0000352915/000119312526434414/uhs-ex99_1.htm"
+    },
+    {
+      "n": 11,
+      "title": "HCA Healthcare Form 10-Q for the quarter ended 30 Sep 2026",
+      "publisher": "HCA Healthcare / SEC",
+      "date": "2026-10",
+      "url": "https://www.sec.gov/Archives/edgar/data/0000860730/000119312526437871/hca-20260930.htm"
+    },
+    {
+      "n": 12,
+      "title": "Fiscal year 2027 skilled nursing facility PPS final rule (CMS-1843-F) fact sheet",
+      "publisher": "CMS",
+      "date": "2026-07-29",
+      "url": "https://www.cms.gov/newsroom/fact-sheets/fiscal-year-2027-skilled-nursing-facility-prospective-payment-system-final-rule-cms-1843-f"
+    },
+    {
+      "n": 13,
+      "title": "Fast Facts on U.S. Hospitals, 2026",
+      "publisher": "American Hospital Association",
+      "date": "2026-02",
+      "url": "https://www.aha.org/system/files/media/file/2026/02/Fast-Facts-on-US-Hospitals-2026-Infographics.pdf"
+    },
+    {
+      "n": 14,
+      "title": "Nursing home giant Ensign touts $1B for future investments, census momentum and new CMS survey performance in 3Q",
+      "publisher": "Skilled Nursing News",
+      "date": "2026-10-28",
+      "url": "https://skillednursingnews.com/2026/10/nursing-home-giant-ensign-touts-1b-for-future-investments-census-momentum-and-new-cms-survey-performance-in-3q/"
+    },
+    {
+      "n": 15,
+      "title": "Margins by sector (US), January 2026",
+      "publisher": "Aswath Damodaran, NYU Stern",
+      "date": "2026-01",
+      "url": "https://pages.stern.nyu.edu/~adamodar/New_Home_Page/datafile/margin.html"
+    },
+    {
+      "n": 16,
+      "title": "Return on equity and capital by sector (US), January 2026",
+      "publisher": "Aswath Damodaran, NYU Stern",
+      "date": "2026-01",
+      "url": "https://pages.stern.nyu.edu/~adamodar/New_Home_Page/datafile/roe.html"
+    },
+    {
+      "n": 17,
+      "title": "FactSet Earnings Insight (13 November 2026)",
+      "publisher": "FactSet",
+      "date": "2026-11-13",
+      "url": "https://advantage.factset.com/hubfs/Website/Resources%20Section/Research%20Desk/Earnings%20Insight/EarningsInsight_111326.pdf"
+    }
+  ]
+}
