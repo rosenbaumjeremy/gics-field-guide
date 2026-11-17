@@ -1,0 +1,422 @@
+{
+  "code": "25503030",
+  "added": "2026-11-17",
+  "asOf": "2026-11-16",
+  "summary": "Broadline retail is now a story of scale players growing and investing heavily. Amazon's Q3 2026 sales rose 12% to $201.9B with a record 13.9% operating margin, but trailing free cash flow turned negative at -$42.4B on AI capex [1]. Alibaba's June-quarter customer management revenue fell 7% as it spends on quick commerce [2]. MercadoLibre grew revenue 45% but operating income fell 6.6% [3]. eBay accelerated [4]; Coupang posted an operating loss after a fulfillment-center fire [5]. US e-commerce was 17.1% of retail in Q2 2026 [6]. We found no sourced forward multiple for the sub-industry itself.",
+  "metrics": [
+    {
+      "label": "Amazon net sales (Q3 2026)",
+      "value": "$201.9B",
+      "context": "Up 12% (13% ex-FX); operating income $28.1B, a 13.9% margin; Q4 guide $240.0B-$247.0B",
+      "source": 1
+    },
+    {
+      "label": "Amazon retail segments' operating income",
+      "value": "$10.3B",
+      "context": "North America $8.7B plus International $1.6B in Q3 2026 (our sum), versus $6.0B a year earlier; AWS added $17.8B",
+      "source": 1
+    },
+    {
+      "label": "Amazon trailing free cash flow",
+      "value": "-$42.4B",
+      "context": "Twelve months to 30 Sep 2026, versus +$14.8B a year earlier; 2026 cash capex about $220B",
+      "source": 1
+    },
+    {
+      "label": "US e-commerce share of retail",
+      "value": "17.1%",
+      "context": "Q2 2026, seasonally adjusted, $340.2B, up 12.2% year on year; Census data, released 18 Aug 2026",
+      "source": 6
+    },
+    {
+      "label": "Alibaba customer management revenue",
+      "value": "RMB82.5B",
+      "context": "June quarter 2026, down 7% (up 1% like-for-like); adjusted EBITA down 30%; quick commerce revenue RMB53.3B, up 45%",
+      "source": 2
+    },
+    {
+      "label": "MercadoLibre net revenue",
+      "value": "$10.75B",
+      "context": "Q3 2026, up 45%; operating margin 6.3%; GMV $23B, up 38%",
+      "source": 3
+    },
+    {
+      "label": "eBay GMV",
+      "value": "$23.2B",
+      "context": "Q3 2026, up 15% (16% FX-neutral); non-GAAP operating margin 26.3%",
+      "source": 4
+    },
+    {
+      "label": "Forward P/E, Consumer Discretionary sector",
+      "value": "25.1x",
+      "context": "Sector, not sub-industry; S&P 500 18.3x vs 10-yr average 19.1x; FactSet, 13 Nov 2026",
+      "source": 7
+    }
+  ],
+  "watch": [
+    "Amazon's Q4 guide of $240.0B-$247.0B sales and $28.5B-$33.5B operating income tests whether margins hold through peak season [1].",
+    "Heavy AI spending is straining cash flow: Amazon's trailing free cash flow was -$42.4B and Alibaba's June-quarter free cash flow was an outflow of RMB44.7B [1][2].",
+    "Alibaba's China e-commerce revenue fell 8% in the June quarter as quick-commerce subsidies weigh, and its next results will show whether the investment is easing [2].",
+    "MercadoLibre's margin is being squeezed by free shipping and credit growth, with the loan book up 62% and 7.0% of loans 15 to 90 days overdue [3].",
+    "Cheap imports face the end of duty-free entry: low-value US parcels reached nearly 1.4 billion in 2025 before the exemption ended [8]."
+  ],
+  "bellwethers": [
+    "Amazon",
+    "Alibaba",
+    "PDD Holdings",
+    "MercadoLibre",
+    "eBay",
+    "Coupang",
+    "Macy's"
+  ],
+  "basics": {
+    "intro": "Broadline retailers sell a wide range of discretionary goods, either through online marketplaces and websites or through department stores. They make money by selling goods directly, taking fees and commissions from third-party sellers, selling advertising, and charging for memberships and delivery. Customers are consumers and, increasingly, the merchants who sell on the platforms. GICS puts Amazon and Alibaba here, but not grocers and hypermarkets such as Walmart, which are Consumer Staples, nor single-category retailers, which are Specialty Retail. Amazon's cloud arm AWS sits inside the company but does not change its classification.",
+    "products": [
+      {
+        "name": "First-party retail",
+        "what": "The retailer buys goods, holds them in warehouses and sells them to customers at its own price. It earns the gap between cost and price but carries inventory risk.",
+        "examples": "Amazon retail, Coupang's Rocket delivery, Macy's department stores"
+      },
+      {
+        "name": "Third-party marketplace",
+        "what": "Independent sellers list goods on the platform, which earns commissions and fees and often fulfills and delivers the order for an extra charge. It needs less capital per sale.",
+        "examples": "Amazon seller services, eBay, Taobao and Tmall, Temu"
+      },
+      {
+        "name": "Advertising",
+        "what": "Sellers and brands pay to appear higher in search results and on product pages. It is among the highest-margin revenue lines because it uses traffic the platform already has.",
+        "examples": "Amazon Ads, Alibaba customer management revenue, eBay promoted listings"
+      },
+      {
+        "name": "Memberships and delivery",
+        "what": "Paid programs bundle fast shipping, media and discounts to lift how often and how much members buy.",
+        "examples": "Amazon Prime, Coupang membership"
+      },
+      {
+        "name": "Payments and credit",
+        "what": "Some platforms run a payments wallet and lend to buyers and sellers, adding fee and interest income but also credit risk.",
+        "examples": "Mercado Pago"
+      },
+      {
+        "name": "Department stores",
+        "what": "Physical store chains selling clothing, home goods and beauty from many brands, with growing online sales and private-label lines.",
+        "examples": "Macy's, Bloomingdale's, Nordstrom, Kohl's"
+      }
+    ],
+    "terms": [
+      {
+        "term": "GMV (gross merchandise value)",
+        "meaning": "The total value of goods sold across a marketplace, before the platform takes its cut. It measures activity; revenue is only the part the platform keeps."
+      },
+      {
+        "term": "Take rate",
+        "meaning": "Revenue as a share of GMV: what the platform earns on each dollar sold, from commissions, ads and fees. A rising take rate means monetization is improving."
+      },
+      {
+        "term": "First-party vs third-party",
+        "meaning": "First-party means the retailer owns the inventory and books the full sale as revenue. Third-party means a seller owns it and the platform books only fees."
+      },
+      {
+        "term": "Fulfillment network",
+        "meaning": "The warehouses, sorting centers and delivery fleet that move orders. It is the largest fixed cost and a main barrier to entry."
+      },
+      {
+        "term": "Customer management revenue (CMR)",
+        "meaning": "Alibaba's label for what merchants pay to be seen: advertising and commissions on its China marketplaces."
+      },
+      {
+        "term": "Quick commerce",
+        "meaning": "Delivery of goods in under an hour from nearby stores or dark stores. It lifts order frequency but is costly while volumes build."
+      },
+      {
+        "term": "Free cash flow (FCF)",
+        "meaning": "Cash from operations minus capital spending. It matters because heavy warehouse and AI investment can leave profitable retailers with little or negative FCF."
+      },
+      {
+        "term": "Comparable sales",
+        "meaning": "Sales at stores open at least a year, which strips out the effect of openings and closures. It is the standard health gauge for department stores."
+      },
+      {
+        "term": "Flywheel",
+        "meaning": "The idea that more shoppers draw more sellers, which widens selection and lowers prices, which draws more shoppers. It is why marketplaces tend toward a few winners."
+      },
+      {
+        "term": "De minimis",
+        "meaning": "A customs rule that let low-value parcels enter a country without duty. Its removal raises costs for cross-border sellers shipping direct from overseas."
+      },
+      {
+        "term": "Seasonality",
+        "meaning": "Sales peak in the fourth quarter around holiday shopping and in China around the 11.11 festival, so quarterly results are compared with the same quarter a year earlier."
+      }
+    ],
+    "drivers": [
+      {
+        "name": "Consumer spending and online share",
+        "how": "Online sales keep taking share from stores, so platform revenue grows faster than total retail, while a weak consumer slows both."
+      },
+      {
+        "name": "Advertising and services mix",
+        "how": "Ads and seller services earn far higher margins than selling goods, so a growing mix lifts operating margin faster than sales."
+      },
+      {
+        "name": "Fulfillment and shipping costs",
+        "how": "Faster delivery and free shipping lift loyalty and order frequency but raise cost per order until density improves; overspending shows up as falling operating margins."
+      },
+      {
+        "name": "Competitive subsidies",
+        "how": "Rivals' coupons and fast-delivery pushes force others to spend on marketing and delivery, compressing profit even when sales rise."
+      },
+      {
+        "name": "Tariffs and customs rules",
+        "how": "Duties and customs changes alter landed cost for imported goods and cross-border sellers, changing prices, demand and the mix of sellers."
+      },
+      {
+        "name": "Capital spending and AI",
+        "how": "Large investment in data centers or logistics can outrun operating cash flow, so free cash flow and the valuation placed on it swing with capex plans."
+      },
+      {
+        "name": "Regulation",
+        "how": "Antitrust, consumer-protection and data rules can change fees, bundling and how platforms treat sellers, with direct effects on take rates."
+      }
+    ]
+  },
+  "fundamentals": {
+    "business": [
+      "Amazon earns money from consumer retail, third-party seller services, subscriptions such as Prime, advertising, devices and media, and AWS cloud [9]. In Q3 2026 its North America and International segments made $156.0B of the $201.9B total (our sum), and AWS $46.0B [1]. Alibaba's revenue comes from customer management revenue from merchants, quick commerce and cloud [2]. eBay earns fees on GMV [4].",
+      "Customers are consumers for the stores and sites, and merchants and brands for the marketplace, advertising and fulfillment services [9]. Amazon says it is not the seller of record in third-party transactions and instead earns fixed fees, a share of sales, or per-unit fees [9]. MercadoLibre also serves buyers through its credit and payments arm, with 94 million unique buyers in Q3 2026 [3].",
+      "The principal costs are cost of goods, fulfillment, shipping, technology and marketing. Amazon employed about 1,576,000 people at the end of 2025, many in fulfillment [9]. Coupang's Q3 2026 gross margin was 25.7%, down 364 basis points, partly because of fire-related costs at a warehouse [5]. MercadoLibre cited free shipping and new warehouse capacity as reasons its margin fell [3].",
+      "Pricing power comes from selection, price and convenience, which Amazon names as the principal competitive factors in retail [9]. Scale gives better supplier terms and a larger audience that advertisers pay to reach. Alibaba's June-quarter customer management revenue fell 7% against subsidy programs, a sign that pricing power on ads and commissions can be traded away to win share [2].",
+      "Major assets are warehouses, delivery fleets, inventory, data centers and, for the department stores, real estate. Liabilities include payables to sellers and suppliers and, for lenders such as MercadoLibre, funding for an almost $18B credit portfolio [3]. Macy's had $4.45B of inventory and $2.4B of total debt at 1 Aug 2026 [10].",
+      "It is capital-intensive for the platforms and increasingly so. Amazon guides to about $220B of 2026 cash capex, largely for AI [1]. Alibaba's June-quarter capex was RMB67.7B, up 75% [2]. Pure marketplaces like eBay are lighter: its Q3 2026 free cash flow was $749M on $3.2B of revenue [4]."
+    ],
+    "overview": [
+      "Global figures are not available from a source we opened, so we size the market through US data: online retail was $340.2B in Q2 2026, up 12.2% year on year, against 17.1% share of all retail [6]. The largest platforms are growing at roughly this pace or faster: Amazon 12%, eBay 14%, MercadoLibre 45% in Q3 2026 [1][4][3].",
+      "The main segments are first-party retail, third-party marketplaces, advertising, memberships and fintech, plus department stores [9]. Within Alibaba, quick commerce revenue was RMB53.3B in the June quarter 2026, up 45% [2]. Amazon's advertising grew 12% excluding FX in Q3 2026 [1]. AWS is reported separately and generated $17.8B of operating income in the quarter [1].",
+      "Platforms sit between brands and manufacturers on one side and consumers on the other, and control logistics, payments and data. Suppliers range from global brands to small third-party sellers, who use Amazon's seller services [9]. Cross-border sellers depend on customs treatment, and low-value US parcels rose from 134 million in 2015 to nearly 1.4 billion in 2025 [8].",
+      "The industry moved from catalogues and department stores to online marketplaces and, with GICS's 2023 reclassification, now groups both. Department stores are still growing slowly: Macy's Q2 2026 comparable sales rose 2.7%, led by Bloomingdale's at 11.3% [10]. Online share has risen to 17.1% of US retail [6]. PDD showed how fast a new entrant can scale, with 9% revenue growth in Q3 2025 already described as moderating [11].",
+      "Production and sales are concentrated in the US, China and, for the regional champions, Latin America and South Korea. Amazon's International segment sold $43.1B in Q3 2026 against $112.9B in North America [1]. MercadoLibre's revenue grew 50% in Brazil and 47% in Mexico [3]. Coupang's Product Commerce segment had $8.4B of Q3 revenue [5]. Alibaba's China e-commerce revenue was RMB110.9B in the June quarter [2]."
+    ],
+    "competition": [
+      "There are a handful of global-scale players and many regional ones. Our sources cover Amazon, Alibaba, PDD, MercadoLibre, eBay, Coupang and Macy's [1][2][3][4][5][10]. Amazon's filing lists ten competitor categories, from physical and omnichannel retailers to search engines and logistics providers, rather than naming firms [9].",
+      "Amazon leads by revenue in this group, with $201.9B in Q3 2026 alone [1]. Alibaba's quarterly revenue was RMB268.95B in the June quarter [2]. MercadoLibre posted $10.75B [3], eBay $3.2B [4] and Coupang $9.96B [5]. We did not find a sourced market-share table comparable across these markets, so we do not give one.",
+      "The industry is consolidated at the top within each region and fragmented overall. China remains contested: PDD said revenue growth was moderating amid a changing competitive landscape [11], and Alibaba is spending to defend share through quick commerce [2]. Amazon notes some competitors have greater resources or better supplier terms [9].",
+      "Barriers to entry are high at scale: logistics networks, supplier relationships, brand and a large base of buyers and sellers. Coupang's Q3 2026 results show how an operating setback, an Incheon warehouse fire costing $248M, can hit a leader quickly [5]. Small online stores can start cheaply but cannot easily reach platform-level fulfillment.",
+      "Economies of scale are large: fixed fulfillment and technology costs spread over more orders, and ads and seller services add margin on the same traffic. Amazon's North America operating income rose to $8.7B from $4.8B on 6% sales growth, which shows operating leverage [1]. Coupang's thin 1.2% adjusted EBITDA margin shows the opposite when volume dips [5].",
+      "Goods are commoditized, so price and convenience decide, but platforms differentiate through delivery speed, membership, selection and advertising tools [9]. Department stores differentiate through brands and service: Bloomingdale's comparable sales rose 11.3% against 1.1% at Macy's namesake stores [10].",
+      "Customers hold the bargaining power on price, since switching costs are low and shoppers compare across platforms. Large platforms hold power over suppliers and small sellers, who rely on them for traffic, though big brands can withdraw. Quick commerce subsidies in China reflect customer power; Alibaba's CMR fall of 7% includes the cost of merchant programs [2]."
+    ],
+    "drivers": [
+      "Revenue growth comes from rising online share, more active buyers, more spending per buyer, new categories and international expansion. US online share reached 17.1% of retail in Q2 2026 [6]. eBay's active buyers rose 10% to 147M, but only 1% excluding acquisitions [4]. Advertising and services add growth beyond product sales [1].",
+      "Operating margins depend on mix toward ads and seller services, delivery density and subsidy intensity. Amazon's record 13.9% group margin was helped by AWS, whose operating income was $17.8B of the $28.1B total [1]. eBay's non-GAAP margin was 26.3% [4], while MercadoLibre's was 6.3%, held back by free shipping and credit growth [3].",
+      "Key cost variables are fulfillment labor, freight, fuel, marketing, technology and, for importers, tariffs. Macy's gross margin rate was helped by an 180 basis point benefit from IEEPA tariff refunds [10]. Free shipping and warehouse capacity pressured MercadoLibre's margin [3].",
+      "Interest-rate sensitivity is moderate: platforms with low debt are less exposed, but lenders and long-duration growth valuations are sensitive. Damodaran's general retail group has debt at 7.36% of capital and a 7.27% cost of capital [12]. MercadoLibre's credit book grew 62% and relies on funding costs [3]. Mortgage-linked categories feel rates indirectly through spending.",
+      "These businesses are sensitive to consumer income, jobs and inflation, and to commodity and freight prices that feed goods costs. Department stores are more cyclical than platforms: Macy's guided to only 1.0% to 1.5% comparable sales growth for 2026 [10]. Online sales grew 12.2% year on year in Q2 2026 [6], which we read as a structural tailwind.",
+      "The sub-industry mixes secular growth (online share, advertising, quick commerce) with cyclical discretionary demand. Amazon's net sales grew 12% in Q3 2026 [1] while Macy's net sales rose 1.1% [10]. Seasonality is strong: Amazon says sales are historically highest in the fourth quarter [9]. Overall we read it as secular growth with cyclical exposure."
+    ],
+    "financials": [
+      "Growth varies widely: MercadoLibre revenue was up 45% [3], eBay 14% [4], Amazon 12% [1], Coupang 7% [5] and Macy's net sales 1.1% [10] in their latest quarters. Earnings are less steady: Alibaba's adjusted EBITA fell 30% in the June quarter [2] and Coupang swung to a $450M operating loss [5].",
+      "Damodaran's January 2026 data for 23 US general retail firms shows a 33.18% gross margin, a 10.11% EBITDA margin and an 8.15% operating margin [13]. Amazon's Q3 2026 operating margin was 13.9% [1], Macy's gross margin rate was 41.5% [10], and Coupang's was 25.7% [5]. Online-only retail is not a separate Damodaran category.",
+      "Damodaran's general retail group shows a net margin of 5.61% [13] and an unadjusted ROE of 26.05% (17.18% adjusted for R&D) [14]. We did not find an industry ROIC figure for broadline retail in the sources we opened. Those averages mix Amazon-type platforms with mature chains.",
+      "Leverage is low in aggregate: Damodaran's general retail group has debt at 7.36% of total capital [12]. Macy's carried $2.4B of debt with no material long-term maturities until 2030 [10]. Heavy AI capex is the new strain: Amazon's trailing free cash flow was -$42.4B [1].",
+      "Free cash flow is uneven. Amazon's trailing 12-month figure fell to -$42.4B from +$14.8B [1], Alibaba's June-quarter free cash flow was an outflow of RMB44.7B [2], while eBay generated $749M in Q3 2026 [4] and MercadoLibre adjusted FCF was $285M [3].",
+      "Capital expenditure is high and rising for the leaders: about $220B for Amazon in 2026 [1], RMB67.7B in a quarter for Alibaba [2] and $503M in a quarter for MercadoLibre [3]. Marketplaces like eBay and department stores spend far less relative to sales.",
+      "Damodaran's January 2026 table shows 17.38x EV/EBITDA for positive-EBITDA general retail firms (20.87x for all firms) and 32.44x EV/EBIT [15]. The FactSet sector forward P/E for Consumer Discretionary was 25.1 on 13 Nov 2026 [7]. Those are sector or general-retail measures, not Amazon-specific."
+    ],
+    "risks": [
+      "Regulation is a major risk: Amazon's filing notes that some competitors have greater resources and better supplier terms [9], and platforms face antitrust, consumer-protection and data scrutiny. We could not open a source confirming the status of pending US cases, so we do not give details. Tariff policy has also swung results: Macy's booked $116M of IEEPA tariff refunds [10].",
+      "AI both helps and threatens. Amazon expects about $220B of 2026 capex, mostly for AI [1], and Alibaba lifted June-quarter capex 75% to RMB67.7B [2]. In our view, AI shopping agents could shift traffic and ad revenue away from platform search pages.",
+      "Demographics matter modestly: a growing middle class in Latin America lifts demand for platforms like MercadoLibre, whose Brazil revenue grew 50% in Q3 2026 [3]. In developed markets, aging populations matter less than incomes and shifts in online habits [6].",
+      "Consumer behavior is shifting toward speed, value and entertainment-led shopping. Alibaba's quick commerce grew 45% [2], and Bloomingdale's comparable sales rose 11.3%, showing consumers still pay for premium brands [10]. Online reached 17.1% of US retail, so growth now depends on converting the remaining 83% [6].",
+      "New entrants and business models are a persistent threat: PDD's low-price model scaled quickly [11] and Temu stopped shipping Chinese goods directly to US customers after de minimis ended, relying on US warehouses [8]. Social and live-stream selling and AI-led discovery may add more rivals, which is our judgment.",
+      "Geopolitics and supply chains matter: low-value US parcels rose to nearly 1.4 billion in 2025 before the duty-free exemption ended on 29 Aug 2025 [8]. Tariff changes pushed Macy's to a net refund benefit [10]. Operational shocks also matter, such as Coupang's Incheon fire costing $248M [5].",
+      "Substitutes include social commerce, direct-to-consumer brand sites, resale and discount stores. eBay's resale-driven model saw GMV rise 15% in Q3 2026 [4], suggesting second-hand is a complement as much as a threat. Department stores face the most substitution from online and off-price channels, in our view."
+    ],
+    "horizon": {
+      "opportunities": [
+        "Advertising and seller services can keep lifting margins: Amazon guided Q4 2026 advertising growth in the high teens [1].",
+        "Online share still has room to grow from 17.1% of US retail [6].",
+        "Emerging-market platforms are growing fast: MercadoLibre revenue up 45% and TPV up 53% [3].",
+        "Cloud and AI capacity can support new revenue: Alibaba's AI cloud revenue grew 45% [2]."
+      ],
+      "threats": [
+        "AI capex is outrunning cash flow, with Amazon's trailing free cash flow at -$42.4B [1].",
+        "Subsidy wars compress margins, as Alibaba's 30% fall in adjusted EBITA shows [2].",
+        "Tariff and customs shifts can change cost structures quickly [8][10].",
+        "Regulatory scrutiny of the largest platforms could limit fees and bundling, in our judgment [9]."
+      ],
+      "assessment": "Over three to five years we think the leaders keep taking share, because online penetration is still rising and advertising lifts margins [6][1]. The harder question is returns on capital: Amazon, Alibaba and MercadoLibre are all spending more than their operating cash flow comfortably covers or giving up margin for growth [1][2][3]. Winners should be platforms that turn investment into ad and service revenue, while department stores keep low-single-digit growth [10]. Our view is that valuation will depend more on free cash flow conversion than on sales growth."
+    }
+  },
+  "sections": [
+    {
+      "id": "macro",
+      "paragraphs": [
+        "Broadline retail sits in the consumer discretionary sector, so it follows household spending, but online platforms are growing faster than the economy. US e-commerce reached $340.2B in Q2 2026, up 12.2% from a year earlier, and 17.1% of retail sales (seasonally adjusted) [6]. That gap between online and total retail growth is a structural tailwind that cushions the sub-industry when overall demand cools.",
+        "Department stores show the cyclical side: Macy's Q2 2026 comparable sales rose 2.7%, but it guides full-year comparable sales to only 1.0% to 1.5% [10]. Tariffs and trade policy are the other macro lever. Macy's gross margin was boosted 180 basis points by IEEPA tariff refunds in the quarter [10], while cross-border sellers faced the end of duty-free entry for low-value parcels on 29 Aug 2025 [8]. We did not find sourced interest-rate or currency forecasts specific to the group; currency did matter, with Amazon's Q3 growth 13% excluding a $0.9B FX headwind rather than 12% [1]. Overall, we read the cycle as mid-to-late for discretionary spending but early for online share gains."
+      ]
+    },
+    {
+      "id": "demand",
+      "paragraphs": [
+        "Structural demand rests on the shift from stores to online and on new formats. Online sales are 17.1% of US retail and growing at about 12% a year [6]. Outside the US the pace is faster for regional leaders: MercadoLibre's revenue grew 45% in Q3 2026 with GMV up 38% to $23B and 94 million unique buyers [3]. Alibaba's quick commerce revenue grew 45% to RMB53.3B in the June quarter, showing demand for very fast delivery [2].",
+        "Cyclicality is moderate for platforms and higher for department stores. eBay's GMV grew 15% to $23.2B, though active buyers excluding acquisitions grew only 1% [4], and Coupang's customers rose 2% to 25.2 million while revenue grew 7% [5]. That tells us growth now comes more from spending per customer, advertising and new categories than from new users in mature markets. Demographic effects are modest, with income growth and internet adoption mattering more. The long-term outlook is positive for leaders, though growth is slowing in China, where PDD said growth continued to moderate in Q3 2025 [11]."
+      ]
+    },
+    {
+      "id": "structure",
+      "paragraphs": [
+        "Using Porter's five forces: rivalry is intense, with Amazon's filing naming competitors from retailers to search engines and logistics firms [9] and Chinese platforms spending heavily to defend share [2][11]. Threat of new entrants is low at scale because of fulfillment networks and the two-sided audience, but real at the margin from low-price models like PDD [11]. Buyer power is high because switching is cheap, while supplier power is limited for large platforms, though not for strong brands.",
+        "The threat of substitutes comes from social commerce, brand-direct sites and resale. Barriers include logistics and trust: Coupang shows how a single warehouse fire can cost $248M [5]. Amazon says competition rests on selection, price and convenience [9]. Moats are scale economies and network effects: Amazon's North America operating income rose to $8.7B from $4.8B on 6% sales growth [1], and Alibaba's China e-commerce revenue was RMB110.9B in the June quarter, down 8% [2]. We found no sourced market-share table, so we avoid share figures."
+      ]
+    },
+    {
+      "id": "environment",
+      "paragraphs": [
+        "Political and regulatory factors dominate. Trade policy changed the economics of cross-border selling: the de minimis exemption, which let low-value parcels enter duty-free, ended for all countries on 29 Aug 2025 after such parcels rose from 134 million a year in 2015 to nearly 1.4 billion in 2025 [8]. Temu responded by selling only from US warehouses [8]. Macy's received $116M of IEEPA tariff refunds [10], showing how quickly tariff law can reshape retail profit.",
+        "Antitrust and consumer-protection scrutiny of the largest platforms is a standing risk in our view; we could not confirm the current status of specific cases from a source we opened. Technological disruption is mainly AI: Amazon plans about $220B of 2026 cash capex [1] and Alibaba raised capex 75% to RMB67.7B in the June quarter [2]. Environmental and social factors, including warehouse labor (Amazon had about 1,576,000 employees [9]) and delivery emissions, are growing issues. Our view is that policy and AI are the two biggest swing factors."
+      ]
+    },
+    {
+      "id": "economics",
+      "paragraphs": [
+        "Revenue growth is high-single to double digits for platforms: Amazon 12%, eBay 14%, MercadoLibre 45% [1][4][3]. Margins differ sharply by model. Damodaran's January 2026 data for 23 US general retail firms shows a 33.18% gross margin and an 8.15% operating margin [13]. Amazon's 13.9% operating margin was a record and was driven partly by AWS at $17.8B of $28.1B operating income [1]. Marketplace eBay earned a 26.3% non-GAAP margin [4]; MercadoLibre earned 6.3% [3]; Coupang's adjusted EBITDA margin was 1.2% [5].",
+        "Operating leverage is visible in both directions: Amazon's North America segment operating income rose to $8.7B from $4.8B [1], while Alibaba's adjusted EBITA fell 30% on investment [2]. Damodaran's general retail ROE was 26.05% unadjusted and 17.18% adjusted for R&D [14]; we did not find an ROIC figure. Free cash flow is the weak spot at the top: Amazon's trailing FCF was -$42.4B [1] and Alibaba's June-quarter FCF was an outflow of RMB44.7B [2], while eBay's Q3 FCF was $749M [4]."
+      ]
+    },
+    {
+      "id": "earnings",
+      "paragraphs": [
+        "Consensus data for the sub-industry alone were not publicly available in the sources we opened. At sector level, FactSet reported Consumer Discretionary's Q3 2026 net profit margin at 10.0% versus 10.2% a year earlier, and revenue 0.2% above estimates in aggregate [7]. Amazon was one of three Magnificent 7 companies reporting a negative EPS surprise, and those stocks fell an average of 7.8% around their reports [7].",
+        "Management guidance is constructive on revenue: Amazon guided Q4 2026 sales to $240.0B-$247.0B (12% to 16% growth) and operating income to $28.5B-$33.5B against $25.0B a year earlier [1]. eBay raised full-year GMV to $91.5B-$91.9B and non-GAAP EPS to $6.25-$6.30 [4]. Coupang reported a $450M operating loss in Q3, including $248M of fire costs [5]. Macy's raised 2026 adjusted EPS guidance to $2.15-$2.35 [10]. Our read: top-line expectations look achievable, while the risk is margin, since several companies are choosing growth over near-term profit [2][3][5]."
+      ]
+    },
+    {
+      "id": "valuation",
+      "paragraphs": [
+        "We found no forward P/E or FCF yield specific to Broadline Retail in the sources we opened. At the sector level, FactSet put the Consumer Discretionary forward 12-month P/E at 25.1 on 13 Nov 2026, the highest of the 11 sectors, versus 18.3 for the S&P 500 (5-year average 19.8, 10-year 19.1) [7]. Because Amazon is about 23% of the sector ETF XLY, that sector multiple leans heavily on one company [16].",
+        "Damodaran's January 2026 data show general retail at 17.38x EV/EBITDA for firms with positive EBITDA, 20.87x including all firms, and 32.44x EV/EBIT [15]. Those are static data for 23 mostly mature retailers, and may understate how platforms are priced. In our view, the group is priced for continued share gains and for AI investment to pay off; negative trailing free cash flow at Amazon [1] means the multiple rests on future cash flow rather than current cash flow, and we did not find a sector multiple history to compare against, so we judge the premium to the 18.3 market multiple as demanding rather than measured."
+      ]
+    },
+    {
+      "id": "positioning",
+      "paragraphs": [
+        "ETF data describe the sector, not the sub-industry. The Consumer Discretionary Select Sector SPDR Fund (XLY) holds 46 stocks with $23.31B in assets; Amazon was 23.41% of it and Tesla 17.68% at 30 Sep 2026 [16]. XLY returned 1.94% year to date through 11 Nov 2026 and 7.75% in the past month, with net outflows of $1.30B year to date [16]. We did not find short-interest or breadth data for the group.",
+        "Momentum is mixed beneath the surface. Amazon reported a negative EPS surprise, and the three Magnificent 7 companies that missed saw an average 7.8% price decrease around their reports [7]. MercadoLibre's operating income fell 6.6% in Q3 even as revenue rose 45% [3]. We treat the recent rally in the ETF as driven by a few mega-caps; with outflows over the year, institutional positioning looks cautious rather than crowded."
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "n": 1,
+      "title": "Amazon.com Q3 2026 earnings release",
+      "publisher": "Amazon",
+      "date": "2026-10-29",
+      "url": "https://aboutamazon.com/news/company-news/amazon-earnings-q3-2026-report"
+    },
+    {
+      "n": 2,
+      "title": "Alibaba Group results for the June quarter 2026 (Form 6-K exhibit 99.1)",
+      "publisher": "Alibaba Group / SEC",
+      "date": "2026-08-20",
+      "url": "https://www.sec.gov/Archives/edgar/data/0001577552/000110465926099220/tm2623667d1_ex99-1.htm"
+    },
+    {
+      "n": 3,
+      "title": "MercadoLibre earns US$448 million in Q3 2026",
+      "publisher": "Rio Times",
+      "date": "2026-11-04",
+      "url": "https://www.riotimesonline.com/mercadolibre-earns-us448-million-q3-2026/"
+    },
+    {
+      "n": 4,
+      "title": "eBay Inc. reports third quarter 2026 results",
+      "publisher": "eBay / Finviz",
+      "date": "2026-10-28",
+      "url": "https://finviz.com/news/410508/ebay-inc-reports-third-quarter-2026-results"
+    },
+    {
+      "n": 5,
+      "title": "Coupang Q3 2026 results (Form 8-K exhibit 99.1)",
+      "publisher": "Coupang / SEC",
+      "date": "2026-11-03",
+      "url": "https://www.sec.gov/Archives/edgar/data/0001834584/000183458426000084/cpng-09302026ex991.htm"
+    },
+    {
+      "n": 6,
+      "title": "Quarterly retail e-commerce sales, 2nd quarter 2026",
+      "publisher": "U.S. Census Bureau",
+      "date": "2026-08-18",
+      "url": "https://www.census.gov/retail/eCommerce.html"
+    },
+    {
+      "n": 7,
+      "title": "FactSet Earnings Insight, 13 November 2026",
+      "publisher": "FactSet",
+      "date": "2026-11-13",
+      "url": "https://advantage.factset.com/hubfs/Website/Resources%20Section/Research%20Desk/Earnings%20Insight/EarningsInsight_111326.pdf"
+    },
+    {
+      "n": 8,
+      "title": "De minimis tariff exemption for low-value imports ends",
+      "publisher": "CBS News",
+      "date": "2025-08-29",
+      "url": "https://www.cbsnews.com/news/de-minimis-us-tariffs-exemption-low-value-imports-ends"
+    },
+    {
+      "n": 9,
+      "title": "Amazon.com Form 10-K for fiscal 2025, Item 1 Business",
+      "publisher": "Amazon / SEC (via EdgarPack)",
+      "date": "2026-02-05",
+      "url": "https://samay58.github.io/edgarpack/0001018724/0001018724-26-000004/sections/item1_business.html"
+    },
+    {
+      "n": 10,
+      "title": "Macy's, Inc. second quarter 2026 results (Form 8-K exhibit 99.1)",
+      "publisher": "Macy's / SEC",
+      "date": "2026-09-10",
+      "url": "https://www.sec.gov/Archives/edgar/data/0000794367/000162828026061217/m-20260910xexx991.htm"
+    },
+    {
+      "n": 11,
+      "title": "Temu owner PDD Holdings beats profit expectations",
+      "publisher": "The Standard (Hong Kong)",
+      "date": "2025-11-18",
+      "url": "https://www.thestandard.com.hk/finance/article/317164/Temu-owner-PDD-Holdings-beats-profit-expectations"
+    },
+    {
+      "n": 12,
+      "title": "Cost of capital by sector (US), January 2026",
+      "publisher": "Aswath Damodaran, NYU Stern",
+      "date": "2026-01-01",
+      "url": "https://pages.stern.nyu.edu/~adamodar/New_Home_Page/datafile/wacc.html"
+    },
+    {
+      "n": 13,
+      "title": "Margins by sector (US), January 2026",
+      "publisher": "Aswath Damodaran, NYU Stern",
+      "date": "2026-01-01",
+      "url": "https://pages.stern.nyu.edu/~adamodar/New_Home_Page/datafile/margin.html"
+    },
+    {
+      "n": 14,
+      "title": "Return on equity by sector (US), January 2026",
+      "publisher": "Aswath Damodaran, NYU Stern",
+      "date": "2026-01-01",
+      "url": "https://pages.stern.nyu.edu/~adamodar/New_Home_Page/datafile/roe.html"
+    },
+    {
+      "n": 15,
+      "title": "EV/EBITDA multiples by sector (US), January 2026",
+      "publisher": "Aswath Damodaran, NYU Stern",
+      "date": "2026-01-01",
+      "url": "https://pages.stern.nyu.edu/~adamodar/New_Home_Page/datafile/vebitda.html"
+    },
+    {
+      "n": 16,
+      "title": "Consumer Discretionary Select Sector SPDR Fund (XLY) fund page",
+      "publisher": "ETF Central",
+      "date": "2026-11-16",
+      "url": "https://www.etfcentral.com/fund/XLY"
+    }
+  ]
+}

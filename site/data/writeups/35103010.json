@@ -1,0 +1,434 @@
+{
+  "code": "35103010",
+  "added": "2026-11-17",
+  "asOf": "2026-11-16",
+  "summary": "Health care technology is growing fast where it sells software that saves providers or drug makers money, and shrinking where it sells to consumers. Veeva raised fiscal 2027 revenue guidance to $3.682-$3.687B after 18% growth [1]; Waystar grew 21% with a 43% EBITDA margin [4]; Tempus lifted 2026 revenue guidance to $1.60B [5]. Doximity grew only 4% [2] and Teladoc's BetterHelp fell 13% [3]. Hospital EHR buying fell 40% in 2025 [12]. We found no sourced forward multiple for the sub-industry; Damodaran's group EV/EBITDA is 21.3x [8].",
+  "metrics": [
+    {
+      "label": "Veeva quarterly revenue",
+      "value": "$928.0M",
+      "context": "Quarter to 31 Jul 2026, up 18%; FY2027 (to Jan 2027) guided to $3,682M-$3,687M",
+      "source": 1
+    },
+    {
+      "label": "Waystar quarterly revenue",
+      "value": "$325.6M",
+      "context": "Q3 2026, up 21%; adjusted EBITDA margin 42.8%; FY2026 guide $1.277B-$1.287B",
+      "source": 4
+    },
+    {
+      "label": "Tempus AI quarterly revenue",
+      "value": "$411.5M",
+      "context": "Q3 2026, up 23%; 2026 guide raised to $1.60B-$1.605B",
+      "source": 5
+    },
+    {
+      "label": "Doximity quarterly revenue",
+      "value": "$174.5M",
+      "context": "Quarter to 30 Sep 2026, up 4%; adjusted EBITDA margin 50.9% vs 59.8% a year earlier",
+      "source": 2
+    },
+    {
+      "label": "Teladoc BetterHelp revenue",
+      "value": "$206.6M",
+      "context": "Q3 2026, down 13%; Integrated Care $398.5M, up 2%",
+      "source": 3
+    },
+    {
+      "label": "EV/EBITDA, Healthcare Information and Technology (Damodaran)",
+      "value": "21.3x",
+      "context": "115 US firms, positive-EBITDA only; January 2026 data",
+      "source": 8
+    },
+    {
+      "label": "Operating margin, Healthcare Information and Technology (Damodaran)",
+      "value": "17.1%",
+      "context": "Pre-tax, before stock compensation; gross margin 48.3%; January 2026",
+      "source": 6
+    },
+    {
+      "label": "Hospitals making EHR decisions in 2025",
+      "value": "164",
+      "context": "Down from 272 in 2024; KLAS reports a 40% fall",
+      "source": 12
+    }
+  ],
+  "watch": [
+    "Waystar's longer implementation cycles for large clients cut the top of its 2026 revenue range, and it will give 2027 guidance next quarter [4].",
+    "Teladoc's roughly $998M of convertible notes are classed as current liabilities against $850M of cash, so refinancing is a live issue [3].",
+    "Doximity's growth slowed to 4% and its EBITDA margin fell about nine points as it invests in AI; the company's fiscal year ends in March [2].",
+    "Medicare telehealth flexibilities run to 31 Dec 2027, so the next cliff is a year away [15].",
+    "HTI-5 cut 14 of 60 EHR certification criteria and dropped AI model-card requirements, but deferred information-blocking changes [16]."
+  ],
+  "bellwethers": [
+    "Veeva Systems",
+    "Doximity",
+    "Waystar",
+    "Tempus AI",
+    "Teladoc Health"
+  ],
+  "basics": {
+    "intro": "Health care technology companies sell software and data services to hospitals, doctors, insurers and drug makers, and increasingly directly to patients. They mostly earn subscription fees, usage fees on transactions, or advertising and data revenue. GICS places electronic health records, revenue-cycle software, life-sciences cloud software, telehealth and health data analytics here. Hospital operators sit in Health Care Facilities, insurers in Managed Health Care, and medical devices in Equipment and Supplies, even when they are connected.",
+    "products": [
+      {
+        "name": "Electronic health records and clinical software",
+        "what": "The system of record for a patient's chart, orders and results, sold to hospitals and clinics on long contracts. Switching is costly and slow.",
+        "examples": "Epic (private), Oracle Health, MEDITECH, TruBridge"
+      },
+      {
+        "name": "Revenue-cycle and payments software",
+        "what": "Tools that check insurance eligibility, submit claims, handle denials and collect patient payments. Vendors are paid by subscription and by volume.",
+        "examples": "Waystar, R1 RCM"
+      },
+      {
+        "name": "Life-sciences cloud software",
+        "what": "Software for drug makers covering sales and marketing, clinical trials, regulatory filings, quality and safety.",
+        "examples": "Veeva Vault CRM, Vault Clinical, Vault Safety"
+      },
+      {
+        "name": "Telehealth and virtual care",
+        "what": "Video visits, remote monitoring and online therapy, paid by employers, insurers or consumers.",
+        "examples": "Teladoc Integrated Care and BetterHelp"
+      },
+      {
+        "name": "Physician networks and clinical AI",
+        "what": "Professional platforms and AI tools for clinicians, usually monetised through pharma marketing and subscriptions.",
+        "examples": "Doximity, Doximity Ask"
+      },
+      {
+        "name": "Health data and precision medicine",
+        "what": "Companies that combine lab testing with large clinical datasets and license the data to drug developers.",
+        "examples": "Tempus AI diagnostics and data licensing"
+      }
+    ],
+    "terms": [
+      {
+        "term": "EHR (electronic health record)",
+        "meaning": "The digital patient chart. It is the core hospital IT system and the platform other software connects to."
+      },
+      {
+        "term": "Revenue cycle management (RCM)",
+        "meaning": "The process of getting paid by insurers and patients, from registration to claim to collection. Software here lowers hospitals' denials and labor cost."
+      },
+      {
+        "term": "SaaS",
+        "meaning": "Software as a service: customers pay a recurring subscription instead of buying a licence. It gives predictable revenue."
+      },
+      {
+        "term": "Net revenue retention (NRR)",
+        "meaning": "Revenue this year from last year's customers as a percentage of what they paid last year. Above 100% means existing clients are spending more."
+      },
+      {
+        "term": "Interoperability",
+        "meaning": "The ability of different health IT systems to exchange data. Rules in this area decide how open the big EHR vendors must be."
+      },
+      {
+        "term": "FHIR",
+        "meaning": "A standard way for health systems to share data through application programming interfaces (APIs). Regulators are building their requirements on it."
+      },
+      {
+        "term": "Information blocking",
+        "meaning": "A US rule that penalises vendors and providers who unreasonably restrict access to health data."
+      },
+      {
+        "term": "Bookings and backlog",
+        "meaning": "Contracts signed but not yet live. Revenue arrives only after implementation, so a gap between bookings and revenue is common."
+      },
+      {
+        "term": "Payer and provider",
+        "meaning": "The payer is the insurer or government that pays; the provider is the hospital or doctor. Vendors sell to both."
+      },
+      {
+        "term": "Telehealth flexibilities",
+        "meaning": "Temporary Medicare rules that let patients be paid for virtual care at home. Their expiry dates drive sentiment in virtual care."
+      },
+      {
+        "term": "Cash-pay vs insurance-covered",
+        "meaning": "Whether the patient pays out of pocket or the insurer pays. Moving from cash-pay to insurance changes customer acquisition cost and price."
+      },
+      {
+        "term": "Convertible notes",
+        "meaning": "Debt that can be exchanged for shares. Several digital-health companies used them, and maturities force refinancing decisions."
+      }
+    ],
+    "drivers": [
+      {
+        "name": "Provider IT budgets",
+        "how": "Hospitals decide when to replace systems. When margins are tight or policy is uncertain they delay big projects, which slows new-contract revenue for EHR and workflow vendors."
+      },
+      {
+        "name": "Drug-maker commercial and R&D spend",
+        "how": "Life-sciences software follows pharma budgets and product launches. Cuts or reorganisations slow new modules, while migrations to new products add revenue."
+      },
+      {
+        "name": "Insurer and government payment rules",
+        "how": "Reimbursement, prior authorisation and telehealth rules decide whether a service is paid, and therefore whether the software or virtual-care product is worth buying."
+      },
+      {
+        "name": "AI adoption",
+        "how": "AI features can raise prices and engagement, but they also cost compute and can let new entrants compete, so margins and market share can both move."
+      },
+      {
+        "name": "Switching costs and installed base",
+        "how": "Records and workflows are hard to move, so incumbents keep customers for years. Revenue growth then depends on cross-selling modules into the base."
+      },
+      {
+        "name": "Consumer demand and marketing cost",
+        "how": "Direct-to-consumer services depend on advertising and willingness to pay. A shift to insurance can cut price but widen the market."
+      }
+    ]
+  },
+  "fundamentals": {
+    "business": [
+      "Revenue comes from three places: recurring subscriptions to software (Veeva's subscription revenue was $766.8M of $928.0M in its July 2026 quarter [1]), volume-based fees on transactions (Waystar's volume-based revenue was $142.9M and subscription $180.7M in Q3 2026 [4]), and consumer or advertising revenue, as at Teladoc's BetterHelp [3] and Doximity's pharma marketing [2].",
+      "Customers are hospitals, physician groups and health systems (EHR and revenue-cycle tools), drug makers (Veeva, Tempus data licensing), employers and insurers (Teladoc's Integrated Care, which counted a guided 99.5M-100.5M US members [3]) and, for some products, patients directly. Veeva served more than 1,500 customers in the July 2026 quarter [1].",
+      "The main costs are engineers and implementation staff, cloud hosting and, for service-heavy models, clinicians and labs. Tempus's gross margin was 64.8% on GAAP [5], against a software-style 71.7% for Damodaran's broad software group and 48.3% for health care information and technology [6]. Consumer products add marketing, which Teladoc reports inside BetterHelp's thin 2.2% EBITDA margin [3].",
+      "Pricing power comes from switching costs and regulatory or workflow lock-in. Veeva and the large EHR vendors can raise prices at renewal because the system holds validated records or regulated content. Where products are easily substituted or sold to consumers, as with BetterHelp's cash-pay revenue, which fell 25% in Q3 2026 [3], pricing power is weak.",
+      "Main assets are capitalised software, customer contracts, goodwill from acquisitions, and cash. Main liabilities are deferred revenue and debt. Waystar had $1,470.6M of gross debt and 2.2x net leverage [4]; Teladoc held $849.9M of cash against $997.6M of convertible notes classed as current [3].",
+      "The business is asset-light: Damodaran's data show net capital spending equal to 0.92% of sales for 115 health care information and technology firms [9]. The exceptions are lab-based models such as Tempus, which also invests in sequencing and data assets, and acquisitive firms that carry large goodwill [5]."
+    ],
+    "overview": [
+      "No single sourced market size covers the GICS group, because definitions differ. One research firm forecasts the US healthcare IT software market at $203.0B in 2026, growing 13.8% a year to 2035 [13]; that is a forecast from a paid-report seller, so treat it as indicative. For listed companies, Veeva's fiscal 2026 revenue was $3.2B, up 16.3% [18].",
+      "Main segments are electronic health records and clinical systems, revenue-cycle and payments, life-sciences software, telehealth and virtual care, and health data and analytics. The Towards Healthcare listing names functions such as patient record management, clinical decision support, claims processing and telemedicine [13].",
+      "In the value chain, these companies sit between the clinical and financial parties. They buy cloud computing and data, and sell to hospitals, insurers and drug makers; some also sell to patients. Waystar's revenue split is $243.4M from providers and $82.2M from patients in Q3 2026 [4], while Veeva sells to large pharma and emerging biotechs [1].",
+      "The industry moved from on-premise hospital systems to cloud subscriptions, then to analytics and now AI. Federal incentives pushed hospitals to digitise records. The new phase is regulatory: HTI-5 cut 14 of 60 certification criteria in October 2026 and dropped AI model-card requirements [16]. New hospital EHR decisions are slowing, with 164 hospitals deciding in 2025 versus 272 in 2024 [12].",
+      "Sales and production are concentrated in the United States, because its fragmented, insurance-driven system creates the billing and compliance work these tools address. Epic, Oracle Health and MEDITECH hold the bulk of US acute-care hospital EHRs, and the KLAS-based share data cited here describe the US market [13]; we found no sourced revenue split by country for these firms."
+    ],
+    "competition": [
+      "The sub-industry has dozens of listed companies and many private ones. Damodaran's January 2026 dataset counts 115 US firms in healthcare information and technology [6]. The market is a set of niches, each with only a handful of significant vendors.",
+      "Leaders vary by niche. In acute-care EHRs, KLAS fiscal 2024 data cited by Towards Healthcare show Epic with 42.3% of hospitals and 54.9% of beds, Oracle Health 22.9% and 22.1%, and MEDITECH 14.8% and 12.7% [13]. In life-sciences CRM, Veeva has more than 180 customers live on Vault CRM, including five of the top 20 biopharmas [1]. Revenue-cycle has Waystar and R1 RCM [13].",
+      "Core niches are consolidated, with a few vendors holding most share, while the wider industry is fragmented with many start-ups. Rock Health counted 164 digital-health M&A deals in 2026 through Q3 [14], showing steady consolidation among smaller firms.",
+      "Barriers to entry are high in regulated systems of record: integration into hospital workflow, certification and the trust of clinicians. They are low in consumer apps and point solutions, where venture capital funds many entrants; US digital-health start-ups raised $11.1B across 358 deals in 2026 to date [14].",
+      "Economies of scale matter in data and distribution. Doximity's network includes more than 85% of US physicians [2], and Tempus's data business grew 33% on its large clinical dataset [5]. Larger vendors spread development cost over more customers and can fund AI features.",
+      "Products are differentiated in systems of record, where switching is costly, and closer to commoditised in telehealth visits and consumer therapy, where BetterHelp's paying users fell 12% in Q3 2026 [3].",
+      "Bargaining power lies mainly with customers for new contracts, since hospital budgets are tight and purchases have slowed 40% [12]. After go-live, power shifts to the vendor because of switching costs. Suppliers (cloud and AI model providers) have moderate power; we found no sourced data on their share of vendor costs."
+    ],
+    "drivers": [
+      "Revenue growth is driven by provider and drug-maker IT budgets, transaction volumes, new modules sold into an installed base, and new AI products. Veeva's growth of 18% is partly Vault CRM migrations [1]; Waystar's subscription revenue rose 34% [4]; Tempus's data revenue rose 33% [5].",
+      "Operating margins depend on scale and mix: Damodaran gives 17.1% pre-tax operating margin before stock compensation for health care information and technology versus 40.8% for system and application software [6]. Individual firms differ widely: Doximity's adjusted EBITDA margin was 50.9% [2] and Waystar's was 42.8% [4].",
+      "The key costs are engineering and sales staff, cloud and AI compute, implementation labor, and, for lab-based models, reagents and clinical staff. Doximity's margin fell from 59.8% to 50.9% as it invested in AI [2], showing how heavy AI spend can compress margins.",
+      "Interest-rate sensitivity is moderate and works through valuations and balance sheets. Damodaran shows book debt to capital of 38.3% but market debt to capital of just 13.4% [10], so most companies are lightly levered; Waystar's net leverage was 2.2x [4] and Teladoc has near-term convertible maturities [3].",
+      "Inflation affects wages and cloud costs; GDP and unemployment matter less because health spending is steady, though employer-funded telehealth can follow employment. Commodity prices barely matter. The main macro channel is hospital margins and the willingness to commit to large projects [12].",
+      "The group is mostly secular growth with a defensive demand base, but not uniformly. Software and data businesses grow through the cycle, hospital system replacement is cyclical (purchases fell 40% in 2025 [12]), and consumer virtual care is shrinking [3]."
+    ],
+    "financials": [
+      "Growth varies by sub-model. Veeva grew revenue 16.3% in fiscal 2026 [18] and 18% in the July 2026 quarter [1]; Waystar grew 21% [4]; Tempus 23% [5]; Doximity 4% [2]; and Teladoc fell 3% [3].",
+      "Damodaran's January 2026 dataset gives a gross margin of 48.3%, net margin of 7.5% and EBITDA margin of 20.5% for 115 health care information and technology firms [6]. Leading software firms are far higher: Veeva's non-GAAP operating income was $415.9M on $928.0M of revenue, about 45% [1].",
+      "Return on equity for the group is low: 6.40% unadjusted and 5.46% adjusted for R&D in Damodaran's data [7]. The page we opened did not list ROIC for this group, so we cannot quote one. Veeva's fiscal 2026 net income of $908.9M on $3.2B of revenue is the profitable end of the range [18].",
+      "Debt is modest on market value but not trivial on book value: 38.3% book debt to capital, 13.4% market debt to capital and debt to EBITDA of 3.61 [10]. Waystar had 2.2x adjusted net leverage [4]; Teladoc's $997.6M of convertible notes is current [3].",
+      "Free cash flow is generally strong for mature subscription companies: Doximity generated $91.3M of free cash flow in the September 2026 quarter [2], Waystar $114.8M of unlevered free cash flow in Q3 [4], and Teladoc guides to $135M-$165M for 2026 [3].",
+      "Capital spending is low. Damodaran shows capital expenditure of 0.92% of sales and 54.4% of depreciation [9], consistent with asset-light software. Lab-based and acquisitive firms spend more or carry goodwill [5].",
+      "Valuation is above the market average on the sector multiple. Damodaran's EV/EBITDA is 21.3x for positive-EBITDA firms and 25.9x for all firms [8], while FactSet put the S&P 500's forward P/E at 18.3x on 13 Nov 2026 [11]. We found no sourced forward P/E for this sub-industry."
+    ],
+    "risks": [
+      "Regulation can cut both ways. HTI-5 eased burdens, removing 14 of 60 certification criteria and AI model-card requirements, but deferred information-blocking changes that could widen data access for rivals [16]. Medicare telehealth flexibilities run to 31 Dec 2027 [15], and payer rules affect Waystar and Teladoc.",
+      "AI is both opportunity and threat. Veeva calls AI the next big chapter [1], Doximity sold its AI suite to more than 190 health systems [2], and Tempus's data unit grew 33% [5]. Yet general-purpose AI could reduce demand for point software, and spending on AI compresses margins, as at Doximity [2].",
+      "Demographics support demand: an older population raises utilisation and the billing work that Waystar automates. The effect is long-term and indirect, and we found no sourced demographic figure; the more immediate swing factor is provider budgets [12].",
+      "Changing consumer behavior is visible in BetterHelp: cash-pay revenue fell 25% to $174.5M in Q3 2026 while insurance-covered revenue rose to $32.1M from $3.7M [3]. Consumers are moving to insured, lower-priced care, and employers are weighing virtual-care benefits.",
+      "New competitors and business models include well-funded start-ups: US digital health raised $3.7B in Q3 2026 alone [14], and Veeva's Vault CRM push shows incumbents can be challenged in established categories [1]. Oracle Health's share loss to Epic shows incumbents can be displaced [12].",
+      "Geopolitical and supply-chain risk is lower than in hardware sectors, because these firms sell software and services mostly in the US. We found no sourced figures on tariff or trade exposure for the group. Cybersecurity and data privacy are also exposures; we found no sourced loss figures.",
+      "Substitutes are in-house build, large general software platforms, and consumer apps. Hospital customers can delay or avoid a vendor when budgets are tight [12], and telehealth can be replaced by in-person care if reimbursement lapses [15]."
+    ],
+    "horizon": {
+      "opportunities": [
+        "Insurance coverage can widen the market for virtual mental health, as BetterHelp's insurance revenue reached $32.1M in Q3 2026 [3].",
+        "AI products can raise engagement and price: more than 190 health systems bought Doximity's AI suite and Veeva reports momentum in AI [2][1].",
+        "Revenue-cycle automation has a large installed base to sell into, with 1,488 Waystar clients each generating over $100,000 of annual revenue [4].",
+        "Data licensing and diagnostics, as at Tempus, scale with drug developers' demand for clinical datasets [5]."
+      ],
+      "threats": [
+        "Hospital IT budgets are cautious: EHR decisions affected 40% fewer hospitals in 2025 than in 2024 [12].",
+        "Slower growth at some leaders, such as Doximity's 4%, and margin pressure from AI investment [2].",
+        "Policy cliffs, including the end-2027 expiry of Medicare telehealth flexibilities [15].",
+        "Refinancing and balance-sheet pressure at consumer-heavy names, such as Teladoc's current convertible notes [3]."
+      ],
+      "assessment": "Over three to five years we think the group keeps splitting into two. Companies that sit inside regulated workflows and own data, such as Veeva, Waystar and Tempus, should keep compounding at double-digit rates, because switching costs are high and AI gives them new modules to sell [1][4][5]. Consumer-facing and advertising-led models face more risk: BetterHelp is shrinking and Doximity has slowed [3][2]. Hospital budgets and policy decide the pace; the lighter-touch HTI-5 rules and extended telehealth rules help, but weak hospital purchasing shows demand is not guaranteed [16][15][12]. Valuations already assume growth, with group EV/EBITDA of 21.3x [8]."
+    }
+  },
+  "sections": [
+    {
+      "id": "macro",
+      "paragraphs": [
+        "Health care technology is less tied to the economic cycle than most technology, because its customers spend on health regardless of GDP. The cycle reaches it through hospital and drug-maker budgets. FactSet's 13 Nov 2026 report shows a strong market backdrop, with S&P 500 Q3 earnings growth of 31.9% and a forward P/E of 18.3, below its 5-year average of 19.8 and 10-year average of 19.1 [11]. The Health Care sector reported the largest positive earnings surprise at 13.7% [11], although that is driven by insurers and drug makers rather than software.",
+        "Within the sub-industry, the signal is mixed. Hospitals are being cautious: KLAS counted 164 hospitals making EHR decisions in 2025, down from 272 in 2024, and attributed the pause to policy uncertainty and competing spending priorities [12]. Fiscal policy matters directly. Congress extended Medicare telehealth flexibilities to 31 Dec 2027 through H.R. 7148, signed 3 Feb 2026 [15], which removes the near-term cliff for virtual care. We found no sourced interest-rate or currency sensitivity for the group; its balance sheets are mostly light, with market debt to capital of 13.4% [10]."
+      ]
+    },
+    {
+      "id": "demand",
+      "paragraphs": [
+        "Structural demand rests on the digitisation of a large, paperwork-heavy industry. One research publisher forecasts the US healthcare IT software market at $203.0B in 2026, growing 13.8% a year to 2035, though that figure comes from a market-research seller and definitions are broad [13]. Company results are consistent with double-digit growth in the strongest niches: Veeva's revenue rose 18% to $928.0M [1], Waystar's 21% [4] and Tempus's 23% [5].",
+        "Demand is not uniform. Software that cuts costs or speeds drug development sells well; products that depend on consumer payments or large hospital projects do not. BetterHelp revenue fell 13% [3], Doximity grew 4% [2] and hospital EHR purchasing dropped 40% in 2025 [12]. We think this is a split between essential workflow software and discretionary products, rather than a decline in demand for health IT. Demographics, such as an ageing population, support utilisation, but we found no sourced figure tying them to revenue. Venture funding shows continued interest: $3.7B across 114 deals in Q3 2026 [14]."
+      ]
+    },
+    {
+      "id": "structure",
+      "paragraphs": [
+        "Porter's five forces vary by niche. Threat of new entrants is low in systems of record, where Epic held 42.3% of hospitals and 54.9% of beds in KLAS's fiscal 2024 data, ahead of Oracle Health and MEDITECH [13], and high in consumer apps, where US start-ups raised $11.1B across 358 deals in 2026 to date [14]. Buyer power is strong at the point of purchase, as shown by the 40% fall in hospital EHR decisions [12], but weakens after implementation because of switching costs.",
+        "Supplier power is moderate: cloud and AI infrastructure are inputs, but we found no sourced cost share. The threat of substitutes is highest for telehealth and point solutions. Rivalry is intense where Oracle Health's share is under pressure from Epic [12]. Moats come from data and network effects: Doximity's network includes more than 85% of US physicians [2], and Veeva has more than 180 customers live on Vault CRM [1]. Pricing power follows the moat; revenue retention is a useful test, and Waystar reported 108% net revenue retention [4]."
+      ]
+    },
+    {
+      "id": "environment",
+      "paragraphs": [
+        "Policy is currently light-touch. HHS's HTI-5 final rule, reported on 27 Oct 2026, cut 14 of 60 certification criteria, revised seven, removed AI model-card requirements and annual real-world testing plans, and was estimated by regulators to save $1.5B in compliance costs [16]. It deferred information-blocking changes, including proposals to cover autonomous AI systems, so rules for data access remain unsettled [16]. Regulators and vendors will watch whether lighter oversight speeds AI deployment or invites later correction.",
+        "Telehealth law is the other major political variable. H.R. 7148, signed 3 Feb 2026, extended Medicare telehealth flexibilities to 31 Dec 2027 [15]. Technological change is led by AI: Doximity says more than 190 health systems bought its AI suite and calls its Ask tool HIPAA-compliant generative AI [2], Veeva says AI opens its next chapter [1], and Tempus relies on AI-driven data and diagnostics [5]. Emerging risks include cybersecurity and privacy; we found no sourced figures on breaches or fines."
+      ]
+    },
+    {
+      "id": "economics",
+      "paragraphs": [
+        "Margins show the spread between models. Damodaran's January 2026 data for 115 health care information and technology firms give a 48.3% gross margin, 20.5% EBITDA margin, 17.1% pre-tax operating margin before stock compensation, and 7.5% net margin [6]. Strong subscription companies exceed that: Veeva's non-GAAP operating income was $415.9M on $928.0M of revenue [1], Waystar's adjusted EBITDA margin was 42.8% [4], and Doximity's was 50.9% [2]. Teladoc's BetterHelp earned only 2.2% [3].",
+        "Returns are modest at the group level: Damodaran shows ROE of 6.40% (5.46% R&D-adjusted) [7]. Capital intensity is low, with capital spending at 0.92% of sales [9], so operating leverage is high when revenue grows faster than costs. Free cash flow is solid: Doximity $91.3M [2], Waystar unlevered $114.8M [4] and Teladoc guided at $135M-$165M for 2026 [3]. Tempus is the exception that is only turning profitable, with adjusted EBITDA of $25.6M [5]. We could not source a group ROIC."
+      ]
+    },
+    {
+      "id": "earnings",
+      "paragraphs": [
+        "Company guidance is mostly rising. Veeva raised fiscal 2027 revenue guidance to $3,682M-$3,687M and non-GAAP EPS to about $9.21 [1]. Tempus lifted 2026 revenue to $1.60B-$1.605B [5]. Doximity guided fiscal 2027 revenue to $678M-$683M and adjusted EBITDA to $317M-$325M [2]. Teladoc guided 2026 revenue to $2,395M-$2,441M and adjusted EBITDA to $277M-$303M [3]. Waystar raised EBITDA guidance to $543M-$549M but narrowed revenue to $1.277B-$1.287B [4].",
+        "We found no public consensus EPS or revision data for the sub-industry itself. At the sector level, FactSet says Health Care's Q3 2026 revenue growth was revised up to 6.3% from 4.0% since 30 Sep [11]. Our read is that expectations are highest where AI is a visible growth driver and lowest for Teladoc, where revenue is guided down. A point of difference from a simple growth narrative: Waystar's implementation lag and Doximity's margin step-down suggest that AI-driven demand converts to revenue and profit more slowly than headline demand implies [4][2]."
+      ]
+    },
+    {
+      "id": "valuation",
+      "paragraphs": [
+        "We found no sourced forward P/E or history for the GICS sub-industry. The nearest sourced yardstick is Damodaran's January 2026 EV/EBITDA for health care information and technology: 21.3x for positive-EBITDA firms and 25.9x for all firms, and 35.0x on EV/EBIT for positive-EBITDA firms [8]. For the market, FactSet put the S&P 500's forward P/E at 18.3 on 13 Nov 2026, below its 5-year average of 19.8 and 10-year average of 19.1 [11].",
+        "On that comparison the group looks priced for growth: an EV/EBITDA above 20x implies sustained double-digit expansion, which fits Veeva, Waystar and Tempus [8][1][4][5] but not Doximity's 4% or Teladoc's decline [2][3]. We could not source a group free-cash-flow yield; company free cash flow is positive for Doximity and Teladoc's 2026 guidance [2][3], but we do not quote yields without price data. Valuation dispersion across the group is likely wide, which makes the average a weak guide."
+      ]
+    },
+    {
+      "id": "positioning",
+      "paragraphs": [
+        "We found limited sourced positioning data. The Global X HealthTech ETF (HEAL), one of the few pure-play vehicles, had assets of $37.64M across 42 holdings as of 12 Nov 2026, so the group has little dedicated passive money behind it [17]. Its largest weights were Veeva at 6.19%, IQVIA 6.03%, Oscar Health 5.69%, Pro Medicus 4.93% and Tempus 4.85%, with Waystar at 3.80% [17]. The fund also holds device and insurer names, so it is not a clean read of the GICS group.",
+        "For sector context, FactSet shows analysts' bottom-up target for the Health Care sector implies the smallest upside among S&P 500 sectors at 8.3%, and that 60% of its ratings are Buy [11]; this describes the whole sector, not health care technology. Venture flows are stronger than public flows: $3.7B across 114 digital-health rounds in Q3 2026, yet no new IPOs since HeartFlow in August 2025 [14]. We found no sourced short-interest or price momentum data for the group."
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "n": 1,
+      "title": "Veeva Announces Fiscal 2027 Second Quarter Results",
+      "publisher": "Veeva Systems",
+      "date": "2026-08-26",
+      "url": "https://www.veeva.com/resources/veeva-announces-fiscal-2027-second-quarter-results/"
+    },
+    {
+      "n": 2,
+      "title": "Doximity Announces Fiscal 2027 Second Quarter Financial Results",
+      "publisher": "Doximity",
+      "date": "2026-11-05",
+      "url": "https://finviz.com/news/417627/doximity-announces-fiscal-2027-second-quarter-financial-results"
+    },
+    {
+      "n": 3,
+      "title": "Teladoc Health Form 8-K: Third Quarter 2026 Results (Exhibit 99.1)",
+      "publisher": "Teladoc Health / SEC",
+      "date": "2026-10-28",
+      "url": "https://www.sec.gov/Archives/edgar/data/0001477449/000147744926000050/tdoc-20260930xexx991.htm"
+    },
+    {
+      "n": 4,
+      "title": "Waystar Reports Third Quarter 2026 Results",
+      "publisher": "Waystar Holding Corp.",
+      "date": "2026-11-02",
+      "url": "https://finviz.com/news/413493/waystar-reports-third-quarter-2026-results"
+    },
+    {
+      "n": 5,
+      "title": "Tempus AI Form 8-K: Third Quarter 2026 Results (Exhibit 99.1)",
+      "publisher": "Tempus AI / SEC",
+      "date": "2026-11-02",
+      "url": "https://www.sec.gov/Archives/edgar/data/0001717115/000119312526442619/tem-ex99_1.htm"
+    },
+    {
+      "n": 6,
+      "title": "Margins by Sector (US)",
+      "publisher": "Aswath Damodaran, NYU Stern",
+      "date": "2026-01",
+      "url": "https://pages.stern.nyu.edu/~adamodar/New_Home_Page/datafile/margin.html"
+    },
+    {
+      "n": 7,
+      "title": "Return on Equity and Capital by Sector (US)",
+      "publisher": "Aswath Damodaran, NYU Stern",
+      "date": "2026-01",
+      "url": "https://pages.stern.nyu.edu/~adamodar/New_Home_Page/datafile/roe.html"
+    },
+    {
+      "n": 8,
+      "title": "EV/EBITDA Multiples by Sector (US)",
+      "publisher": "Aswath Damodaran, NYU Stern",
+      "date": "2026-01",
+      "url": "https://pages.stern.nyu.edu/~adamodar/New_Home_Page/datafile/vebitda.html"
+    },
+    {
+      "n": 9,
+      "title": "Capital Expenditures by Sector (US)",
+      "publisher": "Aswath Damodaran, NYU Stern",
+      "date": "2026-01",
+      "url": "https://pages.stern.nyu.edu/~adamodar/New_Home_Page/datafile/capex.html"
+    },
+    {
+      "n": 10,
+      "title": "Debt Ratios by Sector (US)",
+      "publisher": "Aswath Damodaran, NYU Stern",
+      "date": "2026-01",
+      "url": "https://pages.stern.nyu.edu/~adamodar/New_Home_Page/datafile/dbtfund.html"
+    },
+    {
+      "n": 11,
+      "title": "Earnings Insight, 13 November 2026",
+      "publisher": "FactSet",
+      "date": "2026-11-13",
+      "url": "https://advantage.factset.com/hubfs/Website/Resources%20Section/Research%20Desk/Earnings%20Insight/EarningsInsight_111326.pdf"
+    },
+    {
+      "n": 12,
+      "title": "Uncertainty on Multiple Fronts Slowed EHR Purchases: KLAS 2026 Acute Care EHR Market Share Report",
+      "publisher": "KLAS Research",
+      "date": "2026-05",
+      "url": "https://engage.klasresearch.com/blog/uncertainty-on-multiple-fronts-slowed-ehr-purchases-insights-from-klass-2026-acute-care-ehr-market-share-report/"
+    },
+    {
+      "n": 13,
+      "title": "US Healthcare IT Software Market Sizing",
+      "publisher": "Towards Healthcare",
+      "date": "2026",
+      "url": "https://www.towardshealthcare.com/insights/us-healthcare-it-software-market-sizing"
+    },
+    {
+      "n": 14,
+      "title": "Rock Health Q3 2026 Market Update",
+      "publisher": "HIT Consultant (reporting Rock Health)",
+      "date": "2026-10-12",
+      "url": "https://hitconsultant.net/2026/10/12/rock-health-q3-2026-market-update-fifteen-years-digital-health-venture-funding-deployable-value/"
+    },
+    {
+      "n": 15,
+      "title": "Medicare Telehealth Flexibilities Extended Through 2027",
+      "publisher": "Frier Levitt",
+      "date": "2026",
+      "url": "https://www.frierlevitt.com/articles/medicare-telehealth-flexibilities-extended-2027-cms-compliance/"
+    },
+    {
+      "n": 16,
+      "title": "ONC final rule cuts health IT certification criteria (HTI-5)",
+      "publisher": "Healthcare Dive",
+      "date": "2026-10-27",
+      "url": "https://www.healthcaredive.com/news/onc-final-rule-cuts-health-it-certification-criteria/872876/"
+    },
+    {
+      "n": 17,
+      "title": "Global X HealthTech ETF (HEAL) holdings",
+      "publisher": "StockAnalysis.com",
+      "date": "2026-11-12",
+      "url": "https://stockanalysis.com/etf/heal/holdings/"
+    },
+    {
+      "n": 18,
+      "title": "Veeva Systems Form 10-K, fiscal year ended 31 January 2026 (summary page)",
+      "publisher": "Equibles (SEC filing data)",
+      "date": "2026-03-20",
+      "url": "https://equibles.com/stocks/veev/documents/62abebcb-a026-4649-b549-39129ff3dbc5"
+    }
+  ]
+}

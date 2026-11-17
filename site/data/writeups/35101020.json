@@ -1,0 +1,450 @@
+{
+  "code": "35101020",
+  "added": "2026-11-17",
+  "asOf": "2026-11-13",
+  "summary": "Health care supplies is a slow-growth, discretionary-exposed corner of medtech where profits are holding up better than sales. Align grew Q3 revenue 1.9% and guides 2026 to $4.11-$4.13B [1]; Dentsply Sirona's sales fell 7.6% and half its adjusted EBITDA gain was a one-off [2]; Cooper trimmed FY2026 guidance [3]. Hospital-facing ICU Medical reaffirmed guidance [4]. Tariff refunds flattered several quarters [2][4]. We found no sourced forward multiple for the sub-industry; the nearest ETF trades near 19.7x FY1 earnings against 18.3x for the S&P 500 [5][6].",
+  "metrics": [
+    {
+      "label": "Align Q3 2026 revenue",
+      "value": "$1.015B",
+      "context": "Up 1.9% year on year, down 3.9% sequentially; Clear Aligner cases 690,635, up 6.6%; non-GAAP operating margin 24.4%",
+      "source": 1
+    },
+    {
+      "label": "Dentsply Sirona Q3 2026 net sales",
+      "value": "$836M",
+      "context": "Down 7.6% (7.0% in constant currency); adjusted EBITDA margin 17.3% including a $39M non-recurring inventory benefit",
+      "source": 2
+    },
+    {
+      "label": "Cooper FY2026 revenue guidance",
+      "value": "$4.229-$4.252B",
+      "context": "Cut from $4.285-$4.321B; adjusted EPS guide $4.51-$4.55, down from $4.58-$4.66 (reported Sept 2026)",
+      "source": 3
+    },
+    {
+      "label": "ICU Medical Q3 2026 revenue",
+      "value": "$560.4M",
+      "context": "Versus $537.0M a year earlier; adjusted EPS $2.44 versus $2.03; net leverage 2.04x",
+      "source": 4
+    },
+    {
+      "label": "Operating margin, Healthcare Products (Damodaran)",
+      "value": "17.40%",
+      "context": "204 US firms, January 2026; gross margin 54.00%; a broader group than this sub-industry",
+      "source": 7
+    },
+    {
+      "label": "ROE, Healthcare Products (Damodaran)",
+      "value": "11.26%",
+      "context": "January 2026; 9.37% when R&D is capitalised; net R&D spend $1.03B across the group",
+      "source": 8
+    },
+    {
+      "label": "Contact lens market size (2026)",
+      "value": "$13.2B",
+      "context": "Roots Analysis estimate, up from $12.7B in 2025; 5.0% CAGR to 2035",
+      "source": 9
+    },
+    {
+      "label": "Forward P/E, SPDR Health Care Equipment ETF",
+      "value": "19.65x",
+      "context": "FY1 basis as of 13 Nov 2026; ETF is up 3.49% year to date at 31 Oct 2026; S&P 500 forward P/E is 18.3x",
+      "source": 5
+    }
+  ],
+  "watch": [
+    "Dental and clear aligner demand is soft: Align's CFO described a softer environment for discretionary health care spending and capital equipment, and Dentsply's Connected Technology and Orthodontic and Implant segments fell 11% and 17% in Q3 [1][2].",
+    "Tariff policy is unsettled: the Supreme Court struck down IEEPA tariffs on 20 Feb 2026 but Section 232 and other authorities remain possible, while refunds already boosted Dentsply, Solventum and ICU Medical results [10][2][11][4].",
+    "Cooper's board kept CooperSurgical after a strategic review that included a proposed sale and raised its buyback authorization to $3B, so execution in both segments now carries the story [3].",
+    "Solventum is still separating from 3M and is reviewing strategic alternatives for its Health Information Systems business, which could change its earnings mix [11].",
+    "The Fed held at 3.75%-4.00% on 28 Oct 2026 with two dissents in favor of a hike, which keeps financing costs for elective procedures and dental equipment high [12]."
+  ],
+  "bellwethers": [
+    "Align Technology",
+    "Cooper Companies",
+    "Dentsply Sirona",
+    "ICU Medical",
+    "Solventum"
+  ],
+  "basics": {
+    "intro": "Health care supplies companies make the consumable and semi-durable products used in every patient encounter: contact lenses, clear orthodontic aligners, dental products, IV sets and infusion consumables, wound-care and surgical supplies. Customers are eye-care practitioners, dentists and orthodontists, hospitals and distributors, and revenue repeats because each patient or procedure needs fresh product. GICS puts larger capital equipment such as scanners, implants and monitors in Health Care Equipment, hospitals in Facilities, and distributors in Health Care Distributors. Some of the companies here also sell equipment alongside consumables.",
+    "products": [
+      {
+        "name": "Contact lenses",
+        "what": "Soft lenses worn daily, biweekly or monthly to correct vision, plus specialty lenses for myopia control. Sold through eye-care practitioners, optical chains and online.",
+        "examples": "CooperVision Biofinity, MyDay and MiSight; Alcon, Johnson & Johnson Vision and Bausch + Lomb compete"
+      },
+      {
+        "name": "Clear aligners",
+        "what": "Custom plastic trays that move teeth in steps, prescribed by dentists and orthodontists and made in volume from digital scans.",
+        "examples": "Align Technology Invisalign"
+      },
+      {
+        "name": "Dental consumables",
+        "what": "Restorative materials, preventive products and instruments used chairside every day, often paired with imaging and CAD/CAM equipment.",
+        "examples": "Dentsply Sirona Essential Dental Solutions; Solventum Dental Solutions"
+      },
+      {
+        "name": "Infusion consumables",
+        "what": "IV sets, connectors and related disposables that run on installed pumps, so each pump creates a stream of repeat purchases.",
+        "examples": "ICU Medical Consumables and Infusion Systems"
+      },
+      {
+        "name": "Wound care and surgical supplies",
+        "what": "Dressings, negative-pressure therapy, drapes and infection-prevention products used in hospitals and the home.",
+        "examples": "Solventum Advanced Wound Care and Infection Prevention and Surgical Solutions"
+      },
+      {
+        "name": "Fertility and women's health supplies",
+        "what": "Media, lab tools and devices used in IVF clinics and OB/GYN offices.",
+        "examples": "CooperSurgical"
+      }
+    ],
+    "terms": [
+      {
+        "term": "Consumable (razor-and-blade) model",
+        "meaning": "A company sells a platform once and earns repeat revenue from the disposables it needs. It makes revenue steadier than equipment sales."
+      },
+      {
+        "term": "Case starts",
+        "meaning": "New aligner treatments begun in a period. Align's volume and revenue track this number more closely than any other."
+      },
+      {
+        "term": "Average selling price (ASP)",
+        "meaning": "Revenue per case or unit. It falls when companies add cheaper products or promotions, even when volume rises."
+      },
+      {
+        "term": "Daily disposable",
+        "meaning": "A contact lens thrown away each day. It is the fastest-growing lens type and carries higher revenue per wearer."
+      },
+      {
+        "term": "Organic growth",
+        "meaning": "Sales growth excluding currency, acquisitions and divestitures. Analysts use it to see underlying demand."
+      },
+      {
+        "term": "DSO",
+        "meaning": "Dental service organization, a corporate group that runs many dental practices. Its purchasing power can press prices."
+      },
+      {
+        "term": "Installed base",
+        "meaning": "The count of pumps, scanners or other equipment already in customers' hands. A larger base supports consumable revenue."
+      },
+      {
+        "term": "510(k)",
+        "meaning": "The US FDA route that clears a device by showing it is substantially equivalent to one already sold."
+      },
+      {
+        "term": "Group purchasing organization (GPO)",
+        "meaning": "A buying group that negotiates supply contracts for many hospitals. It concentrates demand and limits suppliers' pricing."
+      },
+      {
+        "term": "Adjusted EPS",
+        "meaning": "Earnings per share excluding items such as restructuring and amortisation. Companies in this group use it heavily, so the gap to GAAP matters."
+      },
+      {
+        "term": "Free cash flow (FCF)",
+        "meaning": "Operating cash flow minus capital spending. It shows how much a company can fund buybacks, debt paydown and deals."
+      },
+      {
+        "term": "Tariff refund",
+        "meaning": "Money returned after duties were ruled unlawful. It lifts reported results once but is not repeatable income."
+      }
+    ],
+    "drivers": [
+      {
+        "name": "Procedure and visit volumes",
+        "how": "Consumables are used per patient visit or treatment, so revenue follows dental visits, eye exams and hospital activity. Weak consumer demand shows up first in elective items such as aligners."
+      },
+      {
+        "name": "Pricing and mix",
+        "how": "Premium products such as daily lenses and new aligner features raise revenue per unit; promotions, lower-priced offerings and customer consolidation lower it."
+      },
+      {
+        "name": "Capital equipment cycle",
+        "how": "Dentists and hospitals buy scanners, imaging systems and pumps when borrowing is cheap and confidence is high. When they delay purchases, equipment revenue falls and later consumable pull-through slows."
+      },
+      {
+        "name": "Tariffs and input costs",
+        "how": "Plastics, resins and components cross borders before reaching patients. Duties raise cost of goods and compress gross margin unless prices rise, and refunds create one-off gains."
+      },
+      {
+        "name": "Portfolio changes",
+        "how": "Spin-offs, sales and restructuring change reported growth and margins. Separation costs depress GAAP earnings while adjusted figures hide them."
+      },
+      {
+        "name": "Regulation and clinical evidence",
+        "how": "Clearances, reimbursement and safety recalls decide which products can be sold and for how much, so a single approval or quality issue can move a revenue line."
+      }
+    ]
+  },
+  "fundamentals": {
+    "business": [
+      "Revenue comes mainly from repeat consumables: Cooper's CooperVision contact lenses (Biofinity is its highest-grossing product) and CooperSurgical fertility and women's health products, Align's aligner cases, and ICU Medical's consumables and infusion systems [13][1][4]. Some firms add equipment, such as Align's scanners (Systems and Services $715M-$725M guided for 2026) [1].",
+      "Customers are eye-care practitioners, optical chains and mass merchandisers for lenses; dentists, orthodontists and DSOs for dental; and hospitals, clinics and distributors for infusion and surgical supplies [13][14]. Cooper reported no single customer at 10% or more of revenue in fiscal 2025 [13].",
+      "Principal costs are materials, manufacturing labor, sales and R&D. Align has about 20,290 employees, about 91% outside the US, with large sites in Mexico, Costa Rica and China [14]. Cooper manufactures in Belgium, Costa Rica, Hungary, Puerto Rico, the UK and the US [13]. Damodaran's Healthcare Products group has a 54.00% gross margin [7].",
+      "Pricing power rests on brand with clinicians, clinical evidence, regulatory clearance and switching costs: a dentist trained on a digital workflow or a hospital with installed pumps rarely switches. It weakens against DSOs and group buyers, and Align says promotions and rivals could reduce ASPs [14]. We think premium lens and aligner brands hold more pricing power than commodity hospital disposables.",
+      "Major assets are plants, intellectual property, goodwill from acquisitions and inventory; liabilities are mostly debt, and Damodaran's healthcare products group carries debt of 2.74x EBITDA and book debt to capital of 35.70% [15]. Dentsply's long-term debt was $1,985M and Solventum's about $4.6B net of cash at 30 Sep 2026 on our arithmetic [2][11].",
+      "Mostly asset-moderate rather than asset-light. Damodaran shows net capital spending of 4.53% of sales and capex at 79.54% of depreciation for Healthcare Products [16]; Align guides 2026 capex of $125M-$150M on about $4.1B of revenue [1]. The heavy investment is in R&D and acquired intangibles, not in buildings."
+    ],
+    "overview": [
+      "No sub-industry-wide market size is published that we could open. One sub-segment, contact lenses, is estimated at $13.2B in 2026 and growing 5.0% a year to 2035 by Roots Analysis [9]. US dental spending was $189B in 2024, up 3.6% on an inflation-adjusted basis, with consumer dental spending up 4% in the year to January 2026 [17].",
+      "Main segments are vision care (lenses), orthodontics and dental consumables, infusion and hospital consumables, wound care and surgical supplies, and fertility and women's health. Roots sizes soft lenses at about 75% of contact lens sales and daily disposables at about 40% [9]. Solventum alone reports five segments, including wound care ($528M in Q3) and dental ($317M) [11].",
+      "These companies sit between component and resin suppliers upstream and clinicians, hospitals and distributors downstream. Align sells directly and through distributors in more than 100 countries, and Cooper in over 130, using its own sales force, distributors, practitioners and optical chains [14][13]. Patients and insurers or payers ultimately fund the purchase.",
+      "The industry has moved from conventional to disposable lenses, from wire braces to digital clear aligners, and from stand-alone products to digital workflows tied to scanners and software. Align estimates it holds about 10% of the roughly 22 million annual orthodontic case starts, and over 22 million people have been treated with Invisalign [14]. Corporate carve-outs such as Solventum from 3M reshape the group [11].",
+      "Concentration follows the end markets: North America holds about 40% of contact lens sales [9]. Production is global and often near low-cost hubs: Align's aligner plants are in Mexico, China and Poland, Cooper's in Europe, Costa Rica and the US, and employees at Align work in 48 countries [14][13]."
+    ],
+    "competition": [
+      "Each product niche has a handful of significant competitors rather than one crowded field. In contact lenses Cooper's 10-K names Johnson & Johnson Vision Care, Alcon and Bausch + Lomb [13]; Roots lists those plus Menicon, SEED, HOYA and others [9]. In aligners Align faces wire braces, other aligner makers, direct-to-consumer firms and doctors who 3D-print their own [14].",
+      "Leaders by niche: CooperVision, J&J Vision, Alcon and Bausch + Lomb in lenses; Align in aligners; Dentsply Sirona and Solventum in dental; ICU Medical in infusion consumables. We did not find a reliable, sourced market share table for lenses; Align puts its own share of annual orthodontic case starts at about 10% [14].",
+      "Concentrated at the top in lenses, more fragmented in dental and hospital disposables. We read the sector as a set of oligopolies in specific products inside a diverse group, not one consolidated industry, because each competitor named in filings differs by niche [13][14].",
+      "Barriers to entry include FDA clearance, ISO 13485 quality systems, clinician training and distribution reach. Align's Invisalign was FDA-cleared in 1998 and about 130,015 doctors were active users at end-2025 [14]. Entry is easier in commodity disposables and in 3D-printed aligners made at the practice [14].",
+      "Scale matters in manufacturing and R&D: Align's 11 fabrication and treatment-planning sites and regional plants spread fixed costs across 690,635 cases in a single quarter [14][1]. Rivals with larger budgets and sales forces are a stated risk in Cooper's filing [13].",
+      "Mixed. Aligners and daily lenses are differentiated by materials, fit and software, while many hospital consumables behave as commodities competing on price and supply. Align's ASP guided down about 1% in Q4 2026 shows how promotions and mix can erode price even for a differentiated product [1].",
+      "Customers hold growing power: DSOs and large group practices, and in hospital supplies group buyers and distributors, which Align names as a dependency [14]. Suppliers have power where inputs are sole-sourced: Align says some components and materials come from sole-source suppliers [14]."
+    ],
+    "drivers": [
+      "Revenue growth is driven by procedure and visit volumes, new products and share gains, geographic expansion and price or mix. Align guides 2026 Clear Aligner volume up about 5% to 6% with ASP slightly down, and Solventum organic growth toward the high end of 2.5% to 3.0% [1][11].",
+      "Operating margin depends on gross margin (mix and manufacturing), operating leverage on fixed sales and R&D cost, and restructuring. Align's non-GAAP operating margin was 24.4% in Q3 with 26% guided for Q4; Solventum's adjusted operating margin was 19.9%; Dentsply's adjusted EBITDA margin was 17.3% including a $39M one-off [1][11][2].",
+      "Key cost variables are resins and plastics, labor, freight, tariffs and currency. Align says tariffs on Mexico-made aligners shipped to the US could pressure margin, and Solventum's gross margin guide includes a 1.2-point benefit from a tariff refund [14][11]. Consumer or practice demand is not a cost but changes absorption.",
+      "Rates matter through the customer, not the company. Align's filing says elective orthodontic spending can fall with higher interest rates or a weaker outlook, and dental practices may delay equipment purchases [14]. The Fed held at 3.75%-4.00% on 28 Oct 2026 with two members preferring a hike [12].",
+      "Inflation lifts input costs and squeezes patient budgets: HPI reports 17% of adults aged 19 to 64 skipped needed dental care because of cost versus 7.4% for medical care [17]. GDP and unemployment affect discretionary care first. The Fed said inflation remains elevated and the unemployment rate has changed little [12]. Commodity exposure is mainly petrochemical resins, which we did not find sourced figures for.",
+      "A blend. Hospital and lens consumables are close to defensive because patients need them regardless; aligners, dental equipment and elective procedures are cyclical; and secular drivers include myopia, aging and digital dentistry. Align's own filing says malocclusion affects 60% to 75% of people and only about 22 million of 600 million who could benefit elect treatment each year [14]."
+    ],
+    "financials": [
+      "Growth is modest. Align's Q3 revenue rose 1.9%, Cooper's 0.6%, ICU Medical's about 4% and Dentsply's fell 7.6%, while Solventum's nine-month organic growth was 2.9% [1][3][4][2][11]. Damodaran lists a forward P/E of 42.33 for Healthcare Products, implying the market expects faster growth than recent prints show [18].",
+      "Damodaran's January 2026 data for 204 US Healthcare Products firms show a 54.00% gross margin, 17.40% operating margin and 9.61% net margin [7]. Solventum's adjusted gross margin was 57.1% and Align's non-GAAP gross margin 70.4% in Q3 2026 [11][1].",
+      "Damodaran puts ROE for Healthcare Products at 11.26% unadjusted and 9.37% adjusted for R&D [8]. We did not find a sourced ROIC for the sub-industry; acquisitive models such as Dentsply and Cooper carry large goodwill, which depresses return on capital in our view [2][13].",
+      "Leverage varies. Damodaran shows debt of 2.74x EBITDA and book debt to capital of 35.70% [15]. ICU Medical's net leverage was 2.04x on $858.0M of net debt; Dentsply's net debt was about $2.0B against $195M of cash; Solventum's about $4.6B (our arithmetic from reported debt and cash) [4][2][11].",
+      "Free cash flow is solid but lumpy. ICU Medical generated $83.4M in Q3 including tariff refunds; Dentsply's Q3 free cash flow was zero; Solventum's nine-month free cash flow was negative $32M against a $200M-$300M full-year guide [4][2][11]. Align holds $1,144.9M of cash and plans about $500M of buybacks in 2026 [1].",
+      "Capital spending is moderate: net capex is 4.53% of sales and 79.54% of depreciation in Damodaran's group, and Align guides $125M-$150M for 2026 [16][1]. Dentsply's Q3 capex was $32M [2]. R&D is the larger commitment, at $1.03B net across the Damodaran group [16].",
+      "On Damodaran's January 2026 data, EV/EBITDA is 19.78 (positive-EBITDA firms) and 23.42 across all firms, EV/EBIT 29.99, and trailing P/E 55.87 [19][18]. The SPDR Health Care Equipment ETF trades at 19.65x FY1 earnings on 13 Nov 2026 [5]. Damodaran's category is broader than this sub-industry."
+    ],
+    "risks": [
+      "Tariff and trade law is the live regulatory risk. The Supreme Court ruled 6-3 on 20 Feb 2026 that IEEPA does not authorize broad tariffs, but the administration may use other authorities and no refund process was set by the ruling [10]. Align cites a Section 232 investigation into medical devices [14]. FDA clearance, EU MDR and privacy law also apply [13].",
+      "AI and digital workflows are mostly an opportunity for incumbents (treatment planning, scanning), but they lower the cost for new entrants, and cybersecurity threats including AI-enabled attacks are a flagged risk at Align [14]. 3D printing lets practices make their own aligners [14].",
+      "Aging populations raise demand for infusion, wound care and restorative dental products, and children's myopia increases lens demand; we think this is a slow tailwind. Usage gaps persist: in 2022 18% of Medicaid adults saw a dentist versus 57% with private insurance [17].",
+      "Consumers are price-sensitive on elective care and increasingly buy through DSOs, online and direct-to-consumer channels. Align's CFO cited a softer environment for discretionary health spending [1]. Align's filing says patients may choose lower-cost treatments in weaker economies [14].",
+      "New competitors and models include direct-to-consumer aligner companies, in-office 3D-printed aligners, and regional rivals [14]. In lenses, Cooper's filing names smaller firms with limited lines alongside the three majors [13]. Corporate separations create new focused rivals, such as Solventum from 3M [11].",
+      "Geopolitical and supply-chain exposure is large: Align cites operations in Israel (iTero) and manufacturing in Mexico, and sole-source components [14]. AdvaMed says device supply chains are hard to change because components must meet FDA and international requirements, and switching suppliers can take years [10].",
+      "Substitutes include spectacles, refractive surgery and monthly lenses against daily disposables; Cooper names eyeglass makers and ophthalmic surgery as lesser competitors [13]. In orthodontics wires and brackets remain the main alternative to aligners [14]. For infusion, hospital protocol changes could reduce consumable use, which we do not see sourced."
+    ],
+    "horizon": {
+      "opportunities": [
+        "Undertreated demand: only about 22 million of roughly 600 million people who could benefit from straightening elect treatment each year, and Align holds about 10% of annual orthodontist case starts [14].",
+        "Contact lens growth of about 5.0% a year to 2035, with specialty and myopia lenses growing faster, supports CooperVision's mix [9][13].",
+        "Cost and portfolio actions: Solventum has exited about 90% of 3M transition services and Cooper raised its buyback authorization to $3B [11][3].",
+        "Dental spending is growing, up 4% in the year to January 2026, giving a steady base for consumables [17]."
+      ],
+      "threats": [
+        "Tariffs and trade policy remain unresolved after the IEEPA ruling, with Section 232 outstanding [10][14].",
+        "Discretionary dental and orthodontic demand could stay weak while interest rates stay near 3.75%-4.00% [12][1].",
+        "ASP erosion and competition from direct-to-consumer and in-office aligners [14].",
+        "Execution risk in restructurings: Dentsply's Q3 net sales fell 7.6% and free cash flow was zero [2]."
+      ],
+      "assessment": "Over three to five years we think demand for the products in this group (lenses, aligners, dental and hospital consumables) is structurally supported by aging, myopia and under-penetrated orthodontics, but recent results show that growth is low single digit and that margins rely partly on cost cuts and one-off tariff refunds [1][9][2][4]. The winners are likely to be companies with differentiated, clinician-embedded products and clean balance sheets, such as those with leverage near 2x EBITDA [4][14]. The losers are likely to be firms in commodity or restructuring-heavy niches, where Dentsply's 2026 sales guide of about $3.5B shows how volumes can shrink [2]. Policy is the swing factor: tariffs and refunds can move margins by a point or more, as Solventum's 1.2-point gross margin benefit shows [11][10]."
+    }
+  },
+  "sections": [
+    {
+      "id": "macro",
+      "paragraphs": [
+        "We think the sub-industry sits in a late-cycle, rate-constrained phase for discretionary spending but not for core hospital use. The Fed held its target range at 3.75% to 4.00% on 28 Oct 2026 by 10 to 2, with Lisa Cook and Beth Hammack preferring a quarter-point increase, and it said inflation remains elevated while job gains have kept pace with the workforce [12]. That backdrop matters for elective care and for equipment purchases that practices finance.",
+        "Align's filing says consumer spending on elective orthodontics can fall with inflation, interest rates or a weaker outlook, and practices may delay equipment purchases [14]. Align's CFO described a softer environment for discretionary health care spending and capital equipment investment in Q3 2026, and Align's imaging revenue fell 7.6% [1]. Dentsply's Connected Technology Solutions fell 11% to $230M, which is consistent with weak equipment demand [2].",
+        "Currency is a second cyclical factor: Align's filing notes a large share of revenue and expenses in foreign currencies [14]. Against that, dental spending data are less weak than the equipment data: consumer dental spending was up 4% as of January 2026 versus a year earlier [17]. We read the pattern as consumers still visiting but deferring big-ticket treatment and practices deferring capital purchases."
+      ]
+    },
+    {
+      "id": "demand",
+      "paragraphs": [
+        "Structural demand is anchored by aging, myopia and under-penetrated orthodontics rather than by any single large market. Roots Analysis puts the contact lens market at $13.2B in 2026, up from $12.7B in 2025 and growing 5.0% a year to $20.5B by 2035; soft lenses are about 75% of sales and daily disposables about 40% [9]. That is a third-party estimate and figures differ by publisher.",
+        "In orthodontics, Align says malocclusion affects 60% to 75% of the global population, about 600 million people could benefit from straightening, but only about 22 million elect treatment each year, and Align holds about 10% of those starts [14]. US dental spending reached $189B in 2024, up 3.6% inflation-adjusted [17].",
+        "Demand is partly elastic. Align's volume grew 6.6% in Q3 while revenue grew 4.2% for clear aligners as ASP slipped, and it guides 2026 volume growth of 5% to 6% with ASP down slightly [1]. Cost barriers are real: 17% of adults aged 19 to 64 skipped dental care because of cost [17]. Hospital consumables behave more defensively: ICU Medical's Consumables revenue was $298.4M, up $13.3M [4]."
+      ]
+    },
+    {
+      "id": "structure",
+      "paragraphs": [
+        "Using Porter's five forces: rivalry is intense in lenses, where Cooper's 10-K names Johnson & Johnson Vision Care, Alcon and Bausch + Lomb as the main rivals [13]. Threat of new entrants is moderate: FDA clearance, ISO 13485 quality systems and clinician adoption protect incumbents, but Align lists direct-to-consumer firms and doctors who 3D-print aligners as competitors [14].",
+        "Buyer power is rising: Align names reliance on DSOs and large group practices as a risk, while Cooper has no customer at 10% or more of revenue, which limits buyer leverage in lenses [14][13]. Supplier power is meaningful for sole-source components [14]. The threat of substitutes comes from wires and brackets in orthodontics and from eyeglasses and surgery in vision correction [14][13].",
+        "Moats come from brands, clinical workflows and scale. Align counts about 130,015 active Invisalign-trained doctors and over 22 million treated patients [14]. Pricing power is real but eroding where cheaper options exist: Align guides Q4 ASP down about 1% [1]. We did not find sourced market-share tables for lenses or dental consumables."
+      ]
+    },
+    {
+      "id": "environment",
+      "paragraphs": [
+        "Politically the biggest factor is trade. The Supreme Court ruled 6-3 on 20 Feb 2026 in Learning Resources v. Trump that IEEPA does not authorize broad tariffs, leaving refunds to lower courts and the administration and signalling that other trade laws may be used; AdvaMed noted that device supply chains cannot be changed quickly and costs are hard to pass through [10]. Align's filing notes a Section 232 investigation into medical devices [14].",
+        "Refunds already show up in results: Dentsply's 2026 guide excludes a $0.17 one-time benefit from tariff refunds, Solventum's Q3 free cash flow was helped by an IEEPA refund, and ICU Medical excluded $19M of refunds from its FY2026 outlook [2][11][4]. We treat these as non-recurring.",
+        "Regulation covers FDA 510(k), PMA and de novo pathways, EU MDR and IVDR, UK MHRA, China NMPA and Japan PMDA for Cooper, plus anti-kickback and privacy laws [13]. Align flags PFAS and chemical restrictions [14]. Technologically, digital scanning, 3D printing and AI-assisted planning favor scaled incumbents but lower entry costs [14]. Social factors include aging and rising myopia in children, which supports lens makers [13]."
+      ]
+    },
+    {
+      "id": "economics",
+      "paragraphs": [
+        "Margins are high at the product-brand end and lower in broad supplies. Damodaran's January 2026 table for 204 Healthcare Products firms shows gross margin 54.00%, operating margin 17.40% and net margin 9.61% [7]. Align's Q3 non-GAAP gross margin was 70.4% and non-GAAP operating margin 24.4%, versus Solventum's adjusted gross margin of 57.1% and adjusted operating margin of 19.9% [1][11].",
+        "Operating leverage is visible in weak quarters: Dentsply's net sales fell 7.6% and adjusted EBITDA margin slipped to 17.3% from 18.4%, and that included a $39M non-recurring benefit, so underlying margin was lower [2]. ICU Medical's adjusted EBITDA grew to $113.9M from $105.9M on a 4.4% revenue rise [4].",
+        "Returns are modest. Damodaran's ROE is 11.26% (9.37% R&D-adjusted) [8]; we found no sourced ROIC for the sub-industry. Capital intensity is moderate: net capex is 4.53% of sales [16]. Free cash flow is uneven: Dentsply produced none in Q3, ICU $83.4M, and Solventum is negative for nine months against a $200M-$300M guide [2][4][11]. Debt is manageable at 2.74x EBITDA for the Damodaran group [15]."
+      ]
+    },
+    {
+      "id": "earnings",
+      "paragraphs": [
+        "Guidance is mixed to softer. Align guides 2026 revenue to about $4.11B-$4.13B with non-GAAP operating margin about 23.7%, and Q4 revenue of $1.00B-$1.02B [1]. Cooper cut FY2026 revenue guidance to $4.229B-$4.252B from $4.285B-$4.321B and adjusted EPS to $4.51-$4.55 from $4.58-$4.66 [3]. Dentsply guides sales of about $3.5B and adjusted EPS of $1.20-$1.30 excluding a $0.17 refund [2].",
+        "Brighter spots: Solventum raised adjusted EPS guidance to $7.20-$7.30 from $7.10-$7.20 with organic growth toward the high end of 2.5%-3.0% [11]. ICU Medical reaffirmed adjusted EPS of $8.60-$9.00 and expects the high end [4].",
+        "Across the S&P 500, FactSet shows Q3 2026 blended earnings growth of 31.9%, and the Health Care sector reported the largest aggregate positive earnings surprise at +13.7%, with revenue growth of 6.3% [6]. That is sector-wide and driven by managed care and pharma, not supplies. A sourced consensus EPS growth figure for this sub-industry was not available to us.",
+        "Our view: consensus probably still assumes recovery in dental equipment and aligner pricing in 2027; Align's ASP decline and Dentsply's restructuring suggest that risks lean to the downside, while tariff refunds flatter 2026 comparisons [1][2]."
+      ]
+    },
+    {
+      "id": "valuation",
+      "paragraphs": [
+        "A sub-industry forward P/E was not publicly available. The closest listed proxy is the State Street SPDR S&P Health Care Equipment ETF, which shows a P/E of 19.65 on FY1 earnings as of 13 Nov 2026 [5]. FactSet puts the S&P 500 forward 12-month P/E at 18.3, below its 5-year average of 19.8 and 10-year average of 19.1 [6]. On that basis the equipment group trades at a premium of about 1.3 turns to the index, though the ETF covers more than supplies.",
+        "Damodaran's January 2026 data for Healthcare Products show EV/EBITDA of 19.78 for positive-EBITDA firms, EV/EBIT of 29.99, forward P/E of 42.33, current P/E of 55.87 and a PEG ratio of 2.74 [19][18]. Those multiples are high against the broad market, but the category contains growth-heavy names and the data predate recent moves.",
+        "Cooper's shares fell about 14% overnight to $54.55 after it cut guidance and kept CooperSurgical, which suggests the market was already pricing weak growth for contact lenses [3]. Align repurchased 627.3 thousand shares at an average of $164.73 in Q3 [1]. FactSet's bottom-up analyst targets imply 8.3% upside for Health Care versus 22.2% for the index [6]."
+      ]
+    },
+    {
+      "id": "positioning",
+      "paragraphs": [
+        "Relative performance has been unremarkable. The SPDR S&P Health Care Equipment ETF returned 3.49% year to date and 14.30% over one year to 31 Oct 2026 on a NAV basis, against 3.76% and 14.67% for its benchmark [5]. That compares with an S&P 500 whose forward earnings estimate has risen 3.3% since 30 Sep while its price fell 0.8% [6].",
+        "The ETF held $156.59M of assets on 13 Nov 2026 across 73 holdings, with the largest weight at only 2.21% (Enovis), so it behaves like an equal-weighted basket of mid-sized names [5]. We could not find sourced flow or short-interest data for the sub-industry, so we make no claim on positioning there.",
+        "Company-level signals: buybacks are the main capital-return tool. Align plans up to $300M in Q4 and about $500M in 2026, with $630.0M remaining on its authorization, and Cooper raised its authorization to $3B from $2B [1][3]."
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "n": 1,
+      "title": "Align Technology Q3 2026 earnings press release",
+      "publisher": "Align Technology / SEC",
+      "date": "2026-10-28",
+      "url": "https://www.sec.gov/Archives/edgar/data/0001097149/000109714926000077/algn-q326earningspressrele.htm"
+    },
+    {
+      "n": 2,
+      "title": "Dentsply Sirona Q3 2026 results (8-K exhibit 99.1)",
+      "publisher": "Dentsply Sirona / SEC",
+      "date": "2026-11-05",
+      "url": "https://www.sec.gov/Archives/edgar/data/0000818479/000081847926000285/dentsply8kq32026ex991.htm"
+    },
+    {
+      "n": 3,
+      "title": "Cooper Companies Q3 results up, cuts FY26 view, retains CooperSurgical, expands buyback",
+      "publisher": "RTTNews",
+      "date": "2026-09-10",
+      "url": "https://www.rttnews.com/3689803/cooper-companies-q3-results-up-cuts-fy26-view-retains-coopersurgical-expands-buyback-shares-down.aspx"
+    },
+    {
+      "n": 4,
+      "title": "ICU Medical Q3 2026 results (8-K exhibit 99.1)",
+      "publisher": "ICU Medical / SEC",
+      "date": "2026-11-05",
+      "url": "https://www.sec.gov/Archives/edgar/data/0000883984/000088398426000049/exhibit991q32026er.htm"
+    },
+    {
+      "n": 5,
+      "title": "State Street SPDR S&P Health Care Equipment ETF (XHE) fund page",
+      "publisher": "State Street Investment Management",
+      "date": "2026-11-13",
+      "url": "https://www.ssga.com/us/en/intermediary/etfs/funds/spdr-sp-health-care-equipment-etf-xhe"
+    },
+    {
+      "n": 6,
+      "title": "FactSet Earnings Insight, 13 November 2026",
+      "publisher": "FactSet",
+      "date": "2026-11-13",
+      "url": "https://advantage.factset.com/hubfs/Website/Resources%20Section/Research%20Desk/Earnings%20Insight/EarningsInsight_111326.pdf"
+    },
+    {
+      "n": 7,
+      "title": "Margins by Sector (US), Healthcare Products",
+      "publisher": "Aswath Damodaran, NYU Stern",
+      "date": "2026-01-01",
+      "url": "https://pages.stern.nyu.edu/~adamodar/New_Home_Page/datafile/margin.html"
+    },
+    {
+      "n": 8,
+      "title": "Return on Equity by Sector (US), Healthcare Products",
+      "publisher": "Aswath Damodaran, NYU Stern",
+      "date": "2026-01-01",
+      "url": "https://pages.stern.nyu.edu/~adamodar/New_Home_Page/datafile/roe.html"
+    },
+    {
+      "n": 9,
+      "title": "Contact Lenses Market",
+      "publisher": "Roots Analysis",
+      "date": "2026-11-01",
+      "url": "https://www.rootsanalysis.com/reports/contact-lenses-market.html"
+    },
+    {
+      "n": 10,
+      "title": "What the Supreme Court's tariff ruling means for medtech and device costs",
+      "publisher": "Medical Economics",
+      "date": "2026-02-23",
+      "url": "https://www.medicaleconomics.com/view/what-the-supreme-court-s-tariff-ruling-means-for-medtech-and-device-costs"
+    },
+    {
+      "n": 11,
+      "title": "Solventum Q3 2026 results (8-K exhibit 99.1)",
+      "publisher": "Solventum / SEC",
+      "date": "2026-11-05",
+      "url": "https://www.sec.gov/Archives/edgar/data/0001964738/000196473826000055/q32026-8kerexx991.htm"
+    },
+    {
+      "n": 12,
+      "title": "Federal Reserve FOMC statement, 28 October 2026",
+      "publisher": "Federal Reserve",
+      "date": "2026-10-28",
+      "url": "https://www.federalreserve.gov/newsevents/pressreleases/monetary20261028a.htm"
+    },
+    {
+      "n": 13,
+      "title": "Cooper Companies Form 10-K for fiscal year ended 31 Oct 2025",
+      "publisher": "Cooper Companies / SEC",
+      "date": "2025-10-31",
+      "url": "https://www.sec.gov/Archives/edgar/data/711404/000162828025055615/coo-20251031.htm"
+    },
+    {
+      "n": 14,
+      "title": "Align Technology Form 10-K for fiscal year ended 31 Dec 2025",
+      "publisher": "Align Technology / SEC",
+      "date": "2025-12-31",
+      "url": "https://www.sec.gov/Archives/edgar/data/1097149/000109714926000014/algn-20251231.htm"
+    },
+    {
+      "n": 15,
+      "title": "Debt Fundamentals by Sector (US), Healthcare Products",
+      "publisher": "Aswath Damodaran, NYU Stern",
+      "date": "2026-01-01",
+      "url": "https://pages.stern.nyu.edu/~adamodar/New_Home_Page/datafile/dbtfund.html"
+    },
+    {
+      "n": 16,
+      "title": "Capital Expenditures by Sector (US), Healthcare Products",
+      "publisher": "Aswath Damodaran, NYU Stern",
+      "date": "2026-01-01",
+      "url": "https://pages.stern.nyu.edu/~adamodar/New_Home_Page/datafile/capex.html"
+    },
+    {
+      "n": 17,
+      "title": "State of the U.S. Dental Economy (dental statistics)",
+      "publisher": "American Dental Association Health Policy Institute",
+      "date": "2026-01-31",
+      "url": "https://www.ada.org/en/science-research/health-policy-institute/dental-statistics/patients"
+    },
+    {
+      "n": 18,
+      "title": "PE Ratios by Sector (US), Healthcare Products",
+      "publisher": "Aswath Damodaran, NYU Stern",
+      "date": "2026-01-01",
+      "url": "https://pages.stern.nyu.edu/~adamodar/New_Home_Page/datafile/pedata.html"
+    },
+    {
+      "n": 19,
+      "title": "Enterprise Value Multiples by Sector (US), Healthcare Products",
+      "publisher": "Aswath Damodaran, NYU Stern",
+      "date": "2026-01-01",
+      "url": "https://pages.stern.nyu.edu/~adamodar/New_Home_Page/datafile/vebitda.html"
+    }
+  ]
+}
