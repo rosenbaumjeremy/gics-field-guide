@@ -1,0 +1,429 @@
+{
+  "code": "25504030",
+  "added": "2026-11-18",
+  "asOf": "2026-11-17",
+  "summary": "Home improvement retail is a two-chain industry waiting on housing turnover. Home Depot's Q3 fiscal 2026 sales rose 4.9% to $43.4B on a 2.2% comparable gain, and it guides the year to about 1.4% comps [1]. Lowe's guides flat 2026 comps after a 0.2% Q2 [2]. Existing-home sales ran at 3.75M annualized in October with 30-year mortgage rates averaging 7.33% [3], and builder confidence is the lowest since 2012 [4]. Home Depot trades at 21.6x forward earnings and Lowe's at 17.7x, below the 25.1x for consumer discretionary [5][6][7].",
+  "metrics": [
+    {
+      "label": "Home Depot sales (Q3 FY2026)",
+      "value": "$43.4B",
+      "context": "Up 4.9%; comparable sales +2.2%; adjusted EPS $3.86 vs $3.74; reported 17 Nov 2026",
+      "source": 1
+    },
+    {
+      "label": "Home Depot FY2026 guidance",
+      "value": "+1.4% comps",
+      "context": "Total sales growth about 4.5%; adjusted operating margin about 12.8%; adjusted EPS growth about 2.0%",
+      "source": 1
+    },
+    {
+      "label": "Lowe's comparable sales (Q2 2026)",
+      "value": "+0.2%",
+      "context": "Sales $26.0B; FY2026 comps guided flat, adjusted EPS about $12.25; quarter ended 31 Jul 2026",
+      "source": 2
+    },
+    {
+      "label": "Existing-home sales (Oct 2026)",
+      "value": "3.75M",
+      "context": "Seasonally adjusted annual rate, down 8.8% year on year; 30-year mortgage averaged 7.33%",
+      "source": 3
+    },
+    {
+      "label": "NAHB builder confidence (Oct 2026)",
+      "value": "29",
+      "context": "Down 3 points, lowest since June 2012; 43% of builders cut prices",
+      "source": 4
+    },
+    {
+      "label": "Building materials and garden dealers sales",
+      "value": "$44.2B",
+      "context": "October 2026, seasonally adjusted, up 5.6% year on year and 0.5% on September; not adjusted for price changes",
+      "source": 8
+    },
+    {
+      "label": "Forward P/E: Home Depot vs Lowe's",
+      "value": "21.6x / 17.7x",
+      "context": "Home Depot 21.62x and Lowe's 17.66x at 17 Nov 2026 close (Lowe's per StockAnalysis); consumer discretionary sector 25.1x per FactSet",
+      "source": 5
+    },
+    {
+      "label": "Return on invested capital (FY2025)",
+      "value": "25.7%",
+      "context": "Home Depot, down from 31.3% in FY2024; Lowe's 26.1%, down from 32.0%; company-defined measures",
+      "source": 9
+    }
+  ],
+  "watch": [
+    "Lowe's reports Q3 on 18 Nov 2026, the first look at how the second-largest chain's flat-comp guidance and its Pro push held up [6][2].",
+    "Mortgage rates above 7% and a Fed that held at 3.75% to 4.00% with two dissents in favor of a hike keep housing turnover depressed [3][10].",
+    "Further IEEPA tariff refunds are excluded from Lowe's outlook, so one-off benefits could flatter or distort second-half earnings [2].",
+    "Home Depot's SRS and GMS Pro distribution build-out is a bet on share gains beyond DIY, and integration costs show up in amortization [1][11].",
+    "The December 2026 FOMC meeting and November builder sentiment will show whether rate pressure on housing is easing [10][4]."
+  ],
+  "bellwethers": [
+    "Home Depot",
+    "Lowe's",
+    "Floor & Decor",
+    "Menards (private)",
+    "Ace Hardware (retailer-owned)"
+  ],
+  "basics": {
+    "intro": "Home improvement retailers sell the products people use to repair, maintain and remodel buildings: lumber, tools, paint, plumbing, appliances, flooring and garden goods. Customers are homeowners doing it themselves, homeowners hiring installers, and professional contractors. Revenue comes from product sales at big-box stores and online, plus installation services and trade accounts. The sub-industry is dominated by Home Depot and Lowe's. Homebuilders sit in a different sub-industry, as do furniture and general merchandise chains, and pure building-products distributors are classified in industrials, although Home Depot and Lowe's now own some.",
+    "products": [
+      {
+        "name": "Big-box stores",
+        "what": "Warehouse-style stores of roughly 100,000 square feet or more that stock tens of thousands of products for DIY customers and small Pros, with in-store service and pickup.",
+        "examples": "Home Depot stores, Lowe's stores"
+      },
+      {
+        "name": "Pro supply and distribution",
+        "what": "Specialty distribution branches that sell to roofers, drywall installers, pool builders and large contractors, usually on trade credit and with delivery to the job site.",
+        "examples": "SRS and GMS (Home Depot), HD Supply, Foundation Building Materials and Artisan Design Group (Lowe's)"
+      },
+      {
+        "name": "Installation services",
+        "what": "Do-it-for-me projects such as flooring, cabinets, water heaters and windows, sold by the retailer and carried out by contracted installers.",
+        "examples": "Home Depot and Lowe's home services"
+      },
+      {
+        "name": "Online and delivery",
+        "what": "Websites and apps for ordering, in-store pickup and home or job-site delivery, plus tools for project planning and Pro ordering.",
+        "examples": "HomeDepot.com, Lowes.com"
+      },
+      {
+        "name": "Credit and loyalty programs",
+        "what": "Pro loyalty schemes, trade credit and consumer credit cards that lock in repeat purchases and finance larger projects.",
+        "examples": "Home Depot Pro Xtra, Pro Trade Credit"
+      }
+    ],
+    "terms": [
+      {
+        "term": "Comparable sales",
+        "meaning": "The change in sales at stores and websites open for a full year or more. It strips out the effect of opening new stores or buying companies, so it shows underlying demand."
+      },
+      {
+        "term": "Pro",
+        "meaning": "A professional customer: contractor, remodeler, tradesperson or property manager. Pros buy more often and in larger baskets than DIY customers, so retailers court them with credit, delivery and dedicated sales staff."
+      },
+      {
+        "term": "DIY and DIFM",
+        "meaning": "Do-it-yourself customers buy products and install them; do-it-for-me customers hire someone to do the job. DIY is more sensitive to consumer confidence and big-ticket financing."
+      },
+      {
+        "term": "Average ticket",
+        "meaning": "Sales divided by transactions. Inflation, tariffs and mix toward big items lift it, so it can rise while customer transactions fall."
+      },
+      {
+        "term": "Housing turnover",
+        "meaning": "How often existing homes change hands. New owners typically renovate in the first years, so low turnover suppresses big projects."
+      },
+      {
+        "term": "Repair and remodel (R&R)",
+        "meaning": "Spending on maintaining and improving existing homes, as distinct from new construction. It is the core demand pool for the sub-industry."
+      },
+      {
+        "term": "Project retailer",
+        "meaning": "A store where a single job needs many items bought over several visits. It explains why in-stock levels, advice and bundled services matter more than the price of any one item."
+      },
+      {
+        "term": "Gross margin",
+        "meaning": "Sales minus the cost of goods, as a percent of sales. It reflects product mix, vendor terms, tariffs and, in distribution businesses, a lower-margin Pro mix."
+      },
+      {
+        "term": "ROIC",
+        "meaning": "Return on invested capital: operating profit after tax divided by the debt and equity used. Home Depot and Lowe's both report it; it is high because stores and inventory generate a lot of sales per dollar."
+      },
+      {
+        "term": "Tariff pass-through",
+        "meaning": "How much of a duty on imported goods retailers can push into shelf prices. It decides whether tariffs hit margin or only raise ticket."
+      },
+      {
+        "term": "Omnichannel",
+        "meaning": "Selling through stores, apps, delivery and job-site channels as one system, so a customer can start online and finish in store."
+      }
+    ],
+    "drivers": [
+      {
+        "name": "Housing turnover and mortgage rates",
+        "how": "Higher rates keep owners locked in to cheap mortgages, cutting moves and the remodeling that follows a purchase. It shows up first in big-ticket categories and in customer transaction counts."
+      },
+      {
+        "name": "Home prices and equity",
+        "how": "Rising prices lift owner wealth and willingness to finance projects; flat prices make large remodels harder to justify."
+      },
+      {
+        "name": "Pro share of sales",
+        "how": "Pros buy repeatedly and are less sensitive to consumer confidence, so growing Pro business steadies comps, but distribution has lower gross margin than retail."
+      },
+      {
+        "name": "Operating leverage",
+        "how": "Store payroll, rent and depreciation are mostly fixed, so small comp changes move operating margin more than proportionally; when comps are flat, wage inflation squeezes margin."
+      },
+      {
+        "name": "Tariffs and product costs",
+        "how": "Many goods are imported or use commodities such as lumber. Cost rises lift ticket and, when passed on, preserve margin; when not, gross margin falls."
+      },
+      {
+        "name": "Weather and storms",
+        "how": "Hurricanes, freezes and heat waves create bursts of demand for roofing, generators and plywood, and quiet seasons leave sales short."
+      },
+      {
+        "name": "Interest and capital returns",
+        "how": "Both leaders carry debt and return cash through dividends, so interest rates affect profit after interest and dividend capacity as well as the housing demand."
+      }
+    ]
+  },
+  "fundamentals": {
+    "business": [
+      "Revenue is mainly product sales to consumers and Pros through stores, websites and distribution branches, plus installation services. Home Depot's fiscal 2025 net sales were $164.7B and Lowe's $86.3B [9][12]. Home Depot says its business and its market are about half Pro and half consumer [11].",
+      "Customers are DIY homeowners, do-it-for-me homeowners and Pros: renovators, contractors, remodelers, maintenance staff and specialty trades such as roofers and electricians [9]. Lowe's focuses on small to medium Pros and, since the 2025 FBM and ADG deals, larger residential and commercial Pros [12].",
+      "The largest costs are merchandise, then store labor and occupancy. In fiscal 2025 Home Depot's gross margin was 33.3% and SG&A 18.6% of sales [9]; Lowe's gross margin was 33.48% and SG&A 19.46% [12].",
+      "Pricing power rests on scale buying, brand assortment, convenience and in-stock reliability rather than uniqueness, since the same national brands are sold at rivals. The sector is price-transparent online [9]. Both companies also use private brands, but we found no sourced share figure for them.",
+      "Big assets are stores, distribution centers and inventory. Home Depot held $25.8B of merchandise inventories and $46.3B of long-term debt at 1 Feb 2026 [9]; Lowe's owns about 89% of its stores and carried $37.5B of long-term debt [12]. Lowe's has a shareholders' deficit of $9.9B which we read as the result of past buybacks and dividends [12].",
+      "Moderately capital-intensive: real estate, fulfillment networks and acquired distribution, but capex is small against sales. Home Depot spent $3.7B in fiscal 2025 and plans about $4B in fiscal 2026 [9]; Lowe's spent $2.2B [12]. Damodaran's building supply group shows capex at 117% of depreciation [13]."
+    ],
+    "overview": [
+      "Home Depot sizes its addressable market at about $1.1 trillion, split roughly $500B consumer and $600B Pro, and puts its own share near 15% [11]. We found no independent estimate of growth for the whole market; Harvard's remodeling index put owner spending on improvements near $522B by end-2026, with growth easing from 2.9% to 1.6% (a January 2026 projection) [14].",
+      "Main segments are consumer DIY, do-it-for-me installation and Pro trade supply. Within retail, merchandise departments include building materials, plumbing, electrical, paint, appliances, flooring and garden [9]. Home Depot also runs HD Supply for multifamily maintenance and SRS for roofing, pool and landscape supply [9].",
+      "The value chain runs from manufacturers and importers of tools, lumber and fixtures to the retailers, then to homeowners and contractors. Lowe's says it buys directly from manufacturers where possible and that alternative suppliers exist for virtually all products [12]. Home Depot sources through offices in Mexico, Canada, India, Vietnam, Taiwan and China [9].",
+      "The model evolved from pure retail toward Pro distribution: Home Depot bought SRS in fiscal 2024 and GMS in fiscal 2025, and Lowe's bought FBM and ADG in 2025 [9][12]. Online reached 15.9% of Home Depot's fiscal 2025 net sales [9].",
+      "The industry is US-centered. Home Depot operated 2,372 retail stores and over 1,320 SRS locations at the end of its Q3 [1]; Lowe's 1,761 stores at 31 Jul 2026 [2]. Both are heavily weighted to US demand, and we found no sourced regional split of sales."
+    ],
+    "competition": [
+      "Two national chains dominate, with a long tail of regional chains, hardware stores, lumber yards, supply houses and online sellers [9]. Home Depot calls the industry highly competitive and highly fragmented [9]; Lowe's calls its market highly fragmented [12].",
+      "Home Depot is the leader, with fiscal 2025 sales of $164.7B and about 15% of its estimated addressable market [9][11]. Lowe's is second at $86.3B [12]. By our sum the two had about $251B of sales, but this mixes distribution and retail and we do not claim a share of retail.",
+      "The retail end is consolidated at the top yet fragmented overall, because the total market includes local contractors, independent dealers and specialty distributors [9][11].",
+      "Barriers are real estate, supply chain, vendor terms and Pro relationships. Home Depot cites its premium real estate portfolio as hard to replicate [9]. Against that, it warns that online and AI tools make competitive entry and price comparison easier [9].",
+      "Scale matters in buying, logistics and advertising: Lowe's states that it buys directly from manufacturers where possible to improve gross margin [12], and Home Depot says scale and vendor relationships helped it mitigate tariffs [9].",
+      "Mostly commoditized on branded goods, which rivals also stock, with differentiation from service, availability, delivery, credit and private brands. Both name location, assortment, price and fulfillment as key competitive factors [12][9].",
+      "Suppliers have limited power because alternatives exist for nearly all products [12]. Customers have more: DIY shoppers can compare prices instantly, and large Pros demand credit, delivery and preferred pricing [9]."
+    ],
+    "drivers": [
+      "Revenue growth follows housing turnover, home prices, real disposable income, the age of the housing stock and construction, which Lowe's lists as key indicators [12]. Pro demand, storms and inflation in ticket matter too; in fiscal 2025 Home Depot's comps rose 0.3% on a 1.4% rise in ticket against a 1.0% drop in transactions [9].",
+      "Operating margin depends on gross margin, which mix and tariffs move, and on SG&A leverage. Home Depot's SG&A rose to 18.6% of sales from 18.0% in fiscal 2025 [9]; Lowe's operating margin fell 74 basis points to 11.77% [12].",
+      "Key costs are product costs including lumber and other commodities, wages, freight and the amortization of acquired intangibles; Home Depot's was $372M year to date in fiscal 2026 [9][1]. Lumber and raw material prices are described as historically volatile [9].",
+      "Sensitive to rates through housing turnover and financed projects: Home Depot's fiscal 2025 comps were pressured by a persisting high interest rate environment [9]. The 30-year mortgage averaged 7.33% in October 2026 [3]. Both companies also carry debt, with net interest at 1.4% of sales at Home Depot [9].",
+      "Inflation lifts ticket but can erode volume; tariffs raise costs, which Home Depot says it largely mitigated through diversification and some price rises [9]. Unemployment and GDP drive confidence; the Fed statement in October 2026 described activity as strong and unemployment as little changed [10].",
+      "Cyclical with a defensive repair floor. Spending on maintenance is steadier than new construction, yet big discretionary projects are deferred in downturns; comps ran at 0.3% at Home Depot and 0.2% at Lowe's in fiscal 2025 [9][12]. We see a cyclical sub-industry with a Pro-driven growth component."
+    ],
+    "financials": [
+      "Growth has been modest outside acquisitions: Home Depot's fiscal 2025 sales rose 3.2% to $164.7B but diluted EPS fell to $14.23 from $14.91 [9]. Lowe's sales rose 3.1% to $86.3B with a 0.2% comp [12].",
+      "Margins are high for retail. Home Depot's fiscal 2025 gross margin was 33.3% and operating margin 12.7% [9]; Lowe's 33.48% and 11.77% [12]. Damodaran's building supply group (14 firms, January 2026) shows 34.22% gross, 12.40% pre-tax operating and 7.84% net margin [15].",
+      "Company-reported ROIC was 25.7% at Home Depot and 26.1% at Lowe's in fiscal 2025, down from 31.3% and 32.0% a year earlier [9][12]. These use debt plus equity and, in Lowe's case, a deficit, so they run high. Damodaran's ROE for the group was not available [15].",
+      "Leverage is meaningful: Home Depot carried $46.3B of long-term debt against $12.8B of equity [9]. Damodaran shows debt to EBITDA of 3.03 and interest coverage of 7.76 for the group [16].",
+      "Strong free cash flow: by our arithmetic Home Depot's $16.3B of operating cash flow less $3.7B of capex left $12.6B, against $9.2B of dividends [9]; Lowe's $9.9B less $2.2B left $7.7B, against $2.6B of dividends [12].",
+      "Capex is lean at about 2.5% of sales: Home Depot guides fiscal 2026 to about 2.5% [1]; Lowe's guides up to $2.5B [2]. Damodaran shows group capex at 117% of depreciation [13].",
+      "Valuation multiples: Damodaran's building supply group had a forward P/E of 23.14 and PEG of 1.31 in January 2026, against 27.66 for the market [17]. At 17 Nov 2026 Home Depot's forward P/E was 21.62 and Lowe's 17.66 [5][6]."
+    ],
+    "risks": [
+      "Trade policy is the main regulatory swing. Home Depot notes the Supreme Court struck down IEEPA tariffs, leaving uncertainty over replacement tariffs under different authority [9]. Lowe's Q2 EPS included a $0.11 benefit from refunds [2]. Mortgage and credit rules matter indirectly.",
+      "Technology: Home Depot says online and AI tools facilitate competitive entry, price transparency and comparison shopping [9]. It also uses AI search and Magic Apron to lift online conversion [11]. The main risk is lower margin from price transparency, not displacement of the store.",
+      "Demographics: household formation, aging homeowners and the age of housing stock shape demand; Lowe's tracks the age of housing stock and demographic trends [12]. We found no sourced forecasts here, so this is judgment: older homes support repair demand, but low turnover mutes it.",
+      "Consumer behavior: shoppers have shifted to smaller projects as big-ticket work is deferred. Home Depot cited customer engagement with smaller projects in fiscal 2025 [9], and Lowe's noted discretionary DIY pressure in Q2 2026 [2].",
+      "New competitors and models: Pro distributors and online marketplaces target the same contractors. Home Depot lists reseller marketplaces and specialty distributors among rivals [9], while Lowe's names online retailers and warehouse clubs [12].",
+      "Geopolitical and supply-chain risk: both import goods from Mexico, Canada, China and Asia; Home Depot warns that trade disputes and tariffs could disrupt costs and supply [9]. Customs holds, freight and weather are further risks.",
+      "Substitutes include contractors and installers who buy through distributors, used or reclaimed materials, and deferral of projects. Lowe's lists service providers and wholesalers among its competitors [12], and both companies are buying distributors to capture that spend [9][12]."
+    ],
+    "horizon": {
+      "opportunities": [
+        "Pro distribution can add share in a $600B Pro market where Home Depot says its share is small [11].",
+        "Release of pent-up repair and remodel demand if mortgage rates fall from 7.33% and housing turnover recovers [3][9].",
+        "Aging housing stock and deferred projects support a rebound in discretionary spending once confidence returns [12][14].",
+        "Online and AI tools can lift conversion and productivity, as Home Depot's investor meeting described [11]."
+      ],
+      "threats": [
+        "A prolonged housing freeze, with builder confidence at a 14-year low and sales at 3.75M, keeps comps near zero [4][3].",
+        "Tariff changes after the IEEPA ruling could return cost pressure or reverse one-off refunds [9][2].",
+        "Rates may rise further: two Fed members dissented in favor of a hike in October 2026 [10].",
+        "Margin dilution from lower-margin distribution acquisitions and amortization [9][1]."
+      ],
+      "assessment": "Over 3 to 5 years we think the sub-industry's earnings power depends more on housing turnover than on anything the companies control. Pro distribution gives both leaders a way to grow faster than DIY, and returns on capital of about 26% leave room to absorb flat years [9][12]. But acquisitions have raised leverage and amortization, and comps near 0% to 1.4% leave little operating leverage [1][2]. Our read is a recovery case with a long fuse: if rates ease and turnover normalizes, the $900B of share Home Depot says is still open could matter [11]; if not, growth is mostly acquired."
+    }
+  },
+  "sections": [
+    {
+      "id": "macro",
+      "paragraphs": [
+        "The cycle is a housing freeze inside a strong economy. The Fed held the target range at 3.75% to 4.00% on 28 Oct 2026 with a 10-2 vote, both dissenters wanting a quarter-point hike, and said activity is expanding at a strong pace while inflation remains elevated [10]. That mix is bad for home improvement: higher rates keep owners locked in. The 30-year mortgage averaged 7.33% in October, existing-home sales fell to 3.75M annualized and were down 8.8% year on year, and median price rose only 0.4% to $416,700 [3]. NAHB's chairman said higher gas prices and inflation hurt buyer traffic [4].",
+        "Nominal spending is not weak: October building materials and garden dealers' sales were up 5.6% from a year earlier, though that is not adjusted for price changes and includes tariff-driven inflation [8]. Home Depot's 10-K cites a persisting high interest rate environment as pressure on broader demand [9]. Trade policy is the other lever: after the Supreme Court struck down IEEPA tariffs, Lowe's booked a $0.11 EPS benefit from refunds in Q2 [2][9]. We found no sourced currency forecast; Home Depot's stronger dollar cut fiscal 2025 sales by $307M [9]. We read the sub-industry as late-cycle on rates and early on recovery."
+      ]
+    },
+    {
+      "id": "demand",
+      "paragraphs": [
+        "Structural demand rests on a large, aging housing stock and the need to maintain it. Home Depot sizes its addressable market at about $1.1 trillion, $500B consumer and $600B Pro, and holds around 15% [11]. Lowe's tracks home price appreciation, age of housing stock, real disposable income, housing turnover and construction as key indicators [12]. Harvard's remodeling index (January 2026 projection) saw spending on improvements reaching $522B by end-2026 with growth easing from 2.9% to 1.6% [14].",
+        "Demand is cyclical at the big-ticket end. In fiscal 2025 Home Depot's comps rose 0.3%, helped by a 1.4% rise in ticket, while transactions fell 1.0%, as customers focused on smaller projects [9]. Existing-home inventory was 1.59M units, or 5.1 months of supply, while first-time buyers were 29% of sales [3]. Our read: turnover is the swing factor, since new owners remodel. Demographic effects are slow-moving, and we found no sourced population forecasts. Long-term prospects look steady in repair but muted in discretionary remodels until rates fall."
+      ]
+    },
+    {
+      "id": "structure",
+      "paragraphs": [
+        "Rivalry is concentrated in two chains. Home Depot had fiscal 2025 sales of $164.7B and Lowe's $86.3B [9][12]; Home Depot ran 2,372 stores plus over 1,320 SRS locations at the end of Q3 and Lowe's 1,761 stores at 31 Jul 2026 [1][2]. Both call the wider market highly fragmented, with hardware stores, supply houses and lumber yards as other rivals [9][12].",
+        "Threat of entry is low in big-box retail given real estate and logistics, which Home Depot calls hard to replicate [9], but moderate online, where AI tools make entry and price comparison easier [9]. Buyer power is moderate to high: DIY shoppers compare prices and large Pros expect credit and delivery [9]. Supplier power is low because alternatives exist for virtually all products [12]. Substitutes are contractors and distributors, which both leaders are buying. Moats are scale, locations (Lowe's owns about 89% of its stores [12]) and Pro relationships. Pricing power is limited on branded goods; we found no sourced private-brand share."
+      ]
+    },
+    {
+      "id": "environment",
+      "paragraphs": [
+        "Politics and trade dominate. The Supreme Court struck down IEEPA tariffs, and Home Depot says there is additional uncertainty about new tariffs under different authority [9]. Lowe's outlook includes Q2 refunds but excludes potential additional second-half refunds [2]. Home Depot says tariffs raised costs in fiscal 2025 but were mitigated by diversification and some price increases [9].",
+        "Economic and social factors run through housing: mortgage rates at 7.33% and builder confidence at 29 [3][4]. Technology is both opportunity and threat: Home Depot warns that online and AI tools facilitate competitive entry and price transparency [9], yet its investor meeting said AI-driven search and Magic Apron boosted online conversion [11]. Online was 15.9% of Home Depot's fiscal 2025 sales [9], and Lowe's online sales grew 15.7% in Q2 2026 [2]. Labor is a cost issue: Lowe's starts wages at $15 per hour [12]. Environmental regulation has not had, and is not expected to have, a material effect on Home Depot's capex or results [9]. Weather risk is real: storms drive roofing and generator demand, and a quiet season hurt a year ago, but we found no sourced current-year storm data."
+      ]
+    },
+    {
+      "id": "economics",
+      "paragraphs": [
+        "Margins are high but slipping. Home Depot's fiscal 2025 gross margin was 33.3%, SG&A 18.6% and operating margin 12.7%, versus 13.5% a year earlier, with ROIC at 25.7% versus 31.3% [9]. Lowe's gross margin was 33.48%, operating margin 11.77% (down 74 basis points) and ROIC 26.1% versus 32.0% [12]. Damodaran's building supply group shows 34.22% gross, 12.40% pre-tax operating and 7.84% net margins [15].",
+        "Operating leverage cuts both ways. Lowe's SG&A rose 72 basis points as a share of sales on a 0.2% comp [12], so flat sales with rising wages compress margin. Capital intensity is moderate: Home Depot's capex was $3.7B and Lowe's $2.2B [9][12]. By our arithmetic free cash flow was about $12.6B at Home Depot and $7.7B at Lowe's, covering dividends of $9.2B and $2.6B [9][12]. Leverage is high: Home Depot's long-term debt was $46.3B against $12.8B of equity [9], and Damodaran shows group debt to EBITDA of 3.03 [16]. Pro distribution adds lower-margin revenue, which Home Depot says diluted gross margin [9]."
+      ]
+    },
+    {
+      "id": "earnings",
+      "paragraphs": [
+        "Home Depot's Q3 fiscal 2026 adjusted EPS was $3.86 against $3.74, with sales up 4.9% to $43.4B and comps up 2.2%; management said results exceeded expectations in a dynamic environment [1]. Guidance now calls for sales growth of about 4.5%, comps of about 1.4%, adjusted operating margin of about 12.8% and adjusted EPS growth of about 2.0% from $14.69 [1]. On our arithmetic that implies roughly $15.0 for adjusted EPS.",
+        "Lowe's guides FY2026 adjusted EPS to about $12.25 on flat comps and $92.0B in sales, at the low end of its prior range [2]; that is slightly below 2025's $12.28 [12]. Its Q2 included a $0.11 tariff-refund benefit and $96M of acquisition costs [2]. It reports Q3 on 18 Nov 2026 [6]. FactSet shows consumer discretionary net margin of 10.0% versus 10.2% a year ago in Q3 and a 0.2% aggregate revenue surprise [7]; consensus figures for these two companies were not publicly available to us. Our view: guidance depends on a stable housing market, and earnings quality is flattered by refunds and acquisition accounting."
+      ]
+    },
+    {
+      "id": "valuation",
+      "paragraphs": [
+        "Both stocks are cheaper than the sector. At the 17 Nov 2026 close Home Depot traded at 21.62x forward earnings, 23.54x trailing, with a 4.47% FCF yield and 2.75% dividend yield [5]. Lowe's was at 17.66x forward, 18.64x trailing, a 5.62% FCF yield and a 2.27% dividend yield [6]. FactSet puts the consumer discretionary sector at 25.1x forward and the S&P 500 at 18.3x, below its 10-year average of 19.1x [7]. On our arithmetic Lowe's trades about 18% below Home Depot on forward P/E.",
+        "Damodaran's building supply group had a forward P/E of 23.14 in January 2026 against 27.66 for the market [17]. We found no sourced 10-year history for either stock, so we cannot say how this compares with its own past. Growth implied by price: with Home Depot guiding adjusted EPS up about 2.0% and Lowe's about flat [1][2], those multiples look like a bet on a housing recovery rather than on current growth. We think the price is moderate for the quality but leaves little cushion if turnover stays frozen."
+      ]
+    },
+    {
+      "id": "positioning",
+      "paragraphs": [
+        "Price momentum is weak. Home Depot's 52-week price change was -6.44% and Lowe's -3.24% at 17 Nov 2026; short interest was 1.16% of float at Home Depot and 1.99% at Lowe's [5][6]. Market caps were $338.23B and $123.69B [5][6]. We could not find the stock reaction to Home Depot's 17 Nov report.",
+        "The closest sector ETF we found is State Street's SPDR S&P Homebuilders ETF (XHB), which tracks a homebuilders and building products index rather than pure home improvement. It held $1.51B in net assets with 34 holdings at 16 Nov 2026, with Home Depot at 3.54% and Lowe's at 3.58%, and returned -1.01% year to date and -2.77% over one year to 31 Oct [18]. Flow data for the group were not available. For breadth, FactSet shows a 54% share of consumer discretionary companies beating revenue estimates, the lowest of any sector [7], so the weakness is not unique to these two. Our read: positioning is light on conviction rather than crowded."
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "n": 1,
+      "title": "The Home Depot Q3 fiscal 2026 earnings release (Exhibit 99.1, Form 8-K)",
+      "publisher": "The Home Depot / SEC",
+      "date": "2026-11-17",
+      "url": "https://www.sec.gov/Archives/edgar/data/0000354950/000035495026000184/hd_exhibit991x11012026.htm"
+    },
+    {
+      "n": 2,
+      "title": "Lowe's reports second quarter 2026 sales and earnings results",
+      "publisher": "Lowe's Companies",
+      "date": "2026-08-19",
+      "url": "https://corporate.lowes.com/sites/lowes-corp/files/q2-2026-earnings/lowes-q2-2026-press-release_0.pdf"
+    },
+    {
+      "n": 3,
+      "title": "Existing-home sales decreased 5.5% in October",
+      "publisher": "National Association of Realtors",
+      "date": "2026-11-12",
+      "url": "https://www.nar.realtor/newsroom/existing-home-sales-decreased-5-5-percent-october-nar-report"
+    },
+    {
+      "n": 4,
+      "title": "Builder Sentiment Falls on Rising Rates (October 2026 HMI)",
+      "publisher": "NAHB",
+      "date": "2026-10-19",
+      "url": "https://www.nahb.org/news-and-economics/press-releases/2026/10/builder-sentiment-falls-on-rising-rates"
+    },
+    {
+      "n": 5,
+      "title": "The Home Depot (HD) statistics and valuation",
+      "publisher": "StockAnalysis",
+      "date": "2026-11-17",
+      "url": "https://stockanalysis.com/stocks/hd/statistics/"
+    },
+    {
+      "n": 6,
+      "title": "Lowe's Companies (LOW) statistics and valuation",
+      "publisher": "StockAnalysis",
+      "date": "2026-11-17",
+      "url": "https://stockanalysis.com/stocks/low/statistics/"
+    },
+    {
+      "n": 7,
+      "title": "FactSet Earnings Insight, 13 November 2026",
+      "publisher": "FactSet",
+      "date": "2026-11-13",
+      "url": "https://advantage.factset.com/hubfs/Website/Resources%20Section/Research%20Desk/Earnings%20Insight/EarningsInsight_111326.pdf"
+    },
+    {
+      "n": 8,
+      "title": "Advance Monthly Sales for Retail and Food Services, October 2026",
+      "publisher": "U.S. Census Bureau",
+      "date": "2026-11-17",
+      "url": "https://www.census.gov/retail/marts/www/marts_current.pdf"
+    },
+    {
+      "n": 9,
+      "title": "The Home Depot fiscal 2025 Form 10-K",
+      "publisher": "The Home Depot",
+      "date": "2026-03-18",
+      "url": "https://ir.homedepot.com/~/media/Files/H/HomeDepot-IR/reports-and-presentations/quarterly-earnings/2025/q4-2025-10-k.pdf"
+    },
+    {
+      "n": 10,
+      "title": "Federal Reserve issues FOMC statement, 28 October 2026",
+      "publisher": "Federal Reserve Board",
+      "date": "2026-10-28",
+      "url": "https://www.federalreserve.gov/newsevents/pressreleases/monetary20261028a.htm"
+    },
+    {
+      "n": 11,
+      "title": "The Home Depot Investor Meeting corrected transcript, 9 December 2025",
+      "publisher": "FactSet CallStreet / The Home Depot",
+      "date": "2025-12-09",
+      "url": "https://ir.homedepot.com/~/media/Files/H/HomeDepot-IR/reports-and-presentations/the-home-depot-inc-hd-us-investor-conference.pdf"
+    },
+    {
+      "n": 12,
+      "title": "Lowe's Companies fiscal 2025 Form 10-K",
+      "publisher": "Lowe's Companies",
+      "date": "2026-03-23",
+      "url": "https://corporate.lowes.com/sites/lowes-corp/files/q4-2025-10-k.pdf"
+    },
+    {
+      "n": 13,
+      "title": "Capital Expenditures by Sector (US), January 2026 dataset",
+      "publisher": "Aswath Damodaran, NYU Stern",
+      "date": "2026-01",
+      "url": "https://pages.stern.nyu.edu/~adamodar/New_Home_Page/datafile/capex.html"
+    },
+    {
+      "n": 14,
+      "title": "Remodeling Growth Expected to Slow in Late 2026 (Harvard JCHS LIRA, January 2026)",
+      "publisher": "ProRemodeler",
+      "date": "2026-01-29",
+      "url": "https://www.proremodeler.com/home/news/55353421/remodeling-growth-expected-to-slow-in-late-2026"
+    },
+    {
+      "n": 15,
+      "title": "Margins by Sector (US), January 2026 dataset",
+      "publisher": "Aswath Damodaran, NYU Stern",
+      "date": "2026-01",
+      "url": "https://pages.stern.nyu.edu/~adamodar/New_Home_Page/datafile/margin.html"
+    },
+    {
+      "n": 16,
+      "title": "Debt Levels and Fundamentals by Sector (US), January 2026 dataset",
+      "publisher": "Aswath Damodaran, NYU Stern",
+      "date": "2026-01",
+      "url": "https://pages.stern.nyu.edu/~adamodar/New_Home_Page/datafile/dbtfund.html"
+    },
+    {
+      "n": 17,
+      "title": "PE Ratios by Sector (US), January 2026 dataset",
+      "publisher": "Aswath Damodaran, NYU Stern",
+      "date": "2026-01",
+      "url": "https://pages.stern.nyu.edu/~adamodar/New_Home_Page/datafile/pedata.html"
+    },
+    {
+      "n": 18,
+      "title": "State Street SPDR S&P Homebuilders ETF (XHB) fund page",
+      "publisher": "State Street Investment Management",
+      "date": "2026-11-16",
+      "url": "https://www.ssga.com/us/en/individual/etfs/spdr-sp-homebuilders-etf-xhb"
+    }
+  ]
+}

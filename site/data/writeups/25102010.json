@@ -1,0 +1,454 @@
+{
+  "code": "25102010",
+  "added": "2026-11-18",
+  "asOf": "2026-11-17",
+  "summary": "Automakers are earning solid profits in a soft, tariff-distorted year, but results split sharply by company. Toyota raised its fiscal 2027 operating income forecast to ¥3.9 trillion [1], GM narrowed 2026 EBIT-adjusted guidance to $14.5B-$15.5B [2], and Ford guided adjusted EBIT of $10.5B-$11.0B despite a roughly $4B Model e loss [3]. Volkswagen's margin before special items was 3.8% [4], Tesla's Q3 operating margin 2.6% [5] and Ferrari's EBITDA margin 39.7% [6]. Europe's battery-electric share reached 24.2% [7]. We found no sourced forward multiple for the sub-industry; the Consumer Discretionary sector trades at 25.1x [8].",
+  "metrics": [
+    {
+      "label": "Toyota operating income forecast (FY to Mar 2027)",
+      "value": "¥3.9T",
+      "context": "Raised from ¥3.4T on 5 Nov 2026; 7.3% margin on ¥53.5T revenue; first-half margin 8.1%",
+      "source": 1
+    },
+    {
+      "label": "GM EBIT-adjusted (Q3 2026)",
+      "value": "$4.1B",
+      "context": "8.2% margin versus 6.9% a year earlier; North America 8.7%; 2026 guide $14.5B-$15.5B",
+      "source": 2
+    },
+    {
+      "label": "Ford adjusted EBIT (Q3 2026)",
+      "value": "$2.7B",
+      "context": "5.4% margin on $49.5B revenue; Model e lost $1.06B; 2026 guide $10.5B-$11.0B",
+      "source": 3
+    },
+    {
+      "label": "Tesla operating margin (Q3 2026)",
+      "value": "2.6%",
+      "context": "Operating income $718M on $28.05B revenue; free cash flow $1.53B after $4.73B capex",
+      "source": 5
+    },
+    {
+      "label": "Ferrari EBITDA margin (Q3 2026)",
+      "value": "39.7%",
+      "context": "EBITDA EUR753M on EUR1,896M revenue; 2026 revenue guide about EUR7.65B",
+      "source": 6
+    },
+    {
+      "label": "Auto & Truck operating margin (Damodaran)",
+      "value": "2.32%",
+      "context": "Pre-tax, unadjusted, 33 firms, data as of Jan 2026; gross margin 10.41%; after-tax ROIC 2.45%",
+      "source": 9
+    },
+    {
+      "label": "Europe battery-electric share of registrations",
+      "value": "24.2%",
+      "context": "Jan-Sep 2026, EU plus EFTA and UK, up 41.9% to 2.55M cars; EU alone 22.7%",
+      "source": 7
+    },
+    {
+      "label": "Forward P/E, Consumer Discretionary sector",
+      "value": "25.1x",
+      "context": "Sector, not sub-industry; S&P 500 18.3x vs 10-yr average 19.1x; FactSet, 13 Nov 2026",
+      "source": 8
+    }
+  ],
+  "watch": [
+    "Tariffs remain the swing factor: the US charges 25% on imported vehicles, 15% on EU, Japanese and Korean cars, and the 2026 USMCA review may reopen the rules [10].",
+    "US affordability is stretched, with the average new-vehicle price at a record $51,109 and the average new-car loan rate projected at 6.81% [11][12].",
+    "Electric-vehicle losses are large at legacy makers: Ford's Model e lost $1.06B in Q3 2026 and guides to about $4B for the year [3].",
+    "Tesla's profit is thin relative to its spending: capex was $13.0B in nine months, double a year earlier, and regulatory credit revenue fell to $113M in Q3 [13].",
+    "Chinese exporters are building volume abroad: BYD's inventories rose 60% to RMB221.6B in nine months and its China retail sales fell 28.9% in September [14]."
+  ],
+  "bellwethers": [
+    "Toyota",
+    "Tesla",
+    "Volkswagen",
+    "BYD",
+    "General Motors",
+    "Ford",
+    "Ferrari",
+    "Stellantis"
+  ],
+  "basics": {
+    "intro": "Automobile manufacturers design, build and sell passenger cars, SUVs and light trucks, including electric vehicles. They earn money by selling vehicles to dealers or directly to consumers, and by financing, servicing and licensing software. Customers are individual buyers, fleets and dealers. GICS puts the car makers here, while parts suppliers sit in Auto Parts & Equipment, motorcycle makers in Motorcycle Manufacturers, and heavy truck makers in Construction Machinery & Heavy Transportation Equipment. Some carmakers also run large captive finance arms, such as GM Financial and Ford Credit, which are part of the same company.",
+    "products": [
+      {
+        "name": "Gasoline and diesel vehicles",
+        "what": "Conventional cars, crossovers and pickups with combustion engines. They still make up most of the world's sales and, for many makers, most of the profit.",
+        "examples": "Ford F-Series, Toyota Camry, Volkswagen Golf"
+      },
+      {
+        "name": "Hybrids",
+        "what": "Vehicles that pair an engine with a battery and motor to save fuel, without needing a plug. They cost less to build than full electrics and need no charging network.",
+        "examples": "Toyota RAV4 hybrid, Ford Maverick hybrid"
+      },
+      {
+        "name": "Battery-electric vehicles (BEVs)",
+        "what": "Cars that run only on a battery. They have fewer moving parts but the battery is the single biggest cost, and profitability varies widely.",
+        "examples": "Tesla Model Y, BYD Seal, Chevrolet Equinox EV"
+      },
+      {
+        "name": "Plug-in hybrids (PHEVs)",
+        "what": "Hybrids with a larger battery that can be charged from the grid and driven on electricity for short trips.",
+        "examples": "BYD Song Plus DM-i, Volkswagen Tiguan eHybrid"
+      },
+      {
+        "name": "Luxury and performance cars",
+        "what": "Low-volume, high-priced models sold on brand, exclusivity and personalization, which carry far higher margins than mass-market cars.",
+        "examples": "Ferrari, Porsche, Mercedes-Benz S-Class"
+      },
+      {
+        "name": "Automotive finance",
+        "what": "Captive finance units lend to buyers and dealers and lease vehicles, adding interest income and helping sell cars, but they add credit risk and debt.",
+        "examples": "GM Financial, Ford Credit, Toyota Financial Services"
+      },
+      {
+        "name": "Software and autonomy",
+        "what": "Driver-assistance, subscriptions and robotaxi services sold on top of the vehicle. They promise recurring revenue but are mostly early-stage.",
+        "examples": "Tesla Full Self-Driving, Tesla Cybercab"
+      }
+    ],
+    "terms": [
+      {
+        "term": "SAAR",
+        "meaning": "Seasonally adjusted annual rate of sales: the monthly sales pace scaled to a year. It is the standard gauge of US demand."
+      },
+      {
+        "term": "Wholesale vs retail",
+        "meaning": "Wholesales are vehicles a maker sells to dealers; retail sales are those dealers sell to buyers. Wholesales drive revenue, retail shows real demand."
+      },
+      {
+        "term": "Incentives",
+        "meaning": "Discounts, rebates and cheap financing used to move vehicles. Rising incentives as a share of price signal weaker pricing power."
+      },
+      {
+        "term": "Average transaction price (ATP)",
+        "meaning": "What buyers actually pay on average. It rises with mix (more trucks and SUVs) as well as with price increases."
+      },
+      {
+        "term": "Days' supply",
+        "meaning": "How many days of sales dealers' inventory would last. High days' supply tends to force discounting."
+      },
+      {
+        "term": "EBIT-adjusted",
+        "meaning": "Operating profit before interest and taxes with one-off items stripped out, the main profit measure for GM and Ford. Adjustments can be large, so read the footnotes."
+      },
+      {
+        "term": "Operating margin",
+        "meaning": "Operating profit as a share of revenue. For mass-market carmakers it is typically in the low to mid single digits, so small price or cost moves matter."
+      },
+      {
+        "term": "Fixed cost leverage",
+        "meaning": "Plants and engineering costs are largely fixed, so extra volume lifts profit sharply and falling volume cuts it sharply."
+      },
+      {
+        "term": "Platform",
+        "meaning": "A shared set of underbody parts and designs reused across many models. Fewer platforms mean lower cost per car."
+      },
+      {
+        "term": "Regulatory credits",
+        "meaning": "Tradable credits earned by makers that exceed emissions or fuel rules and sold to those that fall short. They are almost pure profit and depend on policy."
+      },
+      {
+        "term": "Section 232 tariffs",
+        "meaning": "US import duties on vehicles and parts imposed on national security grounds. They raise costs for makers that import or use imported parts."
+      },
+      {
+        "term": "Free cash flow",
+        "meaning": "Operating cash flow minus capital spending. It matters because cars need constant heavy investment and profit does not always become cash."
+      },
+      {
+        "term": "Captive finance",
+        "meaning": "A finance arm owned by the carmaker. It supports sales and earns interest but adds leverage that analysts usually separate from the industrial business."
+      }
+    ],
+    "drivers": [
+      {
+        "name": "Volume and fixed-cost leverage",
+        "how": "Sales rise or fall with consumer confidence and interest rates. Because plants are fixed cost, a few points of volume swing operating margin by more."
+      },
+      {
+        "name": "Price and mix",
+        "how": "Pickups, SUVs and luxury models earn much more per unit than small cars, so a richer mix lifts average price and margin even if units fall."
+      },
+      {
+        "name": "Incentives and inventory",
+        "how": "When dealer inventory builds, makers add discounts, which shows up directly as lower revenue per vehicle and weaker margins."
+      },
+      {
+        "name": "Tariffs and trade policy",
+        "how": "Duties on imported cars and parts add to cost per vehicle. Makers absorb, pass on or re-route production, which shifts margins between regions."
+      },
+      {
+        "name": "Commodity and component costs",
+        "how": "Steel, aluminum, copper, chips and battery materials are a large share of cost. Price moves feed through to margins with a lag."
+      },
+      {
+        "name": "Electrification economics",
+        "how": "Battery cost and EV pricing determine whether electric models make or lose money. Weak EV demand creates write-downs and underused plants."
+      },
+      {
+        "name": "Regulation and incentives",
+        "how": "Emissions rules, fuel-economy standards and purchase subsidies change which cars sell and whether credits can be earned or sold."
+      },
+      {
+        "name": "Interest rates and credit",
+        "how": "Higher loan rates raise monthly payments and weaken demand, while finance arms earn or lose depending on funding costs and credit losses."
+      }
+    ]
+  },
+  "fundamentals": {
+    "business": [
+      "Revenue comes mainly from selling vehicles, plus parts, service, financing and, for some, software and energy. Ford's Q3 2026 revenue of $49.5B came from Blue, Pro and Model e units [3]. Tesla also reported $4.61B of services and other revenue, up 33% [5]. GM and Ford each have finance arms: GM Financial earned $668M adjusted EBT in the quarter [2].",
+      "Customers are individual buyers, commercial fleets and dealers, who buy from the maker and resell. Ford Pro, selling to business customers, produced $17.8B of revenue and a 9.4% margin in Q3 2026, against 5.1% at consumer-focused Ford Blue [3]. Tesla sells directly to consumers, while most others use franchised dealers.",
+      "The largest costs are materials and components, labor, warranty, engineering and tariffs. Toyota said material prices cut first-half operating income by ¥465.0B [1]. Ford guided about $2.5B of commodity headwinds in 2026 [3]. Tesla's Q3 operating expenses rose 39% to $4.78B, with R&D up 69% [5].",
+      "Pricing power rests on brand, scarcity and segment. Ferrari's EBITDA margin of 39.7% shows the extreme end: its order book reaches into 2028 [6]. Mass-market makers have little: incentives averaged 6.8% of price across the US industry in October 2026, and 11.3% on EVs [11]. We think pickups and hybrids offer more room than small cars.",
+      "Major assets are plants, tooling, inventory, intellectual property and cash. Liabilities include supplier payables, warranty reserves and finance-arm debt. GM held $18.8B of automotive cash and $15.3B of automotive long-term debt at 30 Sep 2026, while GM Financial carried $112.9B of debt (our sum) [2]. Ford Credit had $139.4B [3].",
+      "It is capital-intensive. GM guides to $10.0B-$12.0B of 2026 capex and Ford to $9.5B-$10.5B [2][3]. Tesla spent $13.0B in nine months, double a year earlier [13]. Ferrari is lighter: capex was EUR226M in Q3 2026 [6]. Volkswagen's automotive investment ratio was 10.9% of revenue in nine months [4]."
+    ],
+    "overview": [
+      "Global vehicle sales were 99.8 million in 2025, up 4.7%, with production at 96.4 million, up 3.9% [15]. We found no sourced dollar value for the global industry. These totals include commercial vehicles, which GICS classifies elsewhere, so they overstate this sub-industry.",
+      "The main segments are mass-market cars and crossovers, pickups and vans, luxury and performance, and electrified vehicles. Toyota sold 5.06 million Toyota and Lexus vehicles in the first half of fiscal 2027, 55.6% of them electrified, including 2.45 million hybrids and 231 thousand battery-electric cars [1]. In Europe, hybrids were 35.9% of registrations and petrol 20.9% in Jan-Sep 2026 [7].",
+      "Makers sit between thousands of suppliers (steel, chips, batteries, seats and electronics) and customers reached through dealers or direct sales. They assemble, design, brand and finance. Tesla's 10-Q says tariff and trade changes can affect its own transaction prices and plans [13]. Ford's guidance includes about $1B of material and warranty savings [3].",
+      "The industry has moved from combustion to hybrids and electrics, and from West to East. China's NEV production rose 29% to 16.6 million in 2025 [15]. BYD's overseas shipments more than doubled in Q3 2026 [14]. Legacy makers are now scaling back EV plans: GM's EV realignment charge was $238M in Q3 2026, against $1,592M a year earlier [2].",
+      "Production is concentrated in Asia: China made 34.53 million vehicles in 2025, the US 10.24 million, Japan 8.41 million and India 6.49 million [15]. US sales were 16.7 million [15]. In Europe, Volkswagen Group had a 25.3% share of Jan-Sep 2026 registrations [7]."
+    ],
+    "competition": [
+      "There are about a dozen global groups plus many regional players. This brief covers Toyota, Volkswagen, GM, Ford, Tesla, BYD and Ferrari [1][4][2][3][5][14][6]. We did not find a source for the exact count of significant competitors, so we use the groups reporting results.",
+      "Volkswagen Group sold 6.0 million vehicles in nine months, down 9.0%, and Toyota 5.06 million Toyota and Lexus vehicles in six months [4][1]. In Europe, VW held 25.3% of Jan-Sep 2026 registrations, BYD 283,997 cars (up 134.6%) and Tesla 260,575 (up 50.0%) [7]. We found no sourced global share table.",
+      "The industry is concentrated at the top but not dominated by one firm, and regionally fragmented. The leaders vary by market, and Chinese firms such as BYD are growing quickly in Europe [7]. Overall we would call it moderately consolidated globally and competitive within each region.",
+      "Barriers are high: Tesla's $13.0B of nine-month capex and Ford's $9.5B-$10.5B annual guide show the scale of investment needed for plants, tooling and new programs [13][3]. Brand, dealer or direct-sales networks, regulatory approvals and battery supply add to the barrier, though Chinese entrants have shown it can be crossed.",
+      "Scale matters because fixed costs for engineering, platforms and plants are spread over units. Volkswagen's 3.8% margin on €233.4B of nine-month revenue, versus Toyota's 8.1% first-half margin, shows that scale alone does not guarantee profit [4][1]. Shared platforms and purchasing power matter as much as size.",
+      "Mass-market cars are close to commoditized, with price competition showing up in incentives of 6.8% of price [11]. Luxury and performance are differentiated: Ferrari's EBITDA margin was 39.7% [6]. Most makers sit in between, competing on brand, features and cost.",
+      "Customers hold the bargaining power in mass-market segments, since they can switch brands and see prices online; Cox noted that three of the five biggest segments sold well below the $51,109 average price [11]. Suppliers have power in scarce inputs: Ford flagged about $2.5B of commodity headwinds and Toyota ¥465.0B of material costs [3][1]."
+    ],
+    "drivers": [
+      "Revenue growth follows unit sales, price and mix. Global sales grew 4.7% in 2025 [15], while the US ATP rose 2.1% year on year to a record $51,109 in October 2026 [11]. Toyota expects 10.3 million Toyota and Lexus vehicle sales in fiscal 2027, lower than its earlier 10.5 million [1].",
+      "Margins depend on volume, mix, incentives, warranty and cost. GM's margin rose to 8.2% from 6.9% in Q3 2026 on strong North American results [2], while Ford's Q3 margin was 5.4% with Pro at 9.4% and Model e deeply negative [3]. EV losses and impairments can erase profit, as at Volkswagen, which had €8.7B of special items in nine months [4].",
+      "Key cost variables are steel, aluminum, copper, chips and battery materials, labor, warranty and tariffs. Toyota's first-half materials hit was ¥465.0B, including ¥125.0B from the Middle East [1]. Ford expects about $2.5B of commodity headwinds in 2026 [3]. Currency matters for exporters: Toyota assumes ¥157 per dollar [1].",
+      "Rates matter because most cars are financed. J.D. Power projected the average new-vehicle loan rate at 6.81% for October 2026, the highest October since 2023 [12]. Makers with finance arms also carry funding costs: GM Financial had $112.9B of debt at 30 Sep 2026 (our sum) [2].",
+      "Demand follows employment, income and confidence; the US SAAR was 15.5 million in October 2026, down 0.9% on the year [12]. Ford's guide assumes a 16.5 million full-year SAAR [3]. Commodity prices feed through to costs, and inflation lifts sticker prices and loan payments. We found no sourced unemployment sensitivity for the group.",
+      "Autos are cyclical, with a secular overlay from electrification and China's rise. Tesla's deliveries fell 2.1% in Q3 2026 [5], while Toyota's sales fell 4.0% in the first half [1]. Luxury is more defensive: Ferrari raised guidance again in Q3 2026 [6]. We view mass-market car makers as cyclical and low-growth, with a few exceptions."
+    ],
+    "financials": [
+      "Growth is modest and uneven. Global sales grew 4.7% in 2025 [15]. In Q3 2026, GM's revenue rose 2.9%, Ford's fell 2%, Tesla's was flat, and Toyota's first-half revenue rose 9.5% (our calculation from ¥26,962.4B, up ¥2,331.7B) [2][3][5][1]. Damodaran's Auto & Truck net margin was 1.29% [9].",
+      "Margins are thin for the group. Damodaran's Auto & Truck gross margin was 10.41%, EBITDA margin 7.49% and pre-tax operating margin 2.32% as of January 2026 [9]. Company reports are higher at the strong end: Toyota 8.1% in the first half and GM 8.2% in Q3, versus Tesla 2.6% [1][2][5].",
+      "Returns are low. Damodaran's Auto & Truck after-tax ROIC was 2.45%, against 10.08% for the whole market, though the page carries conflicting dates (January 2026 and January 2025) [16]. We did not find a sourced ROE for the group. Ferrari is the high-return exception, with EBIT of EUR563M on EUR1,896M of Q3 revenue [6].",
+      "Debt is high at the finance-arm companies. We did not use an industry leverage table. From company filings: Ford's company debt excluding Ford Credit was $23.7B against $25.3B of cash [3]; Tesla had $20B of term loan and $10B of revolver undrawn [13]. Ferrari had net industrial cash of EUR219M [6].",
+      "Free cash flow is lumpy. GM's adjusted automotive free cash flow was $5.9B in Q3 2026 and guided to $11.5B-$12.5B for the year [2]. Ford's was $4.7B in the quarter [3], Tesla's $1.53B [5], and Ferrari's industrial free cash flow was EUR567M [6]. Volkswagen's automotive net cash flow was EUR4.4B in nine months [4].",
+      "Capital spending is heavy. Volkswagen's investment ratio was 10.9% of revenue [4]; GM guides to $10.0B-$12.0B and Tesla spent $4.73B in Q3 alone [2][5]. Ford's guide is $9.5B-$10.5B [3].",
+      "Multiples are distorted by Tesla. Damodaran's Auto & Truck EV/EBITDA was 47.76 for firms with positive EBITDA as of January 2026 [17], which we think reflects Tesla's weight, not a typical maker. The Consumer Discretionary sector forward P/E was 25.1x at 13 Nov 2026 [8]."
+    ],
+    "risks": [
+      "Regulation can swing profit. Tesla's 10-Q says government actions have restricted certain regulatory credit programs, and its credit revenue fell to $113M in Q3 2026 from $417M [13]. US import duties are 25% on vehicles, with 15% for EU, Japan and Korea and 10% for the UK, and USMCA-compliant content exempt [10].",
+      "AI and autonomy are both an opportunity and a drain. Tesla's R&D rose 69% to $2.76B in Q3 2026 and Cybercab joined its Austin robotaxi fleet [5]. We think software could become a source of recurring revenue but note that none of the legacy makers' sourced results show material profit from it yet.",
+      "Demographics matter modestly: car demand follows working-age households and income more than population totals. We found no sourced demographic data for the group. Affordability is the practical issue, with the record $51,109 average price in October 2026 and loan rates near 6.81% [11][12].",
+      "Consumer behavior is shifting to hybrids and, in China and Europe, to electrics. J.D. Power projected battery-electric vehicles at 6.9% of US October 2026 retail sales and hybrids at 18.6% [12]. Europe's BEV share was 24.2% in Jan-Sep 2026 [7]. Toyota's electrified share was 55.6% [1].",
+      "New competitors come mainly from China. BYD's Europe registrations rose 134.6% in Jan-Sep 2026 and its overseas shipments more than doubled in Q3 [7][14]. Tesla's Europe registrations rose 50.0% [7]. BYD also carries risks: inventories rose 60% to RMB221.6B [14].",
+      "Geopolitics and supply chains raise costs. Toyota cited Middle East effects of ¥125.0B on materials in the first half [1]. Tariffs shift where cars are built, and the USMCA review in 2026 may revisit auto rules [10]. Volkswagen said trade restrictions and tariffs also weighed on sales [4].",
+      "Substitutes include public transport, ride-hailing and, over time, robotaxis, plus used cars. We found no sourced data on substitution rates. Robotaxis are early: Tesla reported nearly 2 million cumulative unsupervised miles, according to Electrek [5]. In our judgment, substitution is a slow-moving risk for the next five years."
+    ],
+    "horizon": {
+      "opportunities": [
+        "Hybrids offer a profitable bridge: Toyota's electrified share was 55.6% of sales and its fiscal 2027 operating income forecast rose to ¥3.9T [1].",
+        "Premium and personalized models keep margins high: Ferrari guides to an EBITDA margin of at least 39.2% for 2026 [6].",
+        "Cost cuts and capital returns can lift cash generation: GM raised its free cash flow guide to $11.5B-$12.5B and authorized a $20.0B buyback [2].",
+        "Autonomy and software could add recurring revenue: Tesla launched Cybercab in its Austin robotaxi fleet in Q3 2026 [5]."
+      ],
+      "threats": [
+        "Tariff and trade policy can change cost structures quickly, and the USMCA review is due in 2026 [10].",
+        "Chinese makers are gaining share abroad at lower prices, with BYD's Europe registrations up 134.6% [7].",
+        "Electric-vehicle losses and write-downs persist: Ford's Model e is guided to lose about $4B in 2026 and Volkswagen booked €8.7B of special items [3][4].",
+        "Affordability limits demand, with a record $51,109 average price and a 15.5 million October SAAR [11][12]."
+      ],
+      "assessment": "Over three to five years we think the sub-industry stays cyclical and low-return on average, with profits concentrating in firms that own brand, hybrids or scale in China and the US. Toyota, GM and Ferrari show strength today [1][2][6], while Volkswagen's 3.8% margin and Ford's Model e losses show how costly the electric transition can be [4][3]. The key unknowns are tariffs, how fast Chinese exporters expand, and whether autonomy pays. Our view is that capital discipline, not volume growth, will decide which makers earn their cost of capital."
+    }
+  },
+  "sections": [
+    {
+      "id": "macro",
+      "paragraphs": [
+        "Autos sit at the cyclical end of consumer discretionary, because buyers finance big purchases and can delay them. The US sales pace was 15.5 million in October 2026, down 2.7% from September and 0.9% from a year earlier [12]. Higher borrowing costs matter: J.D. Power projected the average new-vehicle loan rate at 6.81%, the highest October reading since 2023, and the record average transaction price of $51,109 was up 2.1% on the year [12][11]. Dealer days' supply was 82 in September 2026, down from 87 a year earlier [12].",
+        "Policy and currency are the other levers. US duties are 25% on imported vehicles and 15% on EU, Japanese and Korean cars, with USMCA-compliant content exempt and an offset for US-built vehicles through April 2030 [10]. Toyota assumes 157 yen per dollar for fiscal 2027, stronger than the 160 it assumed before, and said lower tariff costs helped its upgrade [1]. We found no sourced forecast for interest rates or inflation specific to this group. Our read is that the cycle is mid-to-late: volumes are flat, prices are at records and incentives are rising [11]."
+      ]
+    },
+    {
+      "id": "demand",
+      "paragraphs": [
+        "Global vehicle sales reached 99.8 million in 2025, up 4.7%, and production 96.4 million [15]. That total includes commercial vehicles, so it overstates the sub-industry, and we found no sourced dollar market size. Growth is shifting to Asia: China produced 34.53 million vehicles, 10.4% more than in 2024 according to our calculation from the sourced increase, and its new-energy vehicle output rose 29% to 16.6 million [15].",
+        "The structural story is electrification. Battery-electric cars took 24.2% of Jan-Sep 2026 registrations across the EU, EFTA and UK, up 41.9% to 2.55 million, while petrol fell 18.0% [7]. In the US the picture differs: J.D. Power projected battery-electric vehicles at 6.9% of October retail sales, down from the year before, with hybrids at 18.6% [12]. Toyota's electrified share of 55.6% shows hybrids taking the middle ground [1]. Demand is cyclical rather than defensive: Tesla's Q3 2026 deliveries fell 2.1% [5]. We found no sourced demographic projection; in our judgment, population effects are small next to income and affordability."
+      ]
+    },
+    {
+      "id": "structure",
+      "paragraphs": [
+        "Using Porter's five forces: rivalry is intense in mass-market cars and mild at the luxury end. Ferrari's 39.7% EBITDA margin sits against Damodaran's 2.32% operating margin for the Auto & Truck group [6][9]. Buyer power is high; Cox says three of the five largest US segments sold well below the $51,109 average price, and EV incentives were 11.3% of price [11]. Supplier power shows up in commodities: Ford guides to about $2.5B of headwinds [3].",
+        "The threat of new entrants is real despite high barriers. Tesla's nine-month capex of $13.0B shows the scale of investment, yet BYD's Europe registrations rose 134.6% and Tesla's 50.0% in Jan-Sep 2026 [13][7]. Substitutes (ride-hailing, robotaxis, public transport) are a slow threat; Tesla reported nearly 2 million cumulative unsupervised miles [5]. Concentration: Volkswagen held 25.3% of Europe's registrations [7]. We found no sourced global share table. Moats rest on brand, scale, dealer or direct networks and, increasingly, battery supply and software."
+      ]
+    },
+    {
+      "id": "environment",
+      "paragraphs": [
+        "Government intervention is heavy. The US applies a 25% Section 232 tariff to imported vehicles and certain parts, 15% for the EU, Japan and South Korea, 10% for the UK, with USMCA-compliant content exempt and the 2026 USMCA review pending [10]. Tesla's filing says government actions have restricted certain regulatory credit programs; its credit revenue was $113M in Q3, down from $417M, and it reversed $475M for contractual returns [13].",
+        "On the technology side, electrification and autonomy are rewriting costs. Tesla's R&D rose 69% to $2.76B, and it launched Cybercab into its Austin robotaxi fleet [5]. GM took a $238M EV realignment charge and Volkswagen booked €8.7B of special items, including €6.4B of Porsche goodwill impairments, showing how costly strategy shifts are [2][4]. Economically, Middle East effects added ¥125.0B to Toyota's first-half material costs [1]. We found no sourced figures on social or environmental litigation; our judgment is that emissions and safety rules, plus trade policy, are the factors most able to change profits within a year."
+      ]
+    },
+    {
+      "id": "economics",
+      "paragraphs": [
+        "Economics are thin for the group but vary widely. Damodaran's Auto & Truck data show gross margin 10.41%, EBITDA margin 7.49%, operating margin 2.32% and after-tax ROIC 2.45% for 33 firms [9][16]. Toyota's first-half operating margin was 8.1% [1], GM's Q3 margin 8.2% [2], Ford's 5.4% [3], Tesla's 2.6% [5] and Volkswagen's 3.8% before special items [4].",
+        "Operating leverage is high because plants and engineering are fixed. Ford's wholesales fell 9% in Q3 2026 yet it still earned $2.7B of adjusted EBIT, a 5.4% margin [3]. Capital intensity is heavy: GM guides to $10.0B-$12.0B capex, Ford $9.5B-$10.5B and Tesla spent $13.0B in nine months [2][3][13]. Free cash flow was positive for the leaders: GM $5.9B, Ford $4.7B, Tesla $1.53B and Ferrari EUR567M in the quarter [2][3][5][6]. We found no sourced ROE for the group. Our read is that returns above the cost of capital are concentrated in a few brands."
+      ]
+    },
+    {
+      "id": "earnings",
+      "paragraphs": [
+        "Management guidance points to resilient 2026 profits. GM narrowed adjusted EBIT guidance to $14.5B-$15.5B and raised free cash flow to $11.5B-$12.5B [2]. Ford raised the low end of adjusted EBIT guidance to $10.5B-$11.0B and left free cash flow at $6B-$7B [3]. Toyota lifted its fiscal 2027 operating income forecast to ¥3.9T from ¥3.4T but cut revenue to ¥53.5T [1]. Ferrari raised adjusted EBIT to at least EUR2.285B [6]. Volkswagen guides to operating return on sales of up to 1% as reported, after special items [4].",
+        "We did not find sourced consensus EPS growth or revision data for the sub-industry. FactSet reported Tesla among three Magnificent 7 companies with positive EPS surprises in Q3 2026, and the Consumer Discretionary sector net margin was 10.0% against 10.2% a year earlier [8]. Ford's Model e loss guide of about $4B and its note about roughly $2.5B of commodity headwinds argue for caution on 2027 [3]. Our view is that guidance is realistic but leaves little room for a US demand slowdown, since the October SAAR was 15.5 million against Ford's 16.5 million full-year assumption [12][3]."
+      ]
+    },
+    {
+      "id": "valuation",
+      "paragraphs": [
+        "We found no sourced forward P/E for the sub-industry itself. FactSet put the Consumer Discretionary sector at 25.1x forward earnings on 13 Nov 2026, the highest of the sectors, against 18.3x for the S&P 500 and a 10-year average of 19.1x [8]. That sector figure is heavily shaped by Amazon and Tesla rather than traditional car makers, which together hold about 40% of the sector ETF XLY [18].",
+        "Damodaran's Auto & Truck EV/EBITDA of 47.76 for positive-EBITDA firms as of January 2026 is distorted by Tesla and not a guide to the typical maker [17]. We found no sourced free cash flow yield or normalized earnings multiple. As a cross-check, GM guides to $11.5B-$12.5B of adjusted automotive free cash flow and 849 million shares were outstanding, with a $20.0B buyback authorization [2]. Our read is that investors price Tesla on autonomy and energy while valuing legacy makers on cyclical cash flows, so comparison across the group is of limited use."
+      ]
+    },
+    {
+      "id": "positioning",
+      "paragraphs": [
+        "Capital in the sub-industry is concentrated in a few names. In XLY, the Consumer Discretionary Select Sector SPDR, Tesla was 17.45%, GM 1.89% and Ford 1.16% of holdings as of 17 Nov 2026, in a fund with $23.31B of assets and 50 holdings [18]. We found no sourced short-interest, flow or year-to-date relative performance data for the sub-industry, so we do not make a momentum call.",
+        "Sentiment signals are mixed. FactSet noted that the three Magnificent 7 companies with positive Q3 EPS surprises, Tesla among them, saw an average price change of -0.2% around their releases, against +1.1% for all S&P 500 companies with positive surprises [8]. BYD's Q3 profit rose 28.1% to RMB10.02B, but its inventories reached RMB221.6B [14]. GM's new $20.0B buyback and Ferrari's guidance upgrade show company-level confidence [2][6]. Our read is that positioning is concentrated and event-driven rather than a broad group trade."
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "n": 1,
+      "title": "Toyota Motor first-half FY2027 financial results presentation (Form 6-K exhibit)",
+      "publisher": "Toyota Motor Corporation / SEC",
+      "date": "2026-11-05",
+      "url": "https://www.sec.gov/Archives/edgar/data/0001094517/000119312526448368/d87505dex993.htm"
+    },
+    {
+      "n": 2,
+      "title": "GM releases 2026 third quarter results and updates full-year guidance",
+      "publisher": "General Motors",
+      "date": "2026-10-20",
+      "url": "https://finviz.com/news/404350/gm-releases-2026-third-quarter-results-and-updates-full-year-2026-guidance-board-approves-new-20-billion-share-repurchase-authorization-declares-quarterly-dividend"
+    },
+    {
+      "n": 3,
+      "title": "Ford Motor Company Q3 2026 earnings release (Form 8-K exhibit 99)",
+      "publisher": "Ford Motor Company / SEC",
+      "date": "2026-10-28",
+      "url": "https://www.sec.gov/Archives/edgar/data/0000037996/000003799626000190/exhibit99tooctober282026.htm"
+    },
+    {
+      "n": 4,
+      "title": "Volkswagen Group nine-month results underline need for action",
+      "publisher": "Volkswagen Group",
+      "date": "2026-10-29",
+      "url": "https://www.volkswagen-group.com/en/press-releases/volkswagen-group-nine-month-results-underline-need-for-action-20799"
+    },
+    {
+      "n": 5,
+      "title": "Tesla Q3 2026 financial results",
+      "publisher": "Electrek",
+      "date": "2026-10-21",
+      "url": "https://electrek.co/2026/10/21/tesla-tsla-q3-2026-financial-results/"
+    },
+    {
+      "n": 6,
+      "title": "Ferrari N.V. third quarter 2026 results (Form 6-K)",
+      "publisher": "Ferrari N.V. / SEC",
+      "date": "2026-11-03",
+      "url": "https://www.sec.gov/Archives/edgar/data/0001648416/000164841626000141/fnvq32026results.htm"
+    },
+    {
+      "n": 7,
+      "title": "ACEA Europe BEV market share, September 2026 year to date",
+      "publisher": "EVwire (ACEA data)",
+      "date": "2026-10-22",
+      "url": "https://evwire.com/p/acea-europe-bev-market-share-september-2026-ytd"
+    },
+    {
+      "n": 8,
+      "title": "FactSet Earnings Insight, 13 November 2026",
+      "publisher": "FactSet",
+      "date": "2026-11-13",
+      "url": "https://advantage.factset.com/hubfs/Website/Resources%20Section/Research%20Desk/Earnings%20Insight/EarningsInsight_111326.pdf"
+    },
+    {
+      "n": 9,
+      "title": "Margins by sector, Auto & Truck (data as of January 2026)",
+      "publisher": "Aswath Damodaran, NYU Stern",
+      "date": "2026-01-01",
+      "url": "https://pages.stern.nyu.edu/~adamodar/New_Home_Page/datafile/margin.html"
+    },
+    {
+      "n": 10,
+      "title": "Section 232 Automotive Tariffs: Issues for Congress (CRS Insight IN12545)",
+      "publisher": "Congressional Research Service",
+      "date": "2026-05-11",
+      "url": "https://www.everycrsreport.com/reports/IN12545.html"
+    },
+    {
+      "n": 11,
+      "title": "Kelley Blue Book average transaction price report, October 2026",
+      "publisher": "Cox Automotive",
+      "date": "2026-11-10",
+      "url": "https://www.coxautoinc.com/insights/oct-2026-atp-report/"
+    },
+    {
+      "n": 12,
+      "title": "October 2026 SAAR",
+      "publisher": "Mercer Capital",
+      "date": "2026-11-13",
+      "url": "https://mercercapital.com/insights/blogs/auto-dealer-valuation-insights-blog/2026/october-2026-saar/"
+    },
+    {
+      "n": 13,
+      "title": "Tesla Form 10-Q for the quarter ended 30 September 2026",
+      "publisher": "Tesla, Inc. / SEC",
+      "date": "2026-10-23",
+      "url": "https://www.sec.gov/Archives/edgar/data/0001318605/000162828026066775/tsla-20260930.htm"
+    },
+    {
+      "n": 14,
+      "title": "BYD Q3 2026 earnings, inventory and exports",
+      "publisher": "GoodCarBadCar",
+      "date": "2026-11-01",
+      "url": "https://www.goodcarbadcar.net/byd-q3-2026-earnings-inventory-exports/"
+    },
+    {
+      "n": 15,
+      "title": "Auto industry growth shifted east in 2025 amid global repositioning",
+      "publisher": "OICA",
+      "date": "2026-04-27",
+      "url": "https://oica.net/auto-industry-growth-shifted-east-in-2025-amid-global-repositioning/"
+    },
+    {
+      "n": 16,
+      "title": "Return on capital by sector, Auto & Truck",
+      "publisher": "Aswath Damodaran, NYU Stern",
+      "date": "2026-01-01",
+      "url": "https://pages.stern.nyu.edu/~adamodar/New_Home_Page/datafile/roc.html"
+    },
+    {
+      "n": 17,
+      "title": "EV/EBITDA multiples by sector, Auto & Truck (data as of January 2026)",
+      "publisher": "Aswath Damodaran, NYU Stern",
+      "date": "2026-01-01",
+      "url": "https://pages.stern.nyu.edu/~adamodar/New_Home_Page/datafile/vebitda.html"
+    },
+    {
+      "n": 18,
+      "title": "Consumer Discretionary Select Sector SPDR Fund (XLY) holdings",
+      "publisher": "StockAnalysis",
+      "date": "2026-11-17",
+      "url": "https://stockanalysis.com/etf/xly/holdings/"
+    }
+  ]
+}

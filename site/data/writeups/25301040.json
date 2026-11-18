@@ -1,0 +1,437 @@
+{
+  "code": "25301040",
+  "added": "2026-11-18",
+  "asOf": "2026-11-17",
+  "summary": "Restaurants are in a split-screen cycle. Starbucks' fiscal fourth-quarter comparable sales rose 7.2% [1], while McDonald's U.S. comparable sales fell 0.2% in the third quarter [2], Taco Bell's fell 4% after a lettuce-linked outbreak [3] and Chipotle's restaurant-level margin slipped to 23.3% from 24.5% [4]. Darden's same-restaurant sales rose 3.1% [5]. Menu prices keep climbing: food away from home was up 3.5% in the year to September [6]. We found no sourced forward P/E for the sub-industry; Damodaran puts US restaurants at 17.5x EV/EBITDA [7].",
+  "metrics": [
+    {
+      "label": "McDonald's global comparable sales (Q3 2026)",
+      "value": "+1.5%",
+      "context": "U.S. -0.2%, International Operated +1.4%, Developmental Licensed +4.2%; systemwide sales over $38B, up 4%",
+      "source": 2
+    },
+    {
+      "label": "Starbucks global comparable sales (Q4 FY2026)",
+      "value": "+7.2%",
+      "context": "Transactions +1.8%, ticket +5.2%; U.S. +7.7%; FY2027 guide: non-GAAP EPS $3.15-$3.25",
+      "source": 1
+    },
+    {
+      "label": "Chipotle restaurant-level margin (Q3 2026)",
+      "value": "23.3%",
+      "context": "Versus 24.5% a year earlier; comparable sales +2.1%, transactions +0.8%",
+      "source": 4
+    },
+    {
+      "label": "Taco Bell same-store sales (Q3 2026)",
+      "value": "-4%",
+      "context": "First quarterly decline since Q2 2020; KFC +1%; operating profit: Taco Bell -5% to $255M, KFC +9% to $425M",
+      "source": 3
+    },
+    {
+      "label": "Darden same-restaurant sales (fiscal Q1 2027)",
+      "value": "+3.1%",
+      "context": "Quarter to 30 Aug 2026; LongHorn +6.2%, Olive Garden +1.1%; FY2027 EPS guide $11.10-$11.35",
+      "source": 5
+    },
+    {
+      "label": "CPI food away from home (12 months to Sep 2026)",
+      "value": "+3.5%",
+      "context": "Full-service meals +3.8%, limited-service +3.2%; BLS, released 14 Oct 2026",
+      "source": 6
+    },
+    {
+      "label": "EV/EBITDA, US restaurant/dining (Damodaran)",
+      "value": "17.5x",
+      "context": "64 firms, firms with positive EBITDA; 21.4x for all firms; January 2026 data",
+      "source": 7
+    },
+    {
+      "label": "Forward P/E, Consumer Discretionary sector",
+      "value": "25.1x",
+      "context": "Sector, not sub-industry; S&P 500 18.3x vs 10-yr average 19.1x; FactSet, 13 Nov 2026",
+      "source": 8
+    }
+  ],
+  "watch": [
+    "McDonald's U.S. comparable sales were negative in Q3, and its entry-level value offer is being tested in about 1,900 U.S. restaurants ahead of a targeted national launch in early 2027 [9].",
+    "Taco Bell's recovery from the July outbreak is the test for Yum: the brand is 38% of divisional operating profit, and management said recovered consumers spend 5% more and visit 6% more often than those lost [3].",
+    "Chipotle's margin is being squeezed by beef, freight and labor, with labor at 25.7% of revenue against 25.2% a year earlier [4][10].",
+    "Starbucks guides fiscal 2027 North America comparable sales of about 4.0% and a 13.5% to 14.0% non-GAAP operating margin, which tests whether its turnaround continues beyond a 7.2% comp [1].",
+    "Restaurant labor rules matter: California's $20 fast food wage is under a council that, per a February 2026 analysis, had not met since February 2025 [11]."
+  ],
+  "bellwethers": [
+    "McDonald's",
+    "Starbucks",
+    "Chipotle",
+    "Yum! Brands",
+    "Darden Restaurants",
+    "Restaurant Brands International",
+    "Domino's Pizza"
+  ],
+  "basics": {
+    "intro": "Restaurant companies sell prepared food and drinks to consumers, either from restaurants they own or through franchisees who pay them fees. Customers are households eating out or ordering delivery. Companies make money from food and beverage sales, from rent and royalties on franchised stores, and from licensing. GICS puts restaurant chains, fast food and coffee shops here. Hotels and casinos sit in neighbouring sub-industries, and food distributors such as Sysco are Consumer Staples, not Restaurants. Delivery marketplaces and grocers are classified elsewhere.",
+    "products": [
+      {
+        "name": "Quick-service (fast food)",
+        "what": "Counter-service chains selling burgers, chicken, tacos and pizza at low prices, with drive-thru and delivery. Volume and speed matter more than check size.",
+        "examples": "McDonald's, Taco Bell, KFC, Domino's"
+      },
+      {
+        "name": "Fast casual",
+        "what": "Counter-service with fresher ingredients and a higher price per meal, often with strong digital ordering.",
+        "examples": "Chipotle"
+      },
+      {
+        "name": "Coffee and beverage shops",
+        "what": "Cafes selling coffee, tea and snacks with high drink share and frequent repeat visits, mostly in the morning.",
+        "examples": "Starbucks"
+      },
+      {
+        "name": "Casual dining",
+        "what": "Sit-down restaurants with table service and alcohol, serving families and groups at a higher check.",
+        "examples": "Olive Garden, LongHorn Steakhouse, Darden brands"
+      },
+      {
+        "name": "Franchising and licensing",
+        "what": "The brand owner lets independent operators or partners run restaurants and collects royalties, rent and fees, keeping little capital on the balance sheet.",
+        "examples": "McDonald's franchise model, Yum's KFC and Taco Bell, Starbucks' licensed stores"
+      },
+      {
+        "name": "Digital, loyalty and delivery",
+        "what": "Apps, loyalty programs and delivery channels that bring in orders and customer data, often at the cost of third-party commissions.",
+        "examples": "McDonald's loyalty program, Chipotle digital orders"
+      }
+    ],
+    "terms": [
+      {
+        "term": "Comparable sales (same-store sales)",
+        "meaning": "Sales at restaurants open at least a year. It strips out openings and closures and is the main health gauge, split into traffic and average check."
+      },
+      {
+        "term": "Traffic (transactions)",
+        "meaning": "The number of customer visits. Rising traffic is healthier than growth from price alone, since price increases can drive visits away."
+      },
+      {
+        "term": "Average check",
+        "meaning": "Revenue per transaction. It rises with menu prices and larger orders."
+      },
+      {
+        "term": "Franchised vs company-operated",
+        "meaning": "Franchised restaurants are owned by operators who pay royalties and rent. Company-operated ones are owned by the chain, which books full sales and costs."
+      },
+      {
+        "term": "Royalty",
+        "meaning": "A fee, usually a percentage of franchisee sales, paid to the brand. It is high-margin because the brand bears few of the restaurant's costs."
+      },
+      {
+        "term": "Restaurant-level margin",
+        "meaning": "Sales less food, labor, occupancy and other restaurant costs, before corporate overhead. It shows how profitable the units themselves are."
+      },
+      {
+        "term": "Unit growth",
+        "meaning": "The net increase in restaurants. It drives revenue growth for chains with room to expand."
+      },
+      {
+        "term": "Systemwide sales",
+        "meaning": "Sales at all restaurants, franchised and company-owned. The brand earns only part of this, but it measures the size of the system."
+      },
+      {
+        "term": "Value menu",
+        "meaning": "Low-priced offers that draw price-sensitive customers. Chains use them to win traffic, at some cost to margin."
+      },
+      {
+        "term": "Digital mix",
+        "meaning": "The share of sales ordered through apps and websites. Higher mix can lift order size and loyalty but adds delivery and tech costs."
+      },
+      {
+        "term": "Chipotlane",
+        "meaning": "Chipotle's drive-through lane for pre-ordered digital orders, used to speed service and add convenience."
+      },
+      {
+        "term": "Refranchising",
+        "meaning": "Selling company-owned restaurants to franchisees to cut capital needs and raise the share of fee income."
+      }
+    ],
+    "drivers": [
+      {
+        "name": "Traffic versus price",
+        "how": "Comparable sales equal visits times check. Price increases lift check but, if shoppers push back, visits fall, which shows up as flat or negative traffic."
+      },
+      {
+        "name": "Food and commodity costs",
+        "how": "Beef, chicken, coffee, cooking oil and packaging prices move the cost of goods; chains pass some on through menu prices with a lag."
+      },
+      {
+        "name": "Labor costs and wage rules",
+        "how": "Labor is the largest controllable cost. Minimum-wage increases and tight labor markets raise it, squeezing restaurant-level margin unless prices rise."
+      },
+      {
+        "name": "Consumer confidence and income",
+        "how": "Eating out is discretionary at the margin, so weaker incomes shift diners from casual dining to fast food or home cooking."
+      },
+      {
+        "name": "Value wars",
+        "how": "When rivals discount, others follow to protect traffic, which trims margins across the group."
+      },
+      {
+        "name": "Unit growth and franchising mix",
+        "how": "New restaurants add revenue; franchising adds royalty income with little capital, lifting margin and returns."
+      },
+      {
+        "name": "Food safety and brand events",
+        "how": "An outbreak can cut traffic quickly at one brand, as seen with recalls and illness reports, with recovery taking weeks to months."
+      },
+      {
+        "name": "Digital and delivery",
+        "how": "Apps and loyalty add visits and data; third-party delivery adds sales but at a commission cost."
+      }
+    ]
+  },
+  "fundamentals": {
+    "business": [
+      "Revenue comes from food and beverage sales at company-operated restaurants, and from rent, royalties and fees at franchised ones. McDonald's Q3 2026 revenue was $7,157M: $4,487M franchised, $2,480M company-operated [2]. Starbucks was 32% company-operated and 68% licensed at fiscal year end [1].",
+      "Customers are mainly households choosing where to eat, plus franchisees for franchisors. Starbucks' fiscal 2026 transactions rose 3.2% and ticket 3.0% across 41,607 coffeehouses [1]. Loyalty members matter: McDonald's recorded over $11B of Q3 sales to loyalty members [2]. Franchisees are a second customer, paying rent and royalties.",
+      "The main costs are food, labor, occupancy and marketing. At Chipotle in Q3 2026 food, beverage and packaging was 29.5% of revenue and labor 25.7% [4]. Beef and freight were cited for margin pressure [10]. Franchised chains carry far less of these because operators bear them.",
+      "Pricing power comes from brand, convenience and perceived value. Starbucks' fiscal Q4 ticket rose 5.2% with transactions up 1.8% [1], showing room to raise prices on a strong brand. McDonald's U.S. comparable sales fell 0.2% as negative guest counts were largely offset by check growth, which suggests diners are pushing back on price [2].",
+      "Major assets are real estate, kitchen equipment, brand names and, for franchisors, the franchise agreements. Liabilities include debt and leases. Starbucks ended fiscal 2026 with cash of $3,679.9M and total debt of about $13.3B, our derived sum [1]. McDonald's collected rents of $10.44B in 2025 on franchised properties, per a third-party analysis [9].",
+      "The sub-industry mixes asset-light and capital-intensive models. McDonald's guides to about $3.7B of 2026 capex [9]. Starbucks spent $1,263.6M in fiscal 2026 against operating cash flow of $4,988.4M [1]. Chipotle owns almost all its 4,267 restaurants and opened 84 in Q3 [4]. Franchisors are much lighter than operators."
+    ],
+    "overview": [
+      "The National Restaurant Association projects about $1.55T of US restaurant and foodservice sales in 2026, with real growth of 1.3%, and 15.8M employees [12]. Census data for food services and drinking places show $92.9B for October 2026 (seasonally adjusted, advance estimate) [13]. We did not find a sourced global market size.",
+      "Main segments are quick service, fast casual, coffee, casual dining and fine dining. Darden reports LongHorn, Olive Garden and Fine Dining separately [5]. Yum runs Taco Bell, KFC and Habit Burger [3]. Starbucks is the largest coffee chain, with 41,607 coffeehouses [1].",
+      "Restaurants sit between food and packaging suppliers and consumers. Suppliers include farmers, meat and produce processors and distributors, and customers range from individuals to delivery apps. Beef, freight and labor were pressure points at Chipotle [10]. A food safety failure upstream can hit sales quickly: Taco Bell's July outbreak was traced to iceberg lettuce [3].",
+      "The industry has moved toward franchising, digital ordering and loyalty. Starbucks converted about 7,991 China coffeehouses to licensed operations in fiscal Q3 2026 [1], and Yum divested Pizza Hut in two deals this year [3]. Digital was 38.8% of Chipotle's food and beverage revenue, up from 36.7% [4].",
+      "Sales are concentrated in the US but the leaders are global. McDonald's had 46,554 restaurants at 30 Sep 2026, of which China held 8,395 [9]. Starbucks' U.S. had 16,781 of 41,607 coffeehouses, or 40% [1]. KFC opened 878 restaurants in 66 countries in Q3 [3]."
+    ],
+    "competition": [
+      "The group has hundreds of listed and private chains; our sources cover McDonald's, Starbucks, Chipotle, Yum and Darden. Damodaran's January 2026 US restaurant/dining dataset holds 64 listed firms [7]. We did not find a sourced count of all restaurant operators.",
+      "McDonald's is the largest by units, with 46,554 restaurants [9], and systemwide sales above $38B in Q3 2026 alone [2]. Starbucks has 41,607 coffeehouses [1], Yum's KFC opened 878 restaurants in a quarter [3] and Chipotle has 4,267 company-owned units [4]. We found no sourced market-share table, so we give none.",
+      "The industry is fragmented overall, with a few consolidated global brands. Yum sold Pizza Hut to Yum China and LongRange Capital while keeping KFC and Taco Bell [3]. Franchising lets leaders scale: McDonald's targets 50,000 restaurants by end of 2028 [9].",
+      "Barriers to entry are low for a single restaurant but high for a national chain. Brand, real estate, supply contracts and franchisee relationships take years to build. A brand event shows the fragility: Taco Bell's first quarterly comparable decline since Q2 2020 followed a July outbreak [3].",
+      "Economies of scale are meaningful in purchasing, marketing and technology. McDonald's operating margin was 50.2% in Q3 2026, our calculation from reported figures, because franchise fees carry little cost [2]. Chipotle's restaurant-level margin of 23.3% shows the margin of a company-operated model [4].",
+      "Food is mostly differentiated by brand, menu and convenience rather than commodity-like, but price competition is intense. McDonald's is testing an entry-level value offer in about 1,900 U.S. restaurants and targets a national launch in early 2027 [9]. Starbucks' ticket growth of 5.2% shows a premium brand can sustain pricing [1].",
+      "Customers hold much of the bargaining power because switching costs are near zero. Suppliers matter at the margin, and Chipotle cited higher beef and freight costs [10]. Franchisors hold power over franchisees through contracts: McDonald's franchised revenue of $4,487M in Q3 2026 came from rents and royalties [2]."
+    ],
+    "drivers": [
+      "Revenue growth comes from comparable sales (traffic plus price) and new units. Chipotle's Q3 comparable sales were up 2.1%, with 0.8% from transactions and 1.3% from check, and it plans 350 to 370 openings in 2026 [4]. Starbucks plans about 1,200 net new coffeehouses in fiscal 2027 [1].",
+      "Operating margins depend on traffic, price, food and labor costs, and franchise mix. Chipotle's operating margin fell to 13.7% from 15.9% as labor and food costs rose [4]. Starbucks' non-GAAP operating margin was 14.0% in fiscal Q4, up 460 basis points [1]. Damodaran's January 2026 restaurant data show a 15.79% pre-tax operating margin [14].",
+      "Key cost variables are beef and other proteins, coffee, freight, labor and rent. Chipotle named beef, freight and protein usage [10]. Minimum-wage rules push labor: California's fast food council set a $20 hourly minimum, per a February 2026 analysis, although it had not met since February 2025 [11].",
+      "Interest-rate sensitivity is moderate. Damodaran's data show debt at 21.4% of capital for US restaurant firms and a 5.07% cost of debt [15]. Franchisees and new-unit growth depend on borrowing costs. We did not find a sourced rate sensitivity estimate for the sub-industry.",
+      "Restaurants respond to consumer income, jobs and food inflation. BLS showed food away from home up 3.5% in the year to September 2026, against 1.8% for food at home, and all items up 3.7% [6]. NRA said 60% of operators saw decreased traffic in 2025, and a cooling job market is tightening budgets of low- and middle-income diners [12].",
+      "We read the group as mostly cyclical with defensive pockets. Quick-service chains gain when consumers trade down, but McDonald's U.S. comparable sales were negative in Q3 [2]. Secular growth comes from unit expansion and digital: Starbucks' FY2026 net new coffeehouses were 617 [1]. Real industry growth was forecast at only 1.3% [12]."
+    ],
+    "financials": [
+      "Growth is modest at the industry level and varies by brand. NRA forecasts about $1.55T of sales, real growth 1.3% [12]. McDonald's Q3 revenue rose 1% and diluted EPS rose 10% to $3.51 [2]. Chipotle revenue rose 9.6% but EPS fell to $0.27 from $0.29 [4]. Starbucks' FY2026 revenue grew 2.0% [1].",
+      "Damodaran's January 2026 data for 64 US restaurant/dining firms show a 32.24% gross margin, a 19.47% EBITDA margin and a 15.79% pre-tax operating margin [14]. Chipotle's restaurant-level margin was 23.3% [4], and McDonald's franchise-heavy operating margin was 50.2% by our calculation [2].",
+      "Damodaran's net margin for the group was 9.37% [14]. We did not find a sourced ROIC or reliable ROE for the group; Damodaran's ROE table showed a figure we judged unrepresentative, so we do not quote it. Franchisors earn high returns on capital because they hold few restaurants, in our view.",
+      "Debt is meaningful, especially at franchisors. Damodaran's data show debt at 21.4% of total capital and a 7.16% cost of capital [15]. Starbucks had about $13.3B of total debt (our sum) and $3,679.9M of cash at fiscal year end, and repaid $2,815.9M of long-term debt in the year [1].",
+      "Free cash flow is generally solid. Starbucks' fiscal 2026 operating cash flow was $4,988.4M against capex of $1,263.6M, about $3.7B of free cash flow by our sum [1]. Chipotle generated $1,922.1M of operating cash in nine months and repurchased $1,464.9M of stock [4].",
+      "Capital needs differ by model. McDonald's guides to about $3.7B of 2026 capex [9]; Starbucks' fiscal 2026 capex fell to $1,263.6M from $2,305.5M [1]. Chipotle opens 350 to 370 restaurants a year, mostly with a Chipotlane [4]. Franchisors need less capital per unit.",
+      "Damodaran's January 2026 data show 17.49x EV/EBITDA for restaurant firms with positive EBITDA (21.40x for all firms) and 30.15x EV/EBIT [7]. At sector level, FactSet's forward P/E for Consumer Discretionary was 25.1 on 13 Nov 2026 [8]. Those are group or sector measures, not single-company multiples."
+    ],
+    "risks": [
+      "Labor rules are the main regulatory risk. California's $20 fast food minimum is overseen by a council that, per a February 2026 analysis, had not met with all nine members since early 2025 [11], so future increases are uncertain. NRA also cites evolving immigration policies as a cost pressure [12]. Food safety rules and menu-labeling laws also apply, though we did not find sourced updates.",
+      "AI and technology affect ordering, kitchens and pricing. We found no sourced figures on AI adoption in restaurants. Digital already matters: 38.8% of Chipotle's food and beverage revenue [4] and over $11B of McDonald's Q3 sales to loyalty members [2]. In our view, AI is more likely to change operations and marketing than replace restaurants.",
+      "Demographics matter through population growth, age mix and household size. We found no sourced figures here. NRA notes cooling hiring is tightening budgets of low- and middle-income households, a key customer group [12]. Our view is that younger diners' preferences for value and convenience drive the biggest effect.",
+      "Consumer behavior is shifting toward value and, in some cases, premium experiences. McDonald's is testing an entry-level value offer [9] while Starbucks' comparable sales rose 7.2% [1]. NRA said 60% of operators reported decreased traffic in 2025 [12]. Price sensitivity remains high as food away from home rose 3.5% [6].",
+      "New competitors include convenience stores, grocers' prepared food, ghost kitchens and delivery-led brands. We did not find sourced share data. Within the group, challengers can scale fast, but incumbents have more capital: McDonald's targets 50,000 restaurants by end of 2028 [9] and Chipotle plans up to 370 openings in 2026 [4].",
+      "Geopolitics and supply chains matter through commodity prices, freight and international exposure. Chipotle cited beef and freight [10]. McDonald's had 8,395 restaurants in China [9], while its Developmental Licensed markets grew comparable sales 4.2% [2]. A single ingredient can disrupt: Taco Bell's outbreak was traced to iceberg lettuce [3].",
+      "Substitutes are home cooking, grocery prepared meals and meal kits. Food at home inflation was 1.8% against 3.5% for food away from home in the year to September 2026 [6], which widens the price gap and makes cooking at home more attractive. Restaurants answer with value offers and loyalty programs [2]."
+    ],
+    "horizon": {
+      "opportunities": [
+        "Unit growth and franchising can keep lifting revenue with little capital: McDonald's targets 50,000 restaurants by end of 2028 and Starbucks plans about 1,200 net new coffeehouses in fiscal 2027 [9][1].",
+        "Value offers and loyalty can restore traffic: McDonald's is testing entry-level value in about 1,900 U.S. restaurants with a national launch targeted for early 2027 [9].",
+        "Digital ordering is growing, at 38.8% of Chipotle's food and beverage revenue versus 36.7% a year earlier [4].",
+        "Turnarounds can rebuild margin: Starbucks' non-GAAP operating margin rose 460 basis points to 14.0% in fiscal Q4 [1]."
+      ],
+      "threats": [
+        "Weak low-income consumers and falling traffic: NRA reported 60% of operators saw decreased traffic in 2025 [12].",
+        "Food and labor inflation: food away from home rose 3.5% in the year to September 2026 and Chipotle's margin fell on beef, freight and labor [6][10].",
+        "Wage mandates, such as California's $20 fast food minimum, can raise costs [11].",
+        "Food safety events can hit a brand quickly, as Taco Bell's first quarterly comparable decline since Q2 2020 showed [3]."
+      ],
+      "assessment": "Over three to five years we think restaurants grow modestly in the aggregate, with real industry growth forecast at only 1.3% in 2026 [12], so winners will be chains that add units, hold traffic with value and keep margin. Franchisors with global unit targets, such as McDonald's, should keep steady fee growth [9]. Operators face a harder margin test: Chipotle's restaurant-level margin fell to 23.3% [4], while Starbucks is rebuilding profit after restructuring [1]. Our view is that traffic, not price, will decide which chains earn their valuations, since menu price increases are already running ahead of food at home [6]."
+    }
+  },
+  "sections": [
+    {
+      "id": "macro",
+      "paragraphs": [
+        "Restaurants are consumer discretionary at the margin, so they follow household income, jobs and prices. The National Restaurant Association forecasts about $1.55T of 2026 sales but only 1.3% real growth, and notes that a cooling job market is tightening budgets for low- and middle-income households [12]. Monthly Census data still show growth: food services and drinking places were $92.9B in October 2026 (seasonally adjusted advance estimate), up from $90.1B in June, about 3.1% in four months by our calculation [13].",
+        "Inflation matters both ways. BLS showed food away from home up 3.5% in the 12 months to September 2026 against 1.8% for food at home, with all items up 3.7% [6]. October food away from home rose 0.5% on the month, though BLS could not publish 12-month changes for October because it did not collect October 2025 data during a lapse in appropriations [16]. We did not find a sourced interest-rate path or currency view for the group. Our read is that menu prices are outrunning grocery prices, which supports value-seeking and puts traffic, not check, at the center of the cycle."
+      ]
+    },
+    {
+      "id": "demand",
+      "paragraphs": [
+        "Structural demand rests on eating-out habits, convenience and unit growth. NRA projects $1.55T in 2026 sales and 15.8M employees, with real growth of 1.3% [12]. That is slow growth for a large base, so chains grow mostly by adding units, franchising and digital. McDonald's had 46,554 restaurants at 30 Sep 2026 and aims for 50,000 by end of 2028 [9]. Starbucks plans about 1,200 net new coffeehouses in fiscal 2027 [1].",
+        "Demand is cyclical and elastic at the low end. McDonald's U.S. comparable sales were down 0.2% in Q3 2026 as negative guest counts were largely offset by check growth [2], while Starbucks posted a 7.2% comp with transactions up 1.8% [1]. In casual dining, Darden's LongHorn grew same-restaurant sales 6.2% against 1.1% at Olive Garden [5]. Demographics matter modestly; we did not find a sourced demographic dataset, so we treat age and household size as slow variables. Long-term, our view is that international and licensed markets grow faster: McDonald's Developmental Licensed comparable sales were up 4.2% [2]."
+      ]
+    },
+    {
+      "id": "structure",
+      "paragraphs": [
+        "Using Porter's five forces: rivalry is intense and price-led, with McDonald's testing an entry-level value offer in about 1,900 U.S. restaurants [9]. Threat of new entrants is high for single restaurants but low for national chains, which need brand, sites and supply contracts. Buyer power is high, as diners switch easily; NRA says 60% of operators saw decreased traffic in 2025 [12]. Supplier power is moderate: Chipotle cited beef and freight costs [10]. Substitutes include home cooking and grocery prepared food, with food at home inflation of 1.8% versus 3.5% for food away from home [6].",
+        "Concentration is high at the top and low overall. McDonald's has 46,554 restaurants [9], Starbucks 41,607 coffeehouses [1] and Yum's KFC alone opened 878 restaurants in Q3 [3]. We found no sourced market-share table. Moats are brand, scale, real estate and franchise networks. Pricing power is uneven: Starbucks' ticket rose 5.2% [1] while Taco Bell's same-store sales fell 4% after a food safety event [3]."
+      ]
+    },
+    {
+      "id": "environment",
+      "paragraphs": [
+        "Regulation centers on labor. California's fast food council set a $20 hourly minimum for most fast food workers, and a February 2026 analysis said the council had not met with all nine members present as of December 2025, so further increases are uncertain [11]. NRA lists food and labor costs and evolving immigration policies among operators' pressures [12]. We did not find sourced details on tariff effects or on federal tip and overtime rules, so we do not quantify them.",
+        "Technology is mainly digital ordering, loyalty and kitchen automation. Digital was 38.8% of Chipotle's food and beverage revenue [4], and McDonald's recorded over $11B of Q3 sales to loyalty members [2]. Social factors include health trends and food safety: Taco Bell's July outbreak, traced to iceberg lettuce, cut its comparable sales by 4% [3]. Environmental and supply factors show up in commodity costs such as beef [10]. Our view is that labor policy and food safety are the two most likely sources of sudden shocks, while AI is a slower efficiency story we cannot size from sources."
+      ]
+    },
+    {
+      "id": "economics",
+      "paragraphs": [
+        "Margins depend on the model. Damodaran's January 2026 data for 64 US restaurant/dining firms show a 32.24% gross margin, 19.47% EBITDA margin, 15.79% pre-tax operating margin and 9.37% net margin [14]. Chipotle's restaurant-level margin was 23.3% and its operating margin 13.7% [4], while McDonald's Q3 operating income of $3,595M on revenue of $7,157M gives a 50.2% margin by our calculation [2]. Starbucks' fiscal 2026 non-GAAP operating margin was 11.9%, up 200 basis points [1].",
+        "Operating leverage is high: a few points of traffic move margins. Chipotle's labor cost rose to 25.7% of revenue from 25.2% [4]. Capital intensity differs: McDonald's guides to about $3.7B of 2026 capex [9] and Starbucks' capex fell to $1,263.6M from $2,305.5M [1]. Starbucks generated about $3.7B of free cash flow in fiscal 2026 by our sum [1]. Damodaran's data show debt at 21.4% of capital [15]. We did not find a reliable industry ROE or ROIC."
+      ]
+    },
+    {
+      "id": "earnings",
+      "paragraphs": [
+        "Sub-industry consensus was not publicly available in the sources we opened. At sector level, FactSet reported Consumer Discretionary's Q3 2026 net profit margin at 10.0% against 10.2% a year earlier, and revenue 0.2% above estimates [8]. Company results diverged: McDonald's EPS rose 10% to $3.51 [2], Chipotle's fell to $0.27 from $0.29 [4], and Starbucks' non-GAAP EPS rose 53.8% to $0.80 [1].",
+        "Guidance is cautious to constructive. Starbucks guides fiscal 2027 non-GAAP EPS of $3.15 to $3.25 and North America comparable sales of about 4.0% [1]. Darden reaffirmed fiscal 2027 EPS of $11.10 to $11.35 [5]. Chipotle kept low-single-digit comparable growth [4]. McDonald's release gave no full-year guidance [2]. Our read: consensus likely hinges on traffic recovery at McDonald's and Taco Bell, and margin risk sits with operators such as Chipotle."
+      ]
+    },
+    {
+      "id": "valuation",
+      "paragraphs": [
+        "We found no forward P/E or FCF yield specific to Restaurants. At the sector level, FactSet put Consumer Discretionary's forward 12-month P/E at 25.1 on 13 Nov 2026, the highest of the 11 sectors, versus 18.3 for the S&P 500, whose 5-year average is 19.8 and 10-year 19.1 [8]. That sector figure is dominated by non-restaurant companies.",
+        "Damodaran's January 2026 data for 64 US restaurant/dining firms show 17.49x EV/EBITDA for firms with positive EBITDA, 21.40x for all firms, and 30.15x EV/EBIT [7]. The cost of capital is 7.16% with a beta of 0.92 [15]. We did not find a sourced multiple history for the group, so we cannot say whether it trades above its own average. In our view, a roughly 17.5x EV/EBITDA looks like a premium to a defensive, mature business with 1.3% real industry growth [12], and implies that investors pay for franchise fee streams and unit growth. Starbucks' fiscal 2027 non-GAAP EPS guide of $3.15 to $3.25 would let a reader compute a company-level multiple [1]."
+      ]
+    },
+    {
+      "id": "positioning",
+      "paragraphs": [
+        "We did not find a restaurant-only ETF page we could open. The Invesco Leisure and Entertainment ETF (PEJ) is a partial proxy: it held 33 stocks and $385.22M in assets, with Starbucks at 5.11% and Sysco at 4.69% among its top ten, with holdings dated 13 Nov 2026 and price data to 17 Nov 2026 [17]. It is a broader leisure fund, not a restaurant fund. We found no sourced short-interest, flow or breadth data for the group.",
+        "Momentum signals come from company reports. Starbucks' stock-specific story is a rebound, with non-GAAP EPS up 53.8% [1]. Taco Bell's first quarterly comparable decline since Q2 2020 and McDonald's negative U.S. comparable sales weigh on the large franchisors [3][2]. Chipotle repurchased $110.0M of stock in Q3 at an average $34.05 and has $1.6B of authorization left [4]; Darden bought back $222.3M [5]. We read buybacks as management confidence, not as positioning data."
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "n": 1,
+      "title": "Starbucks Reports Q4 and Full Fiscal Year 2026 Results (Form 8-K exhibit 99.1)",
+      "publisher": "Starbucks / SEC",
+      "date": "2026-10-29",
+      "url": "https://www.sec.gov/Archives/edgar/data/0000829224/000082922426000154/sbux-09272026xearningsrele.htm"
+    },
+    {
+      "n": 2,
+      "title": "McDonald's Reports Third Quarter 2026 Results (Form 8-K exhibit 99.1)",
+      "publisher": "McDonald's / SEC",
+      "date": "2026-11-04",
+      "url": "https://www.sec.gov/Archives/edgar/data/0000063908/000006390826000080/exhibit991-9302026.htm"
+    },
+    {
+      "n": 3,
+      "title": "Cyclospora outbreak weighed heavy on Taco Bell in the third quarter",
+      "publisher": "Nation's Restaurant News",
+      "date": "2026-11-03",
+      "url": "https://www.nrn.com/quick-service/cyclospora-outbreak-weighed-heavy-on-taco-bell-in-the-third-quarter"
+    },
+    {
+      "n": 4,
+      "title": "Chipotle Announces Third Quarter 2026 Results (Form 8-K exhibit 99.1)",
+      "publisher": "Chipotle / SEC",
+      "date": "2026-10-28",
+      "url": "https://www.sec.gov/Archives/edgar/data/0001058090/000105809026000103/cmg-20261028xex991.htm"
+    },
+    {
+      "n": 5,
+      "title": "Darden Restaurants Reports $3.2 Billion In Q1 Sales And Reaffirms Fiscal 2027 Earnings Outlook",
+      "publisher": "Pulse 2.0",
+      "date": "2026-09-26",
+      "url": "https://pulse2.com/darden-restaurants-reports-3-2-billion-in-q1-sales-and-reaffirms-fiscal-2027-earnings-outlook/"
+    },
+    {
+      "n": 6,
+      "title": "Consumer Price Index, September 2026",
+      "publisher": "U.S. Bureau of Labor Statistics",
+      "date": "2026-10-14",
+      "url": "https://www.bls.gov/news.release/archives/cpi_10142026.htm"
+    },
+    {
+      "n": 7,
+      "title": "EV/EBITDA multiples by sector (US), January 2026",
+      "publisher": "Aswath Damodaran, NYU Stern",
+      "date": "2026-01-01",
+      "url": "https://pages.stern.nyu.edu/~adamodar/New_Home_Page/datafile/vebitda.html"
+    },
+    {
+      "n": 8,
+      "title": "FactSet Earnings Insight, 13 November 2026",
+      "publisher": "FactSet",
+      "date": "2026-11-13",
+      "url": "https://advantage.factset.com/hubfs/Website/Resources%20Section/Research%20Desk/Earnings%20Insight/EarningsInsight_111326.pdf"
+    },
+    {
+      "n": 9,
+      "title": "McDonald's Q3 2026 earnings and SEC filing analysis",
+      "publisher": "sec-api.io",
+      "date": "2026-11-04",
+      "url": "https://sec-api.io/insights/mcdonald-s-mcd-q3-2026-earnings-sec-filing-analysis-us-guest-counts-value-reset-and-the-2028-unit-target"
+    },
+    {
+      "n": 10,
+      "title": "Chipotle turns in third straight quarter of positive transactions",
+      "publisher": "Nation's Restaurant News",
+      "date": "2026-10-28",
+      "url": "https://www.nrn.com/fast-casual/chipotle-turns-in-third-straight-quarter-of-positive-transactions"
+    },
+    {
+      "n": 11,
+      "title": "California Fast Food Council, which commands a budget of $1.1 million, was dormant for most of 2025",
+      "publisher": "Bailey Law",
+      "date": "2026-02-26",
+      "url": "https://www.bailey.law/insights/2026/2/26/california-fast-food-council-which-commands-a-budget-of-11-million-was-dormant-for-most-of-2025"
+    },
+    {
+      "n": 12,
+      "title": "Report: restaurant and foodservice sales to hit $1.55T in 2026 despite challenging business environment",
+      "publisher": "National Restaurant Association",
+      "date": "2026-02-13",
+      "url": "https://restaurant.org/education-and-resources/resource-library/report-sales-to-hit-$1-55t-in-2026-despite-challenging-business-environment/"
+    },
+    {
+      "n": 13,
+      "title": "Advance Retail Sales: Food Services and Drinking Places (RSFSDP)",
+      "publisher": "U.S. Census Bureau via FRED",
+      "date": "2026-11-17",
+      "url": "https://fred.stlouisfed.org/series/RSFSDP"
+    },
+    {
+      "n": 14,
+      "title": "Margins by sector (US), January 2026",
+      "publisher": "Aswath Damodaran, NYU Stern",
+      "date": "2026-01-01",
+      "url": "https://pages.stern.nyu.edu/~adamodar/New_Home_Page/datafile/margin.html"
+    },
+    {
+      "n": 15,
+      "title": "Cost of capital by sector (US), January 2026",
+      "publisher": "Aswath Damodaran, NYU Stern",
+      "date": "2026-01-01",
+      "url": "https://pages.stern.nyu.edu/~adamodar/New_Home_Page/datafile/wacc.html"
+    },
+    {
+      "n": 16,
+      "title": "Consumer Price Index, October 2026",
+      "publisher": "U.S. Bureau of Labor Statistics",
+      "date": "2026-11-10",
+      "url": "https://www.bls.gov/news.release/cpi.nr0.htm"
+    },
+    {
+      "n": 17,
+      "title": "Invesco Leisure and Entertainment ETF (PEJ) holdings",
+      "publisher": "StockAnalysis",
+      "date": "2026-11-17",
+      "url": "https://stockanalysis.com/etf/pej/holdings/"
+    }
+  ]
+}
