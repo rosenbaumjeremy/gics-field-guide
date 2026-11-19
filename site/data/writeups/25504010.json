@@ -1,0 +1,462 @@
+{
+  "code": "25504010",
+  "added": "2026-11-19",
+  "asOf": "2026-11-18",
+  "summary": "Apparel retail is splitting in two. Off-price chains are taking share: TJX's comparable sales rose 4% in its October quarter, with Marmaxx up 2% [1], and Ross guides Q3 comps up 6% to 7% after a 10% gain in Q2 [3]. Full-price specialty is mixed: Gap's Q2 comps fell 1% with Old Navy down 4% [4], while Abercrombie's were flat [5]. Reported profits are inflated by one-off refunds of tariffs struck down in February [4][5]. Strip those out and TJX's pretax margin fell 0.2 points on freight and fuel [1], while Gap's adjusted gross margin rose 20 bps [4]. TJX trades at about 25x forward earnings, Ross at 26.6x, Burlington at 20.6x and Gap at under 8x [18][19][20][21].",
+  "metrics": [
+    {
+      "label": "TJX Q3 FY27 net sales",
+      "value": "$15.95B",
+      "context": "Up 6%; comparable sales +4% (Marmaxx +2%); quarter ended 31 Oct 2026",
+      "source": 1
+    },
+    {
+      "label": "TJX adjusted pretax margin (Q3)",
+      "value": "12.5%",
+      "context": "Down 0.2 points; reported 13.0% includes tariff refunds; adjusted gross margin hit by freight and fuel",
+      "source": 1
+    },
+    {
+      "label": "Ross Q3 comp guidance",
+      "value": "+6% to +7%",
+      "context": "After +10% comps in Q2 (quarter ended 1 Aug 2026); Q4 guided +4% to +5%",
+      "source": 3
+    },
+    {
+      "label": "Gap Inc. Q2 comparable sales",
+      "value": "-1%",
+      "context": "Old Navy -4%, Gap +10%, Banana Republic +3%, Athleta -12%; adjusted operating margin 7.1%",
+      "source": 4
+    },
+    {
+      "label": "Abercrombie FY2026 operating margin guide",
+      "value": "14.5% to 15.0%",
+      "context": "Includes about $100M of IEEPA tariff refunds in Q2; Q2 comps flat",
+      "source": 5
+    },
+    {
+      "label": "Damodaran pre-tax operating margin",
+      "value": "7.7%",
+      "context": "Retail (Special Lines), 94 US firms, Jan 2026; total market 12.8%",
+      "source": 8
+    },
+    {
+      "label": "Forward P/E, TJX vs Ross vs Burlington",
+      "value": "25.0x / 26.6x / 20.6x",
+      "context": "Closing prices, 18 Nov 2026",
+      "source": 18
+    },
+    {
+      "label": "SPDR S&P Retail ETF (XRT) forward P/E",
+      "value": "14.8x",
+      "context": "YTD +4.75% to 31 Oct 2026; net assets $640M at 17 Nov 2026",
+      "source": 17
+    }
+  ],
+  "watch": [
+    "Ross reports Q3 shortly; it has guided comps up 6% to 7% after a 10% Q2, so the bar is high [3].",
+    "Holiday season: NRF forecasts November-December retail sales up 4.2% to $1.013 trillion, but warns that gas prices, inflation and debt are squeezing budgets unevenly [15].",
+    "Tariff regime: temporary Section 122 duties expired on 24 July and were replaced by Section 301 duties of 10% to 12.5% on 60 economies [16].",
+    "Quality of earnings: Gap, Abercrombie, TJX and Burlington all booked IEEPA refunds, so reported margins overstate the run rate [1][4][5].",
+    "Rates and gasoline: the Fed held at 3.75% to 4.00% with two dissenters wanting a hike, and gasoline was up 37.4% year on year in October [13][14]."
+  ],
+  "bellwethers": [
+    "TJX Companies",
+    "Ross Stores",
+    "Burlington Stores",
+    "Gap Inc.",
+    "Abercrombie & Fitch",
+    "American Eagle Outfitters",
+    "Urban Outfitters",
+    "Victoria's Secret"
+  ],
+  "basics": {
+    "intro": "Apparel retailers buy clothing, shoes and accessories from brands and factories, or design their own, and sell them to shoppers through stores and websites. They earn the gap between what the goods cost and the shelf price, then try to keep rent, labour and markdowns below that gap. GICS puts the stores here, not the brand owners that make and wholesale clothes (Textiles, Apparel & Luxury Goods), nor department stores and general merchants (Broadline Retail). Off-price chains such as TJX sit here too, selling branded apparel and home goods.",
+    "products": [
+      {
+        "name": "Off-price apparel",
+        "what": "Brand-name clothing, shoes and home goods bought opportunistically from brands and other retailers and sold at steep discounts to regular prices. Customers hunt for bargains, so stock turns over fast.",
+        "examples": "TJ Maxx, Marshalls, Ross Dress for Less, Burlington"
+      },
+      {
+        "name": "Mass-market specialty chains",
+        "what": "Retailers selling mostly their own-brand clothing, designed in-house and made by contract factories, at moderate prices through malls, strip centres and online.",
+        "examples": "Gap, Old Navy, Banana Republic, American Eagle, Abercrombie & Fitch, Hollister"
+      },
+      {
+        "name": "Teen and young-adult fashion",
+        "what": "Trend-led chains that change assortments often and rely on social media and mall traffic. Fashion misses show up quickly in markdowns.",
+        "examples": "Urban Outfitters, American Eagle, Hollister"
+      },
+      {
+        "name": "Intimates and activewear",
+        "what": "Focused brands in a single category, selling bras, underwear, loungewear or athletic clothing, often with strong brand loyalty and their own stores.",
+        "examples": "Victoria's Secret, Athleta (Gap Inc.)"
+      },
+      {
+        "name": "E-commerce and omnichannel",
+        "what": "Websites and apps that sell the same goods as the stores, with delivery or store pick-up. Returns and shipping cost more than in-store sales.",
+        "examples": "tjmaxx.com, oldnavy.com, abercrombie.com"
+      }
+    ],
+    "terms": [
+      {
+        "term": "Comparable sales (comps)",
+        "meaning": "Sales growth at stores and sites open at least a year. It strips out the effect of opening new stores and is the main health check for a retailer."
+      },
+      {
+        "term": "Off-price",
+        "meaning": "A model that buys branded goods at a discount from closeouts, cancelled orders and overruns, and passes part of the saving to shoppers, with no promotions."
+      },
+      {
+        "term": "Opportunistic buying",
+        "meaning": "Buying goods close to when they are needed, as the supply appears, rather than placing orders a year ahead. It lowers the risk of being stuck with unsold fashion."
+      },
+      {
+        "term": "Markdown",
+        "meaning": "A price cut to clear unsold goods. Rising markdowns signal weak demand or poor buying and hit gross margin directly."
+      },
+      {
+        "term": "Gross margin",
+        "meaning": "Sales minus the cost of goods (and, at some retailers, buying, freight and occupancy costs), as a share of sales. Higher in own-brand retailers, lower at off-price."
+      },
+      {
+        "term": "Inventory turnover",
+        "meaning": "How many times a year a retailer sells through its stock. Fast turnover means fresher goods, fewer markdowns and less cash tied up."
+      },
+      {
+        "term": "Landed cost",
+        "meaning": "What a garment costs by the time it arrives in the US: factory price, freight, insurance and import duties. Tariffs raise it directly."
+      },
+      {
+        "term": "Packaway",
+        "meaning": "Off-price goods bought at a discount and stored for sale in a later season, which smooths supply."
+      },
+      {
+        "term": "Cannibalization",
+        "meaning": "New stores taking sales from nearby existing stores of the same chain, which lowers comps even when total sales rise."
+      },
+      {
+        "term": "Operating leverage",
+        "meaning": "Because rent and payroll are largely fixed, extra sales raise profit faster than sales, and a sales drop cuts it faster too."
+      },
+      {
+        "term": "IEEPA tariffs",
+        "meaning": "Import duties imposed under an emergency-powers law that the Supreme Court ruled unlawful in February 2026. Importers who paid them can claim refunds."
+      },
+      {
+        "term": "Sourcing mix",
+        "meaning": "Which countries a retailer's goods come from. Vietnam, Bangladesh and China lead for apparel, so changes in duties on those countries matter."
+      }
+    ],
+    "drivers": [
+      {
+        "name": "Consumer income and confidence",
+        "how": "Clothing is a discretionary purchase, so spending follows jobs, wages and gasoline prices. Squeezed households trade down, which helps off-price chains and hurts full-price mall brands."
+      },
+      {
+        "name": "Tariffs and trade policy",
+        "how": "Most clothing is imported, so duties raise landed cost. Retailers pass some of it into prices, absorb some, and push vendors to share it, which moves gross margin within a few quarters."
+      },
+      {
+        "name": "Markdowns and inventory control",
+        "how": "Buying too much forces discounts. Lean inventories keep prices full and margins up, so inventory growth against sales is a closely watched signal."
+      },
+      {
+        "name": "Store openings",
+        "how": "Off-price chains add stores steadily, which lifts total sales, while very high store density can lower comps through cannibalization."
+      },
+      {
+        "name": "Freight, fuel and wages",
+        "how": "Shipping and fuel costs enter cost of goods; wages and rent sit in operating expenses. Both are hard to pass on in full, so they squeeze margins in inflationary periods."
+      },
+      {
+        "name": "Fashion and brand heat",
+        "how": "Own-brand retailers rise and fall with whether shoppers like this season's product. A hit brand can post double-digit comps; a miss leads to markdowns."
+      }
+    ]
+  },
+  "fundamentals": {
+    "business": [
+      "Retailers earn revenue by selling apparel and accessories to the public through stores and websites. TJX's Marmaxx segment alone had net sales of $9.11B in its July 2026 quarter, up 3% [2]. Own-brand chains such as Gap Inc. sell mostly their own brands; Gap's Q2 net sales were $3.65B across four brands [4].",
+      "Customers are overwhelmingly individual consumers, mostly shopping for family apparel. Segments differ by income and age: off-price draws value-seekers across incomes, Old Navy targets families, Abercrombie and Hollister target teens and young adults. Abercrombie & Fitch says its record Q2 sales were its 15th consecutive quarter of growth [5].",
+      "The largest cost is the merchandise itself, followed by occupancy (rent), store labour, freight and marketing. TJX describes a low-cost model with advertising focused on banners rather than products and stores built without heavy fixtures [6]. Freight and fuel cut TJX's adjusted gross margin by 0.5 points in Q3 [1].",
+      "Pricing power rests on brand heat and on value. Abercrombie's roughly 71% gross margin (inflated by tariff refunds and defined before depreciation) versus TJX's 32.9% shows, though not like for like, how differently positioned own-brand and off-price models are [1][5]. TJX prices 20% to 60% below full-price retailers on comparable goods and does not run promotions [6]. Mall brands depend on product appeal and often discount.",
+      "The main assets are inventory and store leases. TJX held $9.8B of inventory at 31 Oct 2026 [1], and at 1 Aug 2026 operating lease right-of-use assets of $11.2B against lease liabilities of about $11.4B [7]. Leases are the biggest liability, ahead of long-term debt of $1.9B [7].",
+      "Mostly asset-light compared with industry, but store-heavy. Damodaran puts net capex at 2.1% of sales for apparel and 1.6% for special-line retail, against 4.2% for the whole market [11]. Stores are leased rather than owned, so the real commitment sits in lease liabilities. Gap guides capex of about $650M for fiscal 2026 [4]."
+    ],
+    "overview": [
+      "One estimate values the US apparel market at about $366B in 2025, growing around 2% a year to 2035 [22]. Treat this as a rough guide, since market-research firms define the market differently. Store sales are only part of the total, and online marketplaces are the fastest-growing channel in that estimate at 3.1% a year [22].",
+      "Main segments are off-price, mass-market and teen specialty chains, intimates and activewear brands, and online sellers. Women's apparel is the largest product type, at 48% of the market in one estimate, and mid-market price points hold 40% [22]. Retailers like TJX also sell home goods, which is a separate large profit pool [6].",
+      "Retailers sit between brands or factories and consumers. Suppliers are thousands of manufacturers and brands; TJX alone buys from about 21,000 vendors in more than 100 countries [6]. Own-brand chains commission contract factories mainly in Asia, so US imports of main apparel categories (about $72.7B in 2025) are the key upstream flow [22].",
+      "The industry moved from department stores and malls toward off-price, value and online. TJX has grown to 5,349 stores and targets 7,500 long term, up 500 from its earlier goal [1][2]. Ross plans 115 new stores in 2026 [3]. Meanwhile own-brand mall chains grow slowly: Gap guides 2026 net sales up just 1% to 1.5% [4].",
+      "Sales are concentrated in the US, with large chains also in Canada and Europe. TJX's Q2 sales split into Marmaxx at $9.11B, HomeGoods $2.51B, Canada $1.47B and International $2.09B [2]. Production is concentrated in Asia: Vietnam supplied 26.6% of man-made fibre garment imports and Bangladesh 15.3% of cotton garment imports by value in 2025 [22]."
+    ],
+    "competition": [
+      "There are hundreds of apparel retailers, but a few dozen significant public chains in the US. The sub-industry includes TJX, Ross, Burlington, Gap Inc., Abercrombie, American Eagle, Urban Outfitters and Victoria's Secret, among others [17][20]. Many private and international players, plus online-only sellers, also compete.",
+      "TJX is the largest, with 5,349 stores and Q3 net sales of $15.95B [1]. Ross follows with about $6.3B of quarterly sales [3], then Gap Inc. at $3.65B [4], and Abercrombie at about $1.27B [5]. We found no public market-share table for apparel retail, so ranking here is by sales.",
+      "The industry is fragmented overall but concentrated in off-price, where TJX, Ross and Burlington dominate. Apparel retail as a whole competes with department, specialty, off-price, discount, warehouse and outlet stores plus online sellers, as TJX's filing lists [6]. No single retailer sets prices for the whole market.",
+      "Entry is easy, scale is hard. Anyone can open a website, but TJX built buying relationships with about 21,000 vendors and a 31 million square foot distribution network over decades [6]. Off-price needs vendors willing to sell surplus goods, and mall brands need product heat that is hard to manufacture. Capital need is modest [11].",
+      "Scale helps in sourcing, distribution, vendor access and technology. TJX's buying organisation of over 1,400 Associates covers more than 100 countries [6]. Scale also helps spread fixed costs, and the largest off-price chains post operating margins near 12.7% to 12.8% while a mid-sized peer like Burlington earns 7.8% [18][19][20].",
+      "Mostly differentiated at the brand level but commoditized for basics. Own-brand apparel (Abercrombie, Gap) rests on brand and design, while off-price sells other people's brands and competes on price and selection. Gap's Gap brand comps rose 10% while Old Navy fell 4% in the same quarter, showing how much product relevance matters within one company [4].",
+      "Suppliers are numerous, so buyers have the upper hand with vendors, but customers have the real power: shoppers switch easily and prices are visible online. Large retailers like TJX can demand cost-sharing; Gap booked about $95M of vendor appreciation commitments tied to its tariff refunds, showing that suppliers also share the cost of trade shocks [4]."
+    ],
+    "drivers": [
+      "Revenue growth comes from comparable sales (traffic, ticket) and new stores. TJX comps were 4% in Q3 with 64 net new stores in the quarter [1]; Ross added transactions to reach 10% comps in Q2 [3]. Own-brand chains rely more on brand relevance: Abercrombie's sales grew 5% on flat comps, which means growth came from new space and other sources [5].",
+      "Operating margins depend on gross margin (markdowns, tariffs, freight) minus occupancy and labour. TJX's adjusted pretax margin was 12.5% in Q3 [1]; Gap's adjusted operating margin was 7.1% in Q2 [4]. Damodaran's pre-tax margin for special-line retail is 7.7% against 12.8% for the whole market [8].",
+      "Key costs are merchandise, freight and fuel, wages and rent, and tariffs. TJX cited higher freight and fuel as the reason adjusted gross margin fell 0.5 points [1]. Gasoline was up 37.4% year on year in October [14]. Refunds of earlier tariffs are now reversing part of that cost in reported numbers [4][5].",
+      "Direct sensitivity is limited because stores are leased and debt is small relative to profits: Damodaran shows interest coverage of 13.5 for special-line retail [12]. Indirect sensitivity is larger: higher rates dampen housing turnover and consumer credit. The Fed held at 3.75% to 4.00% on 28 Oct 2026, with two members voting for a hike [13].",
+      "Apparel is sensitive to jobs, real incomes and prices. Unemployment has changed little and the Fed calls spending resilient [13], but the last full 12-month CPI reading was 3.7% in September and apparel prices rose 0.1% in October [14]. Commodity prices (cotton, oil for synthetics and freight) matter. NRF says inflation and gas prices will affect income groups differently [15].",
+      "Cyclical at the edges, but defensive within the cycle for off-price: shoppers trade down when budgets tighten. TJX and Ross have grown comps through recent volatility [1][3], while mall specialty and teen brands are more cyclical and fashion-dependent. There is no strong secular growth in total apparel spend, about 2% a year in one estimate [22]."
+    ],
+    "financials": [
+      "Growth is modest and company-specific. Damodaran's estimate of five-year expected earnings growth is 8.1% for special-line retail versus 14.0% for the whole market [10]. Recent top-line growth ranges from TJX's 6% in Q3 [1] and Abercrombie's 5% in Q2 [5] to Gap's 2% decline [4].",
+      "Gross margins vary by model: Damodaran's January 2026 data shows 35.3% for special-line retail and 56.9% for apparel (brand owners) [8]. TJX reports 32.1% adjusted gross margin [1]. Pre-tax operating margins are 7.7% for special-line retail and 9.1% for apparel [8], versus TJX's 12.5% adjusted pretax margin [1].",
+      "Returns on capital are high at off-price leaders. Damodaran's after-tax lease-adjusted ROIC is 21.7% for special-line retail and 15.8% for apparel [9]. StockAnalysis shows ROIC of 31.5% for TJX and 33.6% for Ross, against 10.2% for Burlington and 10.1% for Gap [18][19][20][21].",
+      "Leverage is moderate once leases are counted. Damodaran puts book debt to capital at 60.2% for special-line retail and 56.3% for apparel, with market debt-to-equity of 20.9% and 33.0% [12]. TJX had about $2.9B of debt at 1 Aug 2026 [7] and $4.6B of cash at 31 Oct 2026 [1]. Interest coverage is 13.5 for special-line retail [12].",
+      "Free cash flow is solid at the leaders. FCF yield was 3.9% for TJX, 3.8% for Ross, 2.6% for Burlington and 13.7% for Gap on 18 Nov 2026 [18][19][20][21]. Gap's yield is inflated by refunds and a low share price. TJX returned $1.5B to shareholders in Q3 and plans about $3.0B of buybacks this year [1].",
+      "Capital expenditure is low: Damodaran's net capex-to-sales is 1.6% for special-line retail and 2.1% for apparel, versus 4.2% for the whole market [11]. Gap guides about $650M this year [4]. Growth capex goes into new stores, distribution centres and technology, and leases carry the rest of the commitment [6].",
+      "Valuation multiples: Damodaran's forward P/E is 21.5 for special-line retail and 24.9 for apparel against 27.7 for the whole market, in January 2026 [10]. In Nov 2026, TJX trades at 25.0x forward, Ross 26.6x, Burlington 20.6x and Gap 7.8x [18][19][20][21]. The XRT ETF is at 14.8x [17]."
+    ],
+    "risks": [
+      "Trade policy is the largest regulatory risk. The Supreme Court voided IEEPA tariffs in February 2026, a temporary 10% Section 122 duty followed, and on 24 July Section 301 duties of 10% to 12.5% on 60 economies replaced it [16]. TJX's filing flags tariff and refund timing uncertainty [6].",
+      "AI and technology help with forecasting, pricing and marketing but also let competitors use the same tools; TJX's filing names AI among technologies competitors may integrate faster [6]. We did not find hard numbers on AI's effect on apparel retail earnings, so the effect is hard to quantify here.",
+      "Demographics matter little for total spend, since clothing is a staple that follows population and incomes. Younger shoppers drive trend-led chains like Abercrombie and Hollister, and Abercrombie has grown 15 consecutive quarters [5]. Broad population growth is slow, consistent with a roughly 2% annual market growth estimate [22].",
+      "Shoppers are trading down and hunting for value, which helps off-price: Ross comps were up 10% on higher transactions [3]. NRF says consumers will prioritize the holidays but stay mindful of budgets, with gasoline and inflation weighing on lower-income households [15]. Shifts toward online, resale and social-media-led fashion change where spending goes.",
+      "New competitors include online marketplaces and value platforms, where online marketplaces are the fastest-growing channel in one estimate [22], plus off-price entrants. Within off-price, rivals are adding stores quickly: TJX plans 4% annual store growth from fiscal 2028 and Ross plans 115 openings in 2026 [2][3].",
+      "Geopolitics and supply chains matter because supply comes from Asia: Vietnam and Bangladesh are the top sources for fibre and cotton garments [22]. Shipping disruption, port delays and fuel costs hit margins, as TJX's freight and fuel headwind shows [1]. Single-country concentration raises exposure to new duties [16].",
+      "Substitutes include second-hand and resale marketplaces, rental, direct-to-consumer brands and spending on experiences instead of clothing. The XRT ETF lists RealReal, a resale marketplace, among its top holdings, a sign of how mainstream resale has become [17]. Brand-owned stores and wholesale channels also substitute for multi-brand retailers."
+    ],
+    "horizon": {
+      "opportunities": [
+        "Off-price keeps taking share and expanding: TJX lifted its long-term target to 7,500 stores and plans 4% annual store growth from fiscal 2028 [2].",
+        "IEEPA refunds provide a one-time cash and profit windfall: Gap booked about $417M net and Abercrombie about $100M in Q2 [4][5].",
+        "Lower tariff costs than in 2025 and easing freight could rebuild gross margins at chains that cut prices or share costs with vendors [1][16].",
+        "International growth: TJX International comps rose 8% in Q3 [1]."
+      ],
+      "threats": [
+        "Section 301 duties replaced the temporary tariff on 24 July, which keeps landed-cost assumptions uncertain [16].",
+        "High gasoline prices (up 37.4% year on year in October) could squeeze shoppers and force deeper markdowns at mall chains [14][15].",
+        "Fashion misses at own-brand chains: Old Navy comps were down 4% and Athleta's down 12% in Q2 [4].",
+        "Rate risk if the Fed hikes, with two members already voting for it [13]."
+      ],
+      "assessment": "Over three to five years we think the sub-industry keeps its two-speed shape. Off-price chains have a long runway of new stores and a value proposition that suits stretched households, though high multiples already assume steady execution [1][2][18]. Mall and teen brands depend on product hits, and their margins depend on tariff policy that remains unsettled [4][16]. Today's reported profits overstate normal earnings because of refunds, so judging the next two years means looking through them [4][5]. Our read is that growth in total apparel spend stays near 2% a year, so winners must take share rather than ride the market [22]."
+    }
+  },
+  "sections": [
+    {
+      "id": "macro",
+      "paragraphs": [
+        "Where we are in the cycle: spending is resilient but uneven. The Fed held the federal funds range at 3.75% to 4.00% on 28 Oct 2026 by a 10-2 vote, with both dissenters wanting a quarter-point hike, and described growth as strong and inflation as elevated [13]. That is not the usual easing backdrop for discretionary retail. Higher rates matter less to apparel chains than to housing-linked retailers, because stores are leased and net debt is small, but they weigh on consumer credit [12].",
+        "Prices are the pressure point. apparel prices rose 0.1% in October and gasoline was up 37.4% from a year earlier [14]. The BLS did not publish most year-on-year comparisons for October because it collected no October 2025 data, so the latest 12-month headline is 3.7% for September [14]. NRF still forecasts holiday sales up 4.2% to $1.013 trillion, noting that part of that growth is inflation and that spending differs by income group [15]. Trade policy is the other macro lever: the temporary 10% Section 122 tariff lapsed on 24 July and Section 301 duties of 10% to 12.5% now apply to 60 economies [16]. We think the cycle favours value formats: off-price comps held up in the October quarter while mall-based brands diverged [1][3][4]."
+      ]
+    },
+    {
+      "id": "demand",
+      "paragraphs": [
+        "Structural demand is steady rather than fast. One market-research estimate puts US apparel at about $366B in 2025, rising at roughly 2% a year to 2035, with women's apparel 48% of the market and online marketplaces the fastest-growing channel at 3.1% a year [22]. We treat the dollar figure as indicative because definitions differ across providers.",
+        "Within that slow market, the growth sits in value. TJX increased its long-term store target by 500 to 7,500 and expects store growth to accelerate to 4% a year starting in fiscal 2028 [2]; its filing sees potential for 3,000 Marmaxx stores versus 2,603 at the end of fiscal 2026 [6]. Ross plans 115 new stores in 2026 [3]. Demand for clothing is moderately elastic: households delay purchases when budgets tighten but trade down rather than stop, which benefits off-price. Cyclicality is highest for teen and fashion-led brands. Demographics barely move total volume, so share shifts, not market growth, drive winners and losers."
+      ]
+    },
+    {
+      "id": "structure",
+      "paragraphs": [
+        "Porter's five forces point to a competitive but not hopeless industry. Rivalry is intense: TJX's filing lists department, specialty, off-price, discount, warehouse and outlet stores and online sellers as competitors [6]. Threat of new entrants is high for online brands but low for off-price at scale, which needs about 21,000 vendor relationships and a 31 million square foot distribution network [6]. Supplier power is low, since goods are widely sourced from many countries [6][22]. Buyer power is high because shoppers can compare prices instantly and switch brands. The threat of substitutes comes from resale, rental and other spending [17].",
+        "Concentration is meaningful at the top of off-price. TJX had 5,349 stores and $15.95B of Q3 sales [1]; Ross had $6.3B of Q2 sales [3]; Gap Inc. had $3.65B [4]; Abercrombie $1.27B [5]. We found no published market-share table, so we rank by sales. Moats differ: TJX's is buying scale and vendor trust (it pays promptly and does not ask for markdown allowances) [6]; Abercrombie's is brand, reflected in a guided FY2026 operating margin of 14.5% to 15.0% that includes refunds [5]. Pricing power is stronger in brands that are in fashion and weak for undifferentiated mall retailers."
+      ]
+    },
+    {
+      "id": "environment",
+      "paragraphs": [
+        "Politics and regulation are dominated by trade. The Supreme Court's February 2026 ruling that IEEPA tariffs were unlawful opened a path to refunds; TJX's filing says timing and administration are unknown [6]. By the August quarter refunds were flowing: Gap recorded about $512M gross, Abercrombie about $100M, and TJX recorded a $0.14 per share benefit in Q2 and $0.05 in Q3 [1][2][4][5]. From 24 July Section 301 duties of 10% to 12.5% replaced the temporary Section 122 tariff on 60 economies, [16].",
+        "Economic and social factors are covered above. Technological change cuts both ways: AI tools improve forecasting and marketing, but TJX lists AI among technologies competitors may adopt faster [6]. Environmental and legal exposure comes through vendor compliance, forced-labour rules and supply-chain audits; TJX notes its vendors have not always complied with its code of conduct [6]. Currency matters for international sales, as TJX International's comps of 8% show [1]. We think the biggest emerging risk is policy whiplash: duties that change faster than retailers can re-source."
+      ]
+    },
+    {
+      "id": "economics",
+      "paragraphs": [
+        "Retail economics are thin margin, high turnover. Damodaran's January 2026 data gives special-line retail a gross margin of 35.3%, a pre-tax operating margin of 7.7%, a net margin of 5.2% and EBITDA/sales of 9.9%, against 12.8% operating margin for the total market [8]. Apparel (brand owners) shows 56.9% gross margin but 9.1% operating margin [8]. At TJX the adjusted pretax margin was 12.5% in Q3 [1].",
+        "Returns are strong because capital intensity is low. Net capex is 1.6% of sales for special-line retail, 2.1% for apparel and 4.2% for the whole market [11]. After-tax lease-adjusted ROIC is 21.7% for special-line retail and 15.8% for apparel against 17.4% for the market [9]. Company screens show ROIC of about 31.5% at TJX and 33.6% at Ross but about 10% at Burlington and Gap [18][19][20][21]. Operating leverage works both ways: Gap's adjusted operating margin was 7.1% in Q2 on a 2% sales decline [4]. Free cash flow yields are 3.9% at TJX, 3.8% at Ross and 2.6% at Burlington [18][19][20]. Gap's reported operating margin of 18.5% was inflated by refunds, so we ignore it [4]."
+      ]
+    },
+    {
+      "id": "earnings",
+      "paragraphs": [
+        "Reported earnings are inflated by refunds, so quality matters. TJX's Q3 diluted EPS was $1.39 (up 9%) but adjusted EPS was $1.34 (up 5%) after a $0.05 refund benefit; adjusted gross margin fell 0.5 points on freight and fuel [1]. TJX guides Q4 comps up 2% to 3% and full-year comps up 4%, with full-year adjusted EPS of $5.17 to $5.20 [1].",
+        "Ross raised its outlook to comps of 6% to 7% in Q3 and 4% to 5% in Q4 after a 10% Q2 [3]. Abercrombie raised full-year EPS to $13.10 to $13.60 from $10.20 to $11.00, but most of the raise is refunds of about $1.75 per share; its operating margin guide is 14.5% to 15.0% [5]. Gap guides adjusted EPS of $2.35 to $2.45, net sales up 1% to 1.5% and Old Navy comps flat to down 1% [4].",
+        "Our read is that guidance across off-price implies decelerating comps into the fourth quarter (Ross 4% to 5%, TJX 2% to 3%) [1][3], and that investors will look past refunds to tariff-adjusted margins. We think consensus risk is greater for mall brands that depend on a strong holiday. We did not find consensus estimate tables for the group that we could open, so we do not state where we differ from them."
+      ]
+    },
+    {
+      "id": "valuation",
+      "paragraphs": [
+        "Valuation is split. On 18 Nov 2026, forward P/E was 25.0x for TJX, 26.6x for Ross, 20.6x for Burlington and 7.8x for Gap [18][19][20][21]. Gap's multiple is flattered by refund-inflated earnings and a 52-week price decline of 16.5% [21]. The SPDR S&P Retail ETF (XRT), a basket of many retail formats, trades at 14.8x [17].",
+        "Against history and the market, Damodaran's January 2026 forward P/E was 21.5 for special-line retail and 24.9 for apparel against 27.7 for all firms [10]. So TJX and Ross look full relative to the retail group, and justified only if their high returns on capital persist: ROIC is above 30% at both [18][19]. Their FCF yields of 3.9% and 3.8% are modest [18][19]. Expected five-year growth is 8.1% for special-line retail against 14.0% for the market [10], and the PEG ratio is 3.1 [10]. Our read is that off-price is priced for execution with little room for a comp miss, while Gap and Burlington carry lower expectations. We did not find 10-year average multiples for these names that we could open, so we do not compare them with their own history."
+      ]
+    },
+    {
+      "id": "positioning",
+      "paragraphs": [
+        "Momentum favours off-price. Ross shares were up 42.8% over 52 weeks to 18 Nov 2026, while TJX was down 3.4%, Burlington down 9.6% and Gap down 16.5% [18][19][20][21]. The XRT ETF returned 4.75% year to date to 31 Oct 2026 and 10.5% over one year, with net assets of $640M as of 17 Nov [17].",
+        "Short interest tells a story about conviction. Short interest as a share of float was 1.4% for TJX, 2.9% for Ross, 4.7% for Burlington and 11.8% for Gap [18][19][20][21]. The high short interest at Gap reflects doubts about Old Navy and Athleta [4]. XRT's top holdings are spread across formats (Upbound, Academy Sports, RealReal, Kohl's and Victoria's Secret are each about 1.8%), so it is a broad retail proxy rather than an apparel one [17]. We did not find ETF flow data we could open.",
+        "Our read is that positioning is crowded in the best-known off-price names and sparse in specialty apparel, which means earnings surprises could move the latter more. Ross reports Q3 shortly with a 6% to 7% comp guide [3]."
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "n": 1,
+      "title": "TJX Q3 FY27 results (quarter ended 31 Oct 2026)",
+      "publisher": "TJX Companies / Yahoo Finance (Business Wire)",
+      "date": "2026-11-18",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/tjx-companies-inc-reports-q3-123000877.html"
+    },
+    {
+      "n": 2,
+      "title": "TJX Q2 FY27 results and guidance (quarter ended 1 Aug 2026)",
+      "publisher": "FashionUnited",
+      "date": "2026-08-20",
+      "url": "https://fashionunited.com/news/business/tjx-exceeds-q2-sales-forecasts-with-4-percent-comp-sales-growth/2026082074171"
+    },
+    {
+      "n": 3,
+      "title": "Ross Stores Q2 2026 results and raised outlook",
+      "publisher": "Retail TouchPoints",
+      "date": "2026-08-20",
+      "url": "https://www.retailtouchpoints.com/?p=621136"
+    },
+    {
+      "n": 4,
+      "title": "Gap Inc. Q2 fiscal 2026 results (Exhibit 99.1, Form 8-K)",
+      "publisher": "Gap Inc. / SEC",
+      "date": "2026-08-27",
+      "url": "https://www.sec.gov/Archives/edgar/data/0000039911/000162828026059262/q22026eprexhibit991.htm"
+    },
+    {
+      "n": 5,
+      "title": "Abercrombie & Fitch Q2 fiscal 2026 results (Form 8-K)",
+      "publisher": "Abercrombie & Fitch / SEC",
+      "date": "2026-08-26",
+      "url": "https://www.sec.gov/Archives/edgar/data/0001018840/000101884026000041/q22026pressrelease.htm"
+    },
+    {
+      "n": 6,
+      "title": "TJX Companies Form 10-K for fiscal year ended 31 Jan 2026",
+      "publisher": "TJX Companies",
+      "date": "2026-03",
+      "url": "https://www.tjx.com/docs/default-source/investor-docs/quarterly-results/tjx-fiscal-year-2026-form-10-K.pdf"
+    },
+    {
+      "n": 7,
+      "title": "TJX Companies Form 10-Q for quarter ended 1 Aug 2026",
+      "publisher": "TJX Companies / SEC",
+      "date": "2026-08",
+      "url": "https://www.sec.gov/Archives/edgar/data/0000109198/000010919826000048/tjx-20260801.htm"
+    },
+    {
+      "n": 8,
+      "title": "Margins by Sector (US), January 2026",
+      "publisher": "Aswath Damodaran, NYU Stern",
+      "date": "2026-01",
+      "url": "https://pages.stern.nyu.edu/~adamodar/New_Home_Page/datafile/margin.html"
+    },
+    {
+      "n": 9,
+      "title": "Return on Capital by Sector (US)",
+      "publisher": "Aswath Damodaran, NYU Stern",
+      "date": "2026-01",
+      "url": "https://pages.stern.nyu.edu/~adamodar/New_Home_Page/datafile/roc.html"
+    },
+    {
+      "n": 10,
+      "title": "PE Ratios by Sector (US), January 2026",
+      "publisher": "Aswath Damodaran, NYU Stern",
+      "date": "2026-01",
+      "url": "https://pages.stern.nyu.edu/~adamodar/New_Home_Page/datafile/pedata.html"
+    },
+    {
+      "n": 11,
+      "title": "Cash Flow Drivers by Sector (US), January 2026",
+      "publisher": "Aswath Damodaran, NYU Stern",
+      "date": "2026-01",
+      "url": "https://pages.stern.nyu.edu/~adamodar/New_Home_Page/datafile/cfbasics.html"
+    },
+    {
+      "n": 12,
+      "title": "Debt Fundamentals by Sector (US), January 2026",
+      "publisher": "Aswath Damodaran, NYU Stern",
+      "date": "2026-01",
+      "url": "https://pages.stern.nyu.edu/~adamodar/New_Home_Page/datafile/dbtfund.html"
+    },
+    {
+      "n": 13,
+      "title": "FOMC statement, 28 October 2026",
+      "publisher": "Federal Reserve Board",
+      "date": "2026-10-28",
+      "url": "https://www.federalreserve.gov/newsevents/pressreleases/monetary20261028a.htm"
+    },
+    {
+      "n": 14,
+      "title": "Consumer Price Index, October 2026",
+      "publisher": "U.S. Bureau of Labor Statistics",
+      "date": "2026-11-10",
+      "url": "https://www.bls.gov/news.release/archives/cpi_11102026.htm"
+    },
+    {
+      "n": 15,
+      "title": "NRF forecasts 2026 holiday sales growth as consumers remain resilient",
+      "publisher": "National Retail Federation",
+      "date": "2026-10-15",
+      "url": "https://nrf.com/media-center/press-releases/nrf-forecasts-2026-holiday-sales-growth-as-consumers-remain-resilient"
+    },
+    {
+      "n": 16,
+      "title": "Tariff reset: Section 122 expires as Section 301 duties expand",
+      "publisher": "UHY",
+      "date": "2026-07",
+      "url": "https://uhy-us.com/insights/news/2026/july/tariff-reset-section-122-expires-as-section-301-duties-expand"
+    },
+    {
+      "n": 17,
+      "title": "SPDR S&P Retail ETF (XRT) fund page",
+      "publisher": "State Street Investment Management",
+      "date": "2026-11-17",
+      "url": "https://www.ssga.com/us/en/intermediary/etfs/spdr-sp-retail-etf-xrt"
+    },
+    {
+      "n": 18,
+      "title": "TJX Companies statistics and valuation, 18 Nov 2026",
+      "publisher": "StockAnalysis",
+      "date": "2026-11-18",
+      "url": "https://stockanalysis.com/stocks/tjx/statistics/"
+    },
+    {
+      "n": 19,
+      "title": "Ross Stores statistics and valuation, 18 Nov 2026",
+      "publisher": "StockAnalysis",
+      "date": "2026-11-18",
+      "url": "https://stockanalysis.com/stocks/rost/statistics/"
+    },
+    {
+      "n": 20,
+      "title": "Burlington Stores statistics and valuation, 18 Nov 2026",
+      "publisher": "StockAnalysis",
+      "date": "2026-11-18",
+      "url": "https://stockanalysis.com/stocks/burl/statistics/"
+    },
+    {
+      "n": 21,
+      "title": "Gap Inc. statistics and valuation, 18 Nov 2026",
+      "publisher": "StockAnalysis",
+      "date": "2026-11-18",
+      "url": "https://stockanalysis.com/stocks/gap/statistics/"
+    },
+    {
+      "n": 22,
+      "title": "USA apparel market size, share, growth and forecast, 2025-2035",
+      "publisher": "Credence Research",
+      "date": "2026",
+      "url": "https://www.credenceresearch.com/report/usa-apparel-market"
+    }
+  ]
+}

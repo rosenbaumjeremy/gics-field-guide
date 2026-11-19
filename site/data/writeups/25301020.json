@@ -1,0 +1,453 @@
+{
+  "code": "25301020",
+  "added": "2026-11-19",
+  "asOf": "2026-11-13",
+  "summary": "Lodging and cruise are both running at record volumes, but the two halves are in different places. Marriott's third-quarter RevPAR rose 6.5% and Hilton's 5.8%, and both raised 2026 guidance [1][2]. Booking Holdings' room nights grew 7% [3]. Carnival's constant-currency net yields rose 2.4% with record deposits [4], Royal Caribbean raised its outlook [5], while Norwegian's yields fell 6.5% and its net leverage is 5.5x [6]. Airbnb's nights grew 16%, helped by a payment feature [7]. The sector trades at 25.1x forward earnings against 18.3x for the S&P 500 [12]. Global arrivals are nearly flat [10].",
+  "metrics": [
+    {
+      "label": "Marriott worldwide RevPAR (Q3 2026)",
+      "value": "+6.5%",
+      "context": "US & Canada +7.4%, international +4.4%; full-year 2026 guide raised to +4.5% to 5%",
+      "source": 1
+    },
+    {
+      "label": "Hilton system-wide RevPAR (Q3 2026)",
+      "value": "+5.8%",
+      "context": "Net unit growth 6.0%; pipeline 543,100 rooms, up 5%; FY2026 RevPAR guide +4.0% to 4.5%",
+      "source": 2
+    },
+    {
+      "label": "Booking Holdings room nights (Q3 2026)",
+      "value": "345M, +7%",
+      "context": "Gross bookings $54.5B, up 10%; Q4 room nights guided +1% to +3%",
+      "source": 3
+    },
+    {
+      "label": "Royal Caribbean adjusted EBITDA margin (Q3 2026)",
+      "value": "45.4%",
+      "context": "Net yields +0.9% as reported; 2026 adjusted EPS guide $17.85 to $17.95",
+      "source": 5
+    },
+    {
+      "label": "Norwegian net leverage (30 Sep 2026)",
+      "value": "5.5x",
+      "context": "Total debt $15.1B; Q3 net yield down 6.5%",
+      "source": 6
+    },
+    {
+      "label": "Global cruise passengers (2025)",
+      "value": "37.2M",
+      "context": "Record per CLIA; 20.6M from the US; 31% first-time cruisers",
+      "source": 11
+    },
+    {
+      "label": "Consumer Discretionary forward P/E (sector)",
+      "value": "25.1x",
+      "context": "S&P 500 18.3x; 5-yr avg 19.8x, 10-yr avg 19.1x; as of 12 Nov 2026 (sector P/E covers the whole sector, not this sub-industry)",
+      "source": 12
+    },
+    {
+      "label": "Damodaran Hotel/Gaming EV/EBITDA (US)",
+      "value": "14.9x",
+      "context": "Positive-EBITDA firms, 63 firms; 17.7x for all firms; January 2026 data; includes casinos",
+      "source": 14
+    }
+  ],
+  "watch": [
+    "Marriott raised its 2026 RevPAR outlook to 4.5% to 5%, which now sets a higher bar for the fourth quarter [1].",
+    "Booking guides fourth-quarter room nights to just +1% to +3%, against 7% in the third quarter [3].",
+    "Fuel is a swing factor for cruise: Carnival does not hedge and carries a $150 million fuel headwind in its 2026 guide, and share prices moved 4% to 5% on a one-day oil drop on 2 Nov [4][17].",
+    "Norwegian's yields are falling while its leverage is 5.5x and it plans 16 more ships through 2037 [6].",
+    "UN Tourism cut its 2026 world arrivals forecast to 1% to 2% growth from 3% to 4% because of the Middle East conflict, oil and inflation [10]."
+  ],
+  "bellwethers": [
+    "Marriott International",
+    "Hilton Worldwide",
+    "Booking Holdings",
+    "Airbnb",
+    "Carnival",
+    "Royal Caribbean",
+    "Norwegian Cruise Line",
+    "Expedia"
+  ],
+  "basics": {
+    "intro": "This sub-industry groups companies that sell stays and sea voyages. Hotel brands such as Marriott and Hilton mostly collect fees from owners who hold the buildings; cruise lines own their ships and sell all-inclusive trips; online travel agencies such as Booking and Airbnb take a commission for connecting travellers with rooms. Restaurants, casinos and leisure facilities sit in neighbouring sub-industries, and airlines and cars are in Industrials and Consumer Discretionary autos.",
+    "products": [
+      {
+        "name": "Hotel franchising and management",
+        "what": "A brand owner licenses its name and booking system to hotel owners, or runs the hotel for them. It is paid a percentage of revenue and sometimes of profit, so it carries little building cost.",
+        "examples": "Marriott, Hilton, Hyatt, Wyndham"
+      },
+      {
+        "name": "Owned hotels and resorts",
+        "what": "The company owns or leases the property and keeps the full room revenue, but also carries the costs and the debt.",
+        "examples": "Some Hyatt and Hilton Grand Vacations properties, Playa Hotels"
+      },
+      {
+        "name": "Ocean cruises",
+        "what": "Ships sell a fixed-price trip that bundles cabin, meals and entertainment, then add onboard spending such as drinks, spa and excursions.",
+        "examples": "Carnival, Royal Caribbean, Norwegian"
+      },
+      {
+        "name": "Online travel agencies",
+        "what": "Websites and apps list hotels and rentals and take a commission when a booking is made. They are asset-light and compete on traffic and choice.",
+        "examples": "Booking.com, Expedia, Trip.com"
+      },
+      {
+        "name": "Home-sharing platforms",
+        "what": "Marketplaces where individuals rent out spare rooms or homes, with the platform charging both host and guest a fee.",
+        "examples": "Airbnb"
+      },
+      {
+        "name": "Timeshare and vacation ownership",
+        "what": "Customers buy the right to use a resort for a set period each year, usually financed by loans, with annual maintenance fees.",
+        "examples": "Marriott Vacations Worldwide, Hilton Grand Vacations"
+      }
+    ],
+    "terms": [
+      {
+        "term": "RevPAR",
+        "meaning": "Revenue per available room: room revenue divided by all rooms available, whether sold or not. It equals occupancy times average daily rate and is the main hotel yardstick."
+      },
+      {
+        "term": "ADR",
+        "meaning": "Average daily rate: the average price paid for a sold room night. It shows pricing power."
+      },
+      {
+        "term": "Occupancy",
+        "meaning": "Share of available rooms that are sold. Hotels have high fixed costs, so occupancy swings move profits a lot."
+      },
+      {
+        "term": "Franchised versus managed",
+        "meaning": "A franchisor licenses the brand and takes a fee. A manager also runs the hotel and takes a base fee plus an incentive fee tied to profit. Neither owns the building."
+      },
+      {
+        "term": "Net unit growth",
+        "meaning": "New rooms opened minus rooms leaving the system, as a percent of the base. Brand owners watch it because fees scale with rooms."
+      },
+      {
+        "term": "Pipeline",
+        "meaning": "Hotels signed or under construction but not yet open. It shows future fee growth, though some projects are delayed or cancelled."
+      },
+      {
+        "term": "Net yield",
+        "meaning": "Cruise revenue less direct costs such as commissions and onboard costs, per passenger cruise day. It is the cruise equivalent of price."
+      },
+      {
+        "term": "Capacity days (ALBD)",
+        "meaning": "Lower berths multiplied by days in service. It measures how many passenger nights a fleet can sell."
+      },
+      {
+        "term": "Booked position",
+        "meaning": "Share of future sailings already sold and at what price. Cruise lines sell months ahead, so it gives early read on demand."
+      },
+      {
+        "term": "Customer deposits",
+        "meaning": "Cash cruise passengers pay ahead of sailing, recorded as a liability. It funds operations and signals future demand."
+      },
+      {
+        "term": "Gross bookings",
+        "meaning": "The total value of travel booked on an online platform. The platform's revenue is only its commission on this."
+      },
+      {
+        "term": "Take rate",
+        "meaning": "Platform revenue as a share of gross bookings. A rising rate means more fees per booking."
+      },
+      {
+        "term": "Asset-light",
+        "meaning": "A model where the company licenses brands or runs a platform instead of owning buildings or ships, which reduces capital needs and lifts returns."
+      }
+    ],
+    "drivers": [
+      {
+        "name": "Travel demand and consumer confidence",
+        "how": "Leisure travel is discretionary, so job security, wealth and confidence shift room nights and cruise bookings. It shows up first in occupancy and booking pace."
+      },
+      {
+        "name": "Supply growth",
+        "how": "New hotel rooms and new ships add capacity. When supply grows faster than demand, rates fall and RevPAR or net yield weakens."
+      },
+      {
+        "name": "Pricing and mix",
+        "how": "Higher rates for the same room or cabin go almost straight to profit. Premium and luxury tiers and onboard spend lift revenue per guest."
+      },
+      {
+        "name": "Fuel and labour costs",
+        "how": "Cruise lines burn large amounts of fuel, and hotels depend on staff. Costs that rise faster than prices squeeze margins."
+      },
+      {
+        "name": "Interest rates and financing",
+        "how": "Owners need credit to build hotels, and cruise lines carry heavy debt. Higher rates slow new development and raise interest expense."
+      },
+      {
+        "name": "Currency and international flows",
+        "how": "Strong or weak home currencies change who travels and what reported revenue is worth, so reported and constant-currency growth can differ."
+      },
+      {
+        "name": "Geopolitics and disruption",
+        "how": "Wars, health scares and weather divert travellers and force route changes, hitting a region's bookings quickly."
+      }
+    ]
+  },
+  "fundamentals": {
+    "business": [
+      "Hotel brands earn franchise and management fees, plus incentive fees tied to profit. Marriott's third-quarter franchise and base management fees were $1,341M and incentive fees $181M [1]. Cruise lines earn ticket revenue plus onboard spending; online platforms earn commissions on bookings; Airbnb's third-quarter revenue was $4.9B on $27.7B of gross booking value [7].",
+      "Customers differ by model. Hotel brands sell to owners and developers, who pay fees, and ultimately to business, group and leisure guests. Marriott reports US and Canada RevPAR up 7.4% and international up 4.4% [1]. Cruise lines sell directly or through travel agents to families and older travellers; 31% of cruisers are first-timers [11].",
+      "For asset-light hotel brands the main costs are sales, technology and reimbursed owner costs. For cruise lines they are fuel, crew, ship depreciation and interest. Carnival put a $150 million fuel headwind into its 2026 outlook [4], and Royal Caribbean guided 2026 depreciation of $1,870M to $1,890M and net interest near $1.0B [5].",
+      "Pricing power comes from brand, loyalty programs, location and scarce supply. Royal Caribbean says 2027 bookings are pacing ahead of history at higher rates [5], and Carnival says 2027 booked pricing is at record levels [4]. Online platforms rely on traffic and inventory, and face pressure from regulators on fee display [18].",
+      "Major assets differ sharply. Booking Holdings held $15.8B of cash against $20.1B of debt at 30 September 2026 [3]. Royal Caribbean has about $22.4B of debt [5], and Norwegian $15.1B [6], mostly against ships. Cruise lines also carry customer deposits as a liability; Carnival's reached a record $7.6B [4].",
+      "The sub-industry splits. Hotel brands and platforms are asset-light, and Damodaran's US hotel and gaming group shows a 24.5% EBITDA margin [13]. Cruise lines are capital-intensive: Royal Caribbean guides about $4.6B of 2026 capital expenditure, of which $1.5B is outside new ships [5]."
+    ],
+    "overview": [
+      "Cruise is easiest to size. CLIA counts 37.2 million passengers in 2025, a record, with a 2026 forecast of about 325 ships among members and 690,000 lower berths [11]. For hotels, Marriott alone has nearly 1,834,000 rooms in more than 10,200 properties [1], and Hilton's pipeline is 543,100 rooms [2]. We did not find a single sourced global market-size figure for the whole sub-industry.",
+      "Main segments are hotel brands, owners and operators, ocean cruise, online travel and home-sharing, and timeshare. Booking's 345M room nights and Airbnb's 155M nights and seats show how large the platforms are [3][7]. Marriott's pipeline of 634,000 rooms shows the brand side is still growing [1].",
+      "Hotel brands sit between owners, who supply buildings and capital, and guests and corporate buyers. Platforms sit between hotels and travellers. Cruise lines are more integrated: they buy ships from yards, sell through agents and direct channels, and own the onboard experience. Norwegian expects 16 more ships through 2037, about 43,000 berths [6].",
+      "The industry has moved toward asset-light brands and larger cruise fleets. Hilton reports 6.0% net unit growth [2] and Marriott 4.6% [1]. Cruise recovered to a record in 2025 and CLIA expects further growth [11]. Booking's gross bookings reached $54.5B in the third quarter, up 10% [3].",
+      "Demand is global. Of 37.2M cruisers in 2025, the US supplied 20.6M and China grew fastest, up 15.8% [11]. The Caribbean, Bahamas and Bermuda hold about 43% of deployments, the Mediterranean about 15% [11]. Marriott's third-quarter RevPAR grew 7.4% in the US and Canada and 4.4% internationally [1]."
+    ],
+    "competition": [
+      "Competition is concentrated at the top. Marriott, Hilton, Hyatt, IHG and Wyndham dominate hotel brands, and three groups (Carnival, Royal Caribbean and Norwegian) lead Western cruising. Online travel has Booking, Expedia and Airbnb, plus Trip.com in Asia. We count roughly a dozen significant listed competitors across all three models.",
+      "Marriott is the largest hotel brand owner in our sources, with nearly 1,834,000 rooms [1]; Hilton has a pipeline of 543,100 rooms [2]. We did not find sourced market-share percentages for hotels or for cruise lines, so we do not quote any.",
+      "Hotels are fragmented below the big brands, since most hotels are independent or small chains, while the brand layer and the cruise layer are consolidated. Damodaran counts 63 US hotel and gaming companies in its sample, but that includes casinos [13].",
+      "Barriers differ. Hotel brands need loyalty members, reservation systems and owner trust. Cruise lines need ships costing billions: Royal Caribbean plans about $4.6B of 2026 capital spending [5]. Platforms need traffic and supply, and regulators now require all-in pricing [18].",
+      "Scale matters in marketing, loyalty, procurement and fleet costs. A bigger brand spreads technology costs across more rooms, and a larger cruise fleet buys fuel and food more cheaply. Booking's adjusted EBITDA of $4.6B on $9.8B adjusted revenue is about a 47% margin, by our calculation [3].",
+      "Hotel rooms and cruise cabins are differentiated by brand, location and quality, but a basic room is close to a commodity. Brands add loyalty programs and different tiers to avoid pure price competition. Cruise lines differentiate by ship class and itinerary; Norwegian's yields fell 6.5% in the third quarter while Carnival's rose 2.4% [4][6].",
+      "Owners hold bargaining power over brands because they can switch flags, and big online platforms hold power over small hotels through traffic. Guests have power through price transparency. Cruise lines depend on a few shipyards, so suppliers have power, and Norwegian's delayed Seven Seas Prestige delivery shows that risk [6]."
+    ],
+    "drivers": [
+      "Revenue growth comes from occupancy, rate, new rooms and new ships. Marriott's third-quarter growth reflected higher ADR and occupancy [1], while Royal Caribbean's capacity rose 8% in the quarter [5]. For platforms it comes from room nights and take rate [3].",
+      "Operating margins depend on occupancy, because costs are mostly fixed, and on mix. Marriott's adjusted EBITDA rose 12% on 6.5% RevPAR growth, which shows operating leverage [1]. Royal Caribbean's third-quarter adjusted EBITDA margin was 45.4% [5].",
+      "Key cost variables are fuel, labour, food, insurance and, for owners, interest. Norwegian's fuel price per metric ton, net of hedges, rose to $819 from $744 [17]. Carnival does not hedge fuel, and Royal Caribbean hedged 58% of its fourth-quarter consumption [17].",
+      "Rates matter because owners finance hotels with debt and cruise lines carry heavy borrowings. The Fed held its target range at 3.75% to 4.00% on 28 October 2026, with two members preferring an increase [16]. Higher rates also slow new hotel construction, which can help existing owners.",
+      "Inflation raises costs but also lets hotels reprice nightly, which helps them. Unemployment and GDP drive business and leisure travel. Oil prices matter most for cruise and for airfares: UN Tourism blamed the Middle East conflict, high oil prices and inflation for the cut to its 2026 forecast [10].",
+      "The sub-industry is cyclical. UN Tourism says world arrivals grew just 0.4% in the first half of 2026 and expects 1% to 2% for the year [10]. Yet long-term demand is secular: arrivals and cruise passengers have reached records, and 2027 cruise bookings are at record pricing [4][11]."
+    ],
+    "financials": [
+      "Growth is strong but uneven. Marriott's third-quarter adjusted EPS was $3.02 against $2.47 a year earlier [1], and Booking's adjusted EPS was $4.66, up 17% [3]. Norwegian's full-year adjusted EPS guide of about $1.70 reflects falling yields [6].",
+      "Damodaran's US hotel and gaming industry shows a 60.9% gross margin, 21.6% operating margin and 24.5% EBITDA margin as of January 2026 [13]. That group includes casinos, so we treat it as a rough guide. Royal Caribbean's own third-quarter adjusted EBITDA margin was 45.4% [5].",
+      "Damodaran puts the US hotel and gaming group's return on equity at 45.4% unadjusted [15]. We think heavy buybacks and thin equity at brand companies inflate that figure, so we would not read it as typical. Royal Caribbean says it is already above its ROIC target, but gives no current figure [5].",
+      "Leverage varies. Norwegian's net leverage is 5.5x [6]; Royal Caribbean has about $22.4B of debt and $7.4B of liquidity [5]; Booking has $20.1B of debt against $15.8B of cash [3]. Carnival redeemed $500M of 7% notes in the quarter [4].",
+      "Cash generation is strong for asset-light companies. Booking generated $7.8B of free cash flow in the first nine months of 2026 [3]; Airbnb's third-quarter free cash flow was $1.4B [7]. Hilton expects to return about $3.5B to shareholders in 2026 [2], and Marriott returned about $4.0B year to date [1].",
+      "Cruise lines need heavy capital spending, with Royal Caribbean guiding about $4.6B for 2026 [5] and Norwegian planning $3.1B of gross newbuild spending in 2027 [6]. Hotel brands spend little, because owners fund buildings.",
+      "Damodaran's US hotel and gaming EV/EBITDA was 14.9x for positive-EBITDA firms and 17.7x for all firms in January 2026 [14]. The whole Consumer Discretionary sector trades at 25.1x forward earnings, against 18.3x for the S&P 500 [12]."
+    ],
+    "risks": [
+      "Regulation focuses on price display. The FTC rule on hidden fees, in force since 12 May 2025, covers hotels and short-term lodging [18]. Booking also booked a $900M revenue reduction and $100M loss accrual tied to an FTC matter in the third quarter, which it excludes from adjusted results [3].",
+      "AI and technology could change how people find and book trips, shifting power between platforms and brands. Airbnb and Booking are both investing in newer products, but we did not find sourced evidence of share changes from AI. Brands could also lose direct bookings if AI assistants route traffic to platforms.",
+      "Demographics help cruise: 31% of cruisers are first-time and about a third of guests are under 40 [11]. Ageing populations in rich countries support leisure travel spending over time, but we did not find sourced figures on demographic effects for hotels.",
+      "Consumer behaviour is shifting toward experiences and alternative lodging. Airbnb's nights grew 16%, with about 13% excluding its Reserve Now, Pay Later effect [7].",
+      "New competitors include short-term rental platforms, lifestyle brands and more cruise ships. Royal Caribbean's capacity grows 4.5% in 2027, 6.0% in 2028 and 6.5% in 2029 [5], and Norwegian plans 16 ships through 2037 [6]. More supply could press yields.",
+      "Geopolitics is a live risk. UN Tourism reports Middle East arrivals down 22% in the first half of 2026 [10]. Norwegian cancelled Seven Seas Voyager sailings through the Suez Canal [6].",
+      "Substitutes include staying with family, camping, land-based all-inclusive resorts and shorter domestic trips. The sources we opened do not quantify substitution, but weak arrivals growth of 0.4% in the first half of 2026 suggests travellers are sensitive to cost [10]."
+    ],
+    "horizon": {
+      "opportunities": [
+        "Pipelines point to further fee growth: Marriott has 634,000 rooms and Hilton 543,100 rooms in development [1][2].",
+        "Cruise demand looks strong, with Carnival 2027 booked pricing at record levels and Royal Caribbean 2027 bookings up in the high teens [4][5].",
+        "Asset-light platforms and brands generate strong cash for buybacks, including Airbnb's new $12B authorization [7].",
+        "Fuel relief would help cruise margins if oil prices stay lower [17]."
+      ],
+      "threats": [
+        "Weak world arrivals growth and geopolitical disruption could slow demand [10].",
+        "Fee-display rules and legal actions could cut revenue from add-on fees and complicate pricing [3][18].",
+        "Rising cruise capacity and high leverage could compress yields, as Norwegian is already showing [5][6].",
+        "Elevated inflation and a Fed that is debating increases could weigh on consumers and owners' financing [16]."
+      ],
+      "assessment": "Over the next three to five years we think the asset-light hotel brands and platforms are better placed than the leveraged cruise lines, because their pipelines and cash returns do not depend on new capital spending [1][2][3][7]. Cruise has the stronger visible demand, with record deposits and booking pace at Carnival and Royal Caribbean [4][5], but it also has the most new supply coming and the most debt. The main swing factors are consumer health, fuel and the Middle East. We would expect returns to stay high for brands and platforms and to diverge more among the cruise lines, with Norwegian the one to watch [6]."
+    }
+  },
+  "sections": [
+    {
+      "id": "macro",
+      "paragraphs": [
+        "Travel is in a late-cycle, still-growing phase. The Fed held its target range at 3.75% to 4.00% on 28 October 2026 with two members preferring a hike, and its statement says inflation remains elevated while job gains have kept pace with the workforce [16]. That is not an easy-money backdrop, yet US hotels are still posting gains: CoStar's week to 31 October showed RevPAR up 9.7% to $101.88, with 20 of the top 25 markets higher [8].",
+        "Globally the picture is softer. UN Tourism estimates 690 million international arrivals in the first half of 2026, up just 0.4%, and has cut its 2026 forecast to 1% to 2% from 3% to 4% because of the Middle East conflict, oil prices and inflation [10]. Marriott's third-quarter RevPAR rose 6.5% worldwide, and it raised its full-year outlook to 4.5% to 5% [1].",
+        "Currency matters because many costs and revenues are in different currencies: Carnival's third-quarter net yields rose 2.4% in constant currency but fell 1.3% in current dollars, as higher fuel prices and currency hit reported results [4]. We think the cycle is more mature than the headline RevPAR numbers suggest, because they are boosted by events such as conferences and the World Series [8]."
+      ]
+    },
+    {
+      "id": "demand",
+      "paragraphs": [
+        "Structural demand for travel remains strong. CLIA counts 37.2 million cruise passengers in 2025, a record, and about 90% of cruisers say they intend to sail again; 31% were first-timers and about a third of guests are under 40 [11]. Cruise lines are filling ships ahead of time: Carnival says 2027 booked occupancy and pricing are at record levels, with customer deposits of $7.6B [4], and Royal Caribbean says 2027 bookings are up in the high teens [5].",
+        "In lodging, the pipeline shows where operators expect demand. Marriott has a record 634,000 rooms in its pipeline [1], and Hilton's is 543,100 rooms, up 5% [2]. Hilton raised its 2026 RevPAR guide to 4.0% to 4.5% [2]. CoStar and Tourism Economics upgraded their 2026 US forecast, with occupancy at 63.1% [9].",
+        "Demand is not very elastic at the top end, but it is cyclical overall. UN Tourism's much weaker first-half arrivals numbers show that leisure travel can slow quickly when fares and prices rise [10]. Online platforms are still taking share: Booking's room nights grew 7% and Airbnb's nights grew 16%, with a 3% lift from a payment feature [3][7]."
+      ]
+    },
+    {
+      "id": "structure",
+      "paragraphs": [
+        "Using Porter's five forces: the threat of new entrants is low for brands and cruise lines because of loyalty programs, scale and the cost of ships, but high for home-sharing and independent hotels. Royal Caribbean plans about $4.6B of capital spending in 2026 [5], and Norwegian expects 16 ships through 2037 [6]. Hotel owners hold supplier power over brands, since they can change flag.",
+        "Buyer power is highest for online platforms and for price-sensitive travellers, which is why hotel brands push direct booking through loyalty programs. Rivalry is intense in each segment. Norwegian's third-quarter yield fell 6.5% while Carnival's rose 2.4% in constant currency, showing that rivals can diverge sharply [4][6]. Substitutes are shorter trips, land holidays and rentals, and Airbnb's 155M nights and seats show how big the rental alternative has become [7].",
+        "Concentration is high at the top. Marriott has nearly 1,834,000 rooms [1]; Hilton's net unit growth is 6.0% [2]. We did not find sourced global share percentages. Pricing power is strongest where brands and ships are scarce: Royal Caribbean reports bookings at higher rates [5]. Moats are loyalty programs, scale and, for platforms, traffic, though regulators now require all-in pricing [18]."
+      ]
+    },
+    {
+      "id": "environment",
+      "paragraphs": [
+        "Politically, travel is exposed to conflict and trade. UN Tourism reports Middle East arrivals down 22% in the first half of 2026 and attributes weaker growth to the conflict, air disruption, higher oil prices and inflation [10]. Norwegian cancelled Suez Canal sailings for Seven Seas Voyager, and Marriott still guides to RevPAR growth only of 4.5% to 5% for 2026 [1]. Carnival's third-quarter results were also hurt by fuel [4].",
+        "Regulation is mostly about pricing transparency. The FTC rule in force since 12 May 2025 requires up-front price disclosure for hotels and short-term lodging [18]. In the third quarter Booking Holdings recorded a $900M reduction to revenue and $100M accrued loss tied to an FTC matter, excluded from its adjusted results [3].",
+        "Technologically, the main change is how travellers search and book. Platforms are building on their lead in traffic, while brands push apps and loyalty to protect direct bookings. We did not find sourced evidence on how AI assistants are changing share. Environmental factors include fuel and emissions rules for ships; Norwegian's third-quarter fuel price rose to $819 per metric ton from $744 [17]."
+      ]
+    },
+    {
+      "id": "economics",
+      "paragraphs": [
+        "Margins are high at the brand level and lower for owners. Marriott's third-quarter adjusted EBITDA was $1,512M, up 12%, on fee revenue of $1,341M of franchise and base fees plus $181M of incentive fees [1]. Booking's adjusted EBITDA was $4,607M on $9,793M of adjusted revenue, about a 47% margin by our calculation [3]. Airbnb's adjusted EBITDA margin was 52% in the quarter [7].",
+        "Cruise economics are different. Royal Caribbean's third-quarter adjusted EBITDA margin was 45.4% on $5.6B of revenue [5]. Carnival's adjusted EBITDA was $3.0B, in line with last year's record [4]. Norwegian's was $937M on $2.9B of revenue [6]. Damodaran's US hotel and gaming group shows a 21.6% operating margin and a 24.5% EBITDA margin in January 2026 data, but includes casinos [13].",
+        "Operating leverage is high because most costs are fixed. Capital intensity splits the group: Booking produced $7.8B of free cash flow in nine months [3], while Royal Caribbean guides $4.6B of capital spending [5]. Damodaran's hotel and gaming ROE is 45.4%, which we think is inflated by buybacks and low equity [15]. We did not find a sourced sector-wide ROIC, so we do not quote one."
+      ]
+    },
+    {
+      "id": "earnings",
+      "paragraphs": [
+        "Earnings are growing but the mix is changing. Marriott raised its 2026 global RevPAR outlook to 4.5% to 5% [1], and Hilton raised its to 4.0% to 4.5% with adjusted EBITDA of $4.06B to $4.08B [2]. Booking expects full-year adjusted EPS growth in the low to mid-teens, but Q4 room nights of just 1% to 3% and flat adjusted EBITDA [3].",
+        "Cruise guidance has been rising. Royal Caribbean lifted 2026 adjusted EPS to $17.85 to $17.95 and guides Q4 net yields up 4.4% to 4.9% as reported [5]. Carnival said its third-quarter yields were better than guidance and that fuel is a $150M headwind in its 2026 outlook [4]. Norwegian guides full-year adjusted EPS of about $1.70 and its full-year net yield is expected down about 4.4% in constant currency [6].",
+        "We did not find a sourced consensus EPS growth figure for this sub-industry. Our view differs in one respect: we think Q4 and 2027 are the real test, because Booking and Norwegian have guided to weaker fourth-quarter yields or room nights [3][6]. The S&P 500's own earnings growth for Q3 2026 is a blended 31.9% according to FactSet, which sets a high bar for relative earnings [12]."
+      ]
+    },
+    {
+      "id": "valuation",
+      "paragraphs": [
+        "We found no sourced forward P/E for this sub-industry alone. At the sector level FactSet puts Consumer Discretionary at 25.1x forward 12-month earnings as of 12 November 2026, the highest of any sector, against 18.3x for the S&P 500 and above its 5-year average of 19.8x and 10-year average of 19.1x for the index [12]. That sector includes Amazon and Tesla-style companies, so it says little about lodging and cruise.",
+        "On enterprise value to EBITDA, Damodaran's January 2026 data show 14.9x for US hotel and gaming companies with positive EBITDA and 17.7x for all firms [14]. Because the group includes casinos, we treat it as a loose reference. Asset-light brands and platforms typically earn higher multiples than ship owners because of their lower capital needs, which we think is justified by the cash flow evidence [3][5][7].",
+        "Cash yields are a better lens than P/E for this group. Booking produced $7.8B of free cash flow in nine months and has $12.4B left on its buyback authorization [3]; Airbnb has a new $12B buyback [7]. At current prices, Royal Caribbean guides to $17.85 to $17.95 of 2026 EPS [5], so its share price of $321.77 on 2 November implies about 18x trailing-year guidance, by our calculation [5][17]."
+      ]
+    },
+    {
+      "id": "positioning",
+      "paragraphs": [
+        "Cruise stocks have diverged. As of 2 November 2026, Royal Caribbean was up 17% year to date, Carnival up 0.7% and Norwegian down 18%, after a rally of 4% to 5% on a one-day fall in oil prices on hopes of US-Iran talks [17]. That pattern matches fundamentals: Royal Caribbean raised its outlook and Norwegian's net yields are falling [5][6].",
+        "For hotels and platforms we did not find sourced year-to-date performance, ETF flow or short-interest data, and we do not estimate it. Capital return gives a clue about management confidence: Marriott repurchased 3.5 million shares for $1.3B in the third quarter [1], Booking bought back $2.1B in the quarter and has $12.4B of authorization left [3], and Hilton plans about $3.5B of shareholder returns in 2026 [2].",
+        "Breadth within the group is mixed because consumers are splitting between leisure strength and slower arrivals globally [10]. Consumer Discretionary has the highest forward P/E of any S&P 500 sector, which suggests positioning is already crowded in the sector at large, though that is our inference from valuation, not a flow figure [12]."
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "n": 1,
+      "title": "Marriott International reports Q3 2026 results",
+      "publisher": "Lodging Magazine",
+      "date": "2026-11-03",
+      "url": "https://lodgingmagazine.com/marriott-international-reports-q3-2026-results/"
+    },
+    {
+      "n": 2,
+      "title": "Hilton reports 2026 third quarter results",
+      "publisher": "Hilton",
+      "date": "2026-10-27",
+      "url": "https://stories.hilton.com/releases/hilton-reports-2026-third-quarter-results"
+    },
+    {
+      "n": 3,
+      "title": "Booking Holdings Q3 2026 earnings release (Form 8-K)",
+      "publisher": "Booking Holdings / SEC",
+      "date": "2026-11-03",
+      "url": "https://www.sec.gov/Archives/edgar/data/0001075531/000107553126000044/q3-26bkngearningsrelease.htm"
+    },
+    {
+      "n": 4,
+      "title": "Carnival Corp reports Q3 numbers, net income at 1.9 billion",
+      "publisher": "Cruise Industry News",
+      "date": "2026-09-29",
+      "url": "https://cruiseindustrynews.com/cruise-news/2026/09/carnival-corp-reports-q3-numbers-net-income-at-1-9-billion/"
+    },
+    {
+      "n": 5,
+      "title": "Royal Caribbean Group Q3 2026 earnings release (Form 8-K)",
+      "publisher": "Royal Caribbean / SEC",
+      "date": "2026-10-27",
+      "url": "https://www.sec.gov/Archives/edgar/data/0000884887/000088488726000042/a2026q3earningsrelease.htm"
+    },
+    {
+      "n": 6,
+      "title": "Norwegian Cruise Line Holdings Q3 2026 results (Form 8-K exhibit 99.1)",
+      "publisher": "Norwegian Cruise Line Holdings / SEC",
+      "date": "2026-10-29",
+      "url": "https://www.sec.gov/Archives/edgar/data/0001513761/000117184326006957/exh_991.htm"
+    },
+    {
+      "n": 7,
+      "title": "Airbnb Q3 earnings call highlights",
+      "publisher": "MarketBeat",
+      "date": "2026-11-05",
+      "url": "https://www.marketbeat.com/instant-alerts/transcript-airbnb-q3-earnings-call-highlights-2026-11-05/"
+    },
+    {
+      "n": 8,
+      "title": "U.S. hotel results for week ending 31 October",
+      "publisher": "CoStar via Hospitality Net",
+      "date": "2026-11-06",
+      "url": "https://www.hospitalitynet.org/news/4135319/us-hotel-results-for-week-ending-31-october"
+    },
+    {
+      "n": 9,
+      "title": "CoStar, Tourism Economics upgrade U.S. hotel growth forecast",
+      "publisher": "Hospitality Net",
+      "date": "2026-08-06",
+      "url": "https://www.hospitalitynet.org/news/4133845/costar-tourism-economics-upgrade-us-hotel-growth-forecast"
+    },
+    {
+      "n": 10,
+      "title": "International tourism holds steady with 0.4% growth in first half of 2026",
+      "publisher": "UN Tourism via Hospitality Net",
+      "date": "2026-09-17",
+      "url": "https://www.hospitalitynet.org/news/4134434/international-tourism-holds-steady-with-04-growth-in-first-half-of-2026-as-middle-east-conflict-and-rising-costs-weigh-on-momentum"
+    },
+    {
+      "n": 11,
+      "title": "Cruise industry surges to record 37.2 million travelers",
+      "publisher": "Cruise Hive (citing CLIA)",
+      "date": "2026-04-15",
+      "url": "https://www.cruisehive.com/cruise-industry-surges-to-record-37-2-million-travelers-as-global-demand-booms/205710"
+    },
+    {
+      "n": 12,
+      "title": "FactSet Earnings Insight, 13 November 2026",
+      "publisher": "FactSet",
+      "date": "2026-11-13",
+      "url": "https://advantage.factset.com/hubfs/Website/Resources%20Section/Research%20Desk/Earnings%20Insight/EarningsInsight_111326.pdf"
+    },
+    {
+      "n": 13,
+      "title": "Margins by Sector (US), January 2026",
+      "publisher": "Aswath Damodaran, NYU Stern",
+      "date": "2026-01-01",
+      "url": "https://pages.stern.nyu.edu/~adamodar/New_Home_Page/datafile/margin.html"
+    },
+    {
+      "n": 14,
+      "title": "Enterprise Value Multiples by Sector (US), January 2026",
+      "publisher": "Aswath Damodaran, NYU Stern",
+      "date": "2026-01-01",
+      "url": "https://pages.stern.nyu.edu/~adamodar/New_Home_Page/datafile/vebitda.html"
+    },
+    {
+      "n": 15,
+      "title": "Return on Equity by Sector (US), January 2026",
+      "publisher": "Aswath Damodaran, NYU Stern",
+      "date": "2026-01-01",
+      "url": "https://pages.stern.nyu.edu/~adamodar/New_Home_Page/datafile/roe.html"
+    },
+    {
+      "n": 16,
+      "title": "Federal Reserve issues FOMC statement, 28 October 2026",
+      "publisher": "Federal Reserve",
+      "date": "2026-10-28",
+      "url": "https://www.federalreserve.gov/newsevents/pressreleases/monetary20261028a.htm"
+    },
+    {
+      "n": 17,
+      "title": "Carnival and Royal Caribbean climb 5%, Norwegian rises 4% as oil prices drop",
+      "publisher": "24/7 Wall St.",
+      "date": "2026-11-02",
+      "url": "https://247wallst.com/investing/2026/11/02/carnival-and-royal-caribbean-climb-5-norwegian-cruise-line-rises-4-as-oil-prices-drop/"
+    },
+    {
+      "n": 18,
+      "title": "FTC junk fees rule takes effect today",
+      "publisher": "Consumer Federation of America",
+      "date": "2025-05-12",
+      "url": "https://consumerfed.org/news/press-releases/ftc-junk-fees-rule-takes-effect-today/"
+    }
+  ]
+}

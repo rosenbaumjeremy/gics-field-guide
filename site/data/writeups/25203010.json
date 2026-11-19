@@ -1,0 +1,446 @@
+{
+  "code": "25203010",
+  "added": "2026-11-19",
+  "asOf": "2026-11-13",
+  "summary": "This group is split in two. Jewelry and a few top-end names are growing fast: Richemont's first-half sales rose 17% at constant rates [4], Hermès' third-quarter sales rose 4.3% [1] and Coach grew 16% [7]. Leather-goods and fashion houses that lean on China are weak: LVMH's Fashion & Leather Goods organic sales fell 5% in the third quarter [2] and Gucci's comparable sales fell 6% [3]. US tariff refunds flattered margins this quarter [6][8][9]. The sector's forward P/E is 25.1x [15]; we found no sourced multiple for this sub-industry alone.",
+  "metrics": [
+    {
+      "label": "Personal luxury goods market (2025)",
+      "value": "€358B",
+      "context": "-2% at current rates, +1% at constant rates; Bain forecasts +2% to +4% in 2026 (base case)",
+      "source": 5
+    },
+    {
+      "label": "LVMH Fashion & Leather Goods organic sales (Q3 2026)",
+      "value": "-5%",
+      "context": "€8.2B; nine months -2% organic; FY2025 operating margin 35%",
+      "source": 2
+    },
+    {
+      "label": "Hermès revenue growth (Q3 2026, constant FX)",
+      "value": "+4.3%",
+      "context": "€4.1B; Asia ex-Japan flat; H1 recurring operating margin 41%",
+      "source": 1
+    },
+    {
+      "label": "Richemont sales (six months to Sep 2026)",
+      "value": "€12.3B",
+      "context": "+17% at constant rates; Jewellery Maisons +19%; operating profit €3.1B, +33%",
+      "source": 4
+    },
+    {
+      "label": "Coach revenue growth (Q1 FY2027)",
+      "value": "+16%",
+      "context": "$1.66B; Tapestry Greater China +43%; Kate Spade -10%",
+      "source": 7
+    },
+    {
+      "label": "Ralph Lauren adjusted operating margin (Q2 FY2027)",
+      "value": "15.7%",
+      "context": "+160 bp; constant-currency revenue +10%; Asia +28%",
+      "source": 6
+    },
+    {
+      "label": "Operating margin, US apparel (Damodaran)",
+      "value": "9.1%",
+      "context": "35 firms, unadjusted pre-tax, January 2026; after-tax ROIC 19.8%",
+      "source": 10
+    },
+    {
+      "label": "Forward P/E, Consumer Discretionary sector",
+      "value": "25.1x",
+      "context": "Sector, not sub-industry; S&P 500 18.3x vs 10-yr average 19.1x; FactSet, 13 Nov 2026",
+      "source": 15
+    }
+  ],
+  "watch": [
+    "China is the swing factor: LVMH said slowing Chinese demand hit Fashion & Leather Goods in the third quarter [2], Hermès' Asia ex-Japan sales were flat [1], yet Tapestry's Greater China sales rose 43% [7].",
+    "Gucci's turnaround is Kering's stated priority; comparable sales fell 6% in Q3 after a 2% fall in Q2, and Kering plans at least 125 net store closures in 2026 [3].",
+    "Tariff refunds boosted Q2 and Q3 margins at lululemon, Levi's and Ralph Lauren, so underlying margins may look weaker once the one-offs fade [6][8][9].",
+    "Section 301 duties of 10% or 12.5% replaced the expired Section 122 surcharge on 24 July 2026, keeping import costs for US-bound apparel in play [19].",
+    "lululemon guides Q3 revenue down 10% to 11% and has interim co-CEOs, so its Americas weakness is the clearest US demand risk in the group [8]."
+  ],
+  "bellwethers": [
+    "LVMH",
+    "Hermès",
+    "Kering",
+    "Richemont",
+    "Ralph Lauren",
+    "Tapestry",
+    "lululemon",
+    "Levi Strauss"
+  ],
+  "basics": {
+    "intro": "These companies design, make and sell clothing, handbags, watches, jewelry and other accessories under brand names. Customers range from wealthy luxury shoppers to everyday buyers of jeans and activewear. Profit comes from the brand: a recognised name lets the company charge more than the cost of the materials and labor. GICS also puts the big luxury groups here. Footwear makers such as Nike sit in the neighbouring Footwear sub-industry, and the stores that sell clothing from many brands sit in Apparel Retail.",
+    "products": [
+      {
+        "name": "Leather goods and handbags",
+        "what": "Bags, small leather goods and luggage. For luxury houses this is usually the biggest and most profitable line, because craftsmanship and scarcity support high prices.",
+        "examples": "Louis Vuitton, Hermès Birkin and Kelly, Gucci, Coach"
+      },
+      {
+        "name": "Ready-to-wear clothing",
+        "what": "Seasonal clothing collections sold through the brand's own stores, department stores and online. Fashion cycles make demand harder to predict than for bags.",
+        "examples": "Ralph Lauren Polo, Tommy Hilfiger, Dior, Saint Laurent"
+      },
+      {
+        "name": "Everyday and athletic apparel",
+        "what": "Jeans, basics and activewear sold at accessible prices in large volumes, often through wholesale partners as well as the company's own stores.",
+        "examples": "Levi's, lululemon, PVH's Calvin Klein"
+      },
+      {
+        "name": "Jewelry and watches",
+        "what": "Fine jewelry and luxury timepieces, sold at high prices and often seen as stores of value. Gold and gemstones are major input costs.",
+        "examples": "Cartier, Van Cleef & Arpels, Tiffany, Vacheron Constantin"
+      },
+      {
+        "name": "Eyewear, fragrance and other licensed goods",
+        "what": "Add-on categories where the brand name is applied to sunglasses, perfume or home goods, sometimes made by partners under license.",
+        "examples": "Kering Eyewear, Ralph Lauren licensed fragrance and home"
+      }
+    ],
+    "terms": [
+      {
+        "term": "Organic growth",
+        "meaning": "Sales growth excluding currency swings, acquisitions and disposals. Global luxury groups report in euros but sell in dollars, yuan and yen, so this is the cleaner read."
+      },
+      {
+        "term": "Constant currency",
+        "meaning": "Growth recalculated as if exchange rates had not changed. A strong euro can shrink reported sales while demand is fine."
+      },
+      {
+        "term": "Comparable sales",
+        "meaning": "Sales from stores open at least a year, plus online. It strips out the effect of opening or closing stores."
+      },
+      {
+        "term": "DTC (direct-to-consumer)",
+        "meaning": "Sales through the brand's own stores and websites rather than through other retailers. It earns a higher margin per item but costs more to run."
+      },
+      {
+        "term": "Wholesale",
+        "meaning": "Selling to department stores and other retailers, who set the final price. Volumes are steadier but margins per item are lower."
+      },
+      {
+        "term": "Gross margin",
+        "meaning": "Sales minus the direct cost of making the goods, as a share of sales. A high figure signals pricing power."
+      },
+      {
+        "term": "Recurring operating margin",
+        "meaning": "Operating profit before one-off items, as a share of sales. It is the headline profitability measure for the European luxury groups."
+      },
+      {
+        "term": "Aspirational customer",
+        "meaning": "A shopper who stretches to buy an entry-level item, such as a small bag, from a luxury brand. This group is sensitive to prices and the economy."
+      },
+      {
+        "term": "Sell-through",
+        "meaning": "The share of stock a company sells at full price. Low sell-through forces markdowns and hurts margin."
+      },
+      {
+        "term": "Tariff",
+        "meaning": "A tax on imported goods. Apparel is made largely in Asia, so duties on imports into the US raise costs unless prices rise."
+      },
+      {
+        "term": "Brand heat",
+        "meaning": "Informal measure of how much customers want a brand right now. It can rise or fall quickly when a new designer arrives or a product misses."
+      }
+    ],
+    "drivers": [
+      {
+        "name": "Consumer confidence and wealth",
+        "how": "High-end spending follows stock markets and property values for wealthy buyers, while mass apparel follows jobs and incomes. A fall shows up first in traffic and in sales to aspirational customers."
+      },
+      {
+        "name": "Chinese demand and tourism",
+        "how": "Chinese shoppers are a large share of luxury sales, at home and when travelling. A slowdown cuts sales and, because stores have fixed costs, cuts profit by more."
+      },
+      {
+        "name": "Creative direction",
+        "how": "A new designer or product line can revive a brand, and a miss can stall it. This shows up in comparable sales over several quarters rather than at once."
+      },
+      {
+        "name": "Pricing",
+        "how": "Brands raise prices to offset costs. Gross margin rises if customers accept the increase and falls if they trade down or stop buying."
+      },
+      {
+        "name": "Tariffs and sourcing costs",
+        "how": "Duties on imports, freight and material costs raise the cost of goods sold. Companies pass part on through prices, and the rest hits gross margin."
+      },
+      {
+        "name": "Currency",
+        "how": "A stronger home currency reduces reported sales and profit for companies selling abroad, even when local demand is unchanged."
+      },
+      {
+        "name": "Channel mix",
+        "how": "Shifting sales to own stores and websites raises gross margin but adds rent and labor, so operating margin depends on how well sales cover those fixed costs."
+      }
+    ]
+  },
+  "fundamentals": {
+    "business": [
+      "Revenue comes from selling branded goods: bags, clothes, jewelry and accessories. Ralph Lauren sells through its own stores, department stores and online across North America, Europe and Asia [6]. Licensing and wholesale add smaller streams, and Levi's reports direct-to-consumer at 45% of revenue [9].",
+      "Customers are individual consumers, from wealthy collectors to mainstream buyers of jeans and activewear, plus wholesale accounts such as department stores. Bain says the Americas are the strongest region for luxury in 2026 while the Gulf customer base shrank 15% to 25% early in the year [5]. Tourists are a significant slice of luxury demand in Europe and Japan [5][17].",
+      "The main costs are materials and manufacturing, then store rent, staff and marketing. Raw materials weigh on Richemont's gross margin, notably gold for jewelry [4]. For brands that import into the US, tariffs are a further cost [8][19]. Luxury houses spend heavily on stores and advertising to protect the brand.",
+      "Pricing power comes from brand desirability and scarcity. Hermès' 41% recurring operating margin in the first half of 2026 shows what the strongest brands can earn [16], and LVMH's Fashion & Leather Goods division earned about 35% in 2025 [17]. Mass-market names have less pricing power: US apparel's pre-tax operating margin is 9.1% [10].",
+      "The largest assets are brands (often not fully on the balance sheet), inventory and store leases. Hermès held net cash of €12.9 billion at end-June 2026 [16] and Richemont €7.7 billion at end-September [4]. Ralph Lauren reported $1.2 billion of inventory and $1.2 billion of debt against $1.8 billion of cash [6]. Lease obligations are the main liability for store-heavy brands.",
+      "The model is mixed. Design, brand management and retail are asset-light, but luxury houses own workshops and flagship stores. Hermès' operating investments were €344 million in the first half against €8.2 billion of sales [16], and US apparel's capex runs 133% of depreciation [14]. Most mass brands outsource manufacturing."
+    ],
+    "overview": [
+      "Bain sizes the personal luxury goods market at €358 billion in 2025, down 2% at current rates but up 1% at constant rates, and forecasts 2% to 4% growth in 2026 [5]. McKinsey and BoF expected low single-digit growth for global fashion in 2026 [20]. Our read is that the group is a mature market where growth comes from share gains.",
+      "The main segments are leather goods and fashion, jewelry and watches, and everyday apparel and activewear. Bain says jewelry is leading, with apparel, eyewear and fragrance holding up, while leather goods and footwear remain under pressure but are improving [5]. Richemont's jewelry houses grew 19% at constant rates against 10% for watchmakers [4].",
+      "Brands sit between suppliers (tanneries, mills, ateliers, gold and diamond sources) and customers who buy through brand stores, department stores and online. Control of distribution is a strategic goal. Direct distribution gives a brand control of price and presentation. Levi's still sells 55% of revenue through other channels [9].",
+      "The industry moved from family houses to global groups that own many brands, such as LVMH and Kering, while Hermès and Richemont stayed more focused [2][3][4]. After a post-pandemic boom, luxury growth stalled in 2025, and it has since split by brand and region [5][17]. A 2025 reset in China is part of that story [18].",
+      "Production is concentrated in Europe for luxury leather goods and in Asia for mass apparel. Hermès is expanding manufacturing sites in France [1]. Sales are spread across the Americas, Europe and Asia: Hermès' Asia excluding Japan is its largest market at €1.65 billion in Q3 [1], and Ralph Lauren's Asia sales were $571 million in Q2 against $886 million in North America [6]."
+    ],
+    "competition": [
+      "There are a few dozen significant listed competitors, plus thousands of private labels. The large global groups are LVMH, Kering, Richemont and Hermès in luxury, and Ralph Lauren, Tapestry, PVH, Levi's, VF and lululemon in the US [2][3][4][6][7][8][9]. Damodaran's US apparel set holds 35 firms [10].",
+      "LVMH is the largest by sales: its Fashion & Leather Goods division had €37.8 billion in 2025 [17] and the group €80.8 billion [17]. Hermès had €12.3 billion in nine months [1], Richemont €12.3 billion in six months [4] and Kering €10.6 billion in nine months [3]. We found no sourced market-share data for the full sub-industry.",
+      "The industry is fragmented overall but concentrated at the top of luxury, where a handful of groups account for much of the brand value. Bain notes that performance gaps between brands are narrowing in 2026 [5]. Within mass apparel, thousands of brands compete, and consolidation is slower.",
+      "Barriers to entry are brand heritage, scarce craft skills, prime store locations and the capital to advertise globally. Hermès' manufacturing expansion shows how scarce artisan capacity is [1]. New labels can enter cheaply, but building a billion-euro brand takes decades, which is why most growth comes from existing houses [17].",
+      "Economies of scale come from sourcing, advertising and real estate. LVMH's Fashion & Leather Goods margin of 35% [17] exceeds the 9.1% for US apparel [10], though that gap reflects brand power more than scale. Large groups can cross-fund a weak brand: Kering is reworking Gucci while jewelry grows 12% [3].",
+      "The industry is differentiated by brand rather than commoditized. Gucci's retail fell 9% while Saint Laurent and Bottega Veneta grew [3], which shows how differently brands in the same price tier can perform. Basic apparel such as jeans is closer to a commodity and competes on price, fit and promotion [9].",
+      "Customers hold the stronger hand in mass apparel, where retailers and shoppers can switch brands, and brands rely on promotions [9]. In luxury, brands hold the power: Hermès' customers wait for products and its margin stays at 41% [16]. Suppliers have leverage in scarce inputs such as gold, which Richemont says weighs on gross margin [4]."
+    ],
+    "drivers": [
+      "Revenue growth comes from volume, price increases, new stores and new categories. McKinsey and BoF found nearly three-quarters of fashion executives plan price increases, with 45% of North American companies planning above 5% [20]. Hermès' Q3 growth came from leather goods up 10.8% while ready-to-wear fell 2% [1].",
+      "Operating margin depends on gross margin, which reflects pricing power and input costs, and on store and marketing costs against sales. Hermès held 41% [16]. lululemon's operating margin was 18.8%, which includes about 560 basis points from tariff refunds [8]. High fixed costs make margins swing with sales.",
+      "Key cost variables are leather, cotton, gold and other materials, freight, labor, store rent and advertising. Richemont cited elevated raw material costs [4], and Levi's redeployed part of its tariff refund into promotion and marketing [9]. Tariff costs for US-bound goods are now set by Section 301 duties of 10% or 12.5% [19].",
+      "Interest rates act through consumers and balance sheets. Many luxury groups hold net cash (Hermès €12.9 billion, Richemont €7.7 billion) [16][4], so direct sensitivity is low. The indirect effect is through wealth and confidence. US apparel's interest coverage is 7.9 times [13]. We found no sourced rate-sensitivity estimate for the sub-industry.",
+      "Inflation raises input and labor costs but lets brands raise prices, and weak employment and GDP hurt aspirational buyers first. Bain notes that experiences are growing 1.5 times faster than tangible goods in 2026 [5]. Currency matters too: Hermès' H1 sales rose 6.1% at constant rates but 1.6% reported [16].",
+      "The group is cyclical at the mass end and a mix at the top. Luxury has secular growth in jewelry and wealth creation, but the market was flat at constant rates in 2025 [5]. LVMH's Fashion & Leather Goods organic sales fell 5% in 2025 [17] and again 2% over nine months of 2026 [2], while Richemont grew 17% [4]."
+    ],
+    "financials": [
+      "Revenue growth is low single digits in the base case, with large differences by brand. Ralph Lauren guides full-year constant-currency growth of 6% to 7% [6], Tapestry guides $8.5 billion to $8.6 billion of revenue [7], while lululemon guides a 5% to 7% decline [8]. Bain forecasts 2% to 4% for personal luxury goods in 2026 [5].",
+      "Gross margins are high: Damodaran's US apparel set shows a 56.9% gross margin and a 9.1% pre-tax operating margin [10]. Individual brands exceed that: Tapestry reported a 78.6% gross margin [7], Ralph Lauren 70.5% adjusted [6] and Levi's 66.2% including tariff refunds [9]. Hermès' recurring operating margin was 41% [16].",
+      "Returns on capital are strong because brands need little physical capital. Damodaran shows an unadjusted after-tax ROIC of 19.75% for US apparel [11]. We found no sourced sub-industry ROE figure; Damodaran's page reports ROIC only [11]. LVMH's Fashion & Leather Goods earned 35% margins on its sales [17].",
+      "Leverage is moderate for the US set: Damodaran shows debt to EBITDA of 3.47 and interest coverage of 7.9 times, with market debt to capital of about 25% [13]. The best luxury houses hold net cash: Hermès €12.9 billion [16] and Richemont €7.7 billion [4]. LVMH cut net financial debt 26% to €6.9 billion in 2025 [17].",
+      "Free cash flow is strong at premium brands. Hermès' adjusted free cash flow rose 18% to €2.18 billion in the first half [16], and LVMH's operating free cash flow was €11.3 billion in 2025 [17]. Ralph Lauren holds $1.8 billion in cash [6]. Tapestry plans $2 billion of capital returns this year [7].",
+      "Capex needs are moderate. US apparel's capex is 133% of depreciation and net capex 2.1% of sales [14]. Hermès' operating investments were €344 million in the first half [16]. Spending goes to stores, workshops and technology, and is small against operating cash flow for the leaders.",
+      "Valuations depend on brand quality. Damodaran's US apparel EV/EBITDA is 10.3 times for profitable firms against 19.7 times for the whole US market [12]. In August 2026 Saxo put Hermès at a mid-30s trailing P/E and LVMH near 20 times [18]. The Consumer Discretionary sector's forward P/E is 25.1 [15]."
+    ],
+    "risks": [
+      "Regulation includes trade policy, product-safety and sustainability rules. The key legislative risk is tariffs: IEEPA refunds lifted recent margins at lululemon, Levi's and Ralph Lauren [6][8][9], while Section 301 duties of 10% or 12.5% from July 2026 replaced the expired Section 122 surcharge [19]. About 40% of fashion executives flagged tariffs and deglobalisation as a major risk [20].",
+      "AI is mainly an efficiency and discovery tool. McKinsey and BoF's survey ranks scaling AI as the biggest opportunity for fashion [20], and Bain says roughly half of luxury shoppers use AI in their purchase journey [5]. The risk is that AI-led search shifts attention away from brand-owned channels; we found no sourced measure of this effect.",
+      "Demographics matter through wealth and age. Bain notes more than 70% of customers who left luxury intend to return, though not necessarily to the same brands [5]. Younger shoppers are less loyal, and demand from wealthy older buyers is steadier. We found no sourced population-level estimate for the sub-industry.",
+      "Consumer behavior is shifting toward experiences, resale and value. Bain says experiences are growing 1.5 times faster than goods and that about half of luxury shoppers check the secondhand market before buying new [5]. lululemon's Americas comparable sales fell 12% [8], showing how quickly a popular brand can lose momentum.",
+      "New competitors include fast-growing newer brands and the in-house brands of retailers. Bain notes that US-native brands grew roughly 10% to 15% in Q1 2026 [5]. Within established houses, creative resets matter: LVMH cites renewal at Louis Vuitton, Dior and Loro Piana [2], while Kering is working on Gucci [3].",
+      "Geopolitics and supply chains are material. Chinese demand weakened for LVMH [2] and Hermès [1], tourism flows shifted (Bain cited European tourist spending down about 20% in February and a smaller Gulf customer base [5]), and tariffs reshape sourcing [19]. Production for mass apparel remains concentrated in Asia.",
+      "Substitutes include secondhand and resale, rental, and spending on experiences rather than goods [5]. Within luxury, jewelry has become a substitute for leather goods as customers favor assets that hold value, with Richemont's jewelry up 19% [4] and Kering's up 12% [3]. Lab-grown stones and cheaper dupes are a further risk we could not size."
+    ],
+    "horizon": {
+      "opportunities": [
+        "Jewelry keeps taking share of luxury spending, with Richemont's Jewellery Maisons up 19% at constant rates and Bain naming jewelry the leader in 2026 [4][5].",
+        "Asia could recover: Tapestry's Greater China sales rose 43% [7], Ralph Lauren's Asia sales rose 28% [6] and Bain expects modest luxury growth in 2026 [5].",
+        "Creative resets at LVMH's and Kering's biggest brands could revive growth in fashion and leather goods [2][3].",
+        "Lower tariff exposure or refunds, if they persist, support margins for US importers [8][9][19]."
+      ],
+      "threats": [
+        "Slower Chinese growth and tourism could keep leather-goods demand weak, as in LVMH's Q3 [2].",
+        "Tariff changes and unresolved refund questions could raise costs for US-bound apparel [19][20].",
+        "Aspirational customers could trade down or move to experiences, as lululemon's Americas weakness and Bain's data suggest [5][8].",
+        "Brand missteps can cost several years of growth, as Gucci shows [3]."
+      ],
+      "assessment": "We think the next three to five years favor the strongest brands and punish the middling ones. Pricing power, direct distribution and net cash let Hermès, Richemont and Coach compound growth while the market grows only low single digits [1][4][5][7]. Houses that depend on China or on a single brand, such as Gucci, face a longer repair [2][3]. Mass apparel faces thinner margins and tariff exposure [10][19]. Underlying earnings quality matters: one-off tariff refunds flattered recent quarters [6][8][9]. We expect dispersion between winners and laggards to stay wide."
+    }
+  },
+  "sections": [
+    {
+      "id": "macro",
+      "paragraphs": [
+        "The cycle is uneven rather than uniformly weak. Bain puts the personal luxury market at €358 billion in 2025, down 2% at current rates but up 1% at constant rates, and expects 2% to 4% growth in 2026 in its base case, which it gives about a 70% probability [5]. Its downside case is growth of 0% to 2%, and its upside case is 4% to 6% [5]. The US is the strongest region and Europe and the Middle East are drags: Bain cites European tourist spending down about 20% in February and a Gulf customer base 15% to 25% smaller [5].",
+        "Currency is a second force. LVMH's 2025 Fashion & Leather Goods sales fell 8% reported but 5% organic, with the profit decline attributed mainly to currency [17]. Hermès' first-half 2026 sales rose 6.1% at constant rates but only 1.6% reported, with currency cutting more than €360 million [16]. For US firms, the issue is trade policy: the temporary Section 122 surcharge expired on 24 July 2026 and Section 301 duties of 10% or 12.5% on about 60 economies took effect the same day [19]. We found no sourced policy-rate path for this note, so we do not model it."
+      ]
+    },
+    {
+      "id": "demand",
+      "paragraphs": [
+        "Structural demand rests on wealth creation, brand-seeking in emerging markets and a shift of spending toward jewelry and heirloom goods. Bain forecasts personal luxury goods at €365 billion to €373 billion in 2026 [5]. McKinsey and BoF expected the wider fashion industry to grow in the low single digits in 2026, with 46% of executives expecting conditions to worsen and 25% expecting improvement [20]. Demand is elastic at the aspirational end and steadier at the top, which is why Hermès still grew 4.3% in Q3 at constant rates [1] while lululemon's comparable sales fell 9% [8].",
+        "Category trends differ. Bain says jewelry leads, apparel, eyewear and fragrance are holding, and leather goods and footwear are under pressure but improving [5]. Richemont's Jewellery Maisons grew 19% at constant rates in its first half [4], and Kering's jewelry revenue rose 12% in Q3 [3]. Bain also says experiences are growing 1.5 times faster than tangible goods and that over 70% of customers who left luxury intend to return [5]. Our read is that long-term demand is intact, but the easy post-pandemic growth is gone and volume growth now depends on winning share."
+      ]
+    },
+    {
+      "id": "structure",
+      "paragraphs": [
+        "Porter's five forces point to strong positions for the top brands. Rivalry is intense in mass apparel and between luxury houses for the same customer, but brand differentiation softens it: Gucci's retail fell 9% in Q3 while Saint Laurent and Bottega Veneta grew [3]. The threat of new entrants is low at the top, where heritage and craft are scarce, and higher in activewear and denim. Supplier power is limited except for scarce inputs: Richemont cites elevated raw material costs [4]. Buyer power is high in mass apparel, where Levi's sells 55% of revenue through channels other than its own stores [9], and low in luxury. The threat of substitutes comes from resale, experiences and jewelry [5].",
+        "Concentration is highest in luxury: LVMH's Fashion & Leather Goods had €37.8 billion of sales in 2025 [17], Hermès €12.3 billion in nine months [1], Richemont €12.3 billion in six months [4] and Kering €10.6 billion in nine months [3]. Moats are visible in margins: 35% at LVMH's fashion division [17] and 41% at Hermès [16] against 9.1% for the US apparel set [10]. We found no sourced market-share table for the whole sub-industry."
+      ]
+    },
+    {
+      "id": "environment",
+      "paragraphs": [
+        "Political and trade factors dominate. The temporary 10% Section 122 surcharge ran from 24 February to 24 July 2026, and Section 301 duties of 10% or 12.5% on about 60 economies replaced it [19]. The same source notes combined rates for the EU and Taiwan are generally capped at 10% [19]. IEEPA tariff refunds then lifted second- and third-quarter results: $134.5 million at lululemon [8], $84 million (including interest) at Levi's [9] and a gross margin boost at Ralph Lauren [6]. In the McKinsey and BoF survey, about 40% of executives flagged deglobalisation and tariffs as a major risk [20].",
+        "Technology and social factors matter as well. Bain finds about half of luxury shoppers use AI in their purchase journey and half check the secondhand market before buying new [5]. McKinsey and BoF's survey named scaling AI as the biggest opportunity [20]. Economic and social shifts, including a smaller Gulf customer base and weaker Chinese demand, shape sales by region [2][5]. We found no sourced figures on environmental regulation for this note; sustainability and sourcing rules remain a background factor, not a quantified one."
+      ]
+    },
+    {
+      "id": "economics",
+      "paragraphs": [
+        "Margins are high but split. LVMH's Fashion & Leather Goods earned a 35% operating margin in 2025, with profit from recurring operations of €13.2 billion on €37.8 billion of sales [17]. Hermès' recurring operating margin was 41% in the first half of 2026 against 41.4% a year earlier [16]. Damodaran's US apparel data show a 56.9% gross margin and a 9.1% operating margin [10]. After-tax ROIC is 19.75% [11].",
+        "Operating leverage is high because stores, staff and advertising are largely fixed. When LVMH's 2025 fashion sales fell 5% organically, profit from recurring operations fell 13% [17]. Capital needs are modest: US apparel capex is 133% of depreciation and net capex 2.1% of sales [14], and Hermès spent €344 million on operating investments in the first half [16]. Free cash flow is strong: Hermès' adjusted free cash flow was €2.18 billion [16] and LVMH's operating free cash flow €11.3 billion in 2025 [17]. Balance sheets are conservative at the top, with Hermès' net cash at €12.9 billion [16]; Damodaran's US set has debt to EBITDA of 3.47 [13]. We found no sourced ROE for the group."
+      ]
+    },
+    {
+      "id": "earnings",
+      "paragraphs": [
+        "Consensus figures for this sub-industry were not publicly available to us, so we describe guidance. FactSet reports that the Consumer Discretionary sector's Q3 net profit margin was 10.0% against 10.2% a year earlier [15]. Ralph Lauren raised full-year guidance to 6% to 7% constant-currency revenue growth and 80 to 100 basis points of operating margin expansion [6]. Tapestry raised revenue guidance to $8.5 billion to $8.6 billion and EPS to $8.25 to $8.35 [7]. Levi's raised adjusted EPS guidance to $1.54 to $1.56 [9]. lululemon lowered its outlook to a revenue decline of 5% to 7% [8].",
+        "Kering confirmed it expects to improve its recurring operating margin in 2026 [3], and Hermès reaffirmed its medium-term growth ambition [1]. Richemont gave no outlook in the sources we opened [4]. Our view differs from the quarter's headline numbers in one respect: recent margins include tariff refunds that will not repeat, so underlying earnings growth is lower than reported for lululemon, Levi's and Ralph Lauren [6][8][9]. We would watch whether China stabilises, since LVMH said it hurt the third quarter [2] while Tapestry reported a 43% gain there [7]."
+      ]
+    },
+    {
+      "id": "valuation",
+      "paragraphs": [
+        "We found no sourced forward P/E for this sub-industry on its own. FactSet's 13 November data put the S&P 500 at 18.3 times forward earnings against a 10-year average of 19.1, and the Consumer Discretionary sector at 25.1 [15]. That sector figure covers the whole sector, not this sub-industry. Damodaran's January 2026 data show US apparel at 10.3 times EV/EBITDA for profitable firms against 19.7 for the whole market [12].",
+        "Within the group, valuation spreads are wide. A Saxo note of 18 August 2026 put Hermès at roughly mid-30s trailing earnings and LVMH around 20 times [18]. Those are trailing multiples, and Saxo's note is marketing content, so we treat them as indicative. Our read is that Hermès is priced for sustained high-single-digit growth and 40% margins, while the multiple on LVMH and Kering implies investors want proof of recovery. Hermès' Q3 growth of 4.3% missed an expected 5.2% [1], which shows how little room a premium multiple leaves."
+      ]
+    },
+    {
+      "id": "positioning",
+      "paragraphs": [
+        "We could not find sourced ETF flow, short-interest or year-to-date relative performance data for this sub-industry, so we cannot quantify positioning. What the opened sources do show is a market sorting winners from losers. Saxo wrote in August 2026 that European luxury shares had come under pressure and that lower prices do not automatically create opportunities [18]. Bain reports that about 60% of luxury players are outperforming their prior-year results and that performance gaps between brands are narrowing [5].",
+        "Operating news will drive momentum into year-end. Richemont's first-half operating profit rose 33% [4], Coach's revenue rose 16% [7] and Ralph Lauren raised guidance [6], while LVMH's fashion division fell 5% organically in Q3 [2] and lululemon cut its outlook to a 5% to 7% revenue decline [8]. Breadth is therefore narrow: leadership is concentrated in jewelry and a few high-end or US brands rather than the whole group. Sector-level analyst targets were not available for this group in the FactSet issue we opened [15]."
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "n": 1,
+      "title": "Hermès Q3 and nine-month 2026 results",
+      "publisher": "The Impression",
+      "date": "2026-10-15",
+      "url": "https://theimpression.com/hermes-q3-2026-sales-growth-asia-leather-goods/"
+    },
+    {
+      "n": 2,
+      "title": "LVMH: continued growth in the third quarter of 2026",
+      "publisher": "LVMH",
+      "date": "2026-10-12",
+      "url": "https://www.lvmh.com/en/publications/continued-growth-in-the-third-quarter-of-2026"
+    },
+    {
+      "n": 3,
+      "title": "Kering: Q3 revenue remains stable as jewelry and eyewear offset Gucci contraction",
+      "publisher": "FashionUnited",
+      "date": "2026-10-23",
+      "url": "https://fashionunited.com/news/business/kering-q3-revenue-remains-stable-as-jewelry-and-eyewear-offset-gucci-contraction/2026102375358"
+    },
+    {
+      "n": 4,
+      "title": "Richemont profit jumps on strong sales in Japan, the Americas and Asia Pacific",
+      "publisher": "BusinessDay",
+      "date": "2026-11-13",
+      "url": "https://www.businessday.co.za/companies/earnings/2026-11-13-richemont-profit-jumps-on-strong-sales-in-japan-the-americas-and-asia-pacific/"
+    },
+    {
+      "n": 5,
+      "title": "Global luxury stabilizes amid compounding disruptions (Bain-Altagamma spring update)",
+      "publisher": "Bain & Company",
+      "date": "2026-06-25",
+      "url": "https://www.bain.com/ru/about/media-center/press-releases/2026/global-luxury-stabilizes-amid-compounding-disruptions-as-brands-race-to-amplify-meaning-and-rebuild-relevance/"
+    },
+    {
+      "n": 6,
+      "title": "Ralph Lauren Q2 fiscal 2027 results (Form 8-K exhibit 99.1)",
+      "publisher": "Ralph Lauren / SEC",
+      "date": "2026-11-05",
+      "url": "https://www.sec.gov/Archives/edgar/data/0001037038/000162828026070619/rl-20260926ex991xpressrele.htm"
+    },
+    {
+      "n": 7,
+      "title": "Tapestry raises full-year outlook as Coach sales jump 16 percent",
+      "publisher": "FashionUnited",
+      "date": "2026-11-05",
+      "url": "https://fashionunited.com/news/business/tapestry-raises-full-year-outlook-as-coach-sales-jump-16-percent/2026110575587"
+    },
+    {
+      "n": 8,
+      "title": "lululemon athletica announces second quarter fiscal 2026 results",
+      "publisher": "lululemon",
+      "date": "2026-09-03",
+      "url": "https://corporate.lululemon.com/newsroom/press-releases/2026/09-03-2026-210528733"
+    },
+    {
+      "n": 9,
+      "title": "Levi Strauss & Co. third quarter 2026 results (Form 8-K exhibit 99.1)",
+      "publisher": "Levi Strauss / SEC",
+      "date": "2026-10-07",
+      "url": "https://www.sec.gov/Archives/edgar/data/0000094845/000009484526000048/exhibit991-3q2026pressrele.htm"
+    },
+    {
+      "n": 10,
+      "title": "Margins by sector (US), Apparel",
+      "publisher": "Aswath Damodaran, NYU Stern",
+      "date": "2026-01",
+      "url": "https://pages.stern.nyu.edu/~adamodar/New_Home_Page/datafile/margin.html"
+    },
+    {
+      "n": 11,
+      "title": "Return on capital by sector (US), Apparel",
+      "publisher": "Aswath Damodaran, NYU Stern",
+      "date": "2026-01",
+      "url": "https://pages.stern.nyu.edu/~adamodar/New_Home_Page/datafile/roc.html"
+    },
+    {
+      "n": 12,
+      "title": "EV/EBITDA multiples by sector (US), Apparel",
+      "publisher": "Aswath Damodaran, NYU Stern",
+      "date": "2026-01",
+      "url": "https://pages.stern.nyu.edu/~adamodar/New_Home_Page/datafile/vebitda.html"
+    },
+    {
+      "n": 13,
+      "title": "Debt fundamentals by sector (US), Apparel",
+      "publisher": "Aswath Damodaran, NYU Stern",
+      "date": "2026-01",
+      "url": "https://pages.stern.nyu.edu/~adamodar/New_Home_Page/datafile/dbtfund.html"
+    },
+    {
+      "n": 14,
+      "title": "Capital expenditures by sector (US), Apparel",
+      "publisher": "Aswath Damodaran, NYU Stern",
+      "date": "2026-01",
+      "url": "https://pages.stern.nyu.edu/~adamodar/New_Home_Page/datafile/capex.html"
+    },
+    {
+      "n": 15,
+      "title": "FactSet Earnings Insight, 13 November 2026",
+      "publisher": "FactSet",
+      "date": "2026-11-13",
+      "url": "https://advantage.factset.com/hubfs/Website/Resources%20Section/Research%20Desk/Earnings%20Insight/EarningsInsight_111326.pdf"
+    },
+    {
+      "n": 16,
+      "title": "Hermès H1 2026: revenue reaches €8.2 billion as operating margin holds at 41%",
+      "publisher": "Pulse 2.0",
+      "date": "2026-07",
+      "url": "https://pulse2.com/hermes-h1-2026-revenue-reaches-e8-2-billion-as-operating-margin-holds-at-41/amp/"
+    },
+    {
+      "n": 17,
+      "title": "LVMH: solid performance in a disrupted global economic and geopolitical environment (FY2025)",
+      "publisher": "LVMH",
+      "date": "2026-01-27",
+      "url": "https://www.lvmh.com/en/publications/solid-performance-in-a-disrupted-global-economic-and-geopolitical-environment"
+    },
+    {
+      "n": 18,
+      "title": "Luxury weakness",
+      "publisher": "Saxo Bank",
+      "date": "2026-08-18",
+      "url": "https://www.home.saxo/content/articles/equities/luxury-weakness-18082026"
+    },
+    {
+      "n": 19,
+      "title": "Tariff reset: Section 122 expires as Section 301 duties expand",
+      "publisher": "UHY US",
+      "date": "2026-07",
+      "url": "https://uhy-us.com/insights/news/2026/july/tariff-reset-section-122-expires-as-section-301-duties-expand"
+    },
+    {
+      "n": 20,
+      "title": "Fashion industry braces for challenging 2026 as global pressures intensify: McKinsey (State of Fashion 2026)",
+      "publisher": "The Tribune (ANI)",
+      "date": "2025-11-22",
+      "url": "https://www.tribuneindia.com/news/business/fashion-industry-braces-for-challenging-2026-as-global-pressures-intensify-mckinsey"
+    }
+  ]
+}
