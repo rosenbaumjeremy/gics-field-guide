@@ -1,0 +1,432 @@
+{
+  "code": "25201030",
+  "added": "2026-11-20",
+  "asOf": "2026-11-19",
+  "summary": "Homebuilders are in a margin squeeze rather than a volume collapse. Freddie Mac's 30-year mortgage rate averaged 7.28% on 19 November against 6.26% a year ago [6], and the NAHB builder index fell to 25, its lowest since April 2012 [7]. Net orders were down 6% to 9% at D.R. Horton, Lennar, Pulte and NVR [1][2][3][4], while home sale gross margin fell to 15.8% at Lennar and 18.3% at NVR [2][4]. Luxury builder Toll grew signed contracts about 5% in its July quarter [5]. September single-family starts were 859,000 [8] and new-home supply was 8.4 months [9]. We found no sourced consensus estimates.",
+  "metrics": [
+    {
+      "label": "Freddie Mac 30-year fixed mortgage rate",
+      "value": "7.28%",
+      "context": "6.26% a year earlier; 15-year 6.66%; weekly survey as of 19 Nov 2026",
+      "source": 6
+    },
+    {
+      "label": "NAHB/Wells Fargo Housing Market Index (Nov 2026)",
+      "value": "25",
+      "context": "Down 4 points, lowest since April 2012; 46% of builders cut prices, 68% used incentives",
+      "source": 7
+    },
+    {
+      "label": "Single-family housing starts (Sep 2026)",
+      "value": "859,000",
+      "context": "Seasonally adjusted annual rate, down 4.6% from August; single-family permits 845,000, down 4.0%",
+      "source": 8
+    },
+    {
+      "label": "New-home months' supply (Sep 2026)",
+      "value": "8.4",
+      "context": "Sales pace 676,000 a year; median new-home price $400,400, down 3.9% from a year earlier",
+      "source": 9
+    },
+    {
+      "label": "Lennar home sale gross margin (Q3 to 31 Aug 2026)",
+      "value": "15.8%",
+      "context": "17.5% a year earlier; incentives about 12.0%; Q4 guide 15.5% to 16.0%",
+      "source": 2
+    },
+    {
+      "label": "PulteGroup home sale gross margin (Q3 2026)",
+      "value": "24.8%",
+      "context": "26.2% a year earlier, including about 70 basis points of land impairments; net orders down 6%",
+      "source": 3
+    },
+    {
+      "label": "D.R. Horton fiscal 2026 net sales orders",
+      "value": "84,995 homes",
+      "context": "Up 2% for the year; fourth-quarter orders down 7% to 18,619; fiscal 2027 revenue guide $30B to $32B vs $33.0B",
+      "source": 1
+    },
+    {
+      "label": "Damodaran US homebuilding EV/EBITDA",
+      "value": "8.9x",
+      "context": "30 firms, positive-EBITDA basis (8.4x all firms); January 2026 data",
+      "source": 14
+    }
+  ],
+  "watch": [
+    "Mortgage rates have risen again to 7.28% from 6.26% a year ago, which is the main brake on orders and the reason incentives are rising [6][7].",
+    "Lennar guides fourth-quarter home sale gross margin to 15.5% to 16.0% and has already cut its 2026 delivery target to 80,000 to 81,000 homes [2].",
+    "Cancellation rates are rising: 23% at D.R. Horton in its September quarter against 20% a year earlier, and 21% at NVR against 19% [1][4].",
+    "Toll Brothers' fiscal fourth quarter is the next test of whether the luxury buyer keeps defying the slowdown; its latest release reaffirmed about $10.5B of 2026 home sales revenue [5].",
+    "The Federal Reserve held at 3.75% to 4.00% on 28 October with two dissenters preferring a rise, so near-term relief on rates looks limited [10]."
+  ],
+  "bellwethers": [
+    "D.R. Horton",
+    "Lennar",
+    "PulteGroup",
+    "NVR",
+    "Toll Brothers"
+  ],
+  "basics": {
+    "intro": "Homebuilders buy and develop land, build houses and sell them to buyers, usually with a mortgage. Revenue is the number of homes closed times the average price, and profit depends on the gap between that price and the cost of land, labour and materials. GICS puts residential builders and manufactured-home makers here. Building products, home improvement retail and appliances sit in other sub-industries, and rental-housing owners are real estate companies.",
+    "products": [
+      {
+        "name": "Entry-level and first-time homes",
+        "what": "Smaller, lower-priced houses built in volume on standardised plans, sold to first-time and budget-conscious buyers who are very sensitive to monthly payments.",
+        "examples": "D.R. Horton, Lennar"
+      },
+      {
+        "name": "Move-up and active-adult homes",
+        "what": "Larger houses and age-restricted communities for existing owners trading up or downsizing, who often bring equity from a prior sale.",
+        "examples": "PulteGroup (Centex, Pulte, Del Webb brands)"
+      },
+      {
+        "name": "Luxury homes",
+        "what": "High-priced, more customised houses for affluent buyers who depend less on mortgage financing.",
+        "examples": "Toll Brothers"
+      },
+      {
+        "name": "Mortgage and title services",
+        "what": "In-house lenders and title companies finance and close buyers' purchases, which captures extra fee income and helps the builder control the sale.",
+        "examples": "Pulte Mortgage, NVR Mortgage, Lennar Financial Services"
+      },
+      {
+        "name": "Lot development",
+        "what": "Some builders develop finished lots themselves or buy them from affiliates and third parties, so they can build without owning years of raw land.",
+        "examples": "Forestar, which supplies D.R. Horton"
+      },
+      {
+        "name": "Rental homes",
+        "what": "Some builders build single-family or multifamily homes to rent or sell to investors, a small side line next to for-sale homes.",
+        "examples": "D.R. Horton rental operations"
+      }
+    ],
+    "terms": [
+      {
+        "term": "Net new orders",
+        "meaning": "Signed sales contracts in a period after cancellations. It is the earliest read on demand, because homes close months later."
+      },
+      {
+        "term": "Backlog",
+        "meaning": "Homes under contract that have not yet closed. It sets the next few quarters' revenue."
+      },
+      {
+        "term": "Closings (deliveries, settlements)",
+        "meaning": "Homes handed over to buyers. Revenue is recognised at closing, not at the contract date."
+      },
+      {
+        "term": "Average selling price (ASP)",
+        "meaning": "Home sales revenue divided by homes closed. Mix between cheap and expensive homes moves it as much as price changes do."
+      },
+      {
+        "term": "Gross margin",
+        "meaning": "Home sale revenue less the cost of the home, including land, construction and capitalised interest, as a percent of revenue. It is the key profitability gauge."
+      },
+      {
+        "term": "Incentives",
+        "meaning": "Price cuts, mortgage rate buy-downs and closing-cost help given to win a sale. They reduce margin and are higher when affordability is poor."
+      },
+      {
+        "term": "Cancellation rate",
+        "meaning": "Share of gross orders that buyers cancel before closing. A rise signals buyers failing to qualify for or afford financing."
+      },
+      {
+        "term": "Spec home",
+        "meaning": "A house started before a buyer signs a contract. Spec building speeds sales but leaves the builder holding completed unsold homes if demand weakens."
+      },
+      {
+        "term": "Option or controlled lots",
+        "meaning": "Lots the builder has a contract to buy later, paying a deposit instead of owning them. It lowers capital use and risk but can leave impairments if deals are walked away from."
+      },
+      {
+        "term": "Community count",
+        "meaning": "Number of active selling neighbourhoods. More communities usually means more orders."
+      },
+      {
+        "term": "Absorption pace",
+        "meaning": "Homes sold per community per month. A builder can cut price or add incentives to hold pace."
+      },
+      {
+        "term": "Months' supply",
+        "meaning": "Homes for sale divided by the monthly sales rate. Above six months is usually read as an oversupplied market."
+      }
+    ],
+    "drivers": [
+      {
+        "name": "Mortgage rates and affordability",
+        "how": "Most buyers borrow, so higher rates raise the monthly payment. Builders respond with price cuts and rate buy-downs, which show up as lower gross margin and fewer orders."
+      },
+      {
+        "name": "Consumer confidence and employment",
+        "how": "A house is the largest purchase most people make. Job worries delay it, which shows up as fewer buyers and more cancellations."
+      },
+      {
+        "name": "Land and construction costs",
+        "how": "Land is bought years ahead and moves with prices, and lumber, labour and tariffs affect build cost. If selling prices fall faster than cost, margin is squeezed."
+      },
+      {
+        "name": "Supply of existing homes",
+        "how": "Owners with low-rate mortgages tend to stay put, which limits resale supply and pushes buyers toward new homes. When resale listings rise, builders compete harder on price."
+      },
+      {
+        "name": "Incentive intensity",
+        "how": "Spending on buy-downs and closing costs is a direct cut to price. It rises when sales pace slows."
+      },
+      {
+        "name": "Land strategy and capital returns",
+        "how": "Builders that control land by option need less capital and can return more cash through buybacks, while those that own more land carry more risk in a downturn."
+      },
+      {
+        "name": "Regulation and permitting",
+        "how": "Zoning, building codes, impact fees and slow approvals add cost and delay starts, which limits how fast builders can add supply."
+      }
+    ]
+  },
+  "fundamentals": {
+    "business": [
+      "Revenue is almost entirely home sales, plus smaller mortgage, title and lot-sale income. PulteGroup's third-quarter home sale revenue was $3.86B on 6,876 closings, and its financial services arm added $46M of pre-tax income [3]. D.R. Horton also earns from Forestar lot sales, with 83% of Forestar's fiscal 2025 lots sold to D.R. Horton [16].",
+      "Customers are individual households, from first-time buyers to affluent move-up buyers, plus some rental investors. The price points differ widely: Lennar's average sales price was $372,000 [2], Pulte's $561,000 [3], NVR's settlements averaged $445,900 [4] and Toll's $996,400 [5].",
+      "The largest cost is the house itself: land, labour, materials and capitalised interest, shown as cost of sales. Gross margin ranged from 15.8% at Lennar to 24.8% at Pulte in the latest quarters [2][3]. Selling, general and administrative costs came to 9.2% of revenue at Lennar [2] and 10.3% at Pulte [3].",
+      "Pricing power depends on location, product and how much buyers rely on financing. In the current market it is weak: 46% of builders cut prices and 68% used incentives in November, per NAHB [7]. Lennar's incentives were about 12.0% of revenue [2]. Luxury builders such as Toll have held up better, with adjusted gross margin of 25.6% [5].",
+      "Main assets are land and homes in inventory, which are financed with debt and cash. D.R. Horton held 28,200 homes in inventory, of which 8,800 were completed and unsold, and 570,600 lots owned or controlled, 130,500 of them owned [1]. Liabilities are mostly notes payable: $6.05B at D.R. Horton [1] and a 12.1% debt-to-capital ratio at Pulte [3].",
+      "The business is capital intensive in land and inventory but light in fixed plant, since subcontractors do most construction. Builders manage this by controlling lots through options: Lennar owns fewer than 2.5% of its roughly 488,000 homesites on its balance sheet [2]. Damodaran's sales to invested capital is 1.42 for US homebuilders [13]."
+    ],
+    "overview": [
+      "We did not find a single sourced global market-size figure for homebuilding. In the US, the Census Bureau's new-home sales rate was 676,000 a year in September 2026, and single-family starts ran at 859,000 a year [8][9]. D.R. Horton alone closed 84,202 homes in fiscal 2026 [1].",
+      "Main segments are entry-level, move-up, luxury and age-restricted homes, plus a smaller manufactured-housing and rental segment. D.R. Horton and Lennar lead the entry-level end, with average prices of about $366,000 and $372,000 [1][2], Pulte is in the middle at $561,000 [3], and Toll is at about $1M [5].",
+      "Builders sit between land developers, subcontractors and materials suppliers on one side, and mortgage lenders and homebuyers on the other. Lot supply is a key link: Forestar supplies D.R. Horton, and Lennar controls most of its homesites by option instead of owning them [2][16].",
+      "The industry has moved from owning land to controlling it by contract, and from custom building to standardised plans with in-house mortgage and title arms. D.R. Horton describes itself as the largest US homebuilder by homes closed [16]. Spec building has grown too: 17,700 of D.R. Horton's homes in inventory were unsold at 30 September 2026 [1].",
+      "Activity concentrates in the South and Sun Belt, where land is cheaper and population is growing. D.R. Horton operates in 126 markets across 36 states [16]. NAHB's regional builder index in November was 27 in the South and 23 in the West, against 34 in the Northeast and 35 in the Midwest [7]."
+    ],
+    "competition": [
+      "There are five large listed national builders and hundreds of regional and private ones. D.R. Horton's 10-K says it competes with local, regional and national builders and rental companies, and also with existing homes for sale [16].",
+      "D.R. Horton is the largest by homes closed [16], with 84,202 closings in fiscal 2026 [1], followed by Lennar with a 2026 delivery target of 80,000 to 81,000 homes [2]. Pulte guides to fewer homes than that at higher prices: it closed 6,876 homes in the quarter [3]. We did not find sourced market-share percentages.",
+      "The industry is more fragmented than most, because housing is local and most builders work in a few metro areas. The listed leaders are consolidated by size but still compete locally with many small builders, which is why D.R. Horton lists local and regional competitors [16].",
+      "Barriers to entry include land access, capital, local relationships, labour supply and approvals. Entrenched builders hold lot pipelines: Lennar controls about 488,000 homesites and D.R. Horton 570,600 lots [1][2]. A newcomer would struggle to match that.",
+      "Scale helps with materials purchasing, land deals, in-house finance and brand, but not as much as in manufacturing because every site is local. D.R. Horton competes on price, location, quality and design, and mortgage financing terms [16]. We think its scale and cost position explain how it stayed profitable while margins narrowed.",
+      "Homes are partly commoditised at the entry level, where price and monthly payment decide, and more differentiated in luxury, where design and location matter. Toll's adjusted gross margin of 25.6% against Lennar's 15.8% reflects that gap [2][5].",
+      "Customers have the stronger bargaining position now. With NAHB reporting 46% of builders cutting prices and 68% using incentives [7], buyers can negotiate. Suppliers of land and labour also have leverage in strong markets, which we think is why land impairments are appearing [3][4]."
+    ],
+    "drivers": [
+      "Revenue growth comes from closings and price. D.R. Horton's fiscal 2026 orders rose 2% for the year but fell 7% in the fourth quarter [1]. New-home sales ran at 676,000 a year in September [9]. We think order pace, not price, now sets revenue.",
+      "Operating margins depend on price relative to land and build cost, and on incentives. Lennar's gross margin was 15.8% against 17.5% a year earlier, [2]. NVR's fell to 18.3% from 21.0% [4].",
+      "Key cost variables are land, labour, lumber and other materials, and capitalised interest. NVR took impairments of about $24.8M on contract land deposits in the quarter [4]. Pulte took $26M of land impairments [3].",
+      "Rates matter more than anything else. Freddie Mac's 30-year average was 7.28% on 19 November against 6.26% a year earlier [6]. NAHB's builder index of 25 sits with mortgage rates above 7% [6][7]. We note the Fed's own range is 3.75% to 4.00% [10], so mortgage rates are pricing in more than the policy rate.",
+      "Inflation, jobs, GDP and commodities matter through confidence and cost. The FOMC statement says inflation remains elevated and unemployment has changed little [10]. Builder sentiment suggests buyers are cautious: traffic fell to 16 in the NAHB survey [7]. We did not find sourced commodity price figures.",
+      "Homebuilding is strongly cyclical and rate-sensitive. D.R. Horton notes that it generally closes more homes and earns more in its third and fourth fiscal quarters, so seasonality sits on top of the cycle [16]."
+    ],
+    "financials": [
+      "Growth has stalled. D.R. Horton's fiscal 2026 revenue was $33.0B and its fiscal 2027 guide is $30B to $32B [1]. Pulte's nine-month diluted EPS was $6.79 against $8.55 [3], and NVR's nine-month net income fell 30% [4].",
+      "Damodaran's US homebuilding data show a 22.70% gross margin, 12.91% operating margin and 9.47% net margin as of January 2026 [12]. Reported quarters are mixed against that: D.R. Horton's pre-tax margin was 10.8% in the quarter [1], and Pulte's was about 15.7% by our calculation [3].",
+      "Damodaran puts US homebuilding return on invested capital at 14.91% and after-tax operating margin at 10.49% [13]. D.R. Horton reports return on equity of 12.2% and homebuilding return on investment of 16.6% for fiscal 2026 [1]. We did not find sourced ROE for the rest of the group.",
+      "Leverage is low for a capital-heavy business. D.R. Horton's debt to total capital is 20.8% [1], Lennar's homebuilding figure is 16.6% [2], Pulte's is 12.1% [3] and Toll's is 24.5% [5].",
+      "Free cash flow is positive and mostly returned. D.R. Horton generated $3.5B of operating cash flow in fiscal 2026 and repurchased 24.0M shares for $3.6B [1]. Pulte bought back $1.0B of shares year to date [3], and NVR repurchased $1.23B in nine months [4].",
+      "Capital spending on plant is small; the investment is in land and inventory. Pulte's house and land inventory was $14.09B [3], and Lennar reports an inventory turn of 2.4x [2]. Cash is tied up in lots and unsold homes rather than equipment.",
+      "Damodaran's US homebuilding group trades at 8.92x EV/EBITDA on positive-EBITDA firms and 8.43x on all firms, as of January 2026 [14]. The iShares U.S. Home Construction ETF showed a price-to-earnings ratio of 14.50 on 18 November 2026 [15], but that fund also holds building products and retailers."
+    ],
+    "risks": [
+      "Regulation is mostly local: zoning, building codes and approvals slow supply and raise cost. D.R. Horton lists zoning and entitlement review as part of every land decision [16]. We did not find sourced evidence on a specific national change this quarter.",
+      "Technology and AI are unlikely to disrupt the builder model soon, since houses are built on site. We did not find sourced evidence of AI changing homebuilding economics.",
+      "Demographics support long-run demand, but we did not find sourced household-formation figures. The practical constraint is affordability: the median new-home price was $400,400 in September 2026, and mortgage rates are above 7% [6][9].",
+      "Buyer behaviour has shifted to demanding incentives. NAHB says 68% of builders offered them in November, a post-Covid high, and D.R. Horton expects incentives to remain elevated in fiscal 2027 [1][7]. Rising cancellations to 23% at D.R. Horton and 21% at NVR show buyers backing out [1][4].",
+      "Competition now comes from the resale market and rentals, as well as other builders. D.R. Horton says it competes with existing home sales and rental properties [16]. With supply at 8.4 months, new homes are priced against a market that has plenty of stock [9].",
+      "Supply-chain and geopolitical risk shows up in lumber, materials and labour costs. Our sources did not quantify tariffs or immigration effects, so we do not give a number. D.R. Horton lists skilled labour and raw materials among the things it competes for [16].",
+      "Substitutes are renting, buying an existing home, or moving in with family. Existing homes compete directly with new ones, and D.R. Horton also runs a rental business [16]. If rates stay high we think renting remains a real alternative for entry-level buyers."
+    ],
+    "horizon": {
+      "opportunities": [
+        "Lower mortgage rates would quickly lift affordability, since the 30-year rate has risen from 6.26% to 7.28% in a year [6].",
+        "Low leverage and strong cash flow let builders keep buying back stock: D.R. Horton plans about $3.0B of repurchases in fiscal 2027 [1].",
+        "Builders controlling lots by option, as Lennar does, can cut starts quickly and protect returns if demand falls further [2].",
+        "Luxury buyers have held up, with Toll's July-quarter signed contracts up about 5% in units [5]."
+      ],
+      "threats": [
+        "Sustained mortgage rates above 7% could keep orders weak and incentives high, as the NAHB index of 25 shows [6][7].",
+        "Margins are still falling: Lennar guides 15.5% to 16.0% for the fourth quarter and D.R. Horton expects incentives to stay elevated [1][2].",
+        "Higher cancellations and 8.4 months of new-home supply point to excess inventory if sales do not recover [1][4][9].",
+        "The Fed has two members preferring a rate increase, so rates may not fall soon [10]."
+      ],
+      "assessment": "Over the next three to five years we think the industry is set for lower-margin growth rather than a collapse. Balance sheets are strong, with debt-to-capital between 12.1% and 24.5% and large buybacks [1][3][5], which means builders can survive a long period of weak demand. But the evidence for rate relief is thin: the Fed held and two members wanted a rise [10], and mortgage rates are above 7% [6]. Builders that control land cheaply and offer lower-priced homes, such as D.R. Horton and Lennar, face the most pressure on margin, while luxury builders have more pricing room [2][5]. Our read is that returns will drift toward the Damodaran group norm of about 15% ROIC [13] unless affordability improves."
+    }
+  },
+  "sections": [
+    {
+      "id": "macro",
+      "paragraphs": [
+        "Homebuilding is in a late-cycle squeeze driven by financing costs, not by a lack of jobs. The Federal Reserve held its target range at 3.75% to 4.00% on 28 October 2026 in a 10-2 vote, with two members preferring a quarter-point increase, and said inflation remains elevated while job gains kept pace with the workforce [10]. Mortgage rates have moved the other way from what builders hoped: Freddie Mac's 30-year average was 7.28% on 19 November against 6.26% a year earlier [6].",
+        "The effect is visible in the builders' own results. NAHB's builder index fell to 25 in November, the lowest since April 2012, with prospective buyer traffic at 16 and 46% of builders cutting prices [7]. Census data show September single-family starts at 859,000 a year and single-family permits at 845,000, down 4.0% from August [8]. New-home sales were 676,000 a year, and supply reached 8.4 months [9].",
+        "We think the cycle is closer to a trough in activity than a peak, but the path out depends on rates rather than on the economy. Currency matters little for this domestic group. Fiscal policy was not covered by the sources we opened."
+      ]
+    },
+    {
+      "id": "demand",
+      "paragraphs": [
+        "Structural demand rests on the need for housing and on a thin supply of existing homes, but demand is highly elastic to monthly payment. We did not find a sourced figure for the size of the US housing shortage, so we do not quote one. Census data put new-home sales at 676,000 a year in September 2026, with 476,000 new homes for sale [9].",
+        "Orders show how elastic it is. D.R. Horton's fiscal 2026 net orders rose 2% to 84,995 homes, but fourth-quarter orders fell 7% [1]. Lennar's orders fell 9% [2], Pulte's 6% [3] and NVR's 7% [4]. Toll's July-quarter signed contracts rose about 5% in units to 2,508 [5], which suggests the high end is less sensitive.",
+        "Prices have adjusted: the median new-home price was $400,400 in September, 3.9% below a year earlier [9]. Builders also adjusted by offering incentives, such as Lennar's roughly 12.0% [2]. Demographics help over the long run, but affordability decides the near term. Backlogs give some visibility: Pulte's rose 4% to 10,298 homes and NVR's units rose 10% [3][4]."
+      ]
+    },
+    {
+      "id": "structure",
+      "paragraphs": [
+        "By Porter's five forces, rivalry is high but local, and the five large listed builders each hold only a part of the national market. D.R. Horton is the largest by homes closed [16], with 84,202 closings in fiscal 2026 [1]. We did not find sourced share percentages.",
+        "The threat of new entrants is moderate: land, capital and approvals are barriers, and big builders control large lot pipelines, such as D.R. Horton's 570,600 lots and Lennar's roughly 488,000 homesites [1][2]. Buyer power is high now. NAHB says 68% of builders used incentives [7]. Supplier power sits with land owners and subcontractors, though impairments at Pulte and NVR show land risk [3][4]. Substitutes are resale homes and rentals, which D.R. Horton lists as competitors [16].",
+        "Pricing power is strongest in luxury: Toll's adjusted gross margin was 25.6% and Pulte's was 24.8%, against 15.8% at Lennar [2][3][5]. The moats are land position, scale in purchasing, in-house mortgage capture (85% at Pulte [3]). None of these is strong enough to protect margin in a weak market."
+      ]
+    },
+    {
+      "id": "environment",
+      "paragraphs": [
+        "Regulation touches homebuilding mainly through land. D.R. Horton's 10-K lists zoning and governmental entitlements as part of its land review [16], and these slow supply and add cost. We did not find sourced evidence of a specific new federal rule this quarter, so we do not describe one.",
+        "Political and economic policy matter through interest rates. The Fed's October decision kept rates at 3.75% to 4.00% with two members wanting a rise [10], and mortgage rates are 7.28% [6]. Lennar moderated its 2026 delivery target in its latest release [2]. Pulte and NVR took land impairments of $26M and about $24.8M respectively [3][4], a sign that deals made at higher prices are being reassessed.",
+        "Technology is a smaller factor than in other sectors, because houses are built on site. We did not find sourced evidence of AI or modular construction changing costs. Environmental and social factors, such as energy codes and water limits, are not quantified in the sources we opened."
+      ]
+    },
+    {
+      "id": "economics",
+      "paragraphs": [
+        "Margins have fallen from recent highs but remain positive. Damodaran's January 2026 data show a 22.70% gross margin and 12.91% operating margin for 30 US homebuilders [12], and a 14.91% return on invested capital [13]. Current quarters are below that gross margin at Lennar (15.8%) and NVR (18.3%) and above it at Pulte (24.8%) and Toll (adjusted 25.6%) [2][3][4][5].",
+        "D.R. Horton's fiscal 2026 pre-tax margin was 11.8%, with 10.8% in the fourth quarter, and it reported a return on equity of 12.2% and homebuilding return on investment of 16.6% [1]. Lennar's net margin on home sales was 6.6% and SG&A 9.2% of revenue [2]. Pulte's SG&A rose to 10.3% of revenue from 9.4% [3], showing negative operating leverage as revenue falls.",
+        "Capital intensity is in land and inventory, not equipment, and free cash flow is solid. D.R. Horton produced $3.5B of operating cash flow and returned $3.6B through buybacks and $513.3M in dividends [1]. Debt to capital is modest, from 12.1% at Pulte to 24.5% at Toll [1][3][5]. Our read is that returns are still healthy but are now compressing, mainly through margin rather than leverage."
+      ]
+    },
+    {
+      "id": "earnings",
+      "paragraphs": [
+        "Earnings are falling year on year. Pulte's third-quarter net income was $476M against $586M, with EPS of $2.53 against $2.96 [3]. NVR's net income fell 27% to $248.6M [4]. Lennar's EPS was $1.19, or $1.23 adjusted [2], and Toll's July-quarter EPS was $2.97 against $3.73 [5]. D.R. Horton earned $2.67 a share in the fourth quarter and $10.11 for fiscal 2026 [1].",
+        "Guidance points to more of the same. Lennar guides fourth-quarter orders of 19,500 to 20,500, deliveries of 22,000 to 23,000 and gross margin of 15.5% to 16.0%, and it cut its full-year delivery target to 80,000 to 81,000 [2]. D.R. Horton guides fiscal 2027 revenue of $30B to $32B and 79,000 to 84,000 closings, against $33.0B and 84,202 in fiscal 2026 [1]. Toll reaffirmed 10,500 to 10,600 deliveries and about $10.5B of home sales revenue for fiscal 2026 [5].",
+        "We did not find sourced consensus EPS estimates or revision data for this group, so we cannot say how guidance compares with expectations. Our view is that earnings fall again before they recover, because the order declines of 6% to 9% have not yet worked through closings. For context, FactSet's blended third-quarter S&P 500 earnings growth is 31.9%, a high bar next to these declines [11]."
+      ]
+    },
+    {
+      "id": "valuation",
+      "paragraphs": [
+        "We did not find a sourced forward P/E for the homebuilders alone. The iShares U.S. Home Construction ETF showed a P/E ratio of 14.50 on 18 November 2026 [15], but 63.67% of that fund is homebuilding and the rest building products, retail and chemicals, so it is only a rough guide. FactSet puts the Consumer Discretionary sector at 25.1x forward earnings as of 12 November, against 18.3x for the S&P 500 and its 5-year and 10-year averages of 19.8x and 19.1x [11]. That sector figure is dominated by other businesses and says little about builders.",
+        "Damodaran's January 2026 data give an enterprise value to EBITDA of 8.92x for 30 US homebuilders with positive EBITDA, and 8.43x for all firms [14]. That is below the broad market's multiples and fits a business with cyclical earnings and heavy inventory. His data also show a return on invested capital of 14.91% [13].",
+        "Price in the market is easier to judge from capital returns. Pulte repurchased 2.8 million shares at an average of about $124.70 in the quarter [3], and Lennar bought 3 million at $85.49 [2]. Our read is that valuations discount lower earnings already, but we have no sourced price-to-book or forward-earnings figure for individual builders, so we make no firm claim on the cycle history."
+      ]
+    },
+    {
+      "id": "positioning",
+      "paragraphs": [
+        "The one performance figure we could verify is for the iShares U.S. Home Construction ETF: a year-to-date NAV total return of negative 2.60% as of 18 November 2026, with net assets of about $2.06B and an expense ratio of 0.37% [15]. The fund holds 42 positions, 63.67% in homebuilding, 17.55% in building products and 10.47% in home improvement retail [15]. We did not open data for XHB, so we do not compare them.",
+        "We did not find sourced ETF flow, short-interest or institutional positioning data for the group, so we do not estimate them. Company buybacks are the one positioning signal we can see: D.R. Horton repurchased $3.6B in fiscal 2026 and plans about $3.0B in fiscal 2027 [1], Pulte $1.0B year to date [3] and NVR $1.23B in nine months [4].",
+        "Breadth is mixed rather than uniformly weak. Toll's orders grew about 5% in units while the volume builders' fell [2][3][4][5], and NAHB's regional index is weakest in the West (23) and South (27) [7]. Our inference is that the market is already pricing a weak order book and is waiting for evidence on rates."
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "n": 1,
+      "title": "D.R. Horton fiscal 2026 fourth quarter and full year results (Form 8-K exhibit 99.1)",
+      "publisher": "D.R. Horton / SEC",
+      "date": "2026-10-29",
+      "url": "https://www.sec.gov/Archives/edgar/data/0000882184/000088218426000119/a9302026exhibit991.htm"
+    },
+    {
+      "n": 2,
+      "title": "Lennar third quarter 2026 results (Form 8-K exhibit 99.1)",
+      "publisher": "Lennar / SEC",
+      "date": "2026-09",
+      "url": "https://www.sec.gov/Archives/edgar/data/0000920760/000162828026062287/ex991-2026831x8kq3.htm"
+    },
+    {
+      "n": 3,
+      "title": "PulteGroup third quarter 2026 results (Form 8-K exhibit 99.1)",
+      "publisher": "PulteGroup / SEC",
+      "date": "2026-10-22",
+      "url": "https://www.sec.gov/Archives/edgar/data/0000822416/000082241626000041/ex991earningspr9302026.htm"
+    },
+    {
+      "n": 4,
+      "title": "NVR, Inc. announces third quarter results (Form 8-K exhibit 99.1)",
+      "publisher": "NVR / SEC",
+      "date": "2026-10-22",
+      "url": "https://www.sec.gov/Archives/edgar/data/0000906163/000090616326000099/q32026ex991_earningsrelease.htm"
+    },
+    {
+      "n": 5,
+      "title": "Toll Brothers reports FY 2026 third quarter results",
+      "publisher": "Toll Brothers",
+      "date": "2026-08-18",
+      "url": "https://investors.tollbrothers.com/news-and-events/press-releases/2026/08-18-2026-213033738"
+    },
+    {
+      "n": 6,
+      "title": "Primary Mortgage Market Survey",
+      "publisher": "Freddie Mac",
+      "date": "2026-11-19",
+      "url": "https://www.freddiemac.com/pmms"
+    },
+    {
+      "n": 7,
+      "title": "Builder sentiment continues to fall on affordability concerns",
+      "publisher": "NAHB",
+      "date": "2026-11-17",
+      "url": "https://www.nahb.org/news-and-economics/press-releases/2026/11/builder-sentiment-continues-to-fall-on-affordability-concerns"
+    },
+    {
+      "n": 8,
+      "title": "Monthly New Residential Construction, September 2026",
+      "publisher": "U.S. Census Bureau / HUD",
+      "date": "2026-10-20",
+      "url": "https://www.census.gov/construction/nrc/pdf/newresconst_202609.pdf"
+    },
+    {
+      "n": 9,
+      "title": "US new home sales for September 0.676M annualized vs 0.650M estimate",
+      "publisher": "investingLive (citing Census)",
+      "date": "2026-10-27",
+      "url": "https://investinglive.com/news/us-new-home-sales-for-september-0-676m-annualized-vs-0-650m-estimate/"
+    },
+    {
+      "n": 10,
+      "title": "Federal Reserve issues FOMC statement, 28 October 2026",
+      "publisher": "Federal Reserve",
+      "date": "2026-10-28",
+      "url": "https://www.federalreserve.gov/newsevents/pressreleases/monetary20261028a.htm"
+    },
+    {
+      "n": 11,
+      "title": "FactSet Earnings Insight, 13 November 2026",
+      "publisher": "FactSet",
+      "date": "2026-11-13",
+      "url": "https://advantage.factset.com/hubfs/Website/Resources%20Section/Research%20Desk/Earnings%20Insight/EarningsInsight_111326.pdf"
+    },
+    {
+      "n": 12,
+      "title": "Margins by Sector (US), January 2026",
+      "publisher": "Aswath Damodaran, NYU Stern",
+      "date": "2026-01",
+      "url": "https://pages.stern.nyu.edu/~adamodar/New_Home_Page/datafile/margin.html"
+    },
+    {
+      "n": 13,
+      "title": "Margin and return on capital by industry (US), January 2026",
+      "publisher": "Aswath Damodaran, NYU Stern",
+      "date": "2026-01",
+      "url": "https://pages.stern.nyu.edu/~adamodar/New_Home_Page/datafile/mgnroc.html"
+    },
+    {
+      "n": 14,
+      "title": "Enterprise Value Multiples by Sector (US), January 2026",
+      "publisher": "Aswath Damodaran, NYU Stern",
+      "date": "2026-01",
+      "url": "https://pages.stern.nyu.edu/~adamodar/New_Home_Page/datafile/vebitda.html"
+    },
+    {
+      "n": 15,
+      "title": "iShares U.S. Home Construction ETF (ITB)",
+      "publisher": "iShares / BlackRock",
+      "date": "2026-11-18",
+      "url": "https://www.ishares.com/us/products/239512/ishares-us-home-construction-etf"
+    },
+    {
+      "n": 16,
+      "title": "D.R. Horton annual report (Form 10-K) for fiscal 2025",
+      "publisher": "D.R. Horton",
+      "date": "2025-11",
+      "url": "https://investor.drhorton.com/~/media/Files/D/D-R-Horton-IR/documents/quarterly-reports/10k-2025.pdf"
+    }
+  ]
+}

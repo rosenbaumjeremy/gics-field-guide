@@ -1,0 +1,438 @@
+{
+  "code": "25504050",
+  "added": "2026-11-20",
+  "asOf": "2026-11-13",
+  "summary": "Automotive retail is splitting in two. Parts retailers are growing on an ageing car fleet: O'Reilly's comparable sales rose 7.2% in the third quarter with a 21.4% operating margin [1], while Advance Auto Parts' comps fell 1.2% [2]. Dealers face a softer new-car market, with US sales running at a 15.5 million annual pace in October against 16.1 million expected [3], and AutoNation's net income fell 25% [4]. Used-car sellers are taking share: Carvana's units rose 39% [5] and CarMax's used units 13.8% [6]. Damodaran's US auto retail group trades at 14.8x EV/EBITDA [7].",
+  "metrics": [
+    {
+      "label": "O'Reilly comparable store sales (Q3 2026)",
+      "value": "+7.2%",
+      "context": "Professional up double digits, DIY mid-single digits; operating margin 21.4%; 2026 comp guide raised to 5.5% to 6.5%",
+      "source": 1
+    },
+    {
+      "label": "Advance Auto Parts comparable sales (Q3 2026)",
+      "value": "-1.2%",
+      "context": "Adjusted operating margin 4.5%; positive in the final four weeks of the 12-week quarter",
+      "source": 2
+    },
+    {
+      "label": "US new-vehicle sales pace (October 2026)",
+      "value": "15.5M SAAR",
+      "context": "Cox had forecast 16.1M; slowest since January; full-year forecast 16.1M",
+      "source": 3
+    },
+    {
+      "label": "New-vehicle average transaction price (Oct 2026)",
+      "value": "$51,109",
+      "context": "Record, up 2.1% year on year; new-car loan rates over 7%",
+      "source": 8
+    },
+    {
+      "label": "Carvana retail units (Q3 2026)",
+      "value": "217,385, +39%",
+      "context": "Revenue $8.04B; adjusted EBITDA margin 10.0%, down from 11.3%",
+      "source": 5
+    },
+    {
+      "label": "AutoNation parts and service gross profit (Q3 2026)",
+      "value": "$616.6M, +3.3%",
+      "context": "Record; total gross profit $1,207.6M, down 2.5%; new units -3.4%",
+      "source": 4
+    },
+    {
+      "label": "Damodaran US Retail (Automotive) operating margin",
+      "value": "6.51%",
+      "context": "34 firms; gross margin 21.96%; January 2026 data",
+      "source": 9
+    },
+    {
+      "label": "Consumer Discretionary forward P/E (sector)",
+      "value": "25.1x",
+      "context": "S&P 500 18.3x; as of 13 Nov 2026; covers the whole sector, not this sub-industry",
+      "source": 10
+    }
+  ],
+  "watch": [
+    "O'Reilly raised 2026 comp guidance to 5.5% to 6.5%, which with nine-month comps of 7.1% implies a much slower fourth quarter, and its third-quarter results included a $39 million tariff refund benefit [1].",
+    "AutoZone said sales strengthened over the last eight weeks of its fiscal fourth quarter after a difficult start, and expects growth to accelerate in fiscal 2027; its fiscal first quarter ends 21 November and we did not find results yet [11].",
+    "October new-vehicle sales came in at 15.5 million annualised, below Cox's 16.1 million forecast, with rising loan rates cited as a factor [3].",
+    "Dealer margins are slipping: AutoNation's SG&A rose to 70.3% of gross profit and Lithia's net debt to EBITDA rose to 3.07x from 2.63x [4][12].",
+    "Advance Auto Parts now guides 2026 adjusted EPS of $2.60 to $3.30 and free cash flow of about $150M, with comps improving but its turnaround unproven [2]."
+  ],
+  "bellwethers": [
+    "AutoZone",
+    "O'Reilly Automotive",
+    "Advance Auto Parts",
+    "Genuine Parts",
+    "AutoNation",
+    "Lithia Motors",
+    "CarMax",
+    "Carvana"
+  ],
+  "basics": {
+    "intro": "This sub-industry covers the businesses that sell vehicles and vehicle supplies to the public: franchised new and used car dealers, online and big-box used-car sellers, auto parts chains and, per GICS, gas station operators. Dealers earn from vehicle sales, financing and insurance products, and the service bay. Parts chains sell to do-it-yourself drivers and professional repair shops. Car makers sit in Automobiles, convenience-store chains with fuel are covered here only where fuel is the core of the business, and tyre makers are in a different industry.",
+    "products": [
+      {
+        "name": "Franchised new-car dealers",
+        "what": "Dealers hold a manufacturer's franchise, buy new cars at wholesale and resell them, then earn more from used cars, finance and insurance, and servicing.",
+        "examples": "AutoNation, Lithia & Driveway, Penske Automotive"
+      },
+      {
+        "name": "Used-car retailers",
+        "what": "Sellers that buy used cars from consumers and auctions, recondition them and resell them, often online with home delivery and in-house financing.",
+        "examples": "CarMax, Carvana"
+      },
+      {
+        "name": "Auto parts retail",
+        "what": "Stores and delivery trucks that supply replacement parts, batteries, oil and accessories to drivers who fix their own cars and to professional repair shops.",
+        "examples": "AutoZone, O'Reilly, Advance Auto Parts"
+      },
+      {
+        "name": "Parts distribution",
+        "what": "Wholesalers that stock large ranges of parts and supply independent shops and their own store banners.",
+        "examples": "Genuine Parts' NAPA"
+      },
+      {
+        "name": "Fuel and convenience retail",
+        "what": "Gas station operators earn a small margin per gallon of fuel and use it to bring in customers who buy snacks, drinks and other items inside.",
+        "examples": "Murphy USA, Casey's"
+      },
+      {
+        "name": "Captive finance arms",
+        "what": "Dealers and used-car sellers lend to their own buyers and earn interest, which smooths earnings when vehicle sales slow.",
+        "examples": "CarMax Auto Finance, AutoNation Finance"
+      }
+    ],
+    "terms": [
+      {
+        "term": "SAAR",
+        "meaning": "Seasonally adjusted annual rate of new-vehicle sales, the standard monthly gauge of US car demand."
+      },
+      {
+        "term": "Comparable store sales",
+        "meaning": "Sales growth at stores open at least a year, which removes the effect of opening new locations."
+      },
+      {
+        "term": "DIY versus professional",
+        "meaning": "DIY customers fix their own cars; professional customers are repair shops that buy parts in volume, often with delivery. Professional demand is larger and steadier."
+      },
+      {
+        "term": "F&I",
+        "meaning": "Finance and insurance products sold at the dealership, such as loans and extended warranties. They carry high margins and offset thin vehicle margins."
+      },
+      {
+        "term": "Fixed operations (after-sales)",
+        "meaning": "Service and parts business at a dealership. It brings in repeat revenue and holds up when car sales fall."
+      },
+      {
+        "term": "Gross profit per unit (GPU)",
+        "meaning": "Gross profit earned on each vehicle sold. Dealers watch it with unit volume, since lower prices can lift sales but squeeze profit."
+      },
+      {
+        "term": "SG&A as a percent of gross profit",
+        "meaning": "Selling, general and administrative cost divided by gross profit. It shows how much of each gross dollar the dealer spends on running the business."
+      },
+      {
+        "term": "Floorplan",
+        "meaning": "Short-term borrowing that dealers use to hold new and used car inventory. Higher interest rates make it more expensive."
+      },
+      {
+        "term": "Days' supply",
+        "meaning": "How many days current inventory would last at the current sales rate. High supply pushes prices down; low supply pushes them up."
+      },
+      {
+        "term": "Wholesale used prices",
+        "meaning": "Prices at auctions where dealers buy used cars, such as the Manheim index. They set the cost base for used-car retailers."
+      },
+      {
+        "term": "LIFO charge",
+        "meaning": "An accounting cost recorded when parts prices rise. It lowers reported gross margin when inflation or tariffs lift costs."
+      },
+      {
+        "term": "Fuel margin",
+        "meaning": "The profit per gallon at a gas station, in cents. It swings with wholesale fuel prices and competition."
+      }
+    ],
+    "drivers": [
+      {
+        "name": "Age of the car fleet",
+        "how": "Older cars need more repairs, which lifts parts sales and dealer service revenue. It shows up in comparable sales at parts chains."
+      },
+      {
+        "name": "New-vehicle sales and prices",
+        "how": "Volume, price and mix set dealer revenue. Affordability pressure cuts units and gross profit per unit."
+      },
+      {
+        "name": "Interest rates and credit",
+        "how": "Most vehicles are financed, so higher loan rates reduce demand and raise dealers' floorplan costs."
+      },
+      {
+        "name": "Used-car supply and wholesale prices",
+        "how": "Used prices set the margin for used-car sellers. Falling prices help buyers and can squeeze inventory values."
+      },
+      {
+        "name": "Tariffs and parts costs",
+        "how": "Tariffs raise the cost of imported vehicles and parts. Retailers pass some on, which can lift ticket sizes but weigh on volume."
+      },
+      {
+        "name": "Share shifts between channels",
+        "how": "Online sellers, big chains and independent shops compete for the same customers, so share gains show up in unit growth and margins."
+      }
+    ]
+  },
+  "fundamentals": {
+    "business": [
+      "Dealers earn from new vehicles, used vehicles, finance and insurance, and parts and service. At AutoNation, parts and service produced $616.6M of the $1,207.6M gross profit in the third quarter of 2026, about 51% by our calculation, so the service bay carries the profit while vehicle margins are thin [4]. Parts chains earn from product sales and, increasingly, from delivery to repair shops [1].",
+      "Customers are consumers and small businesses. O'Reilly describes two groups, professional repair shops and do-it-yourself drivers; in the third quarter its professional business grew double digits and DIY mid-single digits [1]. Dealers sell to retail buyers and, at the margin, fleet customers, while gas stations sell to commuters, with Murphy USA citing the resilience of its customers [13].",
+      "The big costs are inventory, labour and occupancy. Dealers spend about 70 cents of each gross dollar on SG&A: AutoNation's was 70.3% of gross profit and Lithia's 69.3% as reported [4][12]. Parts chains bear distribution, store and labour costs, and Genuine Parts' North America automotive EBITDA margin fell 40 basis points to 7.6% [14].",
+      "Pricing power is limited on new cars, where manufacturers set sticker prices and buyers compare online, but better in parts and service. O'Reilly's gross margin was 52.4% against 51.9%, helped by a $39 million tariff refund [1]. Dealers lean on finance and insurance: AutoNation earned $2,698 of F&I gross profit per vehicle [4].",
+      "The major assets are inventory, real estate, finance receivables and, for parts chains, stores and distribution centres. Liabilities include floorplan and corporate debt. AutoNation had $4.34B of non-vehicle debt and $2.59B of non-recourse debt at 30 September 2026 [4]; O'Reilly's long-term debt was $7.71B [1].",
+      "The group is moderately capital-intensive. O'Reilly guides to $1.3B to $1.4B of 2026 capital spending on about $19B of revenue [1]. Dealers also need heavy working capital for inventory, and captive finance arms such as AutoNation Finance, now about $2.9B [4], add balance sheet risk, which makes this less asset-light than most retail."
+    ],
+    "overview": [
+      "We did not find one authoritative global market-size figure for this sub-industry, so we do not quote one. In the US, roughly 16 million people buy new cars each year, about 1 million fewer than before the pandemic, and used sales are normally about two-thirds of total sales [8]. Cox's 2026 forecast is 16.1 million new units [3].",
+      "The main segments are new-car dealers, used-car retailers, parts retail and distribution, and fuel retail. Revenue scale shows the mix: Lithia reported $9.9B in a quarter, AutoNation $7.0B, CarMax $7.9B in its fiscal second quarter, Carvana $8.04B, O'Reilly $5.12B and Genuine Parts $6.5B [12][4][6][5][1][14].",
+      "The value chain runs from car and parts makers, who supply dealers and parts chains, to buyers. Dealers also source used cars from consumers and auctions, so wholesale prices matter: the Manheim index was 206.8 in October 2026, up 2% year on year seasonally adjusted [15]. Parts chains buy from suppliers, and tariffs on steel, aluminium and imports raise their costs [8].",
+      "The industry has moved toward consolidation among dealers and chains, and toward online used sales. Carvana's retail units rose 39% to 217,385 in the third quarter [5], and CarMax's comparable used units rose 13.0% [6]. Lithia has bought about $1.17B of expected annualised revenue year to date [12].",
+      "Concentration is in the United States, with growth in Mexico and Brazil for parts chains. AutoZone had 8,031 stores at 29 August 2026, of which 6,863 were in the US, 1,001 in Mexico and 167 in Brazil [11]. O'Reilly's 6,758 stores include operations in Mexico and Canada [1]."
+    ],
+    "competition": [
+      "There are a few dozen significant listed competitors, but a handful dominate each segment. Damodaran's US group has 34 firms [9]. Parts retail is led by AutoZone, O'Reilly, Advance Auto Parts and Genuine Parts; large dealer groups include AutoNation, Lithia and Penske; used cars are led by CarMax and Carvana.",
+      "On store counts, AutoZone has 8,031 stores [11], O'Reilly 6,758 [1] and Advance Auto Parts 4,325 [2]. We did not find sourced market-share percentages for dealers or used-car retailers, so we do not quote any. Scale is visible in the revenue figures instead [12][4][5].",
+      "The industry is fragmented at the local level and consolidated at the top. Most US dealerships are still owned by small groups, which is why Lithia keeps acquiring: it added about $1.17B of annualised revenue year to date and four more stores in October [12]. In parts, three national chains hold a large share, but independents and online sellers remain.",
+      "Barriers to entry are moderate. Dealers need manufacturer franchises and state licences. Parts chains need dense store and delivery networks, which is why O'Reilly opened 63 net new stores in one quarter [1]. Used-car sellers need inventory sourcing and reconditioning scale, which took Carvana years to build [5].",
+      "Economies of scale are real. Bigger parts chains spread distribution and inventory costs, and O'Reilly's operating margin of 21.4% compares with Advance Auto Parts' adjusted 4.5% [1][2]. CarMax's SG&A per unit fell $157 to $1,621 as volume grew [6]. Dealers gain from shared finance and technology.",
+      "New cars are differentiated by brand but sold at near-identical prices, so dealers compete on service and financing. Parts are partly commodity, but chains differentiate by availability and speed of delivery, and O'Reilly's professional business is growing double digits [1]. Used-car sellers compete on price and convenience.",
+      "Manufacturers hold power over franchised dealers through supply and incentives, while customers hold power through online price comparison. Parts suppliers have less power over big chains, which buy at scale. Customers have little power in parts because a needed part is usually bought quickly, but they can switch channels, as Advance Auto's weak DIY sales show [2]."
+    ],
+    "drivers": [
+      "Revenue growth comes from unit volume, price and mix, store openings and acquisitions. O'Reilly's comps of 7.2% combine traffic and ticket, and AutoZone reported fourth-quarter same-store sales up 2.7% [1][11]. For dealers, new-car sales running near 16 million a year set the baseline [3].",
+      "Operating margins depend on mix and cost control. Parts chains earn the most, with O'Reilly at 21.4% and AutoZone at roughly 20% by our calculation from its fourth-quarter figures [1][11]. Damodaran's whole US group averages 6.51%, reflecting the lower-margin dealers [9]. Dealers' SG&A ratio is a key swing: AutoNation's rose to 70.3% from 68.6% [4].",
+      "Key cost variables are vehicle and parts acquisition costs, labour, freight and interest. We did not find a sourced parts-cost figure beyond tariff commentary [8]. For fuel retailers the key cost is wholesale fuel, with Murphy USA's fuel contribution at 37.0 cents a gallon [13].",
+      "Rates matter a lot because most vehicles are financed. New-car loan rates are over 7% and used about 11% per Edmunds, and over a quarter of buyers use 84-month or longer terms [8]. The Fed held at 3.75% to 4.00% on 28 October 2026, with two members preferring a hike [16]. Floorplan interest also hits dealers.",
+      "Inflation lifts prices and tariffs raise costs, but unemployment and GDP drive volume. The Fed says inflation remains elevated while job gains have kept pace with the workforce [16]. New-vehicle prices rose 2.1% to a record $51,109, below inflation [8]. We did not find a sourced figure linking commodity prices to margins.",
+      "The group is a mix of cyclical and defensive. New-car dealers are cyclical, while parts chains and service are more defensive because repairs are needed regardless of the cycle, which we think explains why O'Reilly's comps are strong in a soft new-car market [1][3]. Used cars sit between, with some share-driven growth [5][6]."
+    ],
+    "financials": [
+      "Growth is uneven. O'Reilly's third-quarter sales rose 9% to $5.12B and diluted EPS 14% to $0.97 [1]. AutoNation's revenue was flat at $7.0B with GAAP EPS of $4.87 against $5.65 [4]. Carvana's revenue rose 42% to $8.04B [5]. AutoZone's fourth-quarter sales rose 5.6% to $6.595B [11].",
+      "Margins vary by model. Damodaran's January 2026 data for US auto retail show a 21.96% gross margin, 6.51% operating margin and 7.24% EBITDA margin [9]. Parts chains are far above that: O'Reilly's gross margin was 52.4% and operating margin 21.4% [1].",
+      "Damodaran puts the US auto retail group's return on equity at 34.38% unadjusted in January 2026, but the table has no ROIC column [17]. We think heavy buybacks and thin equity at the parts chains inflate that figure. We did not find a sourced ROIC for the group.",
+      "Leverage is meaningful. Lithia's net debt to adjusted EBITDA was 3.07x against 2.63x a year earlier [12], AutoNation's covenant leverage was 2.71x [4], and O'Reilly's adjusted debt to EBITDAR was 2.26x [1]. Advance Auto Parts reports net leverage of 2.2x [2].",
+      "Free cash flow is strongest at the parts chains. O'Reilly generated $1.73B in the first nine months and guides $1.9B to $2.2B for the year [1]. Advance Auto guides about $150M [2]; Genuine Parts guides $550M to $700M [14]. Buybacks are large: O'Reilly spent $3.47B and AutoNation $619.9M year to date [1][4].",
+      "Capital spending is modest for dealers and higher for parts chains. O'Reilly guides $1.3B to $1.4B and Advance Auto about $300M [1][2]. AutoNation's finance portfolio grew to about $2.9B, which is capital used in lending rather than in stores [4].",
+      "Damodaran's January 2026 EV/EBITDA for US auto retail was 14.79x for positive-EBITDA firms and 17.56x for all firms [7]. At sector level, FactSet shows Consumer Discretionary at 25.1x forward earnings against 18.3x for the S&P 500, but that sector includes much besides auto retail [10]."
+    ],
+    "risks": [
+      "Regulation touches financing, emissions rules and franchise laws. The sources we opened do not detail current rule changes for dealers. Tariffs are the clearest policy risk: they raise costs on steel, aluminium and imports and feed into prices [8]. Genuine Parts lists tariffs as a risk factor without quantifying them [14].",
+      "Technology is changing both channels. Carvana's unit growth of 39% shows the online model working at scale [5]. We did not find sourced evidence on AI's effect on share, and about 6% of new cars sold are electric, which have fewer parts to replace [8].",
+      "Demographics help parts: an ageing fleet needs more repair. We found secondhand reports that the average vehicle age is near 13 years, but we did not open a primary S&P Global Mobility release, so we do not quote it as a hard figure. New-car buyers number about 16 million a year, a million fewer than before the pandemic [8].",
+      "Consumer behaviour is shifting toward longer loans and cheaper alternatives. Edmunds reports over a quarter of buyers use 84-month or longer terms [8], and AutoNation cited softer vehicle demand [4]. Parts demand held up, but Advance Auto Parts' comps fell 1.2% [2].",
+      "New competitors are online sellers and, in parts, better-run incumbents. Carvana is taking share and CarMax used units rose 13.8% [5][6]. Advance Auto Parts is in a restructuring with $42M of charges in the quarter, which shows how hard it is for a weaker chain to compete [2].",
+      "Geopolitical and supply-chain risks come through tariffs and component costs. Chip and copper costs have risen on data-center demand [8]. Carvana's margin slipped even as units grew, which we read as a sign of cost and pricing pressure [5].",
+      "Substitutes include ride-hailing, transit, longer vehicle ownership and repairing rather than replacing cars. Longer ownership helps parts and service but hurts new-car dealers. We did not find sourced data on the scale of ride-hailing substitution, so we do not size it."
+    ],
+    "horizon": {
+      "opportunities": [
+        "An ageing car fleet and record after-sales profit support parts and service demand [4][1].",
+        "Online and used-car sellers are gaining share, with Carvana and CarMax growing units at double-digit rates [5][6].",
+        "Captive finance and parts-and-service lines add recurring profit that cushions weak vehicle sales [4][6].",
+        "Large parts chains keep opening stores and generating cash, such as O'Reilly's 63 net new stores in one quarter [1]."
+      ],
+      "threats": [
+        "Affordability is stretched, with record new-car prices and loan rates over 7%, which is cutting volume [8][3].",
+        "Tariffs and parts inflation could lift costs faster than retailers can pass them on [8][11].",
+        "Dealer leverage is rising while vehicle and F&I margins fall [12][4].",
+        "Weak chains such as Advance Auto Parts may stay below peer margins for years [2]."
+      ],
+      "assessment": "Over the next three to five years we think the sub-industry's profit will keep moving toward service, parts and finance, away from new-car volume. The parts chains look the best positioned because repairs are needed whatever the cycle and O'Reilly shows the model at 21.4% operating margin [1]. Dealers have strong service profit but face affordability limits, rising leverage and falling vehicle margins [4][12][3]. Used-car sellers have momentum, but their per-unit margins are thin and sensitive to wholesale prices and interest rates [5][6][15]. The main swing factors are loan rates, tariffs and the health of the lower-income buyer. We would expect a wider gap between leaders and laggards, rather than an even sector-wide trend."
+    }
+  },
+  "sections": [
+    {
+      "id": "macro",
+      "paragraphs": [
+        "Automotive retail sits in a late-cycle, higher-for-longer rate environment. The Fed held its target range at 3.75% to 4.00% on 28 October 2026, said inflation remains elevated, and had two members who preferred a rise [16]. That matters for a business where most sales are financed: Edmunds puts new-car loan rates above 7% and used about 11%, and more than a quarter of buyers take loans of 84 months or longer [8].",
+        "The effect shows in volumes. Cox says October new-vehicle sales ran at a 15.5 million annual rate, the slowest since January, against an original forecast of 16.1 million, and it cited a rise in loan rates last month [3]. Its full-year forecast is 16.1 million, which would still be a third straight year above 16 million if November and December match last year [3]. Cox also credits wider access to credit for keeping the market firm [3].",
+        "Prices are not falling, though. The average new-vehicle transaction price reached a record $51,109, up 2.1% from a year earlier, which is below general inflation, and tariffs on steel, aluminium and imports are among the causes [8]. We think this squeezes lower-income buyers first and explains why dealers report softer demand while parts retailers, whose customers keep older cars on the road, are growing [4][1]."
+      ]
+    },
+    {
+      "id": "demand",
+      "paragraphs": [
+        "Structural demand rests on the size of the US car fleet and how long people keep their cars. New-vehicle sales are near 16 million a year, about a million below pre-pandemic levels, and used sales are normally about two-thirds of the total [8]. We found secondhand reports that the average vehicle is now about 13 years old, but we did not open a primary source, so we do not rely on that figure.",
+        "The ageing of the fleet shows up in aftermarket demand. O'Reilly's comparable sales rose 7.2% in the third quarter and 7.1% over nine months, with professional sales up double digits [1]. AutoNation's parts and service gross profit reached a record $616.6M, with customer-pay up 6% [4]. AutoZone expects sales growth to accelerate in fiscal 2027 in each of its three countries [11].",
+        "Used cars offer growth through share gain. Carvana sold 217,385 retail units, up 39%, and CarMax's comparable used units rose 13.0% [5][6]. Wholesale values are steady: the Manheim index was 206.8 in October, up 0.5% on the month and 2% year on year, both seasonally adjusted [15]. Demand is elastic to affordability for cars and inelastic for repairs."
+      ]
+    },
+    {
+      "id": "structure",
+      "paragraphs": [
+        "Using Porter's five forces: rivalry is intense among dealers, used-car sellers and parts chains, and the gap in performance is wide. O'Reilly's third-quarter comps were +7.2% and Advance Auto Parts' were -1.2% [1][2]. The threat of new entrants is moderate: franchises, licences and distribution networks are barriers, yet Carvana shows an online entrant can reach $8.04B of quarterly revenue [5].",
+        "Supplier power is high for dealers, because manufacturers allocate vehicles and set prices, and lower for big parts chains that buy at scale. Buyer power is high for new and used cars, where shoppers compare prices online, and lower for urgent repairs. The threat of substitutes comes from ride-hailing and longer vehicle ownership; we did not find sourced data sizing them.",
+        "Concentration is high in parts: AutoZone has 8,031 stores, O'Reilly 6,758 and Advance Auto Parts 4,325 [11][1][2]. Dealers are more fragmented, which is why Lithia keeps buying, adding about $1.17B of annualised revenue this year [12]. We did not find sourced market-share percentages. Moats are density of stores and delivery in parts, and service and finance income in dealers."
+      ]
+    },
+    {
+      "id": "environment",
+      "paragraphs": [
+        "Trade policy is the main political factor. Tariffs on steel, aluminium and Canadian imports raise automaker costs, and chip and copper costs have risen on data-center demand [8]. Genuine Parts names tariffs as a risk but does not quantify them [14]. O'Reilly received $39 million of tariff refunds in the third quarter, a one-off gain that lifted results [1].",
+        "Tariff refunds show how fluid the position is, since the same tariffs raise costs and may later be refunded [1].",
+        "Economically, credit availability and interest rates decide demand, and the Fed has kept rates at 3.75% to 4.00% [16]. Technologically, online used-car buying is now mainstream, and about 6% of new cars sold are electric, which changes service mix over time [8][5]. We did not find sourced evidence on regulation specific to dealer finance, so we do not discuss it."
+      ]
+    },
+    {
+      "id": "economics",
+      "paragraphs": [
+        "Margins differ sharply by model. Damodaran's January 2026 data for 34 US auto retailers show a 21.96% gross margin, 6.51% operating margin and 7.24% EBITDA margin [9]. Parts chains earn far more: O'Reilly's operating margin was 21.4% on a 52.4% gross margin [1], and AutoZone's fourth-quarter EBIT was $1.317B on $6.595B of sales, about 20% by our calculation [11]. Advance Auto Parts, still restructuring, earned an adjusted 4.5% [2].",
+        "Dealers face rising costs against falling gross profit. AutoNation's gross profit fell 2.5% and SG&A rose to 70.3% of it, so operating income fell 16% to $314.6M [4]. Lithia's adjusted SG&A rose to 68.8% of gross profit [12]. Carvana's adjusted EBITDA margin was 10.0%, down from 11.3% [5].",
+        "Operating leverage is real: CarMax's SG&A per unit fell 8.8% as units grew 13.8%, though its retail gross profit per unit fell $111 to $2,105 [6]. Damodaran's return on equity for the group is 34.38%, and we think buybacks inflate it; the table has no ROIC [17]. Free cash flow is strongest at O'Reilly, at $1.73B in nine months [1]."
+      ]
+    },
+    {
+      "id": "earnings",
+      "paragraphs": [
+        "Guidance splits the group. O'Reilly raised 2026 guidance to comps of 5.5% to 6.5%, operating margin of 19.5% to 20.0% and EPS of $3.25 to $3.35 [1]. Advance Auto Parts guides adjusted EPS of $2.60 to $3.30 and adjusted operating margin of 3.80% to 4.50% [2]. Genuine Parts cut the top of its adjusted EPS range to $7.50 to $7.75 [14].",
+        "Dealer earnings are under pressure. AutoNation's adjusted EPS was $5.11 against $5.01, but GAAP net income fell 25% [4]. Lithia's adjusted EPS rose 9% to $10.34 while its vehicle gross profit per unit fell 1.9% to $3,949 [12]. CarMax's EPS rose 81% to $1.16 on lower comparisons [6]. Carvana expects its 2026 adjusted EBITDA at the high end of $2.7B to $3.0B [5].",
+        "We did not find a sourced consensus EPS growth figure for this sub-industry. Our view differs from the strong prints in one respect: O'Reilly's nine-month comps of 7.1% against a full-year guide of 5.5% to 6.5% imply a sharp slowdown in the fourth quarter, and its third quarter included a $39M tariff refund [1]. For context, FactSet shows a blended 31.9% Q3 earnings growth rate for the S&P 500, a high bar [10]."
+      ]
+    },
+    {
+      "id": "valuation",
+      "paragraphs": [
+        "We found no sourced forward P/E for this sub-industry alone. Damodaran's January 2026 EV/EBITDA for US auto retail is 14.79x for firms with positive EBITDA and 17.56x for all 34 firms [7]. That is a stale snapshot, since it predates the year's moves in these stocks.",
+        "At the sector level, FactSet puts Consumer Discretionary at 25.1x forward 12-month earnings on 13 November 2026, the highest of any sector, against 18.3x for the S&P 500, which sits below its 5-year average of 19.8x and 10-year average of 19.1x [10]. The sector is dominated by other businesses, so it is a poor guide for auto retail.",
+        "Cash yield is a better lens. O'Reilly guides $1.9B to $2.2B of 2026 free cash flow and has spent $3.47B on buybacks this year, at an average price of $87.34 in the third quarter [1]. On that price and $3.25 to $3.35 EPS guidance, we calculate about 26x 2026 earnings, which looks priced for continued strong comps [1]."
+      ]
+    },
+    {
+      "id": "positioning",
+      "paragraphs": [
+        "We did not find sourced relative-performance, ETF flow or short-interest data for this sub-industry, and we do not estimate it. The best evidence of positioning is capital returned. O'Reilly bought back $1.03B of stock in the third quarter, AutoNation $620M year to date with a new $1B authorization, and CarMax plans to resume repurchases [1][4][6].",
+        "Management actions suggest confidence in cash flow rather than growth. Lithia's net leverage rose to 3.07x while it kept acquiring stores [12]. Advance Auto Parts, by contrast, booked $42M of restructuring charges in the quarter, which we think keeps it a turnaround rather than a momentum name [2].",
+        "At the sector level, Consumer Discretionary has the highest forward P/E of any S&P 500 sector and the lowest share of companies beating revenue estimates, at 54% [10]. That suggests expectations are high, though it describes the whole sector and not auto retail."
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "n": 1,
+      "title": "O'Reilly Automotive Q3 2026 earnings release (Form 8-K exhibit 99.1)",
+      "publisher": "O'Reilly Automotive / SEC",
+      "date": "2026-10-29",
+      "url": "https://www.sec.gov/Archives/edgar/data/0000898173/000089817326000050/orly-ex99d1.htm"
+    },
+    {
+      "n": 2,
+      "title": "Advance Auto Parts Q3 2026 earnings release (Form 8-K exhibit 99.1)",
+      "publisher": "Advance Auto Parts / SEC",
+      "date": "2026-11-05",
+      "url": "https://www.sec.gov/Archives/edgar/data/0001158449/000119312526448441/aap-ex99_1.htm"
+    },
+    {
+      "n": 3,
+      "title": "Cox Automotive October 2026 US auto sales forecast (with 5 November update)",
+      "publisher": "Cox Automotive",
+      "date": "2026-11-05",
+      "url": "https://www.coxautoinc.com/insights/cox-automotive-forecast-october-2026-us-auto-sales-forecast/"
+    },
+    {
+      "n": 4,
+      "title": "AutoNation Q3 2026 earnings release (Form 8-K exhibit 99.1)",
+      "publisher": "AutoNation / SEC",
+      "date": "2026-10-30",
+      "url": "https://www.sec.gov/Archives/edgar/data/0000350698/000162828026068426/anearningsrelease93026ex991.htm"
+    },
+    {
+      "n": 5,
+      "title": "Carvana announces record third quarter 2026 results",
+      "publisher": "Carvana (via Finviz)",
+      "date": "2026-10-28",
+      "url": "https://finviz.com/news/410551/carvana-announces-record-third-quarter-2026-results"
+    },
+    {
+      "n": 6,
+      "title": "CarMax reports second quarter fiscal 2027 results",
+      "publisher": "CarMax (via CBT News)",
+      "date": "2026-09-29",
+      "url": "https://www.cbtnews.com/carmax-reports-second-quarter-fiscal-2027-results/"
+    },
+    {
+      "n": 7,
+      "title": "Enterprise Value Multiples by Sector (US), January 2026",
+      "publisher": "Aswath Damodaran, NYU Stern",
+      "date": "2026-01",
+      "url": "https://pages.stern.nyu.edu/~adamodar/New_Home_Page/datafile/vebitda.html"
+    },
+    {
+      "n": 8,
+      "title": "The average cost for a new vehicle in the U.S. hits a record high over $51,000",
+      "publisher": "NPR (via KUOW)",
+      "date": "2026-11-10",
+      "url": "https://www.kuow.org/npr-news/2026-11-10/the-average-cost-for-a-new-vehicle-in-the-u-s-hits-a-record-high-over-51-000"
+    },
+    {
+      "n": 9,
+      "title": "Margins by Sector (US), January 2026",
+      "publisher": "Aswath Damodaran, NYU Stern",
+      "date": "2026-01",
+      "url": "https://pages.stern.nyu.edu/~adamodar/New_Home_Page/datafile/margin.html"
+    },
+    {
+      "n": 10,
+      "title": "FactSet Earnings Insight, 13 November 2026",
+      "publisher": "FactSet",
+      "date": "2026-11-13",
+      "url": "https://advantage.factset.com/hubfs/Website/Resources%20Section/Research%20Desk/Earnings%20Insight/EarningsInsight_111326.pdf"
+    },
+    {
+      "n": 11,
+      "title": "AutoZone Q4 profit, comps rise; sees sales growth in FY27",
+      "publisher": "RTTNews",
+      "date": "2026-09-22",
+      "url": "https://www.rttnews.com/3692898/autozone-q4-profit-comps-rise-sees-sales-growth-in-fy27.aspx"
+    },
+    {
+      "n": 12,
+      "title": "Lithia & Driveway Q3 2026 earnings release (Form 8-K exhibit 99)",
+      "publisher": "Lithia Motors / SEC",
+      "date": "2026-10",
+      "url": "https://www.sec.gov/Archives/edgar/data/0001023128/000102312826000057/a2026q3exx99earningsrelease.htm"
+    },
+    {
+      "n": 13,
+      "title": "Murphy USA net income rises",
+      "publisher": "NACS",
+      "date": "2026-10-29",
+      "url": "https://www.convenience.org/stay-current/News/2026/October/29/Murphy-USA-Net-Income-Rises"
+    },
+    {
+      "n": 14,
+      "title": "Genuine Parts Company Q3 2026 earnings release (Form 8-K)",
+      "publisher": "Genuine Parts / SEC",
+      "date": "2026-10-20",
+      "url": "https://www.sec.gov/Archives/edgar/data/0000040987/000004098726000037/gpc-earnq32026.htm"
+    },
+    {
+      "n": 15,
+      "title": "Manheim Used Vehicle Value Index, October 2026",
+      "publisher": "Cox Automotive",
+      "date": "2026-11",
+      "url": "https://www.coxautoinc.com/insights/manheim-used-vehicle-value-index-october-2026-trends/"
+    },
+    {
+      "n": 16,
+      "title": "Federal Reserve issues FOMC statement, 28 October 2026",
+      "publisher": "Federal Reserve",
+      "date": "2026-10-28",
+      "url": "https://www.federalreserve.gov/newsevents/pressreleases/monetary20261028a.htm"
+    },
+    {
+      "n": 17,
+      "title": "Return on Equity by Sector (US), January 2026",
+      "publisher": "Aswath Damodaran, NYU Stern",
+      "date": "2026-01",
+      "url": "https://pages.stern.nyu.edu/~adamodar/New_Home_Page/datafile/roe.html"
+    }
+  ]
+}

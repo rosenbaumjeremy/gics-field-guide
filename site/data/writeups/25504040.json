@@ -1,0 +1,452 @@
+{
+  "code": "25504040",
+  "added": "2026-11-20",
+  "asOf": "2026-11-17",
+  "summary": "Specialty retail outside the large sub-industries is splitting into clear winners and strugglers. In the quarters ended 1 Aug 2026, Five Below's comparable sales rose 14.1% and Ulta's 3.8%, while Academy's fell 0.4% [1][2][3]. Tractor Supply's comparable sales were just +0.4% in its September quarter [4]. Dick's lowered its Foot Locker outlook to comparable sales of -2.0% to 0.0% [5], and Signet guides third-quarter same-store sales to -1.0% to +2.0% [6]. Some Q2 profits were helped by tariff refunds [5][6][1]. NRF expects holiday sales up 4.2% [7].",
+  "metrics": [
+    {
+      "label": "Five Below comparable sales (Q2 FY2026)",
+      "value": "+14.1%",
+      "context": "Net sales $1.26B, up 22.9%; full-year comp guide raised to +10% to +12%; quarter ended 1 Aug 2026",
+      "source": 1
+    },
+    {
+      "label": "Ulta Beauty comparable sales (Q2 FY2026)",
+      "value": "+3.8%",
+      "context": "Operating margin 12.5%; FY2026 comp guide raised to +3.2% to +3.7%; quarter ended 1 Aug 2026",
+      "source": 2
+    },
+    {
+      "label": "DICK'S Business comparable sales (Q2 2026)",
+      "value": "+4.9%",
+      "context": "Foot Locker pro forma comps -3.6%; consolidated gross margin 34.78% vs 37.06%",
+      "source": 5
+    },
+    {
+      "label": "Tractor Supply comparable sales (Q3 2026)",
+      "value": "+0.4%",
+      "context": "Gross margin 36.4% vs 37.4%; FY2026 comp guide -1% to flat; quarter ended 26 Sep 2026",
+      "source": 4
+    },
+    {
+      "label": "Signet same-store sales (Q2 FY2027)",
+      "value": "+2.2%",
+      "context": "Q3 guide -1.0% to +2.0%; FY adjusted EPS guide $10.45 to $12.15; quarter ended 1 Aug 2026",
+      "source": 6
+    },
+    {
+      "label": "U.S. pet industry spending (2025)",
+      "value": "$158B",
+      "context": "Up 3.7%; APPA projects $165B for 2026; 95 million pet-owning households",
+      "source": 8
+    },
+    {
+      "label": "Damodaran Retail (Special Lines) EV/EBITDA (US)",
+      "value": "11.5x",
+      "context": "Positive-EBITDA firms, 94 firms; total market 19.7x; January 2026 data; a broader group than this GICS sub-industry",
+      "source": 9
+    },
+    {
+      "label": "Consumer Discretionary forward P/E (sector)",
+      "value": "25.1x",
+      "context": "S&P 500 18.3x; as of 13 Nov 2026; covers the whole sector, not this sub-industry",
+      "source": 10
+    }
+  ],
+  "watch": [
+    "Holiday trading is the next test: NRF forecasts 4.2% growth to $1.013 trillion for 1 Nov to 31 Dec, after 2025 came in at 3.1% [7].",
+    "Foot Locker's turnaround at Dick's: pro forma comps were -3.6% in Q2 and the segment is guided to a $40M to $80M loss in 2026 [5].",
+    "Tariff refunds flattered Q2 for several names, including $163.6M at Five Below and about $15M at Signet, and Signet assumes only about $30M in total for its year, so the benefit is not recurring [1][6].",
+    "Tractor Supply's gross margin fell 100 basis points in Q3 on freight, fuel and price investment, and big-ticket and companion-animal sales stayed soft [4][11].",
+    "The Fed held at 3.75% to 4.00% on 28 Oct 2026 with two dissents in favour of a rise, which keeps financing costs and big-ticket demand in focus [12]."
+  ],
+  "bellwethers": [
+    "Ulta Beauty",
+    "Tractor Supply",
+    "DICK'S Sporting Goods",
+    "Signet Jewelers",
+    "Academy Sports + Outdoors",
+    "Petco",
+    "Barnes & Noble Education"
+  ],
+  "basics": {
+    "intro": "This sub-industry is the catch-all for specialty chains that sell one category of goods through stores and websites: beauty, sporting goods, jewelry, pet supplies, books, farm and ranch supplies and value-priced general merchandise. Customers are households, and retailers earn the gap between what they pay suppliers and what shoppers pay. We include Five Below as a value-retail comparison; its GICS classification may differ. Apparel, home improvement, auto parts, computers and home furnishing retailers have their own neighbouring sub-industries, and department stores and general-merchandise chains sit elsewhere.",
+    "products": [
+      {
+        "name": "Beauty retail",
+        "what": "Stores selling cosmetics, skincare, haircare and fragrance from many brands, plus salon services and loyalty programs.",
+        "examples": "Ulta Beauty"
+      },
+      {
+        "name": "Sporting goods and athletic footwear",
+        "what": "Large-format stores and mall shops selling equipment, apparel and sneakers, much of it from a few big brands.",
+        "examples": "DICK'S Sporting Goods, Foot Locker, Academy Sports + Outdoors"
+      },
+      {
+        "name": "Jewelry",
+        "what": "Chains selling diamond bridal, fashion and watch items, often with in-house credit and repair services.",
+        "examples": "Signet (Kay, Zales, Jared), Blue Nile"
+      },
+      {
+        "name": "Pet supplies and services",
+        "what": "Food, supplies, grooming and veterinary services for pets, sold in stores and online or by subscription.",
+        "examples": "Petco, Tractor Supply (Petsense, VIP Petcare)"
+      },
+      {
+        "name": "Farm, ranch and rural lifestyle",
+        "what": "Stores selling livestock feed, fencing, tools, truck accessories and seasonal goods to rural and suburban customers.",
+        "examples": "Tractor Supply"
+      },
+      {
+        "name": "Value general merchandise",
+        "what": "Small stores with low price points aimed at teens and families, with a fast-changing mix of trend items.",
+        "examples": "Five Below"
+      },
+      {
+        "name": "Books and campus retail",
+        "what": "Bookstores and college stores selling textbooks, course materials, general merchandise and apparel.",
+        "examples": "Barnes & Noble Education"
+      }
+    ],
+    "terms": [
+      {
+        "term": "Comparable sales",
+        "meaning": "Sales from stores and channels open at least a year, which strips out the effect of new stores. It is the main health check for a retailer."
+      },
+      {
+        "term": "Average ticket",
+        "meaning": "The average amount spent per transaction. Comparable sales equal change in ticket times change in transaction count."
+      },
+      {
+        "term": "Gross margin",
+        "meaning": "Sales less the cost of goods, including freight and often store occupancy, as a share of sales. It shows pricing power and sourcing."
+      },
+      {
+        "term": "SG&A",
+        "meaning": "Selling, general and administrative costs, mainly store labor, rent and marketing. It is largely fixed, so comps drive operating leverage."
+      },
+      {
+        "term": "Operating leverage",
+        "meaning": "When sales grow faster than fixed costs, margins widen; when sales fall, margins drop faster than sales."
+      },
+      {
+        "term": "Inventory turns",
+        "meaning": "How many times a year stock is sold and replaced. Slow turns mean markdown risk and tied-up cash."
+      },
+      {
+        "term": "Net new stores",
+        "meaning": "Stores opened minus stores closed. Growth chains such as Five Below add many; mature chains close weak sites."
+      },
+      {
+        "term": "Private label",
+        "meaning": "Products sold under the retailer's own brand. They usually earn higher gross margin than national brands."
+      },
+      {
+        "term": "Loyalty program",
+        "meaning": "A members' scheme giving points or offers in return for data and repeat visits, which supports traffic and personalization."
+      },
+      {
+        "term": "Big-ticket",
+        "meaning": "Expensive purchases such as trailers, generators or fitness equipment. They are the first to weaken when consumers or credit tighten."
+      },
+      {
+        "term": "Tariff refund",
+        "meaning": "A repayment of import duties after a court or government decision. It lifts reported profit once but is not a repeatable earnings stream."
+      },
+      {
+        "term": "Pro forma comparable sales",
+        "meaning": "Comparable sales that include an acquired business as if it had been owned in the earlier period, so they show underlying trend."
+      }
+    ],
+    "drivers": [
+      {
+        "name": "Consumer spending and mix of shoppers",
+        "how": "These products are mostly discretionary, so wages, confidence and credit shift traffic and ticket. Lower-income pressure shows first in value and big-ticket categories."
+      },
+      {
+        "name": "Product cycles and brands",
+        "how": "Footwear launches, beauty brand launches and jewelry trends change what sells. A weak cycle hits comps and forces markdowns."
+      },
+      {
+        "name": "Tariffs and sourcing costs",
+        "how": "Much merchandise is imported, so duties, freight and fuel move gross margin, and refunds or new rules cause one-off swings."
+      },
+      {
+        "name": "Store growth and closures",
+        "how": "Net new stores add sales even when comps are flat, but poor sites drag on returns and bring impairment charges."
+      },
+      {
+        "name": "Pricing and promotion",
+        "how": "Price investment wins traffic but lowers gross margin. Retailers with exclusive brands or services can hold price better."
+      },
+      {
+        "name": "Interest rates and household credit",
+        "how": "Higher rates raise retailers' interest costs and make financed purchases such as jewelry and big-ticket goods dearer."
+      },
+      {
+        "name": "Weather and seasonality",
+        "how": "Fourth-quarter holidays dominate gifting categories, and weather moves seasonal and outdoor sales."
+      }
+    ]
+  },
+  "fundamentals": {
+    "business": [
+      "Retailers earn revenue by selling merchandise and, in some cases, services. Ulta's Q2 net sales were $3,035.7M [2]. Tractor Supply sells livestock and agriculture goods (28% of Q3 sales), companion animal (25%), seasonal and recreation (23%), truck, tool and hardware (16%) and clothing and gifts (8%) [11]. Petco adds grooming and veterinary services.",
+      "Customers are households. Tractor Supply serves rural and suburban owners of land and animals; Academy's chief executive said consumer spending remains pressured, particularly among lower-income households [3]. Five Below's 2,022 stores sell value-priced goods [1]. Barnes & Noble Education serves college students through campus stores and its First Day programs, which grew 9.0% to $124.7M in a quarter [13].",
+      "The main cost is merchandise, then store labor, rent, freight and marketing. Academy's SG&A was 25.5% of sales in Q2 [3], and Dick's was 25.91% [5]. Tractor Supply's gross margin fell to 36.4% from 37.4% on transportation, fuel and price investment [4].",
+      "Pricing power depends on brand access, exclusives and services. Ulta's gross margin was 39.1% and Academy's 40.4% in the quarter [2][3], versus 34.78% at Dick's after adding Foot Locker [5]. We read the gap as brand mix and category rather than scale alone. Commodity items sold online have little pricing power.",
+      "The big assets are inventory and leased stores. Dick's held $5,565.3M of inventory at 1 Aug 2026 [5], Ulta $2,406.7M [2] and Signet $1,959.4M [6]. Liabilities are mostly lease obligations and debt; Petco's total debt was $1,479.9M [14].",
+      "It is moderately capital-intensive. Dick's guides about $1.6B of 2026 gross capex [5], Ulta $400M to $450M [2] and Five Below $250M to $260M [1]. Stores, distribution centers and remodels are the main spend, but most chains lease sites, so it is lighter than manufacturing."
+    ],
+    "overview": [
+      "There is no single sized market for this sub-industry in the sources we opened. Demand pools can be sized separately: APPA puts U.S. pet spending at $158B in 2025, up 3.7%, with $165B projected for 2026 [8]. Census shows sporting goods, hobby, musical instrument and book stores sold $8,228M in October 2026 on an unadjusted advance basis [15].",
+      "Main segments are beauty, sporting goods and athletic footwear, jewelry, pet, farm and rural, value general merchandise and books. Combined store counts show the scale: Ulta has 1,622 stores [2], Signet 2,534 [6], Five Below 2,022 [1], Petco 1,377 [14] and Academy 327 [3].",
+      "Retailers sit between brand owners and manufacturers upstream and households downstream. Dick's and Foot Locker depend on a few athletic brands, and Foot Locker's pro forma comps were -3.6% in Q2 [5]. Some chains are also supplier-like through private label.",
+      "The industry has consolidated and shifted online. Dick's closed its $2.5B Foot Locker acquisition on 8 Sep 2025 [5], and Tractor Supply bought VIP Petcare for $133.8M on 28 May 2026 and closed 74 Petsense stores [11].",
+      "Sales are largely in the U.S. Ulta has 88 international stores among 1,622 [2], and Five Below reports stores in 46 states [1]. We did not find a sourced geographic split of sales for the whole sub-industry."
+    ],
+    "competition": [
+      "There are dozens of listed U.S. competitors. Damodaran's January 2026 data count 94 U.S. firms in Retail (Special Lines), a group broader than this GICS sub-industry [16]. Each category has a handful of significant players, plus Amazon and mass merchants.",
+      "Leaders by category in our sources are Ulta in beauty, Dick's in sporting goods, Signet in jewelry, Tractor Supply in rural lifestyle, Petco in pet specialty and Five Below in value. We did not find sourced market-share percentages for any category, so we do not quote any [2][5][6][4][14][1].",
+      "Each category is fragmented in total but concentrated at the top in specialty stores. Signet has 2,534 stores and Dick's and Foot Locker together have 3,370 stores by our sum of the release's store tables, although the release's own headline count is 3,104 [6][5]. Many independents and online sellers cover the long tail.",
+      "Barriers to entry are modest in a store sense but higher for scale: brand access, supply terms, loyalty data and real estate. Ulta's 1,622 stores and Dick's $1.6B of capex show the scale of spending needed to stay current [2][5].",
+      "Economies of scale are real in buying, logistics and marketing. Dick's pro forma comps and margins diverge sharply between its two businesses, which shows scale alone does not guarantee results [5]. Larger chains also gain from private label and data.",
+      "Much of the product is differentiated by brand and service, such as Ulta's brand range and salons, but staple goods like pet food and basic sporting items are close to commodities. Tractor Supply invested in price and saw gross margin fall 100 basis points [4].",
+      "Suppliers hold power where brands are strong, which we think applies to athletic footwear, where Foot Locker's comps fell 3.6% [5]. Customers hold power through price transparency and online alternatives, which is why Tractor Supply says it is investing in price value [11]."
+    ],
+    "drivers": [
+      "Revenue growth comes from comparable sales and new stores. Five Below's Q2 sales rose 22.9% on comps of 14.1% and 52 net new stores [1], while Tractor Supply grew 5.1% on comps of only 0.4%, helped by new stores and an acquisition [4].",
+      "Operating margins depend on gross margin, store productivity and fixed-cost leverage. Ulta's operating margin was 12.5% [2], Signet's adjusted margin 7.0% [6] and Dick's 7.9% after Foot Locker [5]. Damodaran's Retail (Special Lines) operating margin is 8.41% [16].",
+      "Key cost variables are merchandise cost, tariffs, freight and fuel, wages and rent. Dick's received $59.0M of IEEPA tariff refunds in Q2 [5], Signet about $15M [6] and Five Below $163.6M [1]. Tractor Supply cited transport and fuel costs [4].",
+      "Interest rates matter through financing costs and consumer credit. The Fed held at 3.75% to 4.00% on 28 Oct 2026, with two members dissenting in favour of a rise [12]. Tractor Supply's revolver priced at SOFR of 3.898% plus 1.000% on 26 Sep 2026, and it issued $500M of 5.20% notes due 2032 [11].",
+      "Inflation, jobs and GDP shape discretionary demand. The Fed describes inflation as elevated and job gains as in line with the workforce [12]. NRF warns that higher gas prices and inflation will hit moderate- and lower-income consumers more than others [7]. Commodity prices matter for farm and pet food categories.",
+      "The group is cyclical and mixed. Gifts, jewelry and sporting goods are discretionary; pet consumables are more defensive; and APPA reports pet spending rose in 2025 and projects further growth [8]. Within that, we think company-specific execution has mattered more than the cycle this year [1][3]."
+    ],
+    "financials": [
+      "Growth is uneven. Ulta's six-month net sales rose to $6,199.5M from $5,636.8M [2], and Five Below guides 2026 sales of $5.63B to $5.71B [1]. Academy guides 3% to 5% sales growth with comps of flat to +2% [3], and Tractor Supply guides 2.5% to 3.5% [4].",
+      "Damodaran's January 2026 data for U.S. Retail (Special Lines), covering 94 firms, show a 35.30% gross margin, 9.85% EBITDA margin and 8.41% pre-stock-compensation operating margin, against 37.76% and 14.39% for the whole market [16]. This is broader than the GICS sub-industry.",
+      "Damodaran's unadjusted ROE for Retail (Special Lines) is 30.12%, versus 17.21% for the total market [17]. We think buybacks and lease-heavy balance sheets inflate it. Damodaran's page does not give ROIC, and we did not find a sourced sub-industry ROIC.",
+      "Leverage is moderate. Damodaran shows debt to EBITDA of 2.88 for Retail (Special Lines) against 6.52 for the market [18]. Petco's net debt was $1,186.4M against a guided $415M to $430M of adjusted EBITDA, so about 2.8x to 2.9x by our calculation [14]. Academy had $494.2M of long-term debt [3].",
+      "Free cash flow is solid at the stronger chains. Academy guides $300M to $350M of adjusted free cash flow [3], and Petco produced $129.9M in Q2 [14]. Ulta plans $1.8B of 2026 buybacks and Five Below authorized a new $600M repurchase program [2][1].",
+      "Capex needs are moderate and mostly stores and supply chain. Tractor Supply spent $651.6M in nine months [4], and Academy guides $200M to $240M for the year [3]. Petco guides about $140M against about $200M of depreciation [14].",
+      "Damodaran's EV/EBITDA is 11.47x for positive-EBITDA firms in Retail (Special Lines), against 19.73x for the whole market [9]. At sector level, FactSet has Consumer Discretionary at 25.1x forward earnings, but that is dominated by large non-specialty names [10]."
+    ],
+    "risks": [
+      "Trade policy is the main regulatory variable. Several retailers booked refunds of IEEPA tariffs in Q2 [5][6][1]; the loss of that benefit, or new tariffs, would raise costs again. Signet also lists lab-grown diamond pricing and supply as a forward-looking risk [6]. We did not find sourced rules specific to this industry.",
+      "Technology risk is that online sellers and AI shopping tools take share or squeeze margins. We did not find sourced evidence on AI's effect on these retailers. Tractor Supply's digital sales grew by double digits in Q3, so store chains are adapting [11].",
+      "Demographics matter by category. APPA reports 95 million U.S. households own a pet, 71 million a dog and 53 million a cat [8]. Campus retail follows enrolment, and Barnes & Noble Education is shifting toward First Day programs, which grew 9.0% [13].",
+      "Consumer behaviour is polarizing. NRF warns that the top 10% of spenders account for as much as 70% of sales in some sectors, and that gas prices and inflation pressure lower-income households [7]. Academy's chief executive says the same [3].",
+      "New competitors and models include online retailers, mass merchants and brands selling direct. Foot Locker's pro forma comps of -3.6% show how fast a unit can slip; we think reliance on a few athletic brands is part of the reason [5]. Value chains are expanding fast: Five Below plans about 150 net new stores [1].",
+      "Supply-chain risk comes from imports, freight and fuel. Tractor Supply blamed higher transportation and fuel costs for its margin decline [4]. Geopolitical disruption could extend that. We did not find a sourced share of imported goods across the group.",
+      "Substitutes include online marketplaces, secondhand platforms, rental and lab-grown alternatives. Signet's same-store sales guide for Q3 of -1.0% to +2.0% shows how uncertain demand for discretionary goods is [6]. We did not find sourced substitution figures."
+    ],
+    "horizon": {
+      "opportunities": [
+        "Pet spending is forecast by APPA to reach $165B in 2026, giving Petco and Tractor Supply a growing base, though Petco's sales are nearly flat [8][14].",
+        "Value and beauty chains are still opening stores, with Five Below planning about 150 net new stores and Ulta adding 31 net in six months [1][2].",
+        "Capital returns are large: Ulta plans $1.8B of buybacks, Five Below has a new $600M authorization and Signet is expanding its buyback [2][1][6].",
+        "Dick's can still gain if Foot Locker's restructuring works, since the segment is guided to a loss of only $40M to $80M for 2026 [5]."
+      ],
+      "threats": [
+        "Tariff changes and loss of refunds could reverse recent margin gains [5][6][1].",
+        "A weaker lower-income consumer could hit Academy, Tractor Supply and value chains, as NRF and Academy warn [7][3].",
+        "Brand and product-cycle risk could continue to hurt footwear and jewelry demand [5][6].",
+        "A sticky-inflation Fed that is debating increases could raise financing costs and weigh on big-ticket spending [12]."
+      ],
+      "assessment": "Over the next three to five years we think this sub-industry will keep dividing between retailers with distinctive offers and those exposed to one brand, one category or soft big-ticket demand. Ulta, Five Below and the stronger Dick's business show what scale and a clear proposition can do [2][1][5]. Tractor Supply, Petco and Foot Locker show how fast growth can stall when the product cycle or consumer turns [4][14][5]. Tariff refunds make 2026 comparisons look better than underlying trends, so we would focus on comps and gross margin in 2027 [5][6][1]. Pet and rural demand are steadier, but they depend on the lower-income consumer [8][7]."
+    }
+  },
+  "sections": [
+    {
+      "id": "macro",
+      "paragraphs": [
+        "Specialty retailers are operating in a firm but uneven consumer economy. The Fed held its target range at 3.75% to 4.00% on 28 Oct 2026 with a 10 to 2 vote, and the two dissenters wanted a quarter-point increase; the statement calls inflation elevated and says activity is expanding at a strong pace [12]. That is not a rate-cutting backdrop, and it keeps pressure on financed and big-ticket purchases.",
+        "NRF forecasts November and December retail sales up 4.2% to $1.013 trillion, against 3.1% growth to $972 billion in 2025, with pressure on household spending falling unevenly across income groups and higher gas prices and persistent inflation weighing on moderate- and lower-income households [7]. Our read is that spending is being carried by higher-income shoppers, which favors beauty and premium categories over value-driven big-ticket goods. Census data show October 2026 sales at sporting goods, hobby, musical instrument and book stores of $8,228M, not seasonally adjusted and in an advance estimate, so the year-on-year picture needs the later revision [15]."
+      ]
+    },
+    {
+      "id": "demand",
+      "paragraphs": [
+        "Structural demand differs by category. U.S. pet spending reached $158B in 2025, up 3.7%, and APPA projects $165B in 2026, with growth near 4.4%, of which about 2 points is inflation [8]. The base is 95 million pet-owning households [8]. Pet is the most defensive part of this group, but Petco's Q2 comps were only +0.6% and Tractor Supply described companion-animal softness [14][11].",
+        "Beauty and value are the strongest recent growth areas in our sample: Ulta lifted its 2026 comp guide to 3.2% to 3.7% [2] and Five Below to 10% to 12% [1]. Sporting goods is mixed: DICK'S Business comps were +4.9% but Academy's were -0.4% [5][3]. Jewelry is cyclical, with Signet guiding to flat to +2.5% same-store sales for its year [6].",
+        "Demand is elastic for big-ticket and discretionary items and less so for consumables. Tractor Supply's nine-month comps are -0.3%, with continued softness in big-ticket, though companion-animal trends have improved since the first quarter [11]. Long term, we think the winners are chains with services, loyalty and exclusive product that can pull traffic from online rivals."
+      ]
+    },
+    {
+      "id": "structure",
+      "paragraphs": [
+        "On Porter's five forces, rivalry is high within each category and between specialty and mass or online sellers. Threat of new entrants is moderate: opening a store is easy, but brand access, loyalty data and scale are harder. Supplier power is high where a few brands dominate, as we think is the case in athletic footwear, where Foot Locker's pro forma comps fell 3.6% in Q2 [5]. Buyer power is high because shoppers compare prices online.",
+        "The threat of substitutes comes from online marketplaces and mass merchants. Concentration is by category rather than across the whole sub-industry. Signet operates 2,534 stores [6], Ulta 1,622 [2], Five Below 2,022 [1] and Petco 1,377 [14]. We did not find sourced market-share percentages, so we do not quote any.",
+        "Moats are loyalty programs, exclusive or private-label product, services such as grooming, salons and veterinary care, and convenient real estate. Tractor Supply's purchase of VIP Petcare and Petsense closures show an owner reshaping its pet offer [11]. Pricing power is stronger at Ulta (39.1% gross margin) and Academy (40.4%) than at Tractor Supply, where margin fell to 36.4% [2][3][4]."
+      ]
+    },
+    {
+      "id": "environment",
+      "paragraphs": [
+        "Trade policy dominates the political backdrop. Dick's received $59.0M of IEEPA tariff refunds in Q2, of which $38.1M related to prior-year costs [5]. Five Below recorded a $163.6M refund benefit, which took its GAAP gross margin to 48.5% against 35.6% adjusted [1]. Signet received about $15M and assumes about $30M in total for its fiscal year [6]. Academy cited a net tariff refund as well [3].",
+        "Restructuring is another cost. Dick's has booked $515.8M of Foot Locker restructuring charges to date, with up to $750M expected [5], and Tractor Supply took $71.7M of impairment and restructuring charges in nine months, mostly tied to Petsense [11].",
+        "Technology is changing how customers search and buy: Tractor Supply's digital sales grew strongly in Q3 [4]. We did not find sourced regulatory developments specific to beauty, pet or jewelry retail, and we did not find sourced evidence of AI changing share. Environmental factors include supply chain and fuel; Tractor Supply blamed higher transportation and fuel costs [4]."
+      ]
+    },
+    {
+      "id": "economics",
+      "paragraphs": [
+        "Margins vary by category. Ulta had a 39.1% gross margin and 12.5% operating margin in Q2 [2]. Academy's gross margin was 40.4% and SG&A 25.5% of sales [3]. Signet's adjusted operating margin was 7.0% [6]. Dick's consolidated operating margin fell to 7.9% from 12.4% with Foot Locker included [5]. Damodaran's Retail (Special Lines) group shows 35.30% gross and 8.41% operating margin [16].",
+        "Operating leverage is high because stores, rent and labor are largely fixed. Ulta's operating income rose 10.1% on 8.9% sales growth [2], while Tractor Supply's fell 10.2% on 5.1% sales growth because gross margin shrank [4]. Damodaran's ROE is 30.12% for the group against 17.21% for the market, but we think leases and buybacks flatter it, and ROIC is not available there [17].",
+        "Capital intensity is moderate and cash generation good at the leaders. Dick's guides $1.6B gross capex [5], Academy $300M to $350M adjusted free cash flow [3] and Petco generated $129.9M free cash flow in Q2 [14]."
+      ]
+    },
+    {
+      "id": "earnings",
+      "paragraphs": [
+        "Guidance has moved in different directions. Ulta raised its 2026 EPS range to $28.70 to $29.00 [2]. Five Below raised full-year comps to 10% to 12% and adjusted EPS to $9.83 to $10.31 [1]. Signet raised adjusted EPS to $10.45 to $12.15 [6]. Academy raised EPS, gross margin and free cash flow ranges and held sales guidance [3].",
+        "Dick's non-GAAP EPS guide is $11.00 to $12.00, with the Foot Locker segment now expected to lose $40M to $80M [5]. Tractor Supply reaffirmed adjusted EPS of $1.90 to $2.00 and comps of -1% to flat [4]. Petco reaffirmed adjusted EBITDA of $415M to $430M [14].",
+        "We did not find a sourced consensus EPS growth figure for this sub-industry. The S&P 500's blended Q3 2026 earnings growth is 31.9% according to FactSet, which makes the relative bar high [10]. Our view: much of the upgrade in Q2 came from tariff refunds, and 2027 will test whether comps hold without them [5][6][1]. We did not find official third-quarter releases for Ulta, Dick's or Five Below as of 20 Nov 2026."
+      ]
+    },
+    {
+      "id": "valuation",
+      "paragraphs": [
+        "We found no sourced forward P/E for this sub-industry. At the sector level, FactSet puts Consumer Discretionary at 25.1x forward earnings, the highest of any S&P 500 sector, against 18.3x for the S&P 500, its 5-year average of 19.8x and 10-year average of 19.1x [10]. Because that sector includes large non-specialty companies, it says little about specialty retail.",
+        "Damodaran's January 2026 data are more relevant. Retail (Special Lines) trades at 11.47x EV/EBITDA for positive-EBITDA firms and 16.50x for all firms, against 19.73x and 23.95x for the total market [9]. That group has 94 firms and is wider than this GICS sub-industry. Our read is that specialty retail is priced at a discount to the market, consistent with its cyclicality and lower margins [16].",
+        "Cash returns are one way to see valuation. Ulta intends to spend $1.8B on buybacks [2], Five Below approved $600M [1], and Dick's pays a $1.25 quarterly dividend [5]. We did not find sourced current share prices or FCF yields for this group, and we do not estimate them."
+      ]
+    },
+    {
+      "id": "positioning",
+      "paragraphs": [
+        "We did not find sourced year-to-date performance, ETF flow or short-interest data for this sub-industry, so we do not estimate them. What we can say comes from company disclosures on buybacks and growth.",
+        "Capital return gives a clue about management confidence. Ulta repurchased 1.4 million shares for $791.1M in six months and raised its 2026 plan to $1.8B from $1.5B [2]. Signet repurchased about 1.0M shares for $87M in Q2 and plans a $125M accelerated repurchase [6]. Dick's bought back $141.2M in 26 weeks, down from $299M a year earlier [5]. Academy repurchased $182.1M year to date [3].",
+        "Breadth looks poor. Comps range from +14.1% at Five Below to -3.6% at Foot Locker [1][5], and Barnes & Noble Education, still loss-making, is improving through First Day programs [13]. Consumer Discretionary has the highest forward P/E of any sector at 25.1x, which suggests the sector overall is richly valued, though that is our inference from valuation and not a flow figure [10]."
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "n": 1,
+      "title": "Five Below Q2 fiscal 2026 earnings release (Form 8-K exhibit 99.1)",
+      "publisher": "Five Below / SEC",
+      "date": "2026-09-02",
+      "url": "https://www.sec.gov/Archives/edgar/data/0001177609/000117760926000023/q22026fivebelowexhibit991.htm"
+    },
+    {
+      "n": 2,
+      "title": "Ulta Beauty Q2 fiscal 2026 earnings release (Form 8-K exhibit 99.1)",
+      "publisher": "Ulta Beauty / SEC",
+      "date": "2026-08-27",
+      "url": "https://www.sec.gov/Archives/edgar/data/0001403568/000110465926102438/ulta-20260827xex99d1.htm"
+    },
+    {
+      "n": 3,
+      "title": "Academy Sports + Outdoors Q2 fiscal 2026 earnings release (Form 8-K exhibit 99.1)",
+      "publisher": "Academy Sports + Outdoors / SEC",
+      "date": "2026-09",
+      "url": "https://www.sec.gov/Archives/edgar/data/0001817358/000181735826000146/exhibit991pressreleaseq220.htm"
+    },
+    {
+      "n": 4,
+      "title": "Tractor Supply Q3 2026 earnings release (Form 8-K exhibit 99.1)",
+      "publisher": "Tractor Supply / SEC",
+      "date": "2026-10-22",
+      "url": "https://www.sec.gov/Archives/edgar/data/0000916365/000091636526000069/ex991-q32026earningsrelease.htm"
+    },
+    {
+      "n": 5,
+      "title": "DICK'S Sporting Goods Q2 2026 earnings release (Form 8-K exhibit 99.1)",
+      "publisher": "DICK'S Sporting Goods / SEC",
+      "date": "2026-08-25",
+      "url": "https://www.sec.gov/Archives/edgar/data/0001089063/000108906326000033/dks-2026801xex991earningsr.htm"
+    },
+    {
+      "n": 6,
+      "title": "Signet Jewelers Reports Second Quarter Fiscal 2027 Results (Form 8-K exhibit 99.1)",
+      "publisher": "Signet Jewelers / SEC",
+      "date": "2026-09-09",
+      "url": "https://www.sec.gov/Archives/edgar/data/0000832988/000083298826000227/fy27ex99109x09x26pressrele.htm"
+    },
+    {
+      "n": 7,
+      "title": "NRF forecasts 2026 holiday sales growth as consumers remain resilient",
+      "publisher": "National Retail Federation",
+      "date": "2026-10-15",
+      "url": "https://nrf.com/media-center/press-releases/nrf-forecasts-2026-holiday-sales-growth-as-consumers-remain-resilient"
+    },
+    {
+      "n": 8,
+      "title": "U.S. Pet Industry Reaches $158 Billion in 2025, Poised for Continued Growth in 2026",
+      "publisher": "American Pet Products Association",
+      "date": "2026-03-26",
+      "url": "https://americanpetproducts.org/news/u.s.-pet-industry-reaches-158-billion-in-2025-poised-for-continued-growth-in-2026"
+    },
+    {
+      "n": 9,
+      "title": "Enterprise Value Multiples by Sector (US), January 2026",
+      "publisher": "Aswath Damodaran, NYU Stern",
+      "date": "2026-01",
+      "url": "https://pages.stern.nyu.edu/~adamodar/New_Home_Page/datafile/vebitda.html"
+    },
+    {
+      "n": 10,
+      "title": "FactSet Earnings Insight, 13 November 2026",
+      "publisher": "FactSet",
+      "date": "2026-11-13",
+      "url": "https://advantage.factset.com/hubfs/Website/Resources%20Section/Research%20Desk/Earnings%20Insight/EarningsInsight_111326.pdf"
+    },
+    {
+      "n": 11,
+      "title": "Tractor Supply Form 10-Q for quarter ended 26 September 2026",
+      "publisher": "Tractor Supply / SEC",
+      "date": "2026-10-22",
+      "url": "https://www.sec.gov/Archives/edgar/data/0000916365/000091636526000079/tsco-20260926.htm"
+    },
+    {
+      "n": 12,
+      "title": "Federal Reserve issues FOMC statement, 28 October 2026",
+      "publisher": "Federal Reserve",
+      "date": "2026-10-28",
+      "url": "https://www.federalreserve.gov/newsevents/pressreleases/monetary20261028a.htm"
+    },
+    {
+      "n": 13,
+      "title": "Barnes & Noble Education fiscal 2027 first quarter results (Form 8-K exhibit 99.1)",
+      "publisher": "Barnes & Noble Education / SEC",
+      "date": "2026-09-08",
+      "url": "https://www.sec.gov/Archives/edgar/data/0001634117/000163411726000090/exhibit991-fy27ytdq1earnin.htm"
+    },
+    {
+      "n": 14,
+      "title": "Petco Reports Second Quarter 2026 Results",
+      "publisher": "Petco Health and Wellness Company (via Placera)",
+      "date": "2026-09-02",
+      "url": "https://www.placera.se/pressmeddelanden/petco-health-and-wellness-company-petco-reports-second-quarter-2026-results-20260902"
+    },
+    {
+      "n": 15,
+      "title": "Advance Retail Sales: Sporting Goods, Hobby, Musical Instrument, and Book Stores (RSSGHBMSN)",
+      "publisher": "U.S. Census Bureau via FRED",
+      "date": "2026-11-17",
+      "url": "https://fred.stlouisfed.org/series/RSSGHBMSN"
+    },
+    {
+      "n": 16,
+      "title": "Margins by Sector (US), January 2026",
+      "publisher": "Aswath Damodaran, NYU Stern",
+      "date": "2026-01",
+      "url": "https://pages.stern.nyu.edu/~adamodar/New_Home_Page/datafile/margin.html"
+    },
+    {
+      "n": 17,
+      "title": "Return on Equity by Sector (US), January 2026",
+      "publisher": "Aswath Damodaran, NYU Stern",
+      "date": "2026-01",
+      "url": "https://pages.stern.nyu.edu/~adamodar/New_Home_Page/datafile/roe.html"
+    },
+    {
+      "n": 18,
+      "title": "Debt Fundamentals by Sector (US), January 2026",
+      "publisher": "Aswath Damodaran, NYU Stern",
+      "date": "2026-01",
+      "url": "https://pages.stern.nyu.edu/~adamodar/New_Home_Page/datafile/dbtfund.html"
+    }
+  ]
+}
