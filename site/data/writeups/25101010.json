@@ -1,0 +1,473 @@
+{
+  "code": "25101010",
+  "added": "2026-11-21",
+  "asOf": "2026-11-20",
+  "summary": "Auto parts suppliers are earning decent but uneven profits in a year of flat vehicle production. Magna's Q3 2026 adjusted EBIT margin rose to 6.8% [1], BorgWarner raised 2026 adjusted EPS guidance to $5.20-$5.35 [2] and Lear's core margin was 4.4% [3]. Aptiv's EBITDA margin fell to 17.7% and it expects roughly flat 2027 revenue [4][5], Gentex cut 2026 revenue and margin guidance [6] and Autoliv guided margin to about 10.5% [7]. Damodaran's US Auto Parts group trades at 15.13x forward earnings [8]; the 25.1x figure is for the Consumer Discretionary sector [9].",
+  "metrics": [
+    {
+      "label": "Magna adjusted EBIT margin (Q3 2026)",
+      "value": "6.8%",
+      "context": "Up from 5.9%; sales $10.06B, down 4%; 2026 guide 6.3%-6.5%",
+      "source": 1
+    },
+    {
+      "label": "BorgWarner adjusted operating margin (Q3 2026)",
+      "value": "10.9%",
+      "context": "Up 20 bps; organic sales down 3.1%; 2026 adjusted EPS guide $5.20-$5.35",
+      "source": 2
+    },
+    {
+      "label": "Lear core operating margin (Q3 2026)",
+      "value": "4.4%",
+      "context": "Core operating earnings $255.7M on $5.77B sales; 2026 free cash flow guide $565M-$665M",
+      "source": 3
+    },
+    {
+      "label": "Aptiv adjusted EBITDA margin (Q3 2026)",
+      "value": "17.7%",
+      "context": "Down from 19.1%; revenue $3.2B, up 2%; 2026 adjusted EPS guide $5.60-$5.80",
+      "source": 4
+    },
+    {
+      "label": "Autoliv adjusted operating margin (Q3 2026)",
+      "value": "9.7%",
+      "context": "Organic sales down 1.1% against global light-vehicle production down 1.9%",
+      "source": 7
+    },
+    {
+      "label": "Auto Parts operating margin (Damodaran, US)",
+      "value": "6.37%",
+      "context": "Pre-tax, 35 firms, data as of Jan 2026; gross margin 15.84%; net margin 0.72%",
+      "source": 10
+    },
+    {
+      "label": "Auto Parts forward P/E (Damodaran, US)",
+      "value": "15.13x",
+      "context": "Industry group of 35 firms, data as of Jan 2026; trailing P/E 28.07x",
+      "source": 8
+    },
+    {
+      "label": "Global automotive parts market (one estimate)",
+      "value": "$116.7B",
+      "context": "2026, narrow definition; forecast $151.2B by 2032, 4.38% CAGR from 2027; definitions vary widely",
+      "source": 11
+    }
+  ],
+  "watch": [
+    "Memory and semiconductor inflation is a 2027 swing factor: Aptiv expects about $700M of cost recoveries from customers that add revenue but dilute margin [5].",
+    "Tariffs remain a cost line: the US charges 25% on certain imported auto parts with USMCA-compliant parts exempt, and the 2026 USMCA review may revisit the rules [12].",
+    "China is a volume risk for some and an opportunity for others: Magna cut its China production assumption to 30.4M units while Aptiv's China bookings rose 30% in Q3 [1][5].",
+    "Electric-vehicle program cuts hit electrification-heavy suppliers: BorgWarner's battery systems sales fell to $78M from $132M a year earlier [2].",
+    "Input costs are rising: Autoliv cited about $120M of gross raw material headwinds for 2026 and cut its margin outlook to the low end of its range [7]."
+  ],
+  "bellwethers": [
+    "Magna",
+    "Aptiv",
+    "Lear",
+    "BorgWarner",
+    "Autoliv",
+    "Gentex",
+    "Bosch",
+    "Denso"
+  ],
+  "basics": {
+    "intro": "Automotive parts companies design and build the components, systems and electronics inside vehicles, from seats, airbags and wiring to turbochargers, sensors and driver-assistance software. Their main customers are the car makers, who buy under multi-year programs, with a smaller aftermarket for replacement parts. They earn money per part supplied, so revenue follows vehicle production rather than sales to drivers. GICS puts parts makers here, while the car makers sit in Automobile Manufacturers, tires in Tires & Rubber and the dealers and parts distributors in other industries.",
+    "products": [
+      {
+        "name": "Seating and interiors",
+        "what": "Complete seat systems, trim and electrical systems for the cabin. These are large, low-margin, high-volume programs built to the car maker's schedule.",
+        "examples": "Lear seating, Magna Seating Systems"
+      },
+      {
+        "name": "Electrical and electronic architecture",
+        "what": "Wiring, connectors, computers and software that carry power and data around the vehicle and run driver-assistance features.",
+        "examples": "Aptiv Engineered Components and Intelligent Systems, Lear E-Systems"
+      },
+      {
+        "name": "Powertrain and propulsion",
+        "what": "Turbochargers, transmissions, engine controls, electric motors and inverters used in combustion, hybrid and electric vehicles.",
+        "examples": "BorgWarner Turbos and PowerDrive, Denso, ZF"
+      },
+      {
+        "name": "Safety systems",
+        "what": "Airbags, seatbelts and steering wheels that protect occupants. The market is a few global firms because of strict safety testing.",
+        "examples": "Autoliv, ZF, Joyson"
+      },
+      {
+        "name": "Body, chassis and exterior",
+        "what": "Metal and plastic body structures, closures, mirrors, lighting and chassis parts that make up much of a vehicle's weight.",
+        "examples": "Magna Body Exteriors & Structures, Gentex auto-dimming mirrors"
+      },
+      {
+        "name": "Aftermarket and replacement",
+        "what": "Replacement parts sold to repair shops and drivers after the warranty period. Margins are usually better and demand is steadier than original equipment.",
+        "examples": "Bosch, Denso and Mahle replacement parts"
+      }
+    ],
+    "terms": [
+      {
+        "term": "Tier 1 supplier",
+        "meaning": "A company that sells directly to the car maker. Tier 2 and 3 firms supply parts to the Tier 1s."
+      },
+      {
+        "term": "OEM",
+        "meaning": "Original equipment manufacturer: the car maker. Sales to the OEM for new vehicles are 'original equipment', as opposed to the aftermarket."
+      },
+      {
+        "term": "Light-vehicle production (LVP)",
+        "meaning": "The number of cars and light trucks built. It is the main driver of supplier revenue and is tracked by S&P Global Mobility."
+      },
+      {
+        "term": "Content per vehicle",
+        "meaning": "The dollar value of a supplier's parts in each car. Growth in content per vehicle lets sales rise even when production is flat."
+      },
+      {
+        "term": "Program award and booking",
+        "meaning": "A contract won to supply a part on a future model, usually 2 to 4 years before production starts. Bookings are the leading indicator of future revenue."
+      },
+      {
+        "term": "Launch cost",
+        "meaning": "Upfront engineering and tooling spending before a program starts. Delays or cancellations can leave it unrecovered."
+      },
+      {
+        "term": "Pass-through",
+        "meaning": "Raw material or chip costs billed on to the customer. It lifts revenue but not profit, so it lowers the margin percentage."
+      },
+      {
+        "term": "Price-downs",
+        "meaning": "Annual price reductions that car makers often require in supply contracts, so suppliers must cut cost each year to hold margin."
+      },
+      {
+        "term": "Operating leverage",
+        "meaning": "Plants and engineering are largely fixed cost, so a small change in volume moves profit by more."
+      },
+      {
+        "term": "Core operating earnings",
+        "meaning": "Lear's profit measure before restructuring and other one-off items. Other suppliers use adjusted EBIT or EBITDA, so definitions are not directly comparable."
+      },
+      {
+        "term": "Conversion / free cash flow conversion",
+        "meaning": "Free cash flow as a share of net income. It shows how much of reported profit becomes cash after capital spending."
+      },
+      {
+        "term": "Section 232 tariffs",
+        "meaning": "US duties on vehicles and parts imposed on national security grounds. They raise supplier costs unless customers pay or reimburse them."
+      }
+    ],
+    "drivers": [
+      {
+        "name": "Vehicle production volumes",
+        "how": "Supplier revenue moves with the number of cars built. Because factories carry fixed costs, a few points of production decline can cut profit by more."
+      },
+      {
+        "name": "Content growth and mix",
+        "how": "More electronics, safety and electrification content raises dollars per car. Suppliers tied to growing content outgrow production."
+      },
+      {
+        "name": "Customer program timing",
+        "how": "Awards, launches and cancellations decide which firm's revenue rises. A lost or cancelled program removes sales, while a new platform adds them after launch."
+      },
+      {
+        "name": "Raw materials and chips",
+        "how": "Steel, copper, resin and semiconductors are large cost items. Recoveries from customers usually lag, so margins are squeezed first."
+      },
+      {
+        "name": "Tariffs and trade policy",
+        "how": "Duties on cross-border parts raise costs. Margins depend on how much customers reimburse and how much production can be moved."
+      },
+      {
+        "name": "Electrification mix",
+        "how": "Electric vehicles need different parts than combustion cars. Suppliers tied to combustion lose content, those with motors, inverters and batteries gain, and delays in EV demand hurt the latter."
+      },
+      {
+        "name": "Pricing and cost discipline",
+        "how": "Annual price-downs and wage inflation are offset by productivity programs, restructuring and purchasing scale."
+      },
+      {
+        "name": "Capital return and leverage",
+        "how": "Many suppliers return cash through buybacks, which lifts earnings per share even when profit is flat, but leaves less cushion in a downturn."
+      }
+    ]
+  },
+  "fundamentals": {
+    "business": [
+      "Revenue comes from supplying parts and systems to car makers under multi-year programs. Magna's Q3 2026 sales of $10.06B came from body, power and vision, seating and complete-vehicle assembly [1]. Aptiv reported $1.84B from Engineered Components and $1.40B from Intelligent Systems, which includes software and services [4]. A smaller aftermarket adds replacement-part revenue.",
+      "Customers are a concentrated group of car makers, which gives them strong leverage in contract negotiations. Gentex said the loss of a Volkswagen program cut European revenue by about $16.6M in Q3, and Aptiv expects two German luxury customers to remove $250-300M of revenue in 2027 [6][5]. A few customers can therefore move a supplier's results.",
+      "The largest costs are purchased materials and components, labor, engineering and tariffs. Autoliv put gross raw material headwinds at around $42M in Q3 and about $120M for 2026 [7]. Gentex guided 2026 gross margin down to 34.0%-34.5% on cost increases that it does not expect to recover until the first half of 2027 [6].",
+      "Pricing power is limited for most parts because car makers run competitive bids and often expect annual price reductions. We think it is strongest where a supplier holds technology or a leading share, such as Gentex, whose company-wide gross margin was 33.4% [6], and weakest in seats and wiring where margins are in single digits, as Lear's 4.4% shows [3].",
+      "Major assets are plants, tooling, inventory and receivables from car makers; liabilities include supplier payables, debt and restructuring or warranty reserves. Lear had about $2.75B of total debt and $889M of cash at the end of Q3, which is about $1.86B net by our calculation from the release [3]. Autoliv reported leverage of 1.3x against a ceiling of 1.5x [7].",
+      "It is capital-intensive for most. Magna guided capital spending of about $1.5B in 2026 and Lear about $660M [1][3], while Autoliv guided net capex of about 4% of sales [7]. Gentex is lighter, guiding capex of $100M-$115M on about $2.65B of revenue [6]."
+    ],
+    "overview": [
+      "One estimate, from Mordor Intelligence, puts the global automotive parts market at $116.7B in 2026 growing 4.38% a year (2027-2032) to $151.2B in 2032 [11]. We note that this is a narrow definition and the company figures here are far larger: Magna alone guides $41.2B-$42.0B of 2026 sales [1]. BCG expects component demand to grow about 3.5% a year from 2025 to 2035 [13].",
+      "The main segments are powertrain and drivetrain, electronics and software, safety, seating and interiors, and body and chassis. In Mordor's data, combustion-engine parts were 72.87% of 2026 parts sales and passenger-car parts 72.15%, with battery-electric parts the fastest growing at a 31.8% CAGR [11]. OEM channels were 60.29% of sales and the aftermarket is the faster-growing channel [11].",
+      "Suppliers sit between raw material, chip and component makers upstream and the car makers downstream, who assemble and sell vehicles. Tier 1 firms such as Magna, Lear and Aptiv sell directly to car makers. Aptiv's 2027 view assumes about $700M of semiconductor and memory costs are passed to customers, showing how cost moves up the chain [5].",
+      "The industry has moved from mechanical content to electronics and software, and now to electrification and China-based competition. BCG notes Chinese suppliers' profitability overtook European suppliers' in 2024, and that suppliers grew about 3.5% a year in 2019-2024, behind car makers at 5.2% [13]. BorgWarner's battery systems sales fell to $78M in Q3 2026 from $132M, a sign of EV program resets [2].",
+      "Asia-Pacific held 46% of parts sales value in 2026 in Mordor's estimate [11]. Magna's 2026 outlook assumes production of 15.0M vehicles in North America, 16.8M in Europe and 30.4M in China [1]. Denso reported fiscal 2026 revenue of 7.54 trillion yen [14]."
+    ],
+    "competition": [
+      "There are thousands of suppliers but only a few dozen global Tier 1 groups. This brief covers Magna, Aptiv, Lear, BorgWarner, Autoliv and Gentex plus Denso [1][4][3][2][7][6][14]. Mordor names Bosch, Continental, ZF, Denso and Hyundai Mobis as the other major players [11]. We did not find a sourced exact count.",
+      "Leaders vary by product. Denso reported revenue of 7.54 trillion yen in fiscal 2026 [14], Magna guides $41.2B-$42.0B for 2026 [1], Lear $23.35B-$23.75B [3], BorgWarner $14.0B-$14.2B [2] and Aptiv $12.65B-$12.75B [4]. We found no sourced global share table, and Bosch's revenue was not available from an opened source.",
+      "The industry is fragmented as a whole but concentrated in niches. Autoliv competes in safety against a handful of global firms, and Gentex, a mirror and electronics specialist, earned a 33.4% gross margin and about 17.8% operating margin [7][6]. Seating and wiring are more contested, and margins are thinner.",
+      "Barriers to entry are high for safety-critical and electronic parts: they require approvals, global plants and multi-year program wins. Magna said existing business and awarded programs cover more than 90% of expected 2028 sales [15]. Chinese suppliers have crossed the barrier at home and are expanding, per BCG [13].",
+      "Economies of scale matter in purchasing, engineering and plant utilization. Even so, size does not guarantee profit: Lear's core margin was 4.4% on $5.77B of quarterly sales, while Autoliv earned a 9.7% adjusted margin on $2.69B [3][7]. BCG expects top-quartile suppliers to grow at mid- to high-single-digit rates while the bottom quartile stagnates [13].",
+      "Parts are largely commoditized where the design is set by the customer (seats, harnesses, stampings) and differentiated where technology or safety rules count (airbags, chips, mirrors, motors). Damodaran's 15.84% gross margin and 5.67% unadjusted operating margin for US Auto Parts show the commodity side dominating [10].",
+      "Customers hold most bargaining power as they can dual-source and run annual price reductions, while suppliers have power in scarce inputs such as semiconductors and rare technology. Aptiv's 2027 plan shows both: it expects to pass through about $700M of memory costs but with no margin on them [5]. Autoliv said customers compensated over 80% of its Q3 tariff costs [7]."
+    ],
+    "drivers": [
+      "Revenue growth follows vehicle production plus content gains and customer wins. Autoliv's Q3 organic sales fell 1.1% against a 1.9% drop in global production, an outperformance of 0.8 points, with regional production ranging from China down 6.9% to Asia excluding China up 6.4% [7]. Lear said global production fell about 2% on its sales-weighted basis [3].",
+      "Operating margins depend on volume, mix, price-downs, material costs and launch efficiency. Magna's margin rose to 6.8% from 5.9% in Q3 on tariff recoveries and lower tariff costs despite 4% lower sales [1], while Aptiv's EBITDA margin fell 140 bps as software revenue dropped 11% [4][16].",
+      "Key cost variables are steel, aluminum, copper, resin, semiconductors, labor, freight and tariffs. Autoliv guided about $120M of gross raw material cost for 2026 [7], Gentex expects $10-15M of extra Q4 cost [6], and Aptiv expects semiconductor and memory costs to rise in 2027 [5]. Cost recoveries typically lag by months.",
+      "Interest-rate sensitivity runs mainly through vehicle demand and leverage. The Fed held the range at 3.75%-4.00% on 28 Oct 2026 after a September hike, with two members dissenting in favor of another hike [17]. Damodaran shows US Auto Parts debt at 2.95 times EBITDA and 43.47% of book capital [18]. We did not find a sourced rate sensitivity for the group.",
+      "Demand follows employment, income, consumer credit and confidence, which drive new-vehicle sales and so production. Commodity prices feed costs: the Fed article noted crude above $100 a barrel and up 78% year to date, with inflation above target for close to six years [17]. We found no sourced unemployment or GDP sensitivity for the group.",
+      "The group is cyclical, with secular content growth in electronics and safety on top. BCG forecasts supplier growth of about 2% to 3% a year to 2027 and component demand growth near 3.5% a year to 2035 [13]. Aftermarket demand is steadier than original equipment. We view the group as cyclical with a mild structural tailwind from content."
+    ],
+    "financials": [
+      "Growth is low and uneven. In Q3 2026, Magna's sales fell 4% and BorgWarner's 2.9% (organic 3.1%), while Lear's rose 2%, Aptiv's 2% and Autoliv's fell 0.5% [1][2][3][4][7]. BCG expects supplier revenue to grow about 2% to 3% a year through 2027 [13].",
+      "Margins are mid-single to low-double digit. Damodaran's US Auto Parts data as of January 2026 show a gross margin of 15.84%, EBITDA margin of 9.04%, pre-tax operating margin of 6.37% and net margin of 0.72% across 35 firms [10]. Company margins sit above that at the strong end: BorgWarner 10.9% adjusted, Autoliv 9.7% and Magna 6.8% in Q3 [2][7][1].",
+      "Damodaran's US Auto Parts unadjusted after-tax ROIC is 12.41%, falling to 8.98% after lease and R&D adjustments, with a normalized 10-year figure of 19.29% [19]. The page carries conflicting dates (January 2026 and January 2025) and no ROE column. Magna targets an adjusted ROIC above 15% by 2030 [15].",
+      "Leverage is moderate. Damodaran shows debt at 43.47% of book capital, 29.19% of market capital and 2.95 times EBITDA [18]. Autoliv's leverage ratio was 1.3x, and BorgWarner cut gross debt by $864M through a tender and redemption in Q3 [7][2].",
+      "Free cash flow is positive but lumpy. Magna guides $1.85B-$1.90B for 2026, BorgWarner $900M-$1.1B, Lear $565M-$665M and Aptiv $625M-$675M, with Aptiv noting a spin-related drag of about $500M [1][2][3][4][5]. Magna targets free cash flow conversion of at least 85% of net income over 2027-2030 [15].",
+      "Capital spending is heavy but manageable: Damodaran's capex is 145.18% of depreciation and net capex 2.01% of sales for US Auto Parts [20]. Autoliv guides net capex of about 4% of sales and Lear about $660M [7][3].",
+      "Damodaran's US Auto Parts group had EV/EBITDA of 6.43 for firms with positive EBITDA, EV/EBIT of 12.38, forward P/E of 15.13 and trailing P/E of 28.07 as of January 2026 [21][8]. The trailing figure is inflated by depressed earnings, which we think explains the gap to the forward multiple."
+    ],
+    "risks": [
+      "Regulation and trade policy can swing profit. The US applies 25% duties on certain imported auto parts, with USMCA-compliant parts exempt and the 2026 USMCA review pending [12]. Lear's outlook excludes any future tariff changes, and Magna lists tariffs that erode free trade agreements as a risk [3][15].",
+      "AI and software are an opportunity and a risk. Aptiv's software and services revenue fell 11% in Q3 2026 and is expected to fall again in Q4 on award timing [5]. We think AI-heavy architectures will concentrate value in firms that own software, while suppliers of commodity wiring or seats may lose content to car makers' in-house designs.",
+      "Demographic change matters little over a cycle: car production follows income and credit more than population. We found no sourced demographic projection for the group. The aging vehicle fleet is a modest support for aftermarket demand, though we found no sourced figure.",
+      "Consumer behavior is shifting between combustion, hybrids and electrics, and EV demand has been uneven. Mordor puts combustion-engine parts at 72.87% of 2026 parts sales, with battery-electric parts growing fastest at 31.8% a year [11]. BorgWarner's guide includes a roughly $250M decline in battery systems sales in 2026 [2].",
+      "New competitors are mainly Chinese suppliers. BCG says Chinese suppliers' profitability overtook European suppliers' in 2024 and that they show the most aggressive growth strategies [13]. Denso guides fiscal 2027 operating profit of 500B yen, down 9.5% from the prior year, showing pressure on even the largest incumbents [14].",
+      "Geopolitics and supply chains raise costs. Magna cut its 2026 China production assumption to 30.4M from 31.2M [1]. Gentex reported China automotive revenue down 44% in Q3 [6]. Aptiv assumes flat 2027 global vehicle production at best and a 2% decline in its downside case [5].",
+      "Substitutes include in-house production by car makers, notably in software and electric drive, and consolidation of electronics into fewer computers. Aptiv's Intelligent Systems revenue fell 3% in Q3 [4]. We found no sourced data on in-sourcing rates and treat this as a slow-moving risk."
+    ],
+    "horizon": {
+      "opportunities": [
+        "Content growth in electronics, safety and thermal comfort can outpace production, and Aptiv booked about $4B of awards in Q3 and over $13B year to date [5].",
+        "Backlog gives visibility: Magna says existing business and awards support over 90% of expected 2028 sales [15].",
+        "Hybrids and combustion programs offer a longer profitable runway, with BorgWarner winning engine-control and turbocharger awards [2].",
+        "Cash returns are large: Magna bought back $1.434B of shares in nine months and Aptiv plans to return 100% of free cash flow through 2027 [1][5]."
+      ],
+      "threats": [
+        "Tariff and trade rules, including the USMCA review, can change cost and volume quickly [12].",
+        "Flat or falling production in 2027, with Aptiv's range at flat to down 2%, limits growth [5].",
+        "Input inflation, especially memory chips and raw materials, compresses margins even when costs are passed through [5][7].",
+        "Chinese competitors are gaining profitability and global reach [13]."
+      ],
+      "assessment": "Over three to five years we expect suppliers to grow modestly, near the 2% to 3% a year BCG projects to 2027 and the roughly 3.5% a year it sees for component demand through 2035 [13], with profit depending on content wins and cost control rather than volume. Magna's 2030 targets of 200 basis points of margin gain and 15% annual EPS growth show what the best-run firms aim for [15], while Gentex's guidance cuts and Autoliv's margin trim show how easily the plan slips [6][7]. In our judgment, winners will be firms with technology, balanced hybrid and electric exposure, and customers who share cost inflation. The key unknowns are tariffs, EV pace and China."
+    }
+  },
+  "sections": [
+    {
+      "id": "macro",
+      "paragraphs": [
+        "Auto parts sit at the cyclical end of industrials: sales follow vehicle production, which follows consumer credit and confidence. Production is soft. Autoliv reported that global light-vehicle production fell 1.9% in Q3 2026, with the Americas down 3.0%, EMEA up 0.8%, Asia excluding China up 6.4% and China down 6.9% [7]. Lear said its full-year outlook assumes global production about 1% lower than 2025 on a sales-weighted basis [3]. Aptiv's 2027 plan treats flat global production as optimistic and plans for a 2% decline in a downside case [5].",
+        "Policy and rates matter indirectly. The Fed held its target range at 3.75%-4.00% on 28 Oct 2026, after a September increase, with two members dissenting in favor of another hike; the chair said inflation has run above objective for close to six years and crude oil was above $100 a barrel [17]. That points to costly car loans and rising material costs together. On currency, Magna's outlook assumes C$1 = US$0.719 and EUR1 = US$1.156 [1]. Our read is that the cycle is late and flat: volumes are soft, costs are rising, and suppliers with pricing recovery or content growth are outperforming."
+      ]
+    },
+    {
+      "id": "demand",
+      "paragraphs": [
+        "The addressable market is large but definitions differ. Mordor Intelligence estimates the global automotive parts market at $116.7B in 2026 and $151.2B by 2032, a 4.38% CAGR from 2027 [11]. That narrow estimate is far below the combined revenue of the bellwethers, such as Magna's guided $41.2B-$42.0B [1], so we treat it as an indicator of growth rather than size. BCG expects component demand to grow about 3.5% a year from 2025 to 2035, and supplier revenue about 2% to 3% a year through 2027 [13].",
+        "Secular drivers are content growth in electronics, safety and software, electrification and the aftermarket. Mordor shows combustion-engine parts still at 72.87% of 2026 sales with battery-electric parts growing at 31.8% a year, and the aftermarket growing faster than original equipment [11]. Aptiv booked about $4B in Q3 and over $13B year to date against a $20B target for 2026 [5]. Demand is cyclical, not defensive, and we found no sourced demographic projection. In our judgment, content per vehicle gives mid-single-digit potential growth only for suppliers on the right platforms."
+      ]
+    },
+    {
+      "id": "structure",
+      "paragraphs": [
+        "Applying Porter's five forces: buyer power is high because a few car makers dominate and demand annual price reductions; Aptiv expects two German luxury customers to cut revenue by $250-300M in 2027 [5]. Supplier power is moderate and concentrated in semiconductors and metals; Autoliv cited about $120M of raw material headwinds [7]. Rivalry is intense in seats, wiring and body parts, where Damodaran's US Auto Parts gross margin is 15.84% and unadjusted operating margin is 5.67% [10].",
+        "The threat of new entrants is low for safety and electronics because of approvals, global plants and multi-year awards, yet Chinese suppliers have overtaken European suppliers on profitability, according to BCG [13]. Substitutes include car-maker in-sourcing of software and electric drive. Concentration is moderate: Magna guides $41.2B-$42.0B of sales, Lear $23.35B-$23.75B, BorgWarner $14.0B-$14.2B and Aptiv $12.65B-$12.75B [1][3][2][4]. We found no sourced global share table. Moats rest on technology, scale and backlog: Magna says awards cover over 90% of 2028 sales [15]. Pricing power is weak except in niches such as Gentex, with a 33.4% gross margin [6]."
+      ]
+    },
+    {
+      "id": "environment",
+      "paragraphs": [
+        "Government intervention centers on trade. The US imposes a 25% tariff on certain imported auto parts, exempts USMCA-compliant parts, offsets 3.75% of MSRP for US-built vehicles through April 2030, and expects the 2026 USMCA review to touch auto rules [12]. Tariffs are being recovered from customers: Autoliv said customers compensated more than 80% of Q3 tariff costs, leaving a net hit of about $6M, and Magna's Q3 EBIT benefited from tariff recoveries [7][1]. Lear's outlook excludes future tariff changes [3].",
+        "Technology is changing content. Aptiv's software and services revenue fell 11% in Q3 even as bookings grew [5]. BorgWarner's battery systems sales dropped to $78M from $132M while it won electric motor and inverter awards [2]. Denso guides lower fiscal 2027 operating profit of 500B yen after 552.5B yen in fiscal 2026 [14]. Economically, memory chip inflation is the new emerging risk: Aptiv expects about $700M of 2027 recoveries [5]. Social and environmental rules, such as emissions standards, shape powertrain mix, though we found no sourced figure. Our judgment is that trade policy and chip costs are the two factors most able to move profit within a year."
+      ]
+    },
+    {
+      "id": "economics",
+      "paragraphs": [
+        "Economics are moderate and fixed-cost heavy. Damodaran's US Auto Parts data as of January 2026 show a gross margin of 15.84%, EBITDA margin of 9.04%, pre-tax operating margin of 6.37% and net margin of 0.72% [10]. Unadjusted after-tax ROIC is 12.41% and 8.98% after lease and R&D adjustment, though the page's dates conflict [19]. Debt is 2.95 times EBITDA and net capex 2.01% of sales [18][20]. We found no ROE figure.",
+        "Operating leverage shows in the company data. Magna's Q3 sales fell 4% yet adjusted EBIT rose to a 6.8% margin on tariff recoveries and lower tariff costs [1]. Gentex's sales fell 1.1% and its gross margin fell a full point to 33.4% [6]. Lear's core margin was 4.4% on 2% more sales [3]. Capital intensity differs: Magna spends about $1.5B a year, and Autoliv about 4% of sales [1][7]. Free cash flow remains positive: Magna guides $1.85B-$1.90B and BorgWarner $900M-$1.1B [1][2]. Our read is that returns above the cost of capital come from safety, electronics and niche leaders, not from seats and wiring."
+      ]
+    },
+    {
+      "id": "earnings",
+      "paragraphs": [
+        "Company guidance points to stable 2026 profit with a cautious 2027. BorgWarner raised adjusted EPS guidance to $5.20-$5.35 from $5.05-$5.30 [2]. Magna kept the midpoint of its $6.85-$7.15 EPS range but cut sales guidance to $41.2B-$42.0B [1]. Aptiv held adjusted EPS at $5.60-$5.80 and guided a Q4 EPS midpoint of $1.45, but expects 2027 revenue flat to slightly positive before recoveries [4][5]. Autoliv trimmed its adjusted margin to around 10.5% and Gentex cut 2026 revenue guidance to about $2.65B and gross margin to 34.0%-34.5% [7][6].",
+        "We did not find sourced consensus EPS growth or revision data for this sub-industry. Management tone is more cautious than the earnings beats suggest: Aptiv's Q3 EPS of $1.42 beat a $1.33 consensus, yet its shares were 25.8% below the 200-day average before the report and it stressed a more cautious 2027 stance [16]. Gentex still guides 2027 revenue of $2.80B-$2.90B, assuming primary-market production down about 1% [6]. Our view is that earnings quality varies: buybacks and tariff recoveries are doing part of the work, so a flat 2027 production year could test the estimates."
+      ]
+    },
+    {
+      "id": "valuation",
+      "paragraphs": [
+        "Damodaran's US Auto Parts group, 35 firms, traded at a forward P/E of 15.13x and a trailing P/E of 28.07x in January 2026, with a PEG of 1.27 [8]. EV/EBITDA was 6.43 for firms with positive EBITDA and EV/EBIT 12.38 [21]. For market context, FactSet put the S&P 500 forward P/E at 18.3 on 13 Nov 2026 against a 10-year average of 19.1; the Consumer Discretionary sector, which holds Tesla and Amazon rather than suppliers, was highest at 25.1 [9]. We did not find a sourced current forward P/E for the group, so the Damodaran data are dated by about ten months.",
+        "Cash yields are one guide. Magna targets 15% annual EPS growth to 2030 and an adjusted ROIC above 15% [15], while Aptiv plans to return 100% of free cash flow, with a $1.6B buyback authorization remaining at 30 Sep 2026 [5][4]. We found no sourced free cash flow yield. Our read is that at 15x forward earnings the group is priced below the market, as if earnings were cyclical and at risk, so the price implies little growth beyond flat 2027 production."
+      ]
+    },
+    {
+      "id": "positioning",
+      "paragraphs": [
+        "We found no sourced short interest, ETF flow or relative performance data for the sub-industry. The Consumer Discretionary Select Sector SPDR (XLY), with $22.42B of assets and 50 holdings on 19 Nov 2026, shows no auto parts name in its top 25, so any such holding is below 1% [22]. Sector funds therefore give suppliers little weight.",
+        "Capital return is the clearest positioning signal. Magna repurchased 7.9M shares for $529M in Q3 and $1.434B in nine months and plans a new buyback for up to about 25.8M shares [1]. Lear completed its $350M 2026 repurchase target and Autoliv bought $150M in Q3 [3][7]. Gentex repurchased 5.7M shares for $132.6M [6]. Aptiv's shares were $44.23 before its Q3 report, 25.8% below the 200-day average and 5.6% above the 52-week low of $41.88, though its spin-off changes the comparison [16]. Our read is that management teams see their shares as cheap, while momentum is weak and stock-specific rather than a group trade."
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "n": 1,
+      "title": "Magna Q3 2026 results press release (Form 6-K exhibit 99.1)",
+      "publisher": "Magna International / SEC",
+      "date": "2026-10-30",
+      "url": "https://www.sec.gov/Archives/edgar/data/0000749098/000110465926120352/tm2628312d1_ex99-1.htm"
+    },
+    {
+      "n": 2,
+      "title": "BorgWarner Q3 2026 results press release (Form 8-K exhibit 99.1)",
+      "publisher": "BorgWarner Inc. / SEC",
+      "date": "2026-10-29",
+      "url": "https://www.sec.gov/Archives/edgar/data/0000908255/000090825526000060/a20260930ex991pressrelease.htm"
+    },
+    {
+      "n": 3,
+      "title": "Lear Q3 2026 results press release (Form 8-K exhibit 99.1)",
+      "publisher": "Lear Corporation / SEC",
+      "date": "2026-10-30",
+      "url": "https://www.sec.gov/Archives/edgar/data/0000842162/000084216226000090/lear-2026oct30_8xkxex991.htm"
+    },
+    {
+      "n": 4,
+      "title": "Aptiv Q3 2026 earnings release (Form 8-K exhibit 99.1)",
+      "publisher": "Aptiv PLC / SEC",
+      "date": "2026-11-03",
+      "url": "https://www.sec.gov/Archives/edgar/data/0001521332/000152133226000071/aptvq32026ex991.htm"
+    },
+    {
+      "n": 5,
+      "title": "Aptiv Q3 2026 earnings call transcript",
+      "publisher": "Webull (automated transcript)",
+      "date": "2026-11-03",
+      "url": "https://www.webull.com/news/15860220633717760"
+    },
+    {
+      "n": 6,
+      "title": "Gentex Q3 2026 results press release (Form 8-K exhibit 99.1)",
+      "publisher": "Gentex Corporation / SEC",
+      "date": "2026-10-23",
+      "url": "https://www.sec.gov/Archives/edgar/data/0000355811/000035581126000060/exhibit99109302026.htm"
+    },
+    {
+      "n": 7,
+      "title": "Autoliv financial report July-September 2026 (Form 8-K exhibit 99.1)",
+      "publisher": "Autoliv Inc. / SEC",
+      "date": "2026-10-23",
+      "url": "https://www.sec.gov/Archives/edgar/data/0001034670/000119312526429404/alv-ex99_1.htm"
+    },
+    {
+      "n": 8,
+      "title": "PE ratios by sector, Auto Parts (US, data as of January 2026)",
+      "publisher": "Aswath Damodaran, NYU Stern",
+      "date": "2026-01-01",
+      "url": "https://pages.stern.nyu.edu/~adamodar/New_Home_Page/datafile/pedata.html"
+    },
+    {
+      "n": 9,
+      "title": "FactSet Earnings Insight, 13 November 2026",
+      "publisher": "FactSet",
+      "date": "2026-11-13",
+      "url": "https://advantage.factset.com/hubfs/Website/Resources%20Section/Research%20Desk/Earnings%20Insight/EarningsInsight_111326.pdf"
+    },
+    {
+      "n": 10,
+      "title": "Margins by sector, Auto Parts (US, data as of January 2026)",
+      "publisher": "Aswath Damodaran, NYU Stern",
+      "date": "2026-01-01",
+      "url": "https://pages.stern.nyu.edu/~adamodar/New_Home_Page/datafile/margin.html"
+    },
+    {
+      "n": 11,
+      "title": "Automotive Parts Market",
+      "publisher": "Mordor Intelligence",
+      "date": "2026-11-21",
+      "url": "https://www.mordorintelligence.com/industry-reports/automotive-parts-market"
+    },
+    {
+      "n": 12,
+      "title": "Section 232 Automotive Tariffs: Issues for Congress (CRS Insight IN12545)",
+      "publisher": "Congressional Research Service",
+      "date": "2026-05-11",
+      "url": "https://www.everycrsreport.com/reports/IN12545.html"
+    },
+    {
+      "n": 13,
+      "title": "2026 Global Automotive Supplier Study",
+      "publisher": "Boston Consulting Group",
+      "date": "2026-03-05",
+      "url": "https://www.bcg.com/publications/2026/2026-global-automotive-supplier-study"
+    },
+    {
+      "n": 14,
+      "title": "Denso grows fiscal 2026 revenue and profit, sees weaker profit in fiscal 2027",
+      "publisher": "RTTNews",
+      "date": "2026-04-28",
+      "url": "https://www.rttnews.com/3643197/denso-fy26-results-rise-lifts-dividend-sees-weak-profit-higher-revenues-in-fy27-stock-drops.aspx"
+    },
+    {
+      "n": 15,
+      "title": "Magna unveils 2030 financial targets at Investor Day",
+      "publisher": "Magna International via Finviz",
+      "date": "2026-11-11",
+      "url": "https://finviz.com/news/421009/magna-unveils-2030-financial-targets-at-investor-day"
+    },
+    {
+      "n": 16,
+      "title": "Aptiv clears a lowered bar but a flat 2027 preview shows auto headwinds outlasting the beat",
+      "publisher": "Finviz",
+      "date": "2026-11-04",
+      "url": "https://finviz.com/news/414425/aptiv-clears-a-lowered-bar-but-a-flat-2027-preview-shows-auto-headwinds-outlasting-the-beat"
+    },
+    {
+      "n": 17,
+      "title": "Fed holds rates steady at 3.75% to 4.00% in a 10-2 vote",
+      "publisher": "StockAnalysis (FOMC, 28 Oct 2026)",
+      "date": "2026-10-28",
+      "url": "https://stockanalysis.com/news/fed-holds-rates-steady-oct-2026/"
+    },
+    {
+      "n": 18,
+      "title": "Debt fundamentals by sector, Auto Parts (US, data as of January 2026)",
+      "publisher": "Aswath Damodaran, NYU Stern",
+      "date": "2026-01-01",
+      "url": "https://pages.stern.nyu.edu/~adamodar/New_Home_Page/datafile/dbtfund.html"
+    },
+    {
+      "n": 19,
+      "title": "Return on capital by sector, Auto Parts (US)",
+      "publisher": "Aswath Damodaran, NYU Stern",
+      "date": "2026-01-01",
+      "url": "https://pages.stern.nyu.edu/~adamodar/New_Home_Page/datafile/roc.html"
+    },
+    {
+      "n": 20,
+      "title": "Capital expenditures by sector, Auto Parts (US, data as of January 2026)",
+      "publisher": "Aswath Damodaran, NYU Stern",
+      "date": "2026-01-01",
+      "url": "https://pages.stern.nyu.edu/~adamodar/New_Home_Page/datafile/capex.html"
+    },
+    {
+      "n": 21,
+      "title": "Enterprise value multiples by sector, Auto Parts (US, data as of January 2026)",
+      "publisher": "Aswath Damodaran, NYU Stern",
+      "date": "2026-01-01",
+      "url": "https://pages.stern.nyu.edu/~adamodar/New_Home_Page/datafile/vebitda.html"
+    },
+    {
+      "n": 22,
+      "title": "Consumer Discretionary Select Sector SPDR Fund (XLY) holdings",
+      "publisher": "StockAnalysis",
+      "date": "2026-11-20",
+      "url": "https://stockanalysis.com/etf/xly/holdings/"
+    }
+  ]
+}

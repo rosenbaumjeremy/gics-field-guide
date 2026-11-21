@@ -1,0 +1,501 @@
+{
+  "code": "25203020",
+  "added": "2026-11-21",
+  "asOf": "2026-11-20",
+  "summary": "Footwear is splitting into winners and a turnaround. Nike guides fiscal 2027 revenue down high-single digits after Greater China fell 26% [1][2], while Deckers (HOKA +6.8%) [3], On (+17.2%) [4] and Birkenstock (+15% at constant rates) [5] keep growing. US tariff refunds flattered Q3 margins at nearly every company [3][4][6][7]. Nike trades at 26.7x forward earnings on depressed profits, Deckers at 9.9x [8][9]. The macro backdrop is hard: US consumer sentiment is near record lows and traders expect a December rate rise [10][11].",
+  "metrics": [
+    {
+      "label": "Nike FY2027 revenue guidance",
+      "value": "Down high-single digits",
+      "context": "Adjusted EPS $1.15-$1.35 vs $2.10 in FY2026; Q1 (to 31 Aug 2026) revenue $11.2B, -4%",
+      "source": 1
+    },
+    {
+      "label": "Nike Greater China revenue (Q1 FY2027)",
+      "value": "-26%",
+      "context": "EMEA -5%, North America +2%, APLA flat",
+      "source": 2
+    },
+    {
+      "label": "Deckers net sales (Q2 FY2027)",
+      "value": "$1.48B, +3.5%",
+      "context": "HOKA +6.8%, UGG +3.5%; FY outlook $5.70B-$5.725B; includes ~310 bp tariff-refund margin benefit",
+      "source": 3
+    },
+    {
+      "label": "On Holding net sales (Q3 2026)",
+      "value": "CHF 931.4M, +17.2%",
+      "context": "+17.8% constant currency; gross margin 72.6% including CHF 52.6M tariff refund",
+      "source": 4
+    },
+    {
+      "label": "Birkenstock revenue (fiscal Q3 2026)",
+      "value": "EUR 719.5M, +15% cc",
+      "context": "Adjusted EBITDA margin 33.7%; FY2026 guide raised to 15% constant-currency growth",
+      "source": 5
+    },
+    {
+      "label": "Operating margin, US shoe industry (Damodaran)",
+      "value": "9.14%",
+      "context": "Pre-tax, 11 firms, Jan 2026; after-tax unadjusted ROIC 24.9% vs 10.1% for all US firms",
+      "source": 12
+    },
+    {
+      "label": "Forward P/E: Nike vs Deckers",
+      "value": "26.7x vs 9.9x",
+      "context": "As of 20 Nov 2026; Nike shares -47% over 52 weeks, Deckers -6%",
+      "source": 8
+    },
+    {
+      "label": "Global footwear production (2025)",
+      "value": "24.6B pairs",
+      "context": "+0.1%; China 55.6%, India 12.2%, Vietnam 6.7%; Asia 88.7%",
+      "source": 13
+    }
+  ],
+  "watch": [
+    "Nike's China reset: Greater China fell 26% in Q1, management expects pressure into early fiscal 2028 and Nike will pull online sales rights from some large Chinese retail partners [2].",
+    "Tariff refunds are one-offs: Deckers' refunds added about 310 bp to Q2 margin [3] and On's added 570 bp to Q3 gross margin [4], so underlying margins look lower once refunds stop.",
+    "New Section 301 duties of 10% to 12.5% took effect on 24 July 2026 after the Supreme Court struck down the IEEPA tariffs [14], and On expects them to raise its tariff bill [4].",
+    "Holiday demand against a weak consumer: Michigan sentiment was 48.0 in October with 4.7% expected inflation [10], and October retail sales rose only 0.2% against 0.4% higher prices [11].",
+    "Deckers' own caution: its raised margin outlook rests on refunds, and its direct-to-consumer comparable sales fell 6.4% in Q2 [3]."
+  ],
+  "bellwethers": [
+    "Nike",
+    "Adidas",
+    "Deckers",
+    "On Holding",
+    "Birkenstock",
+    "Puma",
+    "Crocs",
+    "Skechers (private)"
+  ],
+  "basics": {
+    "intro": "These companies design, market and sell shoes, from performance running and basketball sneakers to boots, sandals and clogs. Nearly all production is outsourced to contract factories in Asia, so the firms are brand owners rather than manufacturers. Revenue comes from selling to retailers (wholesale) and directly through their own stores and websites. GICS puts footwear brands here, even where they also sell apparel, such as Nike. Shoe retailers sit in Apparel Retail, and sportswear-first apparel brands such as lululemon sit in Apparel, Accessories & Luxury Goods.",
+    "products": [
+      {
+        "name": "Athletic and performance footwear",
+        "what": "Shoes engineered for running, training, basketball, football and similar sports. Technology and athlete endorsements justify premium prices and drive repeat purchases.",
+        "examples": "Nike, Adidas, HOKA, On, Puma"
+      },
+      {
+        "name": "Lifestyle sneakers",
+        "what": "Casual shoes sold on style and brand heat rather than sport performance. Demand is more fashion-driven and prone to cycles.",
+        "examples": "Nike Air Force 1, Adidas Samba, Converse, Skechers"
+      },
+      {
+        "name": "Comfort and seasonal footwear",
+        "what": "Boots, slippers, clogs and sandals sold on comfort and weather. Sales can depend on the season and on a few hit styles.",
+        "examples": "UGG, Birkenstock, Crocs, HEYDUDE"
+      },
+      {
+        "name": "Apparel and equipment",
+        "what": "Clothing, bags and accessories sold under the same brands. They add revenue and let the brand own more of the shopper's outfit.",
+        "examples": "Nike apparel, Adidas apparel, On apparel"
+      },
+      {
+        "name": "Direct-to-consumer channels",
+        "what": "Company-owned stores and websites where the brand keeps the retailer's share of the sale and owns the customer data, but carries rent and marketing costs.",
+        "examples": "Nike Direct, Deckers DTC, On online store"
+      }
+    ],
+    "terms": [
+      {
+        "term": "Wholesale",
+        "meaning": "Selling to retailers such as department stores, sporting goods chains and specialty shops, who then sell to shoppers. It is lower-margin than direct sales but moves large volumes."
+      },
+      {
+        "term": "Direct-to-consumer (DTC)",
+        "meaning": "Sales through the brand's own stores and websites. Gross margins are higher because no retailer takes a cut, but it needs marketing and store spending."
+      },
+      {
+        "term": "Gross margin",
+        "meaning": "Sales minus the cost of goods, as a share of sales. For brands it reflects pricing power, discounting, freight and tariffs."
+      },
+      {
+        "term": "Constant currency",
+        "meaning": "Growth recalculated as if exchange rates had not moved. Companies sell in many currencies, so this shows underlying demand."
+      },
+      {
+        "term": "Demand creation",
+        "meaning": "Nike's name for advertising, athlete endorsements and promotion. It is a large fixed-like cost that brands cut reluctantly because it protects the brand."
+      },
+      {
+        "term": "Sell-in and sell-through",
+        "meaning": "Sell-in is what the brand ships to retailers; sell-through is what shoppers buy from them. A gap builds unsold stock, which later forces discounts."
+      },
+      {
+        "term": "Full-price sell-through",
+        "meaning": "The share of products sold without markdowns. Higher full-price sales protect margin and brand image."
+      },
+      {
+        "term": "Contract manufacturer",
+        "meaning": "An independent factory, mostly in Vietnam, Indonesia and China, that makes shoes to the brand's designs. Brands can switch suppliers but only slowly."
+      },
+      {
+        "term": "Tariff",
+        "meaning": "A tax on imported goods paid by the importer of record, usually the brand. It raises costs unless passed on in prices or shared with factories."
+      },
+      {
+        "term": "Inventory days",
+        "meaning": "How long stock sits before being sold. High levels signal weak demand and risk of discounting."
+      },
+      {
+        "term": "Collaboration and 'drop'",
+        "meaning": "A limited release of a shoe, often with an athlete or designer, that sells out and builds buzz. It supports full-price sales but can't carry a whole business."
+      },
+      {
+        "term": "Franchise",
+        "meaning": "A long-running shoe line such as Air Force 1 or the Gel-Kayano. Franchises give stable sales but can fade if a brand leans on them too long."
+      }
+    ],
+    "drivers": [
+      {
+        "name": "Brand heat and product cycle",
+        "how": "A new franchise or technology can lift sales and let a brand raise prices; an aging line forces markdowns. Sales and gross margin move together."
+      },
+      {
+        "name": "Channel mix",
+        "how": "Shifting sales toward direct raises gross margin but adds selling costs. Pulling back from wholesale can cut revenue near term while retailers clear stock."
+      },
+      {
+        "name": "Tariffs and sourcing",
+        "how": "Most shoes are made in Asia and shipped to the US. Higher duties raise cost of goods unless prices rise, and refunds create one-off profit."
+      },
+      {
+        "name": "Consumer spending and sentiment",
+        "how": "Shoes are discretionary. Weak confidence or high inflation squeezes spending, especially on casual and lower-priced styles."
+      },
+      {
+        "name": "Inventory and discounting",
+        "how": "Overstocked retailers cut orders and discount, which hits revenue first and margins second. Clean inventory lets brands sell at full price."
+      },
+      {
+        "name": "China and international demand",
+        "how": "China is a large growth market but also a place where local brands compete hard. Slowing demand there hits global brands' sales and fixed-cost leverage."
+      },
+      {
+        "name": "Currency",
+        "how": "Stronger home currencies shrink reported revenue from foreign sales, and the cost base is often in dollars, so margins can swing."
+      }
+    ]
+  },
+  "fundamentals": {
+    "business": [
+      "Revenue is mostly footwear, plus apparel and equipment sold under the same brands. Nike reported fiscal 2026 revenue of $46.4B, split between wholesale ($27.5B) and Nike Direct ($17.7B) [15]. Deckers earns it from UGG ($786.4M) and HOKA ($677.2M) in its September quarter [3]. Smaller brands such as Crocs rely on a few franchises [6].",
+      "Customers are two groups: retailers buying wholesale and consumers buying directly. Nike says no customer was 10% or more of revenue, but its three largest US customers were about 29% of US sales [16]. Deckers sells about three quarters of its sales through wholesale ($1.093B of $1.481B in Q2) [3].",
+      "The main costs are goods from contract factories, freight and tariffs, then marketing and store expenses. Nike's fiscal Q1 selling and administrative expense was $3.9B, including $1.3B of demand creation (advertising and endorsements) [1]. Raw materials and labor sit with the factories, not the brand.",
+      "Pricing power comes from the brand, product technology and scarcity. On earned a 72.6% gross margin in Q3, helped by a CHF 52.6M tariff refund [4], and Deckers a 60.5% margin [3]. Where brands lose heat or lean on discounts, margins fall, as at Puma [17].",
+      "Main assets are brand names, inventory and cash; liabilities are debt, leases and payables to factories. Nike held $7.8B of inventory and $8.4B of cash and short-term investments at 31 August 2026 [1]. Deckers had $860.8M of inventory, $1.21B in cash and no borrowings [3].",
+      "The industry is asset-light. Nike's 10-K says 15 contract manufacturers made its footwear, so brands do not own the factories [16]. Damodaran's US shoe group spends little: net capex was 0.40% of sales against 4.23% for all firms [18]."
+    ],
+    "overview": [
+      "Worldwide, factories made 24.6 billion pairs of shoes in 2025, up 0.1% [13]. A global dollar market size was not available in the sources we opened, so we use output as the guide. The industry is large in volume but modest in growth, with brand share shifts doing more than market growth.",
+      "Segments are performance athletic, lifestyle sneakers, and comfort or seasonal footwear. Nike's Q1 results show the split: Running grew double digits while Sportswear, just under half of revenue, and Jordan, 13%, were weak [2]. Adidas grew Performance 14% and Lifestyle 3% in Q3 [7].",
+      "The brands sit between Asian factories and the retailers and shoppers who buy from them. Suppliers make shoes to a brand's design and the brand controls design, marketing and distribution. Nike's footwear comes from Vietnam (52%), Indonesia (27%) and China (16%) [16].",
+      "The industry has moved from wholesale to a mix of wholesale and direct sales. Nike's direct revenue fell 6% in fiscal 2026 while wholesale grew 6% [15], and in Q1 it said it is working with wholesale partners to clear inventory [2]. New entrants like HOKA and On have taken share in running [3][4].",
+      "Production is highly concentrated: China made 55.6% of the world's pairs in 2025, India 12.2% and Vietnam 6.7%, and Asia in total 88.7% [13]. Sales are more widespread, with the US, Europe and China the main markets for the large brands [2][4]."
+    ],
+    "competition": [
+      "We think a handful of brands dominate a long tail. The sub-industry's public names include Nike, Adidas, Puma, Deckers, On, Birkenstock and Crocs [1][7][17][3][4][5][6]. Skechers, once the third-largest footwear company, went private in September 2025 [19].",
+      "Nike is the leader, with FY2026 revenue of $46.4B [15], followed by Adidas, whose nine-month sales were EUR 20.6B [7]. We did not find a sourced global market share table, so we do not quote shares. Deckers' annual sales run near $5.7B [3].",
+      "The industry is fragmented below the leaders, with many mid-size and private brands, and brand loyalty shifts quickly. Damodaran's US shoe group has only 11 listed firms [12], but On, Birkenstock and HOKA have taken share in running and comfort footwear within a few years [4][5][3].",
+      "Barriers are brand, distribution and design, not factories. Anyone can contract a factory, but few can build a trusted brand and win shelf space. Nike's four largest footwear suppliers each make over 10% of its shoes, so factory capacity is not a large barrier [16].",
+      "Scale helps with sourcing, marketing and retailer leverage. Nike spent $1.3B on demand creation in one quarter [1], a level small brands cannot match. Scale does not guarantee success, as Nike's 4% revenue fall and Puma's loss show [1][17].",
+      "Products are differentiated by brand, technology and style, but shoes in a given category are close substitutes. Lifestyle sneakers are the least differentiated and most promotional; Adidas's Lifestyle sales grew only 3% against 14% for Performance [7].",
+      "Bargaining power is split. Large retailers buy a lot of Nike's wholesale volume (three biggest US customers about 29% of US sales) [16], while a few hit brands have more leverage with retailers. Factories have limited power because brands can move orders, but Nike's four largest make about 60% of its shoes [16]."
+    ],
+    "drivers": [
+      "Revenue growth comes from new products, price and mix, wider distribution and new markets. On's APAC sales rose 31.1% in Q3 and its Americas 12.4% [4]. Nike's growth is held back by cuts to Sportswear, Jordan and Greater China [2].",
+      "Operating margin is set by gross margin less selling and marketing costs. Nike's gross margin was 42.8% in Q1 [1], Deckers guides about 23% operating margin [3], and Crocs reported 22.3% adjusted in Q3 [6]. Discounting and channel mix are the largest swing factors.",
+      "Key cost variables are factory prices, freight, tariffs, currency and marketing. Nike's Q1 gross margin rose on lower warehousing and logistics costs [1]. Birkenstock said incremental US tariffs cut both its gross and adjusted EBITDA margins by 70 bp in the quarter [5].",
+      "Interest rates affect brands mainly through consumers and retailer financing, not their own debt. Damodaran's US shoe group has a market debt ratio of 11.1% [20]. Birkenstock, with net leverage of 1.8x, is more exposed to refinancing costs [5].",
+      "Shoes are discretionary, so they respond to GDP, jobs, inflation and consumer confidence. US consumer sentiment was 48.0 in October, the second lowest on record [10], and October retail sales rose just 0.2% [11]. Commodity costs matter less than freight and labor, which the factories carry.",
+      "The industry is cyclical with secular growth pockets. Damodaran puts the US shoe group's beta at 1.02 [21], about market level, but individual brands swing widely with fashion and inventory cycles, as Nike's 47% decline in a year shows [8]."
+    ],
+    "financials": [
+      "Growth is uneven. Nike's FY2026 revenue was flat at $46.4B [15] and it guides fiscal 2027 down high-single digits [1]. Deckers guides $5.70B-$5.725B for fiscal 2027, with HOKA up high-single digits [3], and On grew 17.2% in Q3 [4].",
+      "Gross margins are high for consumer goods: Nike 42.9% in FY2026 [15], Deckers about 58.5% guided for FY2027 [3], Birkenstock 59.1% [5] and On 72.6% in Q3 including refunds [4]. Damodaran's US shoe group pre-tax operating margin is 9.14% and net margin 6.27% [12].",
+      "Returns are high. Damodaran's January 2026 data show US shoe-group after-tax ROIC of 24.9% unadjusted and 21.1% lease-adjusted, against 10.1% for all US firms [22]. These data reflect 11 firms and predate the 2026 declines at Nike.",
+      "Debt is modest at most brands. Damodaran shows market debt to capital of 11.1% and debt to EBITDA of 1.96 for US shoe firms [20]. Deckers has no borrowings [3], Crocs has $1.29B [6], and Birkenstock's net leverage is 1.8x [5].",
+      "Free cash flow is strong but uneven. Nike's FCF yield is 4.25% and Deckers' 10.1% on 20 November 2026 prices [8][9]. Brands use it for dividends and buybacks: Nike returned about $610M in dividends in Q1 [1], Deckers bought back $299.3M of stock in Q2 [3].",
+      "Capital expenditure needs are low. Damodaran shows net capex of 0.40% of sales and capex at 84.8% of depreciation for the US shoe group [18]. Birkenstock guides capex of EUR 110M-130M [5]; Puma cut its capex to under EUR 150M [17].",
+      "Valuations vary widely. Damodaran put US shoe EV/EBITDA at 17.2x in January 2026 [23]. By 20 November 2026 EV/EBITDA was 10.7x at Nike, 7.1x at Deckers, 13.5x at On and 10.0x at Birkenstock [8][9][24][25]."
+    ],
+    "risks": [
+      "Regulation is mainly trade policy. The Supreme Court struck down the IEEPA tariffs in February 2026, and Section 301 duties of 10% to 12.5% replaced them on 24 July 2026 [14]. On expects the new duties to raise its tariffs [4]. Nike also faces the global 15% minimum tax [16].",
+      "Technology and AI matter for design, demand forecasting and digital sales rather than as a substitute for shoes. Nike's digital sales fell 13% in Q1, showing online is not a safe channel [1]. The sources we opened did not describe AI-specific risks.",
+      "Demographic effects are modest. Footwear is a staple of every age group, so population matters less than preferences. We did not find sourced demographic data for this group, so we do not quantify the effect.",
+      "Consumer behavior is shifting toward comfort, running and value. Adidas says Performance grew 14% while Lifestyle grew 3% [7], and Nike's Running grew double digits while Jordan fell mid-teens [2]. Brand heat can fade fast, and consumers react to price in weak economies [10].",
+      "New competitors keep arriving. HOKA grew 6.8% and On 17.2% against Nike's 4% decline [3][4][1]. Nike is also pulling online sales rights from some large Chinese retail partners [2]. The sources did not name local rival brands, so we do not rank them.",
+      "Supply chains are concentrated in Asia. Vietnam, Indonesia and China made 95% of Nike's footwear [16], so a tariff or disruption in one country hits many brands at once. Tariffs on Vietnam are the exposure; the Morgan Lewis alert did not state Vietnam's rate [14].",
+      "Substitutes are limited but include secondhand resale, discount private labels and lower-priced local brands. We did not find sourced data on their share. The nearer threat is that consumers keep fewer shoes for longer when sentiment is as weak as in October 2026 [10]."
+    ],
+    "horizon": {
+      "opportunities": [
+        "Performance and running categories are growing double digits at Nike and Adidas, and On and HOKA are expanding [2][7][4][3].",
+        "Nike's Pace plan targets about $2.5B of cumulative savings through fiscal 2031, which could lift margins if revenue stabilizes [1].",
+        "International demand is strong at On (APAC +31.1%) [4].",
+        "Low capital needs and high returns let brands return cash through buybacks, as Crocs ($250M) and Deckers ($299.3M) did last quarter [6][3]."
+      ],
+      "threats": [
+        "Sentiment near record lows, expected rate rises and 4.7% inflation expectations could depress discretionary spending [10][11].",
+        "Section 301 tariffs of 10% to 12.5% and possible further Vietnam actions raise costs once refunds fade [14][4].",
+        "Nike's turnaround needs several seasons and its China business is still shrinking, which could keep earnings under pressure into fiscal 2028 [2].",
+        "Discounting in lifestyle sneakers and market share loss to newer brands could compress margins [7][17]."
+      ],
+      "assessment": "Over three to five years we expect the industry to stay a story of share shifts rather than market growth. Production volumes are flat at 24.6B pairs [13], so gains for On, HOKA and Birkenstock tend to come at the expense of older franchises. The largest brand, Nike, has a credible cost plan and a very strong balance sheet [1], but its recovery looks slow and rests on China and North America wholesale stabilizing [2]. The biggest swing factors outside company control are US tariff policy and the consumer. High returns on capital [22] explain why new brands keep appearing, so we expect competition to stay intense."
+    }
+  },
+  "sections": [
+    {
+      "id": "macro",
+      "paragraphs": [
+        "Footwear is a discretionary category and the US consumer is under strain. The University of Michigan's final October sentiment reading was 48.0, the second lowest on record, with one-year inflation expectations of 4.7%, and about 70% of consumers expect interest rates to rise [10]. October retail sales rose 0.2% while consumer prices rose 0.4%, so real spending fell; the 10-year Treasury yield was 5.14% and CME FedWatch showed a 93% chance of a quarter-point rate rise in December [11].",
+        "Higher rates matter less to brands' own balance sheets, which are lightly indebted (US shoe group market debt ratio 11.1%) [20], than to shoppers and retail partners. Birkenstock, with net leverage of 1.8x, is the most levered large name [5]. Currency also matters: Adidas's Q3 sales grew 9% reported but 7% currency-neutral [7], while Nike's fell 4% reported and 5% currency-neutral [1].",
+        "Trade policy is the other macro lever. The Supreme Court invalidated the IEEPA tariffs in February 2026, a 10% Section 122 tariff followed, and Section 301 duties of 10% to 12.5% began on 24 July [14]. The IEEPA ruling produced refunds that boosted Q3 results at Deckers, On, Crocs and Adidas [3][4][6][7]."
+      ]
+    },
+    {
+      "id": "demand",
+      "paragraphs": [
+        "Volume growth is minimal. Global footwear production was 24.6B pairs in 2025, up 0.1% on a revised 2024 base, with Asia making 88.7% [13]. We did not find a sourced global sales value, so we cannot size the market in dollars. Growth therefore depends on price, mix and share shifts more than on more pairs.",
+        "The secular drivers are performance and running, comfort and international expansion. Nike's Running grew double digits in Q1 even as the whole company fell [2], Adidas's Performance grew 14% [7], and HOKA and On keep growing [3][4]. APAC is On's fastest region at +31.1% in Q3 [4].",
+        "Demand is cyclical with a fashion overlay. Nike's Sportswear and Jordan lines, which are lifestyle-driven, are being deliberately cut back to restore full-price sales [2], while Puma's currency-adjusted sales fell 6.3% in Q3 [17]. Demographics matter little because everyone wears shoes, but taste shifts rapidly. We think the long-term outlook is stable volume with growth for brands that hold full-price demand."
+      ]
+    },
+    {
+      "id": "structure",
+      "paragraphs": [
+        "Rivalry is intense and brands compete on product, marketing and discounting. Nike's FY2026 revenue was $46.4B [15], Adidas's nine-month sales were EUR 20.6B [7], and Deckers' guided FY2027 sales are about $5.7B [3]. We did not find a sourced global share table. Skechers, formerly the third-largest company, was taken private by 3G Capital in September 2025 for about $9B [19].",
+        "Barriers to entry are low on manufacturing and high on brand. Nike's footwear is made by 15 contract manufacturers, four of which make over 10% each, so any brand can rent a factory [16]. Supplier power is limited for the same reason, though concentration (four factories make about 60% of Nike's shoes) gives the biggest suppliers some leverage [16]. Buyer power sits with large retailers: Nike's three largest US customers are about 29% of US sales [16], one reason brands push direct sales.",
+        "Substitutes are other brands, private labels and used shoes. Moats are brand and design, which is why gross margins differ so widely: On 72.6% and Deckers 60.5% in the latest quarters versus Nike's 42.8% [4][3][1]. Newcomers keep appearing; Birkenstock grew 15% at constant rates [5]."
+      ]
+    },
+    {
+      "id": "environment",
+      "paragraphs": [
+        "Government intervention is mostly trade policy. After the Supreme Court struck down the IEEPA tariffs in February 2026, the US applied a 10% Section 122 tariff and then Section 301 duties of 10% (India, Indonesia, Cambodia, Bangladesh and others) or 12.5% (most other investigated economies) from 24 July [14]. The alert did not name Vietnam or China, so we do not know their rates from that source. On expects Section 301 to raise its tariffs [4].",
+        "Tariff refunds have been a one-time boost: Nike expected a $986M IEEPA recovery in Q4 FY2026, adding about 900 bp to gross margin [15]; Deckers has recovered $87.9M [3]; and On booked CHF 52.6M [4]. Nike also pays a 15% global minimum tax under Pillar Two [16].",
+        "Technological change shows up in product (cushioning, plates, materials), in digital sales, and in supply planning. Nike's digital sales fell 13% in Q1 [1], so online alone does not guarantee growth. The sources we opened did not describe AI-driven changes specific to footwear.",
+        "The main social and environmental pressure is supply chain concentration. Vietnam, Indonesia and China made 95% of Nike's footwear [16], and Asia makes 88.7% of the world's shoes [13], so labor, climate or trade shocks there have wide effect."
+      ]
+    },
+    {
+      "id": "economics",
+      "paragraphs": [
+        "Footwear economics are attractive when brands hold pricing power. Damodaran's January 2026 data put US shoe-group pre-tax operating margin at 9.14%, net margin at 6.27% [12] and after-tax ROIC at 24.9% against 10.1% for all US firms [22]. These data are a group average and Nike's fiscal 2026 profit has since fallen: net income was $3.1B, down 3% [15].",
+        "Margins vary by model. Nike's gross margin was 42.8% in Q1 [1]; Deckers' was 60.5% including about 310 bp of tariff refunds [3]; Birkenstock's adjusted EBITDA margin was 33.7% [5]; Crocs' adjusted operating margin was 22.3% [6]; Puma's adjusted EBIT was EUR 0.4M on EUR 1.78B of sales [17].",
+        "The model needs little capital: Damodaran shows capex at 84.8% of depreciation and net capex of 0.40% of sales [18], and debt-to-EBITDA of 1.96 [20]. Cash goes to shareholders, with Nike's dividend yield at 4.98% and its free cash flow yield at 4.25% on 20 November [8]. The weak spot is operating leverage: when sales fall, fixed marketing and store costs do not, which is why Nike's fiscal 2027 EBIT is guided down more than revenue [2]."
+      ]
+    },
+    {
+      "id": "earnings",
+      "paragraphs": [
+        "Consensus figures for this sub-industry were not publicly available to us, so we describe reported results and guidance. FactSet reports the Consumer Discretionary sector's Q3 net profit margin at 10.0% against 10.2% a year earlier [26]. Nike's fiscal Q1 EPS was $0.48 and it guides fiscal 2027 adjusted EPS to $1.15-$1.35, against $2.10 in fiscal 2026, which is a decline of roughly 36% to 45% by our arithmetic [1][15].",
+        "Others raised guidance. Deckers guides FY2027 EPS of $7.80-$7.95, including about $0.52 from tariff refunds, and net sales of $5.70B-$5.725B [3]. Crocs raised 2026 adjusted EPS to $14.45-$14.65 [6]. Adidas lifted 2026 operating profit guidance to about EUR 2.5B from EUR 2.3B [7]. Birkenstock raised revenue growth to 15% at constant rates [5]. Puma narrowed its EBIT loss range to EUR 80M-130M [17].",
+        "Our view differs from the headlines in one respect: Q3 profits include non-recurring tariff refunds, which Crocs excluded from adjusted figures [6] and which added 570 bp to On's gross margin [4]. Underlying earnings growth is therefore lower than reported, and On's adjusted EBITDA excluding the refund works out to about 21.9% against the reported 27.6% by our calculation [4]."
+      ]
+    },
+    {
+      "id": "valuation",
+      "paragraphs": [
+        "Valuations are far apart. On 20 November 2026 Nike traded at 26.7x forward earnings and 10.7x EV/EBITDA, Deckers at 9.9x and 7.1x, On at 15.4x and 13.5x, and Birkenstock at 12.9x and 10.0x [8][9][24][25]. The S&P 500's forward P/E was 18.3x against a 10-year average of 19.1x, and the Consumer Discretionary sector was 25.1x [26].",
+        "Nike's multiple looks high because its earnings are depressed: guidance implies a roughly 40% fall in EPS [1], and its trailing P/E of 15.8x is lower than its forward P/E of 26.7x [8]. We read that as the market looking through the trough rather than paying a premium for growth. Its dividend yield is 4.98% and FCF yield 4.25% [8].",
+        "Deckers looks inexpensive against its own earnings: a 10.1% FCF yield and 9.9x forward P/E [9], but its outlook includes about $0.52 of refunds [3] and the shares are priced for slower growth. Damodaran's US shoe-group EV/EBITDA was 17.2x in January 2026 [23], so most of these stocks now trade below that benchmark, which is dated."
+      ]
+    },
+    {
+      "id": "positioning",
+      "paragraphs": [
+        "Share prices tell a story of sharp de-rating. As of 20 November 2026 Nike was down 47.5% over 52 weeks, On down 30.8%, Birkenstock down 16.9% and Deckers down 6.1% [8][24][25][9]. Nike's price was $32.92, with a market value of $48.9B [8].",
+        "Short interest as a share of float was 11.8% at On, 8.9% at Deckers, 8.1% at Birkenstock and 7.9% at Nike [24][9][25][8]. On carries the most short interest of the four.",
+        "Capital return is active: Nike returned about $610M in dividends in the quarter [1], Deckers repurchased about 3.2M shares for $299.3M and has about $4.4B of authorization left [3], Crocs repurchased $250.0M [6], and Birkenstock completed a EUR 230M accelerated repurchase [5]. We did not find sourced ETF flow data for this group, so we cannot comment on fund positioning. Momentum is weak for the largest name and mixed for the rest, with breadth narrow: the newer brands are growing while the incumbents shrink."
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "n": 1,
+      "title": "NIKE, Inc. Reports Fiscal 2027 First Quarter Results",
+      "publisher": "Nike",
+      "date": "2026-10-01",
+      "url": "https://about.nike.com/en/newsroom/releases/nike-inc-reports-fiscal-2027-first-quarter-results"
+    },
+    {
+      "n": 2,
+      "title": "Nike Q1 FY27 official earnings call transcript",
+      "publisher": "Nike",
+      "date": "2026-10-01",
+      "url": "https://s1.q4cdn.com/806093406/files/doc_financials/2027/q1/NIKE-Inc-Q1FY27-OFFICIAL-Transcript_-FINAL.pdf"
+    },
+    {
+      "n": 3,
+      "title": "Deckers Brands Reports Second Quarter Fiscal Year 2027 Financial Results",
+      "publisher": "Deckers Brands (via Finviz)",
+      "date": "2026-10-22",
+      "url": "https://finviz.com/news/406824/deckers-brands-reports-second-quarter-fiscal-year-2027-financial-results"
+    },
+    {
+      "n": 4,
+      "title": "On Holding AG Form 6-K: Q3 2026 management discussion and analysis",
+      "publisher": "SEC / On Holding",
+      "date": "2026-11-10",
+      "url": "https://www.sec.gov/Archives/edgar/data/0001858985/000185898526000025/a26q3-exhibit992xmda.htm"
+    },
+    {
+      "n": 5,
+      "title": "Birkenstock Holding plc Form 6-K: fiscal Q3 2026 results",
+      "publisher": "SEC / Birkenstock",
+      "date": "2026",
+      "url": "https://www.sec.gov/Archives/edgar/data/0001977102/000119312526347762/birk-ex99_1.htm"
+    },
+    {
+      "n": 6,
+      "title": "Crocs, Inc. Form 8-K: third quarter 2026 results press release",
+      "publisher": "SEC / Crocs",
+      "date": "2026-10-29",
+      "url": "https://www.sec.gov/Archives/edgar/data/0001334036/000133403626000058/croxq32026-pressrelease.htm"
+    },
+    {
+      "n": 7,
+      "title": "Adidas raises full-year profit outlook to 2.5 billion euros after record Q3",
+      "publisher": "FashionUnited",
+      "date": "2026-10-29",
+      "url": "https://fashionunited.com/news/business/adidas-raises-full-year-profit-outlook-to-2-5-billion-euros-after-record-q3/2026102975440"
+    },
+    {
+      "n": 8,
+      "title": "Nike (NKE) statistics and valuation",
+      "publisher": "StockAnalysis.com",
+      "date": "2026-11-20",
+      "url": "https://stockanalysis.com/stocks/nke/statistics/"
+    },
+    {
+      "n": 9,
+      "title": "Deckers Outdoor (DECK) statistics and valuation",
+      "publisher": "StockAnalysis.com",
+      "date": "2026-11-20",
+      "url": "https://stockanalysis.com/stocks/deck/statistics/"
+    },
+    {
+      "n": 10,
+      "title": "Consumer sentiment revised up but still second worst ever as inflation fears climb",
+      "publisher": "TheStreet",
+      "date": "2026-10-23",
+      "url": "https://pro.thestreet.com/market-commentary/consumer-sentiment-revised-up-but-still-second-worst-ever-as-inflation-fears-climb"
+    },
+    {
+      "n": 11,
+      "title": "US retail sales rise 0.2% in October 2026",
+      "publisher": "StockAnalysis.com",
+      "date": "2026-11-17",
+      "url": "https://stockanalysis.com/news/us-retail-sales-rise-october-2026/"
+    },
+    {
+      "n": 12,
+      "title": "Price and value ratios by industry (US), January 2026",
+      "publisher": "Aswath Damodaran, NYU Stern",
+      "date": "2026-01",
+      "url": "https://pages.stern.nyu.edu/~adamodar/New_Home_Page/datafile/psdata.html"
+    },
+    {
+      "n": 13,
+      "title": "24.6 billion pairs: global footwear production in 2025",
+      "publisher": "World Footwear",
+      "date": "2026",
+      "url": "https://www.worldfootwear.com/news/246-billion-pairs-global-footwear-production-in-2025/11690.html"
+    },
+    {
+      "n": 14,
+      "title": "US administration rebuilds global tariff program under Section 301",
+      "publisher": "Morgan Lewis",
+      "date": "2026-07",
+      "url": "https://www.morganlewis.com/pubs/2026/07/us-administration-rebuilds-global-tariff-program-under-section-301"
+    },
+    {
+      "n": 15,
+      "title": "NIKE, Inc. Reports Fiscal 2026 Fourth Quarter and Full Year Results",
+      "publisher": "Nike",
+      "date": "2026-06-30",
+      "url": "https://about.nike.com/newsroom/releases/nike-inc-reports-fiscal-2026-fourth-quarter-and-full-year-results"
+    },
+    {
+      "n": 16,
+      "title": "NIKE, Inc. Form 10-K for fiscal year ended 31 May 2026",
+      "publisher": "SEC / Nike",
+      "date": "2026",
+      "url": "https://www.sec.gov/Archives/edgar/data/0000320187/000032018726000088/nke-20260531.htm"
+    },
+    {
+      "n": 17,
+      "title": "Puma continues to lose revenue and records losses",
+      "publisher": "FashionUnited",
+      "date": "2026-10-30",
+      "url": "https://fashionunited.com/news/business/puma-continues-to-lose-revenue-and-records-losses/2026103075483"
+    },
+    {
+      "n": 18,
+      "title": "Capital expenditures by industry (US), January 2026",
+      "publisher": "Aswath Damodaran, NYU Stern",
+      "date": "2026-01",
+      "url": "https://pages.stern.nyu.edu/~adamodar/New_Home_Page/datafile/capex.html"
+    },
+    {
+      "n": 19,
+      "title": "Skechers goes private: 3G Capital completes acquisition",
+      "publisher": "FashionUnited",
+      "date": "2025-09-15",
+      "url": "https://fashionunited.com/news/business/skechers-goes-private-3g-capital-completes-acquisition/2025091568201"
+    },
+    {
+      "n": 20,
+      "title": "Debt fundamentals by industry (US), January 2026",
+      "publisher": "Aswath Damodaran, NYU Stern",
+      "date": "2026-01",
+      "url": "https://pages.stern.nyu.edu/~adamodar/New_Home_Page/datafile/dbtfund.html"
+    },
+    {
+      "n": 21,
+      "title": "Cost of capital by industry (US), January 2026",
+      "publisher": "Aswath Damodaran, NYU Stern",
+      "date": "2026-01",
+      "url": "https://pages.stern.nyu.edu/~adamodar/New_Home_Page/datafile/wacc.html"
+    },
+    {
+      "n": 22,
+      "title": "Return on capital by industry (US), January 2026",
+      "publisher": "Aswath Damodaran, NYU Stern",
+      "date": "2026-01",
+      "url": "https://pages.stern.nyu.edu/~adamodar/New_Home_Page/datafile/roc.html"
+    },
+    {
+      "n": 23,
+      "title": "EV/EBITDA multiples by industry (US), January 2026",
+      "publisher": "Aswath Damodaran, NYU Stern",
+      "date": "2026-01",
+      "url": "https://pages.stern.nyu.edu/~adamodar/New_Home_Page/datafile/vebitda.html"
+    },
+    {
+      "n": 24,
+      "title": "On Holding (ONON) statistics and valuation",
+      "publisher": "StockAnalysis.com",
+      "date": "2026-11-20",
+      "url": "https://stockanalysis.com/stocks/onon/statistics/"
+    },
+    {
+      "n": 25,
+      "title": "Birkenstock (BIRK) statistics and valuation",
+      "publisher": "StockAnalysis.com",
+      "date": "2026-11-20",
+      "url": "https://stockanalysis.com/stocks/birk/statistics/"
+    },
+    {
+      "n": 26,
+      "title": "FactSet Earnings Insight, 13 November 2026",
+      "publisher": "FactSet",
+      "date": "2026-11-13",
+      "url": "https://advantage.factset.com/hubfs/Website/Resources%20Section/Research%20Desk/Earnings%20Insight/EarningsInsight_111326.pdf"
+    }
+  ]
+}
