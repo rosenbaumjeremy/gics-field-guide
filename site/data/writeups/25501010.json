@@ -1,0 +1,443 @@
+{
+  "code": "25501010",
+  "added": "2026-11-22",
+  "asOf": "2026-11-20",
+  "summary": "Consumer distributors are diverging. Genuine Parts grew Q3 sales 4.2% to $6.52B, with comparable sales up 2.9%, and narrowed its EPS outlook [1]. LKQ's organic parts and services revenue fell 5.4%, it booked a $111M impairment and withdrew guidance [2]. Pool Corp's sales rose 4%, about 3 points of it price, while gross margin slipped 60 bps [3]. Weyco's gross margin was lifted by tariff refunds [4]. Forward P/Es on 20 Nov 2026 were 15.0x for Genuine Parts, 8.6x for LKQ and 18.2x for Pool; LKQ is down 37% over 52 weeks [5][6][7]. Weyco is up 89% [8].",
+  "metrics": [
+    {
+      "label": "Genuine Parts Q3 2026 sales",
+      "value": "$6.52B",
+      "context": "Up 4.2%; comparable sales +2.9%; Industrial +6.1%, North America Automotive +2.2%",
+      "source": 1
+    },
+    {
+      "label": "LKQ Q3 organic parts and services revenue",
+      "value": "-5.4%",
+      "context": "Europe -9.8%, North America -2.4%; guidance withdrawn 23 Oct 2026; leverage 2.8x",
+      "source": 2
+    },
+    {
+      "label": "Pool Corp Q3 gross margin",
+      "value": "29.0%",
+      "context": "Down 60 bps; sales +4% with price about +3 points; 2026 adjusted EPS guide $10.87 to $11.17",
+      "source": 3
+    },
+    {
+      "label": "Weyco Q3 gross margin",
+      "value": "49.7%",
+      "context": "Versus 40.7%; includes $3.3M of tariff refunds; net sales $77.0M, +5%",
+      "source": 4
+    },
+    {
+      "label": "Forward P/E: Genuine Parts / LKQ / Pool",
+      "value": "15.0x / 8.6x / 18.2x",
+      "context": "Prices as of 20 Nov 2026",
+      "source": 5
+    },
+    {
+      "label": "Damodaran pre-tax operating margin",
+      "value": "10.1%",
+      "context": "Retail (Distributors), 62 US firms, Jan 2026; total market 12.8% (unadjusted)",
+      "source": 9
+    },
+    {
+      "label": "Damodaran after-tax ROIC",
+      "value": "17.4%",
+      "context": "Retail (Distributors), Jan 2026; total market 10.1%",
+      "source": 10
+    },
+    {
+      "label": "52-week price change: Genuine Parts / LKQ / Pool",
+      "value": "-5.5% / -37.5% / -11.0%",
+      "context": "As of 20 Nov 2026; short interest 4.7% / 7.9% / 10.3% of float",
+      "source": 6
+    }
+  ],
+  "watch": [
+    "Genuine Parts plans to split into two companies (GPC and Motion) in the first quarter of 2027, and it narrowed 2026 adjusted EPS to $7.50 to $7.75 [1].",
+    "LKQ's new CEO takes over on 15 Dec 2026 after the Board suspended its strategic review and withdrew guidance; Europe's German ERP problems are the first test [2].",
+    "Pool Corp's guide of $10.87 to $11.17 adjusted EPS depends on new construction and remodel demand that the company describes as the more cyclical part of its business [3][11].",
+    "Tariff refunds are flattering reported margins, as at Weyco, where $3.3M of refunds lifted Q3 cost of sales; refund timing remains uncertain [4].",
+    "The Fed held at 3.75% to 4.00% with two members wanting a hike, and gasoline was up 37.4% on the year in October, a risk to driving and discretionary spending [12][13]."
+  ],
+  "bellwethers": [
+    "Genuine Parts",
+    "LKQ",
+    "Pool Corp",
+    "Weyco Group"
+  ],
+  "basics": {
+    "intro": "Distributors buy goods from many manufacturers, hold them in warehouses and sell them on, mostly to businesses such as repair shops, pool builders and retailers rather than to the public. They earn the gap between what they pay suppliers and what they charge, and win on stock availability, delivery speed and credit. GICS places consumer-discretionary wholesalers here: car parts (Genuine Parts' NAPA, LKQ), pool supplies (Pool Corp) and branded goods such as shoes (Weyco). Food, health care and industrial wholesalers sit in other sub-industries, and consumer-facing parts chains such as AutoZone are in Specialty Retail.",
+    "products": [
+      {
+        "name": "Automotive replacement parts",
+        "what": "Brakes, filters, batteries and collision parts sold to repair shops, body shops and do-it-yourself customers. Demand follows the number and age of cars on the road.",
+        "examples": "NAPA (Genuine Parts), LKQ aftermarket and recycled parts"
+      },
+      {
+        "name": "Industrial parts",
+        "what": "Bearings, belts, motors and other maintenance parts sold to factories. It is not a consumer product but is classified with Genuine Parts today.",
+        "examples": "Motion (Genuine Parts)"
+      },
+      {
+        "name": "Pool supplies",
+        "what": "Chemicals, pumps, heaters, covers and building products sold to pool contractors and service firms for upkeep and construction.",
+        "examples": "Pool Corp (SCP, Superior, Horizon)"
+      },
+      {
+        "name": "Branded footwear wholesale",
+        "what": "Shoes designed by a brand and sold in bulk to department stores and shoe retailers, with a small direct-to-consumer arm.",
+        "examples": "Weyco (Florsheim, Stacy Adams, BOGS)"
+      },
+      {
+        "name": "Specialty vehicle accessories",
+        "what": "Aftermarket equipment for trucks, RVs and leisure vehicles sold through dealers and retailers.",
+        "examples": "LKQ Specialty"
+      }
+    ],
+    "terms": [
+      {
+        "term": "Aftermarket",
+        "meaning": "Parts and supplies sold after the original product is made, for repair or upkeep. It is steadier than new-product sales because worn items must be replaced."
+      },
+      {
+        "term": "DIFM / DIY",
+        "meaning": "Do-it-for-me means a professional installs the part (repair shops buy it); do-it-yourself means the owner buys it. The commercial DIFM customer is usually the larger and more loyal one."
+      },
+      {
+        "term": "Comparable sales",
+        "meaning": "Sales growth from existing locations, stripping out acquisitions and new openings. It shows underlying demand and price."
+      },
+      {
+        "term": "Organic growth",
+        "meaning": "Revenue growth excluding acquisitions, disposals and currency swings. LKQ reports it by segment."
+      },
+      {
+        "term": "Gross margin",
+        "meaning": "Sales minus the cost of the goods sold, as a share of sales. Distributors keep a modest slice, so small cost swings matter."
+      },
+      {
+        "term": "Segment EBITDA margin",
+        "meaning": "Earnings before interest, tax, depreciation and amortisation for a business unit, divided by its sales. Genuine Parts and LKQ use it to compare units."
+      },
+      {
+        "term": "Fill rate and availability",
+        "meaning": "How often a customer finds the part in stock. Contractors pay for speed, so a deep inventory and fast delivery are the main reason customers stay."
+      },
+      {
+        "term": "Vehicles in operation",
+        "meaning": "The count of cars and light trucks on the road. A larger and older fleet means more repair demand."
+      },
+      {
+        "term": "Salvage",
+        "meaning": "Used parts taken from wrecked cars and resold. LKQ is a large recycler, and salvage prices follow scrap and insurer behavior."
+      },
+      {
+        "term": "Rebates and vendor programs",
+        "meaning": "Payments from suppliers for hitting purchase volumes. They are a meaningful slice of distributor profit."
+      },
+      {
+        "term": "Seasonality",
+        "meaning": "Predictable swings across the year. Pool supplies sell most in spring and summer, so the second and third quarters carry most of the profit."
+      },
+      {
+        "term": "Tariff refund",
+        "meaning": "Money returned to importers for duties paid under tariffs later struck down. It lifts reported margins once but is not recurring."
+      }
+    ],
+    "drivers": [
+      {
+        "name": "Size and age of the car fleet",
+        "how": "A larger, older fleet needs more parts. Higher new-car prices keep owners driving old cars longer, which supports aftermarket volume."
+      },
+      {
+        "name": "Housing, pool installs and weather",
+        "how": "Pool upkeep is steady, but remodels and new pools depend on housing, credit and consumer confidence. Hot weather lifts chemical sales; storms and cool seasons cut them."
+      },
+      {
+        "name": "Price and inflation",
+        "how": "Suppliers pass on higher costs and distributors pass them on again, so sales rise with prices. Margins hold only if the pass-through is complete."
+      },
+      {
+        "name": "Tariffs and freight",
+        "how": "Imports and fuel raise product and delivery cost. The effect shows in gross margin within a few quarters, and later refunds can reverse part of it."
+      },
+      {
+        "name": "Execution and systems",
+        "how": "Large distributors run complex warehouses and software. A failed system rollout can disrupt orders and margins, as at LKQ's German business."
+      },
+      {
+        "name": "Acquisitions and portfolio changes",
+        "how": "Buying local distributors adds sales and density, while spin-offs or sales reshape the group. Both change reported growth."
+      }
+    ]
+  },
+  "fundamentals": {
+    "business": [
+      "Revenue comes from reselling goods bought from suppliers. Genuine Parts had 2025 sales of $24.3B, split roughly 39% North America Automotive, 24% International Automotive and 37% Industrial [14]. Pool Corp earns on pool supplies, with 64% of 2025 sales from maintenance and minor repair, 22% from remodel and 14% from new pools [11].",
+      "Customers are mainly businesses. Genuine Parts' automotive business serves over one million customer locations, about 80% do-it-for-me and 20% do-it-yourself [14]. Pool Corp sells to roughly 125,000 customers, mostly small family-owned contractors and service firms, with no customer at 10% of sales [11]. Weyco sells shoes to department and footwear retailers [4].",
+      "The biggest cost is the goods themselves. Gross margin was about 38.1% at Genuine Parts in Q3 (our calculation from reported figures) [1], 37.2% at LKQ [2] and 29.0% at Pool [3]. Below that come warehouses, delivery fleets and branch staff. Freight and fuel are the swing items, and Pool blamed higher inbound freight for part of its margin dip [3].",
+      "Pricing power comes from availability, speed and relationships rather than the product. Genuine Parts says it serves customers from over 10,800 locations and about 76 North American distribution centers, and parts arrive the same or next day [14]. Distributors pass supplier price rises along, but top-line growth is partly inflation: Pool says price added about 3 points to Q3 growth [3].",
+      "The main assets are inventory, distribution centers and receivables, plus goodwill from acquisitions. LKQ booked an $88M goodwill impairment in Q3 and has $3.7B of debt [2]. Genuine Parts carried about $5.1B of debt (our calculation) and $763M of cash at the end of Q3 [1]. Pool had about $1.2B of debt [3].",
+      "Asset-light compared with manufacturers, but working-capital heavy. Genuine Parts guides 2026 capex of $450M to $500M against $24.3B of 2025 sales, about 2% (our arithmetic) [1][14]. The money goes into inventory, warehouses and acquisitions, and not into plants, so free cash flow often exceeds earnings when growth slows."
+    ],
+    "overview": [
+      "We did not find a single audited market-size figure for consumer distributors as a whole. Company estimates give a feel: Genuine Parts sizes its automotive addressable market above $200B and its industrial market above $150B [14]. Pool estimates about 14.0 million pools and hot tubs in the US, including roughly 5.5 million in-ground [11].",
+      "Main segments are automotive parts (replacement, collision and salvage), industrial parts, pool and leisure supplies, and brand wholesaling. S&P DJI's index views these as one industry, and the constituent list we could open showed Genuine Parts in the sub-industry; we could not confirm other members from it [15]. Pool's sales are about 95% North America [11].",
+      "Distributors sit between manufacturers and the people who install or sell. Genuine Parts buys over a million parts from hundreds of suppliers, and about 55% of its US automotive inventory came from 10 suppliers in 2025 [14]. Pool's biggest suppliers were Pentair, Zodiac and Hayward, at about 20%, 12% and 11% of product cost [11].",
+      "The industry has evolved through consolidation of local jobbers, growth of branded programs such as NAPA Auto Care (over 20,000 repair locations) and portfolio reshaping [14]. Genuine Parts announced on 17 Feb 2026 a plan to separate into two companies in Q1 2027 [1], and LKQ suspended a strategic review including a Specialty sale process [2].",
+      "Sales are concentrated in North America. Genuine Parts' 2025 sales were about 74% North America, 16% Europe and 10% Australasia [14]. Pool's sales are concentrated in California, Florida, Texas and Arizona, about 53% of net sales [11]. LKQ's Europe is its other big region, where organic revenue fell 9.8% in Q3 [2]."
+    ],
+    "competition": [
+      "The sub-industry is small in listed terms: Genuine Parts, LKQ and Pool Corp among large companies, with small caps such as Weyco, plus thousands of private regional distributors. Our check of a constituent list confirmed only Genuine Parts as an S&P 500 member in the extract we could open [15].",
+      "Genuine Parts is the biggest by sales ($6.52B in Q3) [1], then LKQ ($3.3B) [2], then Pool ($1.5B) [3]. No market-share table was available for the whole group. Genuine Parts names AutoZone, O'Reilly, Advance Auto Parts and LKQ as automotive rivals, and Applied Industrial, Fastenal and Grainger in industrial [14].",
+      "Highly fragmented. Genuine Parts describes its addressable automotive market as mostly fragmented local competitors [14], and Pool calls its industry fragmented with low barriers to entry, with competitors that include regional distributors, mass merchants and online sellers [11]. This sets a limit on the pricing power of even the leaders.",
+      "Barriers are moderate. Anyone can start a local distributor, but matching a national network is slow and costly: Genuine Parts has 76 North American automotive distribution centers and nearly 10,000 stores worldwide [14], and Pool has 454 sales centers [3]. Supplier access and inventory depth are the real hurdles.",
+      "Scale matters in purchasing, logistics and brand. About 55% of Genuine Parts' US automotive inventory comes from 10 suppliers [14]. Pool relies on supplier rebates and preferred-vendor programs for margin [11]. LKQ's Q3 shows the flip side: a poorly executed German ERP rollout cut Europe's volume and margins, so scale cannot offset operational mistakes [2].",
+      "Mixed. Replacement parts and pool chemicals are close to commodities, so service and speed differentiate; proprietary brands such as NAPA, and Pool's Regal and E-Z Clor, add some differentiation [14][11]. Weyco sells branded shoes such as Florsheim, where design and brand heat matter more [4].",
+      "Suppliers hold power where they are concentrated: Pentair is about 20% of Pool's product cost [11], and Genuine Parts depends on 10 suppliers for 55% of US auto inventory, one of which filed for Chapter 11 in Sep 2025 [14]. Customers are fragmented and hold less power, though contractors can switch for price or speed [11]."
+    ],
+    "drivers": [
+      "Revenue growth comes from price, volume and acquisitions. Genuine Parts' Q3 comparable sales grew 2.9%, led by Industrial at 5.5%, and North America Automotive 1.7% [1]. Pool's Q3 sales were up 4%, with price contributing 3 points [3]. The S&P Mobility fleet data, with the average US light vehicle at 12.8 years, supports parts volume [16].",
+      "Operating margin depends on gross margin (mix, supplier rebates, freight, tariffs) and on how well operating costs absorb sales. Genuine Parts' segment EBITDA margins in Q3 were 7.6% for North America Automotive, 9.0% for International Automotive and 13.2% for Industrial [1]. LKQ's segment EBITDA margin fell to 8.9% from 11.3% [2].",
+      "Key cost variables are product cost, freight and fuel, wages and rent. Gasoline was up 37.4% on the year in October [13]. Pool cited higher inbound freight in its 60 bps gross margin decline [3], and tariffs added about one point to Pool's 2025 product cost inflation [11]. Genuine Parts cited tariffs from China, Mexico and Canada as a gross margin pressure [14].",
+      "Interest rate sensitivity is moderate and works mainly through debt and demand. Damodaran's data show interest coverage of 4.95 for distributors against 6.90 for the whole market [17]. Pool's remodel and new pool work depend on home-equity credit, and the Fed held at 3.75% to 4.00% in October, with two members wanting a hike [12][11].",
+      "Inflation lifts distributors' sales, as prices rise through the chain, but it squeezes margins if costs lead prices. CPI motor vehicle parts rose 0.2% and maintenance and repair 0.6% in October [13]. GDP and employment matter for commercial repair volumes, and the FOMC says activity is growing strongly with unemployment little changed [12]. Commodity inputs (steel, resin, oil) feed through product costs.",
+      "Mostly defensive on the replacement side and cyclical on the discretionary side. 64% of Pool's sales are non-discretionary maintenance and repair, while remodel and new construction are cyclical [11]. Auto replacement depends on miles driven and fleet age rather than new-car sales [16]. Weyco's footwear sales are the most fashion- and consumer-sensitive of the group [4]."
+    ],
+    "financials": [
+      "Growth is mid-single-digit at the leaders. Genuine Parts' Q3 sales rose 4.2% and its 2026 guide is 3% to 5.5% [1]; Pool's rose 4% [3]; LKQ's fell 5.1% [2]. Damodaran's expected five-year earnings growth is 9.5% for Retail (Distributors) against 14.0% for the total market, in January 2026 [18].",
+      "Gross margins sit near 30% to 38% in this group. Damodaran's January 2026 data show 30.6% gross margin and 10.1% unadjusted pre-tax operating margin for Retail (Distributors), against 37.8% and 12.8% for the market [9]. Company screens show operating margins of 5.9% at Genuine Parts, 6.6% at LKQ and 10.7% at Pool [5][6][7].",
+      "Returns on capital vary widely. Damodaran puts after-tax ROIC for distributors at 17.4% (16.1% lease-adjusted) versus 10.1% for the market [10]. StockAnalysis shows ROIC of 13.8% for Genuine Parts, 4.9% for LKQ after its Europe troubles and 15.8% for Pool [5][6][7]. We did not find a comparable distributor ROE figure.",
+      "Leverage is moderate. Damodaran shows book debt to capital of 55.5% and market debt to equity of 30.8% for distributors, versus 61.7% and 35.0% for the market, in January 2026 [17]. LKQ's credit-facility leverage was 2.8x EBITDA in Q3 [2], Genuine Parts had about $5.1B of debt [1] and Pool about $1.2B [3].",
+      "Free cash flow is positive and often exceeds earnings when inventory is trimmed. Genuine Parts generated $502M over nine months against $160M a year earlier, with a 2026 guide of $550M to $700M [1]. LKQ's nine-month free cash flow was $336M [2]. FCF yields on 20 Nov 2026 were 4.7% at Genuine Parts, 13.1% at LKQ and 5.9% at Pool [5][6][7].",
+      "Capital needs are lower than industry in company filings, though Damodaran's January 2026 table shows net capex of 11.6% of revenues for Retail (Distributors) against 4.2% for the market [19]. We think that figure reflects capital-heavier names in the dataset, since Genuine Parts guides capex of $450M to $500M [1], about 2% of 2025 sales [14]. Treat the group number with caution.",
+      "Multiples differ by quality and trouble. On 20 Nov 2026 forward P/E was 15.0x at Genuine Parts, 8.6x at LKQ and 18.2x at Pool [5][6][7]. Damodaran's January 2026 forward P/E for the group was 43.8 against 27.7 for the market [18], a figure we think is distorted by depressed earnings at some of the 62 firms and is not a useful guide for these three."
+    ],
+    "risks": [
+      "Trade policy is the largest regulatory risk. Genuine Parts' 10-K cites tariffs of 20% on China and 25% on Mexico and Canada imposed in H1 2025 [14], and Pool says tariffs added about 1 point to 2025 product cost inflation [11]. Refunds are now flowing, as Weyco's $3.3M Q3 benefit shows, but their timing is uncertain [4].",
+      "Technology cuts both ways. Genuine Parts' 10-K lists electric and hybrid vehicles, ride-sharing and autonomous driving as risks to replacement-parts demand [14]. We did not find data showing AI changing these distributors' earnings. System rollouts are a clearer near-term danger: LKQ's German ERP implementation drove Europe's 9.8% organic decline [2].",
+      "Demographics matter less than the fleet. The average US light vehicle is 12.8 years old and the fleet is 289 million, with scrappage steady at 4.5% [16]. For pools, the Sun Belt states of California, Florida, Texas and Arizona make up about 53% of Pool's sales, so migration and housing there matter [11].",
+      "Consumers are keeping cars longer because of high prices, which helps parts [16], while new in-ground pool construction fell an estimated 3% to 5% in 2025 to just under 60,000 units [11]. Gasoline up 37.4% on the year may reduce driving and discretionary spending [13].",
+      "Competition from online sellers, mass merchants and retailers is a stated risk at Pool [11], and Genuine Parts competes with AutoZone, O'Reilly, Advance Auto Parts and LKQ [14]. New business models and private-equity-backed consolidators of local distributors add pressure, though we found no hard share figures.",
+      "Geopolitics and supply chains matter through concentrated suppliers. About 55% of Genuine Parts' US automotive inventory came from 10 suppliers, and a key vendor filed for Chapter 11 in Sep 2025 [14]. Pool's top three suppliers are about 43% of product cost [11]. Weather is a further risk: Q2 and Q3 produce about 61% of Pool's sales and 78% of its operating income [11].",
+      "Substitutes are limited for replacement parts, but vehicle electrification would reduce wear parts demand over time [14]. Pool faces substitution from other discretionary purchases, and direct supplier-to-contractor sales can bypass distributors [11]. Branded shoes face direct-to-consumer brands, with Weyco's retail arm still small at $7.2M of Q3 sales [4]."
+    ],
+    "horizon": {
+      "opportunities": [
+        "An aging and growing car fleet, 12.8 years on average and 289 million vehicles, supports replacement-parts volume [16].",
+        "Genuine Parts' separation into two companies in Q1 2027 could sharpen focus and valuation of its automotive and industrial units [1].",
+        "Pool's recurring maintenance (64% of sales) gives a stable base, with remodel upside if credit eases [11].",
+        "LKQ's cash generation (nine-month free cash flow $336M) and $1.5B repurchase authorization give room to fix operations [2]."
+      ],
+      "threats": [
+        "Tariffs and freight are pressuring gross margins at Pool and Genuine Parts [3][14].",
+        "LKQ's Europe execution problems and a leadership change on 15 Dec 2026 add uncertainty [2].",
+        "Higher rates, with two Fed members voting for a hike, and fuel costs could weigh on discretionary spending [12][13].",
+        "Electrification and falling new in-ground pool construction could limit long-run volume [14][11]."
+      ],
+      "assessment": "Over three to five years we think the group's replacement-driven revenue holds up better than most consumer sectors, because worn parts, pool chemicals and repairs need doing whatever the cycle [16][11]. Growth looks like mid-single digits, partly price, rather than a boom [1][3]. The differences will be in execution: Genuine Parts' split and Pool's cost control versus LKQ's recovery in Europe [1][2]. Margins depend on how tariffs and freight settle, and the Damodaran data show distributors earn above-market ROIC in aggregate [10]. Our read is that valuation already prices LKQ for trouble and the others for steady performance [5][6][7]."
+    }
+  },
+  "sections": [
+    {
+      "id": "macro",
+      "paragraphs": [
+        "Where we are in the cycle: the economy is growing but inflation is high. The Fed held the federal funds range at 3.75% to 4.00% on 28 Oct 2026 by a 10-2 vote, with two members wanting a quarter-point hike; it said activity is growing strongly, job growth matches labor force growth and inflation remains elevated [12]. That is not an easing backdrop for rate-sensitive pool remodeling, though maintenance spending is less affected.",
+        "Prices are the pressure point. BLS reported gasoline up 37.4% over the 12 months to October 2026, new vehicle prices up 0.7% and used car prices down 3.3%. Motor vehicle parts rose 0.2% and maintenance and repair 0.6% in October alone [13]. For parts distributors, firmer repair prices support sales. For Pool, consumer income and housing matter: it guides new construction slightly down and remodel flat to slightly up for 2026, which is soft [3]. Freight and fuel are hitting costs: Pool cited higher inbound freight [3]. Currency matters less, since Genuine Parts is about 74% North America and Pool about 95% [14][11]. Our view is that this is a late-cycle, price-led year for distributors, with volume flat to modest [1]."
+      ]
+    },
+    {
+      "id": "demand",
+      "paragraphs": [
+        "Structural demand rests on the installed base. S&P Global Mobility's May 2025 report put the average US light vehicle at 12.8 years, the fleet at 289 million vehicles and scrappage steady at 4.5%; high new and used prices keep owners in older cars, and the 2015 to 2019 vintages are entering the aftermarket [16]. Genuine Parts sizes its automotive addressable market above $200B and its industrial market above $150B [14].",
+        "Pool has about 14.0 million pools and hot tubs in the US, with 64% of its sales from non-discretionary maintenance [11]. New in-ground construction fell an estimated 3% to 5% in 2025 to just under 60,000 units [11]. Elasticity is low for repair and upkeep and higher for remodels and footwear. Demographic effects are slow: Sun Belt states supply about 53% of Pool's sales [11]. Over the long term, electrification may reduce wear-parts demand, a risk Genuine Parts flags in its filing [14]. The market growth rate for the group as a whole is not published; Q3 sales growth was 4.2% at Genuine Parts and 4% at Pool, with price part of it [1][3]."
+      ]
+    },
+    {
+      "id": "structure",
+      "paragraphs": [
+        "Porter's five forces: rivalry is intense and fragmented, since Genuine Parts names AutoZone, O'Reilly, Advance Auto Parts and LKQ in automotive and Applied Industrial, Fastenal and Grainger in industrial [14]. Threat of new entrants is moderate; Pool says barriers to entry are low, though scale in inventory and delivery is hard to copy [11]. Supplier power is meaningful where concentrated: 10 suppliers provided about 55% of Genuine Parts' US auto inventory, and Pentair is about 20% of Pool's product cost [14][11]. Buyer power is moderate, as contractors buy on availability and credit and no Pool customer reaches 10% of sales [11]. Substitutes are limited for repair parts but include direct supplier sales and online sellers [11].",
+        "Genuine Parts has the broadest network, with over 10,800 locations and 76 North American automotive distribution centers; Pool has 454 sales centers [14][3]. The moat is inventory depth, speed and relationships. LKQ's German ERP problems show the moat can leak when execution slips [2]. Pricing power is limited: Pool's Q3 price gain of about 3 points came from supplier inflation passed along [3]."
+      ]
+    },
+    {
+      "id": "environment",
+      "paragraphs": [
+        "Politics and regulation are dominated by trade. Genuine Parts cites tariffs of 20% on China and 25% on Mexico and Canada from H1 2025 as pressure on margins [14], and Pool says tariffs added about 1 point to 2025 cost inflation [11]. Refunds of struck-down duties are now flowing: Weyco booked $15.3M against cost of sales in Q2 and $3.3M in Q3, and says further claim timing is uncertain [4].",
+        "Technology matters in two ways. Electrification, ride-sharing and autonomous driving could reduce demand for replacement parts, per Genuine Parts' risk factors [14]. Systems risk is more immediate, as LKQ's ERP implementation in Germany hit Europe's volume and margins [2]. Weather and climate are a further environmental factor for Pool, with hurricanes affecting 2024 sales [11]. On the social side, high vehicle prices are keeping consumers in older cars [16]. We think the main emerging risk is policy whiplash on duties and corporate execution during restructurings (Genuine Parts' separation, LKQ's leadership change) rather than new regulation of distribution [1][2]."
+      ]
+    },
+    {
+      "id": "economics",
+      "paragraphs": [
+        "Distribution is a thin-margin, high-turnover business with solid returns. Damodaran's January 2026 data show Retail (Distributors) with a 30.6% gross margin, 11.4% EBITDA margin and 10.1% unadjusted pre-tax operating margin, against 37.8%, 16.6% and 12.8% for the market [9]. After-tax ROIC is 17.4% against 10.1% [10]. Company data show wide dispersion: ROIC of 13.8% at Genuine Parts, 4.9% at LKQ, 15.8% at Pool and 13.0% at Weyco [5][6][7][8].",
+        "Operating leverage is visible in the quarter. Genuine Parts' segment EBITDA margin was 13.2% in Industrial but 7.6% in North America Automotive, down 40 bps [1]; LKQ's fell to 8.9% from 11.3% on a 5% revenue decline [2]; Pool's operating income fell 3% to $172.2M on 4% sales growth [3]. Capital intensity is modest: Genuine Parts guides capex of $450M to $500M [1]. Free cash flow was $502M over nine months at Genuine Parts and $336M at LKQ [1][2]. We did not find a clean group-level ROE figure."
+      ]
+    },
+    {
+      "id": "earnings",
+      "paragraphs": [
+        "Genuine Parts reported adjusted EPS of $2.07 in Q3, up from $1.98, and narrowed its 2026 adjusted EPS range to $7.50 to $7.75 from $7.50 to $8.00; sales growth guidance of 3% to 5.5% is unchanged [1]. Pool delivered Q3 adjusted EPS of $3.40 versus $3.39 and confirmed $10.87 to $11.17 for the year [3].",
+        "LKQ is the outlier: adjusted EPS was $0.50, and it withdrew full-year guidance on 23 Oct 2026 [2]. Weyco's Q3 EPS of $1.19 compares with $0.69, but $3.3M of tariff refunds helped, so we would not extrapolate it [4].",
+        "Our read is that consensus is likely to treat Genuine Parts' narrowing as a trim of the top end, Pool as steady, and LKQ as a rebuilding year with high uncertainty. We did not find consensus estimate tables for these names that we could open, so we do not state where we differ from them. Genuine Parts' separation costs ($21M pre-tax in Q3) will also affect reported earnings through the split [1]."
+      ]
+    },
+    {
+      "id": "valuation",
+      "paragraphs": [
+        "On 20 Nov 2026 forward P/E was 15.0x for Genuine Parts, 8.6x for LKQ and 18.2x for Pool, with FCF yields of 4.7%, 13.1% and 5.9% [5][6][7]. For context, the Consumer Discretionary Select Sector SPDR (XLY) traded at 23.0x forward earnings on 19 Nov 2026 [20]. So all three trade below the sector ETF, which is dominated by Amazon and Tesla at about 40% of weight [20].",
+        "Damodaran's January 2026 forward P/E for Retail (Distributors) was 43.8 versus 27.7 for the market, with expected five-year growth of 9.5% against 14.0% [18]. We think that group figure is distorted by low aggregate earnings and is not a guide for these companies. Our read is that LKQ is priced for continued trouble (a 13% FCF yield and a 37% share decline) while Pool at 18x and Genuine Parts at 15x are priced for steady mid-single-digit growth [6][7][5]. We did not find 10-year average multiples we could open, so we do not compare them with their own history."
+      ]
+    },
+    {
+      "id": "positioning",
+      "paragraphs": [
+        "Momentum is weak for the large caps. Over 52 weeks to 20 Nov 2026, Genuine Parts was down 5.5%, LKQ down 37.5% and Pool down 11.0%, while small-cap Weyco was up 89.1% [5][6][7][8].",
+        "Short interest as a share of float was 10.3% for Pool, 7.9% for LKQ, 4.7% for Genuine Parts and 2.1% for Weyco [7][6][5][8]. Pool's high short interest shows doubt about housing-linked demand [11]. The Consumer Discretionary Select Sector SPDR has net assets of $22.35B and 47 holdings, and none of the three appeared among its top 10 on 19 Nov 2026 [20]. We did not find ETF flow data for this sub-industry we could open. Our read is that positioning is cautious and that LKQ's changes in leadership and strategy are the main source of event risk [2]."
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "n": 1,
+      "title": "Genuine Parts Company reports third quarter 2026 results (Form 8-K)",
+      "publisher": "Genuine Parts Company / SEC",
+      "date": "2026-10-20",
+      "url": "https://www.sec.gov/Archives/edgar/data/0000040987/000004098726000037/gpc-earnq32026.htm"
+    },
+    {
+      "n": 2,
+      "title": "LKQ Corporation announces results for third quarter 2026 (Form 8-K, Exhibit 99.1)",
+      "publisher": "LKQ Corporation / SEC",
+      "date": "2026-10-29",
+      "url": "https://www.sec.gov/Archives/edgar/data/0001065696/000106569626000050/exhibit991.htm"
+    },
+    {
+      "n": 3,
+      "title": "Pool Corporation reports third quarter results (Form 8-K, Exhibit 99.1)",
+      "publisher": "Pool Corporation / SEC",
+      "date": "2026-10-22",
+      "url": "https://www.sec.gov/Archives/edgar/data/0000945841/000119312526428428/pool-ex99_1.htm"
+    },
+    {
+      "n": 4,
+      "title": "Weyco Group third quarter 2026 sales and earnings (Form 8-K, Exhibit 99.1)",
+      "publisher": "Weyco Group / SEC",
+      "date": "2026-11-03",
+      "url": "https://www.sec.gov/Archives/edgar/data/0000106532/000110465926121985/weys-ex99d1.htm"
+    },
+    {
+      "n": 5,
+      "title": "Genuine Parts statistics and valuation, 20 Nov 2026",
+      "publisher": "StockAnalysis",
+      "date": "2026-11-21",
+      "url": "https://stockanalysis.com/stocks/gpc/statistics/"
+    },
+    {
+      "n": 6,
+      "title": "LKQ statistics and valuation, 20 Nov 2026",
+      "publisher": "StockAnalysis",
+      "date": "2026-11-21",
+      "url": "https://stockanalysis.com/stocks/lkq/statistics/"
+    },
+    {
+      "n": 7,
+      "title": "Pool Corporation statistics and valuation, 20 Nov 2026",
+      "publisher": "StockAnalysis",
+      "date": "2026-11-21",
+      "url": "https://stockanalysis.com/stocks/pool/statistics/"
+    },
+    {
+      "n": 8,
+      "title": "Weyco Group statistics and valuation, 20 Nov 2026",
+      "publisher": "StockAnalysis",
+      "date": "2026-11-21",
+      "url": "https://stockanalysis.com/stocks/weys/statistics/"
+    },
+    {
+      "n": 9,
+      "title": "Margins by Sector (US), January 2026",
+      "publisher": "Aswath Damodaran, NYU Stern",
+      "date": "2026-01",
+      "url": "https://pages.stern.nyu.edu/~adamodar/New_Home_Page/datafile/margin.html"
+    },
+    {
+      "n": 10,
+      "title": "Return on Capital by Sector (US)",
+      "publisher": "Aswath Damodaran, NYU Stern",
+      "date": "2026-01",
+      "url": "https://pages.stern.nyu.edu/~adamodar/New_Home_Page/datafile/roc.html"
+    },
+    {
+      "n": 11,
+      "title": "Pool Corporation Form 10-K for fiscal year 2025",
+      "publisher": "Pool Corporation / Boardroom Alpha",
+      "date": "2026-02-26",
+      "url": "https://www.boardroomalpha.com/sec/pool-10-k-2026-02-26-0001193125-26-074833"
+    },
+    {
+      "n": 12,
+      "title": "FOMC statement, 28 October 2026",
+      "publisher": "Federal Reserve Board",
+      "date": "2026-10-28",
+      "url": "https://www.federalreserve.gov/newsevents/pressreleases/monetary20261028a.htm"
+    },
+    {
+      "n": 13,
+      "title": "Consumer Price Index, October 2026",
+      "publisher": "U.S. Bureau of Labor Statistics",
+      "date": "2026-11-10",
+      "url": "https://www.bls.gov/news.release/archives/cpi_11102026.htm"
+    },
+    {
+      "n": 14,
+      "title": "Genuine Parts Company Form 10-K for fiscal year 2025",
+      "publisher": "Genuine Parts Company / Boardroom Alpha",
+      "date": "2026-02-20",
+      "url": "https://www.boardroomalpha.com/sec/gpc-10-k-2026-02-20-0000040987-26-000003"
+    },
+    {
+      "n": 15,
+      "title": "List of S&P 500 companies",
+      "publisher": "Wikipedia",
+      "date": "2026-11",
+      "url": "https://en.wikipedia.org/wiki/List_of_S%26P_500_companies"
+    },
+    {
+      "n": 16,
+      "title": "U.S. vehicle age rises again to 12.8 years in 2025",
+      "publisher": "S&P Global Mobility",
+      "date": "2025-05-21",
+      "url": "https://press.spglobal.com/2025-05-21-U-S-Vehicle-Age-Rises-Again-to-12-8-Years-in-2025%2C-According-to-S-P-Global-Mobility"
+    },
+    {
+      "n": 17,
+      "title": "Debt Fundamentals by Sector (US), January 2026",
+      "publisher": "Aswath Damodaran, NYU Stern",
+      "date": "2026-01",
+      "url": "https://pages.stern.nyu.edu/~adamodar/New_Home_Page/datafile/dbtfund.html"
+    },
+    {
+      "n": 18,
+      "title": "PE Ratios by Sector (US), January 2026",
+      "publisher": "Aswath Damodaran, NYU Stern",
+      "date": "2026-01",
+      "url": "https://pages.stern.nyu.edu/~adamodar/New_Home_Page/datafile/pedata.html"
+    },
+    {
+      "n": 19,
+      "title": "Cash Flow Drivers by Sector (US), January 2026",
+      "publisher": "Aswath Damodaran, NYU Stern",
+      "date": "2026-01",
+      "url": "https://pages.stern.nyu.edu/~adamodar/New_Home_Page/datafile/cfbasics.html"
+    },
+    {
+      "n": 20,
+      "title": "Consumer Discretionary Select Sector SPDR Fund (XLY) fund page",
+      "publisher": "State Street Investment Management",
+      "date": "2026-11-19",
+      "url": "https://www.ssga.com/us/en/intermediary/etfs/the-consumer-discretionary-select-sector-spdr-fund-xly"
+    }
+  ]
+}

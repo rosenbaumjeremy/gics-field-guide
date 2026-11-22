@@ -1,0 +1,500 @@
+{
+  "code": "25504060",
+  "added": "2026-11-22",
+  "asOf": "2026-11-20",
+  "summary": "Homefurnishing retail is splitting between share-takers and a stalled middle. Williams-Sonoma's Q3 comparable brand revenue rose 5.1% with a 17.4% non-GAAP operating margin [1], and Wayfair's revenue rose 9.7% [2]. Floor & Decor's comparable sales fell 1.4% [4] and Haverty's comparable written business grew just 2.3% [6]. Housing is the headwind: existing-home sales ran at 3.75 million annualized in October [7] with the 30-year mortgage at 7.28% [8]. Tariff refunds flatter reported profits at several names [1][3][6]. Williams-Sonoma trades near 20.9x forward earnings and Wayfair near 25.0x [19][20].",
+  "metrics": [
+    {
+      "label": "Williams-Sonoma Q3 comparable brand revenue",
+      "value": "+5.1%",
+      "context": "Net revenue $1.99B, +5.8%; non-GAAP operating margin 17.4%; quarter ended 1 Nov 2026",
+      "source": 1
+    },
+    {
+      "label": "Wayfair Q3 net revenue",
+      "value": "$3.42B",
+      "context": "+9.7%; US +11.4%, international -2.3%; adjusted EBITDA margin 6.9%; quarter ended 30 Sep 2026",
+      "source": 2
+    },
+    {
+      "label": "Floor & Decor Q3 comparable store sales",
+      "value": "-1.4%",
+      "context": "Net sales +3.0% to $1.21B; FY2026 comps guided -3.5% to -2.0%; quarter ended 24 Sep 2026",
+      "source": 4
+    },
+    {
+      "label": "US existing-home sales (Oct 2026)",
+      "value": "3.75M annualized",
+      "context": "-5.5% m/m, -8.8% y/y; median price $416,700 (+0.4% y/y)",
+      "source": 7
+    },
+    {
+      "label": "30-year fixed mortgage rate",
+      "value": "7.28%",
+      "context": "Freddie Mac, week of 19 Nov 2026; 6.26% a year earlier",
+      "source": 8
+    },
+    {
+      "label": "Damodaran pre-tax operating margin",
+      "value": "7.7%",
+      "context": "Retail (Special Lines), 94 US firms, Jan 2026; total market 12.8%",
+      "source": 14
+    },
+    {
+      "label": "Forward P/E: Williams-Sonoma / Wayfair / Floor & Decor",
+      "value": "20.9x / 25.0x / 24.5x",
+      "context": "Close of 20 Nov 2026; Damodaran Retail (Special Lines) 21.5x in Jan 2026",
+      "source": 19
+    },
+    {
+      "label": "SPDR S&P Homebuilders ETF (XHB) net assets",
+      "value": "$1.46B",
+      "context": "Homefurnishing Retail 6.47% of the fund at 19 Nov 2026; YTD -1.01% to 31 Oct",
+      "source": 25
+    }
+  ],
+  "watch": [
+    "Housing turnover: October existing-home sales fell to a 3.75 million annual rate, and a 7.28% mortgage rate keeps buyers on the sidelines [7][8].",
+    "Section 232 furniture tariffs: the 25% rate on upholstered furniture is scheduled to rise to 30%, and on kitchen cabinets and vanities to 50%, on 1 January 2027 [11].",
+    "Quality of earnings: Williams-Sonoma booked $197.0M of IEEPA tariff refund income year to date, and RH, Haverty's and Floor & Decor also booked refunds, so reported margins overstate the run rate [1][3][4][6].",
+    "RH's fourth-quarter ramp: it guides Q4 revenue up 16.1% to 21.2% after a Q3 guide of 5% to 6%, a steep step that depends on new product launches [3].",
+    "Consumer prices and rates: the Fed held at 3.75% to 4.00% with two dissenters wanting a hike, and gasoline was up 37.4% year on year in October [9][10]."
+  ],
+  "bellwethers": [
+    "Williams-Sonoma",
+    "RH",
+    "Wayfair",
+    "Floor & Decor",
+    "Arhaus",
+    "Haverty's",
+    "Lovesac"
+  ],
+  "basics": {
+    "intro": "Homefurnishing retailers sell furniture, decor, rugs, kitchenware and bedding to households through stores, catalogs and websites. They earn the gap between what the goods cost to source, ship and store and the price shoppers pay, then try to keep rent, labour and marketing below it. Customers are mostly individual households, with some design-trade and business buyers. GICS places these specialty stores here, while the makers of furniture and housewares sit in Home Furnishings, DIY chains such as Home Depot sit in Home Improvement Retail, and general merchants such as Amazon and Target sit in Broadline Retail.",
+    "products": [
+      {
+        "name": "Upscale omnichannel home brands",
+        "what": "Own-brand furniture, decor and kitchen goods designed in-house, made by contract and owned factories, and sold through showrooms, catalogs and websites at premium prices.",
+        "examples": "Williams-Sonoma, Pottery Barn, West Elm, RH, Arhaus"
+      },
+      {
+        "name": "Online home marketplaces",
+        "what": "Websites that list millions of items from thousands of suppliers and mostly ship goods direct from the supplier, earning a margin on each order without owning most of the stock.",
+        "examples": "Wayfair, Amazon home category"
+      },
+      {
+        "name": "Flooring and surfaces",
+        "what": "Warehouse-style stores selling tile, stone, wood and vinyl flooring plus decorative surfaces to homeowners and professional installers, tied closely to remodeling activity.",
+        "examples": "Floor & Decor"
+      },
+      {
+        "name": "Regional furniture showrooms",
+        "what": "Furniture chains with in-store design advisers, custom upholstery and delivery services, often in a single region.",
+        "examples": "Haverty's, Ashley HomeStores, Rooms To Go"
+      },
+      {
+        "name": "Direct-to-consumer and modular furniture",
+        "what": "Brands that sell their own product mainly through showrooms and the web with limited lines, such as modular sofas, at higher gross margins than multi-brand stores.",
+        "examples": "Lovesac"
+      },
+      {
+        "name": "Design trade and business sales",
+        "what": "Sales to interior designers, contractors and companies furnishing offices and hotels, which tend to buy larger orders and repeat.",
+        "examples": "Williams-Sonoma's trade and business programs, Wayfair Professional"
+      }
+    ],
+    "terms": [
+      {
+        "term": "Comparable sales (comps)",
+        "meaning": "Sales growth at stores and sites open at least a year, used to separate underlying demand from new openings."
+      },
+      {
+        "term": "Written versus delivered sales",
+        "meaning": "Furniture is often ordered weeks before it ships. Written sales count orders taken, delivered sales count orders shipped and recognised as revenue, so written sales lead revenue."
+      },
+      {
+        "term": "Omnichannel",
+        "meaning": "Selling the same goods through stores, catalogs and websites so that customers can switch between them."
+      },
+      {
+        "term": "Showroom model",
+        "meaning": "A store that displays samples while most goods ship from warehouses, so showrooms need less stock space than a traditional furniture store but still carry large rent bills."
+      },
+      {
+        "term": "Gross margin",
+        "meaning": "Sales minus cost of goods as a share of sales. Definitions vary: some retailers include occupancy and delivery costs, others do not, so margins are not always comparable."
+      },
+      {
+        "term": "Adjusted EBITDA",
+        "meaning": "Earnings before interest, tax, depreciation and amortisation, adjusted for items management calls unusual. Online and growth names such as Wayfair, RH and Arhaus guide to it."
+      },
+      {
+        "term": "Housing turnover",
+        "meaning": "The rate at which homes change hands. New owners buy furniture and decor, so turnover is a leading demand signal for this industry."
+      },
+      {
+        "term": "Big-ticket purchase",
+        "meaning": "A large, infrequent, often financed purchase such as a sofa or dining set that shoppers can postpone, which makes sales sensitive to confidence and rates."
+      },
+      {
+        "term": "Landed cost",
+        "meaning": "The cost of a product once it reaches the US: factory price, freight, insurance and import duties."
+      },
+      {
+        "term": "IEEPA tariffs",
+        "meaning": "Import duties imposed under an emergency-powers law that the Supreme Court ruled unlawful in February 2026. Importers who paid them can claim refunds, which show up as one-off profit."
+      },
+      {
+        "term": "Section 232 duties",
+        "meaning": "Import duties based on national security reviews. Some apply to upholstered furniture, kitchen cabinets and vanities and were not affected by the IEEPA ruling."
+      },
+      {
+        "term": "Drop-ship",
+        "meaning": "A model where the supplier ships the item straight to the customer, so the retailer holds little inventory but gives up some control over delivery and quality."
+      }
+    ],
+    "drivers": [
+      {
+        "name": "Housing activity",
+        "how": "Home sales, moves and remodels trigger furniture and decor purchases. Weak turnover lowers traffic and big-ticket orders, shown first in written sales and later in revenue."
+      },
+      {
+        "name": "Interest rates and consumer credit",
+        "how": "Furniture is often financed and mortgage rates set housing turnover, so higher rates lower both order volumes and willingness to buy a sofa or dining set."
+      },
+      {
+        "name": "Tariffs and sourcing",
+        "how": "Most furniture and decor is imported, so duties raise landed cost. Retailers pass some on in prices, absorb some and push vendors to share it, which moves gross margin within a few quarters."
+      },
+      {
+        "name": "Product newness and brand heat",
+        "how": "Own-brand retailers rise and fall with whether new collections catch on. A successful launch lifts written sales and lets the retailer sell at full price."
+      },
+      {
+        "name": "Freight, fuel and delivery costs",
+        "how": "Bulky goods are expensive to ship, so freight and last-mile delivery take a large share of revenue and swing margins when fuel prices move."
+      },
+      {
+        "name": "Fixed-cost leverage",
+        "how": "Showroom rent, catalogs and marketing barely change with sales, so extra sales raise profit faster than revenue and a sales drop cuts profit faster."
+      }
+    ]
+  },
+  "fundamentals": {
+    "business": [
+      "Retailers earn revenue by selling furniture, decor and home goods. Williams-Sonoma's Q3 net revenue was $1.99B across brands such as Pottery Barn and West Elm [1], and about 66% of its net revenues came from e-commerce in fiscal 2024 [12]. Wayfair's Q3 net revenue was $3.42B, nearly all in the US [2].",
+      "Customers are mainly households, with some business and trade buyers. Wayfair's 10-K says its customers typically have incomes from $25,000 to over $250,000, and it counted 22.2 million active customers at 30 Sep 2026, with repeat buyers placing 80.0% of Q3 orders [13][2]. Upscale chains such as Williams-Sonoma and Arhaus target higher-income homeowners.",
+      "The largest cost is the goods themselves, followed by freight and delivery, showroom occupancy, labour and marketing. Arhaus said fuel and transportation costs pressured margin, and its SG&A rose 14.8% in Q3 against 6.8% revenue growth [5]. Williams-Sonoma reported SG&A of 28.8% of revenue on a non-GAAP basis [1].",
+      "Pricing power depends on brand and design rather than price. Williams-Sonoma's non-GAAP gross margin was 46.2% in Q3 [1] against 30.2% for Wayfair, a marketplace that competes mostly on selection and price [20]. Haverty's reports a 62.3% gross margin (60.7% excluding tariff refunds), partly because its definition differs from peers [6].",
+      "Main assets are inventory, showroom leases, distribution centres and, at some, in-house factories. Williams-Sonoma held $1.64B of inventory and $991.6M of cash at 1 Nov 2026 [1], and manufactures mainly upholstered furniture and lighting in North Carolina, Oregon and Mississippi [12]. Wayfair carried $2.57B of long-term debt at 30 Sep 2026 [2].",
+      "Moderately asset-light compared with industry overall. Damodaran puts net capex at 1.6% of sales for Retail (Special Lines), against 4.9% for Retail (General) and 4.2% for the total market, in January 2026 [17]. Warehouse-style formats such as Floor & Decor invest more, guiding $235M to $250M of capex on about $4.8B of sales [4]."
+    ],
+    "overview": [
+      "We did not find a reliable, citable dollar estimate for the US home furnishings retail market. Wayfair's 10-K calls the home goods market 'large' without a figure [13]. Williams-Sonoma's revenue shows the recent cycle: $8.67B in the year to January 2023, $7.75B a year later, then $7.71B and $7.81B in the years to February 2025 and 2026 [27].",
+      "Main segments are upscale omnichannel brands (Williams-Sonoma, RH, Arhaus), online marketplaces (Wayfair), flooring (Floor & Decor) and regional furniture showrooms (Haverty's) [1][2][4][6]. In index terms, Homefurnishing Retail is a small group: it was 6.47% of the SPDR S&P Homebuilders ETF at 19 Nov 2026 [25].",
+      "Retailers sit between thousands of suppliers and households. Wayfair sells from about 20 thousand suppliers and lists over 40 million products [13]. Williams-Sonoma's largest supplier was only about 3% of fiscal 2024 purchases, and 82% of products came from abroad, including 23% from China, 16% from India and 14% from Vietnam [12].",
+      "The industry has shifted online and toward asset-light formats, while housing turnover has cooled. Williams-Sonoma's e-commerce share reached about 66% in fiscal 2024 [12], and Wayfair operated 12 physical stores at end-2025, adding showrooms to its online model [13]. Total Williams-Sonoma revenue is still below its January 2023 peak [27].",
+      "Demand is concentrated in the US, where housing turnover is the key variable, and in coastal and high-income regions. Williams-Sonoma operated 512 stores, 477 of them in the US, and 19 in Canada [12]. Supply is concentrated in Asia, with China, India and Vietnam the largest sources for Williams-Sonoma [12]."
+    ],
+    "competition": [
+      "There are dozens of public players and many private ones. Wayfair's 10-K lists furniture stores (Ashley, Rooms To Go), big-box stores (IKEA, Target, Walmart), department stores, specialty retailers and online marketplaces (Amazon, Etsy) as competitors [13]. The S&P 500 holds one name in this sub-industry, Williams-Sonoma, added on 24 Mar 2025 [26].",
+      "By revenue, Wayfair is the largest listed pure play at $3.42B a quarter [2], ahead of Williams-Sonoma at $1.99B [1], Floor & Decor at $1.21B [4], RH at $922M [3], Arhaus at $368M [5] and Haverty's at $203M [6]. We found no public market-share table, so we rank by reported sales; Amazon, IKEA and Home Depot are also large sellers of home goods.",
+      "The industry is fragmented. Wayfair's own filing describes competition across all channels and format types [13], and Williams-Sonoma calls its market highly competitive, with discounters entering as e-commerce grows [12]. No single seller sets prices for the market.",
+      "Barriers are low for a website and high for scale. Building a catalog of 40 million items from 20 thousand suppliers and the delivery network behind it took Wayfair years [13]. Brands such as RH and Williams-Sonoma need design teams, sourcing relationships and showroom networks that are slow to copy.",
+      "Scale helps in sourcing, shipping rates and marketing. Williams-Sonoma's 18.1% operating margin on $7.8B of revenue in the year to February 2026 compares with 2.5% at Wayfair and 5.2% at Arhaus on recent trailing figures [27][20][23].",
+      "Mixed. Basics and marketplace goods are close to commodities, which Wayfair's price and selection focus reflects [13]. Own-brand collections from Williams-Sonoma, RH and Arhaus are differentiated by design and quality, which supports 46% or higher gross margins at the first [1].",
+      "Customers hold most of the power: prices are visible online and big-ticket purchases are easy to postpone. Suppliers are numerous, so retailers have the upper hand in sourcing: no Williams-Sonoma supplier exceeds about 3% of purchases [12]. Trade policy, not suppliers, has been the main cost shock."
+    ],
+    "drivers": [
+      "Revenue growth comes from housing turnover, consumer confidence, new showrooms, online share gains and price. Existing-home sales were 3.75 million annualized in October 2026, down 8.8% year on year [7]. Williams-Sonoma comps rose 5.1% and Floor & Decor's fell 1.4% in the same period, so company execution matters as much as the cycle [1][4].",
+      "Operating margins reflect gross margin, freight, occupancy, labour and marketing. Williams-Sonoma's non-GAAP operating margin was 17.4% in Q3 [1]; Damodaran's January 2026 figure for Retail (Special Lines) is 7.7% against 12.8% for the market [14]. Arhaus's Q3 operating income fell to $10.1M from $16.4M [5].",
+      "Key cost variables are product cost, tariffs, ocean and truck freight, fuel and wages. Gasoline was up 37.4% year on year in October 2026 [10]. Section 232 duties of 25% on upholstered furniture are scheduled to rise to 30% on 1 Jan 2027, and to 50% on kitchen cabinets and vanities [11].",
+      "Rates matter indirectly but strongly. Debt is modest: Damodaran's market debt to capital is 17.3% for Retail (Special Lines) [18]. But mortgage rates set housing turnover: the 30-year rate was 7.28% on 19 Nov 2026 against 6.26% a year earlier [8], and first-time buyers were 29% of existing-home sales in October [7].",
+      "Sensitive to jobs, housing and prices. The Fed held at 3.75% to 4.00% on 28 Oct 2026, calling growth strong and inflation elevated [9]. Furniture and bedding prices rose 1.2% from September to October [10]. Commodity inputs such as lumber, steel and foam, plus oil-linked freight, feed into product cost.",
+      "Cyclical. Home furnishings are discretionary and tied to housing turnover, so sales fall in downturns: Williams-Sonoma's revenue dropped about 10.7% in the year to January 2024 [27]. Online share shifts add a secular growth layer, as Wayfair's US revenue growth of 11.4% shows [2]."
+    ],
+    "financials": [
+      "Growth is uneven. Damodaran's expected five-year EPS growth is 8.1% for Retail (Special Lines) against 14.0% for the market, in January 2026 [16]. Recent quarterly revenue growth ranges from Wayfair's 9.7% [2] and Williams-Sonoma's 5.8% [1] to Floor & Decor's 3.0% [4] and Haverty's 4.5% [6].",
+      "Margins vary by model. Damodaran shows Retail (Special Lines) at a 35.3% gross margin and 7.7% operating margin, Retail (General) at 33.2% and 6.8%, and Furn/Home Furnishings at 30.3% and 6.6% (January 2026) [14]. Williams-Sonoma's non-GAAP operating margin was 17.4% in Q3 [1]; Wayfair's trailing operating margin is 2.5% [20].",
+      "Returns can be high at the leaders. Damodaran's after-tax lease-adjusted ROIC is 21.7% for Retail (Special Lines) and 18.4% for Retail (General) against 9.6% for the market [15]. StockAnalysis shows ROIC of 40.4% for Williams-Sonoma and 43.8% for Wayfair, but only 4.7% for Floor & Decor and 6.9% for Arhaus [19][20][22][23].",
+      "Leverage differs by name. Damodaran's market debt to capital is 17.3% for Retail (Special Lines) and 30.5% for Furn/Home Furnishings, with interest coverage of 13.5 and 3.9 [18]. Arhaus has no long-term debt and $318.0M of cash [5]; Wayfair has $2.57B of long-term debt [2]; Floor & Decor has a term loan of about $195.5M [4].",
+      "Cash generation is solid at the leaders. Williams-Sonoma produced $975.5M of operating cash flow in the first nine months and returned $715.9M through buybacks and dividends [1]. FCF yields on 20 Nov 2026 were 5.3% for Williams-Sonoma, 4.6% for Wayfair, 7.0% for Floor & Decor and 5.7% for Arhaus [19][20][22][23].",
+      "Capital needs are low to moderate. Damodaran's net capex-to-sales is 1.6% for Retail (Special Lines), 4.9% for Retail (General) and 5.9% for Furn/Home Furnishings, against 4.2% for the market [17]. Williams-Sonoma spent $259M on capex in the year to February 2026 [27]; Arhaus guides $70M to $90M of company-funded capex [5].",
+      "Multiples: Damodaran's January 2026 forward P/E was 21.5 for Retail (Special Lines), 24.0 for Retail (General) and 27.7 for the market [16]. On 20 Nov 2026 forward P/E was 20.9x for Williams-Sonoma, 25.0x for Wayfair, 24.5x for Floor & Decor, 23.2x for Arhaus and 13.4x for Haverty's [19][20][22][23][24]."
+    ],
+    "risks": [
+      "Trade policy is the largest regulatory risk. Section 232 duties on upholstered furniture (25%, rising to 30%) and cabinets and vanities (25%, rising to 50%) take a step up on 1 Jan 2027 [11]. Wayfair notes that a substantial portion of its products are made in China and that it cannot guarantee it will offset new duties [13].",
+      "AI cuts both ways. Williams-Sonoma's 10-K warns that generative AI may reduce barriers to competition [12], while Wayfair uses AI for search, recommendations and customer service and launched an AI tool called Muse in 2025 [13]. We found no hard figures on AI's earnings effect for these retailers.",
+      "Demographics matter through household formation and home moves. First-time buyers were 29% of October existing-home sales [7], and affordability is the constraint. The data we opened do not size the long-term demographic effect.",
+      "Consumers are cautious about big-ticket items and shifting to value and online. Floor & Decor's comps are down 2.4% year to date and guided down 2.0% to 3.5% for fiscal 2026 [4]. Williams-Sonoma reported 5.1% comps, showing higher-income shoppers still spend [1].",
+      "New competitors include online marketplaces and discounters. Williams-Sonoma's 10-K says e-commerce growth has attracted discounters selling similar products at lower prices [12], and Wayfair names Amazon, Walmart, Target and IKEA among rivals [13]. Wayfair has also opened 12 physical stores [13].",
+      "Geopolitics and supply chains matter because most product comes from Asia. Williams-Sonoma sourced 23% from China, 16% from India and 14% from Vietnam [12]. Its 10-K notes Middle East instability has forced ships around the Cape of Good Hope, lengthening transit [12]. Arhaus cited fuel and transportation costs [5].",
+      "Substitutes include second-hand and resale furniture, rental, and spending on experiences or the home itself (renovation). Direct-to-consumer brands and manufacturers selling through their own sites also bypass multi-brand retailers. We did not find sourced data sizing resale or rental in this category."
+    ],
+    "horizon": {
+      "opportunities": [
+        "A housing-turnover recovery, if mortgage rates ease from 7.28%, would unlock pent-up furniture demand after October existing-home sales fell 8.8% year on year [7][8].",
+        "Share gains by scaled leaders: Wayfair's US revenue rose 11.4% and Williams-Sonoma comps rose 5.1%, while Floor & Decor's comps fell [1][2][4].",
+        "Tariff refunds give a one-time cash boost, such as Williams-Sonoma's $197.0M year-to-date refund income [1].",
+        "New showrooms and collections, such as Arhaus's 109 showrooms and 13.9% comparable written sales growth, which point to revenue ahead [5]."
+      ],
+      "threats": [
+        "Section 232 step-ups on 1 January 2027 raise landed costs on upholstered furniture, cabinets and vanities [11].",
+        "Housing stays frozen: October sales were down 8.8% year on year and first-time buyers were 29% of the market [7].",
+        "Higher rates if the Fed hikes, with two members already voting for it [9].",
+        "Margin pressure from SG&A and fuel: Arhaus's SG&A grew 14.8% against 6.8% revenue growth, and Floor & Decor is guiding comps down for the year [4][5]."
+      ],
+      "assessment": "Over three to five years we think the industry stays two-speed. Leaders with strong brands, low debt and online scale, such as Williams-Sonoma, have shown they can grow even in a stalled housing market [1][27]. The middle, including flooring, mid-priced furniture and small caps, depends more on housing turnover, which is still depressed at a 3.75 million annual rate [4][7]. Tariffs remain the swing factor, with higher Section 232 rates due in January 2027 [11], and refunds are masking underlying margins today [1][3][6]. A fall in mortgage rates would be the biggest upside lever, but we see no sign of it in the latest data [8]. Our read is that market share, not market growth, drives results."
+    }
+  },
+  "sections": [
+    {
+      "id": "macro",
+      "paragraphs": [
+        "Where we are in the cycle: housing is frozen, while spending by higher-income households holds up. Existing-home sales fell 5.5% in October to a 3.75 million annual rate, down 8.8% from a year earlier, with the median price at $416,700, up just 0.4% [7]. The 30-year mortgage rate was 7.28% on 19 Nov 2026 against 6.26% a year earlier [8]. Home turnover drives furniture and decor purchases, so this is the central headwind for homefurnishing retail.",
+        "Policy is not easing. The Fed held the federal funds range at 3.75% to 4.00% on 28 Oct 2026 by a 10-2 vote, with both dissenters preferring a quarter-point hike, and described activity as expanding at a strong pace and inflation as elevated [9]. Gasoline was up 37.4% from a year earlier in October, and furniture and bedding prices rose 1.2% from September [10]. BLS could not publish most year-on-year comparisons because October 2025 data were not collected [10]. Tariffs are the other macro lever: Section 232 duties of 25% on upholstered furniture and 25% on cabinets and vanities are due to step up to 30% and 50% on 1 Jan 2027 [11]. We think the cycle favours brand leaders and share-takers over housing-dependent formats [1][4]."
+      ]
+    },
+    {
+      "id": "demand",
+      "paragraphs": [
+        "We could not find a citable estimate of the dollar size of US home furnishings retail; Wayfair's 10-K describes the market only as large [13]. A useful proxy is Williams-Sonoma, whose revenue fell from $8.67B in the year to January 2023 to $7.75B a year later and stood at $7.81B in the year to February 2026 [27]. That shows demand is cyclical and has not yet recovered to its post-pandemic peak.",
+        "Structural drivers are household formation, the age of the housing stock and the shift online. Williams-Sonoma generated about 66% of its fiscal 2024 revenue through e-commerce [12], and Wayfair's Q3 US revenue grew 11.4% with active customers up 4.7% to 22.2 million [2]. Demand is elastic: big-ticket items are easy to defer, and Floor & Decor's comps are down 2.4% year to date [4]. Higher-income demand is firmer: Williams-Sonoma raised no guidance but reiterated comps of 4.0% to 6.5% for the year [1]. Demographics matter through first-time buyers, who were 29% of October existing-home sales [7]."
+      ]
+    },
+    {
+      "id": "structure",
+      "paragraphs": [
+        "Porter's five forces: rivalry is intense and spans marketplaces, big boxes, furniture chains and specialty brands, as Wayfair's 10-K lists [13]. The threat of new entrants is high online and low at scale, where a catalog of over 40 million items and about 20 thousand suppliers took years to build [13]. Supplier power is low, since no Williams-Sonoma supplier exceeds about 3% of purchases [12]. Buyer power is high because shoppers compare prices instantly and can defer purchases. The threat of substitutes includes resale, rental and discounters selling similar products [12].",
+        "Concentration is modest. Reported quarterly sales were $3.42B at Wayfair, $1.99B at Williams-Sonoma, $1.21B at Floor & Decor, $922M at RH, $368M at Arhaus and $203M at Haverty's [2][1][4][3][5][6]. We found no published market-share table, so we rank by sales. Williams-Sonoma is the only S&P 500 member we found in the sub-industry [26]. Moats are brand and design (Williams-Sonoma, RH, Arhaus) and logistics scale (Wayfair); pricing power is strongest in the first group, where Williams-Sonoma's non-GAAP gross margin was 46.2% [1]."
+      ]
+    },
+    {
+      "id": "environment",
+      "paragraphs": [
+        "Politics and regulation are dominated by trade. The Supreme Court voided IEEPA tariffs in February 2026, and refunds are now flowing: Williams-Sonoma recorded $197.0M of refund income year to date, RH a $55.1M benefit in Q2, Floor & Decor about $56.2M of gross profit over nine months and Haverty's $4.7M [1][3][4][6]. Section 232 duties are separate and remain: 25% on upholstered furniture, rising to 30%, and on kitchen cabinets and vanities, rising to 50%, on 1 Jan 2027 after a one-year delay [11].",
+        "Technology cuts both ways. Williams-Sonoma warns that generative AI may reduce barriers to competition [12], and Wayfair is using AI in search and service and launched Muse in 2025 [13]. Wayfair also notes the end of the de minimis exemption on small Chinese shipments and that it is shifting suppliers outside China [13]. Social and environmental factors include privacy rules (GDPR, CCPA) and sustainability reporting such as California's, which add compliance costs [12]. We think the biggest emerging risk is policy whiplash: duties that change faster than retailers can re-source."
+      ]
+    },
+    {
+      "id": "economics",
+      "paragraphs": [
+        "Retail economics here are thin to moderate margin, with wide dispersion. Damodaran's January 2026 data gives Retail (Special Lines) a 35.3% gross margin, 7.7% operating margin and 5.2% net margin, against 12.8% operating margin for the total market [14]. Williams-Sonoma earned an 18.1% operating margin in the year to February 2026 on $7.81B of revenue [27] and 17.4% non-GAAP in Q3 [1], against 2.5% at Wayfair, 5.3% at Floor & Decor and 5.2% at Arhaus on recent trailing figures [20][22][23].",
+        "Returns are strong at the leaders and weak elsewhere. After-tax lease-adjusted ROIC is 21.7% for Retail (Special Lines) against 9.6% for the market [15], and StockAnalysis shows 40.4% at Williams-Sonoma and 43.8% at Wayfair but 4.7% at Floor & Decor and 6.9% at Arhaus [19][20][22][23]. Capital intensity is lowest in special-line retail (net capex 1.6% of sales) and higher in furnishing groups (5.9%) [17]. Operating leverage is visible at Arhaus: Q3 revenue rose 6.8% but operating income fell from $16.4M to $10.1M as SG&A grew 14.8% [5]. Williams-Sonoma's trailing free cash flow was $1.06B in the year to February 2026 [27]."
+      ]
+    },
+    {
+      "id": "earnings",
+      "paragraphs": [
+        "Reported earnings are inflated by refunds. Williams-Sonoma's Q3 GAAP EPS was $2.38 but non-GAAP EPS was $2.19 (up 11.7%) after excluding the $29.3M refund; it reiterated fiscal 2026 net revenue growth of 4.7% to 7.2% and non-GAAP operating margin of 17.8% to 18.2% [1]. RH's normalized adjusted EBITDA margin was 13.4% against 19.4% reported, and it guides fiscal 2026 revenue up 5.5% to 7.0% [3]. Haverty's adjusted EPS was $0.25 against $0.39 reported [6].",
+        "Guidance points to uneven demand. Floor & Decor guides fiscal 2026 comps down 3.5% to 2.0% with adjusted EBITDA of $535M to $550M [4]. Arhaus raised revenue guidance to $1.465B to $1.485B but kept net income at $71M to $80M [5]. RH's Q4 guide of 16.1% to 21.2% growth after 5% to 6% in Q3 depends on launches [3].",
+        "Our read is that comps and margins converge toward low-single-digit growth once refunds drop out, with Williams-Sonoma and Wayfair holding share. We did not find consensus estimate tables for the group that we could open, so we do not state where we differ from them."
+      ]
+    },
+    {
+      "id": "valuation",
+      "paragraphs": [
+        "Valuation is mixed. On 20 Nov 2026 forward P/E was 20.9x for Williams-Sonoma, 25.0x for Wayfair, 24.5x for Floor & Decor, 23.2x for Arhaus, 16.9x for RH and 13.4x for Haverty's [19][20][22][23][21][24]. Damodaran's January 2026 forward P/E was 21.5 for Retail (Special Lines), 24.0 for Retail (General) and 27.7 for all US firms [16]. The SPDR S&P Homebuilders ETF, which holds a basket of housing-linked names, had a forward P/E of 18.1 on 19 Nov 2026 [25].",
+        "FCF yields were 5.3% at Williams-Sonoma, 4.6% at Wayfair, 7.0% at Floor & Decor, 5.7% at Arhaus, 12.3% at RH and 8.7% at Haverty's [19][20][22][23][21][24]. Williams-Sonoma looks reasonable for 40% ROIC and an 18% margin [19]; Floor & Decor's 24.5x multiple pairs with a 4.7% ROIC, which looks demanding unless comps recover [22]. Expected five-year EPS growth for the retail group is 8.1% with a PEG of 3.1 [16]. We did not find ten-year average multiples that we could open, so we do not compare with own history."
+      ]
+    },
+    {
+      "id": "positioning",
+      "paragraphs": [
+        "Momentum is split. Over 52 weeks to 20 Nov 2026 Arhaus was up 46.4%, Williams-Sonoma up 20.7% and Haverty's up 6.8%, while Wayfair was down 2.7%, Floor & Decor down 17.9% and RH down 26.5% [23][19][24][20][22][21]. XHB, a housing-linked ETF holding Homefurnishing Retail at 6.47%, was down 1.01% year to date to 31 Oct and held $1.46B at 19 Nov [25].",
+        "Short interest says where doubt sits. Short interest as a share of float was 5.1% for Williams-Sonoma, 9.1% for Wayfair, 14.3% for Arhaus, 14.9% for Floor & Decor and 31.8% for RH [19][20][23][22][21]. RH's equity is thin, so its leverage ratios are distorted [21]. We did not find ETF flow data we could open. Our read is that positioning is most crowded in RH on the short side, which makes its Q4 launch ramp a binary event [3]."
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "n": 1,
+      "title": "Williams-Sonoma Q3 fiscal 2026 results (Exhibit 99.1, Form 8-K)",
+      "publisher": "Williams-Sonoma / SEC",
+      "date": "2026-11-19",
+      "url": "https://www.sec.gov/Archives/edgar/data/0000719955/000071995526000244/exhibit991fy2026q3earnings.htm"
+    },
+    {
+      "n": 2,
+      "title": "Wayfair Q3 2026 results (Exhibit 99.1, Form 8-K)",
+      "publisher": "Wayfair / SEC",
+      "date": "2026-11-04",
+      "url": "https://www.sec.gov/Archives/edgar/data/0001616707/000161670726000195/a2026-11x04ex991.htm"
+    },
+    {
+      "n": 3,
+      "title": "RH Q2 fiscal 2026 results and fiscal 2026 guidance",
+      "publisher": "Pulse 2.0",
+      "date": "2026-09-13",
+      "url": "https://pulse2.com/rh-q2-revenue-rises-2-6-to-922-2-million-as-company-targets-up-to-7-fiscal-2026-growth/"
+    },
+    {
+      "n": 4,
+      "title": "Floor & Decor Q3 fiscal 2026 results (Exhibit 99.1, Form 8-K)",
+      "publisher": "Floor & Decor / SEC",
+      "date": "2026-10-29",
+      "url": "https://www.sec.gov/Archives/edgar/data/0001507079/000162828026068242/fnd-20260924x8kxex991.htm"
+    },
+    {
+      "n": 5,
+      "title": "Arhaus reports third quarter 2026 financial results",
+      "publisher": "Arhaus / Finviz",
+      "date": "2026-11-05",
+      "url": "https://finviz.com/news/416537/arhaus-reports-third-quarter-2026-financial-results"
+    },
+    {
+      "n": 6,
+      "title": "Havertys Q3 2026 operating results (Exhibit 99.1, Form 8-K)",
+      "publisher": "Haverty Furniture Companies / SEC",
+      "date": "2026-11-04",
+      "url": "https://www.sec.gov/Archives/edgar/data/0000216085/000162828026069778/ex991-hvtearningsreleasex3.htm"
+    },
+    {
+      "n": 7,
+      "title": "Existing-home sales decreased 5.5% in October",
+      "publisher": "National Association of Realtors",
+      "date": "2026-11-12",
+      "url": "https://www.nar.realtor/newsroom/existing-home-sales-decreased-5-5-percent-october-nar-report"
+    },
+    {
+      "n": 8,
+      "title": "Primary Mortgage Market Survey",
+      "publisher": "Freddie Mac",
+      "date": "2026-11-19",
+      "url": "https://www.freddiemac.com/pmms"
+    },
+    {
+      "n": 9,
+      "title": "FOMC statement, 28 October 2026",
+      "publisher": "Federal Reserve Board",
+      "date": "2026-10-28",
+      "url": "https://www.federalreserve.gov/newsevents/pressreleases/monetary20261028a.htm"
+    },
+    {
+      "n": 10,
+      "title": "Consumer Price Index, October 2026",
+      "publisher": "U.S. Bureau of Labor Statistics",
+      "date": "2026-11-10",
+      "url": "https://www.bls.gov/news.release/archives/cpi_11102026.htm"
+    },
+    {
+      "n": 11,
+      "title": "Section 232 duties delayed on upholstered furniture, kitchen cabinets and vanities",
+      "publisher": "Livingston International",
+      "date": "2026-01-05",
+      "url": "https://www.livingstonintl.com/section-232-duties-delayed-on-upholstered-furniture-kitchen-cabinets-and-vanities-2/"
+    },
+    {
+      "n": 12,
+      "title": "Williams-Sonoma Form 10-K for fiscal 2024 (year ended 2 Feb 2025)",
+      "publisher": "Williams-Sonoma / SEC",
+      "date": "2025-03",
+      "url": "https://www.sec.gov/Archives/edgar/data/719955/000162828025015037/wsm-20250202.htm"
+    },
+    {
+      "n": 13,
+      "title": "Wayfair Form 10-K for year ended 31 Dec 2025",
+      "publisher": "Wayfair / SEC",
+      "date": "2026-02-19",
+      "url": "https://www.sec.gov/Archives/edgar/data/0001616707/000161670726000027/w-20251231.htm"
+    },
+    {
+      "n": 14,
+      "title": "Margins by Sector (US), January 2026",
+      "publisher": "Aswath Damodaran, NYU Stern",
+      "date": "2026-01",
+      "url": "https://pages.stern.nyu.edu/~adamodar/New_Home_Page/datafile/margin.html"
+    },
+    {
+      "n": 15,
+      "title": "Return on Capital by Sector (US), January 2026",
+      "publisher": "Aswath Damodaran, NYU Stern",
+      "date": "2026-01",
+      "url": "https://pages.stern.nyu.edu/~adamodar/New_Home_Page/datafile/roc.html"
+    },
+    {
+      "n": 16,
+      "title": "PE Ratios by Sector (US), January 2026",
+      "publisher": "Aswath Damodaran, NYU Stern",
+      "date": "2026-01",
+      "url": "https://pages.stern.nyu.edu/~adamodar/New_Home_Page/datafile/pedata.html"
+    },
+    {
+      "n": 17,
+      "title": "Cash Flow Drivers by Sector (US), January 2026",
+      "publisher": "Aswath Damodaran, NYU Stern",
+      "date": "2026-01",
+      "url": "https://pages.stern.nyu.edu/~adamodar/New_Home_Page/datafile/cfbasics.html"
+    },
+    {
+      "n": 18,
+      "title": "Debt Fundamentals by Sector (US), January 2026",
+      "publisher": "Aswath Damodaran, NYU Stern",
+      "date": "2026-01",
+      "url": "https://pages.stern.nyu.edu/~adamodar/New_Home_Page/datafile/dbtfund.html"
+    },
+    {
+      "n": 19,
+      "title": "Williams-Sonoma statistics and valuation, 20 Nov 2026",
+      "publisher": "StockAnalysis",
+      "date": "2026-11-21",
+      "url": "https://stockanalysis.com/stocks/wsm/statistics/"
+    },
+    {
+      "n": 20,
+      "title": "Wayfair statistics and valuation, 20 Nov 2026",
+      "publisher": "StockAnalysis",
+      "date": "2026-11-21",
+      "url": "https://stockanalysis.com/stocks/w/statistics/"
+    },
+    {
+      "n": 21,
+      "title": "RH statistics and valuation, 20 Nov 2026",
+      "publisher": "StockAnalysis",
+      "date": "2026-11-21",
+      "url": "https://stockanalysis.com/stocks/rh/statistics/"
+    },
+    {
+      "n": 22,
+      "title": "Floor & Decor statistics and valuation, 20 Nov 2026",
+      "publisher": "StockAnalysis",
+      "date": "2026-11-21",
+      "url": "https://stockanalysis.com/stocks/fnd/statistics/"
+    },
+    {
+      "n": 23,
+      "title": "Arhaus statistics and valuation, 20 Nov 2026",
+      "publisher": "StockAnalysis",
+      "date": "2026-11-21",
+      "url": "https://stockanalysis.com/stocks/arhs/statistics/"
+    },
+    {
+      "n": 24,
+      "title": "Haverty's statistics and valuation, 20 Nov 2026",
+      "publisher": "StockAnalysis",
+      "date": "2026-11-21",
+      "url": "https://stockanalysis.com/stocks/hvt/statistics/"
+    },
+    {
+      "n": 25,
+      "title": "SPDR S&P Homebuilders ETF (XHB) fund page",
+      "publisher": "State Street Investment Management",
+      "date": "2026-11-19",
+      "url": "https://www.ssga.com/us/en/intermediary/etfs/spdr-sp-homebuilders-etf-xhb"
+    },
+    {
+      "n": 26,
+      "title": "List of S&P 500 companies",
+      "publisher": "Wikipedia",
+      "date": "2026-11",
+      "url": "https://en.wikipedia.org/wiki/List_of_S%26P_500_companies"
+    },
+    {
+      "n": 27,
+      "title": "Williams-Sonoma annual financials",
+      "publisher": "StockAnalysis",
+      "date": "2026-11-21",
+      "url": "https://stockanalysis.com/stocks/wsm/financials/"
+    }
+  ]
+}

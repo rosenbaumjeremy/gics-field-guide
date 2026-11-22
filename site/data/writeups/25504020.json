@@ -1,0 +1,446 @@
+{
+  "code": "25504020",
+  "added": "2026-11-22",
+  "asOf": "2026-11-20",
+  "summary": "Electronics retail is having a better year than expected, but the gains are narrow and partly borrowed. Best Buy's comparable sales rose 4.1% in its July quarter, led by computing, and it raised its full-year guide to comps of 1.9% to 3.0% [1]. Currys reported 7% like-for-like growth in the summer, helped by heatwaves [2]. JB Hi-Fi's Australian comps fell 1.4% [3]. GameStop's sales fell 18.7% as collectibles replaced games [4]. Memory-chip inflation is lifting PC prices and may test demand [5]. Best Buy trades at 13.9x forward earnings [6].",
+  "metrics": [
+    {
+      "label": "Best Buy Q2 FY27 comparable sales",
+      "value": "+4.1%",
+      "context": "Revenue $9.78B, up 3.6%; quarter ended 1 Aug 2026; Q3 guide +1% to +3%",
+      "source": 1
+    },
+    {
+      "label": "Best Buy FY27 adjusted EPS guide",
+      "value": "$6.70 to $6.90",
+      "context": "Raised; adjusted operating margin guide 4.4% to 4.5%; revenue guide $42.3B to $42.8B",
+      "source": 1
+    },
+    {
+      "label": "GameStop Q2 net sales",
+      "value": "$790.2M",
+      "context": "Down from $972.2M; collectibles 45.1% of sales; quarter ended 1 Aug 2026",
+      "source": 4
+    },
+    {
+      "label": "JB Hi-Fi Australia Q1 FY27 comps",
+      "value": "-1.4%",
+      "context": "1 Jul to 30 Sep 2026; New Zealand comps +10.7%",
+      "source": 3
+    },
+    {
+      "label": "Currys group like-for-like sales",
+      "value": "+7%",
+      "context": "17 weeks to 29 Aug 2026; cooling products drove part of the gain",
+      "source": 2
+    },
+    {
+      "label": "Best Buy forward P/E",
+      "value": "13.9x",
+      "context": "Close, 20 Nov 2026; GameStop 17.7x; Damodaran special-line retail 21.5x (Jan 2026)",
+      "source": 6
+    },
+    {
+      "label": "US consumer tech retail revenue forecast, 2026",
+      "value": "$578B",
+      "context": "Up 4%; CTA forecast event page dated 18 Aug 2026",
+      "source": 7
+    },
+    {
+      "label": "After-tax lease-adjusted ROIC",
+      "value": "21.7%",
+      "context": "Damodaran Retail (Special Lines), 94 US firms, Jan 2026; total market 9.6%",
+      "source": 8
+    }
+  ],
+  "watch": [
+    "Best Buy's third-quarter report is the next test: it guided comps up 1% to 3% and an adjusted operating margin of 4.1% to 4.2% [1].",
+    "Memory-chip inflation: Counterpoint said memory prices were up 80% to 90% versus the fourth quarter of 2025 as of February, which can raise PC prices and weigh on unit demand [5].",
+    "Holiday trading: JB Hi-Fi said October sales slowed ahead of Black Friday as shoppers focused on value and promotions [3].",
+    "Trade policy: Section 301 duties of 10% or 12.5% replaced the temporary Section 122 tariff on 24 July, and IEEPA refunds are still flowing through to margins [9][1].",
+    "Rates and fuel: the Fed held at 3.75% to 4.00% with two dissenters wanting a hike, and gasoline was up 37.4% year on year in October [10][11]."
+  ],
+  "bellwethers": [
+    "Best Buy",
+    "GameStop",
+    "Currys",
+    "JB Hi-Fi",
+    "Yamada Holdings",
+    "Fnac Darty",
+    "Bic Camera"
+  ],
+  "basics": {
+    "intro": "These retailers sell televisions, computers, phones, appliances, gaming and accessories to households and small businesses through big-box stores and websites. They buy finished goods from a small group of global brands and earn the gap between cost and shelf price, plus fees from services, warranties, advertising and marketplace sales. GICS puts specialist electronics and computer chains here. The brands that make the devices sit in technology hardware, and general merchants such as Amazon or Walmart are in broadline retail or consumer staples distribution.",
+    "products": [
+      {
+        "name": "Computing and mobile",
+        "what": "Laptops, desktops, tablets, phones and accessories. This is the largest category at big chains and is tied to replacement cycles and operating-system or chip launches.",
+        "examples": "Best Buy, Currys, JB Hi-Fi, Yamada, Bic Camera"
+      },
+      {
+        "name": "Consumer electronics",
+        "what": "Televisions, soundbars, headphones, cameras and smart-home devices. Prices fall over a product's life, so retailers depend on newer, higher-priced models.",
+        "examples": "Home theater and audio at Best Buy, Currys and Fnac"
+      },
+      {
+        "name": "Appliances",
+        "what": "Large appliances such as fridges and washers, and small ones such as vacuums and coffee makers. Sales follow housing activity and replacement needs, and ranges are broader at Currys, Darty and Yamada.",
+        "examples": "Darty, Yamada, The Good Guys, Best Buy"
+      },
+      {
+        "name": "Gaming and collectibles",
+        "what": "Consoles, games, trading cards and merchandise. Games sell in waves around console launches, while collectibles have become a growth area for specialists.",
+        "examples": "GameStop, Fnac, Best Buy Entertainment"
+      },
+      {
+        "name": "Services and advertising",
+        "what": "Installation, repair, memberships, warranties, financing, mobile contracts, retail advertising paid by vendors, and commissions on third-party marketplace sales. These carry higher margins than product.",
+        "examples": "Geek Squad, Currys Care, Best Buy Ads and Marketplace"
+      }
+    ],
+    "terms": [
+      {
+        "term": "Comparable sales (comps)",
+        "meaning": "Sales growth at stores and sites open at least a year, which strips out the effect of new stores. It is the main health check for a retailer."
+      },
+      {
+        "term": "Gross profit rate",
+        "meaning": "Gross profit as a share of sales. Electronics retailers run low rates because they resell branded goods, so small changes matter."
+      },
+      {
+        "term": "Product cycle",
+        "meaning": "The rhythm of new device launches and replacement. A strong cycle, such as a PC refresh, lifts traffic and average prices; a weak one leaves stores waiting."
+      },
+      {
+        "term": "Vendor concentration",
+        "meaning": "Reliance on a few suppliers. A handful of brands account for most purchases at large chains, which limits a retailer's bargaining power on price and supply."
+      },
+      {
+        "term": "Vendor funding",
+        "meaning": "Payments from brands for promotions, markdown protection and store displays. It cushions margin but ties retailers to brand priorities."
+      },
+      {
+        "term": "Omnichannel",
+        "meaning": "Selling through stores and online with shared stock, such as click and collect. Stores help with returns, advice and same-day pickup."
+      },
+      {
+        "term": "Retail media",
+        "meaning": "Advertising sold to brands on a retailer's site, app and stores. It earns high margin because it needs little extra cost."
+      },
+      {
+        "term": "Marketplace",
+        "meaning": "A platform where third-party sellers list goods on the retailer's site and the retailer takes a commission. It widens range without holding stock."
+      },
+      {
+        "term": "Attach rate",
+        "meaning": "The share of device sales that also sell a service, warranty or accessory. Higher attach rates lift profit per customer."
+      },
+      {
+        "term": "Inventory turnover",
+        "meaning": "How often stock is sold in a year. Electronics lose value fast, so slow turnover brings markdowns."
+      },
+      {
+        "term": "IEEPA tariff refund",
+        "meaning": "Money returned to importers after the US Supreme Court ruled emergency-law tariffs unauthorized in February 2026. It lifts reported profit but is not repeatable."
+      },
+      {
+        "term": "Click and collect",
+        "meaning": "An online order picked up at a store. It saves delivery cost and brings customers in, where they may add purchases."
+      }
+    ],
+    "drivers": [
+      {
+        "name": "Product cycles and replacement demand",
+        "how": "New categories or upgrade waves, such as PC refreshes or AI devices, raise unit sales and prices. Without them, comps drift lower as households delay purchases."
+      },
+      {
+        "name": "Component and device prices",
+        "how": "When chip costs rise, brands lift prices. That can raise revenue per unit but cut volumes, and retailers must decide how much cost to pass on."
+      },
+      {
+        "name": "Tariffs and trade policy",
+        "how": "Most devices are made in Asia, so duties raise landed cost. Margin moves as retailers and vendors share the cost, and refunds can flatter one period."
+      },
+      {
+        "name": "Consumer confidence, housing and rates",
+        "how": "Big-ticket items are bought on credit and when moving home. Higher rates and falling confidence delay purchases of televisions and appliances."
+      },
+      {
+        "name": "Mix toward services and advertising",
+        "how": "Higher-margin income from retail media, marketplace commissions and services can lift gross margin even when product sales are flat."
+      },
+      {
+        "name": "Competition from online and brands",
+        "how": "Online marketplaces and brands selling direct pressure prices and traffic. Stores respond with price matching, service and exclusive ranges."
+      }
+    ]
+  },
+  "fundamentals": {
+    "business": [
+      "Revenue comes mainly from selling third-party devices and appliances, plus a smaller, richer stream from services such as installation, repair, memberships, advertising and marketplace commissions. Best Buy's domestic mix was 47% computing and mobile, 28% consumer electronics, 11% appliances, 7% entertainment and 6% services in fiscal 2026 [12].",
+      "Customers are mainly households, with some small businesses. They buy infrequently and compare prices online before buying. GameStop's sales are split into video games, pre-owned goods and collectibles, with collectibles at 45.1% of Q2 sales as the chain leans toward enthusiasts [4]. Currys has also grown its business-to-business sales [2].",
+      "The largest cost is the goods themselves, followed by store labor, rent and delivery. Best Buy's fiscal 2026 gross profit rate was 22.5% and its SG&A was 18.3% of revenue, leaving a GAAP operating margin of 3.3% [12]. Fnac Darty's gross margin was 29.0% in the first half of 2026 [13].",
+      "Pricing power is weak on products and stronger on services. Five suppliers (Apple, Samsung, HP, LG and Sony) accounted for about 55% of Best Buy's purchases, and its top 20 for about 80%, and it has no long-term written supply contracts [12]. Retailers gain margin from advertising, marketplace and services, which Best Buy said lifted its domestic gross profit rate [1].",
+      "The main assets are inventory, store leases and cash. Best Buy held $5.23B of inventory, $1.74B of cash and $1.17B of long-term debt at 31 Jan 2026 [12]. GameStop is unusual: it held about $4.85B of cash, $206M of marketable securities and an eBay stake it valued at about $4.9B, against $4.17B of long-term debt at 1 Aug 2026 [4].",
+      "Asset-light compared with industry, but store-based. Damodaran's net capex to sales was 1.59% for special-line retail against 4.23% for the whole market [14]. Best Buy spent $704M on capital expenditure in fiscal 2026 and expects about $750M in fiscal 2027 [12]. Most of the commitment sits in store leases."
+    ],
+    "overview": [
+      "The CTA's August 2026 forecast puts US consumer technology retail revenue at $578B in 2026, up 4% [7]. That covers all consumer technology sold, not only specialist chains. Best Buy alone guided to $42.3B to $42.8B of fiscal 2027 revenue, and Fnac Darty to H1 revenue of EUR 4.46B [1][13].",
+      "The main segments are computing and mobile, consumer electronics, appliances, gaming, and services. At Best Buy, computing and mobile is the largest at 47% of domestic revenue and entertainment the smallest of the product groups at 7% [12]. Gaming has been the weakest recently, with Best Buy's domestic entertainment comps down 6.3% in Q2 [1].",
+      "Specialist retailers sit between a few global brands and households. Best Buy's top five suppliers supply about 55% of its purchases, and most merchandise ships directly from manufacturers to its distribution centers [12]. Retailers add value through range, advice, delivery, financing and after-sales service that brands and online sellers often do not provide at scale.",
+      "The industry shifted from single-category specialists to omnichannel chains with services and advertising. Best Buy launched a US marketplace and scaled its retail media business, and its domestic online comps rose 5.1% in Q2 [12][1]. In gaming, GameStop has closed stores, sold its French business and moved toward collectibles [4].",
+      "Sales are concentrated in the US (Best Buy, GameStop), the UK and Nordics (Currys), France and Iberia (Fnac Darty), Australia and New Zealand (JB Hi-Fi), and Japan (Yamada, Bic Camera). GameStop's Q2 sales were $608.2M in the US, $120.9M in Australia and $61.1M in Europe [4]. Most devices are made in Asia, so production is far from sales."
+    ],
+    "competition": [
+      "There are several dozen significant listed chains worldwide, usually leaders within one country or region. We found no global ranking, so we compare by company reports: Best Buy, Currys, JB Hi-Fi, Yamada, Fnac Darty, Bic Camera and GameStop [1][2][3][15][13][16][4].",
+      "By revenue, Yamada reported about JPY 1.69 trillion in the year to March 2026 and Best Buy $41.7B in fiscal 2026; Currys reported GBP 9.25B for 2025/26 [15][12][2]. We found no source for market shares in electronics retail, so we do not state them.",
+      "Fragmented globally but concentrated nationally. Each market has a few large chains plus online sellers and brands selling direct. Best Buy lists 1,068 stores across its domestic and international segments, and Currys 691 stores across six countries [12][2].",
+      "Barriers to entry are low online and higher in stores: scale buying, vendor access, delivery networks and after-sales service take years to build. Best Buy says its stores and store-within-store vendor concepts are an important advantage [12]. In practice, brands and marketplaces can sell the same goods online, so the barrier is service, not product.",
+      "Economies of scale matter in buying, logistics, advertising and technology. Best Buy's adjusted operating margin was 4.3% in Q2, while Fnac Darty's current operating income was negative in the seasonally weak first half at -EUR 34M [1][13]. Larger chains also receive more vendor funding for promotions.",
+      "Largely commoditized: the same models are sold everywhere and prices are visible online, so retailers compete on price, range, service and exclusives. JB Hi-Fi cited heightened competitive activity and value-focused customers shopping at promotional events [3].",
+      "Suppliers hold the stronger hand on products: a handful of brands account for most of the stock, and Best Buy has no long-term supply contracts securing terms [12]. Customers hold price power because they can compare online. Retailers' leverage comes from reach and advertising, with Best Buy's Q2 gross margin helped by marketplace and ads [1]."
+    ],
+    "drivers": [
+      "Revenue growth comes from product cycles, price per unit, store and online traffic, and services. Best Buy's Q2 computing and mobile comps rose 6.8% and consumer electronics 5.6%, while entertainment fell 6.3% [1]. In FY2026 as a whole, enterprise comps were only 0.5% [12].",
+      "Operating margin depends on gross margin (mix, vendor funding, tariffs) against labor, rent and delivery. Best Buy's adjusted operating margin rose to 4.3% from 3.9% in Q2 as gross margin rose to 23.9% from 23.2% [1]. Damodaran's pre-tax operating margin for special-line retail is 8.41% against 14.39% for all firms [17].",
+      "Key cost variables are product cost (including memory chips and tariffs), wages, rent and delivery. Counterpoint reported memory prices up 80% to 90% in early 2026 versus the end of 2025, and Context expected further PC price inflation as the year progressed [5]. About $34M of IEEPA refunds helped Best Buy's Q2 domestic gross profit [1].",
+      "Direct sensitivity is modest: Damodaran shows interest coverage of 13.5 for special-line retail against 6.9 for the whole market [18]. Indirect sensitivity is higher, since appliances and televisions are often financed and tied to housing. The Fed held at 3.75% to 4.00% on 28 Oct 2026, with two members voting for a hike [10].",
+      "Unemployment and income matter most; the Fed described spending as resilient with the unemployment rate little changed [10]. The last published 12-month CPI was 3.7% for September, and gasoline was up 37.4% in October [11]. Component and commodity costs such as memory chips matter more than raw commodities [5].",
+      "Cyclical with product cycles. Best Buy's comps were -6.8% in fiscal 2024, -2.3% in fiscal 2025 and +0.5% in fiscal 2026 before the 2026 rebound [12]. Services and advertising add some stability, but the core is a discretionary, replacement-driven purchase with sharp swings."
+    ],
+    "financials": [
+      "Growth is flat to low single digit over a cycle. Best Buy's revenue went from $43.5B in fiscal 2024 to $41.5B and $41.7B in fiscal 2025 and 2026 [12]. Damodaran's expected five-year earnings growth is 8.08% for special-line retail (a group broader than electronics) against 13.95% for the market [19].",
+      "Gross margins are thin for pure electronics retail. Best Buy's was 22.5% in fiscal 2026 and Fnac Darty's 29.0% in the first half of 2026, while Damodaran's special-line retail group (all kinds of specialty stores) shows 35.30% [12][13][17]. Best Buy's adjusted operating margin was 4.3% in Q2 FY27 [1].",
+      "Returns on capital are high because assets are light and inventory turns fast. Damodaran's lease-adjusted after-tax ROIC is 21.71% for special-line retail against 9.60% for the market [8]. StockAnalysis shows ROIC of 26.0% for Best Buy and 11.2% for GameStop, and ROE of 43.1% for Best Buy [6][20].",
+      "Leverage is moderate once leases are counted. Damodaran's book debt-to-capital is 60.23% for special-line retail, with debt to EBITDA of 2.88 against 6.52 for the market [18]. Best Buy had $1.17B of long-term debt and $1.74B of cash at 31 Jan 2026 [12]. GameStop shows net cash of $727M on StockAnalysis, and about $2.8B of long-term debt after the September 2026 convertible-note exchanges [20][4].",
+      "Free cash flow is solid at the leaders. StockAnalysis shows a free cash flow yield of 8.61% for Best Buy and 5.12% for GameStop at 20 Nov 2026 [6][20]. Best Buy returned $239M to holders in Q2 and plans about $300M of buybacks in fiscal 2027, plus a $0.96 quarterly dividend [1].",
+      "Capex is low: Damodaran puts net capex at 1.59% of sales for special-line retail against 4.23% for the whole market [14]. Best Buy spent $704M in fiscal 2026 and expects about $750M in fiscal 2027, mostly for stores, distribution and technology [12].",
+      "Multiples are below the market at the sector's leaders. Best Buy trades at 13.9x forward earnings and 8.5x EV/EBITDA, GameStop at 17.7x forward earnings [6][20]. Damodaran's January 2026 forward P/E was 21.52 for special-line retail and 27.66 for all firms [19]."
+    ],
+    "risks": [
+      "Trade policy is the biggest regulatory risk. The Supreme Court ruled on 20 Feb 2026 that IEEPA tariffs were unauthorized, and Best Buy's filing warns that new tariff regimes and refund processes create uncertainty [12]. Section 301 duties of 10% or 12.5% on 60 economies replaced a temporary 10% tariff on 24 July [9].",
+      "AI is both a demand driver and a cost. AI features are lifting interest in new PCs, which Currys describes as increasingly important [2], but AI data-center demand is also pulling up memory prices that raise device prices [5]. We found no hard numbers on AI's effect on retail earnings.",
+      "Demographics matter little for total demand, which follows household formation and replacement cycles. Younger shoppers drive gaming and collectibles: GameStop's collectibles rose to $356.3M from $227.6M in a year [4]. We found no data tying population change to retailer revenue.",
+      "Shoppers are value-focused and promotion-led. JB Hi-Fi said customers increasingly shop in promotional events and sales slowed in October [3]. Online and click-and-collect keep growing: Fnac Darty's online sales rose 4.2% in the first half, with click and collect nearly half of them [13].",
+      "New competitors include online marketplaces and brands selling direct. Best Buy's own 10-K lists marketplaces and retail media as new areas of risk and growth for the chain [12]. Consolidation also reshapes the field: EP Group became controlling shareholder of Fnac Darty with 69.3% of the capital by 10 Nov 2026 [13].",
+      "Supply chains run through Asia and a small set of chip makers. Memory prices rose 80% to 90% in early 2026 on AI demand, and HP and Dell were testing alternative memory suppliers [5]. Tariff changes also move landed cost [9]. Best Buy's filing flags tariff volatility as a planning risk [12].",
+      "Substitutes include online marketplaces, direct brand stores, refurbished and second-hand devices, and longer device lifetimes. GameStop's pre-owned and refurbished sales were $170.7M, or 21.6% of Q2 sales [4]. Streaming and digital downloads substitute for physical games, and GameStop's video game sales were $263.2M against $494.6M a year earlier [4]."
+    ],
+    "horizon": {
+      "opportunities": [
+        "Higher-margin income from advertising, marketplace and services can lift margins even if product sales are flat, as Best Buy's gross margin rise to 23.9% shows [1].",
+        "A PC and AI-device upgrade cycle supports computing, Best Buy's largest category at 47% of domestic revenue [12][2].",
+        "Share gains from weaker rivals and consolidation, such as the Fnac Darty takeover and GameStop's store closures [13][4].",
+        "Strong results at some chains: Bic Camera's half-year operating income rose 25.6% to JPY 18.7B on sales up 6.0% [16]."
+      ],
+      "threats": [
+        "Memory-driven price rises could cut unit demand or squeeze margins as retailers absorb costs [5].",
+        "Tariff changes under Section 301 keep landed costs uncertain, and refunds flatter current results [9][1].",
+        "Value-focused shoppers and heavy promotions could pressure margins into the holidays [3].",
+        "Weak profits at some chains, such as Yamada's fall in operating income to JPY 16.2B in the year to March 2026 from JPY 42.8B, show how fast earnings can slip [15]."
+      ],
+      "assessment": "Over three to five years we think the group stays a low-margin, cyclical business whose winners are the chains that add services, advertising and marketplace income to product sales. Best Buy's guide for a 4.4% to 4.5% adjusted margin shows how thin the base is [1]. Product cycles and memory-driven price inflation can help or hurt: higher prices lift revenue per unit but may reduce volume [5]. Tariffs and refunds make reported profit noisy [9]. Chains with weak differentiation, such as those that depend on gaming or on promotions, are most exposed [4][3]. Our read is that returns on capital stay high as capital needs are low [8], but growth in sales is limited to the pace of the CTA's forecast of 4% in 2026 [7]."
+    }
+  },
+  "sections": [
+    {
+      "id": "macro",
+      "paragraphs": [
+        "Consumer electronics retail is mid-cycle after a long downturn. Best Buy's enterprise comparable sales fell 6.8% in fiscal 2024 and 2.3% in fiscal 2025, rose 0.5% in fiscal 2026 and then 4.1% in the July 2026 quarter [12][1]. The Fed held the funds rate at 3.75% to 4.00% on 28 Oct 2026 by a 10-2 vote, with both dissenters wanting a hike, and described activity as expanding at a strong pace and inflation as elevated [10]. That is not an easing backdrop, and big-ticket purchases are rate sensitive.",
+        "Prices are the pressure point. The last published 12-month CPI reading was 3.7% for September, the BLS did not publish most October year-on-year figures, and gasoline was up 37.4% from a year earlier [11]. In October, the monthly CPI for televisions rose 3.3%, smartphones 1.4% and computers and peripherals 0.5%, so device inflation is visible [11]. Trade policy is the other lever: a temporary 10% Section 122 tariff lapsed on 24 July and Section 301 duties of 10% or 12.5% now apply to 60 economies [9]. We think the macro backdrop supports replacement spending but not a broad boom."
+      ]
+    },
+    {
+      "id": "demand",
+      "paragraphs": [
+        "Structural demand is steady rather than fast. The CTA forecast US consumer technology retail revenue of $578B in 2026, up 4%, in its August 2026 update [7]. That is for all channels, not only specialist chains. Computing and mobile is the engine: it was 47% of Best Buy's domestic revenue in fiscal 2026, with comps of 5.7%, while consumer electronics and appliances fell 5.4% and 8.9% [12].",
+        "In the July quarter, Best Buy's computing and mobile comps were up 6.8% and consumer electronics 5.6%, but entertainment fell 6.3% [1]. Demand is cyclical because devices are replaced when they wear out or when a new product cycle starts, and elasticity is high on price. Outside the US, JB Hi-Fi's Australian comps fell 1.4% while New Zealand rose 10.7% [3], and Fnac Darty's H1 revenue grew 0.6% like for like [13]. Memory costs are a new variable: Counterpoint said memory prices were up 80% to 90% in early 2026, which pushes up device prices [5]. Demographics matter little, though younger shoppers drive gaming and collectibles [4]."
+      ]
+    },
+    {
+      "id": "structure",
+      "paragraphs": [
+        "Porter's five forces show a hard industry. Rivalry is intense: JB Hi-Fi cites heightened competition and value-focused shoppers [3]. The threat of new entrants is high online but lower for chains with scale in buying, delivery and service. Supplier power is high: five brands (Apple, Samsung, HP, LG and Sony) accounted for about 55% of Best Buy's purchases, and its top 20 for about 80% [12]. Buyer power is high because prices are visible online. The threat of substitutes comes from brand stores, marketplaces and second-hand devices [4].",
+        "Concentration is national rather than global. Best Buy ($41.7B of revenue in fiscal 2026), Yamada (JPY 1.69 trillion) and Currys (GBP 9.25B) lead their home markets [12][15][2]. We found no published market-share table. Moats differ: scale and services at Best Buy, where services and advertising earn higher margin [1]; local density and service at Currys and Fnac Darty [2][13]. Pricing power is weak on products, and retailers rely on vendor funding and services."
+      ]
+    },
+    {
+      "id": "environment",
+      "paragraphs": [
+        "Politics and regulation are dominated by trade. The Supreme Court ruled on 20 Feb 2026 that IEEPA tariffs were unauthorized, and Best Buy's filing says refund administration is uncertain [12]. Best Buy booked about $34M of IEEPA refunds in Q2 domestic gross profit, a small share of its $9.78B quarterly revenue [1]. From 24 July, Section 301 duties of 10% or 12.5% on 60 economies replaced the temporary Section 122 tariff, and refunds are generally expected within 60 to 90 days after an importer's claim is accepted [9].",
+        "Technology is both opportunity and threat. AI-capable PCs are an increasingly important part of Currys' computing business [2], but AI data-center demand is also raising memory prices that feed device costs [5]. Best Buy's filing flags marketplace and retail media as areas of legal uncertainty [12]. Social and environmental rules on repair and recycling also matter, but we did not find a source that quantifies them. Consolidation is also visible: EP Group controls 69.3% of Fnac Darty [13]. We think the biggest emerging risk is policy and cost volatility reaching shelf prices."
+      ]
+    },
+    {
+      "id": "economics",
+      "paragraphs": [
+        "Electronics retail has thin margins and high turnover. Best Buy's fiscal 2026 gross profit rate was 22.5%, SG&A 18.3% and GAAP operating margin 3.3% [12]. In Q2 FY27 its adjusted operating margin rose to 4.3% from 3.9%, with a gross rate of 23.9% [1]. Fnac Darty's gross margin was 29.0% for the first half, but its current operating income was -EUR 34M because the second half carries peak trading [13]. Currys' adjusted pre-tax profit was GBP 191M on GBP 9.25B of revenue in 2025/26, about 2% by our calculation [2].",
+        "Returns are strong because capital needs are low. Damodaran's lease-adjusted after-tax ROIC is 21.71% for special-line retail against 9.60% for the market, and net capex is 1.59% of sales against 4.23% [8][14]. That group is broader than electronics, so we treat it as indicative. StockAnalysis shows ROIC of 26.0% at Best Buy and 11.2% at GameStop [6][20]. Operating leverage is high: Yamada's operating income fell from JPY 42.8B to JPY 16.2B on higher revenue in the year to March 2026 [15]. GameStop is a special case, with an operating margin of 13.87% that rests on collectibles and a large cash pile [20][4]."
+      ]
+    },
+    {
+      "id": "earnings",
+      "paragraphs": [
+        "Guidance has moved up. Best Buy raised FY27 comps to +1.9% to +3.0% from -1% to +1%, adjusted operating margin to 4.4% to 4.5% from 4.3% to 4.4%, and adjusted EPS to $6.70 to $6.90 from $6.30 to $6.60 [1]. Its Q3 guide of comps up 1% to 3% implies slower growth than Q2's 4.1% [1]. We did not find Q3 FY27 results, which were not out in what we searched.",
+        "Elsewhere the picture is mixed. GameStop raised its fiscal 2026 adjusted EBITDA outlook to above $650M, but net sales fell 18.7% [4]. Currys reported 7% like-for-like growth for the summer and said early trading had been very solid, though it gave no formal forward guidance in the coverage we opened [2]. Fnac Darty confirmed its 2026 outlook [13]. JB Hi-Fi said October sales slowed [3].",
+        "Our read is that the first-half beat leaves holiday expectations high, and that reported margins are flattered by IEEPA refunds at Best Buy [1]. Consensus estimate tables for the group were not publicly available to us, so we cannot say where we differ from them."
+      ]
+    },
+    {
+      "id": "valuation",
+      "paragraphs": [
+        "Valuation is low for the leader. At the close on 20 Nov 2026, Best Buy traded at 13.9x forward earnings, 16.3x trailing earnings and 8.5x EV/EBITDA, with an FCF yield of 8.61% [6]. GameStop traded at 17.7x forward earnings and 25.2x EV/EBITDA, with an FCF yield of 5.12% [20]. GameStop's enterprise value is distorted by its cash, digital assets and eBay stake [4].",
+        "Against the market, Damodaran's January 2026 forward P/E was 21.52 for special-line retail and 27.66 for all firms, with expected five-year growth of 8.08% against 13.95%, and a PEG of 3.08 against 1.90 [19]. Best Buy's discount to that group fits a company with flat revenue and low margins [12], though its ROIC of 26.0% is high [6]. Our read is that the price implies little growth and some risk of margin slippage if memory costs hit volume. We did not find 10-year average multiples we could open, so we do not compare these names with their own history."
+      ]
+    },
+    {
+      "id": "positioning",
+      "paragraphs": [
+        "Momentum has been positive. Best Buy was up 31.69% and GameStop 30.56% over 52 weeks to 20 Nov 2026 [6][20]. Best Buy's beta is 1.21, a sign of cyclical sensitivity [6]. Those gains came as Best Buy raised guidance and GameStop lifted its adjusted EBITDA outlook, so price momentum follows earnings revisions rather than a change in sector multiples [1][4]. Best Buy's market capitalization was $20.54B and GameStop's $13.45B at the same close [6][20].",
+        "Short interest was 7.76% of float at Best Buy and 9.21% at GameStop on StockAnalysis's latest data, which suggests meaningful skepticism, especially about GameStop's shrinking sales [6][20][4]. We did not find ETF holdings or flow data for the group, and no sector index data was available to us, so we cannot comment on benchmark weights or flows. Our read is that positioning is mixed: the US leaders have re-rated on the 2026 rebound, while the second half faces tougher comparisons and rising component costs [1][5]."
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "n": 1,
+      "title": "Best Buy Q2 FY27 results (quarter ended 1 Aug 2026)",
+      "publisher": "Best Buy / Finviz (Business Wire)",
+      "date": "2026-08-27",
+      "url": "https://finviz.com/news/386073/best-buy-reports-second-quarter-results"
+    },
+    {
+      "n": 2,
+      "title": "Currys sales jump 7% as heatwave fuelled demand for cooling tech",
+      "publisher": "Retail Gazette",
+      "date": "2026-09-10",
+      "url": "https://www.retailgazette.co.uk/blog/2026/09/currys-sales-jump-7-as-heatwave-fuelled-demand-for-cooling-tech/"
+    },
+    {
+      "n": 3,
+      "title": "JB Hi-Fi FY27 first-quarter sales update (1 Jul to 30 Sep 2026)",
+      "publisher": "StockwireX (from JB Hi-Fi ASX release)",
+      "date": "2026-10-29",
+      "url": "https://www.stockwirex.com/asx-stock-news/consumer-discretionary/jbh-jb-hi-fi-fy27-sales-update-october-2026/"
+    },
+    {
+      "n": 4,
+      "title": "GameStop Q2 fiscal 2026 earnings release (Form 8-K, Exhibit 99.1)",
+      "publisher": "GameStop Corp. / SEC",
+      "date": "2026-09-08",
+      "url": "https://www.sec.gov/Archives/edgar/data/0001326380/000132638026000050/a991-fy26q2earningsrelease.htm"
+    },
+    {
+      "n": 5,
+      "title": "Curse of AI to push up PC prices as memory and CPU shortages bite",
+      "publisher": "The Register",
+      "date": "2026-02-05",
+      "url": "https://www.theregister.com/2026/02/05/pc_prices_rising/"
+    },
+    {
+      "n": 6,
+      "title": "Best Buy (BBY) statistics and valuation, 20 Nov 2026",
+      "publisher": "StockAnalysis",
+      "date": "2026-11-21",
+      "url": "https://stockanalysis.com/stocks/bby/statistics/"
+    },
+    {
+      "n": 7,
+      "title": "Inside the Numbers: the 2026 Consumer Technology Industry Forecast",
+      "publisher": "Consumer Technology Association",
+      "date": "2026-08-18",
+      "url": "https://www.cta.tech/events/inside-the-numbers-the-2026-consumer-technology-industry-forecast/"
+    },
+    {
+      "n": 8,
+      "title": "Return on Capital by Sector (US)",
+      "publisher": "Aswath Damodaran, NYU Stern",
+      "date": "2026-01",
+      "url": "https://pages.stern.nyu.edu/~adamodar/New_Home_Page/datafile/roc.html"
+    },
+    {
+      "n": 9,
+      "title": "Tariff reset: Section 122 expires as Section 301 duties expand",
+      "publisher": "UHY",
+      "date": "2026-07",
+      "url": "https://uhy-us.com/insights/news/2026/july/tariff-reset-section-122-expires-as-section-301-duties-expand"
+    },
+    {
+      "n": 10,
+      "title": "FOMC statement, 28 October 2026",
+      "publisher": "Federal Reserve Board",
+      "date": "2026-10-28",
+      "url": "https://www.federalreserve.gov/newsevents/pressreleases/monetary20261028a.htm"
+    },
+    {
+      "n": 11,
+      "title": "Consumer Price Index, October 2026",
+      "publisher": "U.S. Bureau of Labor Statistics",
+      "date": "2026-11-10",
+      "url": "https://www.bls.gov/news.release/archives/cpi_11102026.htm"
+    },
+    {
+      "n": 12,
+      "title": "Best Buy Form 10-K for fiscal year ended 31 Jan 2026",
+      "publisher": "Best Buy Co., Inc.",
+      "date": "2026-03-18",
+      "url": "https://s204.q4cdn.com/864376893/files/doc_financials/2026/q4/10K-FY26.pdf"
+    },
+    {
+      "n": 13,
+      "title": "Fnac Darty reports its 2026 half-year results",
+      "publisher": "Fnac Darty",
+      "date": "2026-07-22",
+      "url": "https://www.fnacdarty.com/en/fnac-darty-reports-its-2026-half-year-results/"
+    },
+    {
+      "n": 14,
+      "title": "Cash Flow Drivers by Sector (US), January 2026",
+      "publisher": "Aswath Damodaran, NYU Stern",
+      "date": "2026-01",
+      "url": "https://pages.stern.nyu.edu/~adamodar/New_Home_Page/datafile/cfbasics.html"
+    },
+    {
+      "n": 15,
+      "title": "Yamada Holdings (TYO:9831) financials",
+      "publisher": "StockAnalysis",
+      "date": "2026-11-22",
+      "url": "https://stockanalysis.com/quote/tyo/9831/financials/"
+    },
+    {
+      "n": 16,
+      "title": "Bic Camera Q2 FY2026 interim results (to Feb 2026)",
+      "publisher": "Japan IR",
+      "date": "2026-04-10",
+      "url": "https://japanir.jp/en/?p=39844"
+    },
+    {
+      "n": 17,
+      "title": "Margins by Sector (US), January 2026",
+      "publisher": "Aswath Damodaran, NYU Stern",
+      "date": "2026-01",
+      "url": "https://pages.stern.nyu.edu/~adamodar/New_Home_Page/datafile/margin.html"
+    },
+    {
+      "n": 18,
+      "title": "Debt Fundamentals by Sector (US), January 2026",
+      "publisher": "Aswath Damodaran, NYU Stern",
+      "date": "2026-01",
+      "url": "https://pages.stern.nyu.edu/~adamodar/New_Home_Page/datafile/dbtfund.html"
+    },
+    {
+      "n": 19,
+      "title": "PE Ratios by Sector (US), January 2026",
+      "publisher": "Aswath Damodaran, NYU Stern",
+      "date": "2026-01",
+      "url": "https://pages.stern.nyu.edu/~adamodar/New_Home_Page/datafile/pedata.html"
+    },
+    {
+      "n": 20,
+      "title": "GameStop (GME) statistics and valuation, 20 Nov 2026",
+      "publisher": "StockAnalysis",
+      "date": "2026-11-21",
+      "url": "https://stockanalysis.com/stocks/gme/statistics/"
+    }
+  ]
+}
