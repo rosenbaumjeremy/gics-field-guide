@@ -1,0 +1,505 @@
+{
+  "code": "25202010",
+  "added": "2026-11-23",
+  "asOf": "2026-11-20",
+  "summary": "Leisure products is splitting in two. Toys and collectibles are booming: US toy dollar sales rose 20% in January to September 2026 [3], Hasbro's Q3 revenue rose 15% [2], while Mattel grew 4% but cut its full-year outlook after softer point-of-sale [1]. Big-ticket recreation is growing more modestly: Polaris sales rose 11% [4] and Brunswick's 7% [5], yet new powerboat retail units fell 7.1% in the 12 months to April [6]. Golf and outdoor names are flat to down: Acushnet sales fell 1.3% [7] and YETI trimmed its outlook [8]. Tariff refunds flatter margins at most of them [1][2][4][7].",
+  "metrics": [
+    {
+      "label": "US toy industry dollar sales (Circana)",
+      "value": "+20%",
+      "context": "January to September 2026 vs same period of 2025; units +18%, average selling price +2%; collectibles +56%",
+      "source": 3
+    },
+    {
+      "label": "Hasbro Q3 net revenue",
+      "value": "$1.595B",
+      "context": "+15%; adjusted operating margin 33.9% vs 25.6%; includes about $55M of tariff refunds; quarter ended 27 Sep 2026",
+      "source": 2
+    },
+    {
+      "label": "Mattel Q3 net sales",
+      "value": "$1,806.7M",
+      "context": "+4% (+3% constant currency); Barbie gross billings -9%; 2026 sales growth guide cut to 1% to 4% from 3% to 6%; quarter ended 30 Sep 2026",
+      "source": 1
+    },
+    {
+      "label": "Polaris Q3 sales",
+      "value": "$2,042.6M",
+      "context": "+11%; Powersports +18%, Marine +29%; 2026 adjusted sales guided to $7.55B to $7.60B; quarter ended 30 Sep 2026",
+      "source": 4
+    },
+    {
+      "label": "US new powerboat retail unit sales",
+      "value": "214,292",
+      "context": "-7.1% over the 12 months May 2025 to April 2026 (NMMA data published 10 Jul 2026)",
+      "source": 6
+    },
+    {
+      "label": "Brunswick Q3 adjusted operating margin",
+      "value": "10.1%",
+      "context": "Up from 7.8%; net sales $1.45B, +6.9%; 2026 adjusted EPS guided to about $4.65",
+      "source": 5
+    },
+    {
+      "label": "YETI Q3 gross margin",
+      "value": "57.7%",
+      "context": "+180 bps; lower net tariff costs added 200 bps; net sales $509.4M, +4%; quarter ended 3 Oct 2026",
+      "source": 8
+    },
+    {
+      "label": "Peloton paid connected fitness subscriptions",
+      "value": "2.475M",
+      "context": "-9% year on year; revenue $559.2M, +2%; quarter ended 30 Sep 2026",
+      "source": 9
+    }
+  ],
+  "watch": [
+    "Holiday point-of-sale: Mattel cut its 2026 sales growth guide to 1% to 4% on softer point-of-sale late in Q3, even as Circana shows toy dollar sales up 20% through September [1][3].",
+    "Quality of earnings: Mattel booked $88M and Hasbro about $55M of tariff refunds in Q3, Polaris $10M and Acushnet expects about $30M in 2026, so reported margins overstate the run rate [1][2][4][7].",
+    "Big-ticket demand: powerboat retail units were down 7.1% on a rolling 12-month basis to April 2026, while Brunswick says dealer pipelines are lean [5][6].",
+    "Consumer-brand momentum is uneven: Peloton subscriptions fell 9%, YETI cut its sales outlook and Callaway guided a fourth-quarter adjusted EBITDA loss of $45M to $53M [8][9][10].",
+    "Retail concentration: Walmart, Target and Amazon together took about 44% of Mattel's 2024 sales, so one buyer's inventory decisions can move a quarter [11]."
+  ],
+  "bellwethers": [
+    "Hasbro",
+    "Mattel",
+    "Polaris",
+    "Brunswick",
+    "Acushnet",
+    "YETI",
+    "Peloton",
+    "Callaway Golf"
+  ],
+  "basics": {
+    "intro": "Leisure products companies design, make and sell goods people buy for fun and recreation: toys and games, sporting goods, golf equipment, fitness gear, outdoor coolers and drinkware, boats, engines and off-road vehicles. Customers are mostly households, reached through mass retailers, specialty dealers, e-commerce and the companies' own sites. Revenue comes from product sales, plus licensing, subscriptions and digital games at some names. GICS places Hasbro, Mattel, Polaris, Brunswick and Peloton here. Apparel and footwear sit in Apparel, Accessories and Luxury Goods and Footwear, bicycle retailers and sporting goods stores sit in specialty retail, and video game publishers sit in Entertainment.",
+    "products": [
+      {
+        "name": "Toys, games and collectibles",
+        "what": "Dolls, vehicles, action figures, building sets, plush, board games and trading cards sold mainly through mass retailers and online, with strong seasonality into the holidays.",
+        "examples": "Mattel Barbie and Hot Wheels, Hasbro Transformers and Magic: The Gathering"
+      },
+      {
+        "name": "Powersports and off-road vehicles",
+        "what": "Motorized recreational vehicles such as off-road vehicles, side-by-sides, snowmobiles and motorcycles, sold through franchised dealers at high price points and often financed.",
+        "examples": "Polaris RZR and Ranger, Harley-Davidson, BRP"
+      },
+      {
+        "name": "Recreational boats, engines and marine parts",
+        "what": "Boats and outboard engines for fishing and leisure, plus the parts, electronics and accessories that sell into the large installed base.",
+        "examples": "Brunswick Mercury Marine, Sea Ray and Boston Whaler, Malibu Boats"
+      },
+      {
+        "name": "Golf equipment",
+        "what": "Clubs, balls, gloves and bags sold through golf shops and retailers; balls are bought repeatedly, clubs are replaced on product cycles.",
+        "examples": "Acushnet Titleist balls and clubs, Callaway Golf"
+      },
+      {
+        "name": "Outdoor and premium lifestyle products",
+        "what": "Branded coolers, drinkware, packs and camping gear sold at a premium on brand strength, direct to consumers and through wholesale partners.",
+        "examples": "YETI coolers and Rambler drinkware"
+      },
+      {
+        "name": "Connected fitness",
+        "what": "Exercise equipment tied to a paid content subscription, so the hardware sale starts a recurring revenue stream.",
+        "examples": "Peloton bikes, treadmills and app subscriptions"
+      }
+    ],
+    "terms": [
+      {
+        "term": "Point of sale (POS)",
+        "meaning": "What consumers actually buy at the register. It leads a manufacturer's own shipments, because retailers stock up or run down inventory."
+      },
+      {
+        "term": "Gross billings",
+        "meaning": "Mattel's measure of sales before discounts and allowances. Net sales are billings less those deductions."
+      },
+      {
+        "term": "Sell-in versus sell-through",
+        "meaning": "Sell-in is what the maker ships to retailers or dealers; sell-through is what shoppers buy from them. A gap builds inventory that is later worked down."
+      },
+      {
+        "term": "Licensing and royalties",
+        "meaning": "Toy and outdoor makers pay film and brand owners for the right to use a character or logo, or earn royalties from others using theirs. It adds demand but costs margin."
+      },
+      {
+        "term": "Floorplan financing",
+        "meaning": "Credit that dealers use to stock boats and vehicles. Higher rates raise dealer carrying costs and make them order less."
+      },
+      {
+        "term": "Wholesale versus direct-to-consumer (DTC)",
+        "meaning": "Wholesale sells to retailers at a lower price per item but with less selling cost; DTC sells to shoppers at full price with higher marketing and fulfilment cost."
+      },
+      {
+        "term": "Collectibles and kidults",
+        "meaning": "Toys and cards bought by adult fans. They tend to carry higher prices and strong demand for franchises such as Pokemon or Magic."
+      },
+      {
+        "term": "Seasonality",
+        "meaning": "Toys earn most of their profit in the second half of the year before holidays, while boats, golf and outdoor gear peak in spring and summer."
+      },
+      {
+        "term": "IEEPA tariffs",
+        "meaning": "Import duties imposed under an emergency-powers law that were later struck down. Importers can claim refunds, which show up as one-off profit."
+      },
+      {
+        "term": "Adjusted EBITDA",
+        "meaning": "Earnings before interest, tax, depreciation and amortisation, adjusted for items management calls unusual. Several companies here guide to it."
+      },
+      {
+        "term": "Installed base",
+        "meaning": "Boats, vehicles or bikes already in owners' hands. They generate repeat sales of engines, parts, accessories or subscriptions."
+      },
+      {
+        "term": "Product cycle",
+        "meaning": "Golf clubs and similar durables are redesigned every year or two. The launch timing can pull sales between quarters."
+      }
+    ],
+    "drivers": [
+      {
+        "name": "Consumer confidence and discretionary income",
+        "how": "Leisure goods are postponable. When household budgets tighten, boats, vehicles and exercise equipment are cut first and sales fall faster than overall spending."
+      },
+      {
+        "name": "Interest rates and consumer credit",
+        "how": "Boats and vehicles are usually financed, and dealers finance their stock. Higher rates lift monthly payments and dealer costs, which cuts orders."
+      },
+      {
+        "name": "Tariffs and sourcing",
+        "how": "Most toys, golf gear and drinkware are made in Asia, so duties raise landed cost. Companies pass some on in price, absorb some and re-source, which moves gross margin within a few quarters."
+      },
+      {
+        "name": "Franchise strength and licensing",
+        "how": "A hit film, game or collectible line lifts a toy maker's volume and price. A fading brand does the reverse, so revenue can swing by double digits."
+      },
+      {
+        "name": "Retail and dealer inventory",
+        "how": "Retailers and dealers hold the stock. When they over-order, the maker's shipments run ahead of sales and later drop; lean stock means orders follow real demand."
+      },
+      {
+        "name": "Operating leverage",
+        "how": "Plants, design teams and marketing are largely fixed costs, so extra volume raises profit faster than revenue and a volume fall cuts it faster."
+      }
+    ]
+  },
+  "fundamentals": {
+    "business": [
+      "Revenue comes mainly from selling physical products, with licensing, digital games and subscriptions on top. Hasbro's Q3 revenue of $1.595B included $747.2M from Wizards of the Coast and digital gaming and $827.9M from Consumer Products [2]. Peloton's Q1 FY2027 revenue was $559.2M, up 2%, while paid subscriptions fell 9% [9].",
+      "Customers are households, reached through retailers or dealers. Mattel's three largest customers, Walmart, Target and Amazon, accounted for about 44% of its 2024 sales [11]. YETI's Q3 sales split between wholesale at $237.3M and direct-to-consumer at $272.2M [8]. Polaris and Brunswick sell through franchised dealers [4][5].",
+      "Main costs are materials, manufacturing, freight, tariffs, royalties, marketing and, for dealers' customers, financing support. Mattel paid $244.1M of royalty expense in 2024 and runs principal plants in China, Indonesia, Malaysia, Mexico and Thailand [11]. Mattel guides to an adjusted gross margin of roughly 48% for 2026, excluding refunds [1].",
+      "Pricing power rests on brand, franchise and category. YETI earned a 57.7% gross margin in Q3, Peloton 61.3% and Mattel 55.0% adjusted, against a Damodaran gross margin of 39.8% for the broader recreation group in January 2026 [8][9][1][12]. Boats and vehicles carry thinner margins: Polaris's gross margin was 21.2% [4].",
+      "Main assets are brands and intellectual property, plants, inventory and receivables. Polaris held $1,544.9M of inventory at 30 Sep 2026 [4]; Brunswick's finished goods were reported at about $834M, per a summary of its 10-Q [26]. Liabilities vary: Mattel had $2,335.0M of long-term debt [1], while YETI had about $69.9M [8].",
+      "Mixed. Toy makers that outsource or own light plants are asset-light, while boat, engine and vehicle makers run factories and carry dealer-support obligations. Damodaran puts net capex at 1.34% of sales for the broader recreation group against 4.23% for the whole market in January 2026 [25]. YETI guides capex of $60M to $70M [8]."
+    ],
+    "overview": [
+      "We did not find a single reliable, citable global market size for leisure products. Useful guides are Circana's data showing US toy dollar sales up 20% in January to September 2026 [3], and NMMA's count of 214,292 new powerboat retail units in the 12 months to April 2026 [6].",
+      "Main segments are toys and games (Mattel, Hasbro), powersports and boats (Polaris, Brunswick), golf (Acushnet, Callaway), outdoor lifestyle (YETI) and fitness (Peloton). Mattel's Q3 gross billings split into dolls $703.2M, vehicles $679.8M, action figures, building sets and games $450.8M and infant and preschool $220.8M [1].",
+      "Makers sit between component suppliers and retailers or dealers. Mattel makes most core products in its own plants and uses third parties mainly for non-core items [11]. Brunswick's Propulsion segment sells engines to boat builders, and its parts and accessories segment earned a 24.6% adjusted margin selling into the installed base [5].",
+      "The industry has shifted toward franchises, adult buyers and online. Circana says consumers aged 12 and over drove most 2026 toy growth, with collectibles up 56% and TikTok Shop toy sales near $1.6B [3]. Big-ticket categories have moved the other way: powerboat retail units fell 7.1% in the year to April 2026 [6].",
+      "Sales concentrate in North America: 89% of Polaris's Q3 sales were there [4]. We did not find a sourced regional split for the rest of the group. Production concentrates in Asia and Mexico for toys, which Mattel's plants in China, Indonesia, Malaysia, Mexico and Thailand show [11]."
+    ],
+    "competition": [
+      "There are dozens of significant public competitors plus many private ones. Mattel's 10-K names Hasbro, Jazwares, LEGO, The Pokemon Company and Spin Master among toy rivals [11]. On 20 Nov 2026 market caps were $15.72B for Hasbro, $4.63B Brunswick, $4.58B Acushnet, $3.91B Mattel, $3.63B Polaris, $2.63B YETI and $2.22B Peloton [14][15][18][13][16][17][19].",
+      "Leaders by sub-segment: Hasbro and Mattel in toys, Brunswick in marine engines, Polaris in off-road vehicles, Acushnet in golf balls. We did not find a published market-share table we could open, so we do not give shares. Polaris itself said its North American off-road vehicle retail sales rose low single digits while the industry was flat [4].",
+      "Fragmented across the industry, concentrated within niches. Large toy franchises, marine engines and golf balls each have a few strong players, while sporting goods, fitness and outdoor products have many brands. Acushnet's golf ball sales were $209.1M in Q3, up 3.3% [7].",
+      "Barriers are moderate. A brand and distribution take years to build: Mattel depends on three retail customers for about 44% of sales [11], and Brunswick and Polaris rely on dealer networks [4][5]. Digital channels such as TikTok Shop, now nearly 5% of US toy sales, lower barriers for new entrants [3].",
+      "Scale helps in sourcing, licensing and retailer negotiations. Hasbro's 27.5% operating margin and Mattel's 8.7% operating margin, on trailing data from StockAnalysis, show how much a hit franchise can matter beyond scale [14][13]. Brunswick's engine business sells across competing boat builders, which spreads its fixed costs [5].",
+      "Mixed. Many toys and basic sporting goods are close to commodities, while franchises, premium drinkware and brand-name golf balls are differentiated. YETI's 57.7% gross margin against Polaris's 21.2% reflects branded consumer goods versus vehicles [8][4].",
+      "Retailers and dealers hold the bargaining power. Mattel's top three customers bought about 44% of sales in 2024 [11] and licensors such as Disney and NBCUniversal gain leverage through royalties [11]. Suppliers are numerous, so trade policy rather than suppliers sets cost shocks."
+    ],
+    "drivers": [
+      "Revenue growth comes from franchise strength, pricing, new products, adult buyers and share gains. Hasbro's Wizards of the Coast and digital gaming revenue rose 31% in Q3 [2]. Circana shows toy dollar sales up 20% on units up 18% and average selling price up 2% [3].",
+      "Operating margins reflect gross margin, tariffs, royalties, marketing and operating leverage. Hasbro's adjusted operating margin rose to 33.9% from 25.6% [2], and Brunswick's rose to 10.1% from 7.8% [5]. Damodaran's pre-tax operating margin for the broader recreation group was 9.69% against 12.82% for all US firms in January 2026 [12].",
+      "Key cost variables are materials, freight, tariffs and wages. Mattel received $88M of tariff refunds in Q3 and its adjusted gross margin rose to 55.0% from 50.2% [1]. YETI said lower net tariff costs added 200 bps to gross margin [8]. Polaris guides about $1.09 of 2026 adjusted EPS from tariff refunds [4].",
+      "Rates matter most for financed big-ticket goods. The Fed held at 3.75% to 4.00% on 28 Oct 2026 with two members preferring a hike [20]. NMMA said inflation, high interest rates and slowing housing starts were weighing on discretionary spending, with consumer confidence at 92.8 in April [6]. Damodaran's debt to EBITDA for the broader group is 4.78 [24].",
+      "Sensitive to household spending and prices. The Fed called activity strong and inflation elevated [20]. In October 2026 BLS toy prices rose 1.8% and recreation commodities 0.7% from September; year-on-year figures were not published for those series because of missing October 2025 data [21]. Oil and commodity inputs feed into freight and material costs.",
+      "Mixed. Big-ticket goods are cyclical: Brunswick's wholesale growth has run beside weak retail unit sales [5][6]. Toys are seasonal and franchise-driven, with a long-term low-growth base that hits get lifted by cycles. Subscription lines such as Peloton's add recurring revenue but have seen subscriber declines [9]."
+    ],
+    "financials": [
+      "Growth is uneven. Damodaran's expected five-year EPS growth for the broader recreation group is 9.95% against 13.95% for all US firms [23]. Recent quarterly revenue ranges from Hasbro's +15% [2] and Polaris's +11% [4] to Acushnet's -1.3% [7] and Callaway's -5.6% [10].",
+      "Margins vary widely. Damodaran puts the broader recreation group at a 39.79% gross margin and 9.69% unadjusted pre-tax operating margin, against 37.76% and 12.82% for the market (January 2026) [12]. StockAnalysis operating margins range from 27.52% at Hasbro to 3.06% at Polaris on trailing data [14][16].",
+      "Returns are decent at the leaders. Damodaran shows after-tax ROIC of 14.26% for the broader recreation group against 10.08% for the market, though its page carries conflicting dates [22]. StockAnalysis ROIC was 34.58% at Hasbro, 18.69% at YETI, 14.35% at Acushnet, 9.62% at Polaris, 9.51% at Mattel and 8.08% at Brunswick [14][17][18][16][13][15].",
+      "Leverage is moderate to high. Damodaran's market debt to capital is 38.98% for the broader group against 25.93% for the market, with interest coverage of 2.26 versus 6.90 [24]. Mattel's leverage ratio was 2.7x with net debt of $1,793.6M [1]; Hasbro had about $3.51B of debt against $1.43B of cash and short-term investments [2].",
+      "Cash generation is strong at several names. Free cash flow yields on 20 Nov 2026 were 20.43% for Peloton, 11.23% for Mattel, 8.89% YETI, 8.01% Brunswick, 7.80% Hasbro, 7.32% Polaris and 5.20% Acushnet [19][13][17][15][14][16][18]. Peloton's quarterly free cash flow was $143M [9].",
+      "Capital needs are low to moderate. Damodaran's net capex is 1.34% of sales for the broader recreation group, with non-cash working capital at 17.28% of revenue [25]. Inventory ties up cash: Polaris held $1,544.9M of it [4], and Brunswick guided free cash flow of $400M or more for 2026, per a summary of its results [26].",
+      "Multiples: on 20 Nov 2026 forward P/E was 10.33 for Mattel, 11.72 YETI, 14.03 Brunswick, 16.42 Peloton, 16.67 Hasbro, 20.27 Acushnet and 22.40 Polaris [13][17][15][19][14][18][16]. Damodaran's January 2026 forward P/E for the broader recreation group was 38.02, distorted by depressed trailing earnings, against 27.66 for the market [23]."
+    ],
+    "risks": [
+      "Trade policy is the main regulatory risk. Refunds of struck-down IEEPA tariffs flatter 2026 results, and Mattel and Hasbro stripped them out of guidance or called them out [1][2]. Mattel also complies with US product-safety law and with EU and Canadian rules, which add testing costs [11]. We did not find a sourced timetable for further tariff changes.",
+      "AI and technology cut both ways. Mattel's licensed properties include Microsoft's Minecraft and Halo [11], and digital games and trading-card platforms matter to Hasbro's Wizards business [2]. We found no hard figures on AI's earnings effect for these companies.",
+      "Demographics matter through children's population, golf and boating participation and household formation, but the effect is slow. Circana says consumers aged 12 and over now drive most toy growth, which lowers dependence on child numbers [3]. We did not find sourced demographic data for other categories.",
+      "Consumer behavior is shifting toward collectibles, licensed goods and online. Circana reports collectibles up 56% and licensed toys up 27% in January to September 2026 [3]. At the same time Mattel's infant, toddler and preschool billings fell 16% [1], and Peloton paid subscriptions fell 9% [9].",
+      "New competitors include social commerce and direct brands. TikTok Shop reached about $1.6B of toy sales, nearly 5% of US toy sales [3]. Mattel pays royalties of $244.1M a year to licensors, a sign that creators and brand owners capture part of the value [11].",
+      "Geopolitics and supply chains matter because most goods come from Asia. Mattel's principal plants are in China, Indonesia, Malaysia, Mexico and Thailand [11]. Brunswick reported an estimated $33M of tariff-related reduction in cost of sales year to date, which it treats as one-off, per a summary of its filing [26].",
+      "Substitutes include experiences, streaming and games, and used goods: pre-owned boat sales are a large part of boating, though our NMMA source did not quantify them [6]. We did not find sourced data on resale or rental in the other categories."
+    ],
+    "horizon": {
+      "opportunities": [
+        "Collectibles, trading cards and licensed franchises are driving toy growth, with US toy dollar sales up 20% through September 2026 [3].",
+        "Rate cuts or easier financing would help big-ticket categories, where powerboat retail units are down 7.1% and dealers keep lean stock [5][6].",
+        "Balance-sheet repair and buybacks: Mattel repurchased $308M in nine months, YETI about $150M and Hasbro doubled its buyback target [1][8][2].",
+        "Premium brands with direct channels, such as YETI at a 57.7% gross margin and Acushnet in golf balls, can keep pricing power [7][8]."
+      ],
+      "threats": [
+        "Hit-driven toy cycles and softer point-of-sale, as Mattel's guidance cut after late-Q3 deceleration shows [1].",
+        "High financing costs: the Fed held at 3.75% to 4.00% with two dissenters wanting a hike [20].",
+        "Tariff refunds fade, leaving underlying margins exposed: Hasbro, Mattel, Polaris, Acushnet and YETI all booked refunds in 2026 [1][2][4][7][8].",
+        "Subscription and equipment declines, such as Peloton's 9% subscriber fall and Callaway's 7.9% drop in equipment sales [9][10]."
+      ],
+      "assessment": "Over three to five years we think leisure products stays a two-speed group. Franchise-led toy and collectibles businesses such as Hasbro have the strongest momentum and returns, helped by adult buyers and card games [2][3][14]. Big-ticket categories depend on rates, housing and confidence, which NMMA describes as subdued [6]. Tariff refunds are inflating 2026 margins at several names, so we would look at guidance that excludes them, as Mattel gives [1]. Leaders with strong brands and modest leverage, such as YETI and Acushnet, look best placed to hold margins, while heavily financed or subscription-led models look more exposed to demand and rate shifts [8][7][9]. Our read is that results will be set by brand strength and execution more than by market growth."
+    }
+  },
+  "sections": [
+    {
+      "id": "macro",
+      "paragraphs": [
+        "Where we are in the cycle: spending is resilient at the top and cautious in big-ticket goods. The Fed held the funds rate at 3.75% to 4.00% on 28 Oct 2026 by a 10-2 vote, with both dissenters preferring a quarter-point hike, and described activity as expanding at a strong pace and inflation as elevated [20]. That keeps financing costs high for boats and vehicles, which are bought on credit.",
+        "NMMA said in July that inflation, high rates and slowing housing starts were weighing on discretionary spending, and new powerboat retail units were down 7.1% over the 12 months to April 2026 [6]. Polaris, by contrast, raised its 2026 sales guide to $7.55B to $7.60B and said North American off-road retail sales rose low single digits while the industry was flat [4]. Price data are thin: in the October 2026 CPI, toys rose 1.8% and recreation commodities 0.7% from September, but BLS could not publish year-on-year changes for those series because October 2025 data were not collected [21].",
+        "We think the cycle favours low-ticket, franchise-driven categories, where Circana reports toy dollar sales up 20% [3], over financed durables. We did not find currency-specific data for the group; Mattel said foreign exchange should add roughly 1% to 2026 net sales [1]."
+      ]
+    },
+    {
+      "id": "demand",
+      "paragraphs": [
+        "We did not find a citable global market-size estimate for leisure products. Demand evidence comes from category data. Circana says US toy dollar sales rose 20% in January to September 2026 on units up 18%, with collectibles up 56%, licensed toys up 27% and consumers aged 12 and over driving most of the growth [3]. That is far above the roughly low-single-digit growth that Mattel guides for itself, 1% to 4% in constant currency [1], which tells us Mattel is not capturing all of the category growth.",
+        "In big-ticket categories demand is cyclical. New powerboat retail units were 214,292 over the 12 months to April 2026, down 7.1% [6], while Polaris Powersports sales rose 18% in Q3 and its Marine segment 29% [4]. Peloton's paid connected fitness subscriptions fell 9% to 2.475M [9]. Golf is steady rather than growing: Acushnet's Titleist golf equipment sales rose 0.5% in Q3 [7].",
+        "Secular drivers are adult fandom, social commerce (TikTok Shop sold about $1.6B of toys) and licensed franchises [3]. Demographic effects are slow and we did not find sourced data sizing them. Elasticity is high for financed durables and lower for toys, where parents and collectors often trade down rather than stop buying."
+      ]
+    },
+    {
+      "id": "structure",
+      "paragraphs": [
+        "Porter's five forces: rivalry is intense within each niche, with Mattel naming Hasbro, Jazwares, LEGO, The Pokemon Company and Spin Master as competitors [11]. The threat of new entrants is moderate: brands and retail access take years to build, but social commerce lowers barriers, and TikTok Shop is now nearly 5% of US toy sales [3]. Buyer power is high because Walmart, Target and Amazon took about 44% of Mattel's 2024 sales [11]. Supplier power is low to moderate, since manufacturing is spread across China, Indonesia, Malaysia, Mexico and Thailand [11]. The threat of substitutes is real: video games, streaming, experiences and used goods compete for leisure spending.",
+        "Concentration is modest overall. On 20 Nov 2026, market caps ranged from Hasbro's $15.72B to Peloton's $2.22B [14][19]. We did not find a published share table, so we do not state shares. Moats are brand and franchise (Hasbro's Wizards business, Mattel's Hot Wheels, YETI), distribution (Polaris and Brunswick dealer networks) and installed bases (Brunswick's parts and accessories business earned a 24.6% adjusted margin) [2][1][5]. Pricing power is strongest in branded goods: YETI's gross margin was 57.7% [8]."
+      ]
+    },
+    {
+      "id": "environment",
+      "paragraphs": [
+        "Politics and regulation are dominated by trade. IEEPA tariff refunds are now flowing to importers: Mattel recorded $88M in Q3, Hasbro about $55M, Polaris $10M, Acushnet about $33.8M year to date and YETI $50.3M over nine months [1][2][4][7][8]. Mattel excludes refunds from its guidance [1], and YETI strips $34.4M from non-GAAP results [8]. We did not find a sourced schedule for any replacement duties.",
+        "Product safety is a standing regulatory factor for toys: Mattel's 10-K cites the Consumer Product Safety Act, the Consumer Product Safety Improvement Act of 2008, the Federal Hazardous Substances Act, EU and Canadian rules, and privacy law for connected products (COPPA, GDPR, CCPA) [11].",
+        "Technology cuts both ways: digital play, trading-card platforms and social commerce create new demand and new competition [2][3], and Mattel licenses video-game franchises such as Minecraft and Halo [11]. We found no sourced evidence of AI's financial effect on the group. Environmental factors include materials rules and emissions limits for engines and vehicles; we did not open sourced detail. We think the biggest emerging risk is policy whiplash, where duties change faster than companies can move production."
+      ]
+    },
+    {
+      "id": "economics",
+      "paragraphs": [
+        "Economics are decent on average with wide dispersion. Damodaran's January 2026 data for a broader recreation group gives a 39.79% gross margin, 16.64% EBITDA margin, 9.69% unadjusted pre-tax operating margin and a negative 4.72% net margin, against a 12.82% operating margin for the market [12]. Hasbro's adjusted operating margin was 33.9% in Q3 [2], Brunswick's 10.1% [5] and Acushnet's adjusted EBITDA margin 17.7% [7], while Polaris's gross margin was 21.2% [4].",
+        "Returns are above the market for the group and very high at Hasbro. Damodaran shows after-tax ROIC of 14.26% against 10.08% for all US firms [22], and StockAnalysis shows 34.58% at Hasbro, 18.69% at YETI and 9.51% at Mattel [14][17][13]. Capital intensity is low: net capex is 1.34% of sales in the group, but non-cash working capital is 17.28% of revenue [25]. Operating leverage is visible at Hasbro, where revenue rose 15% while adjusted operating margin rose 8.3 points to 33.9% in Q3 [2]. Free cash flow is solid: YETI guides $200M to $225M for 2026 and Peloton generated $143M in one quarter [8][9]."
+      ]
+    },
+    {
+      "id": "earnings",
+      "paragraphs": [
+        "Reported earnings are inflated by tariff refunds. Mattel's Q3 adjusted EPS was $1.30 against $0.91, with $88M of refunds in the quarter, yet its 2026 guide of $1.05 to $1.20 adjusted EPS excludes them and sales growth was cut to 1% to 4% [1]. Hasbro raised 2026 revenue growth to 7% to 9% in constant currency and adjusted operating margin to 27% to 28% [2]. Polaris raised adjusted EPS to $3.50 to $3.60, of which about $1.09 comes from refunds [4].",
+        "Guidance is mixed. Brunswick targets adjusted EPS of about $4.65 and sales of $5.7B to $5.8B [5]. Acushnet reaffirmed sales of $2,650M to $2,675M and narrowed adjusted EBITDA to $455M to $470M, including about $30M of refunds [7]. YETI cut adjusted sales growth to about 6% from 7% to 8% [8]. Callaway raised sales to $2.065B to $2.078B but guided a fourth-quarter adjusted EBITDA loss of $45M to $53M [10]. Peloton kept fiscal 2027 revenue at $2.30B to $2.40B [9].",
+        "Our read is that underlying growth outside toys is low single digit once refunds are removed, and that Mattel's guidance cut shows holiday risk even in a hot toy market [1][3]. We did not find consensus estimate tables for the group that we could open, so we do not state where we differ from consensus."
+      ]
+    },
+    {
+      "id": "valuation",
+      "paragraphs": [
+        "Valuation is low for most of the group. On 20 Nov 2026 forward P/E was 10.33 for Mattel, 11.72 for YETI, 14.03 for Brunswick, 16.42 for Peloton, 16.67 for Hasbro, 20.27 for Acushnet and 22.40 for Polaris [13][17][15][19][14][18][16]. EV/EBITDA ranged from 8.31 at Peloton to 14.79 at Acushnet [19][18]. Damodaran's January 2026 forward P/E for a broader recreation group was 38.02 against 27.66 for the market, but its trailing P/E of 119 shows earnings were depressed, so we place little weight on it [23].",
+        "FCF yields were 20.43% at Peloton, 11.23% at Mattel, 8.89% at YETI, 8.01% at Brunswick, 7.80% at Hasbro, 7.32% at Polaris and 5.20% at Acushnet [19][13][17][15][14][16][18]. Mattel looks cheap against Hasbro's 16.67 on a depressed outlook, which we read as the market doubting the durability of both toy franchises and refund-boosted cash [13][14]. Acushnet and Polaris look fuller, pricing a recovery in golf and powersports earnings. Expected five-year EPS growth for the broader group is 9.95% with a PEG of 1.83 [23]. We did not find ten-year average multiples that we could open, so we do not compare with own history."
+      ]
+    },
+    {
+      "id": "positioning",
+      "paragraphs": [
+        "Momentum is split. Over 52 weeks to 20 Nov 2026, Hasbro was up 47.00% and Brunswick up 18.62%, while Acushnet was up 1.96%, Polaris up 2.49%, YETI down 0.63%, Mattel down 26.17% and Peloton down 27.62% [14][15][18][16][17][13][19].",
+        "Short interest says where doubt sits. Short interest as a share of float was 4.55% for Hasbro, 8.91% for Acushnet, 10.07% for Polaris, 11.30% for YETI, 12.04% for Mattel and 13.95% for Peloton [14][18][16][17][13][19]. The page shows an unreliable short-float figure for Brunswick, so we do not quote one [15]. Our read is that positioning is crowded on the short side in the names where growth is weakest.",
+        "We did not find a dedicated leisure products ETF page we could open. The Invesco Leisure and Entertainment ETF (PEJ) held $377.49M across 33 holdings at 20 Nov 2026, but its top holdings are Marriott, Viking, Starbucks and Delta, and none of the leisure products companies appeared among its top 25, so it is not a good read-across [27]. We did not find ETF flow data for this group."
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "n": 1,
+      "title": "Mattel Q3 2026 results (Exhibit 99.1, Form 8-K)",
+      "publisher": "Mattel / SEC",
+      "date": "2026-11-05",
+      "url": "https://www.sec.gov/Archives/edgar/data/0000063276/000006327626000014/exhibit991.htm"
+    },
+    {
+      "n": 2,
+      "title": "Hasbro Q3 2026 results (Exhibit 99.1, Form 8-K)",
+      "publisher": "Hasbro / SEC",
+      "date": "2026-10-20",
+      "url": "https://www.sec.gov/Archives/edgar/data/0000046080/000004608026000058/exhibit991q32026.htm"
+    },
+    {
+      "n": 3,
+      "title": "Circana: toy market heads into the holidays with momentum (US toy sales through September 2026)",
+      "publisher": "Mass Market Retailers",
+      "date": "2026-11-13",
+      "url": "https://massmarketretailers.com/circana-toy-market-heads-into-holidays-with-momentum/"
+    },
+    {
+      "n": 4,
+      "title": "Polaris Q3 2026 earnings release (Form 8-K)",
+      "publisher": "Polaris / SEC",
+      "date": "2026-10-27",
+      "url": "https://www.sec.gov/Archives/edgar/data/0000931015/000162828026067358/pii-q32026earningsrelease.htm"
+    },
+    {
+      "n": 5,
+      "title": "Brunswick raises 2026 earnings outlook as quarterly sales grow",
+      "publisher": "Marine Industry News",
+      "date": "2026-10-29",
+      "url": "https://marineindustrynews.co.uk/brunswick-raises-2026-earnings-outlook-as-quarterly-sales-grow/"
+    },
+    {
+      "n": 6,
+      "title": "Latest NMMA data summary provides insight into shifting market conditions",
+      "publisher": "National Marine Manufacturers Association",
+      "date": "2026-07-10",
+      "url": "https://www.nmma.org/press/article/25561"
+    },
+    {
+      "n": 7,
+      "title": "Acushnet Q3 2026 results (Exhibit 99.1, Form 8-K)",
+      "publisher": "Acushnet Holdings / SEC",
+      "date": "2026-11-04",
+      "url": "https://www.sec.gov/Archives/edgar/data/0001672013/000167201326000179/ex991-q32026.htm"
+    },
+    {
+      "n": 8,
+      "title": "YETI Q3 2026 results (Exhibit 99.1, Form 8-K)",
+      "publisher": "YETI Holdings / SEC",
+      "date": "2026-11-12",
+      "url": "https://www.sec.gov/Archives/edgar/data/0001670592/000167059226000043/yeti-20261112xex991pressre.htm"
+    },
+    {
+      "n": 9,
+      "title": "Peloton reports higher fiscal Q1 earnings and cash flow, maintains full-year revenue outlook",
+      "publisher": "Finviz",
+      "date": "2026-11-05",
+      "url": "https://finviz.com/news/417034/peloton-reports-higher-fiscal-q1-earnings-and-cash-flow-maintains-full-year-revenue-outlook"
+    },
+    {
+      "n": 10,
+      "title": "Callaway Golf Company announces third quarter 2026 results",
+      "publisher": "Callaway Golf / Finviz",
+      "date": "2026-11-05",
+      "url": "https://finviz.com/news/417811/callaway-golf-company-announces-third-quarter-2026-results"
+    },
+    {
+      "n": 11,
+      "title": "Mattel Form 10-K for year ended 31 Dec 2024",
+      "publisher": "Mattel / SEC",
+      "date": "2025-02",
+      "url": "https://sec.gov/Archives/edgar/data/0000063276/000162828025007887/mat-20241231.htm"
+    },
+    {
+      "n": 12,
+      "title": "Margins by Sector (US), January 2026",
+      "publisher": "Aswath Damodaran, NYU Stern",
+      "date": "2026-01",
+      "url": "https://pages.stern.nyu.edu/~adamodar/New_Home_Page/datafile/margin.html"
+    },
+    {
+      "n": 13,
+      "title": "Mattel statistics and valuation, 20 Nov 2026",
+      "publisher": "StockAnalysis",
+      "date": "2026-11-22",
+      "url": "https://stockanalysis.com/stocks/mat/statistics/"
+    },
+    {
+      "n": 14,
+      "title": "Hasbro statistics and valuation, 20 Nov 2026",
+      "publisher": "StockAnalysis",
+      "date": "2026-11-22",
+      "url": "https://stockanalysis.com/stocks/has/statistics/"
+    },
+    {
+      "n": 15,
+      "title": "Brunswick statistics and valuation, 20 Nov 2026",
+      "publisher": "StockAnalysis",
+      "date": "2026-11-22",
+      "url": "https://stockanalysis.com/stocks/bc/statistics/"
+    },
+    {
+      "n": 16,
+      "title": "Polaris statistics and valuation, 20 Nov 2026",
+      "publisher": "StockAnalysis",
+      "date": "2026-11-22",
+      "url": "https://stockanalysis.com/stocks/pii/statistics/"
+    },
+    {
+      "n": 17,
+      "title": "YETI statistics and valuation, 20 Nov 2026",
+      "publisher": "StockAnalysis",
+      "date": "2026-11-22",
+      "url": "https://stockanalysis.com/stocks/yeti/statistics/"
+    },
+    {
+      "n": 18,
+      "title": "Acushnet statistics and valuation, 20 Nov 2026",
+      "publisher": "StockAnalysis",
+      "date": "2026-11-22",
+      "url": "https://stockanalysis.com/stocks/golf/statistics/"
+    },
+    {
+      "n": 19,
+      "title": "Peloton statistics and valuation, 20 Nov 2026",
+      "publisher": "StockAnalysis",
+      "date": "2026-11-22",
+      "url": "https://stockanalysis.com/stocks/pton/statistics/"
+    },
+    {
+      "n": 20,
+      "title": "FOMC statement, 28 October 2026",
+      "publisher": "Federal Reserve Board",
+      "date": "2026-10-28",
+      "url": "https://www.federalreserve.gov/newsevents/pressreleases/monetary20261028a.htm"
+    },
+    {
+      "n": 21,
+      "title": "Consumer Price Index, October 2026",
+      "publisher": "U.S. Bureau of Labor Statistics",
+      "date": "2026-11-10",
+      "url": "https://www.bls.gov/news.release/archives/cpi_11102026.htm"
+    },
+    {
+      "n": 22,
+      "title": "Return on Capital by Sector (US), January 2026",
+      "publisher": "Aswath Damodaran, NYU Stern",
+      "date": "2026-01",
+      "url": "https://pages.stern.nyu.edu/~adamodar/New_Home_Page/datafile/roc.html"
+    },
+    {
+      "n": 23,
+      "title": "PE Ratios by Sector (US), January 2026",
+      "publisher": "Aswath Damodaran, NYU Stern",
+      "date": "2026-01",
+      "url": "https://pages.stern.nyu.edu/~adamodar/New_Home_Page/datafile/pedata.html"
+    },
+    {
+      "n": 24,
+      "title": "Debt Fundamentals by Sector (US), January 2026",
+      "publisher": "Aswath Damodaran, NYU Stern",
+      "date": "2026-01",
+      "url": "https://pages.stern.nyu.edu/~adamodar/New_Home_Page/datafile/dbtfund.html"
+    },
+    {
+      "n": 25,
+      "title": "Cash Flow Drivers by Sector (US), January 2026",
+      "publisher": "Aswath Damodaran, NYU Stern",
+      "date": "2026-01",
+      "url": "https://pages.stern.nyu.edu/~adamodar/New_Home_Page/datafile/cfbasics.html"
+    },
+    {
+      "n": 26,
+      "title": "Brunswick Q3 2026 earnings summary (AI-generated page; figures not verified against the 10-Q)",
+      "publisher": "Panabee",
+      "date": "2026-10-30",
+      "url": "https://www.panabee.com/news/brunswick-earnings-q3-2026"
+    },
+    {
+      "n": 27,
+      "title": "Invesco Leisure and Entertainment ETF (PEJ) holdings",
+      "publisher": "StockAnalysis",
+      "date": "2026-11-20",
+      "url": "https://stockanalysis.com/etf/pej/holdings/"
+    }
+  ]
+}

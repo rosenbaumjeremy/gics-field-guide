@@ -1,0 +1,448 @@
+{
+  "code": "25201050",
+  "added": "2026-11-23",
+  "asOf": "2026-11-20",
+  "summary": "Housewares is a low-growth, retailer-dependent group whose profits this year were helped by tariff relief. Newell's Q3 net sales rose 3.7% with Home & Commercial Solutions core sales up 6.0% [1], Helen of Troy's Q2 sales rose 2.1% [2], Lifetime Brands' Q3 sales rose 3.4% [3] and Hamilton Beach cut its full-year revenue outlook to flat [4]. Housing is weak, with existing-home sales at 3.75 million annualized and mortgage rates at 7.28% [5][6]. Shares have rallied hard yet trade near 8x forward earnings at Newell, Helen of Troy and Lifetime [14][15][16].",
+  "metrics": [
+    {
+      "label": "Newell Brands Q3 net sales",
+      "value": "$1,873M, +3.7%",
+      "context": "Core sales +3.3%; Home & Commercial Solutions $1,012M, core +6.0%; normalized operating margin 9.8%; quarter ended 30 Sep 2026",
+      "source": 1
+    },
+    {
+      "label": "Newell net debt to normalized EBITDA",
+      "value": "about 4.5x",
+      "context": "Our calculation: net debt $4,592M over trailing-12-month normalized EBITDA $1,030M, at 30 Sep 2026",
+      "source": 1
+    },
+    {
+      "label": "Helen of Troy Q2 FY2027 net sales",
+      "value": "$440.9M, +2.1%",
+      "context": "Home & Outdoor $227.9M (+9.2%), Beauty & Wellness $213.0M (-4.5%); adjusted operating margin 8.6%; quarter ended 31 Aug 2026",
+      "source": 2
+    },
+    {
+      "label": "Lifetime Brands Q3 net sales",
+      "value": "$177.7M, +3.4%",
+      "context": "US +2.0%, International +18.9%; adjusted operating income $13.8M; quarter ended 30 Sep 2026",
+      "source": 3
+    },
+    {
+      "label": "Hamilton Beach Q3 revenue",
+      "value": "$140.3M, +5.6%",
+      "context": "Gross margin 27.5% vs 21.1%; full-year revenue now guided flat; net cash $67.5M at 30 Sep 2026",
+      "source": 4
+    },
+    {
+      "label": "US existing-home sales (Oct 2026)",
+      "value": "3.75M annualized",
+      "context": "-5.5% m/m, -8.8% y/y; first-time buyers 29% of sales",
+      "source": 5
+    },
+    {
+      "label": "30-year fixed mortgage rate",
+      "value": "7.28%",
+      "context": "Freddie Mac, week of 19 Nov 2026; 6.26% a year earlier",
+      "source": 6
+    },
+    {
+      "label": "Forward P/E: Newell / Helen of Troy / Lifetime Brands",
+      "value": "7.9x / 8.9x / 8.1x",
+      "context": "Close of 20 Nov 2026; Damodaran Furn/Home Furnishings 20.3x and total market 27.7x in Jan 2026",
+      "source": 14
+    }
+  ],
+  "watch": [
+    "Retailer caution into the holidays: Hamilton Beach cut its Q4 and full-year outlook because retail partners are ordering less inventory, and Newell guides Q4 core sales up only 1% to 3% [1][4].",
+    "Quality of earnings: IEEPA tariff refunds lifted Helen of Troy, Lifetime Brands and Hamilton Beach results, so reported margins overstate the run rate [2][3][4].",
+    "Section 232 metals duties: cookware and household articles of steel and aluminum carry a 25% rate on the full product value, and the rules have changed several times in 2026 [18].",
+    "Newell's balance sheet: net debt was about 4.5 times normalized EBITDA, and management plans to cut debt and factoring by a couple of hundred million dollars this year [1].",
+    "Housing and rates: existing-home sales fell 8.8% year on year in October, the mortgage rate is 7.28% and the Fed held at 3.75% to 4.00% with two dissenters favoring a hike [5][6][7]."
+  ],
+  "bellwethers": [
+    "Newell Brands",
+    "Helen of Troy",
+    "Lifetime Brands",
+    "Hamilton Beach Brands"
+  ],
+  "basics": {
+    "intro": "Housewares companies design, source and sell the everyday objects of a home: cookware, bakeware, food storage, small kitchen appliances, tableware, cleaning tools, candles and decor. Most sell to retailers, such as Amazon, Walmart and department stores, which then sell to households, and a smaller part sells to businesses and restaurants. They earn the gap between what products cost to make or buy and the price retailers pay. GICS places these brand owners here, while furniture and large appliances sit in other Household Durables sub-industries, and the stores that sell the goods sit in retail.",
+    "products": [
+      {
+        "name": "Cookware, bakeware and kitchen tools",
+        "what": "Pots, pans, baking dishes, knives and gadgets used to prepare food at home, sold at a range of prices from mass market to premium.",
+        "examples": "Newell's Calphalon, Lifetime Brands' kitchenware lines, Helen of Troy's kitchen tools"
+      },
+      {
+        "name": "Food storage and organization",
+        "what": "Plastic and glass containers, bins and closet or garage organizers that store food and household items.",
+        "examples": "Rubbermaid, Sistema, FoodSaver vacuum sealing"
+      },
+      {
+        "name": "Small kitchen appliances",
+        "what": "Countertop devices such as blenders, slow cookers, coffee makers and toasters, sold mainly through big retailers and online.",
+        "examples": "Hamilton Beach, Mr. Coffee, Oster, Crockpot"
+      },
+      {
+        "name": "Tableware and giftware",
+        "what": "Dinnerware, flatware, glassware and decorative items for everyday use and entertaining, often sold with seasonal designs.",
+        "examples": "Lifetime Brands tabletop products, Newell's Chesapeake Bay"
+      },
+      {
+        "name": "Home fragrance and decor",
+        "what": "Candles and fragrance products that households buy repeatedly and that carry high gross margins when branded.",
+        "examples": "Yankee Candle, WoodWick"
+      },
+      {
+        "name": "Commercial and cleaning products",
+        "what": "Cleaning tools, waste containers and hygiene systems sold to businesses, schools and facilities rather than households.",
+        "examples": "Rubbermaid Commercial Products"
+      }
+    ],
+    "terms": [
+      {
+        "term": "Core sales",
+        "meaning": "Net sales excluding currency effects, acquisitions and disposals, used by Newell to show underlying demand."
+      },
+      {
+        "term": "Normalized or adjusted earnings",
+        "meaning": "Profit after removing items management calls one-off, such as restructuring and impairments. Useful, but the gap to reported earnings can be large, so read the reconciliation."
+      },
+      {
+        "term": "Sell-in and sell-through",
+        "meaning": "Sell-in is what the brand ships to the retailer. Sell-through is what shoppers actually buy. When sell-in outruns sell-through, retailers hold surplus stock and later cut orders."
+      },
+      {
+        "term": "Private label",
+        "meaning": "Goods sold under a retailer's own name, often made by the same factories as brands. They compete with brands on price and help retailers push for lower prices."
+      },
+      {
+        "term": "Retailer concentration",
+        "meaning": "A few big customers account for a large share of sales, which gives them bargaining power over price, promotions and shelf space."
+      },
+      {
+        "term": "Licensing",
+        "meaning": "Selling products under another company's brand for a fee. It cuts brand-building cost but the license can end."
+      },
+      {
+        "term": "Landed cost",
+        "meaning": "The cost of a product once it reaches the US: factory price, freight, insurance and import duties."
+      },
+      {
+        "term": "IEEPA tariffs",
+        "meaning": "Import duties imposed under an emergency-powers law that the Supreme Court struck down in February 2026. Importers can claim refunds, which appear as one-off profit."
+      },
+      {
+        "term": "Section 232 duties",
+        "meaning": "Import duties based on national security reviews. Steel and aluminum derivative products, including some cookware and appliances, face them, and the IEEPA ruling did not remove them."
+      },
+      {
+        "term": "SKU rationalization",
+        "meaning": "Cutting slow-selling product variants to simplify the range. It can mean writing down leftover stock, which hits margin in the short run."
+      },
+      {
+        "term": "Factoring",
+        "meaning": "Selling customer invoices to a bank for cash today. It acts like borrowing and is counted with debt by some analysts."
+      },
+      {
+        "term": "Leverage",
+        "meaning": "Debt relative to earnings, usually net debt over EBITDA. High leverage leaves little room if sales fall."
+      }
+    ],
+    "drivers": [
+      {
+        "name": "Retailer inventory orders",
+        "how": "Brands sell to retailers first, so when retailers stock up or cut back for the holidays, brand revenue moves ahead of what shoppers buy."
+      },
+      {
+        "name": "Housing activity and household formation",
+        "how": "New homes and moves prompt purchases of cookware, storage and appliances. Weak housing turnover reduces these purchases."
+      },
+      {
+        "name": "Tariffs and sourcing",
+        "how": "Most products are made in Asia, so duties raise landed cost. Brands raise prices, share costs with vendors or move factories, and margins swing over a few quarters."
+      },
+      {
+        "name": "Input costs and freight",
+        "how": "Resin, steel, aluminum, glass and ocean freight set product cost. Oil-linked costs and shipping disruption push margins around."
+      },
+      {
+        "name": "Product innovation and brand strength",
+        "how": "New products and trusted brands support full prices and shelf space. Weak brands rely on promotions."
+      },
+      {
+        "name": "Leverage and debt costs",
+        "how": "Highly indebted brand owners spend a large part of operating profit on interest, so small sales changes have a large effect on equity value."
+      }
+    ]
+  },
+  "fundamentals": {
+    "business": [
+      "Revenue comes mainly from selling branded housewares to retailers. Newell's Home & Commercial Solutions segment, which includes Rubbermaid, Calphalon, Crockpot, Oster, Sistema and Yankee Candle, had Q3 net sales of $1,012M, and Helen of Troy's Home & Outdoor segment had $227.9M in its Q2 [19][1][2].",
+      "Customers are mainly large retailers, with a smaller business channel. Newell said Amazon was about 17% of its 2025 net sales and Walmart about 13%, and its top ten customers also include Costco, Target, Home Depot and Grainger [19].",
+      "The largest costs are product cost (materials and contract or owned manufacturing), freight and import duties, then marketing and overhead. Newell employed about 21,900 people at the end of 2025, with about 13,250 in manufacturing and supply chain [19]. Lifetime Brands' gross margin of 36.5% in Q3 included a $3.3M inventory charge [3].",
+      "Pricing power is limited by retailers and private label. Newell's 10-K says retailers have strong negotiating power and cites private-label competition [19]. Gross margins show the range: 52.2% at Helen of Troy in Q2 including tariff refunds, 36.5% at Lifetime Brands and 27.5% at Hamilton Beach [2][3][4].",
+      "Main assets are inventory, brands and intangibles, and factories at some companies. Liabilities are mostly debt: Newell had $4,841M of gross debt and $249M of cash at 30 Sep 2026, Helen of Troy $672.6M of total debt, and Lifetime Brands about $148M [1][2][3]. Hamilton Beach had net cash of $67.5M [4].",
+      "Mixed. Importers such as Hamilton Beach and Lifetime Brands are largely asset-light and use contract factories, while Newell runs owned plants. Damodaran's Furn/Home Furnishings group shows net capex of 5.88% of sales against 4.23% for the whole market (Jan 2026); that is the closest industry set we found [13]."
+    ],
+    "overview": [
+      "We did not find a reliable, citable dollar estimate for the global or US housewares market, so we do not give one. The company data show a mature market: Newell's revenue fell from $10,589M in 2021 to $7,204M in 2025, partly from exits and divestitures [20].",
+      "Main segments are cookware and bakeware, food storage, small kitchen appliances, tableware, home fragrance and commercial cleaning. Newell's Home & Commercial Solutions segment spans most of these, while Helen of Troy adds kitchen tools, and Hamilton Beach focuses on small appliances [19][2][4].",
+      "Brand owners sit between factories, mostly in Asia, and retailers. Suppliers provide resin, steel, aluminum and finished goods, and customers are large retailers and distributors, with Amazon and Walmart together about 30% of Newell's 2025 sales [19]. We did not find sourcing percentages for the other companies.",
+      "The industry has consolidated and shifted online, while pandemic demand has faded. Newell's net sales dropped 5.0% in 2025 to $7.2B [20][19]. Lifetime Brands' international sales grew 18.9% in Q3 against 2.0% in the US [3].",
+      "Demand is concentrated in the US, Europe and Latin America, while production is concentrated in Asia. Newell's workforce is split roughly 9,850 in North America, 4,500 in Latin America, 4,200 in EMEA and 3,350 in Asia-Pacific [19]. Lifetime Brands' sales are about 91% US by our calculation from its segment figures [3]."
+    ],
+    "competition": [
+      "The group is fragmented, with a few listed brand owners and many private and foreign makers. This sub-industry is a handful of small and mid-cap US names: Newell had a market value of about $2.26B at 20 Nov 2026, Helen of Troy about $806M, Lifetime Brands about $161M and Hamilton Beach about $389M [14][15][16][17].",
+      "Newell is the largest by sales at $7.2B in 2025, followed by Helen of Troy at a fiscal 2027 sales guide of $1.768B to $1.822B and Lifetime Brands at $660M to $700M for 2026 [20][2][3]. We found no public market-share table, so we rank by reported sales.",
+      "Consolidated at the retail end, fragmented at the brand end. Two customers account for roughly 30% of Newell's sales [19], and no brand owner we looked at is dominant across categories. Newell's 10-K lists digitally native brands and importing retailers among its competitors [19].",
+      "Barriers to entry are low for a simple product and higher for scale. Anyone can contract a factory and sell on Amazon, which is why Newell cites digital brands and private label [19]. Barriers rise with retailer relationships, brand recognition, safety testing and a supply chain able to handle tariffs.",
+      "Scale helps with sourcing, shipping and negotiating with retailers. Newell's normalized operating margin was 9.8% in Q3 on $1.9B of sales [1], while Lifetime Brands' trailing operating margin is 3.75% and Hamilton Beach's is 7.4% [16][17].",
+      "Mixed. Basic storage and kitchen tools are close to commodities and compete on price, while brands with trusted names or technology, such as Calphalon or Crockpot, differentiate on quality and design. Helen of Troy's 45.8% trailing gross margin against Hamilton Beach's 28.5% shows the gap [15][17].",
+      "Retailers hold most bargaining power: Amazon and Walmart are about 30% of Newell's sales, and Hamilton Beach says retail partners are trimming holiday inventory orders [19][4]. Suppliers have less power because factories are numerous, though commodity and freight costs and tariffs still move margins."
+    ],
+    "drivers": [
+      "Revenue growth depends on retailer orders, pricing, new products and housing. Newell's core sales rose 3.3% in Q3 and the company guides 1% to 2% for 2026, while Hamilton Beach guides flat revenue [1][4]. Existing-home sales were down 8.8% year on year in October [5].",
+      "Operating margins depend on gross margin, input and freight costs, tariffs and promotions. Newell's normalized operating margin was 9.8% in Q3 and is guided to 10.0% to 10.4% for 2026 [1]. Helen of Troy's adjusted operating margin rose to 8.6% from 6.2% [2].",
+      "Key cost variables are materials, freight, duties and labor. Cookware and household articles made from steel and aluminum fall under a 25% Section 232 rate on full product value, except certain cast-iron cookware, which is exempt [18]. Gasoline was up 37.4% year on year in October 2026, a sign of fuel-cost pressure [8].",
+      "Interest rates matter through debt and housing. Newell's gross debt was $4,841M [1], so interest is a large drag, and the 30-year mortgage rate was 7.28% against 6.26% a year earlier [6]. Damodaran shows interest coverage of 3.87 for Furn/Home Furnishings against 6.90 for the market [12].",
+      "Sensitive to consumer spending, inflation and input prices. The Fed held rates at 3.75% to 4.00% on 28 Oct 2026, calling inflation elevated [7]. Household furnishings and supplies prices rose 0.7% in October from September, with dishes and flatware up 1.3% and nonelectric cookware and tableware up 0.6% [8].",
+      "Mildly cyclical and mature. Housewares are everyday goods but purchases can be deferred, and the group has been flat to down: Newell's sales fell 5.0% in 2025 [19]. Seasonality matters, with Newell generating most cash flow in the third and fourth quarters [19]."
+    ],
+    "financials": [
+      "Growth is low and uneven. Damodaran's expected five-year EPS growth is 12.3% for Furn/Home Furnishings against 14.0% for the market (Jan 2026) [11]. Recent quarterly sales growth was 3.7% at Newell, 2.1% at Helen of Troy, 3.4% at Lifetime Brands and 5.6% at Hamilton Beach [1][2][3][4].",
+      "Damodaran's Jan 2026 data show Furn/Home Furnishings at a 30.3% gross margin and 6.6% operating margin, against 37.8% and 12.8% for the total market [9]. Trailing operating margins are 7.85% at Newell, 5.49% at Helen of Troy, 3.75% at Lifetime Brands and 7.4% at Hamilton Beach [14][15][16][17].",
+      "Returns are modest. Damodaran's after-tax lease-adjusted ROIC is 11.9% for Furn/Home Furnishings against 9.6% for the market [10]. StockAnalysis shows ROIC of 7.3% at Newell, 6.4% at Helen of Troy, 5.1% at Lifetime Brands and 15.7% at Hamilton Beach [14][15][16][17].",
+      "Leverage is the main difference. Damodaran shows market debt to capital of 30.5% and debt to EBITDA of 4.2 for Furn/Home Furnishings, against 25.9% and 6.5 for the market [12]. Newell's net debt is about 4.5 times normalized EBITDA by our calculation, while Hamilton Beach has net cash [1][4].",
+      "Cash generation is uneven. Newell's free cash flow was $17M in 2025 against $237M in 2024 and $646M in 2023 [20], and it now expects about $150M of operating cash flow in 2026 [1]. Trailing FCF yields of 18% at Helen of Troy, 32% at Lifetime Brands and 28% at Hamilton Beach likely include tariff refunds [15][16][17].",
+      "Capital needs are modest to moderate. Damodaran's net capex is 5.88% of sales for Furn/Home Furnishings against 4.23% for the market [13]. We did not find segment capex figures for these companies that we opened, so we do not give one.",
+      "Multiples are low against the market. On 20 Nov 2026, forward P/E was 7.9x at Newell, 8.9x at Helen of Troy and 8.1x at Lifetime Brands, with EV/EBITDA of 8.4x, 9.8x, 8.8x and 7.0x at Newell, Helen of Troy, Lifetime Brands and Hamilton Beach [14][15][16][17]. Damodaran's Jan 2026 forward P/E was 20.3 for Furn/Home Furnishings and 27.7 for the market [11]."
+    ],
+    "risks": [
+      "Trade policy is the largest regulatory risk. Steel and aluminum derivative duties of 25% on full product value apply to cookware and household articles, and new derivative products can be added without public rulemaking [18]. Newell lists securing tariff refunds as a risk factor [1].",
+      "We did not find sourced figures on AI's effect on housewares. Our view is that the effect is indirect: AI helps marketplaces and retailers with search and private-label design, which could pressure brand owners, while Newell's 10-K already cites digital brands and importing retailers as rivals [19].",
+      "Demographic change works through housing and household formation. First-time buyers were 29% of October existing-home sales, down from 32% a year earlier, which cuts a source of new-household purchases [5]. The data we opened do not size the long-term effect.",
+      "Consumers are cautious and retailers are reducing orders. Hamilton Beach cut its outlook because partners are being more careful with holiday inventory, and Lifetime Brands' US sales grew only 2.0% in Q3 [4][3].",
+      "New competitors are digital brands and retailers importing directly. Newell's 10-K names digitally native brands and private-label goods imported by retailers as competitors [19]. Amazon's 17% share of Newell's sales shows how dependent brands are on it [19].",
+      "Geopolitics and supply chains matter because most product is made in Asia. We found no sourced figures on supply disruption for these companies. Newell cites strategic manufacturing relocations as part of tariff mitigation [19].",
+      "Substitutes include private label, cheaper imports sold on marketplaces, rental or restaurant spending in place of home cooking, and used goods. We did not find sourced data sizing these substitutes."
+    ],
+    "horizon": {
+      "opportunities": [
+        "A housing recovery, if mortgage rates fall from 7.28%, would lift purchases of home goods after October existing-home sales fell 8.8% year on year [5][6].",
+        "Newell's turnaround is showing: Home & Commercial Solutions core sales rose 6.0% in Q3 and management raised its 2026 sales outlook [1].",
+        "Deleveraging and cash returns: Helen of Troy cut debt to $672.6M from $893.2M, and Lifetime Brands authorized a $20M buyback [2][3].",
+        "Tariff relief and mitigation, since refunds and re-sourcing improved margins at Helen of Troy and Hamilton Beach [2][4]."
+      ],
+      "threats": [
+        "Retailers cutting inventory commitments, as at Hamilton Beach, which now guides flat revenue [4].",
+        "Section 232 metals duties of 25% on cookware and household articles, with scope that can widen [18].",
+        "Newell's roughly 4.5 times leverage, with GAAP Q3 earnings of minus $0.19 per share against normalized $0.20, which leaves less room for error [1].",
+        "Reported profits flattered by one-off tariff refunds, so underlying margins may be lower [2][3][4]."
+      ],
+      "assessment": "Over three to five years we think housewares remains a low-growth, retailer-dependent group where results depend on cost control and balance sheets more than demand. The share prices have already risen 61% to 104% in a year, yet multiples of about 8x forward earnings suggest the market does not expect growth to last [14][15][16][17]. The upside case rests on a housing recovery, Newell's turnaround and falling debt [1][2][5]. The downside case is retailer inventory cuts, higher metals duties and refund income fading, which would expose margins and highly indebted names [1][4][18]. Our read is that winners are those with low debt and differentiated brands, and that the data do not yet show a durable growth recovery."
+    }
+  },
+  "sections": [
+    {
+      "id": "macro",
+      "paragraphs": [
+        "Where we are in the cycle: housing is frozen and consumers are cautious, but the economy overall is expanding. Existing-home sales fell 5.5% in October to a 3.75 million annual rate, down 8.8% from a year earlier, and first-time buyers were 29% of sales [5]. The 30-year mortgage rate was 7.28% on 19 Nov 2026 against 6.26% a year earlier [6]. New and moving households buy cookware, storage and appliances, so weak turnover is a headwind.",
+        "Policy is not easing. The Fed held the federal funds range at 3.75% to 4.00% on 28 Oct 2026 by a 10-2 vote, with both dissenters preferring a quarter-point hike, and said activity was expanding at a strong pace while inflation remained elevated [7]. Gasoline was up 37.4% from a year earlier in October [8]. Household furnishings and supplies prices rose 0.7% in the month, including 1.3% for dishes and flatware and 0.6% for nonelectric cookware and tableware [8]. We think the combination of high rates, higher fuel costs and tariffs favors lean, low-debt companies, and the retailer caution that Hamilton Beach reported fits this picture [4]."
+      ]
+    },
+    {
+      "id": "demand",
+      "paragraphs": [
+        "We could not find a citable dollar estimate for the size of the global or US housewares market, so we do not give one. Company data show a mature market. Newell's net sales fell from $10,589M in 2021 to $7,204M in 2025 [20], and the 10-K for 2025 describes an intensely competitive environment [19]. In 2026 growth has returned at a low rate: Newell's Q3 core sales rose 3.3% and it raised its full-year net sales outlook to 2% to 3% [1].",
+        "Structural drivers are household formation, cooking and entertaining at home, product innovation and shifts between channels. Demand is moderately elastic: kitchen gadgets and storage are small purchases, but appliances and premium cookware can be postponed. Helen of Troy's Home & Outdoor sales rose 9.2% in Q2 while Beauty & Wellness fell 4.5%, showing uneven demand even inside one company [2]. Lifetime Brands' international sales rose 18.9% against 2.0% in the US [3]. Demographics matter through first-time buyers, a share that fell to 29% in October from 32% a year earlier [5]. We found no long-term market growth forecast we could cite."
+      ]
+    },
+    {
+      "id": "structure",
+      "paragraphs": [
+        "Porter's five forces: buyer power is high, because Amazon was about 17% and Walmart about 13% of Newell's 2025 net sales and Newell's 10-K says retailers have strong negotiating power [19]. Supplier power is low to moderate, since contract factories are numerous, though metals, resin and freight costs matter. The threat of new entrants is high for simple products sold online, as Newell's reference to digitally native brands shows [19]. Substitutes include private label and cheaper imports. Rivalry is intense and spans global and regional brand owners.",
+        "Concentration is low at the brand end. Newell is the largest by sales at $7.2B in 2025, with Helen of Troy guiding $1.768B to $1.822B for fiscal 2027 and Lifetime Brands $660M to $700M for 2026 [20][2][3]. We found no market-share table. Moats are brand recognition (Calphalon, Rubbermaid, Hamilton Beach), retail relationships and sourcing scale. Pricing power is limited: Helen of Troy's 45.8% gross margin is the highest of the group, against 28.5% at Hamilton Beach [15][17]."
+      ]
+    },
+    {
+      "id": "environment",
+      "paragraphs": [
+        "Politics and regulation are dominated by trade. The Supreme Court voided the IEEPA tariffs in February 2026, and refunds are flowing: Helen of Troy booked $26.9M of gross refunds in Q2 and expects about $80.5M in total, planning to reinvest 83% to 88% of it, Lifetime Brands booked a $40.1M benefit over nine months, and Hamilton Beach cited sell-through of inventory no longer subject to IEEPA tariffs [2][3][4]. Section 232 duties are separate and remain: a 25% rate on steel derivative headings 7321-7324 and aluminum heading 7615, applied to the full value, with certain cast-iron cookware exempt and a 15% metal-weight threshold for other articles [18].",
+        "Technology and social factors are less quantifiable. Newell cites competition from digital brands and retailer private label [19], and we did not find sourced data on AI in this group. Retailers and platforms can use data to design private-label goods. Environmental regulation on plastics, chemicals in cookware and packaging adds compliance costs, though we did not open sources sizing them. We think the biggest emerging risk is policy whiplash: duties and refund rules that change faster than brand owners can re-source or reprice [18]."
+      ]
+    },
+    {
+      "id": "economics",
+      "paragraphs": [
+        "Economics are thin to moderate margin and highly leveraged at the largest company. Damodaran's January 2026 data gives Furn/Home Furnishings (27 firms, the nearest industry set we found; its Household Products group appears to be mostly consumer staples) a 30.3% gross margin, 6.6% operating margin and 1.1% net margin, against 12.8% operating margin for the total market [9]. Newell's normalized operating margin was 9.8% in Q3, Helen of Troy's adjusted margin was 8.6% in Q2, and Lifetime Brands' adjusted operating income was $13.8M on $177.7M of sales, about 7.7% by our calculation [1][2][3].",
+        "Returns are modest and free cash flow is volatile. After-tax lease-adjusted ROIC is 11.9% for Furn/Home Furnishings against 9.6% for the market [10], while trailing ROIC is 7.3% at Newell, 6.4% at Helen of Troy, 5.1% at Lifetime Brands and 15.7% at Hamilton Beach [14][15][16][17]. Newell's free cash flow fell from $646M in 2023 to $17M in 2025 [20]. Operating leverage is high at heavily indebted companies: Newell's Q3 GAAP result was a loss of $0.19 per share against normalized EPS of $0.20, and its reported operating margin was 1.4% against 9.8% normalized [1]. Capital intensity is moderate, with net capex of 5.88% of sales for the Damodaran group [13]."
+      ]
+    },
+    {
+      "id": "earnings",
+      "paragraphs": [
+        "Reported earnings are lifted by refunds and distorted by charges. Newell's Q3 normalized EPS was $0.20 against $0.17, and it narrowed 2026 normalized EPS guidance to $0.74 to $0.76, with Q4 guided to $0.17 to $0.19 and normalized operating margin of 8.4% to 9.0% [1]. Helen of Troy's adjusted EPS was $0.79 against $0.59, and it guides fiscal 2027 adjusted EPS of $3.60 to $4.15 and adjusted EBITDA of $203M to $210M, including a net pre-tax refund benefit of $10M to $14M [2].",
+        "Guidance points to a soft holiday period. Hamilton Beach now expects flat 2026 revenue and operating profit down by a high-teen percentage, citing cautious retailers [4]. Lifetime Brands cut its 2026 GAAP EPS guide to $0.84 to $0.91 but left adjusted EPS at $2.04 to $2.11 [3]. Newell lowered operating cash flow guidance to about $150M [1].",
+        "We did not find consensus estimate tables for this group that we could open, so we do not state where we differ from them. Our read is that growth stays in the low single digits and that earnings quality is the main debate."
+      ]
+    },
+    {
+      "id": "valuation",
+      "paragraphs": [
+        "Valuation is low in absolute terms. On 20 Nov 2026 forward P/E was 7.9x at Newell, 8.9x at Helen of Troy and 8.1x at Lifetime Brands, with EV/EBITDA of 8.4x, 9.8x, 8.8x and 7.0x at Newell, Helen of Troy, Lifetime Brands and Hamilton Beach; a forward P/E was not available for Hamilton Beach [14][15][16][17]. Damodaran's January 2026 forward P/E was 20.3 for Furn/Home Furnishings and 27.7 for all US firms, with a PEG ratio of 2.05 for the former [11]. These are different dates and definitions, but the gap is wide.",
+        "Trailing FCF yields of 2.4% at Newell, 18.3% at Helen of Troy, 31.6% at Lifetime Brands and 27.6% at Hamilton Beach look high, but we think they reflect tariff refunds and working-capital release that may not repeat [14][15][16][17]. Newell's low yield and 4.5 times leverage argue for a discount, and its 52-week gain of 60.6% suggests that some recovery is already priced [1][14]. We did not find ten-year average multiples for the group that we could open, so we do not compare with own history."
+      ]
+    },
+    {
+      "id": "positioning",
+      "paragraphs": [
+        "Momentum has been strong from a low base. Over 52 weeks to 20 Nov 2026, Hamilton Beach was up 104.2%, Helen of Troy up 98.9%, Lifetime Brands up 87.9% and Newell up 60.6% [17][15][16][14]. Market capitalizations are small: $2.26B for Newell, $806M for Helen of Troy, $389M for Hamilton Beach and $161M for Lifetime Brands [14][15][17][16].",
+        "Short interest as a share of float was 9.5% for Newell, 9.6% for Helen of Troy, 14.4% for Lifetime Brands and 7.9% for Hamilton Beach [14][15][16][17]. Lifetime Brands has the highest short interest of the four and a $20M buyback authorization [3][16]. We did not find ETF flow or institutional ownership data for the group that we could open, and the small float of several names limits large-fund participation. Our read is that the rally reflects recovery from depressed levels and tariff relief rather than a clear upturn in demand [4]."
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "n": 1,
+      "title": "Newell Brands Q3 2026 results (Exhibit 99.1, Form 8-K)",
+      "publisher": "Newell Brands / SEC",
+      "date": "2026-10-30",
+      "url": "https://www.sec.gov/Archives/edgar/data/0000814453/000081445326000035/exhibit991_q3xseptemberx20.htm"
+    },
+    {
+      "n": 2,
+      "title": "Helen of Troy Q2 fiscal 2027 results (Exhibit 99.1, Form 8-K)",
+      "publisher": "Helen of Troy / SEC",
+      "date": "2026-10-08",
+      "url": "https://www.sec.gov/Archives/edgar/data/0000916789/000091678926000137/fy27_q2xex-991.htm"
+    },
+    {
+      "n": 3,
+      "title": "Lifetime Brands Q3 2026 results (reissued Exhibit 99.1, Form 8-K/A)",
+      "publisher": "Lifetime Brands / SEC",
+      "date": "2026-11-06",
+      "url": "https://www.sec.gov/Archives/edgar/data/0000874396/000087439626000058/ex99111062026-reissued.htm"
+    },
+    {
+      "n": 4,
+      "title": "Hamilton Beach Brands Holding Company announces third quarter results (Form 8-K)",
+      "publisher": "Hamilton Beach Brands / SEC",
+      "date": "2026-11-04",
+      "url": "https://www.sec.gov/Archives/edgar/data/0001709164/000170916426000184/hbbhc93026earningsreleasee.htm"
+    },
+    {
+      "n": 5,
+      "title": "Existing-home sales decreased 5.5% in October",
+      "publisher": "National Association of Realtors",
+      "date": "2026-11-12",
+      "url": "https://www.nar.realtor/newsroom/existing-home-sales-decreased-5-5-percent-october-nar-report"
+    },
+    {
+      "n": 6,
+      "title": "Primary Mortgage Market Survey",
+      "publisher": "Freddie Mac",
+      "date": "2026-11-19",
+      "url": "https://www.freddiemac.com/pmms"
+    },
+    {
+      "n": 7,
+      "title": "FOMC statement, 28 October 2026",
+      "publisher": "Federal Reserve Board",
+      "date": "2026-10-28",
+      "url": "https://www.federalreserve.gov/newsevents/pressreleases/monetary20261028a.htm"
+    },
+    {
+      "n": 8,
+      "title": "Consumer Price Index, October 2026",
+      "publisher": "U.S. Bureau of Labor Statistics",
+      "date": "2026-11-10",
+      "url": "https://www.bls.gov/news.release/archives/cpi_11102026.htm"
+    },
+    {
+      "n": 9,
+      "title": "Margins by Sector (US), January 2026",
+      "publisher": "Aswath Damodaran, NYU Stern",
+      "date": "2026-01",
+      "url": "https://pages.stern.nyu.edu/~adamodar/New_Home_Page/datafile/margin.html"
+    },
+    {
+      "n": 10,
+      "title": "Return on Capital by Sector (US), January 2026",
+      "publisher": "Aswath Damodaran, NYU Stern",
+      "date": "2026-01",
+      "url": "https://pages.stern.nyu.edu/~adamodar/New_Home_Page/datafile/roc.html"
+    },
+    {
+      "n": 11,
+      "title": "PE Ratios by Sector (US), January 2026",
+      "publisher": "Aswath Damodaran, NYU Stern",
+      "date": "2026-01",
+      "url": "https://pages.stern.nyu.edu/~adamodar/New_Home_Page/datafile/pedata.html"
+    },
+    {
+      "n": 12,
+      "title": "Debt Fundamentals by Sector (US), January 2026",
+      "publisher": "Aswath Damodaran, NYU Stern",
+      "date": "2026-01",
+      "url": "https://pages.stern.nyu.edu/~adamodar/New_Home_Page/datafile/dbtfund.html"
+    },
+    {
+      "n": 13,
+      "title": "Cash Flow Drivers by Sector (US), January 2026",
+      "publisher": "Aswath Damodaran, NYU Stern",
+      "date": "2026-01",
+      "url": "https://pages.stern.nyu.edu/~adamodar/New_Home_Page/datafile/cfbasics.html"
+    },
+    {
+      "n": 14,
+      "title": "Newell Brands statistics and valuation, 20 Nov 2026",
+      "publisher": "StockAnalysis",
+      "date": "2026-11-22",
+      "url": "https://stockanalysis.com/stocks/nwl/statistics/"
+    },
+    {
+      "n": 15,
+      "title": "Helen of Troy statistics and valuation, 20 Nov 2026",
+      "publisher": "StockAnalysis",
+      "date": "2026-11-23",
+      "url": "https://stockanalysis.com/stocks/hele/statistics/"
+    },
+    {
+      "n": 16,
+      "title": "Lifetime Brands statistics and valuation, 20 Nov 2026",
+      "publisher": "StockAnalysis",
+      "date": "2026-11-22",
+      "url": "https://stockanalysis.com/stocks/lcut/statistics/"
+    },
+    {
+      "n": 17,
+      "title": "Hamilton Beach Brands statistics and valuation, 20 Nov 2026",
+      "publisher": "StockAnalysis",
+      "date": "2026-11-22",
+      "url": "https://stockanalysis.com/stocks/hbb/statistics/"
+    },
+    {
+      "n": 18,
+      "title": "Updates for importers on IEEPA refunds and Section 232 metals",
+      "publisher": "Greenberg Traurig",
+      "date": "2026-04",
+      "url": "https://www.gtlaw.com/en/insights/2026/4/updates-for-importers-on-ieepa-refunds-and-section-232-metals"
+    },
+    {
+      "n": 19,
+      "title": "Newell Brands Form 10-K for year ended 31 Dec 2025",
+      "publisher": "Newell Brands / SEC",
+      "date": "2026-02",
+      "url": "https://www.sec.gov/Archives/edgar/data/814453/000081445326000008/nwl-20251231.htm"
+    },
+    {
+      "n": 20,
+      "title": "Newell Brands annual financials",
+      "publisher": "StockAnalysis",
+      "date": "2026-11-22",
+      "url": "https://stockanalysis.com/stocks/nwl/financials/"
+    }
+  ]
+}

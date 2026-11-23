@@ -1,0 +1,494 @@
+{
+  "code": "25201040",
+  "added": "2026-11-23",
+  "asOf": "2026-11-20",
+  "summary": "Household appliances is a two-speed industry. Housing-linked major-appliance makers are weak: Whirlpool's Q3 net sales fell 8.8% and its ongoing EBIT margin was 2.6% [1], with North American industry demand down 3.3% [2]. Brands tied to new products, professional tools and small appliances are growing: SharkNinja's sales rose 21.2% [5], Techtronic's first-half sales rose 5.9% [7] and Stanley Black & Decker's organic sales rose 4% [4]. Tariff refunds flatter several reported profits [4][5]. Existing-home sales ran at 3.75 million annualized in October [11] with the 30-year mortgage at 7.28% [12]. Whirlpool's market value was $1.63B against SharkNinja's $29.96B on 20 Nov 2026 [21][23].",
+  "metrics": [
+    {
+      "label": "Whirlpool Q3 net sales",
+      "value": "$3,677M",
+      "context": "-8.8% (organic -5.4%); ongoing EBIT margin 2.6% vs 4.5%; ongoing EPS -$0.21; quarter ended 30 Sep 2026",
+      "source": 1
+    },
+    {
+      "label": "Whirlpool 2026 guidance",
+      "value": "Ongoing EPS about -$1.30",
+      "context": "Net sales about $14.5B; free cash flow about $300M; nine-month free cash flow -$1,081M",
+      "source": 1
+    },
+    {
+      "label": "SharkNinja Q3 net sales",
+      "value": "$1,976.4M",
+      "context": "+21.2%; adjusted EBITDA margin 23.3%; 2026 sales growth guided to 18% to 19%; quarter ended 30 Sep 2026",
+      "source": 5
+    },
+    {
+      "label": "Stanley Black & Decker Q3 organic sales",
+      "value": "+4%",
+      "context": "Adjusted EPS $2.31 including about $0.67 of tariff refunds; 2026 adjusted EPS guided to $5.95 to $6.25",
+      "source": 4
+    },
+    {
+      "label": "Techtronic H1 2026 gross margin",
+      "value": "42.9%",
+      "context": "Record; sales $8,292M, +5.9%; EBIT margin 9.9%; six months to 30 Jun 2026",
+      "source": 7
+    },
+    {
+      "label": "US existing-home sales (Oct 2026)",
+      "value": "3.75M annualized",
+      "context": "-5.5% m/m, -8.8% y/y; first-time buyers 29% of sales",
+      "source": 11
+    },
+    {
+      "label": "30-year fixed mortgage rate",
+      "value": "7.28%",
+      "context": "Freddie Mac, 19 Nov 2026; 6.26% a year earlier",
+      "source": 12
+    },
+    {
+      "label": "Forward P/E: Stanley Black & Decker / SharkNinja",
+      "value": "17.3x / 29.2x",
+      "context": "Close of 20 Nov 2026; Whirlpool forward P/E not available (loss-making); Damodaran Furn/Home Furnishings 20.3x, Jan 2026",
+      "source": 22
+    }
+  ],
+  "watch": [
+    "Housing turnover: October existing-home sales fell to a 3.75 million annual rate and the 30-year mortgage rate was 7.28%, which keeps replacement-and-move demand for major appliances weak [11][12].",
+    "Whirlpool's price-for-volume trade: a further 7% North American price increase takes effect on 3 Dec 2026, and management expects most cost benefits in 2027 [2].",
+    "Quality of earnings: Stanley Black & Decker and SharkNinja both booked one-off tariff refunds in Q3, so reported margins overstate the run rate [4][5].",
+    "Balance-sheet strain at Whirlpool: long-term debt was $6,838M against $1,103M of cash at 30 Sep 2026, with nine-month free cash flow of -$1,081M [1].",
+    "Tariff policy: Section 232 steel-content duties on appliances were set at 50% from 23 Jun 2025, and Whirlpool says its outlook assumes only currently announced tariffs [15][2]."
+  ],
+  "bellwethers": [
+    "Whirlpool",
+    "SharkNinja",
+    "Stanley Black & Decker",
+    "Techtronic Industries",
+    "Electrolux",
+    "Haier Smart Home",
+    "LG Electronics",
+    "iRobot"
+  ],
+  "basics": {
+    "intro": "These companies make and sell the machines and tools used in and around the home: washers, dryers, refrigerators, dishwashers and ranges (major appliances), plus vacuums, air fryers, blenders and coffee makers (small appliances), and power tools and lawn equipment. Customers are households, mostly buying through big retailers such as Lowe's and Home Depot, builders and increasingly websites. Makers earn the gap between factory cost and wholesale price. GICS puts the cookware, tableware and storage makers in Housewares & Specialties, and homebuilders and cabinet makers elsewhere in Household Durables.",
+    "products": [
+      {
+        "name": "Major appliances",
+        "what": "Large machines for laundry, cooling, dishwashing and cooking, bought when homes are built or sold, or when an old unit breaks. Most sales go through big-box retailers and builders.",
+        "examples": "Whirlpool, KitchenAid, Maytag, Electrolux, Haier and GE Appliances, LG, Samsung, Bosch"
+      },
+      {
+        "name": "Small kitchen and countertop appliances",
+        "what": "Air fryers, blenders, coffee and espresso machines and food processors. Items are cheaper and bought more often, so sales depend on product launches and online marketing.",
+        "examples": "SharkNinja Ninja, KitchenAid mixers, Breville, De'Longhi, Cuisinart"
+      },
+      {
+        "name": "Floor care and robot vacuums",
+        "what": "Upright, handheld and robotic vacuums and steam cleaners, sold through retailers and direct online.",
+        "examples": "Shark, Roomba (iRobot), Dyson, Electrolux"
+      },
+      {
+        "name": "Professional and consumer power tools",
+        "what": "Cordless drills, saws and impact drivers sold to tradespeople and homeowners, built around battery platforms that lock customers into one brand's batteries.",
+        "examples": "Milwaukee and Ryobi (Techtronic), DeWalt and Craftsman (Stanley Black & Decker)"
+      },
+      {
+        "name": "Outdoor and lawn equipment",
+        "what": "Mowers, trimmers, blowers and hedge tools, increasingly battery-powered, sold mostly through home-improvement chains and dealers.",
+        "examples": "Ryobi and Ego outdoor products, DeWalt outdoor lines"
+      },
+      {
+        "name": "Built-in and premium kitchen appliances",
+        "what": "Higher-priced ovens, cooktops and refrigeration installed in new or renovated kitchens, usually specified by builders and designers.",
+        "examples": "BSH Bosch and Miele, Electrolux Professional-style premium lines, Haier's GE Profile and Monogram"
+      }
+    ],
+    "terms": [
+      {
+        "term": "Major domestic appliances (MDA)",
+        "meaning": "Large home machines such as refrigerators, washers, dishwashers and ovens. Whirlpool uses this label for its largest segments."
+      },
+      {
+        "term": "Small domestic appliances (SDA)",
+        "meaning": "Countertop and handheld products such as mixers, air fryers and vacuums. They have higher gross margins and quicker product cycles than major appliances."
+      },
+      {
+        "term": "Industry shipments (TIV)",
+        "meaning": "Total units the industry ships to retailers and builders in a market. It is the cleanest read on underlying demand, separate from one company's share changes."
+      },
+      {
+        "term": "Replacement versus new-build demand",
+        "meaning": "Most appliance purchases replace broken units, which gives a steady base. New-home and home-sale activity adds a cyclical layer on top."
+      },
+      {
+        "term": "Price/mix",
+        "meaning": "The change in revenue from selling at higher prices or selling more expensive models. It is the main way makers offset cost inflation."
+      },
+      {
+        "term": "Volume deleverage",
+        "meaning": "Factories and warehouses cost roughly the same whatever the output, so falling volume spreads fixed cost over fewer units and cuts margin."
+      },
+      {
+        "term": "Ongoing EBIT",
+        "meaning": "Operating profit before interest and tax with unusual items removed. Companies such as Whirlpool guide to it, so check what was excluded."
+      },
+      {
+        "term": "Battery platform",
+        "meaning": "A family of cordless tools that share one battery type. Buyers who own the batteries tend to stay with the brand, which supports pricing and repeat sales."
+      },
+      {
+        "term": "Section 232 duties",
+        "meaning": "US import duties based on national-security reviews, applied here to the steel and aluminium content of appliances and tools. They raise costs for importers and for US factories that use imported metal."
+      },
+      {
+        "term": "IEEPA tariffs and refunds",
+        "meaning": "Import duties imposed under an emergency-powers law, which the Supreme Court has since ruled unlawful. Companies that paid them are claiming refunds, which appear as one-off profit."
+      },
+      {
+        "term": "Trade customer concentration",
+        "meaning": "A few retailers buy a large share of a maker's output. Whirlpool's biggest customer, Lowe's, gives the retailer leverage over price and promotions."
+      },
+      {
+        "term": "Contract manufacturer",
+        "meaning": "A factory that builds products to a brand's design. Asset-light brands such as SharkNinja lean on them, which lowers capital needs but exposes them to supplier and tariff changes."
+      }
+    ],
+    "drivers": [
+      {
+        "name": "Housing activity and home sales",
+        "how": "Moves, remodels and new homes trigger appliance and tool purchases. Weak turnover lowers industry unit shipments, which hits makers with fixed factories hardest."
+      },
+      {
+        "name": "Interest rates and consumer credit",
+        "how": "Appliances are often financed and sit alongside mortgages. Higher rates delay purchases that can wait and reduce the share of buyers who upgrade rather than repair."
+      },
+      {
+        "name": "Tariffs and input costs",
+        "how": "Steel, resin, copper and freight make up most of a product's cost. Duties and commodity moves change gross margin within a few quarters, and makers push prices up to recover them."
+      },
+      {
+        "name": "Product innovation and brand strength",
+        "how": "New features such as in-door ice makers, cordless platforms or air fryers let makers raise prices and take share. Weak lines force promotion and lower margins."
+      },
+      {
+        "name": "Retail channel and online shift",
+        "how": "Big-box chains and websites decide shelf space and promotions. Direct-to-consumer sales raise gross margin but need marketing spend."
+      },
+      {
+        "name": "Cost take-out and footprint",
+        "how": "Plant closures, design-to-value redesigns and sourcing programs lower unit costs. Benefits arrive with a lag, while the restructuring charge arrives first."
+      }
+    ]
+  },
+  "fundamentals": {
+    "business": [
+      "Revenue comes from selling appliances and tools, mainly to retailers and builders. Whirlpool had about $16B of 2025 net sales and 41,000 employees [3]. SharkNinja's Q3 sales split across cleaning ($617.2M), cooking and beverage ($597.7M), food preparation ($485.5M) and beauty and home environment ($276.1M) [5]. Techtronic earns about $5.9B of its $8.3B first-half sales from professional tools [7].",
+      "Customers are big retailers and builders in the first instance and households in the end. Whirlpool says sales to Lowe's were about 15% of 2025 net sales, and that Lowe's was 44% of receivables [3]. Techtronic names The Home Depot as Ryobi's main North American partner [7]. Direct online sales are a growing channel for makers such as SharkNinja.",
+      "Main costs are materials, labor, freight and tariffs. Whirlpool cited higher steel, resin and base-metal costs and fuel and logistics costs in Q3, costing 75 basis points of margin for raw materials [2]. Techtronic's research and development was 4.6% of revenue in the first half [7].",
+      "Pricing power depends on brand, product novelty and scale. SharkNinja's gross margin was 50.6% on a trailing basis and Whirlpool's 13.1% [23][21], and Whirlpool's retail prices rose 8% to 9% over January 2025 baselines [2]. We think premium and new-category brands hold price better than mature appliance lines, though the figures are from different reporting bases.",
+      "Major assets are factories, inventory and receivables. Whirlpool reported long-term debt of $6,838M and cash of $1,103M at 30 Sep 2026 [1]. SharkNinja carried $708.8M of debt and $487.8M of cash [5]. Techtronic's working capital was 16.6% of sales [7].",
+      "Mixed. Whirlpool runs a local-for-local factory footprint and says about 80% of the major appliances it sells in the US are made in the US [3]. SharkNinja and Techtronic rely more on contract and own plants in Asia, and Techtronic's capex was only 1.1% of sales [7]. Damodaran's net capex runs 5.9% of sales for Furn/Home Furnishings against 4.2% for the market [20]."
+    ],
+    "overview": [
+      "Euromonitor put the 2025 global major-appliance market at 570 million units and $298B, growing 1.4% against 2.7% in 2024 [10]. That covers refrigeration, laundry, dishwashers, large cooking and microwaves only; we did not find a comparable sourced total for small appliances, power tools and lawn equipment.",
+      "Segments are major appliances, small appliances, floor care and robotics, and power tools and outdoor equipment [3][5][7]. A caution on classification: the S&P 500 constituents list places Stanley Black & Decker in Industrial Machinery and Supplies and Components rather than with appliances, so index-based groupings can differ from this sub-industry [26].",
+      "Makers sit between metal, resin and component suppliers and retailers, builders and consumers. Whirlpool's input cost line cites steel, resin and base metals [2] and its retail channel is led by Lowe's at about 15% of sales [3]. SharkNinja and Techtronic depend on Asian manufacturing and distribution through home-improvement chains [5][7].",
+      "The industry has shifted from US and European incumbents to global Asian groups. Whirlpool lists BSH, Electrolux, Haier, Hisense, LG, Midea and Samsung as major rivals [3]. Electrolux now has a Midea partnership in North America with three joint ventures [6]. iRobot was acquired by its manufacturer Picea after a pre-packaged Chapter 11 in January 2026 [9]. Whirlpool cut its Whirlpool India stake below a majority in 2025 [3].",
+      "Asia-Pacific is the largest region by size, and Euromonitor says eight of the top ten growth markets are in the Global South [10]. Haier says overseas is more than half its business [8]. Whirlpool says about 80% of the major appliances it sells in the US are made in the US [3], while Electrolux closed a plant in Rosario, Argentina in Q3 [6]; we did not find a sourced country-by-country production split."
+    ],
+    "competition": [
+      "Global major-appliance competition is led by roughly nine large groups named by Whirlpool: BSH, Electrolux, Haier, Hisense, LG, Mabe, Midea, Panasonic and Samsung, plus Whirlpool itself [3]. In small appliances it names Breville, De'Longhi, Ninja, Groupe SEB and Cuisinart [3]. In tools, Techtronic and Stanley Black & Decker lead among the companies we looked at [4][7].",
+      "Market leaders by size of reported results: Whirlpool at about $16B of 2025 sales [3], Techtronic at $8.3B for the first half [7], Haier at RMB 221.8B for nine months [8], Electrolux at SEK 33.9B for Q3 [6], Stanley Black & Decker at $3.7B for Q3 [4], and LG Electronics at 23.82 trillion won of group revenue for Q3, up 8.9% (not split by division in what we opened) [25]. We did not find a sourced market-share table, so we rank by sales; Haier says its US industry position is first [8].",
+      "Major appliances are concentrated at the global level but contested by region, while small appliances and tools are more fragmented. Whirlpool describes competition as intense and says many rivals are expanding beyond their existing manufacturing footprints [3]. Haier says China's industry fell about 10% in Q3 and US shipments about 4% [8], so rivals are fighting over a shrinking pool.",
+      "Barriers are moderate to high in major appliances: plants, distribution, service networks and retailer relationships take years to build, and Whirlpool says its local-for-local scale is a cost advantage [3]. Barriers are lower in small appliances, where SharkNinja's cooking sales grew 36.6% in a quarter [5], but battery ecosystems protect tool brands [7].",
+      "Scale helps with sourcing, logistics and retail leverage. Whirlpool's operating margin was 1.83% on a trailing basis despite its size [21], so scale alone does not guarantee profit. Electrolux's adjusted EBIT margin was 2.7% in Q3 [6], while Techtronic's EBIT margin was 9.9% in the first half [7].",
+      "Major appliances are close to commodities on price, differentiated by features such as in-door ice makers [2]; small appliances and tools are more differentiated, with Techtronic reporting a record 42.9% gross margin [7]. Competitors also priced up: Whirlpool says its competitors' average pricing rose meaningfully in 2026 [2].",
+      "Retail customers hold the most bargaining power, since Lowe's alone was about 15% of Whirlpool's sales and 44% of its receivables [3]. Suppliers of steel and resin have power in spikes: Whirlpool took a 75 basis point raw material hit in Q3 [2]. Trade policy shifts power between domestic and import-heavy makers."
+    ],
+    "drivers": [
+      "Revenue growth follows housing activity, replacement cycles, price and new products. Existing-home sales were 3.75 million annualized in October, down 8.8% on the year [11]. North American industry demand fell 3.3% in Q3 [2], while SharkNinja grew 21.2% on new categories [5].",
+      "Operating margins reflect volume, price, input costs, tariffs and restructuring. Whirlpool's ongoing EBIT margin was 2.6% in Q3 against 4.5% a year earlier [1], while Techtronic's H1 EBIT margin was 9.9% [7]. Damodaran's pre-tax operating margin in January 2026 was 7.2% for Furn/Home Furnishings and 16.8% for Machinery [16].",
+      "Key cost variables are steel, resin, copper, tariffs, freight and fuel. Gasoline was up 37.4% in the twelve months to October 2026 [14], and Electrolux cited higher raw-material and logistics costs from the Middle East conflict [6]. Whirlpool's net tariff impact cost 225 basis points sequentially in Q3 [2].",
+      "Rates matter through mortgages and financed purchases. The 30-year rate was 7.28% on 19 Nov 2026 [12], and the Fed held at 3.75% to 4.00% [13]. Debt matters as well: Whirlpool's long-term debt of $6,838M compares with $1,103M of cash [1], while Damodaran's market debt-to-capital is 30.5% for Furn/Home Furnishings [19].",
+      "Inflation helps pricing but hurts volume. BLS reported appliance prices up 1.3% in October on a seasonally adjusted basis [14]. BLS could not publish most twelve-month comparisons because October 2025 data were not collected [14]. Jobs and income matter through consumer confidence; we did not retrieve unemployment data for this brief.",
+      "Mostly cyclical, with defensive replacement demand underneath and secular growth in categories such as cordless tools and countertop appliances. Whirlpool's Latin America sales rose 6.9% in Q3 while North America fell 8.3% [1], and Techtronic's professional segment grew 9.7% against 2.5% decline in consumer [7]."
+    ],
+    "financials": [
+      "Growth is uneven. Damodaran's expected five-year EPS growth is 12.3% for Furn/Home Furnishings, 13.6% for Machinery and 14.0% for the total market in January 2026 [18]. Recent company growth ranged from Whirlpool's -8.8% [1] and Haier's nine-month net profit decline of 13.7% [8] to SharkNinja's +21.2% [5].",
+      "Margins vary widely. Damodaran's January 2026 gross margins were 30.3% for Furn/Home Furnishings, 31.8% for Electrical Equipment and 37.5% for Machinery [16]. Company gross margins were 13.1% for Whirlpool, 32.2% for Stanley Black & Decker and 50.6% for SharkNinja on trailing figures [21][22][23]. Damodaran has no separate appliance industry, so these are proxies.",
+      "Returns are low for the mature appliance makers and high for the growth brands. Damodaran's after-tax lease-adjusted ROIC is 11.9% for Furn/Home Furnishings, 27.2% for Machinery and 9.6% for the market [17]. StockAnalysis shows ROIC of 2.6% for Whirlpool, 5.8% for Stanley Black & Decker and 25.2% for SharkNinja [21][22][23].",
+      "Leverage differs. Damodaran's market debt to capital is 30.5% for Furn/Home Furnishings and 12.6% for Machinery, with interest coverage of 3.9 and 7.8 [19]. Whirlpool's debt-to-equity is 2.08 and Stanley Black & Decker's 0.58, while SharkNinja's is 0.29 [21][22][23].",
+      "Free cash flow is lumpy. Whirlpool's nine-month free cash flow was -$1,081M, though it guides about $300M for 2026 [1]. Stanley Black & Decker generated $585M in Q3 and guides $1.0B to $1.2B for the year [4]. Techtronic's first-half free cash flow was not in the sections we opened, and SharkNinja's nine-month operating cash flow was $107.4M [5].",
+      "Capex needs are moderate. Damodaran's net capex to sales is 5.9% for Furn/Home Furnishings, 4.1% for Machinery and 4.2% for the market [20]. Techtronic spent US$92M, 1.1% of sales, in the first half [7], and SharkNinja guides $190M to $210M for 2026 [5].",
+      "Multiples: Damodaran's January 2026 forward P/E was 20.3 for Furn/Home Furnishings, 24.1 for Machinery and 27.7 for the market [18]. On 20 Nov 2026 forward P/E was 17.3x for Stanley Black & Decker and 29.2x for SharkNinja, while Whirlpool's was not available because of losses [22][23][21]."
+    ],
+    "risks": [
+      "Trade policy is the biggest regulatory variable. The US set a 50% Section 232 duty on the steel content of washers, dryers, refrigerators, dishwashers and ranges from 23 Jun 2025 [15], and Whirlpool says its outlook reflects only currently announced tariffs [2]. We could not confirm the current rate schedule from a primary notice. Whirlpool's 10-K says energy and environmental rules did not materially affect its capex or competitive position [3].",
+      "AI and technology cut both ways. Euromonitor says AI features are now standard in premium appliances [10], while Whirlpool's 10-K flags competitive risk from new technologies and new entrants [3]. We found no hard figures on how AI affects earnings. Smart-device data handling also draws attention: iRobot created a separate US subsidiary for consumer data [9].",
+      "Demographics matter through household formation and home moves. First-time buyers were 29% of existing-home sales in October 2026, down from 32% a year earlier [11]. Fewer moves mean fewer purchases of matched appliance sets; we did not find sourced data sizing the long-term demographic effect.",
+      "Consumer behavior is shifting toward deferral and value. Whirlpool says industry demand is soft and now expects a North American decline of about 5% for 2026 [2], and Euromonitor links the global slowdown to weak housing, high rates and inflation [10]. Online and direct channels are gaining, shown by SharkNinja's 21.2% growth [5].",
+      "New competitors keep arriving. Whirlpool says rivals are expanding beyond their manufacturing footprints [3]; Midea is now a partner of Electrolux in North America [6]; and Chinese manufacturer Picea now owns iRobot [9]. SharkNinja's beauty and home-environment sales rose 45.8% on new categories [5].",
+      "Geopolitics and supply chains matter. Electrolux cites Middle East conflict costs for raw materials and logistics, plus US tariff costs [6]. Haier booked a RMB 364 million currency loss in Q3 [8]. Whirlpool said competitors pre-loaded imported inventory in 2025, which delayed the benefit of tariffs [3].",
+      "Substitutes include repair and second-hand units, which extend replacement cycles, and professional services for tools. We found no sourced data sizing repair or resale in this industry. Lower-priced imports and private labels also substitute for branded products, and Whirlpool notes some customers carry their own brands [3]."
+    ],
+    "horizon": {
+      "opportunities": [
+        "A housing-turnover recovery would lift major-appliance volumes, which are down with industry demand down 3.3% in Whirlpool's North America in Q3 [2][11].",
+        "Cost take-out: Whirlpool expects about $250M of gross savings in 2026 with most benefits in 2027, and Electrolux raised its savings target to about SEK 4.0bn [2][6].",
+        "Category growth and new products, such as SharkNinja's 36.6% cooking sales growth and Techtronic's cordless conversion of professional trades [5][7].",
+        "Pricing carry-over: Whirlpool's further 7% North American price increase on 3 Dec 2026 supports 2027 margins if volumes hold [2]."
+      ],
+      "threats": [
+        "Prolonged housing weakness: existing-home sales were down 8.8% year on year at a 3.75 million rate with mortgages at 7.28% [11][12].",
+        "Tariff and metal-cost volatility, since Whirlpool's guidance excludes any future trade-policy change [2].",
+        "Balance-sheet pressure at the weakest names, such as Whirlpool's negative nine-month free cash flow and $6,838M of long-term debt [1].",
+        "Earnings quality: one-off refunds flatter results at Stanley Black & Decker and SharkNinja, and their removal will expose the underlying trend [4][5]."
+      ],
+      "assessment": "Over the next three to five years we think the industry stays two-speed. Brands with new categories, battery platforms or low fixed-cost models, such as SharkNinja and Techtronic, have kept growing through a soft housing market [5][7]. Major-appliance makers face weak industry shipments and thin margins, but they now have price increases and cost programs set to deliver mostly in 2027, according to Whirlpool [2]. Global Asian groups keep gaining footprint, and partnerships such as Electrolux with Midea show consolidation is under way [6]. The biggest upside lever is lower mortgage rates, which we do not see yet in the latest data [12]. Tariff policy remains the swing factor, and refunds are masking underlying margins today [4][5]. Our read is that share, price and cost execution matter more than market growth, which Euromonitor put at only 1.4% for major appliances in 2025 [10]."
+    }
+  },
+  "sections": [
+    {
+      "id": "macro",
+      "paragraphs": [
+        "Household appliances is a housing-linked durable goods industry, and the housing cycle is weak. Existing-home sales ran at 3.75 million annualized in October 2026, down 5.5% on the month and 8.8% on the year, and first-time buyers were 29% of sales [11]. The 30-year mortgage rate was 7.28% on 19 Nov 2026 against 6.26% a year earlier [12]. Whirlpool says North American industry demand fell 3.3% in Q3 and it expects about 5% down for 2026 [2]. Euromonitor put 2025 global major-appliance growth at 1.4%, down from 2.7%, citing tariff uncertainty, high rates, inflation and weak housing [10].",
+        "Policy is not easing. The Fed held at 3.75% to 4.00% on 28 Oct 2026, with two dissenters preferring a quarter-point hike, and said inflation remains elevated [13]. Appliance prices rose 1.3% in October on a seasonally adjusted basis, and gasoline was up 37.4% over twelve months, which raises freight and fuel costs [14]. Tariffs are the other lever: a 50% duty on the steel content of washers, dryers, refrigerators, dishwashers and ranges applied from 23 Jun 2025 [15], and Whirlpool booked a 225 basis point sequential tariff drag from incremental Section 232 duties in Q3 [2]. Currency adds noise, as Haier's RMB 364 million Q3 FX loss shows [8]. Our read is that volumes are near a floor but not yet turning, so price and cost actions carry results."
+      ]
+    },
+    {
+      "id": "demand",
+      "paragraphs": [
+        "Euromonitor sized the 2025 global major-appliance market at 570 million units and $298B, with growth of 1.4% and the fastest-growing markets in Eastern Europe, Africa, South Asia and Latin America [10]. We did not find a sourced total that also covers small appliances, power tools and lawn equipment, so the industry total is larger than that figure but unquantified here. Demand is replacement-led, which gives a floor, but purchases can be deferred, so units fall in downturns: Haier says China's industry fell about 10% in Q3 and US shipments about 4% [8].",
+        "Growth sits in newer categories and professional tools. SharkNinja's cooking and beverage sales rose 36.6% and beauty and home environment 45.8% in Q3 [5]. Techtronic's professional segment grew 9.7% in the first half while consumer fell 2.5% [7], and it cites electrician demand of roughly 81,000 openings a year over the next decade [7]. Latin America rose 6.9% at Whirlpool while North America fell 8.3% [1]. Demographics work through first-time buyers, 29% of October home sales, down from 32% a year earlier [11]. We think long-term growth is low single digit for major appliances and higher for innovative categories."
+      ]
+    },
+    {
+      "id": "structure",
+      "paragraphs": [
+        "Porter's five forces: rivalry is intense, with Whirlpool naming BSH, Electrolux, Haier, Hisense, LG, Mabe, Midea, Panasonic and Samsung in major appliances, and Breville, De'Longhi, Ninja, Groupe SEB and Cuisinart in small appliances [3]. Buyer power is high because Lowe's alone was about 15% of Whirlpool's 2025 sales [3]. Supplier power is moderate, with steel, resin and base-metal costs costing Whirlpool 75 basis points in Q3 [2]. The threat of new entrants is higher in small appliances than in major appliances, where factories and service networks are barriers. Substitutes include repair and used units; we found no sourced data on their size.",
+        "Concentration is moderate globally and varies by region. We found no sourced market-share table, so we rank by sales: Whirlpool about $16B in 2025 [3], Techtronic $8.3B in the first half [7], Haier RMB 221.8B in nine months [8]. Pricing power looks stronger in differentiated categories: Techtronic's gross margin was 42.9% [7] and SharkNinja's 50.6% [23], against 13.1% for Whirlpool [21]. Moats are brands, battery platforms, retailer relationships and, for Whirlpool, a US footprint that makes about 80% of the major appliances it sells there [3]. Consolidation continues: Electrolux has formed three joint ventures with Midea in North America [6], and Picea bought iRobot [9]."
+      ]
+    },
+    {
+      "id": "environment",
+      "paragraphs": [
+        "Trade policy dominates. The 50% Section 232 duty on the steel content of listed appliances took effect 23 Jun 2025 [15]; Whirlpool's Q3 saw a 225 basis point sequential tariff drag from incremental Section 232 duties, and it assumes only announced tariffs in its 2026 outlook [2]. We could not confirm the current rate schedule from a primary notice. Refunds of earlier emergency-power duties are now flowing: Stanley Black & Decker saw about 430 basis points of gross margin benefit and $0.67 of EPS [4], SharkNinja recognized $109.6M [5] and Electrolux cited refunds in cash flow [6]. Whirlpool's 10-K says environmental and energy rules did not have a material effect on its capex or competitiveness [3].",
+        "Technology and social factors matter at the margin. Euromonitor says AI features are standard in premium appliances [10], Whirlpool launched an in-door nugget ice maker [2], and Techtronic is pushing cordless conversion of petrol tools, including lithium riding mowers [7]. Data governance is a new theme for connected products: iRobot created iRobot Safe, with an independent board, to handle US and EU consumer data after the Picea deal [9]. Geopolitics is an emerging risk: Electrolux cites higher raw-material and logistics costs from the Middle East conflict [6]."
+      ]
+    },
+    {
+      "id": "economics",
+      "paragraphs": [
+        "Economics differ sharply by model. Damodaran's January 2026 data shows pre-tax operating margins of 7.2% for Furn/Home Furnishings and 16.8% for Machinery against 14.4% for the market, with gross margins of 30.3%, 37.5% and 37.8% [16]. Damodaran has no separate appliance group, so we use these as proxies. Company figures are more informative: Whirlpool's trailing operating margin was 1.8% and ROIC 2.6% [21], Stanley Black & Decker's 7.7% and 5.8% [22], SharkNinja's 14.8% and 25.2% [23]. Techtronic's first-half EBIT margin was 9.9% [7] and Electrolux's Q3 adjusted margin 2.7% [6].",
+        "Operating leverage is high because plants and warehouses are fixed costs. Whirlpool says volume deleverage and fuel costs left net cost take-out below $150M of about $250M gross savings [2]. Capital intensity is moderate: Damodaran's net capex is 5.9% of sales for Furn/Home Furnishings [20], while Techtronic's first-half capex was 1.1% of sales [7]. Free cash flow is strongest where margins are: Stanley Black & Decker produced $585M in Q3 [4] while Whirlpool's nine-month free cash flow was -$1,081M [1]. Damodaran's ROIC of 11.9% for Furn/Home Furnishings compares with 9.6% for the market [17]."
+      ]
+    },
+    {
+      "id": "earnings",
+      "paragraphs": [
+        "Guidance is split. Whirlpool cut 2026 to net sales of about $14.5B, ongoing EBIT margin of 2.0% to 2.2%, ongoing EPS of about -$1.30 and free cash flow of about $300M, with Q4 ongoing EPS about -$0.35 [1]. It says most structural cost benefits land in 2027 and it is cautiously optimistic [2]. Stanley Black & Decker raised adjusted EPS to $5.95 to $6.25 from $5.20 to $5.80, but Q3 included about $0.67 of refunds [4]. SharkNinja raised 2026 sales growth to 18% to 19% and adjusted EPS to $6.65 to $6.75, with refunds excluded from adjusted figures [5].",
+        "Others show slower trends. Electrolux's organic sales growth was 3.5% in Q3 and it now sees volume, price and mix contributing neutrally to operating income for 2026 [6]. Haier's nine-month net profit fell 13.67%, though it says Q3 profit grew excluding FX and about RMB 500 million of one-offs [8]. Techtronic targets a 10.0% EBIT margin by 2027 against 9.9% now [7].",
+        "We did not find consensus estimate tables or revision data we could open, so we do not state where we differ from consensus. Our read is that earnings quality is the main issue: refunds inflate Stanley Black & Decker's 2026 base, and Whirlpool's 2027 recovery depends on price holding and housing stabilising."
+      ]
+    },
+    {
+      "id": "valuation",
+      "paragraphs": [
+        "Valuation is split by quality. On 20 Nov 2026, Stanley Black & Decker traded on 17.3x forward earnings with a 10.8% free-cash-flow yield, a $15.85B market value and EV/EBITDA of 12.4 [22]. SharkNinja traded on 29.2x forward earnings, 24.7x EV/EBITDA and a 1.7% free-cash-flow yield with a $29.96B market value [23]. Whirlpool's forward P/E was not available because of losses; its market value was $1.63B, EV/EBITDA 12.8, and free-cash-flow yield -15.3% [21].",
+        "Against datasets, Damodaran's January 2026 forward P/E was 20.3 for Furn/Home Furnishings, 24.1 for Machinery, 16.9 for Household Products and 27.7 for the market [18]. The SPDR S&P Homebuilders ETF had a forward P/E of 18.1 on 19 Nov 2026 [24]. SharkNinja's 1.7% yield partly reflects weak cash conversion, with nine-month operating cash flow of $107.4M on $5.15B of sales [5]. Whirlpool's 3.6% dividend yield [21] sits against negative free cash flow [1], which looks hard to sustain without the guided recovery. We did not find ten-year average multiples for this group that we could open, so we do not compare with its own history."
+      ]
+    },
+    {
+      "id": "positioning",
+      "paragraphs": [
+        "Momentum is sharply divided. Over the 52 weeks to 20 Nov 2026, SharkNinja was up 143.3%, Stanley Black & Decker up 71.6% and Whirlpool down 64.7% [23][22][21]. In the SPDR S&P Homebuilders ETF, SharkNinja was the largest holding at 4.18% on 19 Nov 2026; Whirlpool and Stanley Black & Decker were not in the top ten, and the fund held $1.46B with a -1.01% return year to date to 31 Oct [24].",
+        "Short interest was 5.1% of float for Stanley Black & Decker and 9.2% for SharkNinja [22][23]. The page's figure for Whirlpool was 0.06%, but it showed a previous-month figure of about 17.5 million shares, so we treat it as unreliable [21]. Stanley Black & Decker repurchased about $250M of stock in Q3 and approved a new $1B authorization [4]. We did not find ETF flow or institutional ownership data we could open. Our read is that positioning favors growth brands and cash generators, while Whirlpool is priced for stress, and its Q4 and 2027 price-and-cost delivery will test that [2]."
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "n": 1,
+      "title": "Whirlpool Corporation announces third-quarter 2026 results",
+      "publisher": "Whirlpool / Finviz",
+      "date": "2026-10-27",
+      "url": "https://finviz.com/news/408037/whirlpool-corporation-announces-third-quarter-results"
+    },
+    {
+      "n": 2,
+      "title": "Whirlpool Q3 2026 earnings call corrected transcript",
+      "publisher": "FactSet CallStreet / Whirlpool",
+      "date": "2026-10-27",
+      "url": "https://s202.q4cdn.com/229739679/files/content_files/WHR-US-CORRECTED-TRANSCRIPT-Whirlpool-CorpWHRUS-Q3-2026-Earnings-Call-27October2026-800-ET-AM-26-10-2026-2026-10-26-0.pdf"
+    },
+    {
+      "n": 3,
+      "title": "Whirlpool Form 10-K for the year ended 31 Dec 2025",
+      "publisher": "Whirlpool",
+      "date": "2026-02",
+      "url": "https://s202.q4cdn.com/229739679/files/doc_financials/2025/q4/541f2c0f-8be4-45fe-95e5-9af821ebd1fa.pdf"
+    },
+    {
+      "n": 4,
+      "title": "Stanley Black & Decker reports 3Q 2026 results (Exhibit 99.1, Form 8-K)",
+      "publisher": "Stanley Black & Decker / SEC",
+      "date": "2026-11-04",
+      "url": "https://www.sec.gov/Archives/edgar/data/0000093556/000009355626000036/ex991q32026.htm"
+    },
+    {
+      "n": 5,
+      "title": "SharkNinja reports third quarter 2026 results (Exhibit 99.1, Form 8-K)",
+      "publisher": "SharkNinja / SEC",
+      "date": "2026-11-04",
+      "url": "https://www.sec.gov/Archives/edgar/data/0001957132/000195713226000055/exhibit991pressreleaseofsh.htm"
+    },
+    {
+      "n": 6,
+      "title": "Electrolux Group interim report Q3 2026",
+      "publisher": "Electrolux / Inderes",
+      "date": "2026-10-23",
+      "url": "https://www.inderes.dk/en/releases/electrolux-group-interim-report-q3-2026"
+    },
+    {
+      "n": 7,
+      "title": "Techtronic Industries 2026 interim results: review of operations",
+      "publisher": "Techtronic Industries",
+      "date": "2026-08-04",
+      "url": "https://www.ttigroup.com/documents/interim-results-2026/files/TTI-2026IR-Review_of_Operations-en.pdf"
+    },
+    {
+      "n": 8,
+      "title": "Haier Smart Home 2026 third-quarter report",
+      "publisher": "Haier Group",
+      "date": "2026-10-29",
+      "url": "https://www.haier.com/about_haier/xinwen/20261029_296008.shtml"
+    },
+    {
+      "n": 9,
+      "title": "iRobot completes court-supervised transaction with Picea",
+      "publisher": "iRobot",
+      "date": "2026-01-23",
+      "url": "https://media.irobot.com/2026-01-23-iRobot-Completes-Court-Supervised-Transaction-with-Picea,-Enabling-the-Next-Chapter-of-Growth"
+    },
+    {
+      "n": 10,
+      "title": "The world market for major appliances",
+      "publisher": "Euromonitor International",
+      "date": "2026-03",
+      "url": "https://www.euromonitor.com/the-world-market-for-major-appliances/report"
+    },
+    {
+      "n": 11,
+      "title": "Existing-home sales decreased 5.5% in October",
+      "publisher": "National Association of Realtors",
+      "date": "2026-11-12",
+      "url": "https://www.nar.realtor/newsroom/existing-home-sales-decreased-5-5-percent-october-nar-report"
+    },
+    {
+      "n": 12,
+      "title": "Primary Mortgage Market Survey",
+      "publisher": "Freddie Mac",
+      "date": "2026-11-19",
+      "url": "https://www.freddiemac.com/pmms"
+    },
+    {
+      "n": 13,
+      "title": "FOMC statement, 28 October 2026",
+      "publisher": "Federal Reserve Board",
+      "date": "2026-10-28",
+      "url": "https://www.federalreserve.gov/newsevents/pressreleases/monetary20261028a.htm"
+    },
+    {
+      "n": 14,
+      "title": "Consumer Price Index, October 2026",
+      "publisher": "U.S. Bureau of Labor Statistics",
+      "date": "2026-11-10",
+      "url": "https://www.bls.gov/news.release/archives/cpi_11102026.htm"
+    },
+    {
+      "n": 15,
+      "title": "Section 232 steel tariff hits household appliances",
+      "publisher": "STR Trade Report",
+      "date": "2025-06-16",
+      "url": "https://www.strtrade.com/trade-news-resources/str-trade-report/june/section-232-steel-tariff-hits-household-appliances"
+    },
+    {
+      "n": 16,
+      "title": "Margins by Sector (US), January 2026",
+      "publisher": "Aswath Damodaran, NYU Stern",
+      "date": "2026-01",
+      "url": "https://pages.stern.nyu.edu/~adamodar/New_Home_Page/datafile/margin.html"
+    },
+    {
+      "n": 17,
+      "title": "Return on Capital by Sector (US), January 2026",
+      "publisher": "Aswath Damodaran, NYU Stern",
+      "date": "2026-01",
+      "url": "https://pages.stern.nyu.edu/~adamodar/New_Home_Page/datafile/roc.html"
+    },
+    {
+      "n": 18,
+      "title": "PE Ratios by Sector (US), January 2026",
+      "publisher": "Aswath Damodaran, NYU Stern",
+      "date": "2026-01",
+      "url": "https://pages.stern.nyu.edu/~adamodar/New_Home_Page/datafile/pedata.html"
+    },
+    {
+      "n": 19,
+      "title": "Debt Fundamentals by Sector (US), January 2026",
+      "publisher": "Aswath Damodaran, NYU Stern",
+      "date": "2026-01",
+      "url": "https://pages.stern.nyu.edu/~adamodar/New_Home_Page/datafile/dbtfund.html"
+    },
+    {
+      "n": 20,
+      "title": "Cash Flow Drivers by Sector (US), January 2026",
+      "publisher": "Aswath Damodaran, NYU Stern",
+      "date": "2026-01",
+      "url": "https://pages.stern.nyu.edu/~adamodar/New_Home_Page/datafile/cfbasics.html"
+    },
+    {
+      "n": 21,
+      "title": "Whirlpool statistics and valuation, 20 Nov 2026",
+      "publisher": "StockAnalysis",
+      "date": "2026-11-22",
+      "url": "https://stockanalysis.com/stocks/whr/statistics/"
+    },
+    {
+      "n": 22,
+      "title": "Stanley Black & Decker statistics and valuation, 20 Nov 2026",
+      "publisher": "StockAnalysis",
+      "date": "2026-11-22",
+      "url": "https://stockanalysis.com/stocks/swk/statistics/"
+    },
+    {
+      "n": 23,
+      "title": "SharkNinja statistics and valuation, 20 Nov 2026",
+      "publisher": "StockAnalysis",
+      "date": "2026-11-22",
+      "url": "https://stockanalysis.com/stocks/sn/statistics/"
+    },
+    {
+      "n": 24,
+      "title": "SPDR S&P Homebuilders ETF (XHB) fund page",
+      "publisher": "State Street Investment Management",
+      "date": "2026-11-19",
+      "url": "https://www.ssga.com/us/en/intermediary/etfs/spdr-sp-homebuilders-etf-xhb"
+    },
+    {
+      "n": 25,
+      "title": "LG Electronics Q3 profit rises on home appliances, auto parts",
+      "publisher": "The Korea Times",
+      "date": "2026-10-07",
+      "url": "https://www.koreatimes.co.kr/business/companies/20261007/lg-electronics-q3-profit-rises-on-home-appliances-auto-parts"
+    },
+    {
+      "n": 26,
+      "title": "List of S&P 500 companies",
+      "publisher": "Wikipedia",
+      "date": "2026-11",
+      "url": "https://en.wikipedia.org/wiki/List_of_S%26P_500_companies"
+    }
+  ]
+}
