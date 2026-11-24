@@ -1,0 +1,438 @@
+{
+  "code": "25301030",
+  "added": "2026-11-24",
+  "asOf": "2026-11-20",
+  "summary": "Leisure facilities is splitting into winners and weather- or traffic-exposed operators. Gyms are strong: Americans' fitness membership hit a record 81 million [1], Life Time's revenue rose 14.2% [2] and Planet Fitness raised guidance [3]. Parks and ski are weaker: Vail's skier visits fell 13.4% and pass units are down about 12% [4], Six Flags took a $687.7M impairment [5], and United Parks' attendance fell 4.7% [6]. Studio franchisor Xponential is shrinking [7]. The Fed held at 3.75% to 4.00% with two votes to hike [8]. Damodaran's US recreation group trades at 10.4x EBITDA against 19.7x for the market [9].",
+  "metrics": [
+    {
+      "label": "Life Time Q3 revenue",
+      "value": "$893.5M",
+      "context": "+14.2%; comparable center revenue +8.7%; 2026 revenue guided to $3.38B to $3.39B; quarter ended 30 Sep 2026",
+      "source": 2
+    },
+    {
+      "label": "Planet Fitness members",
+      "value": "21.5M",
+      "context": "+4% year on year; Q3 system-wide same club sales +1.5%; 2,962 clubs at 30 Sep 2026",
+      "source": 3
+    },
+    {
+      "label": "Vail Resorts FY2026 skier visits",
+      "value": "15.3M",
+      "context": "-13.4%; Resort Reported EBITDA $745.7M (-11.7%); year ended 31 Jul 2026; 2026/27 pass units -12% through 18 Sep",
+      "source": 4
+    },
+    {
+      "label": "Six Flags Q3 same-park net revenue",
+      "value": "+1.4%",
+      "context": "Reported net revenue $1.17B (-11.0%) after park sales; net loss $366.1M including $687.7M impairment; net debt $4.66B",
+      "source": 5
+    },
+    {
+      "label": "United Parks Q3 attendance",
+      "value": "6.47M",
+      "context": "-4.7%; adjusted EBITDA $205.1M (-5.1%); total debt $2,276.5M against $26.3M cash at 30 Sep 2026",
+      "source": 6
+    },
+    {
+      "label": "US skier visits, 2025-26",
+      "value": "52.6M",
+      "context": "Down from 61.6M; average snowfall 112 inches against a 10-year average of 169",
+      "source": 13
+    },
+    {
+      "label": "US fitness facility members, 2025",
+      "value": "81M",
+      "context": "+5.2% on 2024; 26.1% of Americans aged six and over; about 7 billion visits",
+      "source": 1
+    },
+    {
+      "label": "Recreation EV/EBITDA (Damodaran, US)",
+      "value": "10.4x",
+      "context": "Firms with positive EBITDA, 49 firms, against 19.7x for the total market; January 2026 data",
+      "source": 9
+    }
+  ],
+  "watch": [
+    "Vail's 2026/27 pass book: units were down about 12% and dollars down about 6% through 18 Sep 2026, and management says the weakness is concentrated in lower-frequency destination passes [4][10].",
+    "Six Flags' turnaround: October attendance was softer than planned after weather and the Six Flags Over Georgia incident, and Q4 same-park adjusted EBITDA is guided to $140M to $150M against $167M a year earlier [5].",
+    "Planet Fitness' review of its domestic corporate-owned clubs, which could move some clubs to franchisees and change its mix of royalty and club revenue [3].",
+    "Xponential's strategic review, with net new studios cut to 124 to 130, same store sales down 7.5% and about $521M of long-term debt [7].",
+    "Rates and consumer cost pressure: the Fed held at 3.75% to 4.00% with two dissents in favour of a hike, and the 12-month CPI rate was 3.7% in September [8][11]."
+  ],
+  "bellwethers": [
+    "Vail Resorts",
+    "Planet Fitness",
+    "Life Time",
+    "Six Flags Entertainment",
+    "United Parks & Resorts",
+    "Xponential Fitness"
+  ],
+  "basics": {
+    "intro": "These companies sell access to places where people exercise, play or ride: gyms and fitness studios, theme and water parks, ski resorts and golf venues. Customers are households and, for some parks and clubs, corporate and group buyers. Revenue comes from memberships and passes, single-day tickets, in-venue spending on food, lessons, rentals and merchandise, and, for franchisors, royalties. GICS also places franchised studio brands here. Equipment makers such as golf clubs sit in Leisure Products, hotels and casinos in other Hotels, Resorts & Cruise Lines and Casinos & Gaming, and live-event promoters in Entertainment.",
+    "products": [
+      {
+        "name": "Fitness clubs",
+        "what": "Large gyms charging monthly dues. Operators own the clubs or franchise them. Low-priced models want many members; premium models sell more services per member.",
+        "examples": "Planet Fitness (franchised, low price), Life Time (owned, premium athletic country clubs)"
+      },
+      {
+        "name": "Boutique fitness studios",
+        "what": "Small, class-based studios for one discipline such as Pilates or stretching, usually franchised, that sell memberships and class packs.",
+        "examples": "Xponential Fitness brands including Club Pilates, StretchLab and Pure Barre"
+      },
+      {
+        "name": "Ski resorts",
+        "what": "Mountain resorts selling season passes and lift tickets, plus lodging, ski school, rentals and food. Snow and weather decide how many people come.",
+        "examples": "Vail Resorts Epic Pass, other regional operators"
+      },
+      {
+        "name": "Theme and amusement parks",
+        "what": "Parks selling day tickets and season passes, with extra spending on food, games and merchandise. Rides and shows are large fixed investments.",
+        "examples": "Six Flags (including the former Cedar Fair parks), United Parks (SeaWorld, Busch Gardens)"
+      },
+      {
+        "name": "Water parks and resort-style attractions",
+        "what": "Seasonal water-based parks and attractions, sometimes with hotels, that depend on summer weather and school calendars.",
+        "examples": "Six Flags water parks, United Parks' Aquatica and Discovery Cove"
+      },
+      {
+        "name": "Golf and entertainment venues",
+        "what": "Courses, driving ranges and venues combining sport with food and drink, earning green fees, memberships and hospitality revenue.",
+        "examples": "Topgolf (now majority owned by Leonard Green funds), municipal and private golf clubs"
+      }
+    ],
+    "terms": [
+      {
+        "term": "Season pass",
+        "meaning": "A prepaid ticket for unlimited or many visits in a season. It brings cash in early, smooths revenue and lowers the average price per visit, but it makes demand less sensitive to weather once bought."
+      },
+      {
+        "term": "Deferred revenue",
+        "meaning": "Cash collected for passes and memberships before the service is delivered. It sits on the balance sheet as a liability and turns into revenue over the season."
+      },
+      {
+        "term": "Attendance and per capita spending",
+        "meaning": "Park revenue is visitors multiplied by what each one spends in the gate and inside the park. Splitting growth into the two shows whether volume or pricing is carrying results."
+      },
+      {
+        "term": "Skier visit",
+        "meaning": "One person on a mountain for any part of a day. Resorts also report effective ticket price, the lift revenue earned per visit."
+      },
+      {
+        "term": "Same club sales",
+        "meaning": "Revenue growth from clubs open for at least a year, which strips out the effect of new openings. Planet Fitness and other franchisors use it as their main health measure."
+      },
+      {
+        "term": "System-wide sales",
+        "meaning": "Sales of all franchised and company-owned locations. A franchisor books only royalties and fees on franchised ones, so system-wide sales show the size of the brand, not its revenue."
+      },
+      {
+        "term": "Franchise royalty",
+        "meaning": "A percentage of franchisee sales paid to the brand owner, typically with no matching operating cost, which makes franchisor margins high and stable."
+      },
+      {
+        "term": "Average unit volume (AUV)",
+        "meaning": "Average annual sales per location. It shows whether new and existing units are earning enough to justify opening more."
+      },
+      {
+        "term": "Attrition (churn)",
+        "meaning": "The share of members who cancel in a period. Membership models need joins to exceed cancellations, so small shifts in churn change growth."
+      },
+      {
+        "term": "Adjusted EBITDA",
+        "meaning": "Operating profit before depreciation, amortization and items management excludes. It is the main profit measure and the base for debt ratios, but it ignores heavy ride and club capital spending."
+      },
+      {
+        "term": "Net debt leverage",
+        "meaning": "Debt less cash divided by adjusted EBITDA. Fixed-cost operators with seasonal swings are judged on this ratio because falling EBITDA raises it quickly."
+      },
+      {
+        "term": "Maintenance versus growth capex",
+        "meaning": "Maintenance spending keeps rides, lifts and clubs safe and fresh; growth spending adds new attractions or locations. The split shows how much cash flow is truly free."
+      },
+      {
+        "term": "Refranchising",
+        "meaning": "Selling company-owned locations to franchisees. It brings cash and cuts capital needs but swaps full club profit for a royalty."
+      }
+    ],
+    "drivers": [
+      {
+        "name": "Weather and snowfall",
+        "how": "Parks and ski resorts earn most of their profit in a few months. A poor snow year or a wet summer cuts visits against mostly fixed costs, so profit moves by more than revenue."
+      },
+      {
+        "name": "Consumer spending and confidence",
+        "how": "Discretionary leisure falls when households feel squeezed. Low-priced gyms and annual passes are more resilient than day tickets, travel-linked visits and premium add-ons."
+      },
+      {
+        "name": "Pricing and pass mix",
+        "how": "Raising prices lifts revenue per visit but can lose casual visitors. A larger share of passes brings cash early and steadies revenue at the cost of a lower yield per visit."
+      },
+      {
+        "name": "Membership growth and churn",
+        "how": "Gym revenue builds from members joining minus members leaving. Promotions, new locations and a strong January lift joins, while cancellations offset them."
+      },
+      {
+        "name": "Capital spending and new locations",
+        "how": "New rides, lifts, clubs and studios attract visitors or members but cost cash up front. Returns depend on how quickly new capacity fills."
+      },
+      {
+        "name": "Leverage and interest rates",
+        "how": "Many operators carry debt against steady fees and passes. Higher rates raise interest cost, and a profit drop pushes leverage up and limits buybacks, dividends and growth spending."
+      }
+    ]
+  },
+  "fundamentals": {
+    "business": [
+      "Revenue streams differ by model. Planet Fitness earns franchise royalties of about 6.7% on average plus equipment sales and corporate-club dues [12]. Life Time earns dues and in-center spending [2]. Parks sell tickets, passes and in-park spending [6], and Vail sells passes, lift tickets and lodging, ski school and retail [4].",
+      "Customers are mainly households. Gym members pay monthly dues, which at Planet Fitness start at $15 for the Classic card and $24.99 for Black Card [12]. Pass holders were about 61% of Six Flags' same-park Q3 attendance [5], and season passes were 49% of US skier visits [13].",
+      "Costs are mostly fixed: labor, rent or land, utilities, maintenance, insurance and marketing. Because they barely move with volume, a visit shortfall hits profit hard. Vail, for example, cut visits 13.4% and reported EBITDA fell 11.7% [4].",
+      "Pricing power rests on brand, location and scarcity. Vail's effective ticket price rose 11.5% in FY2026 even as visits fell [4], and Life Time's average revenue per membership rose 12.0% [2]. Low-price gyms rely on value and convenience, and Planet Fitness' $15 entry price is itself the product [12].",
+      "Major assets are land, buildings, rides, lifts and equipment. Liabilities include debt and, for pass sellers, deferred revenue; Six Flags had $331.3M of deferred revenue and $4.91B of total debt at 27 Sep 2026 [5]. United Parks carried $2,276.5M of debt against $26.3M of cash at 30 Sep 2026 [6].",
+      "Owners are capital-intensive and franchisors asset-light. Life Time plans $885M to $910M of growth capital in 2026 against guided revenue of $3.38B to $3.39B [2]. Planet Fitness franchisees fund most clubs, with 2,604 of 2,896 clubs franchised at the end of 2025 [12]."
+    ],
+    "overview": [
+      "No single sub-industry market-size figure was available from sources we opened. Demand indicators are sizeable: 81 million Americans were fitness facility members in 2025, up 5.2% [1], and the US ski industry recorded 52.6 million visits in 2025-26 [13].",
+      "Main segments are fitness clubs and studios, theme and water parks, ski resorts and golf. In 2025 fitness had about 7 billion visits [1], US golf rounds topped 500 million [14], and parks and ski are concentrated around destination and regional markets [5][4].",
+      "In the value chain, suppliers are ride and fitness-equipment makers, construction firms, utilities and land owners; customers are households. Franchisors such as Planet Fitness require franchisees to buy equipment from it or approved vendors and replace it every five to nine years [12].",
+      "The industry has moved toward recurring revenue and consolidation. Passes and memberships now drive demand, with 49% of ski visits from pass holders [13], and Six Flags was formed by a 2024 combination with Cedar Fair and has since sold seven parks to EPR Properties and closed one [5].",
+      "Geography is concentrated in North America for the main bellwethers. Vail runs 37 North American ski areas plus Australian resorts [13][10], Six Flags operates in the US, Canada and Mexico [5], and 20.1M of the US's 52.6M ski visits were in the Rocky Mountain region [13]."
+    ],
+    "competition": [
+      "There are many competitors across segments, but each local market has few. Public bellwethers include Vail, Planet Fitness, Life Time, Six Flags, United Parks and Xponential [3][5][6][7], with a long tail of private, municipal and independent operators.",
+      "Leaders by segment: Vail in ski by pass reach, Planet Fitness by members (21.5M) [3], Life Time in premium clubs (196 centers) [2], Six Flags in regional parks with 20 amusement parks and 14 water parks [5], and United Parks in marine parks (13 parks) [6]. We did not find audited market-share figures.",
+      "Structure is fragmented overall and concentrated locally. A resort or park often has no close substitute within driving distance, while gyms face many nearby alternatives from low-cost chains, boutiques, home equipment and digital apps [12].",
+      "Barriers to entry are high for parks and resorts: land, permits, ride capacity and brand are costly to replicate. They are lower for gyms and studios, where a lease and equipment are enough, which is why the filings of Planet Fitness flag intense competition [12].",
+      "Economies of scale matter in purchasing, marketing and pass networks. Vail's multi-resort Epic Pass and its efficiency program, which saved $45M in FY2026, rely on scale [10]. Planet Fitness uses its 86 franchisee groups and 2,962 clubs to spread brand and technology costs [12][3].",
+      "Products are differentiated by location, brand and experience, but entry-level gyms and day tickets are close to commodity and compete on price. Vail said it is leaning into being more competitive on price for lift products [10].",
+      "Customers hold bargaining power in gyms and day tickets, because cancelling is easy and substitutes exist, and weaker in destinations with limited supply. Suppliers have moderate power: Planet Fitness flags dependence on a limited number of equipment suppliers [12]."
+    ],
+    "drivers": [
+      "Revenue growth comes from visits or members, price and in-venue spending, plus new locations. Planet Fitness grew revenue 9.0% on a 1.5% same club sales gain plus openings [3], while Life Time's came from higher dues and new centers [2].",
+      "Operating margins depend on fixed-cost coverage, so volume swings move them. Vail's Resort Reported EBITDA margin was 26.3% in FY2026 [4], and Six Flags' same-park adjusted EBITDA rose 1.1% on 1.4% same-park revenue growth [5].",
+      "Key cost variables are labor, utilities, maintenance and insurance, property taxes and marketing. Vail expected about 4% cost inflation in FY2027, a $20M rebound in incentive pay and $10M more marketing [10].",
+      "Interest rates matter through debt and discretionary budgets. The Fed held at 3.75% to 4.00% on 28 Oct 2026 with two votes for a hike [8], and Six Flags and Vail carry leverage of about 6.0x (our calculation) and 3.9x [5][4].",
+      "Inflation, jobs and GDP shape discretionary leisure. The 12-month CPI rate was 3.7% in September 2026 [11]. Consumers trade down or delay trips when squeezed, while low-priced gyms tend to hold up better; Planet Fitness' same club sales rose 1.5% [3].",
+      "The group is cyclical with secular growth pockets. Weather and consumer spending make parks and ski cyclical, while fitness has structural growth, with members up 5.2% and visits above the 2019 peak [1]."
+    ],
+    "financials": [
+      "Growth is uneven. Life Time revenue rose 14.2% in Q3 and Planet Fitness 9.0% [2][3], while United Parks fell 1.1% and Vail's FY2026 revenue fell about 4.3% [6][4]. Xponential revenue fell 21% [7].",
+      "Margins: Damodaran's January 2026 US Recreation group (49 firms) had an after-tax operating margin of 7.14% against 11.88% for the total market [15]. Company margins vary: Vail's Resort EBITDA margin was 26.3% [4] and Life Time's Q3 adjusted EBITDA was $256.3M on $893.5M of revenue [2].",
+      "Returns on capital are modest. Damodaran's Recreation after-tax return on capital was 8.87% against 9.76% for the market in January 2026 [15], and the group's cost of capital was 6.76% with beta 1.02 [16]. Recreation is a broader group than GICS leisure facilities.",
+      "Leverage varies sharply. Life Time's net debt was 1.3x adjusted EBITDA [2], Vail's 3.9x [4], United Parks' about 3.9x on our calculation [6], Six Flags' about 6.0x on our calculation [5], and Xponential had $521.1M of debt against $27.2M of cash [7].",
+      "Free cash flow is positive but strained at the weaker names. United Parks' nine-month free cash flow was $122.1M, down 9.2% [6]; Six Flags' nine-month operating cash flow rose 36.5% to $498.5M while capex fell [5]; Vail said free cash flow covers its capital plan and dividend even at the low guidance end [10].",
+      "Capital needs are large for owners. Vail plans about $215M to $220M of core calendar 2026 capital [4], Six Flags guided $350M to $375M of 2026 capex [5], and Life Time $885M to $910M of growth capital [2]. Franchisors need little.",
+      "Valuation: Damodaran's Recreation group traded at 10.39x EV/EBITDA for positive-EBITDA firms against 19.73x for the market in January 2026 [9]. FactSet's S&P 500 forward P/E was 18.3 and Consumer Discretionary's, the highest sector, was 25.1 on 13 Nov 2026 [17]; we did not find a sub-industry forward P/E."
+    ],
+    "risks": [
+      "Regulation is a modest risk but real: safety oversight of rides after incidents, franchise rules, pricing and auto-renewal rules for memberships, and data privacy. Planet Fitness lists brand damage, litigation and privacy compliance as risks [12], and Six Flags' October softness was linked to an incident at Six Flags Over Georgia [5].",
+      "Technology and AI affect mostly marketing, pricing and guest apps rather than the core experience. Vail is pushing a digital guest journey through the My Epic app [10], and Planet Fitness flags digital fitness and home equipment as competition [12]. Substitution of the physical visit is limited.",
+      "Demographics help fitness: members aged 65 and over grew 8.6% and Gen Z has 35.5% penetration [1]. An older and wealthier base also supports premium clubs and ski, while fewer young skiers would be a long-term risk; we found no sourced figure for that.",
+      "Consumer behavior is shifting toward passes and experiences. Daily and multi-day ticket users fell from 51% of ski visits in 2015-16 to 32% in 2024-25 [13], and Vail is seeing buyers delay pass purchases after a poor season [10].",
+      "New competitors and models matter in fitness: low-cost chains, boutique studios and digital apps pressure incumbents [12]. Xponential's same store sales decline of 7.5% suggests boutique saturation [7].",
+      "Geopolitical and supply risks are secondary: lower international visitation to the US, which Vail expects to persist, and equipment and ride supply [10][12]. Climate is the larger structural risk, with 2025-26 snowfall 33% below the 10-year average [13].",
+      "Substitutes include home gyms, streaming workouts, other travel and entertainment, and GLP-1 weight-loss drugs, which Planet Fitness lists as a possible effect on gym demand [12]. Parks and ski compete with cruises, streaming and short trips for the same leisure budget."
+    ],
+    "horizon": {
+      "opportunities": [
+        "Fitness penetration keeps rising, with 81 million US members, record visits and 65-plus members up 8.6% [1].",
+        "Recurring pass and membership models can be expanded: United Parks' 2027 pass sales were up more than 15% and Six Flags' active pass base grew 7.1% [6][5].",
+        "Refranchising and asset sales can fund growth and buybacks: Planet Fitness announced a $500M repurchase authorization and a review of corporate clubs [3].",
+        "Premium operators can keep adding centers: Life Time plans 14 new centers in 2026 [2]."
+      ],
+      "threats": [
+        "A repeat of a weak snow year would again cut skier visits, which fell to 52.6M from 61.6M in 2025-26 [13].",
+        "Higher rates and sticky inflation could squeeze households and keep borrowing costs high for levered operators [8][11].",
+        "Leveraged park and studio operators have little room for error, with Six Flags' leverage near 6.0x on our calculation and Xponential in a strategic review [5][7].",
+        "Weight-loss drugs and digital fitness could slow gym demand [12]."
+      ],
+      "assessment": "Our read is that the next three to five years favor recurring-revenue, asset-light and premium fitness models over weather-exposed, heavily indebted parks. Fitness has structural support from record membership and visits [1], and Life Time's growth and low leverage show strong execution [2]. Parks and ski have more repair work: Six Flags is restructuring, United Parks is leaning on 2027 passes, and Vail has to rebuild a pass base that fell about 12% [5][6][4]. Weather is the swing factor, and rates plus the consumer decide how fast recovery comes [13][8]. Franchisors can grow with little capital but depend on franchisee returns, as Xponential's cuts show [7]."
+    }
+  },
+  "sections": [
+    {
+      "id": "macro",
+      "paragraphs": [
+        "Leisure facilities sit at the discretionary end of consumer spending, so the cycle reaches them through household budgets, borrowing costs and weather. The Fed held its target range at 3.75% to 4.00% on 28 Oct 2026 in a 10-2 vote, with Governor Cook and President Hammack preferring a quarter-point increase, and it described inflation as elevated [8]. The all-items CPI rose 3.7% in the 12 months to September 2026, and rose 0.4% in October with core up 0.3% [11].",
+        "For the sub-industry the pattern is a squeezed consumer rather than a recession. Gyms are holding up: Planet Fitness raised its 2026 same club sales outlook to about 1.5% to 2% and Life Time lifted guidance [3][2]. Trip-based businesses are weaker, and Vail sees a possible slowdown in high-end travel and lower international visitation [10]. Levered operators are exposed to rates: Vail's net debt is 3.9x EBITDA and Six Flags' is about 6.0x by our calculation [4][5]. We did not find a sourced figure for currency effects."
+      ]
+    },
+    {
+      "id": "demand",
+      "paragraphs": [
+        "Demand has a clear structural base in fitness. The Health & Fitness Association counted 81 million US members in 2025, up 5.2%, equal to 26.1% of Americans aged six and over, with about 7 billion visits, above the 2019 peak [1]. Gen Z had the highest penetration at 35.5%, and members aged 65 and over grew 8.6% [1]. Planet Fitness ended Q3 with about 21.5 million members, up roughly 4% [3], while Life Time's memberships rose 2.2% and revenue per membership rose 12.0% [2].",
+        "Outdoor and park demand is more cyclical. US skier visits fell to 52.6M in 2025-26 from 61.6M as snowfall averaged 112 inches against 169 for the 10-year average [13]. Golf is steadier: rounds rose just over 1% in 2025 to more than 500 million, though facility count fell about 3% over 2020 to 2025 [14]. Parks are mixed, with Six Flags' same-park attendance down 0.2% in Q3 and United Parks' down 4.7% [5][6]. We did not find a sourced total addressable market for the sub-industry."
+      ]
+    },
+    {
+      "id": "structure",
+      "paragraphs": [
+        "Using Porter's five forces, rivalry is high in gyms, where Planet Fitness, Life Time, boutique brands, local clubs and home fitness compete on price and experience [12]. Threat of new entrants is high for gyms and studios but low for parks and resorts, where land, permits and capacity are hard to replicate. Threat of substitutes is moderate and includes home workouts, GLP-1 drugs and other leisure spending [12]. Buyer power is high in day tickets and memberships; supplier power is moderate, with Planet Fitness flagging dependence on a limited number of equipment suppliers [12].",
+        "Concentration is local. Vail operates 37 North American ski areas [13], Six Flags 20 amusement parks and 14 water parks [5], United Parks 13 parks [6] and Life Time 196 centers [2]. Planet Fitness had 2,962 clubs at 30 Sep 2026, with 2,604 of 2,896 franchised at the end of 2025 [3][12]. Moats come from destination scarcity, brand and pass networks; Vail says it outperforms the industry on comparable unlimited passes [10]. Pricing power is stronger at premium sites than in low-price gyms."
+      ]
+    },
+    {
+      "id": "environment",
+      "paragraphs": [
+        "Regulation is a background factor. Safety rules apply to rides and lifts, and incidents have commercial effects: Six Flags said its October attendance was softer than planned after weather and the Six Flags Over Georgia incident and ride closures [5]. Franchise relationships, consumer-protection rules on memberships and data privacy are listed risks for Planet Fitness [12]. We did not find sourced figures on new legislation.",
+        "Technology is changing the guest relationship more than the product. Vail is pushing a digital journey through the My Epic app, in-app commerce and gear rental [10]; Planet Fitness cites digital fitness and home equipment as competition [12]. Climate and weather are the sharper environmental risk, with 2025-26 US snowfall 33% below the 10-year average and Rocky Mountain visits down to 20.1M from 26.5M [13]. Political factors include trade and visitor flows: Vail expects international visits to the US to stay low [10]. Corporate actions also reshape the field: Topgolf was majority sold to Leonard Green funds at a valuation of about $1.1B [18]."
+      ]
+    },
+    {
+      "id": "economics",
+      "paragraphs": [
+        "Economics are driven by fixed costs and capital intensity. Damodaran's January 2026 US Recreation group (49 firms) earned an after-tax operating margin of 7.14% and an after-tax return on capital of 8.87%, against 11.88% and 9.76% for the whole market [15]. The same group's cost of capital was 6.76% [16]. Recreation is a broader group than GICS leisure facilities, so we use it only as a guide.",
+        "Operating leverage is visible in the bellwethers. Vail's visits fell 13.4% and Resort Reported EBITDA fell 11.7% to $745.7M, a 26.3% margin [4]. Life Time's Q3 revenue rose 14.2% and adjusted EBITDA rose 16.5% to $256.3M [2]. Six Flags' Q3 same-park revenue rose 1.4% and adjusted EBITDA 1.1% [5], while United Parks' revenue fell 1.1% and adjusted EBITDA fell 5.1% [6]. Franchisors earn high margins on royalties: Planet Fitness corporate clubs had a 37.8% segment margin and the royalty is about 7% [12]. Free cash flow is positive but heavily committed to capex and debt service."
+      ]
+    },
+    {
+      "id": "earnings",
+      "paragraphs": [
+        "Reported results diverge. Life Time raised 2026 revenue guidance to $3.38B to $3.39B and adjusted EBITDA to $958M to $962M [2]. Planet Fitness raised revenue growth to about 8% and adjusted EBITDA growth to about 6.5% [3]. Vail guided FY2027 Resort Reported EBITDA to $805M to $865M against $745.7M in FY2026 [4]. Six Flags guided Q4 same-park adjusted EBITDA of $140M to $150M against $167M a year earlier [5].",
+        "United Parks gave no formal guidance but said it sees a clear path to significantly higher attendance, revenue, adjusted EBITDA and free cash flow in 2027 [6]. Xponential kept revenue guidance at $250M to $260M and narrowed adjusted EBITDA to $91M to $94M [7]. FactSet's S&P 500 forecasts, 28.3% earnings growth for Q4 2026 and 16.2% for CY2027, are index-wide [17]; we did not find sub-industry consensus estimates. Our view is that the FY2027 Vail range is a recovery call that depends on snow and pass conversion, with the pass book still down [4]."
+      ]
+    },
+    {
+      "id": "valuation",
+      "paragraphs": [
+        "No sub-industry multiple was available from sources we opened, so we use Damodaran's January 2026 US Recreation group (49 firms): 10.39x EV/EBITDA for firms with positive EBITDA, against 19.73x for the total market, and 23.96x EV/EBIT against 29.12x [9]. The low EBITDA multiple reflects capital intensity and debt; the EV/EBIT gap is narrow, which shows how much depreciation these businesses carry.",
+        "At the market level, FactSet showed an S&P 500 forward P/E of 18.3 on 13 Nov 2026 against 19.8 for five years and 19.1 for ten, with Consumer Discretionary the highest sector at 25.1 [17]. That sector includes large non-leisure names, so it is not a read on the group. Company-level anchors are scarce: we did not open a market-data source for current company multiples. Our read is that fitness franchisors and premium clubs carry growth premiums, while parks and ski are priced for recovery that 2027 pass sales must support [6][4]."
+      ]
+    },
+    {
+      "id": "positioning",
+      "paragraphs": [
+        "We did not find sourced ETF flow, short interest or relative-strength data for this sub-industry, so we do not quote any. What the filings show is where management is putting capital. Planet Fitness bought back about 1.0M shares for $50.0M in Q3, announced a new authorization of up to $500M and bought Be-Fit in Portugal for about $114.8M [3]. Vail pays a $2.22 quarterly dividend and expects leverage to fall to about 3.5x by the end of FY2027 [4][10].",
+        "Portfolio actions signal stress at the weaker names. Topgolf Callaway sold 60% of Topgolf to Leonard Green funds and used proceeds to repay $1B of debt, leaving Callaway Golf as a separate company [18]. Xponential's board is exploring alternatives including a sale or merger [7]. Six Flags cut 2026 capex guidance to $350M to $375M and recorded a $687.7M impairment [5]. Market breadth is therefore split between gyms with rising guidance and parks and ski still working through a weak season."
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "n": 1,
+      "title": "81 Million Americans Were Members of a Fitness Facility in 2025, New HFA Report Finds",
+      "publisher": "Health & Fitness Association",
+      "date": "2026-04-09",
+      "url": "https://www.healthandfitness.org/81-million-americans-were-members-of-a-fitness-facility-in-2025-new-hfa-report-finds/"
+    },
+    {
+      "n": 2,
+      "title": "Life Time Reports Third Quarter 2026 Financial Results (Form 8-K exhibit 99.1)",
+      "publisher": "SEC EDGAR",
+      "date": "2026-10-30",
+      "url": "https://www.sec.gov/Archives/edgar/data/0001869198/000186919826000053/lth-20260930xex991.htm"
+    },
+    {
+      "n": 3,
+      "title": "Planet Fitness, Inc. Announces Third Quarter 2026 Results (Form 8-K exhibit 99.1)",
+      "publisher": "SEC EDGAR",
+      "date": "2026-11-05",
+      "url": "https://www.sec.gov/Archives/edgar/data/0001637207/000163720726000047/plntq32026pressreleaseex991.htm"
+    },
+    {
+      "n": 4,
+      "title": "Vail Resorts Reports Fourth Quarter and Full Year Fiscal 2026 Results and Provides Fiscal 2027 Outlook",
+      "publisher": "Vail Resorts (via Finviz)",
+      "date": "2026-09-28",
+      "url": "https://finviz.com/news/396114/vail-resorts-reports-fourth-quarter-and-full-year-fiscal-2026-results-and-provides-fiscal-2027-outlook"
+    },
+    {
+      "n": 5,
+      "title": "Six Flags Entertainment Corporation Reports 2026 Third Quarter Results (Form 8-K exhibit 99.1)",
+      "publisher": "SEC EDGAR",
+      "date": "2026-11-05",
+      "url": "https://www.sec.gov/Archives/edgar/data/0001999001/000199900126000103/sixflags-exh991xq32026.htm"
+    },
+    {
+      "n": 6,
+      "title": "United Parks & Resorts Inc. Reports Third Quarter and First Nine Months 2026 Results (Form 8-K exhibit 99.1)",
+      "publisher": "SEC EDGAR",
+      "date": "2026-11-05",
+      "url": "https://www.sec.gov/Archives/edgar/data/0001564902/000119312526448448/prks-ex99_1.htm"
+    },
+    {
+      "n": 7,
+      "title": "Xponential Fitness Third Quarter 2026 Results (Form 8-K exhibit 99.1)",
+      "publisher": "SEC EDGAR",
+      "date": "2026-11-05",
+      "url": "https://www.sec.gov/Archives/edgar/data/0001802156/000119312526449959/d137051dex991.htm"
+    },
+    {
+      "n": 8,
+      "title": "Federal Reserve issues FOMC statement, October 28, 2026",
+      "publisher": "Federal Reserve Board",
+      "date": "2026-10-28",
+      "url": "https://www.federalreserve.gov/newsevents/pressreleases/monetary20261028a.htm"
+    },
+    {
+      "n": 9,
+      "title": "Enterprise Value Multiples by Sector, US (January 2026)",
+      "publisher": "Aswath Damodaran, NYU Stern",
+      "date": "2026-01",
+      "url": "https://pages.stern.nyu.edu/~adamodar/New_Home_Page/datafile/vebitda.html"
+    },
+    {
+      "n": 10,
+      "title": "Vail Resorts (MTN) Q4 2026 Earnings Call Transcript",
+      "publisher": "Webull",
+      "date": "2026-09-28",
+      "url": "https://www.webull.com/news/15660435498009600"
+    },
+    {
+      "n": 11,
+      "title": "Consumer Price Index, October 2026 (news release)",
+      "publisher": "US Bureau of Labor Statistics",
+      "date": "2026-11-10",
+      "url": "https://www.bls.gov/news.release/archives/cpi_11102026.htm"
+    },
+    {
+      "n": 12,
+      "title": "Planet Fitness, Inc. Form 10-K for fiscal 2025",
+      "publisher": "SEC EDGAR (via BoardroomAlpha)",
+      "date": "2026-02-25",
+      "url": "https://www.boardroomalpha.com/sec/plnt-10-k-2026-02-25-0001637207-26-000011"
+    },
+    {
+      "n": 13,
+      "title": "US skier visits drop in 2025-26 (NSAA preliminary data)",
+      "publisher": "Colorado Sun",
+      "date": "2026-05-05",
+      "url": "https://coloradosun.com/2026/05/05/us-skier-visits-drop-2025-26/"
+    },
+    {
+      "n": 14,
+      "title": "Record rounds again in 2025 with 2K fewer courses",
+      "publisher": "National Golf Foundation",
+      "url": "https://www.ngf.org/short-game/record-rounds-again-in-2025-with-2k-fewer-courses/"
+    },
+    {
+      "n": 15,
+      "title": "Margin and Return on Capital by Industry, US (January 2026)",
+      "publisher": "Aswath Damodaran, NYU Stern",
+      "date": "2026-01",
+      "url": "https://pages.stern.nyu.edu/~adamodar/New_Home_Page/datafile/mgnroc.html"
+    },
+    {
+      "n": 16,
+      "title": "Cost of Capital by Industry Sector, US (January 2026)",
+      "publisher": "Aswath Damodaran, NYU Stern",
+      "date": "2026-01",
+      "url": "https://pages.stern.nyu.edu/~adamodar/New_Home_Page/datafile/wacc.html"
+    },
+    {
+      "n": 17,
+      "title": "FactSet Earnings Insight, 13 November 2026",
+      "publisher": "FactSet",
+      "date": "2026-11-13",
+      "url": "https://advantage.factset.com/hubfs/Website/Resources%20Section/Research%20Desk/Earnings%20Insight/EarningsInsight_111326.pdf"
+    },
+    {
+      "n": 18,
+      "title": "Topgolf Callaway Brands Completes Sale of Majority Stake of Topgolf to Leonard Green & Partners",
+      "publisher": "Topgolf Callaway Brands",
+      "date": "2026-01-05",
+      "url": "https://callawaygolf.gcs-web.com/node/26786"
+    }
+  ]
+}

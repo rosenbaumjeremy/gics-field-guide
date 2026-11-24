@@ -1,0 +1,443 @@
+{
+ "code": "25201010",
+ "added": "2026-11-24",
+ "asOf": "2026-11-23",
+ "summary": "Consumer electronics is a hardware business with one large profitable name and a long tail of strugglers. Garmin, the only S&P 500 member we found in the group [14], grew Q3 2026 revenue 12% to $1.99B at a 30.8% operating margin and raised 2026 guidance to about $8.15B [1]. Sonos grew adjusted EBITDA 39% but absorbed $56M of higher memory costs [2], while GoPro's Q3 revenue fell 41% and it is merging with Starman Optical [3]. Sony's electronics segment sales fell 1% and are being flattered by tariff refunds [4]. Garmin trades at 26.1x trailing earnings on a $52.4B market value [5].",
+ "metrics": [
+  {
+   "label": "Garmin Q3 2026 revenue",
+   "value": "$1.99B",
+   "context": "+12% year on year; operating margin 30.8%; gross margin 63.3%; quarter ended 26 Sep 2026",
+   "source": 1
+  },
+  {
+   "label": "Garmin 2026 guidance (raised)",
+   "value": "~$8.15B revenue",
+   "context": "Pro forma EPS $10.80; gross margin 61.0%; operating margin 29.0%; tax rate 16.5%",
+   "source": 1
+  },
+  {
+   "label": "Sonos fiscal 2026 revenue",
+   "value": "$1,546.9M",
+   "context": "+7%; adjusted EBITDA $183.8M (11.9% margin), up 39%; free cash flow $122.9M; year ended 3 Oct 2026",
+   "source": 2
+  },
+  {
+   "label": "GoPro Q3 2026 revenue",
+   "value": "$96.2M",
+   "context": "-41.0% year on year; hardware -49.5%; GAAP gross margin 12.7%; cash $33.5M at 30 Sep 2026",
+   "source": 3
+  },
+  {
+   "label": "Sony Electronics, Technology & Services (ET&S) forecast, FY2026",
+   "value": "Sales 2,250bn yen",
+   "context": "Operating income forecast 150bn yen vs 158.6bn yen in FY2025; Q2 sales -1% to 567.8bn yen",
+   "source": 4
+  },
+  {
+   "label": "Garmin valuation (stock)",
+   "value": "26.1x trailing P/E",
+   "context": "Market value $52.37B; price $268.05 vs 52-week range $191.43 to $314.28; as of 23 Nov 2026",
+   "source": 5
+  },
+  {
+   "label": "US consumer technology revenue 2026 (CTA forecast)",
+   "value": "$565B",
+   "context": "+3.7%; hardware +3.4%; unit shipments +0.7%; forecast published 4 Jan 2026",
+   "source": 6
+  },
+  {
+   "label": "DRAM and NAND supply growth 2026 (IDC)",
+   "value": "+16% / +17%",
+   "context": "Both below historical norms; IDC said the shortage could persist well into 2027; published 18 Dec 2025",
+   "source": 7
+  }
+ ],
+ "watch": [
+  "Memory prices: IDC expects constrained DRAM and NAND supply into 2027, and Sonos already absorbed $56M of higher memory costs in fiscal 2026 [7][2].",
+  "The Sony and TCL television joint venture, planned to start operations in April 2027 subject to regulatory approvals, will reshape the TV market [9].",
+  "Smart glasses are the fastest-growing new device, with IDC forecasting unit growth of 26.3% in 2026 and 40.5% in 2027, with Meta at 68.7% share in Q2 2026 [10].",
+  "GoPro's merger with Starman Optical, with the closing deadline extended to 31 Mar 2027, and a risk-factor warning of going-concern doubt, show how thin the weakest balance sheets are [3].",
+  "Tariff refunds are lifting reported results at Garmin, Sonos and Sony, so underlying margins will look weaker when they stop [1][2][4]."
+ ],
+ "bellwethers": [
+  "Garmin",
+  "Sony",
+  "Sonos",
+  "GoPro",
+  "Universal Electronics",
+  "Koss"
+ ],
+ "basics": {
+  "intro": "These companies design and sell devices that people buy for entertainment, fitness and everyday connected life: sports watches and navigators, speakers and headphones, televisions, cameras and remote controls. Customers are mostly consumers, buying through big retailers such as Best Buy and Amazon, direct websites, or as parts inside cars and other products. Makers earn the gap between the retail price and what the device costs to design, build and distribute, plus a growing amount from subscriptions. GICS keeps smartphones, PCs and Apple in Information Technology, and appliances and housewares in other Household Durables sub-industries.",
+  "products": [
+   {
+    "name": "Wearables and navigation",
+    "what": "Smartwatches, fitness trackers, cycling computers, marine and aviation electronics and car navigators. Buyers pay premium prices for accuracy and battery life.",
+    "examples": "Garmin fenix, Forerunner and Edge devices, plus marine chartplotters and aviation avionics"
+   },
+   {
+    "name": "Home audio and headphones",
+    "what": "Wireless speakers, soundbars and headphones, often sold as a connected system with an app and software updates.",
+    "examples": "Sonos speakers and soundbars, Koss headphones, Sony audio, Bose, Samsung's Harman brands"
+   },
+   {
+    "name": "Televisions and home entertainment",
+    "what": "Flat-panel TVs, projectors and home theater gear. Hardware is sold at thin margins and increasingly funded by selling the software platform and advertising.",
+    "examples": "Sony Bravia, Samsung, TCL, Hisense, LG, Vizio (owned by Walmart)"
+   },
+   {
+    "name": "Cameras and imaging",
+    "what": "Action cameras, mirrorless cameras and sensors, from hobbyist to professional use.",
+    "examples": "GoPro HERO and MAX cameras, Sony Alpha cameras"
+   },
+   {
+    "name": "Remote controls and smart-home controls",
+    "what": "Remote controls and wireless control devices supplied to TV makers, pay-TV operators and appliance makers, which sell them under their own brands.",
+    "examples": "Universal Electronics' remotes and thermostat controls"
+   },
+   {
+    "name": "Subscriptions and services",
+    "what": "Paid software, cloud storage and content sold on top of devices, which can lift margins and make revenue steadier.",
+    "examples": "GoPro's subscription and services line, Sonos app and platform, Garmin Connect+"
+   }
+  ],
+  "terms": [
+   {
+    "term": "Original design manufacturer (ODM) / contract manufacturer",
+    "meaning": "A third-party factory that builds a branded company's product. Most consumer electronics brands are asset-light and rely on them, mostly in Asia."
+   },
+   {
+    "term": "Sell-in vs sell-through",
+    "meaning": "Sell-in is what the brand ships to retailers, sell-through is what shoppers actually buy. When retailers cut stock, sell-in falls faster than real demand."
+   },
+   {
+    "term": "Channel inventory",
+    "meaning": "Product sitting at retailers and distributors. High stock leads to discounts and later order cuts."
+   },
+   {
+    "term": "Average selling price (ASP)",
+    "meaning": "Revenue divided by units. Rising ASP can offset weak units, which matters when memory costs push prices up."
+   },
+   {
+    "term": "Gross margin",
+    "meaning": "Revenue less cost of goods, as a percentage. It separates premium brands with pricing power from commodity hardware sellers."
+   },
+   {
+    "term": "Bill of materials (BOM)",
+    "meaning": "The cost of all parts in a device. Memory, screens and processors are the big lines, so component price swings hit margins directly."
+   },
+   {
+    "term": "Attach rate / recurring revenue",
+    "meaning": "The share of device owners who also pay for a subscription or accessory. It makes revenue less dependent on new hardware launches."
+   },
+   {
+    "term": "Refresh cycle",
+    "meaning": "How often owners replace a device. Long cycles, as with TVs and speakers, make sales lumpy."
+   },
+   {
+    "term": "Design win / OEM",
+    "meaning": "A contract to supply a device or module to another maker, such as a car or TV brand. Revenue is large but lumpy and lower margin."
+   },
+   {
+    "term": "Mini LED / OLED / RGB LED",
+    "meaning": "Competing TV display technologies. Newer ones sell at higher prices until rivals copy them."
+   },
+   {
+    "term": "Tariff refund",
+    "meaning": "Money returned for duties previously paid on imports that were later ruled invalid. It lifts reported profit but is not an ongoing earnings stream."
+   },
+   {
+    "term": "Custom installer",
+    "meaning": "A professional who fits home audio and smart-home systems. A key sales channel for premium audio."
+   }
+  ],
+  "drivers": [
+   {
+    "name": "Product cycles and launches",
+    "how": "A hit product lifts units and pricing for a year or two, then growth fades unless the next one lands. Revenue swings follow launch timing."
+   },
+   {
+    "name": "Component costs, especially memory",
+    "how": "Memory is a growing share of parts cost. When prices jump, margins fall unless the brand raises prices or pulls stock forward."
+   },
+   {
+    "name": "Tariffs and trade policy",
+    "how": "Duties on imports from Asia raise landed cost. Brands choose between price rises and lower margin, and refunds later distort reported profit."
+   },
+   {
+    "name": "Consumer confidence and discretionary spending",
+    "how": "These items are postponable, so demand falls when households feel squeezed, with the weakest hit hardest at low prices."
+   },
+   {
+    "name": "Retail channel inventory",
+    "how": "When retailers over-stock, they stop ordering. Brand revenue then drops by more than shop-floor sales."
+   },
+   {
+    "name": "Subscriptions and software",
+    "how": "Recurring revenue lifts margins and steadies earnings, but only for brands with a large installed base."
+   },
+   {
+    "name": "Competition from large platforms and Chinese brands",
+    "how": "Apple, Samsung, Google, Amazon and Chinese makers like TCL can undercut or bundle, which compresses prices for smaller brands."
+   }
+  ]
+ },
+ "fundamentals": {
+  "business": [
+   "Revenue comes from device sales, mainly through retailers. Garmin sells to five segments; in Q3 2026 Fitness brought $694.3M, Outdoor $597.3M, Marine $309.9M, Aviation $252.7M and auto OEM $131.9M [1]. Sonos sold $1,202.1M of speakers and $263.8M of system products in fiscal 2026 [2]. GoPro splits $68.8M of hardware and $27.4M of subscription and services in Q3 [3].",
+   "Customers are consumers and retailers. Sonos reports Best Buy at about 18% and Amazon about 14% of fiscal 2026 revenue, and sells through custom installers and its own site [11]. Universal Electronics sells remote controls to TV, pay-TV and appliance makers, and Garmin also supplies carmakers [12][1].",
+   "Principal costs are components, contract manufacturing, research and marketing. Garmin spent $912.7M on R&D and $990.6M on SG&A in the first nine months of 2026, on revenue of $5.76B [1]. Sonos named $56M of extra memory cost in fiscal 2026 [2].",
+   "Pricing power depends on brand and differentiation. Garmin's 63.3% gross margin in Q3 contrasts with GoPro's 12.7% [1][3] and Universal Electronics' 26.3% [12], which is the clearest picture of who has it and who does not.",
+   "Major assets are cash, inventory and brands, while liabilities are modest. Garmin held about $4.1B of cash and marketable securities and $2.25B of inventory [1]. Sonos had $178.1M of cash and no reported borrowings [2]. GoPro had $33.5M of cash against $67.9M of short-term debt [3].",
+   "The model is mostly asset-light. Sonos uses contract manufacturers in Vietnam, China and Malaysia [11]. Our read is that scale in R&D and software, more than factories, separates the strong brands from the rest."
+  ],
+  "overview": [
+   "No single global market size for this GICS group was available to us. The CTA forecasts US consumer technology revenue of $565B in 2026, up 3.7%, with hardware up 3.4% and unit shipments up only 0.7% [6]. That figure covers a broader market than the GICS sub-industry.",
+   "Main segments in the GICS group are wearables and navigation, audio, TVs and home entertainment, cameras and remote controls [1][2][3][12]. Smartphones and PCs, which are larger, sit in Information Technology [14].",
+   "In the value chain, chip, memory and display suppliers sell to brands, contract manufacturers assemble, and retailers such as Best Buy and Amazon reach consumers [11]. Memory supply is now the tightest link, since IDC says makers are shifting capacity to AI data-centre memory [7].",
+   "The industry has moved from owning the product to selling a platform. Sony is moving its TV business into a joint venture with TCL holding 51% [9], while Vizio was bought by Walmart for its advertising and software platform, and Sonos and GoPro are leaning on software and subscriptions [11][3].",
+   "Production is concentrated in Asia, and Sonos is shifting output to Malaysia and Vietnam [11]. Sales are spread more widely: Sonos earned $972.6M in the Americas, $482.6M in EMEA and $91.6M in Asia Pacific in fiscal 2026 [2]. In TVs, Omdia says Chinese brands are expanding overseas while China shipments fell 15.1% in Q2 2026 [8]."
+  ],
+  "competition": [
+   "The group has few significant listed pure plays. In the S&P 500 we found only Garmin in the Consumer Electronics sub-industry in the constituent list [14]. Outside it sit Sony, Sonos, GoPro, Universal Electronics and Koss, mostly small, with Koss at just $3.09M of quarterly sales [13].",
+   "Leaders vary by category. Meta held 68.7% of smart-glasses shipments in Q2 2026 [10]. In Mini LED TVs, Samsung led with 28.2% in Q2 2026 after TCL's 30.2% in Q1 [8]. For wearables, Garmin competes against Apple and others, but we did not find a sourced global share figure.",
+   "The industry is fragmented in most categories, and TVs are consolidating. Sony will hold 49% of a TV venture controlled by TCL [9], an example of scale buyers taking over premium brands.",
+   "Barriers to entry are low in basic hardware, because contract manufacturers are available, and high for brands that need distribution, software and trust. Sonos names Apple, Google, Amazon, Bose, Samsung's Harman brands, Sony and LinkPlay as competitors, and warns that partners could become rivals [11].",
+   "Economies of scale matter in components, marketing and software. Garmin's $4.1B of cash and 63.3% gross margin give it room to outspend GoPro, which burned $48.0M of operating loss on $96.2M of quarterly revenue [1][3].",
+   "Products are differentiated at the top and commoditized lower down. GoPro's hardware revenue fell 49.5% as retailers cut inventory [3], while Garmin raised its guidance [1].",
+   "Retailers hold bargaining power, given Sonos's two largest customers account for about 32% of revenue and its contracts carry no long-term volume commitments [11]. Suppliers of memory have gained power during the shortage [7]."
+  ],
+  "drivers": [
+   "Revenue growth comes from new products, new categories and price. Garmin's Fitness segment grew 16% in Q3 and 26% over nine months on new wearables, while its auto OEM segment fell 20% [1]. Omdia says memory costs are also pushing TV prices up [8].",
+   "Operating margins depend on mix, component costs and scale. Garmin's operating margin was 30.8% in Q3, up from 25.8%, helped by mix, lower product cost and about $33M of tariff refunds [1]. Sonos's non-GAAP gross margin was 42.1% in Q4 against 45.5% for the year [2].",
+   "Key cost variables are memory, display panels, freight, tariffs and marketing. Memory is 15 to 20% of the parts cost of a mid-range phone, per IDC, so the same pressure applies to devices with similar chips [7].",
+   "Interest rates act mainly through household finances rather than the companies' debt. The Fed held at 3.75% to 4% on 28 Oct 2026 after a September rise, and mortgage rates reached 7.4% in October [15]. Most of these brands carry little debt, though GoPro has $67.9M of short-term debt [3].",
+   "Inflation, employment and GDP shape purchases. September consumer prices were up 3.7% year on year, and spending is being supported mainly by upper-income shoppers [15], which fits Garmin's premium positioning. Oil is not a direct driver, but freight and plastics costs are.",
+   "The group is cyclical with pockets of secular growth. Wearables, smart glasses and subscriptions are growing, while TVs, headphones and cameras follow replacement cycles. IDC forecasts smart-glasses unit growth of 26.3% in 2026 [10]."
+  ],
+  "financials": [
+   "Growth is uneven. Garmin grew 13% over nine months 2026 [1], Sonos 7% in fiscal 2026 [2] and Universal Electronics fell 1.3% in Q3 [12], while GoPro dropped 41% [3] and Koss fell 24% [13].",
+   "Margins are very wide. Damodaran's January 2026 US Electronics (Consumer & Office) group of 8 firms had a 38.77% gross margin and negative net margin of 9.42% [16]. Garmin's 63.3% gross margin is far above it, and Sony's ET&S operating margin is forecast at about 6.7% on our arithmetic from 150bn yen on 2,250bn yen [4].",
+   "Returns are poor in aggregate: that same Damodaran group had ROE of -28.81% (-12.73% after adjusting for R&D) [17]. This is a small sample dominated by loss makers, so it understates Garmin-type quality and should not be read as typical.",
+   "Leverage is low for the leaders and high for the weakest. Sonos reports no borrowings and Garmin holds $4.1B of cash, whereas GoPro's cash was $33.5M against $67.9M of short-term debt and a going-concern risk factor [2][1][3].",
+   "Free cash flow is solid at the best firms. Sonos generated $122.9M of free cash flow in fiscal 2026 [2] and Garmin $293M in Q3 alone [1]. Universal Electronics produced $16.6M of operating cash flow in nine months [12].",
+   "Capital needs are moderate and mostly R&D rather than factories. Garmin's R&D of $912.7M in nine months is about 16% of its revenue by our arithmetic [1]. Sonos spent $130M on share repurchases in fiscal 2026 [2].",
+   "Valuation is wide-ranging. Garmin is at 26.1x trailing earnings [5], and about 24.8x 2026 pro forma EPS guidance of $10.80 on our arithmetic [1][5]. We did not find reliable multiples for the smaller names."
+  ],
+  "risks": [
+   "Regulation is mainly trade policy. Tariff rules have shifted, and Sonos, Garmin and Sony all booked refunds of previously paid duties [2][1][4]. Sonos says the timing and amount of any further recovery is uncertain [11].",
+   "Technology disruption is large: AI and smart glasses could shift value away from watches, speakers and cameras. Meta already holds 68.7% of smart glasses, while display glasses were 14.3% of Q2 2026 shipments [10].",
+   "Demographics matter little in the short term; the relevant shift is a large installed base of older users who replace slowly, and a younger group that prefers phones. Sonos says 62% of its households own multiple products [11], which shows loyalty among its existing users.",
+   "Consumer behaviour is moving toward value and subscriptions. Koss's direct-to-consumer sales reached about 37% of turnover [13], and Sonos wants more direct sales [11]. Retailer inventory cuts can swing results sharply, as GoPro's 53.8% fall in units showed [3].",
+   "New competitors include big platforms and Chinese manufacturers. Omdia notes Samsung and LG cut entry prices to challenge TCL and Hisense in Mini LED [8], and Sonos warns partners could enter its markets [11].",
+   "Geopolitical and supply-chain risk centres on Asian manufacturing and memory. Sonos uses contract makers in Vietnam, China and Malaysia [11], and IDC says the memory shortage could last well into 2027 [7].",
+   "Substitutes are strong: a phone replaces many standalone gadgets such as cameras and navigation units, which hits GoPro-type products [3]. Garmin's auto OEM business fell 20% in Q3 and posted a $12M operating loss [1]."
+  ],
+  "horizon": {
+   "opportunities": [
+    "Wearables and health devices are growing, with Garmin's Fitness segment up 26% in nine months 2026 [1].",
+    "Smart glasses and AI-linked devices are a new category, with IDC forecasting unit growth of 40.5% in 2027 [10].",
+    "Subscriptions can stabilize revenue, as shown by GoPro's subscription and services growth of 3.1% while hardware fell [3].",
+    "Memory prices could ease from mid-2027 if supply catches up, as IDC suggests the shortage could persist well into 2027 only [7]."
+   ],
+   "threats": [
+    "Persistent memory shortages and higher tariff costs could squeeze margins at brands without pricing power [7][2].",
+    "Weak balance sheets and consolidation: GoPro has $33.5M of cash and is merging with Starman Optical, and Sony's TV unit is passing to TCL [3][9].",
+    "Tariff refunds flatter current results, so margins may look weaker once they end [1][2][4].",
+    "Phones and large platforms keep absorbing standalone device functions [10]."
+   ],
+   "assessment": "Over the next three to five years we expect a split industry. Brands with premium pricing, software and health or outdoor niches, such as Garmin, can keep growing and earning high margins [1]. Commodity hardware with thin margins and few subscriptions faces consolidation, as the Sony and TCL deal and the GoPro merger show [9][3]. Memory and tariffs are the main swing factors for costs [7][2]. New categories such as smart glasses could create growth, but they are dominated by Meta and large platforms [10]. Our read is that independent brands need a loyal installed base and a software layer to survive, and that the group's overall earnings quality will be clearer once tariff refunds roll off [1][2][4]."
+  }
+ },
+ "sections": [
+  {
+   "id": "macro",
+   "paragraphs": [
+    "Consumer electronics are discretionary purchases, so the cycle matters. The Fed raised rates in September 2026, the first rise in more than three years, and held at 3.75% to 4% on 28 Oct 2026; September consumer prices were up 3.7% from a year earlier and the next meeting in December may bring another hike [15]. Mortgage rates touched 7.4% in October [15].",
+    "Spending has held up, but unevenly. The Fed coverage described consumer spending as resilient and supported mainly by upper-income shoppers, with average wages up 3% over twelve months, which is below inflation [15]. That pattern suits premium brands such as Garmin, whose Q3 revenue grew 12% and whose outlook was raised [1], and hurts lower-priced products. GoPro's hardware revenue fell 49.5% in the quarter [3].",
+    "Most companies here have little debt, so interest costs matter less than demand. Currency matters for Sony, whose ET&S sales were helped by 26.6bn yen of foreign exchange in Q2 FY2026, with the yen at 159.3 per dollar [4]. We think a tariff-driven price rise and a weak lower-income consumer are the main macro risks for 2027."
+   ]
+  },
+  {
+   "id": "demand",
+   "paragraphs": [
+    "The CTA forecast US consumer technology revenue of $565B in 2026, up 3.7%, with hardware growing 3.4%, software and services 4.2% to nearly $194B, and unit shipments up just 0.7% [6]. The growth is mostly price and mix, not volume, which we think fits a mature category.",
+    "Secular demand is strongest in health and fitness wearables, outdoor and marine devices, and subscription services. Garmin's Fitness revenue rose 26% in the first nine months of 2026 and Outdoor 5% [1]. Smart-glasses shipments rose 35.3% in Q2 2026, with IDC expecting 26.3% unit growth in 2026 and 40.5% in 2027 [10].",
+    "Demand for televisions is cyclical and event-driven. Global TV shipments rose 3.6% to 48.8 million in Q2 2026 on the World Cup and Prime Day, while China fell 15.1% [8]. Sonos's customer base is a good example of replacement and add-on demand: 62% of its households own more than one product [11].",
+    "Demographics matter less than product cycles and price. Our read is that long-term prospects depend on whether new categories offset phone substitution."
+   ]
+  },
+  {
+   "id": "structure",
+   "paragraphs": [
+    "Porter's five forces. Buyer power is high because Best Buy and Amazon together account for about 32% of Sonos revenue without volume commitments [11]. Supplier power is high in memory, where capacity is going to AI data centres [7]. The threat of new entrants is moderate: contract manufacturers lower the cost of entry, but brand, distribution and software are hard to copy. The threat of substitutes is high, since phones absorb cameras, navigators and music players [3]. Rivalry is intense in TVs and audio, where Samsung, LG, TCL and Hisense cut prices [8].",
+    "Concentration is low in most categories and high in a few. Meta had 68.7% of smart-glasses shipments in Q2 2026 [10]. In the S&P 500, Garmin is the only constituent we found in the sub-industry [14], while Sony, Sonos, GoPro, Universal Electronics and Koss are outside it or small.",
+    "Moats come from brand, ecosystem and installed base: Sonos has about 17.7 million households and 56.4 million registered products [11], and Garmin's 63.3% gross margin shows pricing power [1]. Weak moats show up at GoPro, with a 12.7% gross margin [3], and at Universal Electronics, with 26.3% [12]. Sony's decision to place its TV business under TCL control with a 49% stake [9] shows scale increasingly beats brand alone."
+   ]
+  },
+  {
+   "id": "environment",
+   "paragraphs": [
+    "Trade policy is the largest political factor. Garmin recorded about $33M of tariff refunds in Q3 2026 [1], Sonos $41.2M for fiscal 2026 [2] and Sony cited tariff refunds as the main reason its ET&S operating income rose [4]. Koss booked a final $76,000 refund [13]. Sonos notes that further recoveries and any new tariffs are uncertain [11]. Sony's filing cautions that changes in US tariff policy could raise risks [4].",
+    "Technology is the other major force. AI-related demand for memory is starving device makers: IDC expects DRAM supply growth of 16% and NAND of 17% in 2026, and a shortage that could last well into 2027 [7]. Omdia expects TV prices to face upward pressure and brands to shift to 4K models to economize on memory [8].",
+    "Display and wearable technology keep changing. RGB LED TVs reached only 295,000 units in Q2 2026, but Omdia expects them to compete with OLED in the premium segment [8]. Smart glasses with displays were 14.3% of XR shipments [10].",
+    "Competition regulation matters through deals: the Sony and TCL joint venture needs regulatory approvals before April 2027 [9]. Environmental and right-to-repair rules are further emerging factors, but we did not find sourced figures for their cost."
+   ]
+  },
+  {
+   "id": "economics",
+   "paragraphs": [
+    "Economics split sharply by brand strength. Garmin earned a 63.3% gross margin and a 30.8% operating margin in Q3 2026, with segment margins of 33% in Fitness, 39% in Outdoor, 30% in Marine and 26% in Aviation, while auto OEM lost $12M [1]. Sonos had a non-GAAP gross margin of 45.5% for fiscal 2026 and an adjusted EBITDA margin of 11.9% [2].",
+    "At the other end, GoPro's operating loss was $48.0M on $96.2M of revenue [3], Universal Electronics earned $2.9M of GAAP operating income on $89.4M [12] and Koss had a net loss of $234,168 [13]. Operating leverage is strong in both directions because fixed R&D and overhead are spread over volatile sales; Koss pointed to lower overhead absorption as its sales fell 24% [13].",
+    "Capital intensity is low and cash generation good for scaled firms: Garmin's Q3 free cash flow was $293M [1] and Sonos produced $122.9M in fiscal 2026 [2]. Damodaran's January 2026 US group of 8 consumer and office electronics firms shows a 38.77% gross margin, a negative net margin and ROE of -28.81% [16][17]. We view this as evidence of how many small makers earn little, not as a description of Garmin."
+   ]
+  },
+  {
+   "id": "earnings",
+   "paragraphs": [
+    "Consensus data for this group were not publicly available to us, so we rely on company guidance. Garmin raised its 2026 outlook to about $8.15B of revenue and pro forma EPS of $10.80, with gross margin of 61.0% and operating margin of 29.0% [1]. Nine-month revenue of $5.76B implies about $2.39B for Q4 on our arithmetic [1].",
+    "Garmin's nine-month gross margin was 61.8%, so the full-year guide of 61.0% implies a Q4 near 59% by our estimate, which suggests it expects less benefit from refunds and mix, or more cost pressure [1]. Sonos's release did not include fiscal 2027 guidance in the text we opened, so we have no company outlook figure for it [2].",
+    "Universal Electronics reiterated fiscal 2026 adjusted EPS of $0.45 to $0.65 [12]. GoPro is giving no guidance because of its pending merger [3]. Sony left its ET&S forecast unchanged at 150bn yen of operating income, below FY2025's 158.6bn yen [4].",
+    "Our view differs from a simple read of the headlines: refunds contributed to results at Garmin, Sonos and Sony [1][2][4], so we would treat the next two quarters' margins as the test of underlying strength."
+   ]
+  },
+  {
+   "id": "valuation",
+   "paragraphs": [
+    "Garmin is the only widely held name, and it trades at a trailing P/E of 26.08 with a $52.37B market value as of 23 Nov 2026 [5]. On guidance of $10.80 pro forma EPS the price of $268.05 equals about 24.8x on our arithmetic [1][5]. The shares sit about 15% below their 52-week high of $314.28 and 40% above the low of $191.43 [5].",
+    "Cash and marketable securities of about $4.1B are roughly 8% of Garmin's market value by our arithmetic [1][5]. A premium multiple is consistent with its 30.8% operating margin and growth of 12%, though we did not find a sector or 10-year average multiple to compare against.",
+    "We did not find dependable forward multiples for Sonos, GoPro, Universal Electronics or Koss; prices and consensus were not retrieved. Their weak profits make P/E less useful anyway. Damodaran's January 2026 US group shows negative earnings in aggregate, so earnings multiples do not work for it [16][17]. Sonos's $122.9M of free cash flow and $150M repurchase authorization is the kind of figure value investors would compare with its market cap, but we did not obtain that market cap [2]."
+   ]
+  },
+  {
+   "id": "positioning",
+   "paragraphs": [
+    "Positioning data for this sub-industry were limited. Garmin closed at $268.05 on 23 Nov 2026, up 4.14% on the day, and is within a range of $191.43 to $314.28 over 52 weeks [5]. We did not find ETF flows, short interest or institutional positioning for the group, and the sub-industry has no dedicated ETF that we could confirm.",
+    "Momentum across the group is mixed. Garmin has raised guidance [1], Sonos grew fiscal 2026 adjusted EBITDA 39% [2], while GoPro is merging with Starman Optical and cannot hold an earnings call [3]. Universal Electronics moved to a small operating profit [12] and Koss slipped to a loss [13].",
+    "Breadth is narrow. The S&P 500 sub-industry is effectively one stock, Garmin [14], so index-level moves tell you about Garmin rather than the industry. For the broader group, we would watch Sony's ET&S results [4], memory prices [7] and holiday retail demand, as the clearest signals."
+   ]
+  }
+ ],
+ "sources": [
+  {
+   "n": 1,
+   "title": "Garmin announces third quarter 2026 results (Form 8-K exhibit 99.1)",
+   "publisher": "Garmin Ltd / SEC",
+   "date": "2026-10-28",
+   "url": "https://www.sec.gov/Archives/edgar/data/0001121788/000119312526435066/grmn-ex99_1.htm"
+  },
+  {
+   "n": 2,
+   "title": "Sonos reports fourth quarter and fiscal 2026 results (Form 8-K)",
+   "publisher": "Sonos Inc / SEC",
+   "date": "2026-11-10",
+   "url": "https://www.sec.gov/Archives/edgar/data/0001314727/000131472726000105/final4q26earningspressrele.htm"
+  },
+  {
+   "n": 3,
+   "title": "GoPro announces third quarter results (Form 8-K exhibit 99.1)",
+   "publisher": "GoPro Inc / SEC",
+   "date": "2026-11-16",
+   "url": "https://www.sec.gov/Archives/edgar/data/0001500435/000150043526000075/gpro2026-9x30ex991xer.htm"
+  },
+  {
+   "n": 4,
+   "title": "Sony Group Corp Form 6-K: second quarter FY2026 results",
+   "publisher": "Sony Group / SEC",
+   "date": "2026-11-05",
+   "url": "https://www.sec.gov/Archives/edgar/data/0000313838/000110465926122964/tm2628525d5_6k.htm"
+  },
+  {
+   "n": 5,
+   "title": "Garmin Ltd (GRMN) quote",
+   "publisher": "Fox Business",
+   "date": "2026-11-23",
+   "url": "https://www.foxbusiness.com/quote?stockTicker=GRMN"
+  },
+  {
+   "n": 6,
+   "title": "CTA: Despite tariffs and economic headwinds, US consumer tech revenue to hit $565 billion in 2026",
+   "publisher": "Consumer Technology Association",
+   "date": "2026-01-04",
+   "url": "https://www.ces.tech/press-releases/cta-despite-tariffs-and-economic-headwinds-us-consumer-tech-revenue-to-hit-565-billion-in-2026"
+  },
+  {
+   "n": 7,
+   "title": "Global memory shortage crisis: market analysis and impact on smartphone and PC markets in 2026",
+   "publisher": "IDC",
+   "date": "2025-12-18",
+   "url": "https://www.idc.com/resource-center/blog/global-memory-shortage-crisis-market-analysis-and-the-potential-impact-on-the-smartphone-and-pc-markets-in-2026/"
+  },
+  {
+   "n": 8,
+   "title": "Global TV shipments grow 3.6% in 2Q26 as market headwinds intensify",
+   "publisher": "Omdia",
+   "date": "2026-08-28",
+   "url": "https://omdia.tech.informa.com/pr/2026/aug/global-tv-shipments-grow-3point6percent-in-2q26-as-market-headwinds-intensify"
+  },
+  {
+   "n": 9,
+   "title": "Sony is handing control of its Bravia TV business to China's TCL",
+   "publisher": "Engadget",
+   "date": "2026-01-20",
+   "url": "https://engadget.com/home/home-theater/sony-is-handing-control-of-its-bravia-tv-business-to-chinas-tcl-120957252.html"
+  },
+  {
+   "n": 10,
+   "title": "Smart glasses growth cools to 35% as Meta doubles down on distribution",
+   "publisher": "IDC",
+   "date": "2026-09-16",
+   "url": "https://www.idc.com/resource-center/blog/smart-glasses-growth-cools-to-35-as-meta-doubles-down-on-distribution/"
+  },
+  {
+   "n": 11,
+   "title": "Sonos Inc Form 10-K for fiscal year ended 3 Oct 2026",
+   "publisher": "Sonos Inc / SEC",
+   "date": "2026-11-10",
+   "url": "https://www.sec.gov/Archives/edgar/data/0001314727/000131472726000113/sono-20261003.htm"
+  },
+  {
+   "n": 12,
+   "title": "Universal Electronics reports financial results for the third quarter 2026 (Form 8-K)",
+   "publisher": "Universal Electronics / SEC",
+   "date": "2026-11-05",
+   "url": "https://www.sec.gov/Archives/edgar/data/0000101984/000010198426000139/exhibit99-8ker20261105.htm"
+  },
+  {
+   "n": 13,
+   "title": "Koss Corporation reports first quarter results (Form 8-K)",
+   "publisher": "Koss Corp / SEC",
+   "date": "2026-10-29",
+   "url": "https://www.sec.gov/Archives/edgar/data/0000056701/000005670126000046/koss-20261029xex99_1.htm"
+  },
+  {
+   "n": 14,
+   "title": "List of S&P 500 companies",
+   "publisher": "Wikipedia",
+   "date": "2026-11-23",
+   "url": "https://en.wikipedia.org/wiki/List_of_S%26P_500_companies"
+  },
+  {
+   "n": 15,
+   "title": "Fed holds interest rates steady despite stubborn inflation",
+   "publisher": "OPB",
+   "date": "2026-10-28",
+   "url": "https://www.opb.org/article/2026/10/28/fed-holds-interest-rates-steady-despite-stubborn-inflation/"
+  },
+  {
+   "n": 16,
+   "title": "Margins by sector (US): Electronics (Consumer & Office)",
+   "publisher": "Damodaran, NYU Stern",
+   "date": "2026-01-01",
+   "url": "https://pages.stern.nyu.edu/~adamodar/New_Home_Page/datafile/margin.html"
+  },
+  {
+   "n": 17,
+   "title": "Return on equity by sector (US): Electronics (Consumer & Office)",
+   "publisher": "Damodaran, NYU Stern",
+   "date": "2026-01-01",
+   "url": "https://pages.stern.nyu.edu/~adamodar/New_Home_Page/datafile/roe.html"
+  }
+ ]
+}

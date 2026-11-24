@@ -1,0 +1,433 @@
+{
+  "code": "25201020",
+  "added": "2026-11-24",
+  "asOf": "2026-11-23",
+  "summary": "Home furnishings is in a housing-driven slump with a few stand-out balance sheets. Existing-home sales ran at 3.75 million annualized in October, the lowest since 2010, with the 30-year mortgage at 7.28% [1][2]. Mohawk's Q3 volumes fell about 4% and were offset by price and mix [3]; Ethan Allen's sales fell 11.8% [4]; Purple's fell 18.7% [5]; Sleep Number was sold out of Chapter 11 [6]. Consolidation is the main story: Somnigroup closed its Leggett & Platt purchase in August [7]. Mohawk trades at 15.9x forward earnings, La-Z-Boy at 12.8x and Somnigroup at 18.2x on 23 Nov 2026 [8][9][10].",
+  "metrics": [
+    {
+      "label": "US existing-home sales",
+      "value": "3.75M annualized",
+      "context": "October 2026, down 5.5% on the month and 8.8% on the year; lowest pace since August 2010",
+      "source": 1
+    },
+    {
+      "label": "30-year fixed mortgage rate",
+      "value": "7.28%",
+      "context": "Freddie Mac weekly average, 19 Nov 2026, vs 6.26% a year earlier",
+      "source": 2
+    },
+    {
+      "label": "Mohawk Q3 net sales",
+      "value": "$2,786.0M",
+      "context": "+1%; adjusted volume about -4%, price and mix about +4%; adjusted operating margin 7.2%; quarter ended 3 Oct 2026",
+      "source": 3
+    },
+    {
+      "label": "Somnigroup Q3 net sales",
+      "value": "$2,350.8M",
+      "context": "+10.8%, of which $372.6M came from Leggett & Platt for 26 Aug to 30 Sep; adjusted EPS $1.04; leverage 2.69x",
+      "source": 11
+    },
+    {
+      "label": "La-Z-Boy Q2 FY2027 sales",
+      "value": "$526M",
+      "context": "+1% (+4% excluding the casegoods divestiture); adjusted operating margin 5.0% vs 7.1%; quarter ended 24 Oct 2026",
+      "source": 12
+    },
+    {
+      "label": "Ethan Allen Q1 FY2027 net sales",
+      "value": "$129.6M",
+      "context": "-11.8% from $147.0M; gross margin 59.6% vs 61.4%; adjusted operating margin 2.2% vs 7.2%; quarter ended 30 Sep 2026",
+      "source": 4
+    },
+    {
+      "label": "Furniture/home furnishings gross margin (US, 27 firms)",
+      "value": "30.3%",
+      "context": "Damodaran, data as of January 2026; operating margin 6.6%, net margin 1.1%",
+      "source": 13
+    },
+    {
+      "label": "Mohawk forward P/E",
+      "value": "15.9x",
+      "context": "EV/EBITDA 6.5x, FCF yield 10.6%; La-Z-Boy forward P/E 12.8x; Somnigroup 18.2x; 23 Nov 2026",
+      "source": 8
+    }
+  ],
+  "watch": [
+    "Whether October's sharp consumer slowdown at La-Z-Boy and the 16-year low in existing-home sales persist into the holiday quarter [12][1].",
+    "Section 232 duties of 25% on upholstered furniture, kitchen cabinets and vanities had their scheduled increase delayed by a year in a 31 Dec 2025 proclamation [14].",
+    "Somnigroup's integration of Leggett & Platt: management lifted its synergy target to $75M and leverage was 2.69x at 30 Sep 2026 [7][11].",
+    "Purple Innovation's refinancing: $135.1M of related-party debt is classed as current and the company is running a strategic-alternatives process [5].",
+    "Mohawk's Q4 guidance of adjusted EPS of $1.35 to $1.45 on softer market conditions and four fewer shipping days [3]."
+  ],
+  "bellwethers": [
+    "Somnigroup",
+    "Mohawk Industries",
+    "La-Z-Boy",
+    "Ethan Allen",
+    "Purple Innovation",
+    "Leggett & Platt (acquired by Somnigroup, Aug 2026)"
+  ],
+  "basics": {
+    "intro": "These companies make and sell the things that fill a home: mattresses and bedding, sofas, recliners and other furniture, and floor coverings such as carpet, tile and laminate. Customers are households, who buy through furniture stores, company-owned showrooms, mattress chains and websites, plus builders and commercial buyers. Makers earn the gap between factory cost and selling price, and some also earn retail margin by owning stores. Purchases are large, infrequent and postponable, so sales follow home sales, confidence and credit. Appliances sit in Household Appliances and cookware and storage in Housewares and Specialties, and homebuilders are a separate sub-industry; retailers such as RH are classified as retail.",
+    "products": [
+      {
+        "name": "Mattresses and bedding",
+        "what": "Foam, innerspring and hybrid mattresses, pillows and adjustable bases, sold through own stores, mattress chains and online. Buyers replace them rarely, so brand and sleep trials matter.",
+        "examples": "Tempur-Pedic, Sealy and Stearns & Foster (Somnigroup), Purple"
+      },
+      {
+        "name": "Bedding components",
+        "what": "Springs, foam and other parts that mattress and furniture makers buy rather than make themselves. Customers are the other manufacturers, so volumes follow their output.",
+        "examples": "Leggett & Platt, now owned by Somnigroup"
+      },
+      {
+        "name": "Upholstered furniture",
+        "what": "Sofas, sectionals and recliners made of a frame, cushioning and covering, often to order. They are bulky and expensive, so many sales happen in branded showrooms.",
+        "examples": "La-Z-Boy, Ethan Allen upholstery"
+      },
+      {
+        "name": "Casegoods and home accessories",
+        "what": "Wood or metal furniture such as tables, dressers and cabinets, plus rugs, lighting and decor. Much of it is imported, so duties and freight matter.",
+        "examples": "Ethan Allen casegoods and accents"
+      },
+      {
+        "name": "Floor coverings",
+        "what": "Carpet, ceramic tile, laminate, vinyl and wood floors sold for new homes, remodels and commercial space. Installation is usually done by local contractors.",
+        "examples": "Mohawk Industries (Mohawk, Daltile, Karastan brands)"
+      },
+      {
+        "name": "Retail showrooms",
+        "what": "Company-owned or licensed stores where customers see and try products. They give the maker the retail margin and control of the sale but add leases and staff.",
+        "examples": "Mattress Firm (Somnigroup), La-Z-Boy Furniture Galleries, Ethan Allen design centers"
+      }
+    ],
+    "terms": [
+      {
+        "term": "Written orders",
+        "meaning": "Orders taken from customers before delivery. They lead sales by weeks or months for made-to-order furniture, so they are the earliest read on demand."
+      },
+      {
+        "term": "Delivered sales",
+        "meaning": "Sales recognised when furniture reaches the customer. They trail written orders and set reported revenue."
+      },
+      {
+        "term": "Same-store sales",
+        "meaning": "Sales at stores open in both periods, which strips out the effect of opening or buying stores. It shows whether demand per store is rising."
+      },
+      {
+        "term": "Wholesale versus retail",
+        "meaning": "Wholesale sells to independent dealers; retail sells to households through own stores or online. Retail earns more per sale but needs more capital."
+      },
+      {
+        "term": "Casegoods",
+        "meaning": "Hard furniture such as tables, cabinets and bedroom sets, as opposed to upholstered pieces."
+      },
+      {
+        "term": "Price and mix",
+        "meaning": "The revenue change from higher prices or a richer product mix. It is how makers recover cost inflation when unit volumes are falling."
+      },
+      {
+        "term": "Volume deleverage",
+        "meaning": "Factories and showrooms cost about the same whatever the output, so lower volume spreads fixed cost over fewer units and cuts margin."
+      },
+      {
+        "term": "Hybrid mattress",
+        "meaning": "A mattress that combines springs with foam layers. It is the mainstream premium format and the base of many brands' collections."
+      },
+      {
+        "term": "Direct-to-consumer (DTC)",
+        "meaning": "Selling through the company's own website and stores instead of through retailers. It lifts margin but needs marketing spend and showrooms."
+      },
+      {
+        "term": "Section 232 tariffs",
+        "meaning": "US import duties applied after a national-security review. They apply to upholstered furniture, kitchen cabinets and vanities, and raise costs for importers."
+      },
+      {
+        "term": "Adjusted operating margin",
+        "meaning": "Operating profit as a share of sales with one-off items removed. Companies guide to it, so check what was excluded."
+      },
+      {
+        "term": "Leverage ratio",
+        "meaning": "Net debt divided by EBITDA under the lender's definition. It shows how much room a company has before covenants bite, and it matters most after acquisitions."
+      }
+    ],
+    "drivers": [
+      {
+        "name": "Housing turnover",
+        "how": "Moves and new homes trigger purchases of beds, sofas and floors. When existing-home sales fall, order books and traffic fall with them, and fixed costs get spread over fewer sales."
+      },
+      {
+        "name": "Mortgage rates and consumer credit",
+        "how": "High rates lock owners into existing mortgages, cut moves and make large financed purchases harder, so durable-goods spending is delayed."
+      },
+      {
+        "name": "Tariffs and import costs",
+        "how": "Much furniture is made abroad, so duties raise landed cost. Makers pass part through in price, which cuts volume, and the rest hits gross margin."
+      },
+      {
+        "name": "Consumer confidence and discretionary spending",
+        "how": "A sofa or mattress can be put off. When shoppers worry about jobs or prices, showroom traffic and written orders drop before reported sales do."
+      },
+      {
+        "name": "Input and freight costs",
+        "how": "Foam chemicals, steel, lumber, energy and shipping make up much of cost of goods. Their swings move gross margin until prices catch up."
+      },
+      {
+        "name": "Channel mix and store base",
+        "how": "Shifts between wholesale, own stores and online change margin and capital needs. Buying or opening stores lifts sales but adds leases and cost."
+      },
+      {
+        "name": "Consolidation and vertical integration",
+        "how": "Combining makers, suppliers and retailers aims at cost savings. Gains show in margins only if the integration works and debt is paid down."
+      }
+    ]
+  },
+  "fundamentals": {
+    "business": [
+      "Revenue comes from selling finished goods: mattresses, upholstered furniture, casegoods and flooring. Somnigroup earns from Mattress Firm retail ($1,008.3M in Q3 2026) and from Tempur Sealy brands, and now Leggett & Platt component sales [11]. Mohawk's three segments are Global Ceramic, Flooring North America and Flooring Rest of the World [3].",
+      "Customers are households, buying through own showrooms, dealers and websites, plus builders and commercial buyers. La-Z-Boy reports both wholesale ($362M in Q2 FY2027) and retail ($252M of delivered sales) [12]. Purple splits sales between wholesale ($35.6M) and direct-to-consumer ($60.9M) in Q3 2026 [5].",
+      "Principal costs are materials such as foam, steel, wood, fabric and clay, factory labor, freight, tariffs on imported goods and, for retailers, rent, staff and advertising. Ethan Allen cited incremental tariffs for the fall in gross margin to 59.6% from 61.4% [4].",
+      "Pricing power comes from brand, design, product novelty and distribution control. Premium mattress brands and vertically integrated retailers hold more. Tempur Sealy North America earned a 64.7% gross margin in Q3 2026 [11], while a typical firm in Damodaran's home furnishings group earns 30.3% [13]. Mohawk added about 4% from price and mix in Q3 while volumes fell about 4% [3].",
+      "Major assets are plants, inventory, showrooms and brands; liabilities are leases, debt and, after deals, goodwill. Somnigroup had $5.6B of debt at 30 Sep 2026, while La-Z-Boy had $247M of cash and no external debt and Ethan Allen $92.2M and no debt [11][12][4].",
+      "The industry is mixed. Flooring and mattress or component makers run capital-intensive plants: Mohawk's capital spending was $271.5M for nine months in 2026 [3]. Furniture brands and retailers that outsource are lighter, but own stores and plants add fixed cost. Ethan Allen makes about 75% of its custom furniture in its own North American facilities [4]."
+    ],
+    "overview": [
+      "A single global market size for these sub-industry companies was not found in the sources we opened. The listed companies are a slice: Mohawk had $8.5B of nine-month 2026 sales and Somnigroup $2.35B in one quarter [3][11]. IBISWorld sizing of US furniture manufacturing was in search results but not opened, so we do not quote it.",
+      "The main segments are bedding (mattresses and components), upholstered furniture, casegoods and flooring. In 2025 US imports of household furniture and bedding were $29.6B, of which wood furniture was 44.7%, metal 27.5% and upholstery 25% [15].",
+      "The industry sits between materials suppliers (chemicals, steel, lumber, fabric, clay) and consumers. Some firms integrate both ends: Somnigroup now owns a key component supplier and a large retail chain [7][11]. Retailers such as Mattress Firm and brand-owned galleries sit at the customer end [11][12].",
+      "The industry has moved from domestic production toward imports and from independent dealers toward own stores and online. Household furniture and bedding imports were $41.4B in 2022 and $29.6B in 2025, a fall of 28.5% [15]. The most recent change is consolidation: Somnigroup closed the Leggett & Platt acquisition on 26 Aug 2026 [7].",
+      "Imports concentrate in Asia: Vietnam supplied $10.6B (35.9%) of US household furniture and bedding imports in 2025 and China $6.1B, down 35.8% [15]. Production of flooring and some upholstery remains in North America, and Ethan Allen makes most of its custom furniture there [4]. Sales are mainly US, with Mohawk reporting Europe and other regions as a separate segment [3]."
+    ],
+    "competition": [
+      "There are many competitors in furniture, but few large listed ones. In this sub-industry the US-listed bellwethers are Somnigroup, Mohawk, La-Z-Boy, Ethan Allen and Purple, and Sleep Number is gone after its asset sale [11][3][12][4][5][6].",
+      "Leaders by scale in our sample are Mohawk ($8.5B of nine-month sales) and Somnigroup (Q3 net sales $2,350.8M, including only five weeks of Leggett) [3][11]. Reliable market shares were not found, so we do not state them.",
+      "Bedding is consolidating: Somnigroup combined Tempur Sealy, Mattress Firm and now Leggett & Platt, with former Leggett holders owning about 9% of the combined company [7]. Furniture and flooring remain more fragmented, with many brands and importers [15].",
+      "Barriers to entry are modest for design-led or online brands and high for scale. A large brand needs plants, a supplier network and showrooms. Sleep Number's loss of its public equity in Chapter 11 and Purple's debt strain show that sub-scale brands struggle [6][5].",
+      "Economies of scale exist in purchasing, manufacturing, advertising and retail footprint. Somnigroup raised its Leggett synergy target to $75M a year, from $50M [7].",
+      "Products range from commodity (basic carpet, imported casegoods) to differentiated (branded mattresses, custom upholstery). Ethan Allen's 59.6% gross margin and Tempur Sealy North America's 64.7% show the pricing that differentiation can earn [4][11].",
+      "Customers have the bargaining power when they are big dealers or online platforms, as Purple's wholesale decline shows [5]. Suppliers of foam, steel and fabric have less leverage, and Somnigroup's purchase of a supplier shows how makers can internalize them [7]."
+    ],
+    "drivers": [
+      "Revenue growth depends on housing turnover, consumer confidence, price increases and store expansion. Existing-home sales were 3.75M annualized in October 2026, down 8.8% on the year [1]. La-Z-Boy's retail written sales rose 11% on acquired and new stores while same-store written sales declined slightly [12].",
+      "Operating margins depend on volume (fixed costs), pricing against input costs, tariffs and channel mix. Mohawk's adjusted operating margin was 7.2% in Q3 2026 and La-Z-Boy's 5.0% versus 7.1% a year earlier [3][12].",
+      "Key costs are foam chemicals, steel, lumber, fabrics, energy, labor and freight, plus tariffs on imported goods. Mohawk said inflation would be fully offset by pricing, mix and productivity in Q4 [3].",
+      "Interest rates matter strongly through housing and consumer credit. The 30-year mortgage rate averaged 7.28% on 19 Nov 2026 against 6.26% a year earlier, and NAR's chief economist said lower rates could release sizable pent-up demand [2][1].",
+      "Inflation, unemployment and GDP matter through consumer budgets. NAR noted steady job growth while sales slumped, which implies the weakness is more about affordability than jobs [1]. Input costs matter too: Mohawk said inflation hit its Q3 profit [3].",
+      "The industry is cyclical, tied to housing and big-ticket spending. There are secular strands such as online sales and premium sleep products, but this cycle shows the dominance of housing turnover [1][11]."
+    ],
+    "financials": [
+      "Growth is uneven. In the latest quarters Mohawk's sales were up 1%, La-Z-Boy up 1%, Somnigroup up 10.8% (acquisition-led), Ethan Allen down 11.8% and Purple down 18.7% [3][12][11][4][5].",
+      "Margins: Damodaran's January 2026 US furniture and home furnishings group (27 firms) had a 30.3% gross margin, 9.75% EBITDA margin, 6.59% pre-tax operating margin and 1.10% net margin [13]. Mohawk's Q3 gross margin was 25.5% [3], Somnigroup's was 42.0% [11], and La-Z-Boy's about 44.6% [12].",
+      "Returns: Damodaran's after-tax ROIC for the group is 13.13% unadjusted and 10.59% lease and R&D adjusted, with a 10-year normalized 17.82% [16]. Data for the page is labelled January 2026 but the footer says January 2025, so treat it as indicative.",
+      "Debt varies widely: Somnigroup had $5.6B of debt and a 2.69x leverage ratio at 30 Sep 2026, Mohawk net debt was $965.9M or 0.7x adjusted EBITDA, and La-Z-Boy and Ethan Allen had no debt [11][3][12][4].",
+      "Free cash flow: Mohawk generated $626.3M in nine months, up 78%, and Somnigroup $831.9M of operating cash flow in nine months [3][11]. Purple's was $10.6M of operating cash flow year to date [5].",
+      "Capital spending is heavy for flooring and plants and light for outsourced brands: Mohawk guides to about $445M for 2026 and La-Z-Boy spent $31M in the quarter [3][12].",
+      "Valuation on 23 Nov 2026: Mohawk forward P/E 15.9x and EV/EBITDA 6.5x, La-Z-Boy 12.8x and 8.1x, Somnigroup 18.2x and 15.3x [8][9][10]. Source figures are StockAnalysis.com aggregates, not company data."
+    ],
+    "risks": [
+      "Regulation: Section 232 duties of 25% on upholstered furniture, kitchen cabinets and vanities carry a deferred increase, and Section 301 tariffs of 10% to 12.5% replaced Section 122 tariffs on 24 Jul 2026, per Ethan Allen [14][4]. Further changes are possible.",
+      "Technology and AI: the effect is mostly indirect, through online marketing, personalization, robotics in plants and ERP systems. Somnigroup's Dreams unit fell 34.7% after an ERP rollout disrupted operations, which shows execution risk in digital change [11].",
+      "Demographics: household formation and the age of first-time buyers drive demand. We did not find a sourced figure, so this is judgment: delayed first purchases and aging owners mean fewer new-home furnishing cycles, while replacement demand continues.",
+      "Consumer behavior has moved toward online and showroom-light buying, and toward value. Purple's wholesale revenue fell from $51.5M to $35.6M while its showrooms rose to 57 [5]. La-Z-Boy's Joybird online brand fell 29% [12]. October shopping was significantly softer at La-Z-Boy [12].",
+      "New competitors and models include online brands and private-label imports. Sleep Number's assets went to a Canadian retailer for $529.5M of cash after Chapter 11, showing how weaker brands get absorbed [6]. Purple is exploring strategic alternatives [5].",
+      "Supply chain and geopolitics: furniture imports shifted from China (down 35.8% in 2025) to Vietnam and others, and the Somnigroup CEO cited the Ukraine and Middle East wars as risks [15][11]. Any new tariff, freight or country-rule change reroutes sourcing.",
+      "Substitutes include used and rental furniture and lower-priced imports, but we did not find sourced data on them. Within the group, the biggest risk is leverage: Purple has $135.1M of current related-party debt and negative adjusted EBITDA for nine months [5]."
+    ],
+    "horizon": {
+      "opportunities": [
+        "Pent-up demand if mortgage rates fall: NAR's chief economist sees sizable pent-up demand with distressed sales at only 2% of transactions [1].",
+        "Consolidation synergies: Somnigroup targets $75M a year of run-rate synergies from Leggett & Platt and leverage was already down to 2.69x [7][11].",
+        "Cash-rich survivors can buy stores and gain share: La-Z-Boy has $247M of cash, no debt and retail written sales up 11% [12].",
+        "Product refresh cycles, such as Purple's planned 2027 mattress collections, and tariff refunds can help margins [5][12]."
+      ],
+      "threats": [
+        "A prolonged housing freeze: October existing-home sales were the lowest since August 2010, and NAR's chief economist said buying is hard at the highest mortgage rates since 2000 bar one month in 2023 [1].",
+        "Higher tariffs: the delayed Section 232 increase on furniture and cabinets could still come into force [14].",
+        "Weak balance sheets and failures: Sleep Number was sold in Chapter 11 and Purple faces a debt maturity [6][5].",
+        "Margin pressure from volume deleverage, as seen at Ethan Allen where adjusted operating margin fell to 2.2% from 7.2% [4]."
+      ],
+      "assessment": "Our read is that the next three to five years are set by housing turnover and by who survives consolidation. If mortgage rates ease from the current 7.28% and sales recover from a 16-year low, volume leverage should return quickly to firms with fixed costs already in place, such as Mohawk and the furniture makers [2][1][3]. Bedding looks set to be led by one very large integrated player, while smaller brands face distress or sale [11][6][5]. The tariff path adds uncertainty: the scheduled increase was only deferred [14]. Strong balance sheets, as at La-Z-Boy and Ethan Allen, are an advantage in a long trough, but Ethan Allen's margin shows even debt-free firms suffer when volume falls [12][4]."
+    }
+  },
+  "sections": [
+    {
+      "id": "macro",
+      "paragraphs": [
+        "The cycle is at the housing trough. Existing-home sales were 3.75 million annualized in October 2026, down 5.5% on the month, 8.8% on the year and the lowest since August 2010, according to NAR. Its chief economist tied this to mortgage rates at their highest since 2000 apart from one month in 2023, and the median price was $416,700, up 0.4% [1]. Freddie Mac's 30-year mortgage rate averaged 7.28% on 19 Nov 2026, up from 7.11% the week before and 6.26% a year earlier [2].",
+        "For home furnishings this matters more than almost any other macro variable. People buy beds, sofas and floors when they move or remodel. Mohawk described a weak demand environment with adjusted volume down about 4% in Q3 and guided to softer market conditions in Q4 [3]. La-Z-Boy saw significantly softer consumer shopping in October after strong early-quarter trends [12]. Ethan Allen cited a soft housing market and lower design center traffic [4].",
+        "On trade policy, Section 301 tariffs of 10% to 12.5% took effect on 24 Jul 2026 in place of the earlier 10% Section 122 tariffs, per Ethan Allen's release, and the scheduled Section 232 rise on upholstered furniture was deferred by a year [4][14]. We did not open a source on the dollar or inflation, so we make no claim there."
+      ]
+    },
+    {
+      "id": "demand",
+      "paragraphs": [
+        "We did not find a reliable single estimate of the global addressable market for these companies. The best sized facts we opened are on trade: US household furniture and bedding imports were $29.6B in 2025, down 12.7% from $33.9B in 2024 and 28.5% below $41.4B in 2022 [15]. That tells us the market has been shrinking or shifting to domestic and other channels since the pandemic peak, though it is import data only.",
+        "Structural demand rests on household formation, home turnover and replacement. Most spending replaces worn items, which gives a base, and the housing freeze delays the discretionary layer on top. NAR's chief economist argues that, with steady job growth, a fall in rates could release sizable pent-up demand [1]. Our read is that the delay compounds: each quarter of low turnover postpones purchases that will return together, which can make the recovery sharp but its timing unknowable.",
+        "Elasticity is high. Mohawk's price and mix added about 4% to Q3 sales while volume fell about 4%, so pricing is protecting revenue but not units [3]. La-Z-Boy's retail written sales rose 11%, helped by acquired and new stores, while same-store written sales declined slightly [12]. Growth in this group is currently coming from acquisitions and store openings rather than from underlying demand."
+      ]
+    },
+    {
+      "id": "structure",
+      "paragraphs": [
+        "Rivalry is intense and fragmented outside bedding. Somnigroup is the clear consolidator after closing its all-stock Leggett & Platt deal on 26 Aug 2026 at about $2.3B including debt, giving former Leggett holders about 9% of the company [7]. Its Q3 sales were $2,350.8M, with $372.6M from Leggett for the stub period [11].",
+        "Buyer power is high where large retailers or online platforms control access to shoppers; Purple's wholesale sales fell to $35.6M from $51.5M in Q3 [5]. Supplier power is moderate and being internalised, as Somnigroup's purchase of a key component supplier shows [7]. The threat of new entrants is low at scale but high for niche or online brands, though failures are common: Sleep Number sold substantially all its assets for $529.5M of cash in Chapter 11, closing on 31 Jul 2026 [6]. Substitutes are weak for beds and floors but include used goods and cheaper imports.",
+        "Moats come from brands, owned retail and vertical integration. Tempur Sealy North America earned a 64.7% gross margin and 33.2% operating margin in Q3 [11]. Ethan Allen's 59.6% gross margin reflects its brand and in-house production, about 75% of custom furniture being made in North America [4]. Market shares by company were not found in the sources we opened."
+      ]
+    },
+    {
+      "id": "environment",
+      "paragraphs": [
+        "Politics and trade policy are the main outside forces. Section 232 duties on upholstered furniture, kitchen cabinets and vanities were set at 25%, with a proclamation signed 31 Dec 2025 delaying the scheduled increase by a year; the fact sheet gives 25% as the current rate and does not state the new effective date of the increase [14]. Ethan Allen says Section 301 tariffs of 10% to 12.5% took effect on 24 Jul 2026 [4].",
+        "Tariff policy has also produced one-off gains. La-Z-Boy's wholesale margin benefited from refunds and pricing actions net of tariff costs, and Somnigroup said tariff refunds helped North America's Q3 gross margin [12][11]. That inflates the run rate, and we think investors should treat it as non-recurring.",
+        "Technology is mostly an execution risk here. Somnigroup's Dreams business fell 34.7% in Q3 after a new ERP system disrupted operations [11]. Online sales are also a swing factor: Mattress Firm's sales fell 5.8% on softer online sales, and La-Z-Boy's Joybird online brand saw delivered sales fall 29% to $25M [11][12]. Geopolitical wars were cited by Somnigroup's CEO as macro risks [11]. Environmental and chemical rules affect foam and flooring but we did not open a source on them."
+      ]
+    },
+    {
+      "id": "economics",
+      "paragraphs": [
+        "Margins differ widely by model. Damodaran's January 2026 data for 27 US furniture and home furnishings firms show a 30.3% gross margin, 9.75% EBITDA margin, 6.59% operating margin and 1.10% net margin [13]. The after-tax ROIC for the group is 13.13% unadjusted, 10.59% after lease and R&D adjustment, and 17.82% normalized over ten years [16].",
+        "Company data bracket that. Mohawk's Q3 gross margin was 25.5% and adjusted operating margin 7.2% on net sales of $2,786.0M [3]. La-Z-Boy's gross margin was about 44.6% and adjusted operating margin 5.0% versus 7.1% a year earlier [12]. Ethan Allen's gross margin was 59.6% and adjusted operating margin 2.2% [4]. Somnigroup's adjusted operating margin was 15.5% (16.2% a year earlier), and the Leggett business had a gross margin of 17.7% and an adjusted operating margin of 11.0% [11]. Purple's gross margin was 43.4%, down 410 basis points, and adjusted EBITDA was a $0.5M loss [5].",
+        "Operating leverage is high: Ethan Allen's sales fell 11.8% and its operating margin from 6.8% to 1.3% [4]. Cash conversion is strong at the large firms: Mohawk's nine-month free cash flow was $626.3M, up 78%, and Somnigroup's nine-month operating cash flow was $831.9M [3][11]. Capex needs differ: Mohawk guides to about $445M for 2026 and La-Z-Boy spent $31M in the quarter [3][12]."
+      ]
+    },
+    {
+      "id": "earnings",
+      "paragraphs": [
+        "Company outlooks are cautious. Mohawk guided Q4 adjusted EPS to $1.35 to $1.45 on low single-digit sales growth, softer market conditions than in Q3 and four fewer shipping days; its nine-month adjusted EPS was $8.27 [3]. La-Z-Boy guided Q3 FY2027 sales of $505M to $525M and an adjusted operating margin of 4.0% to 5.5%, against a Q2 margin of 5.0% [12].",
+        "Somnigroup revised its 2026 adjusted EPS guidance to $2.85 to $2.95, about 7% growth at the midpoint. Q3 adjusted EPS was $1.04, up 9.5% [11]. Ethan Allen's adjusted operating margin fell to 2.2% from 7.2% in its first quarter [4]. Purple kept 2026 revenue guidance at $420M to $440M but cut adjusted EBITDA guidance to $15M to $20M [5].",
+        "We found no sector consensus figures for this group, so we do not quote any. Our read is that earnings quality is lower than headlines suggest. Tariff refunds, acquisition revenue and a one-off warranty effect all moved margins in the latest quarters [11][12]. If housing stays flat, the likelier revisions are downward for retailers and furniture makers, while Mohawk and Somnigroup have cost and synergy levers that smaller firms lack [3][7]."
+      ]
+    },
+    {
+      "id": "valuation",
+      "paragraphs": [
+        "Valuation is mixed. On 23 Nov 2026, per StockAnalysis.com, Mohawk traded on a forward P/E of 15.9x, an EV/EBITDA of 6.5x and a free cash flow yield of 10.6%, with a market value of $8.42B [8]. La-Z-Boy was on 12.8x forward earnings and 8.1x EV/EBITDA with a 7.2% FCF yield and a 3.6% dividend yield, at a $1.17B market value [9]. Somnigroup was on 18.2x forward earnings and 15.3x EV/EBITDA with a 5.0% FCF yield and $13.95B market value [10].",
+        "Against Damodaran's January 2026 group margins, the multiples imply a trough-earnings discount for the flooring and furniture names and a premium for Somnigroup, which has the highest margins and the integration story [13][10]. We did not find long-run historical multiples for these stocks in the sources we opened, so we cannot say how the current levels sit against their own history.",
+        "Mohawk's FCF yield of 10.6% suggests the market is pricing a prolonged trough, and 17.1x trailing earnings against 15.9x forward implies modest recovery [8]. La-Z-Boy's lower multiple partly reflects its fall in margin and a softer outlook [9][12]. Somnigroup's multiple depends on delivering the $75M synergies and de-leveraging from 2.69x [10][7][11]. The stock-page figures are third-party aggregates and should be checked against filings."
+      ]
+    },
+    {
+      "id": "positioning",
+      "paragraphs": [
+        "Prices show a split market. Over 52 weeks to 23 Nov 2026, Mohawk was up 31.70%, La-Z-Boy down 20.23% and Somnigroup down 30.66% [8][9][10]. Mohawk's gain with weak volume suggests investors are looking through the trough at free cash flow and buybacks: it held $816.8M of cash against $1,782.7M of debt at quarter end [3]. La-Z-Boy returned $32M to shareholders in the quarter and raised its dividend 12% to $0.27 [12].",
+        "Short interest in Somnigroup was 9.21% of float on the latest StockAnalysis.com data, a notable level for a company of its size, and its price rose 5.08% on 23 Nov 2026 to $60.58 [10]. Short interest for the others was not found in the pages we opened.",
+        "We did not find ETF flow or institutional ownership data for this sub-industry, so we make no claim there. Ethan Allen's governance is also in motion, with stockholders electing five directors at the 4 Nov 2026 annual meeting after $1.3M of proxy contest fees in the quarter [4]. Sleep Number's stock is expected to be cancelled with no value to holders, and Purple is in a strategic review [6][5]. Breadth is thus poor, with winners and failures in the same group."
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "n": 1,
+      "title": "Existing-home sales decreased 5.5% in October",
+      "publisher": "National Association of Realtors",
+      "date": "2026-11-12",
+      "url": "https://www.nar.realtor/newsroom/existing-home-sales-decreased-5-5-percent-october-nar-report"
+    },
+    {
+      "n": 2,
+      "title": "Primary Mortgage Market Survey",
+      "publisher": "Freddie Mac",
+      "date": "2026-11-19",
+      "url": "https://www.freddiemac.com/pmms"
+    },
+    {
+      "n": 3,
+      "title": "Mohawk Industries Q3 2026 press release (Form 8-K)",
+      "publisher": "Mohawk Industries / SEC",
+      "date": "2026-10-29",
+      "url": "https://www.sec.gov/Archives/edgar/data/0000851968/000085196826000038/a2026q3pressreleaseandtabl.htm"
+    },
+    {
+      "n": 4,
+      "title": "Ethan Allen reports first quarter results",
+      "publisher": "Ethan Allen Interiors (via Finviz)",
+      "date": "2026-11-09",
+      "url": "https://finviz.com/news/419436/ethan-allen-reports-first-quarter-results"
+    },
+    {
+      "n": 5,
+      "title": "Purple Innovation reports third quarter 2026 results",
+      "publisher": "Purple Innovation (via Finviz)",
+      "date": "2026-11-04",
+      "url": "https://finviz.com/news/415818/purple-innovation-reports-third-quarter-2026-results"
+    },
+    {
+      "n": 6,
+      "title": "Sleep Number Corp Form 8-K: closing of asset sale",
+      "publisher": "Sleep Number / SEC",
+      "date": "2026-08-03",
+      "url": "https://www.sec.gov/Archives/edgar/data/0000827187/000095010326011603/dp251018_8k.htm"
+    },
+    {
+      "n": 7,
+      "title": "Somnigroup completes combination with Leggett & Platt",
+      "publisher": "Somnigroup International (via Finviz)",
+      "date": "2026-08-26",
+      "url": "https://finviz.com/news/385842/somnigroup-completes-combination-with-leggett-platt"
+    },
+    {
+      "n": 8,
+      "title": "Mohawk Industries (MHK) market cap and statistics",
+      "publisher": "StockAnalysis.com",
+      "date": "2026-11-23",
+      "url": "https://stockanalysis.com/stocks/mhk/statistics/"
+    },
+    {
+      "n": 9,
+      "title": "La-Z-Boy (LZB) market cap and statistics",
+      "publisher": "StockAnalysis.com",
+      "date": "2026-11-23",
+      "url": "https://stockanalysis.com/stocks/lzb/statistics/"
+    },
+    {
+      "n": 10,
+      "title": "Somnigroup International (SGI) market cap and statistics",
+      "publisher": "StockAnalysis.com",
+      "date": "2026-11-23",
+      "url": "https://stockanalysis.com/stocks/sgi/statistics/"
+    },
+    {
+      "n": 11,
+      "title": "Somnigroup International reports record third quarter 2026 results",
+      "publisher": "Somnigroup International (via Finviz)",
+      "date": "2026-11-09",
+      "url": "https://finviz.com/news/418834/somnigroup-international-inc-reports-record-third-quarter-2026-results"
+    },
+    {
+      "n": 12,
+      "title": "La-Z-Boy fiscal 2027 second quarter press release (Form 8-K)",
+      "publisher": "La-Z-Boy / SEC",
+      "date": "2026-11-17",
+      "url": "https://www.sec.gov/Archives/edgar/data/0000057131/000005713126000042/fy27q2pressrelease.htm"
+    },
+    {
+      "n": 13,
+      "title": "Margins by industry (US), January 2026",
+      "publisher": "Aswath Damodaran, NYU Stern",
+      "date": "2026-01-01",
+      "url": "https://pages.stern.nyu.edu/~adamodar/New_Home_Page/datafile/margin.html"
+    },
+    {
+      "n": 14,
+      "title": "Fact sheet: President Trump adjusts imports of timber, lumber and their derivative products",
+      "publisher": "White House",
+      "date": "2025-12-31",
+      "url": "https://www.whitehouse.gov/fact-sheets/2025/12/fact-sheet-president-donald-j-trump-adjusts-imports-of-timber-lumber-and-their-derivative-products-into-the-united-states/"
+    },
+    {
+      "n": 15,
+      "title": "Report: Furniture imports decline 12.7% from 2024",
+      "publisher": "Home News Now (Mann Armistead & Epperson data)",
+      "date": "2026-03-20",
+      "url": "https://homenewsnow.com/blog/2026/03/20/report-furniture-imports-decline-12-7-from-2024/"
+    },
+    {
+      "n": 16,
+      "title": "Return on capital by industry (US), January 2026",
+      "publisher": "Aswath Damodaran, NYU Stern",
+      "date": "2026-01-01",
+      "url": "https://pages.stern.nyu.edu/~adamodar/New_Home_Page/datafile/roc.html"
+    }
+  ]
+}
