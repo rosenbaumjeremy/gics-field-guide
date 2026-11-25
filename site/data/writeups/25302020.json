@@ -1,0 +1,179 @@
+{
+  "code": "25302020",
+  "added": "2026-11-25",
+  "asOf": "2026-11-10",
+  "summary": "Specialized Consumer Services is a mixed bag of recurring, need-based services: funeral and cemetery care, tax preparation, child care and back-up care. Third-quarter results show steady but unspectacular growth: Service Corporation International lifted revenue 5% but trimmed its 2026 EPS guidance on lower funeral volumes, and Bright Horizons took a $290.0M goodwill impairment, mostly Australia [7][9]. H&R Block reaffirmed fiscal 2027 guidance [8]. Damodaran's business and consumer services industry trades at 18.7x forward earnings against 27.7x for the market [2].",
+  "metrics": [
+    {"label": "Pre-tax operating margin (business & consumer services)", "value": "12.32%", "context": "Total market 12.75%; Damodaran dataset, January 2026", "source": 1},
+    {"label": "Forward P/E (business & consumer services)", "value": "18.70x", "context": "Total market 27.66x; Damodaran dataset, January 2026", "source": 2},
+    {"label": "Service Corporation International Q3 revenue", "value": "$1,107.3M", "context": "+5% year on year; adjusted EPS $0.97 vs $0.87; quarter to 30 Sep 2026", "source": 7},
+    {"label": "SCI 2026 adjusted EPS guidance", "value": "$3.94-$4.04", "context": "Cut for lower funeral volumes and higher healthcare costs; adjusted free cash flow about $750M", "source": 7},
+    {"label": "H&R Block fiscal 2027 revenue outlook", "value": "$4.11B-$4.16B", "context": "Reaffirmed 9 Nov 2026; Q1 revenue $224.3M, +10.2%", "source": 8},
+    {"label": "Bright Horizons Q3 revenue", "value": "$841.5M", "context": "+5%; back-up care $286.4M vs $253.4M; $290.0M goodwill impairment", "source": 9},
+    {"label": "U.S. cremation rate (projected 2025)", "value": "63.4%", "context": "Burial 31.6%; NFDA 2025 Cremation & Burial Report", "source": 10},
+    {"label": "Debt to EBITDA (business & consumer services)", "value": "2.77x", "context": "Total market 6.52x; gross debt, January 2026", "source": 4}
+  ],
+  "watch": [
+    "SCI cut 2026 adjusted EPS guidance to $3.94-$4.04 on lower funeral volumes and higher healthcare costs, so the next quarter's funeral call volumes and cost trends matter [7].",
+    "Bright Horizons impaired $290.0M of goodwill, primarily Australia, and cut full-year guidance, so watch whether Australia is restructured [9].",
+    "H&R Block's fiscal 2027 outlook (revenue $4.11B-$4.16B, adjusted EPS $6.04-$6.24) depends on the January-April tax season, where results are decided [8].",
+    "The cremation rate keeps rising (63.4% projected for 2025), which pressures revenue per funeral even as it supports volumes and cemetery and memorial sales [10].",
+    "The Fed held at 3.75%-4.00% with two members wanting a hike, which matters for the heavily indebted names: SCI carries about $5.2B of debt [7][11]."
+  ],
+  "bellwethers": ["Service Corporation International", "H&R Block", "Bright Horizons", "Frontdoor", "Mister Car Wash", "Carriage Services", "WW International"],
+  "basics": {
+    "intro": "Specialized Consumer Services holds consumer-facing businesses that do not fit elsewhere in the Consumer Services group. In practice that means funeral homes and cemeteries, tax preparation, child care and employer back-up care, home warranties, car washes and weight-management programs. Customers are households (and sometimes employers who pay for a benefit). Revenue is typically fees per service or per subscription, and demand tends to be steadier than for restaurants or hotels because many of these services are needed, not optional. Education providers sit in the neighbouring Education Services industry.",
+    "products": [
+      {"name": "Funeral services", "what": "Arranging and conducting funerals and cremations, usually through a local funeral home with a long family reputation.", "examples": "Service Corporation International's Dignity Memorial homes, Carriage Services"},
+      {"name": "Cemetery and preneed", "what": "Burial plots, mausoleum space and memorials, often sold years ahead of need and paid for in installments or by trust.", "examples": "SCI cemetery and property sales"},
+      {"name": "Tax preparation", "what": "Assisted tax filing in offices and online, plus do-it-yourself software and related financial products.", "examples": "H&R Block, Intuit's competing products (outside this group)"},
+      {"name": "Child care and back-up care", "what": "Employer-sponsored child care centers and short-notice care for children and adults that employees can use when normal arrangements fail.", "examples": "Bright Horizons full service centers and back-up care"},
+      {"name": "Home warranties and car washes", "what": "Plans that pay for home system repairs, and subscription-style car wash memberships.", "examples": "Frontdoor, Mister Car Wash"},
+      {"name": "Personal development and wellness", "what": "Subscription-based weight-management, coaching and similar programs.", "examples": "WW International"}
+    ],
+    "terms": [
+      {"term": "Preneed", "meaning": "Funeral or cemetery goods and services bought in advance. Cash is held in trust or insurance until needed, producing deferred revenue and a backlog of future business."},
+      {"term": "Cremation rate", "meaning": "The share of dispositions that are cremations. Cremations generally bring in less revenue per case than burials, so a higher rate lowers average revenue per service."},
+      {"term": "Average revenue per service", "meaning": "Total funeral revenue divided by the number of services performed. It shows how pricing and mix move without volume changes."},
+      {"term": "Comparable (same-store) results", "meaning": "Results from locations open in both periods. They show underlying growth, excluding acquisitions and closures."},
+      {"term": "Seasonality", "meaning": "A pattern where most earnings land in one part of the year, as with tax preparation, which earns its profit in the winter and spring and loses money in other quarters."},
+      {"term": "Back-up care", "meaning": "Employer-paid care for children or adults used on short notice. It is sold as a benefit per employer and used per day, so revenue scales with usage."},
+      {"term": "Full-service center", "meaning": "A child care center operated for an employer or community. It is fixed-cost heavy, so enrollment (utilisation) drives margin."},
+      {"term": "Maintenance capex", "meaning": "Spending needed to keep existing sites in working order, as opposed to growth spending on new locations or acquisitions."},
+      {"term": "Roll-up", "meaning": "Strategy of buying many small local businesses and running them under one brand to gain purchasing, marketing and back-office scale."},
+      {"term": "Goodwill impairment", "meaning": "A non-cash write-down when an acquisition is worth less than carried on the books. It signals lower expected profits."},
+      {"term": "Membership / subscription", "meaning": "Recurring fees for access, as at car washes or warranty plans. They give predictable revenue but make churn the key risk."}
+    ],
+    "drivers": [
+      {"name": "Volume of services", "how": "Funeral calls track deaths and, for child care, enrollment. Flat volumes mean growth must come from price and mix."},
+      {"name": "Pricing and mix", "how": "Higher prices lift revenue per service, while a shift toward cremation or lower-priced packages offsets it."},
+      {"name": "Cost inflation and wages", "how": "Staff pay, health insurance and selling compensation are the biggest cost lines, so labour inflation squeezes margins when prices lag."},
+      {"name": "Seasonality and the calendar", "how": "Tax preparation earns most of its profit in a few months, so one season decides the year."},
+      {"name": "Regulation and legal exposure", "how": "Rules on funeral pricing, tax-preparer conduct, child safety and licensing can raise costs or limit practices."},
+      {"name": "Capital allocation and leverage", "how": "Consolidators borrow to acquire and repurchase shares, so interest rates and credit availability affect returns."}
+    ]
+  },
+  "fundamentals": {
+    "business": [
+      "Revenue is fee based and recurring in nature: SCI earned $602.6M of funeral and $504.6M of cemetery revenue in Q3 2026, H&R Block earns fees from tax preparation and related services, and Bright Horizons earns fees from center care ($522.0M), back-up care ($286.4M) and advisory services ($33.1M) [7][8][9].",
+      "Customers are households (funeral, tax, car wash) and employers who buy care as a benefit (Bright Horizons). Demand is often tied to life events such as a death, a tax deadline or a child's care need rather than to discretionary choice.",
+      "Principal costs are staff, facilities and, for sellers, selling compensation and advertising. SCI blamed higher selling compensation, advertising and health insurance costs for lower cemetery gross margin (33.2% against 34.3%), and H&R Block's quarterly operating expenses rose 11.1% on field compensation and occupancy [7][8].",
+      "Pricing power comes from trust, local reputation, regulation and scarcity of locations. Funeral and cemetery operators raise prices steadily: SCI's average revenue per funeral service rose 2.8% to $6,022. Tax preparation and child care face more price-sensitive customers [7].",
+      "Major assets are real estate (funeral homes, cemetery land, child care centers), trust funds for preneed sales, and goodwill from acquisitions. Major liabilities are debt and deferred revenue: SCI had $5.17B of debt and $1.82B of deferred revenue at 30 Sep 2026 [7].",
+      "The mix varies: funeral and cemetery operators and child care providers are asset-heavy by our judgment (SCI plans $335M of maintenance capex in 2026), while tax preparation and subscription services are largely asset-light [7][8]."
+    ],
+    "overview": [
+      "We found no single sourced estimate for the size of the whole Specialized Consumer Services group. Company data help: SCI Q3 revenue was $1,107.3M, H&R Block guides fiscal 2027 revenue of $4.11B-$4.16B and Bright Horizons guides about $3.07B for 2026 [7][8][9].",
+      "Main segments are death care (funeral and cemetery), tax and financial services, child and dependent care, home services and subscription programs. Death care is steady and aging-related; tax and care are tied to institutions such as the tax code and employer benefits.",
+      "In the value chain, suppliers include caskets, land, insurance and trust managers (death care), software and labor (tax) and teachers and facilities (child care); customers are households and employers. Employer benefits and tax law are the key upstream institutions [8][9].",
+      "The industry has consolidated into larger chains, shifted from burial to cremation (a projected 63.4% of U.S. dispositions in 2025 against 31.6% for burial) and moved services online, as H&R Block's assisted and DIY mix shows [8][10].",
+      "Activity is concentrated in the United States: SCI and H&R Block are mostly U.S.; H&R Block's international services grew to $74.8M in Q1 and Bright Horizons' impairment related primarily to Australia [8][9]."
+    ],
+    "competition": [
+      "Competitors are numerous in each niche but few are large. The group's leaders are individual niche champions: SCI in death care, H&R Block in assisted tax preparation and Bright Horizons in employer-sponsored child care. We found no sourced figure for number of significant competitors overall.",
+      "We found no sourced market-share figures for SCI, H&R Block or Bright Horizons, though each is a well-known brand in its niche. We believe independent funeral homes and cemeteries still make up most of the market by number.",
+      "Fragmented in most niches, with consolidation by roll-up. Local independents compete with national chains, and the chains grow by buying them, which is why acquisition and divestiture gains and losses appear in SCI's results [7].",
+      "Barriers to entry are modest in tax preparation and child care (licenses and trust build slowly) and high in cemeteries, where land and perpetual-care obligations limit new entrants. Brand and employer contracts are major barriers for Bright Horizons [7][9].",
+      "Economies of scale arise in purchasing, marketing, technology and shared back-office functions. Scale is most valuable in tax and subscription businesses; funeral homes remain local.",
+      "Services are partly commoditised (basic tax filing, car washes) and partly differentiated by trust, location and care quality (funerals, child care). Cremation shift adds pressure on revenue per case [10].",
+      "Customers hold the bargaining power in tax and subscriptions because of free or cheap alternatives, while sellers hold more in death care because customers rarely shop around in a time of loss. Employers hold the power in back-up care and can renegotiate contracts. Suppliers have limited leverage."
+    ],
+    "drivers": [
+      "Revenue growth comes from price, volume and acquisitions. SCI's comparable funeral revenue rose 3.3% and cemetery revenue 4.0% in Q3 2026, with preneed sales production up 6% and 5% [7].",
+      "Operating margins depend on volume, labor cost and selling expenses. SCI's funeral gross margin was 17.4% and cemetery 33.2% in Q3, and Damodaran puts the group's pre-tax operating margin at 12.32% [1][7].",
+      "Key cost variables are wages and benefits, healthcare costs, advertising and real estate. SCI named higher health insurance and selling compensation as drags on 2026 earnings [7].",
+      "Interest-rate sensitivity is high for the leveraged names: SCI's $5.17B of debt and Bright Horizons' revolver borrowings mean higher rates raise interest expense and lower valuations. The Fed held at 3.75%-4.00% on 28 October 2026 [7][9][11].",
+      "Inflation lifts costs and, with a lag, prices. Unemployment affects tax and child care demand mildly; GDP matters little to funerals; commodity prices matter little except fuel and land. October 2026 CPI rose 0.4% month on month [12].",
+      "The group is largely defensive: death care is non-cyclical, tax preparation is mandated annually, and child care is need-based. Cyclicality enters through employer headcount (Bright Horizons) and discretionary memberships (car washes, wellness)."
+    ],
+    "financials": [
+      "Growth is single-digit: SCI's Q3 revenue grew 5% and adjusted EPS grew 11% to $0.97, H&R Block's Q1 revenue grew 10.2% and Bright Horizons' Q3 revenue grew 5% [7][8][9].",
+      "Margins in Damodaran's January 2026 data for business and consumer services: gross margin of 33.38%, net margin 7.03% and pre-tax lease-adjusted operating margin 12.32%, versus 37.76%, 9.74% and 12.75% for the total market [1].",
+      "ROE for business and consumer services is 18.20%, against 17.21% for the total market in Damodaran's data. We did not source an industry ROIC figure for this group [3].",
+      "Leverage is moderate overall but high at consolidators: Damodaran shows book debt to capital of 51.40% and debt to EBITDA of 2.77x, with market debt to capital of 16.64%. SCI's debt was $5.17B and H&R Block's long-term debt $1.49B [4][7][8].",
+      "Free cash flow is solid at the best companies: SCI expects about $750M of adjusted free cash flow in 2026 on operating cash flow of $1,055M-$1,115M, and Bright Horizons generated $208.1M of operating cash flow in nine months [7][9].",
+      "Capital needs range from light to moderate. Damodaran's net capex is 3.36% of sales for the industry; SCI's 2026 maintenance capex is $335M and Bright Horizons spent $69.4M net on fixed assets in nine months [6][7][9].",
+      "Valuation: forward P/E of 18.70x and EV/EBITDA of 14.26x for positive-EBITDA firms in Damodaran's January 2026 data, against 27.66x and 19.73x for the total market [2][5]."
+    ],
+    "risks": [
+      "Regulatory risk is niche specific: funeral pricing rules and cemetery trust rules, tax-preparer regulation and tax law changes, and child safety rules. Bright Horizons booked $23.4M of expense for certain safeguarding matters[9].",
+      "Technology and AI could automate tax preparation, bringing pressure on H&R Block's assisted business, and can also help operators cut costs. We found no sourced quantification of AI's effect on this group.",
+      "Demographics are favourable for death care (aging) and unfavourable for child care in places where birth rates are falling. NFDA projects cremation at 63.4% of U.S. dispositions in 2025 against 31.6% for burial, and we expect the trend to continue, reducing revenue per case [10].",
+      "Consumer behaviour is shifting toward cremation, online tax filing and flexible work, which cuts demand for office-based care and tax offices. H&R Block's Q1 assisted consumer revenue was small and seasonal, so behaviour in the main season matters [8][10].",
+      "New competitors include free tax filing options, online memorial and direct-cremation providers and, in child care, government-funded alternatives. We did not find sourced estimates of their share.",
+      "Geopolitical and supply-chain risk is low for most services; international operations such as Bright Horizons' Australian centers carry local policy and oversupply risk, which led to its impairment [9].",
+      "Substitutes include DIY tax software, direct cremation and informal care by relatives; these tend to take share in downturns."
+    ],
+    "horizon": {
+      "opportunities": [
+        "Aging populations should support steady death-care volumes and preneed sales, which grew 6% (funeral) and 5% (cemetery) in Q3 2026 at SCI [7].",
+        "Employer demand for dependent-care benefits supports back-up care, which grew from $253.4M to $286.4M in a year at Bright Horizons [9].",
+        "Scale players can keep buying small independents and repurchasing shares: SCI returned $464M to shareholders in nine months [7].",
+        "International tax services are growing, with H&R Block's international revenue at $74.8M against $66.5M a year earlier [8]."
+      ],
+      "threats": [
+        "Rising cremation lowers revenue per death-care case, and funeral volumes disappointed SCI in 2026 [7][10].",
+        "Labor and health-care cost inflation squeeze margins when prices lag [7].",
+        "Weaker child care economics, primarily in Australia, led to Bright Horizons' $290.0M goodwill impairment [9].",
+        "Higher-for-longer rates raise the cost of the debt used to fund roll-ups [11]."
+      ],
+      "assessment": "Over the next three to five years we expect the group to deliver low-to-mid single-digit organic growth, helped by pricing and aging but held back by labour costs, cremation mix and uneven care enrollment. Death care looks the most predictable, with deferred revenue of $1.82B at SCI offering visibility [7]. Tax preparation depends on defending its assisted franchise against software, with a $4.11B-$4.16B revenue outlook for fiscal 2027 [8]. Child care has execution risk outside the United States [9]. Leverage is the main amplifier, so we think capital allocation will separate winners from the rest in a higher-rate world [7][11]."
+    }
+  },
+  "sections": [
+    {"id": "macro", "paragraphs": [
+      "Specialized Consumer Services is mostly defensive, so its link to the cycle is indirect. At its 28 October 2026 meeting the Federal Reserve held the target range at 3.75%-4.00% by a 10-2 vote, with two members wanting a quarter-point rise, citing a strong pace of activity and elevated inflation [11]. The BLS reported October CPI up 0.4% for the month and core up 0.3%, with 12-month figures unavailable for October because of a data gap in 2025 [12].",
+      "Higher rates matter most for leveraged names. SCI had about $5.17B of debt at 30 September 2026, and Bright Horizons had roughly $1.36B including revolver borrowings (our sum of balance sheet lines) [7][9]. Inflation shows up in costs: SCI cited higher health insurance, selling compensation and advertising, and H&R Block's expenses rose 11.1% in its seasonally weak first quarter [7][8].",
+      "On the demand side, the cycle matters less. Funerals follow deaths, taxes are due every year, and employers buy care as a benefit. Employment trends matter to child care and back-up care, but we found no sourced evidence of weakness there; Bright Horizons' back-up care grew 13% [9]."
+    ]},
+    {"id": "demand", "paragraphs": [
+      "We found no authoritative estimate of the group's total addressable market, so we describe demand through the leaders and industry bodies. In death care, NFDA projects the U.S. cremation rate at 63.4% for 2025 against 31.6% for burial [10]. Volumes depend on the number of deaths, which tends to grow slowly with an aging population; SCI nonetheless reported core funeral services down 0.5% in Q3 2026 [7].",
+      "Growth therefore comes from price and mix. SCI's average revenue per service rose 2.8% to $6,022 and comparable cemetery revenue rose 4.0%, helped by preneed sales production up 6% (funeral) and 5% (cemetery) [7]. Deferred revenue of $1.82B provides a backlog [7].",
+      "In care, Bright Horizons' revenue rose 5%, with back-up care revenue of $286.4M against $253.4M a year earlier [9]. In tax, H&R Block's Q1 revenue rose 10.2% on international, tax protection and small business services [8]. Demand elasticity is low in death care and tax and higher in memberships. Our view is that long-term prospects are steady, with growth near inflation plus a little."
+    ]},
+    {"id": "structure", "paragraphs": [
+      "Porter's five forces vary by niche. Rivalry is local in death care and national in tax; the threat of new entrants is low in cemeteries because of land and trust obligations, moderate in tax and child care. Buyer power is low in funerals, where families rarely shop around in a time of loss, and higher in tax, where free and cheap software is available [8]. Supplier power is limited. The threat of substitutes is highest in tax (DIY software) and death care (direct cremation) [10].",
+      "Concentration is low by number of outlets, though the large chains hold scale: SCI's quarterly revenue of $1,107.3M dwarfs most independents, and it grows partly through acquisition and divestiture [7]. We found no sourced market-share data.",
+      "Moats are reputation, location, preneed relationships and employer contracts. Pricing power is highest in death care: SCI raised average revenue per service 2.8% in a quarter when volumes slipped [7]. In child care, the Australian impairment suggests moats are thinner in some markets [9]."
+    ]},
+    {"id": "environment", "paragraphs": [
+      "Regulation shapes each niche. Funeral and cemetery operators are governed by state licensing, trust rules for preneed funds and consumer protection rules. Tax preparation is shaped by tax law and preparer regulation, and H&R Block's results hinge on the tax code and filing season [8]. Child care is regulated for safety and licensing, and Bright Horizons reported $23.4M of expense for certain safeguarding matters while the release did not say where they arose [9].",
+      "Political and economic factors include employer benefit policy, which supports back-up care, and government funding of child care. Social factors are strong: cremation preference is shifting the funeral business model, with NFDA projecting 63.4% cremation in 2025 against 31.6% burial [10].",
+      "Technology is a threat to tax preparation and an efficiency tool for everyone. H&R Block reports growth in small business and international services while its assisted consumer business remains the core [8]. Emerging risks are cost inflation in health insurance and labour, litigation over safeguarding in care, and policy change in the UK and Australia, where Bright Horizons impaired goodwill [7][9]."
+    ]},
+    {"id": "economics", "paragraphs": [
+      "Economics are decent but not exceptional. Damodaran's January 2026 data show gross margin of 33.38%, net margin of 7.03% and pre-tax operating margin of 12.32% for business and consumer services, with ROE of 18.20% and net capex of 3.36% of sales [1][3][6].",
+      "Death care margins are lower at the gross level but cash generative: SCI's funeral gross margin was 17.4% and cemetery 33.2% in Q3 2026, and it expects 2026 adjusted free cash flow of about $750M on operating cash flow of $1,055M-$1,115M [7]. Operating leverage is meaningful because buildings and staff are largely fixed, so volume shortfalls hit margin quickly, as they did in 2026.",
+      "Bright Horizons earned adjusted EBITDA of $163.3M on $841.5M of revenue, a 19.4% margin by our calculation, while taking a $290.0M impairment [9]. H&R Block loses money in its first quarter (adjusted EBITDA of negative $185.2M) because earnings are concentrated in the tax season, and it guides fiscal 2027 adjusted EBITDA of $1.11B-$1.14B [8]. Returns depend on seasonality, leverage and the quality of acquisitions."
+    ]},
+    {"id": "earnings", "paragraphs": [
+      "Management guidance is mixed. SCI lowered 2026 adjusted EPS to $3.94-$4.04 and expects Q4 adjusted EPS of $1.10-$1.20, citing lower funeral volumes than anticipated and higher healthcare, selling compensation and advertising costs [7]. Q3 adjusted EPS was $0.97 versus $0.87 a year ago [7].",
+      "H&R Block reaffirmed fiscal 2027 guidance for revenue of $4.11B-$4.16B, adjusted EBITDA of $1.11B-$1.14B and adjusted EPS of $6.04-$6.24, with Q1 revenue up 10.2% [8]. Bright Horizons lowered 2026 revenue guidance to about $3.07B and adjusted EPS to $4.98-$5.03 [9].",
+      "We could not find a sourced consensus earnings growth figure or revision trend for the group, so we cannot say where our view differs from consensus in numerical terms. Our read is that 2026 is a year of modest growth with cost pressure, that SCI's cut was small relative to its earnings and that the larger risk lies in care businesses outside the United States, where the impairment suggests earlier expectations were too high [7][9]."
+    ]},
+    {"id": "valuation", "paragraphs": [
+      "On Damodaran's January 2026 data, business and consumer services trade at a forward P/E of 18.70x against 27.66x for the total market, and at an EV/EBITDA of 14.26x for positive-EBITDA firms against 19.73x [2][5]. The PEG ratio is 1.89 against 1.90 for the market, so the discount on P/E is largely matched by lower growth [2].",
+      "Company-level multiples need current share prices, which we did not source, so we cannot cite a company P/E or free cash flow yield. We can say SCI's guided adjusted EPS of $3.94-$4.04 and about $750M of free cash flow set the earnings base against which investors price it [7]. H&R Block's guided adjusted EPS of $6.04-$6.24 and a repurchase price of $45.68 per share in the first quarter imply a P/E of roughly 7x to 8x on our arithmetic, which looks undemanding [8].",
+      "We could not source a long-run history of the group's multiple. Our judgment is that a discount to the market is typical for slow-growth, leveraged service businesses, and that the discount is deserved where volumes are flat and impairments have appeared, as at Bright Horizons [9]."
+    ]},
+    {"id": "positioning", "paragraphs": [
+      "We did not find reliable current data on relative price performance, ETF flows, short interest or institutional positioning for this group. There is no large dedicated ETF, so the names trade as part of consumer-services baskets and on individual results; we make no quantitative claims on those points.",
+      "Capital returns are the clearest sign of insider confidence. SCI returned $464M in the first nine months of 2026 ($318.9M of buybacks and $145.4M of dividends) and cut its share count to 136.05M from 139.68M [7]. H&R Block bought back 2.2 million shares for $100.3M in its first quarter and has about $500M left on its $1.5B program [8]. Bright Horizons repurchased about 7.7 million shares for $557.7M in nine months, even as it took the impairment [9].",
+      "Our read is that buybacks are supporting earnings per share more than the underlying revenue trend in all three cases, and that the market will look next at SCI's funeral volumes, H&R Block's tax season and Bright Horizons' decision on Australia [7][8][9]."
+    ]}
+  ],
+  "sources": [
+    {"n": 1, "title": "Margins by Sector", "publisher": "Aswath Damodaran, NYU Stern", "date": "2026-01", "url": "https://pages.stern.nyu.edu/~adamodar/New_Home_Page/datafile/margin.html"},
+    {"n": 2, "title": "PE Ratios by Sector", "publisher": "Aswath Damodaran, NYU Stern", "date": "2026-01", "url": "https://pages.stern.nyu.edu/~adamodar/New_Home_Page/datafile/pedata.html"},
+    {"n": 3, "title": "Return on Equity by Sector", "publisher": "Aswath Damodaran, NYU Stern", "date": "2026-01", "url": "https://pages.stern.nyu.edu/~adamodar/New_Home_Page/datafile/roe.html"},
+    {"n": 4, "title": "Debt Fundamentals by Sector", "publisher": "Aswath Damodaran, NYU Stern", "date": "2026-01", "url": "https://pages.stern.nyu.edu/~adamodar/New_Home_Page/datafile/dbtfund.html"},
+    {"n": 5, "title": "EV/EBITDA Multiples by Sector", "publisher": "Aswath Damodaran, NYU Stern", "date": "2026-01", "url": "https://pages.stern.nyu.edu/~adamodar/New_Home_Page/datafile/vebitda.html"},
+    {"n": 6, "title": "Capital Expenditures by Sector", "publisher": "Aswath Damodaran, NYU Stern", "date": "2026-01", "url": "https://pages.stern.nyu.edu/~adamodar/New_Home_Page/datafile/capex.html"},
+    {"n": 7, "title": "Service Corporation International Third Quarter 2026 Earnings Release (Form 8-K exhibit 99.1)", "publisher": "SEC EDGAR", "date": "2026-10-28", "url": "https://www.sec.gov/Archives/edgar/data/0000089089/000008908926000094/exhibit991q326earningsrele.htm"},
+    {"n": 8, "title": "H&R Block Fiscal 2027 First Quarter Results (Form 8-K)", "publisher": "SEC EDGAR", "date": "2026-11-09", "url": "https://www.sec.gov/Archives/edgar/data/0000012659/000001265926000035/q1fy27earningrelease.htm"},
+    {"n": 9, "title": "Bright Horizons Reports Third Quarter 2026 Results (Form 8-K exhibit 99.1)", "publisher": "SEC EDGAR", "date": "2026-10-29", "url": "https://www.sec.gov/Archives/edgar/data/0001437578/000143757826000022/bfam-093026xex991.htm"},
+    {"n": 10, "title": "NFDA Releases 2025 Cremation & Burial Report", "publisher": "National Funeral Directors Association", "date": "2025-10-06", "url": "https://www.nfda.org/nfda-releases-2025-cremation-burial-report-comprehensive-insights-to-guide-the-future-of-funeral-service/"},
+    {"n": 11, "title": "Federal Reserve issues FOMC statement, 28 October 2026", "publisher": "Federal Reserve Board", "date": "2026-10-28", "url": "https://federalreserve.gov/newsevents/pressreleases/monetary20261028a.htm"},
+    {"n": 12, "title": "Consumer Price Index news release, October 2026", "publisher": "U.S. Bureau of Labor Statistics", "date": "2026-11-10", "url": "https://www.bls.gov/news.release/archives/cpi_11102026.htm"}
+  ]
+}

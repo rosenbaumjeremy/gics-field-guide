@@ -1,0 +1,181 @@
+{
+  "code": "25101020",
+  "added": "2026-11-25",
+  "asOf": "2026-11-16",
+  "summary": "Tire makers are in a thin-margin, cost-pressured stretch. Goodyear's Q3 2026 segment operating income fell to $174M from $287M and it posted a $238M net loss, while Michelin held nine-month revenue at EUR 19.2B and kept its profit and cash guidance and Bridgestone expects roughly $367M of U.S. tariff costs this year [7][8][9]. Natural rubber is near a two-year high, tire price rises of 2% to 5% have been announced and replacement demand is soft in North America [9][11]. Damodaran's rubber and tires industry earns a 2.57% pre-tax operating margin [1].",
+  "metrics": [
+    {"label": "Pre-tax operating margin (rubber & tires industry)", "value": "2.57%", "context": "Auto parts 5.80%, total market 12.75%; Damodaran dataset, January 2026", "source": 1},
+    {"label": "Debt to EBITDA (rubber & tires industry)", "value": "5.67x", "context": "Book debt to capital 74.12%; total market 6.52x; January 2026", "source": 4},
+    {"label": "EV/EBITDA (rubber & tires, positive EBITDA)", "value": "6.74x", "context": "Total market 19.73x; Damodaran, January 2026", "source": 5},
+    {"label": "Goodyear Q3 2026 net sales", "value": "$4.5B", "context": "-2.3% year on year; organic +1.6%; volume 38.6M units, -3.3%", "source": 7},
+    {"label": "Goodyear Q3 segment operating income", "value": "$174M", "context": "Versus $287M a year earlier; net loss $238M; quarter to 30 Sep 2026", "source": 7},
+    {"label": "Michelin nine-month revenue", "value": "EUR 19.2B", "context": "+1.0% at constant exchange rates; tire volumes -0.8%, price-mix +1.1%", "source": 8},
+    {"label": "Bridgestone 2026 U.S. tariff cost (estimate)", "value": "about $367M", "context": "About $158M in the first half; Americas adjusted operating margin 9.1%", "source": 9},
+    {"label": "China natural rubber spot price", "value": "RMB 17,900/t", "context": "About +14% year to date; early Sep 2026; a near two-year high", "source": 11}
+  ],
+  "watch": [
+    "Goodyear's cash position: nine-month operating cash flow was negative $764M, with $990M of debt due within a year against $812M of cash at 30 Sep 2026 [7].",
+    "Whether announced 2% to 5% price increases stick as natural rubber trades near a two-year high and ANRPC sees a supply deficit of about 280,000 tonnes in 2026 [11].",
+    "North American replacement demand: Bridgestone cited a 5% market decline in passenger and light-truck replacement and 13% in truck and bus in the first half of 2026 [9].",
+    "U.S. tariff costs: Bridgestone expects about $367M of tariff impact in 2026, and Goodyear cited $48M of higher tariffs and other costs in Q3 [7][9].",
+    "EU anti-dumping duties on Chinese car and light-truck tires took effect on 8 July 2026, at up to 45.3%, which could reroute Chinese supply [12]."
+  ],
+  "bellwethers": ["Michelin", "Bridgestone", "Goodyear", "Continental", "Pirelli", "Sumitomo Rubber", "Hankook", "Yokohama Rubber"],
+  "basics": {
+    "intro": "Tires & Rubber companies make and sell tires for cars, light trucks, commercial trucks, farm and mining equipment, aircraft and motorcycles. They sell to automakers (original equipment, or OE) and, more profitably, to drivers and fleets who replace worn tires through dealers and retailers. Main raw materials are natural and synthetic rubber, carbon black, steel cord and chemicals. Wheels and other auto parts sit in the neighbouring Automotive Parts & Equipment industry instead.",
+    "products": [
+      {"name": "Passenger and light-truck tires", "what": "The largest product line, sold to automakers and, mostly, as replacements to consumers through dealers.", "examples": "Michelin Pilot, Goodyear Assurance, Bridgestone Turanza"},
+      {"name": "Commercial truck and bus tires", "what": "Tires for fleets, where cost per mile and retreading matter and customers buy on total cost of ownership.", "examples": "Michelin X Line, Goodyear Endurance, Bridgestone Ecopia"},
+      {"name": "Specialty tires", "what": "Tires for mining, agriculture, construction and aircraft, made in lower volumes with higher prices.", "examples": "Michelin mining and aircraft tires, Bridgestone off-the-road tires"},
+      {"name": "Two-wheel tires", "what": "Motorcycle and bicycle tires, including premium leisure motorcycle tires.", "examples": "Michelin, Pirelli motorcycle lines"},
+      {"name": "Services, retreading and fleet solutions", "what": "Tire maintenance, retreads and data services that help fleets manage tire costs.", "examples": "Goodyear fleet services, Bridgestone Bandag"},
+      {"name": "Non-tire polymer products", "what": "Rubber and composite products sold outside tires, such as belts, seals and conveyor materials.", "examples": "Michelin Polymer Composite Solutions"}
+    ],
+    "terms": [
+      {"term": "Original equipment (OE)", "meaning": "Tires sold to automakers for new vehicles. Volumes follow vehicle production, and prices are negotiated tightly."},
+      {"term": "Replacement market", "meaning": "Tires sold to replace worn ones. It is larger and steadier than OE because tires wear out regardless of new car sales, and margins are higher."},
+      {"term": "Price-mix", "meaning": "The effect on revenue of selling at different prices and of selling more premium, larger-size tires. It is how tire makers grow revenue when unit volumes are flat."},
+      {"term": "Natural rubber", "meaning": "Rubber harvested from trees in Southeast Asia. Its price swings with weather, supply and demand and feeds tire costs with a lag."},
+      {"term": "Synthetic rubber", "meaning": "Oil-based rubber made from feedstocks such as butadiene. It tracks oil and petrochemical prices."},
+      {"term": "Rim size / premium mix", "meaning": "Larger-rim tires (18 inches and up) sell for more and earn higher margin, so a shift to larger rims lifts revenue per tire."},
+      {"term": "Tariffs and anti-dumping duties", "meaning": "Import taxes that raise the cost of imported tires. Makers with local factories gain relative to importers."},
+      {"term": "Capacity utilization", "meaning": "How much of a plant's capacity is used. Fixed costs are large, so low utilisation hurts margin sharply."},
+      {"term": "Segment operating income", "meaning": "Operating profit before certain one-off items such as restructuring. It is the figure companies like Goodyear use to compare divisions."},
+      {"term": "Retread", "meaning": "A worn truck tire given a new tread. It extends tire life and is sold at a lower price than a new tire."},
+      {"term": "Rationalization charges", "meaning": "Costs of closing plants and cutting jobs. They are excluded from adjusted earnings but are real cash costs."}
+    ],
+    "drivers": [
+      {"name": "Raw material prices", "how": "Rubber, carbon black, steel cord and chemicals are the largest variable costs. Cost increases feed through to margin with a lag of months, until price increases catch up."},
+      {"name": "Replacement demand", "how": "Miles driven and the age of the vehicle fleet set how fast tires wear out. Soft replacement demand cuts volumes and mix at the same time."},
+      {"name": "Vehicle production", "how": "OE tire volumes move with automakers' output, which depends on consumer demand, credit and supply chains."},
+      {"name": "Trade policy", "how": "Tariffs and anti-dumping duties change which tires are imported and who bears the cost. They help local producers and hurt importers."},
+      {"name": "Plant utilisation and fixed costs", "how": "A tire plant costs much to run whatever it produces, so volume drops hurt margins quickly."},
+      {"name": "Premium mix and pricing", "how": "Selling more large-rim and higher-spec tires raises revenue per tire, which is how leaders hold profit when volumes slip."}
+    ]
+  },
+  "fundamentals": {
+    "business": [
+      "Revenue comes mainly from selling tires to automakers (OE) and to drivers and fleets through replacement channels, plus smaller services and non-tire businesses. Michelin's nine-month revenue of EUR 19.2B split into Consumer EUR 10.4B, Transportation EUR 4.3B, Specialties EUR 3.3B and Polymer Composite Solutions EUR 1.15B [8].",
+      "Customers are automakers (OE), tire dealers and distributors, retailers and commercial fleets. Michelin noted weaker OE demand across segments but higher replacement volumes for its brand, which shows how differently the two channels behave [8].",
+      "The largest costs are raw materials (natural and synthetic rubber, carbon black, steel), labour, energy and freight. Goodyear's Q3 segment operating income was reduced by $48M of higher tariffs and other costs, partly offset by $90M of savings from its Goodyear Forward program [7].",
+      "Pricing power is limited in OE, where automakers negotiate hard, and better in replacement, where brand, quality and dealer relationships matter. Michelin's price-mix was +1.1% over nine months and turned positive in Q3 after input cost increases [8].",
+      "Major assets are factories, inventory and brands. Liabilities are heavy: Goodyear had $6,030M of long-term debt and finance leases and $990M due within a year at 30 Sep 2026, against $812M of cash [7].",
+      "The industry is capital-intensive. Goodyear spent $481M on capex in nine months, though Damodaran's net capex for the industry is roughly zero (-0.03% of sales), showing that investment is only about maintaining the asset base [6][7]."
+    ],
+    "overview": [
+      "Published global tire market estimates vary widely with definition, from roughly $143B to $282B for 2025 in the research reports we saw, and we could not open an authoritative source to resolve that, so we do not give a single figure. Company data show scale: Michelin's nine-month revenue was EUR 19.2B and Bridgestone guides about $30B for 2026 [8][9].",
+      "The main segments are passenger and light-truck tires (Michelin's Consumer segment, EUR 10.4B), commercial truck and bus tires (Transportation, EUR 4.3B), specialty tires (EUR 3.3B) and two-wheel [8].",
+      "In the value chain, suppliers are rubber growers and processors, petrochemical firms, carbon black and steel cord makers; customers are automakers and the replacement channel. Natural rubber is supplied from Southeast Asia, where ANRPC forecasts 2026 output of about 15.32 million tonnes against consumption of 15.60 million [11].",
+      "The industry has moved to larger, higher-spec tires, to Asia as a production base and to local-for-local plants, and recently to defensive trade measures: the EU imposed duties of up to 45.3% on Chinese car and light-truck tires from 8 July 2026 [12].",
+      "Production and sales are spread across North America, Europe and Asia, with China the largest single growth and supply source. Bridgestone reported North American replacement markets down in the first half of 2026 and a flat European market over nine months, so trends differ by region [9][10]."
+    ],
+    "competition": [
+      "A small number of global leaders plus many regional and Chinese makers. The significant competitors named in company filings and results include Michelin, Bridgestone, Goodyear, Continental, Pirelli and Asian groups such as Sumitomo, Hankook, Yokohama and Sailun [9][11].",
+      "We could not open a source with current global market shares. Michelin, Bridgestone and Goodyear are widely regarded as the three largest by revenue, and Bridgestone's global H1 2026 revenue of about $14.69B gives a sense of scale [9].",
+      "The industry is moderately concentrated at the top and fragmented below. Lower-cost Asian brands are taking share in many markets, which is why the EU imposed anti-dumping duties of 4.3% to 45.3% on Chinese car and light-truck tires [12].",
+      "Barriers to entry are high for premium tires: plant costs, brand, dealer networks and OE approvals. They are lower for budget tires, where Chinese manufacturers have scaled quickly.",
+      "Economies of scale are large in purchasing, plants and distribution. Fixed costs are high, so under-used capacity hurts. Goodyear's Q3 result shows how lower volume (-3.3%) cut profit sharply [7].",
+      "The product is partly commoditised at the budget end and differentiated at the premium end, through safety, wear, noise, EV-specific designs and brand. Michelin's +1.6% mix effect over nine months shows premium mix helps [8].",
+      "Customers have power in OE (a few large automakers) and in fleets; suppliers of natural rubber have power when supply is short, as in 2026 when prices reached a two-year high [8][11]."
+    ],
+    "drivers": [
+      "Revenue growth comes from replacement volumes, OE volumes, price-mix and acquisitions. Michelin's nine-month revenue rose 1.0% at constant exchange rates with volumes down 0.8% and price-mix up 1.1%; Goodyear's organic sales rose 1.6% in Q3 [7][8].",
+      "Operating margins depend on volume, mix, raw material costs and plant use. Damodaran puts rubber and tires at a 2.57% pre-tax operating margin and 17.99% gross margin, against 5.80% operating margin for auto parts [1].",
+      "Key cost variables are natural rubber, synthetic rubber and oil-linked inputs, labour, energy and tariffs. Spot natural rubber in China rose about 14% in 2026 to about RMB 17,900 per tonne by early September [11].",
+      "Interest-rate sensitivity is high because of leverage and car financing: Damodaran shows debt to EBITDA of 5.67x, and rates affect vehicle sales. The Fed held at 3.75%-4.00% in October 2026 [4][13].",
+      "Inflation raises costs (the BLS reported tires up 0.3% in October 2026 month on month), while GDP and employment affect driving miles and fleet freight. Oil price links through synthetic rubber and driving costs [14].",
+      "Cyclical for OE and mildly cyclical for replacement, which is steadier since worn tires must be replaced. Commercial truck tires follow freight activity. Overall it is a low-growth, cyclical-defensive hybrid."
+    ],
+    "financials": [
+      "Revenue and earnings growth are low and volatile. Goodyear's Q3 net sales fell 2.3% and it reported a $238M net loss; Michelin's nine-month revenue rose 1.0% at constant exchange rates; Bridgestone's H1 revenue rose 9.7% and adjusted operating profit 19.7% in dollar terms [7][8][9].",
+      "In Damodaran's January 2026 data, rubber and tires has a 17.99% gross margin, -9.49% net margin and 2.57% pre-tax operating margin, below auto parts (15.84%, 0.72%, 5.80%) and the total market (37.76%, 9.74%, 12.75%). The group is small, so averages swing with a few companies [1].",
+      "ROE is -36.41% for rubber and tires against 2.17% for auto parts and 17.21% for the total market, in Damodaran's data. We did not source an industry ROIC; the operating margin of 2.57% implies low returns on capital [1][3].",
+      "Debt is high. Damodaran shows book debt to capital of 74.12% and debt to EBITDA of 5.67x. Goodyear reported $6,030M of long-term debt and finance leases at 30 Sep 2026 [4][7].",
+      "Free cash flow is weak at Goodyear: nine-month operating cash flow was negative $764M and capex $481M, which gives roughly negative $1.2B by our arithmetic, though the figure relates to a release that appears on EDGAR as a draft. Michelin guides free cash flow before M&A above EUR 1.6B for 2026 [7][8].",
+      "Capital expenditure needs are substantial in absolute terms (Goodyear $481M in nine months), but Damodaran's net capex ratio of -0.03% of sales suggests spending broadly matches depreciation [6][7].",
+      "Valuation multiples are low: EV/EBITDA of 6.74x for rubber and tires with positive EBITDA against 19.73x for the market, and a forward P/E of 15.13x for auto parts, which we use as a neighbour because the P/E table we opened did not list rubber and tires [2][5]."
+    ],
+    "risks": [
+      "Regulatory and trade policy are major: U.S. tariffs (Bridgestone's estimate of about $367M for 2026) and the EU's anti-dumping duties on Chinese tires from July 2026 change costs and competition. Safety, tire wear and environmental rules are other risks [9][12].",
+      "Technology risk includes EV-specific tire demands (heavier cars wear tires faster) and software-defined vehicles; AI is more of an efficiency tool than a threat. We found no sourced quantification of either effect.",
+      "Demographics matter through miles driven and vehicle ownership. Older drivers drive less, but a bigger car fleet in emerging markets adds demand. We found no sourced estimate.",
+      "Consumer behaviour: drivers trade down to lower-priced brands when budgets tighten, and replacement markets can fall; Bridgestone reported a 5% decline in North American passenger and light-truck replacement in the first half of 2026 [9].",
+      "New competitors are mainly Asian low-cost makers expanding abroad, which prompted EU duties of up to 45.3% on non-cooperating Chinese firms [12].",
+      "Geopolitical and supply-chain risk is high: natural rubber is concentrated in Southeast Asia, where leaf-fall disease, aging trees and El Nino weather cut supply, and butadiene prices hit records on geopolitical tension [11].",
+      "Substitutes are limited in the near term: vehicles need tires. Longer term, shared mobility, fewer miles driven and airless tires are possible but unsourced risks to volume."
+    ],
+    "horizon": {
+      "opportunities": [
+        "Premium mix and larger rims lift revenue per tire even when volumes are flat, as in Michelin's +1.6% mix effect [8].",
+        "Self-help programs can lower costs: Goodyear delivered $90M of benefits from Goodyear Forward in Q3 2026 [7].",
+        "Trade measures against low-cost imports, such as EU duties of up to 45.3%, can help local producers keep volume and price [12].",
+        "A recovery in truck OE demand is under way in North America, with Michelin noting Class 8 orders and production improving in Q3 [8]."
+      ],
+      "threats": [
+        "Natural rubber near a two-year high and a projected supply deficit could keep raw material costs rising faster than prices [11].",
+        "Tariffs are a large cost for importers: Bridgestone expects about $367M in 2026 [9].",
+        "Weak replacement demand in North America lowers volumes and mix at once [9].",
+        "High leverage and negative cash flow leave Goodyear exposed if conditions worsen [4][7]."
+      ],
+      "assessment": "We expect the next three to five years to reward scale, premium mix and cost discipline, while punishing leverage. Michelin and Bridgestone, with positive cash flow guidance and an Americas operating margin of 9.1% at Bridgestone, look better placed than Goodyear, which is still reshaping its portfolio and burning cash [7][8][9]. Raw materials and trade measures will move margins more than volume, and replacement markets should stabilise as the vehicle fleet ages. The risks are a longer period of weak replacement demand in North America and rubber inflation outrunning price increases [9][11]. Valuation multiples are low, but the industry's returns have been poor [1][5]."
+    }
+  },
+  "sections": [
+    {"id": "macro", "paragraphs": [
+      "Tire demand follows vehicle production and miles driven, so the cycle matters but less than for most autos. At its 28 October 2026 meeting the Federal Reserve held the target range at 3.75%-4.00% by a 10-2 vote, with two members preferring a rise, describing activity as expanding at a strong pace and inflation as elevated [13]. For a leveraged industry (Damodaran puts debt to EBITDA at 5.67x) that matters, since higher rates raise interest costs and make vehicle financing dearer [4].",
+      "Inflation is evident in the BLS data: October CPI rose 0.4% in the month, tires rose 0.3% and motor vehicle parts and equipment 0.2%, while 12-month changes were not published because of a gap in October 2025 data [14]. Energy was a large contributor to price pressure earlier in the autumn, with the energy index up 5.2% in September [14].",
+      "Currency also matters: Michelin reported a 1.6% currency drag on nine-month revenue, so its constant-currency growth of 1.0% exceeds what it reported in euros [8]. Our read is that a strong-growth, higher-rate, higher-energy-cost backdrop is a mixed one for tire makers: it supports vehicle use but raises input costs and the cost of capital."
+    ]},
+    {"id": "demand", "paragraphs": [
+      "Estimates of the global tire market in research reports ranged widely, from roughly $143B to $282B for 2025 depending on definition, and we could not open an authoritative source, so we do not rely on one. What company data show is a market with flat-to-slightly-lower volumes and growth from price and mix: Michelin's nine-month volumes fell 0.8% while price-mix added 1.1% [8].",
+      "Replacement demand is the stable core but is regionally uneven. Bridgestone reported that the North American passenger and light-truck replacement market fell 5% and truck and bus 13% in the first half of 2026, while in Europe it saw a flat market over nine months and a 1% fall in Q3 [9][10]. Michelin said its own brand's replacement volumes rose 4% [8]. OE demand is weak in Europe and North America for cars, but recovering for North American heavy trucks [8].",
+      "Secular drivers are the growth of the global fleet, larger rim sizes and EV-related tire requirements; headwinds are fewer miles per vehicle and trade-down. Demand is moderately cyclical for OE and much less so for replacement. Our view is that long-term volume growth is low single digit at best, with value growth coming from mix [8][9]."
+    ]},
+    {"id": "structure", "paragraphs": [
+      "Porter's five forces: rivalry among the global leaders is intense, and pricing is closely watched. The threat of new entrants is moderate: building scale and brand is expensive, but Chinese makers have done so quickly, which prompted EU duties of 4.3% to 45.3% [12]. Buyer power is strong in OE, where automakers and fleets negotiate, and weaker in consumer replacement. Supplier power rises when natural rubber is short, as in 2026 [11]. The threat of substitutes is low in the near term.",
+      "Concentration is moderate at the top. Michelin (EUR 19.2B of nine-month revenue), Bridgestone (about $14.69B in H1) and Goodyear ($4.5B in Q3) are the leaders by size among those we opened, though we have no sourced market-share data [7][8][9].",
+      "Moats are brand, dealer networks, OE approvals and scale in production. Pricing power is real but limited: Bridgestone's North American replacement sales fell 3% against a 5% market decline in passenger and light-truck, showing relative strength, while Goodyear's volumes fell 3.3% [7][9]. The 2026 price rises of 2% to 5% announced by Michelin, Bridgestone and others are described as below their cost increases by one Chinese maker [11]."
+    ]},
+    {"id": "environment", "paragraphs": [
+      "Policy is the most active factor. Bridgestone estimated U.S. tariff impact of about $158M in the first half of 2026 and about $367M for the year, in line with its plan [9]. Goodyear reported $48M of higher tariffs and other costs in Q3 [7]. Europe went the other way: the EU announced final anti-dumping duties on Chinese car and light-truck tires effective 8 July 2026: 4.3% for Hankook, 24.4% for other cooperating companies such as Sailun and Linglong and 45.3% for non-cooperating firms [12].",
+      "Economic and political factors include geopolitical tension that pushed butadiene, a synthetic rubber feedstock, to record highs and lifted demand for natural rubber [11]. Environmental factors include tire-wear regulation and recycling; we did not source specific rules, so we only flag them as emerging risks.",
+      "Technology matters through EV-specific tires and fleet data services. Michelin and Bridgestone both highlight premium and specialty segments where technology differentiates [8][9]. Social factors include trade-down in weaker economies. In our judgement the policy mix, tariffs in the U.S. and anti-dumping in Europe, favours producers with local plants."
+    ]},
+    {"id": "economics", "paragraphs": [
+      "Industry economics are poor on average and better for leaders. Damodaran's January 2026 data show rubber and tires with a 17.99% gross margin, a -9.49% net margin and a 2.57% pre-tax operating margin, ROE of -36.41% and debt to EBITDA of 5.67x [1][3][4]. The group is small, so one or two loss-makers drive the average.",
+      "Company results differ. Bridgestone's Americas adjusted operating margin was 9.1% in the first half of 2026, and its global adjusted operating profit rose 19.7% to about $1.78B on revenue of about $14.69B [9]. Goodyear's Q3 segment operating income was $174M on $4.5B of sales, about 3.9% by our arithmetic, and it lost $238M [7].",
+      "Operating leverage is high because plants have large fixed costs: Goodyear's volume decline of 3.3% pushed segment operating income down from $287M to $174M despite $90M of savings [7]. Capital intensity is substantial, with Goodyear's nine-month capex at $481M, and free cash flow is the weak point: Goodyear's nine-month operating cash flow was negative $764M, while Michelin guides above EUR 1.6B of free cash flow before M&A [7][8]."
+    ]},
+    {"id": "earnings", "paragraphs": [
+      "Earnings expectations are muted. Michelin confirmed 2026 guidance of segment operating income growth at constant exchange rates and scope, and free cash flow before M&A above EUR 1.6B, though it no longer expects tire volumes to return to growth in Q4 [8]. Bridgestone left its 2026 forecast unchanged at about $30B of revenue and $3.43B of adjusted operating profit [9].",
+      "Goodyear's third quarter was a miss on profitability: adjusted loss per share of $0.11 against adjusted earnings of $0.28 a year earlier, with segment operating income of $174M [7]. We did not find guidance in the release we opened and could not source consensus estimates or revision trends for this industry, so we do not claim to differ from consensus on numbers.",
+      "Our read: the earnings drivers into 2027 are price against raw materials, tariff pass-through and volume recovery. Natural rubber at a two-year high and an expected supply deficit argue for cost pressure that price increases of 2% to 5% may not fully cover [11]. The cost savings programs (Goodyear Forward's $90M in Q3) are the main internal lever [7]."
+    ]},
+    {"id": "valuation", "paragraphs": [
+      "Multiples are low because returns are low. In Damodaran's January 2026 data, rubber and tires trade at an EV/EBITDA of 6.74x for firms with positive EBITDA against 19.73x for the total market, though EV/EBIT is 22.84x, reflecting thin operating profit [5]. The auto parts neighbour trades at a forward P/E of 15.13x against 27.66x for the market [2].",
+      "Earnings are too depressed and volatile to give a meaningful price-to-earnings ratio for the group; the industry net margin is -9.49% [1]. EV/EBITDA is the better lens, and the gap between 6.74x EV/EBITDA and 22.84x EV/EBIT shows how much depreciation absorbs [5].",
+      "We did not obtain current share prices, so we cannot give free cash flow yields or compare with the group's own history. Our judgment is that the discount to the market is deserved while returns on capital stay near the cost of capital and leverage is high, and the shares of the leaders are priced for modest recovery rather than a sharp rebound. Growth implied by price is therefore low; the main upside case rests on margin repair, not volume."
+    ]},
+    {"id": "positioning", "paragraphs": [
+      "We did not find reliable, current data on relative price performance, ETF flows, short interest or institutional positioning for tire makers. The group has no large dedicated ETF, and the U.S.-listed pure play is Goodyear, so we make no quantitative claims about flows or breadth.",
+      "What the filings show is balance-sheet pressure and defensive action. Goodyear ended September with $812M of cash against $990M of debt and finance leases due within a year, and it is selling assets: it completed the sale of its Dunlop brand in May 2025 and its Chemical business in October 2025, which reduced Q3 2026 net sales by $177M [7]. Michelin, in contrast, is guiding to free cash flow above EUR 1.6B [8].",
+      "Bridgestone's reported share performance in North America shows the competitive picture: its passenger and light-truck replacement sales fell 3% against a 5% market decline, and its OE sales rose 8% [9]. Our read is that investor attention is on cost pass-through, tariff exposure and balance sheets, and that the leaders with stronger cash flow will be favoured over leveraged names until replacement demand recovers [7][8][9]."
+    ]}
+  ],
+  "sources": [
+    {"n": 1, "title": "Margins by Sector", "publisher": "Aswath Damodaran, NYU Stern", "date": "2026-01", "url": "https://pages.stern.nyu.edu/~adamodar/New_Home_Page/datafile/margin.html"},
+    {"n": 2, "title": "PE Ratios by Sector", "publisher": "Aswath Damodaran, NYU Stern", "date": "2026-01", "url": "https://pages.stern.nyu.edu/~adamodar/New_Home_Page/datafile/pedata.html"},
+    {"n": 3, "title": "Return on Equity by Sector", "publisher": "Aswath Damodaran, NYU Stern", "date": "2026-01", "url": "https://pages.stern.nyu.edu/~adamodar/New_Home_Page/datafile/roe.html"},
+    {"n": 4, "title": "Debt Fundamentals by Sector", "publisher": "Aswath Damodaran, NYU Stern", "date": "2026-01", "url": "https://pages.stern.nyu.edu/~adamodar/New_Home_Page/datafile/dbtfund.html"},
+    {"n": 5, "title": "EV/EBITDA Multiples by Sector", "publisher": "Aswath Damodaran, NYU Stern", "date": "2026-01", "url": "https://pages.stern.nyu.edu/~adamodar/New_Home_Page/datafile/vebitda.html"},
+    {"n": 6, "title": "Capital Expenditures by Sector", "publisher": "Aswath Damodaran, NYU Stern", "date": "2026-01", "url": "https://pages.stern.nyu.edu/~adamodar/New_Home_Page/datafile/capex.html"},
+    {"n": 7, "title": "Goodyear Announces Third Quarter 2026 Results (Form 8-K exhibit)", "publisher": "SEC EDGAR", "date": "2026-11-04", "url": "https://www.sec.gov/Archives/edgar/data/0000042582/000162828026070193/q32026nrearningsrelease_dr.htm"},
+    {"n": 8, "title": "Michelin Financial Information at September 30, 2026", "publisher": "Michelin", "date": "2026-10", "url": "https://www.michelin.com/en/publications/group/financial-information-at-september-30-2026"},
+    {"n": 9, "title": "Bridgestone Americas Sales Rise 11% as North American Share Grows", "publisher": "Modern Tire Dealer", "date": "2026-08-13", "url": "https://www.moderntiredealer.com/suppliers/news/55397897/bridgestone-americas-sales-rise-11-as-north-american-tire-share-grows"},
+    {"n": 10, "title": "Bridgestone grows European replacement tyre sales as OE volumes fall", "publisher": "Tyrepress", "date": "2026-11-16", "url": "https://www.tyrepress.com/2026/11/bridgestone-grows-european-replacement-tyre-sales-as-oe-volumes-fall/"},
+    {"n": 11, "title": "Natural Rubber Prices Hit Two-Year High; Downstream Tire Industry Raises Prices", "publisher": "SunSirs", "date": "2026-09", "url": "https://www.sunsirs.com/uk/detail_news-35855.html"},
+    {"n": 12, "title": "EU Finalizes Anti-Dumping Ruling on Chinese Passenger Car and Light Truck Tires", "publisher": "SunSirs", "date": "2026-07", "url": "https://www.sunsirs.com/uk/detail_news-34302.html"},
+    {"n": 13, "title": "Federal Reserve issues FOMC statement, 28 October 2026", "publisher": "Federal Reserve Board", "date": "2026-10-28", "url": "https://federalreserve.gov/newsevents/pressreleases/monetary20261028a.htm"},
+    {"n": 14, "title": "Consumer Price Index news release, October 2026", "publisher": "U.S. Bureau of Labor Statistics", "date": "2026-11-10", "url": "https://www.bls.gov/news.release/archives/cpi_11102026.htm"}
+  ]
+}
