@@ -1,0 +1,424 @@
+{
+ "code": "50203010",
+ "added": "2026-11-26",
+ "asOf": "2026-11-18",
+ "summary": "Interactive media is growing faster than any other part of Communication Services, but investors are now pricing in the cost of AI and the legal bill. Industry revenue grew 25% in Q3 2026 [1]. Alphabet's Search revenue rose 12% to $63.4B yet was only $79M above Q2 [2]. Meta's revenue grew 26% while free cash flow turned negative on $34.9B of capex [3]. Reddit grew 53% [4] and Tencent's advertising 19% [5]. Alphabet and Meta trade near 20x and 18x forward earnings [6], against 18.3x for the S&P 500 [1]. We found no sourced sub-industry forward multiple.",
+ "metrics": [
+  {
+   "label": "Industry revenue growth, Q3 2026",
+   "value": "25%",
+   "context": "Interactive Media & Services industry, year on year; Communication Services sector 16.0%; FactSet, 13 Nov 2026",
+   "source": 1
+  },
+  {
+   "label": "Alphabet Google Search & other revenue",
+   "value": "$63.35B",
+   "context": "Up 12% year on year but only $79M above Q2 2026; YouTube ads $11.2B (+9.2%)",
+   "source": 2
+  },
+  {
+   "label": "Alphabet operating margin, Q3 2026",
+   "value": "31.8%",
+   "context": "Our calculation: $40.58B operating income on $127.6B revenue; Cloud revenue $30.7B, up 103%",
+   "source": 7
+  },
+  {
+   "label": "Meta operating margin, Q3 2026",
+   "value": "20% reported",
+   "context": "About 35% excluding the $9.89B state attorneys general charge (our calculation); revenue $64.6B, up 26%",
+   "source": 3
+  },
+  {
+   "label": "Meta capex, Q3 2026",
+   "value": "$34.9B",
+   "context": "2026 guide $135B-$145B; free cash flow -$2.1B in the quarter",
+   "source": 3
+  },
+  {
+   "label": "Reddit daily active uniques, Q3 2026",
+   "value": "130.3M",
+   "context": "Up 12% overall but US users down 2% to 50.7M; adjusted EBITDA margin 44.9%",
+   "source": 4
+  },
+  {
+   "label": "Tencent Marketing Services revenue, Q3 2026",
+   "value": "RMB 43.0B",
+   "context": "Up 19% year on year; group revenue RMB 207.3B, up 8%",
+   "source": 5
+  },
+  {
+   "label": "Global social media ad spend, 2026 forecast",
+   "value": "$394.6B",
+   "context": "Up 21.3%; search $295.7B, up 14.2%; WARC forecast of 8 Oct 2026",
+   "source": 8
+  },
+  {
+   "label": "Forward P/E, Alphabet and Meta",
+   "value": "~20x / ~18x",
+   "context": "Company level, not the sub-industry; trailing P/E ~15x and ~21x; as of 30 Oct 2026",
+   "source": 6
+  }
+ ],
+ "watch": [
+  "AI capital spending is outrunning cash flow: Alphabet's Q3 capex was $51.4B, up 114% [2], and Meta guides 2026 capex to $135B-$145B after a quarter of negative free cash flow [3].",
+  "Legal overhang is large: Meta booked a $9.89B charge for an agreement with 52 state attorneys general, up to about $18.59B in total [3], and Google's appeal of the search remedies is still pending with oral argument not yet scheduled [9].",
+  "AI answers may cap search monetization: Alphabet said AI Mode queries are about three times longer than traditional searches [2], and Search revenue was almost flat quarter on quarter [2].",
+  "User growth is uneven at the smaller platforms: Reddit's US daily users fell 2% [4] and Snap's daily users reached 495M, up 4% [10].",
+  "Rates and inflation are moving against risk: the Fed held at 3.75%-4% on 28 Oct 2026 with September CPI at 3.7%, and a December hike is widely expected [11]."
+ ],
+ "bellwethers": [
+  "Alphabet",
+  "Meta Platforms",
+  "Tencent",
+  "Pinterest",
+  "Reddit",
+  "Snap",
+  "Match Group"
+ ],
+ "basics": {
+  "intro": "Interactive media companies run online platforms that people use for free or for a small fee, and they earn mainly by selling advertising aimed at those users. The group includes search engines, social networks, video and messaging apps, and some dating and review sites. GICS classifies each company as a whole, so Alphabet, including its cloud business, and Meta, including its glasses and virtual reality unit, both sit here. Streaming video services such as Netflix are in Entertainment, and ordinary newspapers and broadcasters are in Media.",
+  "products": [
+   {
+    "name": "Search advertising",
+    "what": "Advertisers pay when a person who typed a query clicks on a related ad. The ad appears at the moment of intent, which is why it is valuable.",
+    "examples": "Google Search, Bing, Baidu"
+   },
+   {
+    "name": "Social and video advertising",
+    "what": "Ads shown in feeds, short videos and stories, targeted using what the platform knows about each user and sold by auction.",
+    "examples": "Facebook and Instagram, YouTube, Snapchat, Pinterest, Reddit, WeChat"
+   },
+   {
+    "name": "Subscriptions and premium tiers",
+    "what": "Users pay to remove ads or unlock features. It diversifies revenue away from advertising and tends to be steadier.",
+    "examples": "YouTube Premium, Snapchat+, Match Group dating subscriptions"
+   },
+   {
+    "name": "Messaging and super apps",
+    "what": "Chat apps that also host payments, games, mini-apps and brand pages, so advertising and commerce sit inside one product.",
+    "examples": "WeChat, WhatsApp"
+   },
+   {
+    "name": "Online marketplaces and directories",
+    "what": "Sites that connect people with each other or with local businesses and charge for access, leads or listings.",
+    "examples": "Match Group, Yelp"
+   },
+   {
+    "name": "Data and AI licensing",
+    "what": "Platforms sell access to their user-generated content so that AI developers can train and ground models.",
+    "examples": "Reddit content licensing"
+   }
+  ],
+  "terms": [
+   {
+    "term": "DAU / MAU",
+    "meaning": "Daily or monthly active users. They measure the audience that can be shown ads, and growth in them is a leading signal for revenue."
+   },
+   {
+    "term": "ARPU",
+    "meaning": "Average revenue per user: revenue divided by users. It shows how well a platform monetizes its audience and varies hugely by region."
+   },
+   {
+    "term": "Ad impressions and price per ad",
+    "meaning": "Ad revenue is roughly the number of ads shown times the average price of each. Companies report both, which shows whether growth comes from volume or pricing."
+   },
+   {
+    "term": "Traffic acquisition costs (TAC)",
+    "meaning": "Payments a search company makes to partners such as browser makers and phone makers for sending users to its search engine. It is a major cost for Google."
+   },
+   {
+    "term": "Network effects",
+    "meaning": "A platform becomes more valuable to each user as more users join. They create very high barriers to entry but also attract antitrust attention."
+   },
+   {
+    "term": "Cost per click (CPC)",
+    "meaning": "What an advertiser pays when a user clicks an ad. Changes in CPC and in paid clicks together explain search revenue growth."
+   },
+   {
+    "term": "Walled garden",
+    "meaning": "A platform that keeps its user data and ad measurement inside its own system. It protects the platform's data advantage but frustrates advertisers and regulators."
+   },
+   {
+    "term": "Adjusted EBITDA",
+    "meaning": "Earnings before interest, tax, depreciation and some other items such as stock-based pay. Smaller platforms emphasize it, so check what is excluded."
+   },
+   {
+    "term": "Stock-based compensation",
+    "meaning": "Pay in shares rather than cash. It is a real cost to shareholders, which is why profit looks very different before and after it."
+   },
+   {
+    "term": "Capex",
+    "meaning": "Capital expenditure on servers, chips and data centers. It now takes a large share of operating cash flow at the biggest platforms because of AI."
+   },
+   {
+    "term": "Section 230",
+    "meaning": "The US law that largely shields platforms from liability for what users post. Changes to it or to similar rules abroad would change the cost of running a platform."
+   }
+  ],
+  "drivers": [
+   {
+    "name": "Advertising budgets",
+    "how": "Ad spend follows the economy and company profits. In a slowdown advertisers cut quickly, so revenue growth swings more than user numbers do."
+   },
+   {
+    "name": "User growth and engagement",
+    "how": "More users, and more time spent, create more ad slots. Slowing user growth in mature markets pushes platforms toward higher prices and new formats."
+   },
+   {
+    "name": "Ad targeting and measurement quality",
+    "how": "Better AI-driven targeting raises the return advertisers get, which lets the platform charge more per ad. Privacy rules that limit data reverse this."
+   },
+   {
+    "name": "Share shifts between platforms",
+    "how": "Budgets move toward whoever shows the best return, so a platform can grow faster than the market, or slower, without any change in demand."
+   },
+   {
+    "name": "Content and infrastructure costs",
+    "how": "Video, AI and data centers raise costs. Margins widen when revenue grows faster than these costs and narrow when spending runs ahead of sales."
+   },
+   {
+    "name": "Regulation and litigation",
+    "how": "Fines, settlements and rules on defaults, data sharing or minors raise costs or limit how a platform can monetize, and can appear as one-off charges."
+   }
+  ]
+ },
+ "fundamentals": {
+  "business": [
+   "Advertising is the main revenue stream. Alphabet's Google advertising, including Search, YouTube and Network, was $82.0B in Q3 2026, or 64.3% of its revenue [2], and Meta's advertising was $63.1B of $64.6B in revenue [3]. Subscriptions, payments, devices and cloud are the secondary lines.",
+   "The paying customers are advertisers, from global brands to small businesses bidding in automated auctions. The users are the product's supply of attention and mostly pay nothing. Reddit, for example, earns $847M of its $895M revenue from advertising, with the rest in other revenue [4].",
+   "The principal costs are infrastructure, content and people. Meta guides 2026 total expenses to $175B-$179B [3]. Search companies also pay partners for distribution (traffic acquisition costs), and Tencent's marketing gross margin fell to 52% from 57% on AI and content costs [5].",
+   "Pricing power comes from audience scale, intent and targeting results. Meta's average price per ad rose 14% in Q3 while impressions rose 10% [3], which shows pricing power can coexist with volume growth. Smaller platforms with weaker targeting have less leverage, and Pinterest's Europe revenue was flat [12].",
+   "The main assets are data centers, chips, intellectual property, brands and cash. The biggest liabilities are debt and legal claims: Meta had $80.9B of long-term debt and $82.5B of cash and securities at 30 Sep 2026 and booked a $9.89B legal charge [3].",
+   "The industry used to be asset-light and is now capital-intensive at the top. Alphabet's Q3 capex was $51.4B, up 114% [2], and Tencent's capex rose to RMB 81.4B by Reuters' count [5]. Smaller platforms such as Snap and Reddit remain asset-light, with Reddit converting 40.5% of revenue into free cash flow [4]."
+  ],
+  "overview": [
+   "WARC forecasts global advertising of $1.34 trillion in 2026, up 11.9%, with social at $394.6B (+21.3%) and search at $295.7B (+14.2%) [8]. Forecasters differ, and this is one estimate, but the direction is consistent: digital platforms take most of the growth. We did not find a sourced size for the narrower GICS industry.",
+   "The main segments are search, social and video, messaging super apps, and niche platforms such as dating, local reviews and discussion forums. WARC counts social, search and retail media together as 66.4% of 2026 ad spend [8]. Alphabet's YouTube ads of $11.2B in Q3 sit between search and social in scale [2].",
+   "In the value chain, platforms buy chips, cloud capacity, devices and content distribution from suppliers, and sell attention to advertisers and agencies. Phone and browser makers act as gatekeepers, which is why the US court case about default search deals matters [9].",
+   "The industry moved from desktop search and early social networks to mobile, then to video and now to AI-driven ranking and answers. Alphabet says Gemini has reached 1 billion users [7], and AI Mode queries are about three times longer than traditional searches [2]. Our read is that AI is changing both the product and the cost base.",
+   "Revenue is concentrated in the United States and China. Tencent's Weixin ecosystem is the dominant Chinese platform in our view, while Alphabet and Meta dominate outside China, with Alphabet, Amazon and Meta together taking 59.7% of global ad spend outside China [8]. Reddit's US business is 80% of revenue [4]."
+  ],
+  "competition": [
+   "A handful of firms matter globally: Alphabet, Meta, Tencent, ByteDance (private), and in the US Pinterest, Snap and Reddit, with many smaller niche players. Beyond the group, Amazon and others compete for the same ad budgets [8].",
+   "Google is the clear leader in search, with 91.05% of worldwide search traffic in October 2026 against Bing at 4.8% [13]. In ads, WARC puts Alphabet, Amazon and Meta together at 59.7% of spend outside China [8]. We did not find separately sourced shares for each.",
+   "The industry is highly concentrated at the top and fragmented in the tail. The three largest Western platforms take most of the revenue, while dozens of smaller services compete for niche audiences and a share of the remaining budgets.",
+   "Barriers to entry are high because of network effects, data, brand and the cost of infrastructure. A new search engine would need a comparable index and enough users to train ranking, which is why a US court ordered Google to share parts of its search index and data with rivals [9].",
+   "Economies of scale are large: fixed costs for models, data centers and ad tools are spread across billions of users. Alphabet's Q3 operating margin was about 31.8% on our calculation [7], while Pinterest's adjusted EBITDA margin was 29% [12].",
+   "Content is differentiated by audience and format, but the advertising product is semi-commoditized: advertisers shift money to whichever platform returns the most, and attention is limited. Reddit's advertising grew 54% in Q3 while Snap's total revenue grew 14% [4][10], showing how quickly relative performance diverges.",
+   "Advertisers have limited bargaining power against the leaders, because there are few alternatives with comparable reach. Suppliers such as chip makers and cloud providers hold more leverage in the AI build-out. Regulators, not customers, are the main check on the largest platforms, as the ad tech ruling shows [14]."
+  ],
+  "drivers": [
+   "Revenue growth depends on advertising budgets, users, time spent and price per ad. In Q3 2026 Meta's ad revenue growth of 26% came from impressions up 10% and price up 14% [3]. Subscriptions and licensing add smaller, steadier growth.",
+   "Operating margins depend on revenue growth against spending on infrastructure, content and staff. Meta's margin fell to 20% in Q3 from a legal charge, but would have been about 35% without it on our calculation [3], and it cut headcount 15% year on year [3].",
+   "The key cost variables are data center and chip costs, content and creator payments, distribution payments, stock-based pay and legal costs. Tencent's operating expenses rose 23% and R&D 42% in Q3 [5].",
+   "Direct sensitivity to interest rates is modest because the large platforms hold net cash, but indirect sensitivity is real: higher rates reduce advertiser budgets and the valuation of long-duration growth stocks. The Fed held at 3.75%-4% in October 2026 and a hike is widely expected [11].",
+   "Advertising tracks consumer spending and corporate profits, so inflation, unemployment and GDP matter indirectly. September 2026 US consumer prices were up 3.7% year on year [11]. Commodity prices matter little except through energy for data centers.",
+   "The industry is cyclical on advertising but with a secular growth tailwind as budgets move online. WARC expects total ad growth to slow from 11.9% in 2026 to 8.4% in 2027 while social still grows 14.6% [8]. We think it behaves as cyclical growth, not a defensive group."
+  ],
+  "financials": [
+   "Growth is high by historical standards: the industry's Q3 2026 revenue rose 25% year on year [1], with Alphabet up 25% [2], Meta 26% [3], Reddit 53% [4], Snap 14% [10] and Pinterest 12% [12]. The Communication Services sector's blended Q3 earnings growth was 18.2% after one-off charges [1].",
+   "Gross margins differ by model. Damodaran's January 2026 data show a gross margin of 62.58% for Software (Internet) across 29 firms, and 34.08% for Information Services across 15 firms [15]. These are global samples that include many loss-making firms, so they understate leaders such as Alphabet and Meta.",
+   "Operating margins at the leaders are far above the datasets. Alphabet's was about 31.8% on our calculation [7] and Meta's 20% reported [3]. Damodaran's unadjusted pre-tax operating margin was only 3.69% for Software (Internet) and 11.89% for Information Services [15], with the first at 18.55% before stock compensation.",
+   "Returns on equity in Damodaran's January 2026 data were negative for the broad Software (Internet) group at -1.47% and for Advertising at -1.34% [16], showing the long tail of unprofitable platforms. We did not find a sourced ROIC for the sub-industry, and for the biggest companies returns are high but now diluted by AI spending.",
+   "Leverage is low at the leaders. Meta has long-term debt of $80.9B against $82.5B of cash and marketable securities [3], and Snap holds $2.8B of cash and securities [10]. Debt is rising to fund data centers, so we expect leverage to climb.",
+   "Free cash flow is strong until capex catches up: Reddit's Q3 free cash flow was $363M, a 40.5% margin [4], and Snap's was $164.5M [10]. At Meta it was -$2.1B in Q3 because of $34.9B of capex [3], which marks a shift from cash generation to investment.",
+   "Capex needs are now very large at the top: Alphabet's Q3 capex was $51.4B [2] and Meta guides $135B-$145B for 2026 [3]. On valuation, Alphabet trades near 20x forward earnings and Meta near 18x [6], and the S&P 500 at 18.3x [1]. We found no sourced sub-industry multiple."
+  ],
+  "risks": [
+   "Regulation is the largest risk. A US court found Google illegally maintained an ad tech monopoly, though it declined a breakup in September 2026 [14], and the search remedies are on appeal [9]. Meta agreed to a state attorneys general settlement with a charge of $9.89B [3].",
+   "AI is both opportunity and threat. Alphabet reports its highest query growth in five years [2], but AI answers can send less traffic to publishers and platforms. Reddit's US daily users fell 2% [4], and we think search referrals are a risk to watch there.",
+   "Demographics matter at the margin: user growth is slowing in mature markets, so growth depends on emerging regions. Snap's Rest of World daily users were 305M against 92M in North America [10], but those users earn far less ($1.13 per user against $11.07) [10].",
+   "Consumer behavior is shifting to video, messaging and conversational AI. Time spent on traditional feeds may fall, and younger users are more likely to ask an AI than search. Alphabet says the Gemini app has 1 billion users [7], which shows how fast the habit is forming.",
+   "New competitors and business models include AI assistants, retail media and short video. WARC projects retail media at $202.1B in 2026, up 14.3% [8], which competes with platforms for the same advertiser budgets.",
+   "Geopolitics and supply chains matter through chips and China. Tencent's Q3 capex jumped to RMB 81.4B and free cash flow was negative RMB 69.1B [5], and platforms depend on a few suppliers for AI hardware. Trade rules and export controls could raise costs or restrict access.",
+   "Substitutes are the greatest long-run threat to the search business: AI assistants answering without clicks, closed messaging and commerce apps, and direct brand relationships. We think Google's 91.05% share of search [13] reflects habit and defaults more than lasting protection."
+  ],
+  "horizon": {
+   "opportunities": [
+    "Advertising keeps moving online: WARC expects global ad growth of 8.4% in 2027 and 7.9% in 2028, with the three biggest platforms rising to 61.5% of spend outside China [8].",
+    "AI can raise ad targeting returns and open new products: Meta reported impressions up 10% and price per ad up 14% in Q3 [3].",
+    "Subscriptions and licensing diversify revenue away from ads, such as YouTube Music and Premium passing 150 million subscribers [7] and Reddit's other revenue up 35% [4]."
+   ],
+   "threats": [
+    "Capex is outrunning cash flow, with negative free cash flow at Meta in Q3 [3] and Alphabet's capex up 114% [2].",
+    "Legal and regulatory outcomes could force changes to defaults, data sharing and ad tech, which are still being appealed [9].",
+    "AI answers could erode clicks and traffic: Reddit's US users fell 2% [4] and Alphabet's Search revenue was almost flat quarter on quarter [2]."
+   ],
+   "assessment": "Our read is that the industry stays one of the best-growing and most profitable in the market for the next three to five years, because advertising keeps migrating online and the leaders have the data and scale to use AI well. The open question is return on capital. Spending of this size needs revenue to keep compounding, and that is the bet the market is now pricing. Legal remedies are likely to change margins at the edges rather than break the leaders, and smaller platforms face a harder path as users and budgets concentrate."
+  }
+ },
+ "sections": [
+  {
+   "id": "macro",
+   "paragraphs": [
+    "Advertising is a late-cycle, rate-sensitive business, and the backdrop has turned less friendly. The Fed held at 3.75%-4% on 28 Oct 2026 after raising in September, September consumer prices were up 3.7% from a year earlier, and policymakers are widely expected to raise again in December [11]. Higher rates matter here mainly through advertiser budgets and the multiple investors pay for growth.",
+    "So far demand has held up. FactSet reports that S&P 500 Q3 2026 earnings growth was 31.9% and that the Interactive Media & Services industry grew revenue 25% year on year, the fastest in Communication Services [1]. WARC still forecasts global ad spend up 11.9% in 2026, slowing to 8.4% in 2027 [8]. Currency was a small factor: Alphabet cited a $702M headwind offset by $194M of hedging gains [2]. Our view is that growth is robust now and that the risk is a 2027 slowdown if inflation forces more tightening."
+   ]
+  },
+  {
+   "id": "demand",
+   "paragraphs": [
+    "Structural demand comes from the shift of advertising and commerce online, more time spent on mobile and video, and now AI-powered products. WARC forecasts social media ad spend at $394.6B in 2026, up 21.3%, and search at $295.7B, up 14.2%, with social growing 14.6% and search 8.8% in 2027 [8].",
+    "Cyclicality is real but the secular trend has outweighed it. Alphabet reported query growth at a five-year high, with AI Mode queries about three times longer than traditional searches [2], and said the Gemini app has reached 1 billion users [7]. Meta's family of apps reached 3.64B daily people, up 3% [3].",
+    "Demographics are a slower lever. Growth in daily users is now mostly in emerging markets: Reddit's international daily users grew 24% while US users fell 2% [4], and Snap's 495M daily users were up 4% [10]. We think pricing and AI-driven formats, rather than user counts, will drive growth from here."
+   ]
+  },
+  {
+   "id": "structure",
+   "paragraphs": [
+    "Porter's five forces point to a strong position for the leaders. Rivalry is intense but between few players. The threat of new entrants is low because of network effects, data and capital: Google held 91.05% of worldwide search traffic in October 2026 [13], and Alphabet, Amazon and Meta together take 59.7% of ad spend outside China [8].",
+    "Buyer power is limited for advertisers because the alternatives are few, though they can reallocate budgets quickly, as Snap's 14% total revenue growth against Reddit's 53% shows [10][4]. Supplier power is rising, because chips, cloud capacity and distribution partners are scarce. The threat of substitutes is the new factor: AI assistants and closed apps can answer or transact without a click.",
+    "Regulators are the main check on market power. In September 2026 a US judge declined to break up Google's ad tech business but ordered operating changes [14], and the search remedies, including data sharing overseen by a technical committee, are being appealed [9]. Tencent operates in a separate Chinese regime, and we could not source its user numbers for this note."
+   ]
+  },
+  {
+   "id": "environment",
+   "paragraphs": [
+    "Political and legal factors dominate. The ad tech remedy ruling of 2 Sep 2026 refused a divestiture but required changes to how Google operates [14]. In the search case the Justice Department asked the appeals court to affirm the liability finding and data-sharing remedies and to revisit a ban on default payments to distributors such as Apple [9]. For Meta, the August 2026 agreement with 52 state attorneys general produced a $9.89B charge [3].",
+    "Technological change is the other force. AI Mode, Gemini and Meta's AI products change how people find information and how ads are targeted. Alphabet processes nearly 32 billion tokens per minute through its first-party model APIs, more than four times a year ago [7]. Social factors, including concern about teens and online safety, feed legal risk, while economic factors show up in capex: Meta guides $135B-$145B for 2026 [3]. Environmental factors, chiefly power for data centers, are an emerging cost. We expect rules on minors and AI-generated content to tighten."
+   ]
+  },
+  {
+   "id": "economics",
+   "paragraphs": [
+    "Economics at the leaders are exceptional. Alphabet's Q3 operating income was $40.58B on $127.6B revenue, about 31.8% by our calculation [7]. Meta reported a 20% operating margin, about 35% without the $9.89B charge on our calculation [3]. Tencent's IFRS operating margin was about 28.5% by our calculation [5]. Reddit's adjusted EBITDA margin was 44.9% [4] and Snap's 22% [10].",
+    "Operating leverage is strong when revenue grows faster than costs, and Meta cut headcount 15% while growing revenue 26% [3]. The offset is capital intensity: Meta's free cash flow was -$2.1B in Q3 [3], and Tencent's was negative RMB 69.1B [5]. Damodaran's broad January 2026 sets show how uneven returns are across the tail, with a net margin of -0.93% for Software (Internet) and a return on equity of -1.47% [15][16]. These global samples include many loss-making firms and are not a fair read on the leaders. We found no sourced ROIC for the group."
+   ]
+  },
+  {
+   "id": "earnings",
+   "paragraphs": [
+    "Reported earnings are noisy. FactSet shows the Communication Services sector's Q3 blended earnings growth falling to 18.2% from 51.5% at the end of September, the only sector to see growth drop, because of misses at Alphabet and Meta [1]. Alphabet's EPS of $2.12 was against $3.02 expected and included an $8.7B loss on equity securities, and Meta's $3.83 was against $6.54 and included the $9.89B charge [1]. Both are largely non-operating items.",
+    "Guidance is mostly constructive. Meta guides Q4 revenue to $73B-$76B [3], Pinterest to $1.425B-$1.475B, up 8% to 12% [12], and Reddit to $1.00B-$1.03B [4]. Our view differs from the headline misses: underlying revenue is strong, and the debate is about capex and legal costs, not demand. We found no sourced sector estimate for 2027 earnings, only index-wide figures."
+   ]
+  },
+  {
+   "id": "valuation",
+   "paragraphs": [
+    "We did not find a sourced forward multiple for the sub-industry itself. FactSet's sector P/E tables were not readable in the report we opened, and its text gives only the S&P 500 at 18.3x forward earnings against a 5-year average of 19.8x and a 10-year average of 19.1x on 13 Nov 2026 [1]. For the two largest companies, TheStreet put Alphabet at about 20x forward earnings and about 15x trailing, and Meta at about 18x forward and 21x trailing, on 30 Oct 2026, while using about 19x for the S&P 500 [6].",
+    "Our read is that both leaders look priced below the market on forward earnings despite faster growth, which suggests investors are discounting the spending and legal risks. Alphabet fell 12.5% the day after its Q3 report [6]. Free cash flow yields are compressed by capex, with Meta at -$2.1B in Q3 [3]. We think the multiple is more sensitive to capex and legal outcomes than to near-term revenue growth, and normalized earnings are hard to judge until the AI spending plateau is clearer."
+   ]
+  },
+  {
+   "id": "positioning",
+   "paragraphs": [
+    "Positioning data are thin in what we could open. We found no sourced sector ETF flows, short interest or year-to-date relative performance for Communication Services. What is sourced: 72% of analyst ratings in the sector are Buy, the highest of any sector, per FactSet on 13 Nov 2026 [1].",
+    "Price reaction shows how crowded the leaders are. TheStreet reports Alphabet fell 12.5% after its Q3 report, one of its worst days ever, with support at $271 matching its 52-week low [6]. The same article says Meta filled a September gap and was supported below $625 [6]. Our read is that expectations on both names were high, and results with negative free cash flow or soft sequential Search growth [2] were punished. Breadth inside the group is mixed, with Reddit and Tencent's advertising growing near 50% and 19% [4][5], and Snap's total revenue up 14% [10]."
+   ]
+  }
+ ],
+ "sources": [
+  {
+   "n": 1,
+   "title": "FactSet Earnings Insight (13 Nov 2026)",
+   "publisher": "FactSet",
+   "date": "2026-11-13",
+   "url": "https://advantage.factset.com/hubfs/Website/Resources%20Section/Research%20Desk/Earnings%20Insight/EarningsInsight_111326.pdf"
+  },
+  {
+   "n": 2,
+   "title": "Google search sales gain just $79M on Q2 as query growth hits 5-year high",
+   "publisher": "PPC Land (summarizing Alphabet Q3 2026 release)",
+   "date": "2026-10-28",
+   "url": "https://ppc.land/google-search-sales-gain-just-79m-on-q2-as-query-growth-hits-5-year-high/"
+  },
+  {
+   "n": 3,
+   "title": "Meta Reports Third Quarter 2026 Results",
+   "publisher": "Meta Platforms",
+   "date": "2026-10-21",
+   "url": "https://investor.atmeta.com/investor-news/press-release-details/2026/Meta-Reports-Third-Quarter-2026-Results/"
+  },
+  {
+   "n": 4,
+   "title": "Reddit, Inc. Form 8-K: third quarter 2026 results",
+   "publisher": "U.S. SEC (Reddit)",
+   "date": "2026-10-29",
+   "url": "https://www.sec.gov/Archives/edgar/data/0001713445/000171344526000114/earningspressreleaseq326.htm"
+  },
+  {
+   "n": 5,
+   "title": "Tencent Q3 2026 earnings show revenue growth and diverging profit measures",
+   "publisher": "Neoteo",
+   "date": "2026-11-18",
+   "url": "https://www.neoteo.com/en/tencent-q3-2026-earnings-show-revenue-growth-and-diverging-profit-measures"
+  },
+  {
+   "n": 6,
+   "title": "The best argument to buy Alphabet and Meta now",
+   "publisher": "TheStreet Pro",
+   "date": "2026-10-30",
+   "url": "https://pro.thestreet.com/trade-ideas/the-best-argument-to-buy-alphabet-and-meta-now"
+  },
+  {
+   "n": 7,
+   "title": "Alphabet Q3 2026 earnings",
+   "publisher": "9to5Google",
+   "date": "2026-10-28",
+   "url": "https://9to5google.com/2026/10/28/alphabet-q3-2026-earnings/"
+  },
+  {
+   "n": 8,
+   "title": "WARC forecasts social media ad spend gains 21.3% to $394.6bn in 2026",
+   "publisher": "PPC Land (summarizing WARC Global Ad Spend Forecast, Q3 2026)",
+   "date": "2026-10-08",
+   "url": "https://ppc.land/warc-forecasts-social-media-ad-spend-gains-21-3-to-394-6bn-in-2026/"
+  },
+  {
+   "n": 9,
+   "title": "DOJ urges D.C. Circuit to beef up remedies in Google monopoly ruling",
+   "publisher": "Courthouse News",
+   "date": "2026-07-29",
+   "url": "https://www.courthousenews.com/doj-urges-dc-circuit-to-beef-up-remedies-in-google-monopoly-ruling/"
+  },
+  {
+   "n": 10,
+   "title": "Snap Inc. Announces Third Quarter 2026 Financial Results",
+   "publisher": "Snap Inc. (via Seeking Alpha)",
+   "date": "2026-11-04",
+   "url": "https://seekingalpha.com/pr/20713831"
+  },
+  {
+   "n": 11,
+   "title": "Fed holds interest rates steady even as inflation remains stubborn",
+   "publisher": "OPB",
+   "date": "2026-10-28",
+   "url": "https://www.opb.org/article/2026/10/28/fed-holds-interest-rates-steady-despite-stubborn-inflation/"
+  },
+  {
+   "n": 12,
+   "title": "Pinterest Q3 revenue climbs 12% to $1.17B as ad growth cools",
+   "publisher": "Dealroom.co",
+   "date": "2026-11",
+   "url": "https://dealroom.co/news/168198-pinterest-q3-revenue-climbs-12-to-1-17b-as-ad-growth-cools/"
+  },
+  {
+   "n": 13,
+   "title": "Search Engine Market Share Worldwide",
+   "publisher": "StatCounter Global Stats",
+   "date": "2026-10",
+   "url": "https://gs.statcounter.com/search-engine-market-share"
+  },
+  {
+   "n": 14,
+   "title": "Google spared from ad business breakup, but judge orders changes to how it operates",
+   "publisher": "TechCrunch",
+   "date": "2026-09-02",
+   "url": "https://techcrunch.com/2026/09/02/google-spared-from-ad-business-breakup-but-judge-orders-changes-to-how-it-operates/"
+  },
+  {
+   "n": 15,
+   "title": "Margins by Sector (US/global): operating and net margins, January 2026",
+   "publisher": "Aswath Damodaran, NYU Stern",
+   "date": "2026-01",
+   "url": "https://pages.stern.nyu.edu/~adamodar/New_Home_Page/datafile/margin.html"
+  },
+  {
+   "n": 16,
+   "title": "Return on equity and capital by industry, January 2026",
+   "publisher": "Aswath Damodaran, NYU Stern",
+   "date": "2026-01",
+   "url": "https://pages.stern.nyu.edu/~adamodar/New_Home_Page/datafile/roe.html"
+  }
+ ]
+}

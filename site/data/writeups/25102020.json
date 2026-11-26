@@ -1,0 +1,475 @@
+{
+ "code": "25102020",
+ "added": "2026-11-26",
+ "asOf": "2026-11-17",
+ "summary": "Motorcycle makers are having a two-speed year: strong in Asia and Europe, weak at Harley-Davidson. Honda's motorcycle unit earned about 439 billion yen of operating profit in April-September 2026 on revenue of 2,272.5 billion yen [5][6], and Yamaha's Land Mobility profit rose 91.5% in nine months [11]. Bajaj Auto's export two-wheeler billings rose 43.2% while domestic sales rose only 1.8% [7]. Harley's motorcycle operating margin was 4.6% as it cut shipments 8% to clear dealer stock [1]. European registrations rose 16.8% in the first half [16]; US sales were flat [15]. We found no sourced sub-industry forward multiple; the sector trades at 24.3x [21].",
+ "metrics": [
+  {
+   "label": "Honda motorcycle operating profit (Apr-Sep 2026)",
+   "value": "¥439.1bn",
+   "context": "Revenue ¥2,272.5bn, +18%; our calculation gives a margin of about 19.3%; Honda sold 11.9M motorcycles, up from nearly 10.8M",
+   "source": 6
+  },
+  {
+   "label": "Honda motorcycle unit sales (Apr-Sep 2026)",
+   "value": "11.9M",
+   "context": "Record first-half total, versus nearly 10.8M a year earlier",
+   "source": 4
+  },
+  {
+   "label": "Bajaj Auto two-wheeler exports (Jul-Sep 2026)",
+   "value": "676,545 units",
+   "context": "Up 43.2%; domestic two-wheelers 607,416 units, up 1.8%",
+   "source": 7
+  },
+  {
+   "label": "Eicher Motors EBITDA margin (Jul-Sep 2026)",
+   "value": "23.7%",
+   "context": "Versus 24.5% a year earlier; Royal Enfield sold 376,722 motorcycles, up 15.2%",
+   "source": 8
+  },
+  {
+   "label": "Hero MotoCorp standalone EBITDA margin (Jul-Sep 2026)",
+   "value": "13.39%",
+   "context": "Management targets 14-16% as commodity prices stabilize",
+   "source": 10
+  },
+  {
+   "label": "Harley-Davidson motorcycle operating margin (Q3 2026)",
+   "value": "4.6%",
+   "context": "Versus 5.0% a year earlier; revenue $964.0M, down 10%; shipments 33,616, down 8%",
+   "source": 1
+  },
+  {
+   "label": "Yamaha Land Mobility operating profit (9M 2026)",
+   "value": "¥170.0bn",
+   "context": "Up 91.5% on revenue of ¥1,472.1bn; segment includes motorcycles and e-bikes",
+   "source": 11
+  },
+  {
+   "label": "Forward P/E, Consumer Discretionary sector",
+   "value": "24.3x",
+   "context": "Sector, not sub-industry; S&P 500 17.7x versus 10-year average 19.1x; FactSet, 5 Nov 2026",
+   "source": 21
+  }
+ ],
+ "watch": [
+  "Harley-Davidson now expects 2026 gross tariff costs of about $105M-$120M, up from $75M-$90M, and says 2027 gross costs should not exceed 2026 [2].",
+  "LiveWire has withdrawn guidance and disclosed substantial doubt about its ability to continue as a going concern, and Harley says it does not intend to fund its losses [1][2].",
+  "Indian margins are squeezed by input costs: Hero's standalone EBITDA margin was 13.39% against a 14-16% target, and Eicher's fell to 23.7% from 24.5% [10][8].",
+  "Europe's first-half rebound, up 16.8%, has to hold through autumn, as ACEM itself cautioned [16].",
+  "The US market is flat: motorcycles excluding scooters rose 0.3% in the first nine months of 2026 and scooters fell 13% [15]."
+ ],
+ "bellwethers": [
+  "Honda",
+  "Hero MotoCorp",
+  "Bajaj Auto",
+  "TVS Motor",
+  "Yamaha Motor",
+  "Eicher Motors (Royal Enfield)",
+  "Harley-Davidson",
+  "Piaggio"
+ ],
+ "basics": {
+  "intro": "Motorcycle manufacturers design, build and sell motorcycles, scooters, mopeds and three-wheelers, mostly through dealers. Most of the world's volume is low-priced commuter transport in Asia, while the profitable niches are premium and leisure bikes in developed markets. Revenue comes from vehicles, plus parts, accessories, apparel and, at some makers, retail finance. GICS places pure motorcycle makers here, while automakers sit in Automobiles, and components suppliers elsewhere. Several large groups, such as Honda and Yamaha, also make cars, boats or engines, so motorcycles are only part of their results.",
+  "products": [
+   {
+    "name": "Commuter motorcycles",
+    "what": "Small, fuel-efficient bikes (typically under 200cc) used for daily transport, sold in huge volumes at low prices in India, Southeast Asia, Latin America and Africa.",
+    "examples": "Hero Splendor, Honda Shine, Bajaj Pulsar"
+   },
+   {
+    "name": "Scooters and mopeds",
+    "what": "Step-through vehicles with automatic gearing, popular with urban riders and women in Asia and with city commuters in Europe.",
+    "examples": "Honda Activa, TVS Jupiter, Vespa"
+   },
+   {
+    "name": "Premium and mid-size motorcycles",
+    "what": "Bikes above roughly 250-350cc bought for leisure and status. They carry higher prices and much higher margins than commuters.",
+    "examples": "Royal Enfield Classic, KTM Duke, Triumph Speed 400"
+   },
+   {
+    "name": "Heavyweight and cruiser motorcycles",
+    "what": "Large touring and cruiser bikes, the core of the US premium market, sold on brand and lifestyle.",
+    "examples": "Harley-Davidson Street Glide, Honda Gold Wing"
+   },
+   {
+    "name": "Off-road and adventure bikes",
+    "what": "Competition, trail and dual-sport bikes for dirt and mixed riding, a large category in the US and Europe.",
+    "examples": "KTM, Husqvarna, Yamaha WR"
+   },
+   {
+    "name": "Electric two-wheelers",
+    "what": "Battery scooters and motorcycles. Volumes are rising fast in India but are still small for developed-market premium electric bikes.",
+    "examples": "TVS iQube, Bajaj Chetak, LiveWire"
+   },
+   {
+    "name": "Parts, accessories, apparel and finance",
+    "what": "Higher-margin add-ons sold with and after the bike, including retail loans at brands that run a finance arm.",
+    "examples": "Harley-Davidson Financial Services, genuine parts"
+   }
+  ],
+  "terms": [
+   {
+    "term": "Displacement (cc)",
+    "meaning": "Engine size in cubic centimetres. Under about 150cc usually means a commuter; above 350cc usually means a premium bike. It maps closely to price and margin."
+   },
+   {
+    "term": "Wholesale vs retail",
+    "meaning": "Wholesale (shipments) is what the maker sells to dealers; retail is what dealers sell to riders. When they diverge, dealer inventory is being built or run down."
+   },
+   {
+    "term": "Dealer inventory",
+    "meaning": "Bikes sitting unsold at dealers. Excess stock forces discounts, so makers sometimes ship fewer bikes than they retail to restore health."
+   },
+   {
+    "term": "Mix",
+    "meaning": "The share of higher-priced models in sales. A small shift toward premium bikes can lift margins more than a price rise."
+   },
+   {
+    "term": "EBITDA margin",
+    "meaning": "Earnings before interest, tax, depreciation and amortization as a percent of revenue. Indian makers quote it as their main profit measure."
+   },
+   {
+    "term": "Captive finance",
+    "meaning": "A finance subsidiary that lends to buyers and dealers. It supports sales and earns interest, but adds credit risk and debt."
+   },
+   {
+    "term": "Exports",
+    "meaning": "Bikes built in one country and sold in another. For Indian makers they diversify away from a domestic market that is growing slowly."
+   },
+   {
+    "term": "Pass-through",
+    "meaning": "Raising prices to recover higher input costs or tariffs. How quickly a maker can do this decides whether margins hold."
+   },
+   {
+    "term": "Platform",
+    "meaning": "A shared engine and frame used across several models, which spreads development cost and lets partners build and sell each other's bikes."
+   },
+   {
+    "term": "Premiumization",
+    "meaning": "Customers trading up to larger, pricier bikes as incomes rise. It is the main route to higher margins for commuter-heavy makers."
+   },
+   {
+    "term": "Localization",
+    "meaning": "Building bikes and sourcing parts inside the market where they are sold, to avoid import tariffs and cut freight."
+   }
+  ],
+  "drivers": [
+   {
+    "name": "Volume and exports",
+    "how": "Units sold drive revenue and spread fixed costs. Fast-growing export markets can offset slow home markets, as at Indian makers."
+   },
+   {
+    "name": "Mix and pricing",
+    "how": "Selling more large, high-priced models and holding list prices lifts revenue per bike and gross margin faster than volume alone."
+   },
+   {
+    "name": "Input costs",
+    "how": "Steel, aluminium, rubber and electronics make up most costs. When they rise faster than prices, EBITDA margin shrinks until prices catch up."
+   },
+   {
+    "name": "Credit availability",
+    "how": "Most bikes are financed, so loan rates and approvals move demand, especially for first-time and lower-income buyers."
+   },
+   {
+    "name": "Tariffs and currencies",
+    "how": "Import duties raise costs for bikes crossing borders, and a weak home currency inflates translated overseas profits for exporters such as Japanese makers."
+   },
+   {
+    "name": "Regulation and electrification",
+    "how": "Emission rules and EV subsidies change which models are viable, and force development spending that is hard to recover in small premium niches."
+   }
+  ]
+ },
+ "fundamentals": {
+  "business": [
+   "Revenue comes mainly from selling vehicles to dealers or distributors, plus parts, accessories, apparel and, at a few brands, retail finance. Harley-Davidson's motorcycle unit booked $964.0M of revenue in Q3 2026 and its finance arm $110.8M [1]; Honda's motorcycle unit booked ¥2,272.5bn in April-September [5].",
+   "Customers are individual riders served through independent dealers, with fleets and ride-hailing a smaller part. In India, SIAM's director general linked demand to easier credit and replacement purchases in rural and urban areas [14]. At Harley, dealers have been asking for more bikes after a 26% inventory cut [2].",
+   "Materials and components are by far the largest cost. At Bajaj Auto's standalone business, raw materials and components were Rs 13,227.93 crore of Rs 15,965.28 crore total expenses, about 83% on our calculation [7]. Harley's motorcycle gross margin was 28.1% in Q3 2026 [1].",
+   "Pricing power comes from brand and segment, not volume. Eicher's Royal Enfield earned a 23.7% EBITDA margin [8] and Harley said its realization of list price was at a two-year high [2], while commuter-focused Hero earned 13.39% [10]. Commuter buyers compare on price and fuel economy.",
+   "Main assets are factories, tooling and brands; liabilities are mostly working capital and, for finance arms, borrowings. Harley held $2.08B of cash against combined debt of about $2.34B, including its finance business [3]. Bajaj Auto reported surplus cash of Rs 15,500 crore [7] and Piaggio net debt of EUR 469.7M [12].",
+   "Moderately capital-intensive. Assembly and engine plants and model development need steady investment, but less than car making. Harley guides 2026 capital investment of $140M-$165M on over $3B of nine-month motorcycle revenue [1][3], and Piaggio invested EUR 76.8M in nine months [12]."
+  ],
+  "overview": [
+   "A third-party estimate puts the global motorcycle and scooter market at USD 154.5 billion in 2025, growing at 7.6% a year to 2035 [22]. This is a market-research marketing estimate and definitions differ widely, so we treat it as low-confidence. Honda alone sold 11.9M motorcycles in April-September 2026 [4].",
+   "The segments are commuters, scooters, premium and mid-size bikes, heavyweight cruisers and tourers, and off-road. In India's October 2026 dispatches, motorcycles were 1,423,118 units, scooters 1,096,756 and mopeds 57,936 [14]. In the US, on-highway bikes were 61% of motorcycle sales, led by cruisers, up 8% [15].",
+   "Makers sit between metal, component and electronics suppliers and a dealer network, with finance providers beside them. Raw materials were a roughly one-point drag on Harley's Q3 gross margin [2], and Bajaj Auto's component costs are most of its expenses [7]. Dealers are the customer interface and carry inventory.",
+   "The industry has moved from regional champions toward global platforms and partnerships. KTM's parent is now Bajaj Mobility AG, and its first-half 2026 sales of 147,572 motorcycles included 58,568 sold in India by Bajaj Auto [13]. Electric models are scaling in India, with TVS electric sales of 186,186 in Jul-Sep [9] while Harley's LiveWire faces going-concern doubt [1].",
+   "Sales are concentrated in Asia, which the estimate puts at about 74% of market value [22]. India alone shipped 2,577,810 two-wheelers in October 2026 [14]. Europe's five largest markets registered 636,490 motorcycles in the first half [16], and Harley sold 25,603 bikes in North America in Q3 [1]."
+  ],
+  "competition": [
+   "Dozens of makers compete, but few have scale. One estimate says the top five, Honda, Hero MotoCorp, Yamaha, TVS and Bajaj Auto, hold 52.5% of global revenue [22]. Below them sit Eicher, KTM, Triumph, Harley-Davidson and Piaggio.",
+   "Honda leads: the same estimate gives it over 28.7% of 2025 revenue [22], and it sold 11.9M motorcycles in six months [4]. By quarterly volume, Hero shipped 18.68 lakh units [10], TVS 19.19 lakh two- and three-wheelers [9] and Bajaj Auto 1.28M two-wheelers [7].",
+   "Concentrated at the top globally but local in practice: Indian volume is dominated by Indian makers and Honda, while US premium rests on a few brands and Europe is split among Japanese, Italian, Austrian and British names. KTM, Husqvarna and GasGas sold 89,004 bikes outside India in H1 2026 [13]; Piaggio sold 273,600 two-wheelers in nine months [12].",
+   "Barriers are brand, dealer reach, service networks and scale in engines and sourcing. In our view they are high in commuter bikes and lower in niches; yet even a funded electric entrant, LiveWire, has not reached viability and now carries going-concern doubt [1], which shows how hard it is to break in.",
+   "Scale matters. Honda's motorcycle unit earned about 19% on our calculation from reported figures [5][6], while Harley's motorcycle unit earned 4.6% on 33,616 shipped bikes in the quarter [1], and KTM's owner posted a 5.4% EBITDA margin in H1 while recovering volume [13].",
+   "Both. Commuter bikes are close to commodities that compete on price and fuel economy, with Hero at 13.39% EBITDA margin [10]. Premium and heritage brands are differentiated: Eicher at 23.7% [8] and Piaggio at 16.9% [12].",
+   "Buyers are many and small, so individual customers have little leverage, but dealers do: Harley has been correcting a dealer overstock [2]. Suppliers gain leverage when commodities spike; Hero avoided precise guidance because of daily commodity volatility [10] and Yamaha cited Middle East-related procurement costs [11]."
+  ],
+  "drivers": [
+   "Revenue growth depends on volume, mix, price and exports. Bajaj Auto's export two-wheeler billings rose 43.2% while domestic sales rose 1.8% [7], and Royal Enfield volume rose 15.2% [8]. In the US, Harley's shipments fell 8% even as retail rose [1].",
+   "Margins depend on mix, scale and input costs. TVS lifted EBITDA margin 30 basis points to 13% [9]; Hero's fell to 13.39% against a 14-16% medium-term target as commodities rose [10]. Harley is targeting $150M of fixed-cost savings [2].",
+   "Key costs are raw materials and components, labour, freight and tariffs. Raw materials cost Harley about one point of gross margin in Q3 [2]; Eicher's product-related costs rose to 58.0% of revenue from 56.3% in a grouping calculated by the source [8].",
+   "Rates matter because most bikes are financed. India's industry body linked recent demand to easier credit [14]. Harley carries finance receivables of about $2.2B held for investment [3], so credit conditions affect it twice, on demand and on its own lending book. This is our read; we found no sourced rate sensitivity.",
+   "Premium and leisure bikes respond to consumer confidence and employment, while commuter bikes track rural income and fuel prices. The US market was flat in 2026, with motorcycles up 0.3% and scooters down 13% [15]. Currency also matters: Yamaha's results were translated at 159 yen to the dollar [11].",
+   "A mix. Asian commuter demand is closer to secular growth, with Indian two-wheeler dispatches up 16.1% in October [14]. Developed-market leisure riding is cyclical but has recovered: European registrations are about 27% above 2019 [16]."
+  ],
+  "financials": [
+   "Growth is uneven. In Jul-Sep 2026 revenue rose 34% at Bajaj Auto standalone [7], 44% at TVS [9], 21% at Hero [10] and 20.3% at Eicher [8], while Harley's motorcycle revenue fell 10% [1] and Piaggio's nine-month revenue rose 2.7% [12].",
+   "No motorcycle-only dataset was available. Damodaran's US Auto & Truck group (33 firms) shows a 10.41% gross and 2.32% pre-tax operating margin and the Recreation group (49 firms) 39.79% and 9.69%, as of January 2026 [17]. Company margins run higher at the best makers: Honda about 19% [5][6], Piaggio 16.9% EBITDA [12].",
+   "Damodaran's January 2026 data show return on equity of 3.16% for Auto & Truck and -12.76% for Recreation [18]; we did not find a motorcycle-specific ROIC. Leading Indian makers look far better: Bajaj Auto's standalone pre-tax profit was Rs 4,457.49 crore on Rs 20,003.43 crore of revenue, about 22% on our calculation [7].",
+   "Leverage differs by maker. Damodaran's book debt-to-capital is 60.31% for Auto & Truck and 72.01% for Recreation, but 16.44% and 38.99% at market value [20]. Bajaj Auto held Rs 15,500 crore of surplus cash [7], while Piaggio's net debt was EUR 469.7M [12].",
+   "Free cash flow is solid at disciplined makers. Harley generated $275.9M of operating cash flow and spent $64.4M on capital in nine months, so about $211.5M by our calculation [1]. Bajaj Mobility's free cash flow was EUR -22.1M in H1 while recovering [13].",
+   "Capital spending is moderate. Harley guides $140M-$165M for 2026 [1] and Piaggio spent EUR 76.8M in nine months, down 25% [12]. Spending climbs with electric development and capacity additions, which is where weaker makers have struggled.",
+   "Multiples are hard to read. Damodaran's January 2026 forward P/E is 49.04x for Auto & Truck and 38.02x for Recreation, inflated by depressed earnings [19]. FactSet's Consumer Discretionary sector was 24.3x on 5 Nov 2026 against 17.7x for the S&P 500 [21]. No motorcycle-specific multiple was publicly available."
+  ],
+  "risks": [
+   "Tariffs are the clearest rule risk: Harley now expects gross 2026 tariff costs of $105M-$120M and expects recoveries of a similar amount [2], and Yamaha says US tariffs weighed on profit [11]. We did not source details of emissions or safety rules, which also shape product plans.",
+   "Electrification is the main technology risk. Indian electric scooter volumes are scaling, with TVS at 186,186 units [9] and Bajaj Auto's electric two- and three-wheelers near 200,000 [7], while LiveWire has doubts about its going concern [1]. We found no sourced evidence that AI changes the economics soon; connected features are a cost, not yet a revenue line.",
+   "Demographics cut both ways. US cruisers rose 8% in 2026, ending a decline that began in 2021 [15], but a younger rider base is what many leisure brands need. We did not find sourced rider-age data, so this remains our judgment.",
+   "Buying habits are shifting at the low end. US scooter sales fell 13%, with e-bikes possibly taking some of that market [15], while Indian scooters grew 31.6% in October [14]. Premium buyers are moving toward adventure and mid-size models.",
+   "Competition is arriving from Asia. Bajaj Auto's exports rose 43.2% [7], and a Bajaj-owned KTM sold 147,572 motorcycles globally in H1 2026, up 81% [13].",
+   "Supply chains and geopolitics matter through costs: Yamaha cited Middle East-related procurement costs [11], Hero cited daily commodity volatility [10] and Piaggio gave no full-year forecast, saying it depends on geopolitical and economic stability [12].",
+   "Substitutes include cars, public transport, e-bikes and ride-hailing. The MIC notes e-bikes may be taking part of the scooter market [15]. In emerging markets, rising incomes can lead buyers to move up to small cars, though we found no sourced figure for that."
+  ],
+  "horizon": {
+   "opportunities": [
+    "Premium demand in India is returning: Royal Enfield's above-350cc models returned to growth in October after falling 9% in H1 [8].",
+    "Indian makers are scaling exports, with Bajaj Auto's up 43.2% in Jul-Sep [7] and TVS exporting about five lakh vehicles [9].",
+    "European registrations are about 27% above 2019 and rose 16.8% in H1 2026 [16].",
+    "Harley is aiming for $350M of motorcycle EBITDA in 2027 and $150M of fixed-cost savings [2]."
+   ],
+   "threats": [
+    "Tariffs raised Harley's gross cost estimate for 2026 and Yamaha cited them as a drag [2][11].",
+    "Input-cost inflation is already compressing margins at Hero and Eicher [10][8].",
+    "The US market is flat and its scooters are falling [15].",
+    "LiveWire's going-concern doubt shows the risk in electric premium bikes [1]."
+   ],
+   "assessment": "Our read is that the next three to five years favour makers with scale and exposure to Asian premiumization, such as Honda, Bajaj, TVS and Royal Enfield, whose profits are growing in a market still widening [5][7][8]. Developed-market leisure riding looks recovered rather than booming, and its earnings depend on tariff recovery and cost discipline, as Harley's reset shows [1][2][15]. Electrification is the largest uncertainty: it is gaining share in India but unproven at the premium end [1][9]. Margins will probably stay narrower than in 2024-25 if input costs persist [10]. This is judgment, not a forecast."
+  }
+ },
+ "sections": [
+  {
+   "id": "macro",
+   "paragraphs": [
+    "The cycle is two-speed. In Asia and Europe, demand is expanding: India's October two-wheeler dispatches rose 16.1% year on year, and SIAM's director general pointed to easier credit and replacement buying [14]. European registrations in the five largest markets rose 16.8% in the first half of 2026, although ACEM itself said the trend must hold through autumn [16].",
+    "The US is flat. Industry motorcycle sales excluding scooters rose 0.3% in the first nine months [15], while Harley's North American retail rose 9% in Q3 from a low base and a deliberately trimmed dealer inventory [1].",
+    "Currency and trade policy matter as much as the cycle. Honda's raised forecast reflected favourable exchange rates and efforts to reduce the US tariff impact, including moving production to the US [4]; Yamaha translated results at 159 yen to the dollar and said US tariffs weighed on profit [11]. We did not open central-bank rate material, so we do not give a sourced policy-rate path; our judgment is that lower borrowing costs help financed purchases, particularly in India."
+   ]
+  },
+  {
+   "id": "demand",
+   "paragraphs": [
+    "Demand is structurally Asian and growing. One market-research estimate puts the 2025 global motorcycle and scooter market at USD 154.5 billion, with Asia Pacific at about 74% of value and a 7.6% annual growth forecast to 2035 [22]. We treat that as a rough guide because research houses define the market differently.",
+    "Growth is shifting toward scooters and premium bikes. In India's October 2026 data, scooters rose 31.6% while motorcycles rose 6.6% and exports rose 26.5% [14]. Royal Enfield's smaller models and EVs grew 24% in April-September, while above-350cc sales fell 9% before returning to growth in October [8].",
+    "In developed markets demand is recovering from a post-pandemic lull. European registrations are about 27% above 2019 [16]. In the US, on-highway bikes rose 2% in the first nine months and cruisers 8%, reversing a decline since 2021, while off-highway bikes fell 4% and scooters 13% [15]. Our view is that commuter demand is steady and income-driven, whereas leisure demand is cyclical and discretionary."
+   ]
+  },
+  {
+   "id": "structure",
+   "paragraphs": [
+    "Rivalry is intense at the commuter end, where five makers hold an estimated 52.5% of global revenue and Honda leads with over 28.7% [22]. Hero's 13.39% EBITDA margin shows how competitive commuter pricing is [10].",
+    "Barriers to entry are high in scale segments: dealer networks, service reach, engine engineering and brand take years to build. The threat of new entrants is therefore low outside electric niches, and LiveWire's going-concern doubt shows even a famous brand struggles [1]. Supplier power is moderate and rises when commodity prices spike, as Hero and Yamaha noted [10][11].",
+    "Buyer power is low per customer, but dealers have leverage: Harley's inventory cut of 26% followed a period of overstock [1][2]. The threat of substitutes comes from cars, e-bikes and scooters, with US scooters down 13% as e-bikes gain [15].",
+    "Moats are strongest at heritage and premium brands. Eicher's 23.7% EBITDA margin [8] and Honda's roughly 19% operating margin in motorcycles on our calculation [5][6] compare with Harley's 4.6% [1], suggesting that scale and mix matter more than nameplate alone."
+   ]
+  },
+  {
+   "id": "environment",
+   "paragraphs": [
+    "Politics and trade are the dominant outside forces. Harley now expects 2026 gross tariff costs of about $105M-$120M, up from $75M-$90M, with recoveries offsetting most of it [2]. Yamaha said US tariffs weighed on its profit [11], and Honda's forecast raise included work to reduce US tariff impact [4].",
+    "Economic and social factors are favourable in India, where credit access and replacement demand support volumes [14]. Technological change is led by electrification: TVS sold 186,186 electric two-wheelers in the quarter, up 133% [9], and Bajaj Auto's electric scooters and three-wheelers were close to 200,000 units [7].",
+    "In the premium electric niche the picture is different: LiveWire's 2026 nine-month revenue was $22.1M against a $53.4M operating loss [1]. Environmental and legal factors, such as emission standards and battery rules in Europe and India, shape product plans, but we did not open the regulations themselves, so we leave them out of the numbers. Our view is that electrification will arrive first in Indian urban commuting, not in Western leisure riding."
+   ]
+  },
+  {
+   "id": "economics",
+   "paragraphs": [
+    "Margins sort the industry. Honda's motorcycle unit earned ¥439.1bn on ¥2,272.5bn of revenue, about 19% on our calculation [5][6]. Yamaha's Land Mobility segment earned ¥170.0bn on ¥1,472.1bn, about 11.5% on our calculation [11]. Piaggio's nine-month EBITDA margin was 16.9% [12].",
+    "In India, Eicher's EBITDA margin was 23.7%, TVS's 13% and Hero's 13.39% [8][9][10]. At Harley, motorcycle operating margin was 4.6% and year-to-date operating income was $135.6M on $3,123.8M of revenue [1]. Damodaran's US Auto & Truck group has a pre-tax operating margin of 2.32% and Recreation 9.69%, as of January 2026, and neither is motorcycle-specific [17].",
+    "Operating leverage is high: fixed plant and development costs mean volume swings move profit sharply, as Harley's 10% revenue fall cut operating income 18% [1]. Return on equity for Auto & Truck was 3.16% and for Recreation -12.76% [18]; free cash flow at Harley was about $211.5M in nine months by our calculation [1]. We did not find motorcycle-specific ROIC."
+   ]
+  },
+  {
+   "id": "earnings",
+   "paragraphs": [
+    "Guidance is mixed. Harley raised 2026 motorcycle operating income guidance to $25M-$55M, with 135,500-139,000 units, and withdrew LiveWire guidance [1]. Yamaha kept its full-year forecast unchanged at ¥260bn operating profit after earning ¥235.2bn in nine months [11], and Honda raised its group operating profit forecast to ¥780bn from ¥650bn [4].",
+    "Hero expects its EBITDA margin to recover to 14-16% as commodities stabilize and plans three to four premium launches by March [10]. Piaggio gave no full-year forecast [12]. Harley restated a $350M motorcycle EBITDA goal for 2027 and $150M of cost savings [2].",
+    "We found no public consensus estimates or revision data for the sub-industry, so we cannot say how guidance compares with the Street. Our view is that Asian earnings have the stronger momentum, since volumes and exports are growing [7][9], but margin risk from input costs is real [8][10]. Harley's recovery depends on cost cuts and tariff recovery rather than volume, so it carries more execution risk. Harley's Q3 EPS of $0.40 compares with $3.10 a year earlier, a gap its release ties largely to a finance-arm sale in 2025 [1][3]."
+   ]
+  },
+  {
+   "id": "valuation",
+   "paragraphs": [
+    "We found no publicly available forward multiple for the motorcycle sub-industry itself. The nearest benchmarks are broad. FactSet put the Consumer Discretionary sector at 24.3x forward earnings on 5 November 2026, the highest of any sector, against 17.7x for the S&P 500 and a 10-year average of 19.1x [21]. That sector is dominated by other businesses, so it says little about motorcycles.",
+    "Damodaran's January 2026 US data give Auto & Truck a forward P/E of 49.04x and Recreation 38.02x, with a PEG ratio of 11.71 and 1.83 [19]. Those multiples are inflated by depressed earnings in small samples, so we would not read them as a price signal.",
+    "Our view is that the market likely prices Asian leaders for sustained growth and premium Western brands for recovery, but we can not support this with sourced multiples. Harley's nine-month diluted EPS of $1.38 against $5.03 a year earlier [3] shows how far earnings have to rebuild; its 2027 targets of $350M of motorcycle EBITDA [2] imply a recovery, and whether it is priced in depends on a price we did not source."
+   ]
+  },
+  {
+   "id": "positioning",
+   "paragraphs": [
+    "We did not find sourced ETF flow, short-interest or price-momentum data for the sub-industry, and there is no dedicated motorcycle ETF that we could verify, so we do not report positioning figures rather than estimate them.",
+    "What we can say from company actions: Harley returned $110M to shareholders in Q3, $91M of it buybacks, and raised its quarterly dividend to $0.1875 from $0.18 [1][3]. Yamaha raised its year-end dividend by 10 yen to 35 yen [11], and the Indian leaders hold large cash balances, with Bajaj Auto at Rs 15,500 crore [7].",
+    "At sector level, FactSet reported that Consumer Discretionary companies had the lowest share beating revenue estimates, at 54%, and that the sector's Q3 net profit margin was 10.0% against 10.2% a year earlier [21]. Our read is that the leaders are in Asia, where volumes are growing, while US and European riding demand looks steady rather than accelerating [14][15][16]."
+   ]
+  }
+ ],
+ "sources": [
+  {
+   "n": 1,
+   "title": "Harley-Davidson Reports Third Quarter Financial Results (Form 8-K Exhibit 99.1)",
+   "publisher": "Harley-Davidson / SEC",
+   "date": "2026-10-29",
+   "url": "https://www.sec.gov/Archives/edgar/data/0000793952/000079395226000065/a8kq32026exhibit991.htm"
+  },
+  {
+   "n": 2,
+   "title": "Harley-Davidson Q3 2026 earnings call transcript",
+   "publisher": "TradingKey",
+   "date": "2026-10-29",
+   "url": "https://www.tradingkey.com/news/transcripts/262261598-"
+  },
+  {
+   "n": 3,
+   "title": "Harley-Davidson Form 10-Q for the quarter ended 30 September 2026",
+   "publisher": "Harley-Davidson / SEC",
+   "date": "2026-10",
+   "url": "https://www.sec.gov/Archives/edgar/data/0000793952/000079395226000070/hog-20260930.htm"
+  },
+  {
+   "n": 4,
+   "title": "Honda reports robust results on the back of healthy motorcycle sales",
+   "publisher": "Associated Press (via KSAT)",
+   "date": "2026-11-10",
+   "url": "https://www.ksat.com/business/2026/11/10/honda-reports-robust-results-on-the-back-of-healthy-motorcycle-sales/"
+  },
+  {
+   "n": 5,
+   "title": "Honda reports 13% revenue rise in H1 FY27",
+   "publisher": "Just Auto",
+   "date": "2026-11",
+   "url": "https://www.just-auto.com/newsletters/honda-reports-13-revenue-rise-in-h1-fy27"
+  },
+  {
+   "n": 6,
+   "title": "Honda First-Half Sales Rise 13% to 12 Trillion Yen Despite 509 Billion Yen EV Restructuring Charges",
+   "publisher": "Panabee (news aggregator; carries an accuracy disclaimer)",
+   "date": "2026-11",
+   "url": "https://www.panabee.com/news/honda-motor-earnings-h1-2026"
+  },
+  {
+   "n": 7,
+   "title": "Bajaj Auto Q2 Net Profit Rises 35% to Rs 3,354 Crore as Revenue Crosses Rs 20,000 Crore",
+   "publisher": "Autocar Professional",
+   "date": "2026-10-27",
+   "url": "https://www.autocarpro.in/news/bajaj-auto-q2-net-profit-rises-35-percent-to-rs-3354-crore-as-revenue-crosses-rs-20000-crore-135494"
+  },
+  {
+   "n": 8,
+   "title": "Eicher Motors Q2 Results: Record Sales, but Why Are Profit Margins Falling?",
+   "publisher": "INDmoney",
+   "date": "2026-11-13",
+   "url": "https://www.indmoney.com/blog/stocks/eicher-motors-q2-results-analysis"
+  },
+  {
+   "n": 9,
+   "title": "TVS Motor Q2 Net Profit Rises 52% to Rs 1,377 Crore, Revenue Jumps 44%",
+   "publisher": "Autocar Professional",
+   "date": "2026-10-28",
+   "url": "https://www.autocarpro.in/news/tvs-motor-q2-net-profit-rises-52-percent-to-rs-1377-crore-revenue-jumps-44-percent-135533"
+  },
+  {
+   "n": 10,
+   "title": "Hero MotoCorp Reports Q2 Standalone Revenue Of Rs 14,687 Crore As Net Profit Rises To Rs 1,456 Crore",
+   "publisher": "Sahi",
+   "date": "2026-10-29",
+   "url": "https://www.sahi.com/news/hero-motocorp-reports-q2-standalone-revenue-of-14-687-crore-as-net-profit-rises-to-1-456-crore"
+  },
+  {
+   "n": 11,
+   "title": "Consolidated Business Results Summary, First Nine Months of Fiscal Year Ending December 2026",
+   "publisher": "Yamaha Motor",
+   "date": "2026-11-06",
+   "url": "https://global.yamaha-motor.com/news/2026/1106/result.html"
+  },
+  {
+   "n": 12,
+   "title": "Piaggio: revenues and margins up in nine months, net debt improves",
+   "publisher": "Teleborsa",
+   "date": "2026-11-06",
+   "url": "https://www.teleborsa.it/News/2026/11/06/piaggio-ricavi-e-margini-in-crescita-nei-9-mesi-migliora-la-pfn-97.html"
+  },
+  {
+   "n": 13,
+   "title": "Bajaj Mobility AG: Results of the First Half of 2026",
+   "publisher": "Bajaj Mobility AG (EQS ad hoc release)",
+   "date": "2026-08-27",
+   "url": "https://webdisclosure.com/press-release/pierer-mobility-ag-etr-eqs-adhoc-bajaj-mobility-ag-results-of-the-first-half-of-2026-sx0qpN49sZ2"
+  },
+  {
+   "n": 14,
+   "title": "Auto industry posts record October sales as passenger vehicles cross 5 lakh mark, two-wheelers grow 16%",
+   "publisher": "Business Today (SIAM data)",
+   "date": "2026-11-13",
+   "url": "https://www.businesstoday.in/auto/story/auto-industry-posts-record-october-sales-as-passenger-vehicles-cross-5-lakh-mark-2-wheelers-grow-16-567320-2026-11-13"
+  },
+  {
+   "n": 15,
+   "title": "MIC Q3 report: powersports sales down 0.4%, motorcycles show growth",
+   "publisher": "Powersports Business",
+   "date": "2026-11-17",
+   "url": "https://powersportsbusiness.com/news/motorcycle/2026/11/17/mic-q3-report-powersports-sales-down-0-4-motorcycles-show-growth/"
+  },
+  {
+   "n": 16,
+   "title": "Registrations of motorcycles and mopeds in the first semester of 2026",
+   "publisher": "ACEM",
+   "date": "2026-07",
+   "url": "https://www.acem.eu/registrations-of-motorcycles-in-the-first-semester-of-2026/"
+  },
+  {
+   "n": 17,
+   "title": "Margins by Sector (US), Auto & Truck and Recreation",
+   "publisher": "Aswath Damodaran, NYU Stern",
+   "date": "2026-01",
+   "url": "https://pages.stern.nyu.edu/~adamodar/New_Home_Page/datafile/margin.html"
+  },
+  {
+   "n": 18,
+   "title": "Return on Equity by Sector (US)",
+   "publisher": "Aswath Damodaran, NYU Stern",
+   "date": "2026-01",
+   "url": "https://pages.stern.nyu.edu/~adamodar/New_Home_Page/datafile/roe.html"
+  },
+  {
+   "n": 19,
+   "title": "PE Ratios by Sector (US)",
+   "publisher": "Aswath Damodaran, NYU Stern",
+   "date": "2026-01",
+   "url": "https://pages.stern.nyu.edu/~adamodar/New_Home_Page/datafile/pedata.html"
+  },
+  {
+   "n": 20,
+   "title": "Debt Fundamentals by Sector (US)",
+   "publisher": "Aswath Damodaran, NYU Stern",
+   "date": "2026-01",
+   "url": "https://pages.stern.nyu.edu/~adamodar/New_Home_Page/datafile/dbtfund.html"
+  },
+  {
+   "n": 21,
+   "title": "FactSet Earnings Insight, 6 November 2026",
+   "publisher": "FactSet",
+   "date": "2026-11-06",
+   "url": "https://advantage.factset.com/hubfs/Website/Resources%20Section/Research%20Desk/Earnings%20Insight/EarningsInsight_110626.pdf"
+  },
+  {
+   "n": 22,
+   "title": "Motorcycle and Scooter Market Size, Share and Growth Report 2026-2035",
+   "publisher": "Global Market Insights",
+   "date": "2026-08",
+   "url": "https://www.gminsights.com/industry-analysis/motorcycle-and-scooter-market"
+  }
+ ]
+}

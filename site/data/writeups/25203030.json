@@ -1,0 +1,419 @@
+{
+ "code": "25203030",
+ "added": "2026-11-26",
+ "asOf": "2026-11-20",
+ "summary": "Textiles is a slow-growing, price-taking corner of consumer discretionary, and the results are splitting by region and fibre. World textile and garment exports reached $914B in 2025, still 4.2% below the 2022 peak, and synthetics now supply 71.7% of fibre demand [1]. US apparel import value fell about 8% in the first half of 2026 after effective duty rates peaked near 34% [2]. Toray's fibres segment lifted core operating income 18.3% in the June quarter [3], while US mill Culp lost $10.2M in fiscal 2026 [4] and Unifi's quarterly adjusted EBITDA swung to $8.2M from -$4.1M [5]. We found no sourced consensus or multiple for the sub-industry; the Consumer Discretionary sector trades at 24.2x forward earnings [6].",
+ "metrics": [
+  {
+   "label": "World textile and garment exports (2025)",
+   "value": "$914B",
+   "context": "4.2% below the 2022 peak of $954B; ICAC, Aug 2026",
+   "source": 1
+  },
+  {
+   "label": "Synthetic share of global fibre demand (2025)",
+   "value": "71.7%",
+   "context": "Cotton 21.1%; total fibre demand 119.8M tonnes",
+   "source": 1
+  },
+  {
+   "label": "US apparel imports, Jan-Jun 2026",
+   "value": "$32.7B",
+   "context": "Cotton-dominant down 8.5% and man-made-fibre-dominant down 8.2% on a year earlier; 2025 total $72.7B",
+   "source": 2
+  },
+  {
+   "label": "Toray Fibers & Textiles core operating income (Apr-Jun 2026)",
+   "value": "¥18.0B",
+   "context": "Up 18.3% on revenue of ¥259.9B, up 8.3%; our calculation: about 6.9% margin",
+   "source": 3
+  },
+  {
+   "label": "Culp gross margin (fiscal 2026, to 3 May 2026)",
+   "value": "12.4%",
+   "context": "Sales $203.5M, down 4.6%; operating loss $7.2M",
+   "source": 4
+  },
+  {
+   "label": "Unifi gross margin (quarter to 28 Jun 2026)",
+   "value": "9.9%",
+   "context": "Versus -0.8% a year earlier; adjusted EBITDA $8.2M versus -$4.1M",
+   "source": 5
+  },
+  {
+   "label": "Apparel net margin (Damodaran, US-listed proxy)",
+   "value": "3.85%",
+   "context": "35 firms, Jan 2026; sub-industry has no separate Damodaran row",
+   "source": 7
+  },
+  {
+   "label": "Forward P/E, Consumer Discretionary sector",
+   "value": "24.2x",
+   "context": "Sector, not sub-industry; S&P 500 17.1x vs 10-yr average 19.1x; FactSet, 20 Nov 2026",
+   "source": 6
+  }
+ ],
+ "watch": [
+  "US tariff policy keeps moving: the Supreme Court invalidated the IEEPA tariffs on 20 Feb 2026 and a temporary 10% Section 122 surcharge replaced part of them [2].",
+  "Cotton is cheap against its recent past but not collapsing: the ICE December future settled at 78.67 cents per pound on 12 Nov 2026 and US mill demand was described as light [13].",
+  "Polyester overcapacity is the main profit threat for fibre makers: Indorama's Fibers EBITDA was flat at THB 924M in the third quarter of 2026 [15].",
+  "Rates are not helping: the Fed held at 3.75% to 4.00% on 28 Oct 2026 with two members preferring a hike [14].",
+  "Small US mills are fragile: Culp had $8.3M cash and $19.1M of debt at 3 May 2026 and expects a roughly $7.0M IEEPA tariff refund [4]."
+ ],
+ "bellwethers": [
+  "Toray Industries",
+  "Indorama Ventures",
+  "Unifi",
+  "Culp"
+ ],
+ "basics": {
+  "intro": "Textile companies turn fibres into yarn, fabric and finished materials. They sell mainly to other manufacturers, not to shoppers: garment makers, furniture and mattress makers, car makers and industrial buyers. They earn money on volume and a thin spread over raw material costs, so cost, scale and customer relationships matter more than brands. GICS puts fabric and yarn producers here, while branded apparel, footwear and luxury goods sit in separate sub-industries. Toray in Japan, Indorama in Thailand and the US mills Unifi and Culp show the range [3][4][5][15].",
+  "products": [
+   {
+    "name": "Synthetic yarn and fibre",
+    "what": "Polyester and nylon filament and staple made from petrochemicals, used in clothing, carpets, car interiors and industrial goods. It is the largest fibre family and is sold largely on price.",
+    "examples": "Unifi REPREVE recycled polyester, Toray nylon and polyester, Indorama Ventures fibres"
+   },
+   {
+    "name": "Woven and knit fabric",
+    "what": "Yarn made into cloth for apparel, home textiles and industrial use. Mills sell to garment makers who cut and sew it.",
+    "examples": "Toray apparel fabrics, Asian and Turkish fabric mills"
+   },
+   {
+    "name": "Upholstery fabric",
+    "what": "Decorative and performance fabric sold to furniture makers. Demand follows housing turnover and furniture orders.",
+    "examples": "Culp upholstery fabrics"
+   },
+   {
+    "name": "Mattress fabrics",
+    "what": "Knit and woven covers and ticking sold to mattress makers. Orders follow bedding unit demand.",
+    "examples": "Culp bedding fabrics"
+   },
+   {
+    "name": "Industrial and automotive textiles",
+    "what": "Airbag fabric, tyre cord, filters and nonwovens sold to industrial customers on specification, which gives somewhat steadier pricing than apparel.",
+    "examples": "Toray industrial textiles, Indorama tyre cord"
+   },
+   {
+    "name": "Recycled and sustainable fibres",
+    "what": "Yarn made from recycled bottles or other waste, sold at a premium to brands with sustainability goals.",
+    "examples": "Unifi REPREVE"
+   }
+  ],
+  "terms": [
+   {
+    "term": "Vertical integration",
+    "meaning": "One company controls several steps, such as fibre, yarn and fabric. It can lower cost and control quality but ties up more capital."
+   },
+   {
+    "term": "Spread",
+    "meaning": "The gap between the price of a product, such as polyester yarn, and the cost of its raw material. It is the main driver of profit for fibre makers."
+   },
+   {
+    "term": "Filament versus staple",
+    "meaning": "Filament is a continuous strand; staple is short fibres spun together like cotton. They go to different fabrics and have separate price cycles."
+   },
+   {
+    "term": "MMF",
+    "meaning": "Man-made fibre, the trade term for synthetics and cellulosics such as polyester, nylon and viscose, as opposed to natural fibres such as cotton."
+   },
+   {
+    "term": "Capacity utilisation",
+    "meaning": "The share of a plant's capacity that is running. Costs are largely fixed, so small changes in utilisation swing margins a lot."
+   },
+   {
+    "term": "Cut-make-trim",
+    "meaning": "The sewing stage where cut fabric becomes garments, mostly done in Asia. It sits downstream of the textile mill and sets where fabric demand comes from."
+   },
+   {
+    "term": "Rules of origin",
+    "meaning": "Trade rules about where inputs must come from for a garment to enter duty-free. They explain why some US mills sell to Central American sewers."
+   },
+   {
+    "term": "Tariff and de minimis",
+    "meaning": "Import duties raise the landed cost of goods; de minimis is the exemption for low-value parcels, which the US ended worldwide on 29 Aug 2025 [2]."
+   },
+   {
+    "term": "Inventory destocking",
+    "meaning": "Customers work down stock instead of ordering, so mills see sales fall faster than end demand and then rebound."
+   },
+   {
+    "term": "Adjusted EBITDA",
+    "meaning": "Earnings before interest, tax, depreciation and one-off items. Mills quote it, but it ignores the heavy capital spending needed to keep plants running."
+   }
+  ],
+  "drivers": [
+   {
+    "name": "Raw material spread",
+    "how": "Polyester and nylon follow oil and chemical prices; cotton follows crop size. Producers earn a margin only when they can pass cost changes through to customers."
+   },
+   {
+    "name": "Utilisation and overcapacity",
+    "how": "Heavy Chinese capacity pushes prices toward cost. When plants run below capacity, fixed costs spread over fewer units and margins compress."
+   },
+   {
+    "name": "Retail and inventory cycle",
+    "how": "Brands and retailers order ahead, then pause to clear stock. Mill revenue swings more than shoppers' spending."
+   },
+   {
+    "name": "Trade policy",
+    "how": "Tariffs change where garments are sewn and so where fabric is bought, shifting volume between regions and fibres."
+   },
+   {
+    "name": "Housing and durables demand",
+    "how": "Upholstery and mattress fabric orders follow furniture and bedding sales, which follow housing turnover and credit costs."
+   },
+   {
+    "name": "Energy and labour cost",
+    "how": "Spinning, dyeing and finishing use heat and power and, in many places, much labour, so cost position decides who survives a downturn."
+   }
+  ]
+ },
+ "fundamentals": {
+  "business": [
+   "Revenue is mainly sales of yarn, fibre and fabric by weight or length to manufacturers. Toray's Fibers & Textiles segment earned ¥259.9B in the April to June 2026 quarter [3]; Culp sells bedding and upholstery fabric, with bedding $116.6M of its $203.5M fiscal 2026 sales [4]. Brands and services are small next to physical product.",
+   "Customers are other manufacturers: garment sewers, furniture and mattress makers, car makers and industrial buyers. A concentrated customer base gives them leverage. Unifi sells recycled yarn under its REPREVE name [5]; in our understanding garment orders flow from retailers to sewers, who choose the mills.",
+   "The big costs are raw materials (petrochemicals for polyester and nylon, cotton for natural yarn), energy, labour and depreciation on plant. Toray said rising raw material prices tied to the Middle East hit both apparel and industrial uses in the June 2026 quarter [3]. Culp's gross margin of 12.4% shows how little is left after materials and plant cost [4].",
+   "Pricing power is weak for commodity yarn and fabric because buyers compare price and many mills can supply. It is stronger where the product is specified, such as automotive and industrial textiles, or tied to a certified recycled content. Toray said it used price pass-through and cost cuts to offset higher raw materials, which is the usual defence [3].",
+   "Major assets are spinning, weaving, knitting and finishing plants, inventory and receivables. Major liabilities are bank debt and supplier credit. Culp held inventory of $47.5M against $8.3M of cash and $19.1M of debt at 3 May 2026 [4]; Unifi had debt principal of $92.4M [5].",
+   "The business is capital-intensive, especially fibre and spinning, where plants are costly and must run near full. Asset-light models exist for converters and sourcing agents. Damodaran's apparel sample shows capex at 133% of depreciation, but that group is mainly branded apparel [10]; mills carry heavier fixed assets than that proxy."
+  ],
+  "overview": [
+   "The textile and garment trade was $914B of exports in 2025, up from about $560B in 2006, a 2.61% compound annual rate [1]. Growth averaged only about 1% a year between 2011 and 2019 [1]. Total fibre demand was 119.8M tonnes in 2025 [1].",
+   "Main segments are fibre (synthetic and natural), yarn, fabric, home and industrial textiles and, in trade data, garments. Knit garments were $289.1B or 31.6% of world textile exports and knit and woven garments nearly 60% [1]. Synthetics took 71.7% of fibre demand and cotton 21.1% [1].",
+   "Mills sit in the middle of the chain: they buy fibre and chemicals from producers and sell fabric to sewers and brands. Cotton fibre is bought on futures-linked prices, while polyester follows oil chemicals. The ICE December cotton future settled at 78.67 cents per pound on 12 Nov 2026 [13].",
+   "The industry has moved from developed economies to Asia. Between 2006 and 2025 the share of China, Bangladesh and Vietnam in world textile exports rose from 27.6% to 44.3% [1]. Korea's exports fell from $40.8B to $7.9B and the US share fell from 4.05% to 2.59% [1].",
+   "Production and sales are concentrated in Asia. China exported $292.0B of textiles in 2025, Bangladesh $58.0B and Vietnam $55.0B, and the top 15 exporters held 77.6% of the total [1]. The US remains the largest importer at $113.4B, though its share fell to 13.70% [1]."
+  ],
+  "competition": [
+   "In our judgment there are thousands of significant competitors worldwide, from state-backed Chinese groups to family mills in India, Pakistan, Turkey and Bangladesh. Listed names are few: Toray, Indorama, Unifi and Culp are the ones we could source [3][4][5][15].",
+   "No sourced global market-share table for textile producers was available to us. By country, China held $292.0B of 2025 textile exports and the top three exporters held 44.3% [1]. Toray and Indorama are large fibre makers, but we do not have a reliable share for either.",
+   "The industry is fragmented and, outside integrated majors, commoditised. The top 15 exporting economies hold 77.6% of trade, but within each country mills are numerous [1]. Indorama said overcapacity hit hardest in its CPET and Fibers segments, which shows how supply drives results [15].",
+   "Barriers to entry are moderate: plants are costly, but know-how is widespread and Asian governments subsidise capacity. Bangladesh's rise from $9.9B to $58.0B of exports and Vietnam's from $6.5B to $55.0B show that new entrants can scale in two decades [1].",
+   "Economies of scale matter in fibre and spinning, where large integrated plants have lower unit cost, and in dyeing, where large mills run at higher utilisation. Indorama is large and integrated; small US mills such as Culp, at $203.5M of sales, have limited scale [4][15].",
+   "Most output is commoditised, with differentiation in technical, recycled and performance fabrics. Unifi's REPREVE recycled yarn is sold as a branded ingredient, and Toray cites specified industrial uses [3][5]. Even so, price remains the main selection criterion for apparel fabrics.",
+   "Customers hold more bargaining power: brands and sewers can shift orders across countries within a season. Suppliers of oil, chemicals and cotton hold power in short supply. ICAC's data on US imports show buyers moved away from China, with its share down 11.2 points in man-made-fibre apparel in 2025 against the 2020-2024 average [2]."
+  ],
+  "drivers": [
+   "Revenue growth is driven by global apparel and home demand, fibre prices passed through to customers, share shifts between countries and, in specialty textiles, volumes of cars and industrial goods. Toray's June 2026 quarter revenue rose 8.3%, helped by price pass-through and a gradual automotive recovery [3].",
+   "Operating margins depend on the spread over raw materials, plant utilisation, energy and labour cost, and mix. Unifi's gross margin moved from -0.8% to 9.9% in a year as cost actions and volume recovered [5]. Culp's bedding margin improved to 9.2% from 7.0% [4].",
+   "Key cost variables are oil-based chemicals, cotton, energy and labour. US cotton spot averaged 75.07 cents per pound in the week to 12 Nov 2026, up from 59.88 cents a year earlier, which is a headwind unless mills can pass it on [13].",
+   "Rate sensitivity is high through financing and demand: mills carry debt, and furniture and bedding orders depend on housing and credit. The Fed held at 3.75% to 4.00% on 28 Oct 2026 with two dissenters preferring a hike [14]. Unifi cut debt principal by $15.6M in fiscal 2026 [5].",
+   "Textiles respond to inflation by squeezing buyers, to unemployment by lowering apparel and furniture spending, and to GDP through trade volumes. The WTO projects world merchandise trade volume growth of 1.9% in 2026 after 4.6% in 2025 [16]. Commodity prices matter most through oil and cotton.",
+   "The industry is cyclical and has weak secular growth; the growth is in synthetics and in Asian production rather than in the sector as a whole. Between 2006 and 2025, about 92% of the rise in fibre demand came from synthetics while cotton demand was broadly flat [1]. We think of it as a low-growth cyclical industry."
+  ],
+  "financials": [
+   "Revenue growth is slow and uneven. World textile exports grew at 2.61% a year over 2006-2025 and fell 7.7% in 2023 [1]. Culp's sales fell 4.6% to $203.5M in fiscal 2026 [4]; Toray's fibres revenue grew 8.3% in the June 2026 quarter [3]. Earnings are volatile and often negative for small mills.",
+   "Margins are thin for mills against brands. Culp's fiscal 2026 gross margin was 12.4% with an operating loss of $7.2M [4]; Unifi's quarterly gross margin was 9.9% [5]. Damodaran's apparel group shows a 56.88% gross margin and 3.85% net margin, but that sample is mainly brands and not mills [7].",
+   "Returns are low except for brands. Damodaran's January 2026 table gives apparel a 15.78% return on capital and 8.92% after-tax operating margin [8]. Culp lost money and Unifi had a net loss of $1.2M in its latest quarter [4][5], so mills sit well below that proxy. We found no sourced ROE for the sub-industry.",
+   "Leverage is moderate on average but heavy for weak mills. Damodaran's apparel group has book debt to capital of 56.25% and debt to EBITDA of 3.47 [11]. Unifi's net debt was about $67.4M [5], and Culp's net debt was about $10.9M with $24.2M of liquidity [4].",
+   "Free cash flow is lumpy and tied to inventory. Unifi's operating cash flow was $26.5M in fiscal 2026 versus -$21.3M a year earlier [5]. Culp's operating cash flow was -$9.4M and free cash flow about -$10.0M before adjustments [4]. Cash generation depends on working capital released in downturns.",
+   "Capex needs are high relative to earnings for fibre and spinning but low in maintenance mode. Unifi cut capex to $5M from $10.5M [5], and Culp spent just $596K [4]. Damodaran's apparel sample has capex at 133.48% of depreciation [10], and the weak mills are investing below that.",
+   "Valuation multiples are moderate. Damodaran's apparel group trades at 10.30x EV/EBITDA for positive-EBITDA firms and a 24.89x forward P/E in January 2026 [9][12]. Multiples for mills alone were not available; the Consumer Discretionary sector forward P/E is 24.2x [6]."
+  ],
+  "risks": [
+   "Regulation and trade policy are the largest risk. US effective duties on apparel rose from 16% in January 2025 to about 34% at the peak, and the Supreme Court ended the IEEPA basis on 20 Feb 2026 [2]. Culp expects a $7.0M refund, which shows how much policy moves results [4].",
+   "Technology disruption is incremental: automation, digital printing and recycling technology change costs. AI has little direct effect. Recycled fibre is a growth niche, but we found no sourced estimate of its market size, so we treat it as an opportunity for specialists such as Unifi [5].",
+   "Demographic change is modest. Population growth supports volume, but cotton per capita use fell from 3.46 kg to 3.09 kg while non-cotton fibre use rose from 1.60 kg to 11.53 kg [1]. Ageing markets such as the US, Japan and Europe have lost share of imports [1].",
+   "Changing consumer behaviour hurts demand: US apparel imports fell 8.5% in cotton-dominant and 8.2% in man-made-fibre-dominant categories in January to June 2026 [2]. Shoppers trading down, buying second-hand and buying online push brands to cut costs and fabric orders.",
+   "New competitors keep arriving: Bangladesh and Vietnam took exports to $58.0B and $55.0B and Poland went from $3.9B to $21.4B [1]. Chinese fibre overcapacity is a persistent threat; Indorama blamed Chinese tyre-cord overcapacity for margin pressure [15].",
+   "Geopolitics and supply chain risks include tariffs, Middle East conflict that raised raw material prices for Toray [3], and shipping disruption. WTO's baseline for 2026 world merchandise trade growth is only 1.9% and could fall to 1.4% if energy prices stay high [16].",
+   "Substitutes are other fibres: synthetics have taken most of the growth from cotton, and cotton share of fibre demand fell from 68.3% in 1960 to 21.1% in 2025 [1]. Within synthetics, recycled and bio-based fibres substitute for virgin polyester."
+  ],
+  "horizon": {
+   "opportunities": [
+    "Recycled and traceable fibres could earn premiums as brands meet sustainability targets, as with Unifi's REPREVE [5].",
+    "Sourcing diversification away from China is creating demand in Vietnam, Bangladesh, India and nearshore regions, with China's share of US man-made-fibre apparel imports down 13.1 points by mid-2026 [2].",
+    "Automotive and industrial textile demand is recovering gradually, which supports specified, higher-margin fabrics [3].",
+    "Tariff refunds and lower debt can repair small US mills' balance sheets, as Culp's roughly $7.0M refund and Unifi's planned $60M property sale show [4][5]."
+   ],
+   "threats": [
+    "Chinese and Asian polyester overcapacity can hold spreads near zero for years [15].",
+    "Tariffs and trade rules can change again, as the 2026 court ruling and temporary replacement surcharge show [2].",
+    "Weak consumer demand for apparel and furniture could extend the 2026 import decline [2].",
+    "Higher oil and energy prices raise raw material costs faster than mills can pass them on [3][16]."
+   ],
+   "assessment": "Over the next three to five years we expect textiles to stay a low-growth, cyclical business in which scale and cost position decide results. Trade data show the industry's centre of gravity moving to Asia and fibre demand shifting to synthetics [1], so Western mills must differentiate on recycled, technical or nearshore products or shrink. Tariff policy has become a larger swing factor than demand [2]. Our read is that integrated groups with industrial exposure, such as Toray, are better placed than small single-market mills, whose recent results show recovery from a low base [3][4][5]. A rate path that eases would help housing-linked fabrics, but the Fed has not yet turned that way [14]."
+  }
+ },
+ "sections": [
+  {
+   "id": "macro",
+   "paragraphs": [
+    "Textiles sits late in a slow cycle. The WTO estimates world merchandise trade volume grew 4.6% in 2025 and forecasts only 1.9% in 2026, or 1.4% if oil and gas prices stay high [16]. ICAC describes the garment industry as slower-growing, more uncertain and more geographically differentiated, with demand shaped by tariffs and industrial policy as much as by growth [1].",
+    "Monetary policy is not a tailwind. The Fed held the federal funds range at 3.75% to 4.00% on 28 Oct 2026, called inflation elevated, and had two members who wanted a quarter-point increase [14]. For textile makers that means expensive working capital and housing-linked demand for upholstery and bedding that is not improving quickly.",
+    "Currency and input costs matter. Toray said Middle East developments raised raw material prices in the June 2026 quarter, though it passed some of this through [3]. The US seven-market cotton spot average was 75.07 cents per pound in the week to 6 Nov 2026, against 59.88 cents a year earlier [13]. Our read is that mills have a cost problem and a demand problem at once."
+   ]
+  },
+  {
+   "id": "demand",
+   "paragraphs": [
+    "The addressable market is large but growing slowly. World textile and garment exports were $914B in 2025, a 2.61% compound annual rise since 2006, with growth near 1% a year between 2011 and 2019 [1]. Total fibre demand reached 119.8M tonnes in 2025, and about 92% of the increase since 2006 came from synthetics [1].",
+    "Demand is cyclical. Exports fell 14.2% in the financial crisis, jumped to a record $954B in 2022 and fell 7.7% in 2023 [1]. The US, the largest importer at $113.4B, has slipped to 13.70% of world textile imports [1]. In 2026 US apparel imports were $32.7B in the first half, with both cotton and man-made-fibre categories down by more than 8% [2].",
+    "Structural drivers are population growth, rising incomes in Asia and Africa, and the substitution of synthetics for cotton. Per capita cotton use fell from 3.46 kg to 3.09 kg while non-cotton fibre use rose from 1.60 kg to 11.53 kg [1]. Demographics help volumes modestly, but our view is that demand for fabric will grow no faster than world output and that most of the gain will go to Asian producers."
+   ]
+  },
+  {
+   "id": "structure",
+   "paragraphs": [
+    "Applying Porter's five forces: rivalry is intense because capacity is large and products are similar; the threat of new entrants is moderate, as Bangladesh and Vietnam scaled textile exports to $58.0B and $55.0B [1]; buyer power is high because brands and sewers can switch mills; supplier power is moderate, as oil, chemicals and cotton are priced in global markets [13]; and the threat of substitutes is real, as synthetics took share from cotton [1].",
+    "Concentration is high by country and low by company. China, Bangladesh and Vietnam together held 44.3% of world textile exports in 2025, and the top 15 held 77.6% [1]. Indorama said overcapacity hit its Fibers and CPET segments hardest [15]. In US apparel imports, China's share fell 13.1 points for man-made-fibre goods versus its 2020-2024 average by mid-2026, but replacement suppliers covered only 38.3% of the lost volume [2].",
+    "Moats exist but are narrow: scale and integration at Toray and Indorama, certified recycled content at Unifi, and specification in automotive and industrial uses [3][5][15]. Small mills such as Culp, with $203.5M of sales, rely on customer relationships and flexibility, not pricing power [4]. We found no sourced share data for individual mills."
+   ]
+  },
+  {
+   "id": "environment",
+   "paragraphs": [
+    "Political factors dominate. The 2025 US tariff steps took the monthly effective duty rate on apparel from 17% in March 2025 to about 34% in October, the Supreme Court invalidated use of IEEPA on 20 Feb 2026, and a temporary 10% Section 122 surcharge took effect four days later [2]. Duty-free de minimis treatment ended worldwide on 29 Aug 2025 [2]. By June 2026 the effective rate was 23%, still 7 points above January 2025 [2].",
+    "Economic and trade factors include refunds: Culp recovered about $7.0M of IEEPA refunds in the first quarter of fiscal 2027 [4]. Environmental and social factors matter for brands, which ask for recycled and traceable fibre, supporting products such as Unifi's REPREVE [5]. Textiles and clothing employ more than 90 million people worldwide, so labour standards remain a policy issue in producing countries [1].",
+    "Technology is incremental, not disruptive, in our view. Efficiency gains come from automation and process chemistry, and the larger technological shift is the replacement of natural by synthetic fibre [1]. The emerging risks are further tariff changes, higher energy and raw material costs from conflict [3][16], and overcapacity of Chinese polyester and tyre cord [15]."
+   ]
+  },
+  {
+   "id": "economics",
+   "paragraphs": [
+    "Mill economics are thin. Culp's fiscal 2026 gross margin was 12.4% and it posted an operating loss of $7.2M on $203.5M of sales [4]. Unifi's fourth-quarter gross margin was 9.9%, compared with -0.8% a year earlier, and adjusted EBITDA was $8.2M versus -$4.1M [5]. Toray's fibre segment earned ¥18.0B of core operating income on ¥259.9B of revenue, a margin of about 6.9% by our calculation [3].",
+    "Operating leverage is high because plants have fixed costs. Culp's gross margin fell to 13.2% in the fourth quarter from 15.7% even as sales rose 6% [4]. Capital intensity is moderate to high; Unifi cut capex to $5M from $10.5M and generated $26.5M of operating cash flow [5], while Culp's capex was only $596K and free cash flow was negative [4].",
+    "For comparison, Damodaran's January 2026 apparel group, mostly brands, shows a 3.85% net margin, a 15.78% return on capital and 8.92% after-tax operating margin [7][8]. Mills earn less than that proxy. We could not source an ROE for textile producers, so we make no claim on it."
+   ]
+  },
+  {
+   "id": "earnings",
+   "paragraphs": [
+    "We found no public consensus earnings series for textile producers as a group, so the outlook below rests on company results and guidance. Management teams are guiding to modest recovery: Unifi expects sales and profitability to improve in fiscal 2027 [5], and Culp expects first-quarter fiscal 2027 sales to improve moderately and adjusted EBITDA to be breakeven to positive before the tariff refund [4].",
+    "Toray's fibre segment shows what recovery looks like at a large integrated group: core operating income rose 18.3% in the June 2026 quarter, helped by price pass-through and some automotive recovery, though apparel faced intense overseas competition [3]. Indorama's Fibers EBITDA was flat at THB 924M in the third quarter [15], so the polyester end remains soft.",
+    "For context, FactSet reports blended S&P 500 earnings growth of 32.9% for the third quarter of 2026 [6]. That growth is concentrated elsewhere and tells little about mills. Our view differs from a recovery narrative: gains at Unifi and Culp come from cost cuts, a low base and one-off refunds, and we would want to see sales grow before calling it a cycle turn [4][5]."
+   ]
+  },
+  {
+   "id": "valuation",
+   "paragraphs": [
+    "We found no sourced forward multiple for the textile sub-industry. As proxies, FactSet puts the Consumer Discretionary sector at 24.2x forward earnings against 17.1x for the S&P 500, whose 10-year average is 19.1x [6]. In our view the sector figure mostly reflects retailers, autos and platforms, not mills.",
+    "Damodaran's January 2026 table for US apparel companies shows a forward P/E of 24.89 versus 27.66 for the whole market, EV/EBITDA of 10.30x for firms with positive EBITDA versus 19.73x, with a trailing P/E of 37.83 [9][12]. Again this is mostly brands.",
+    "Earnings are too depressed at the small mills to give meaningful multiples: Culp had an operating loss and Unifi a net loss in its latest quarter [4][5]. Valuation for these companies rests on asset value and recovery. Unifi's planned $60M sale of non-strategic US real estate against net debt of about $67.4M illustrates that point [5]. Our read is that the market prices mills for a cyclical trough, not for growth, but we could not verify an implied growth rate."
+   ]
+  },
+  {
+   "id": "positioning",
+   "paragraphs": [
+    "We did not find sourced ETF flow, short interest or relative-performance data for textile producers; coverage of this niche is thin and no sub-industry ETF holdings could be opened. The broader market context is that the S&P 500 price fell 6.2% between 30 Sep and 20 Nov 2026 while its forward 12-month EPS estimate rose 4.4% [6].",
+    "Physical market signals are weak. The USDA described US textile mill demand for cotton as light, domestic yarn demand as slow to moderate and mill buyers as cautious, with the stronger inquiries coming from export channels [13]. Export commitments for US cotton were 6.1M bales on 5 Nov 2026 [13].",
+    "At the company level, breadth is mixed: Toray's group core operating income rose 66.6% in the June 2026 quarter [3] and Indorama swung to a THB 2.17B profit in the third quarter [15], while Culp and Unifi remain small and loss-making [4][5]. Our read is that positioning is likely light and sentiment poor, though we cannot confirm it with flow data."
+   ]
+  }
+ ],
+ "sources": [
+  {
+   "n": 1,
+   "title": "The Textiles Observer, August 2026: The Business of Garments, Global Trade and Fiber Dynamics",
+   "publisher": "International Cotton Advisory Committee",
+   "date": "2026-08-01",
+   "url": "https://icac.org/wp-content/uploads/2026/08/August-2026-Observer-Final.pdf"
+  },
+  {
+   "n": 2,
+   "title": "U.S. Apparel Imports under the 2025 Tariffs: Costs, Volumes, and Sourcing Shifts (ICAC-BP-26-04)",
+   "publisher": "Texas Tech University ICAC",
+   "date": "2026-10-01",
+   "url": "https://www.depts.ttu.edu/aaec/icac/files/BP-26-04-apparel-imports.pdf"
+  },
+  {
+   "n": 3,
+   "title": "Consolidated Financial Results for the Three Months Ended June 30, 2026",
+   "publisher": "Toray Industries",
+   "date": "2026-08-06",
+   "url": "https://www.toray.com/ir/pdf/fin/fin_a121.pdf"
+  },
+  {
+   "n": 4,
+   "title": "Culp fourth quarter and fiscal 2026 results (Form 8-K exhibit 99.1)",
+   "publisher": "SEC / Culp, Inc.",
+   "date": "2026-07-01",
+   "url": "https://www.sec.gov/Archives/edgar/data/0000723603/000119312526292684/culp-ex99_1.htm"
+  },
+  {
+   "n": 5,
+   "title": "UNIFI: Gross Margin Swings 1,070 Basis Points As Adjusted EBITDA Turns Positive",
+   "publisher": "Pulse 2",
+   "date": "2026-08-22",
+   "url": "https://pulse2.com/unifi-gross-margin-swings-1070-basis-points-as-adjusted-ebitda-turns-positive/?noamp=mobile"
+  },
+  {
+   "n": 6,
+   "title": "FactSet Earnings Insight",
+   "publisher": "FactSet",
+   "date": "2026-11-20",
+   "url": "https://advantage.factset.com/hubfs/Website/Resources%20Section/Research%20Desk/Earnings%20Insight/EarningsInsight_112026.pdf"
+  },
+  {
+   "n": 7,
+   "title": "Margins by Sector (US), January 2026",
+   "publisher": "Aswath Damodaran, NYU Stern",
+   "date": "2026-01",
+   "url": "https://pages.stern.nyu.edu/~adamodar/New_Home_Page/datafile/margin.html"
+  },
+  {
+   "n": 8,
+   "title": "Margin and Return on Capital by Industry (US), January 2026",
+   "publisher": "Aswath Damodaran, NYU Stern",
+   "date": "2026-01",
+   "url": "https://pages.stern.nyu.edu/~adamodar/New_Home_Page/datafile/mgnroc.html"
+  },
+  {
+   "n": 9,
+   "title": "PE Ratios by Sector (US), January 2026",
+   "publisher": "Aswath Damodaran, NYU Stern",
+   "date": "2026-01",
+   "url": "https://pages.stern.nyu.edu/~adamodar/New_Home_Page/datafile/pedata.html"
+  },
+  {
+   "n": 10,
+   "title": "Capital Expenditures by Sector (US), January 2026",
+   "publisher": "Aswath Damodaran, NYU Stern",
+   "date": "2026-01",
+   "url": "https://pages.stern.nyu.edu/~adamodar/New_Home_Page/datafile/capex.html"
+  },
+  {
+   "n": 11,
+   "title": "Debt Fundamentals by Sector (US), January 2026",
+   "publisher": "Aswath Damodaran, NYU Stern",
+   "date": "2026-01",
+   "url": "https://pages.stern.nyu.edu/~adamodar/New_Home_Page/datafile/dbtfund.html"
+  },
+  {
+   "n": 12,
+   "title": "EV/EBITDA Multiples by Sector (US), January 2026",
+   "publisher": "Aswath Damodaran, NYU Stern",
+   "date": "2026-01",
+   "url": "https://pages.stern.nyu.edu/~adamodar/New_Home_Page/datafile/vebitda.html"
+  },
+  {
+   "n": 13,
+   "title": "Weekly Cotton Market Review, Vol. 108 No. 15",
+   "publisher": "USDA Agricultural Marketing Service",
+   "date": "2026-11-13",
+   "url": "https://s3.amazonaws.com/barchart-news-store-prod/external_links/USDA/20261113-cnwwcmr.pdf"
+  },
+  {
+   "n": 14,
+   "title": "Federal Reserve issues FOMC statement, October 28, 2026",
+   "publisher": "Federal Reserve Board",
+   "date": "2026-10-28",
+   "url": "https://federalreserve.gov/newsevents/pressreleases/monetary20261028a.htm"
+  },
+  {
+   "n": 15,
+   "title": "Indorama Ventures swings to THB2.17 billion of profit in 3Q26 as revenue rises 22%",
+   "publisher": "Kaohoon International",
+   "date": "2026-11-09",
+   "url": "https://www.kaohooninternational.com/?p=594136"
+  },
+  {
+   "n": 16,
+   "title": "Global trade outlook: world merchandise trade volume growth 2025 and 2026",
+   "publisher": "World Trade Organization",
+   "date": "2026-03-19",
+   "url": "https://www.wto.org/english/news_e/news26_e/stat_19mar26_329_e.htm"
+  }
+ ]
+}
