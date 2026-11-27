@@ -1,0 +1,448 @@
+{
+ "code": "50202010",
+ "added": "2026-11-27",
+ "asOf": "2026-11-25",
+ "summary": "Movies and entertainment is splitting into scaled winners and strained legacy assets. Netflix earned a 34.6% operating margin in Q3 2026 [1]; Disney's streaming profit doubled to $824M in its fiscal fourth quarter and parks earned $2.3B [2]; Live Nation grew revenue 19% to $10.1B [3]; Spotify reached 306M subscribers [4]; Universal Music's subscription revenue rose 9.5% excluding Downtown [5]. Paramount Skydance closed its Warner Bros. Discovery deal in Q4, leaving nearly $80B of net debt and a $6B cost-cut target [6]. FactSet shows the Entertainment industry growing Q3 revenue 10% while the S&P 500 trades at 17.1x forward earnings [7]. We found no sourced sub-industry forward multiple.",
+ "metrics": [
+  {
+   "label": "Netflix operating margin (Q3 2026)",
+   "value": "34.6%",
+   "context": "Versus 28.2% a year earlier; revenue $12.9B, up 12%; full-year 2026 margin target 31.5%",
+   "source": 1
+  },
+  {
+   "label": "Disney streaming operating income (fiscal Q4 2026)",
+   "value": "$824M",
+   "context": "Versus $402M a year earlier on revenue of $6.1B; fiscal 2026 streaming margin 11.5%; quarter included an extra week",
+   "source": 2
+  },
+  {
+   "label": "Live Nation revenue (Q3 2026)",
+   "value": "$10.1B",
+   "context": "Up 19%; adjusted operating income $1,179.3M, up 14%; fan attendance 61M, up 19%",
+   "source": 3
+  },
+  {
+   "label": "Spotify Premium subscribers (Q3 2026)",
+   "value": "306M",
+   "context": "6M net adds; operating income EUR 672M, a 13.5% margin; monthly active users 788M",
+   "source": 4
+  },
+  {
+   "label": "Universal Music subscription revenue growth (Q3 2026)",
+   "value": "+9.5% ex-Downtown",
+   "context": "Constant currency; +19.2% including Downtown; adjusted EBITDA margin 21.5%",
+   "source": 5
+  },
+  {
+   "label": "Paramount+ subscribers (Q3 2026)",
+   "value": "82.2M",
+   "context": "Before the Warner Bros. Discovery deal closed; Paramount+ revenue up 21% to $2.13B",
+   "source": 6
+  },
+  {
+   "label": "Entertainment industry revenue growth (Q3 2026)",
+   "value": "10%",
+   "context": "FactSet industry within S&P 500 Communication Services; blended year over year; as of 20 Nov 2026",
+   "source": 7
+  },
+  {
+   "label": "Entertainment forward P/E (US, Damodaran)",
+   "value": "42.7x",
+   "context": "92 US firms, January 2026; S&P 500 forward P/E was 17.1x on 20 Nov 2026 [7]",
+   "source": 11
+  }
+ ],
+ "watch": [
+  "The Warner Bros. Discovery integration: Paramount Skydance carries nearly $80B of net debt, targets 3x leverage by 2029 and warned weak Warner theatrical results could cut Q4 profit by up to $200M [6].",
+  "The Live Nation antitrust case: the Justice Department settled in March 2026, but 36 states and the District of Columbia kept pressing claims in the Manhattan trial [15].",
+  "Netflix cut its 2026 advertising revenue outlook to about $2.7B from about $3B on a slower rollout of ad products, and guided Q4 operating margin to 26.0% [1].",
+  "Linear TV decline continues: Paramount's TV Media revenue fell 7% in Q3 and MSG Networks subscribers fell about 16% [6][8].",
+  "Disney's guide for fiscal 2027 of double-digit adjusted EPS growth and about 8% segment operating income growth, both excluding the extra 2026 week [2]."
+ ],
+ "bellwethers": [
+  "Netflix",
+  "Walt Disney",
+  "Paramount Skydance (with Warner Bros. Discovery)",
+  "Live Nation Entertainment",
+  "Spotify",
+  "Universal Music Group",
+  "Sphere Entertainment"
+ ],
+ "basics": {
+  "intro": "Movies and entertainment companies make and distribute filmed content, music and live events, and earn money from subscriptions, advertising, ticket sales, licensing and royalties. GICS groups film and TV studios, streaming services, music labels and publishers, and live entertainment promoters and venues here. Customers are households paying monthly fees, advertisers, theater-goers, concert fans and other media companies licensing content. Cable channels and broadcasters sit in the neighbouring Broadcasting and Cable and Satellite sub-industries, though many conglomerates, such as Disney and Paramount, own both kinds of asset.",
+  "products": [
+   {
+    "name": "Streaming video",
+    "what": "Subscription and ad-supported services that deliver films and series over the internet. Revenue comes from monthly fees and advertising, and the main cost is content.",
+    "examples": "Netflix, Disney+ and Hulu, Paramount+, HBO Max"
+   },
+   {
+    "name": "Film and TV studios",
+    "what": "Companies that finance, produce and license movies and shows to theaters, streamers and broadcasters, and earn from theatrical release, home entertainment and library licensing.",
+    "examples": "Walt Disney Studios, Warner Bros., Paramount Pictures, Lionsgate"
+   },
+   {
+    "name": "Recorded music",
+    "what": "Labels that sign artists, finance recordings and collect royalties when music is streamed, sold or played, with most money now coming from streaming subscriptions.",
+    "examples": "Universal Music Group, Sony Music, Warner Music"
+   },
+   {
+    "name": "Music streaming",
+    "what": "Platforms that pay labels and publishers for rights and sell access to listeners through subscriptions and advertising.",
+    "examples": "Spotify, Apple Music"
+   },
+   {
+    "name": "Live events and ticketing",
+    "what": "Promoters stage concerts and tours, venues host them, and ticketing platforms sell the tickets and charge fees. Sponsorship adds a high-margin revenue line.",
+    "examples": "Live Nation and Ticketmaster, AEG Presents"
+   },
+   {
+    "name": "Venues and experiences",
+    "what": "Purpose-built entertainment venues that earn from tickets, sponsorship and content, sometimes licensing the venue concept to partners.",
+    "examples": "Sphere Entertainment, Madison Square Garden"
+   }
+  ],
+  "terms": [
+   {
+    "term": "Content amortization",
+    "meaning": "The accounting cost of films and series, spread over the years they are expected to earn revenue. It is the biggest expense for streamers and a key driver of margin."
+   },
+   {
+    "term": "ARPU",
+    "meaning": "Average revenue per user: revenue divided by subscribers or members. It shows whether price rises and ad income are growing faster than subscriber counts."
+   },
+   {
+    "term": "Churn",
+    "meaning": "The share of subscribers who cancel in a period. High churn forces a service to spend more on marketing and content to stand still."
+   },
+   {
+    "term": "Windowing",
+    "meaning": "Releasing a film through channels in sequence, usually theaters first, then home viewing and streaming, to extract the most money from each audience."
+   },
+   {
+    "term": "Linear TV",
+    "meaning": "Traditional scheduled television, delivered by cable, satellite or broadcast. Its subscriber base and advertising are in long-term decline, but it still funds many conglomerates."
+   },
+   {
+    "term": "Streaming 2.0",
+    "meaning": "Universal Music's label for a model built on higher subscription prices, tiering and new features rather than only adding subscribers."
+   },
+   {
+    "term": "Wholesale price increase",
+    "meaning": "A rise in what a streaming service pays labels per subscriber. It lifts label revenue but pressures the service's gross margin unless it raises retail prices."
+   },
+   {
+    "term": "Publishing royalties",
+    "meaning": "Money paid to songwriters and their publishers when compositions are streamed, performed or licensed. It is separate from the recording royalty paid to labels."
+   },
+   {
+    "term": "Gross transaction value",
+    "meaning": "The total value of tickets sold through a platform, before the promoter, venue and artist take their shares. It is a volume measure for ticketing."
+   },
+   {
+    "term": "Adjusted operating income",
+    "meaning": "A company-defined profit measure that excludes items such as stock compensation and one-off charges. Definitions differ across companies, so comparisons need care."
+   },
+   {
+    "term": "Deferred revenue",
+    "meaning": "Cash received for events or services not yet delivered. For live entertainment it signals future demand because fans pay months ahead."
+   },
+   {
+    "term": "Library value",
+    "meaning": "The cash flow from older films, series and recordings that keep earning with little new cost. Deep libraries support pricing and licensing power."
+   }
+  ],
+  "drivers": [
+   {
+    "name": "Subscriber growth and price increases",
+    "how": "Revenue at streamers rises with members and with monthly price, so a price rise can lift revenue and margin faster than adding customers, until churn offsets it."
+   },
+   {
+    "name": "Content spending discipline",
+    "how": "Content is the largest cost. When spending grows slower than revenue, operating margin widens; when hits fail, the cost is still booked."
+   },
+   {
+    "name": "Advertising demand",
+    "how": "Ad-supported tiers and linear networks depend on advertiser budgets, which tighten in a weak economy and flow toward platforms with measurable audiences."
+   },
+   {
+    "name": "Box office hits",
+    "how": "A few blockbusters decide a studio's year. Theatrical results also set the value of the film for later streaming and licensing windows."
+   },
+   {
+    "name": "Consumer spending on experiences",
+    "how": "Concerts, parks and theaters depend on discretionary income. Demand shows up in attendance, ticket prices and sponsorship."
+   },
+   {
+    "name": "Licensing and rights economics",
+    "how": "Label and publisher revenue depends on how much streamers pay per user and on market share of popular releases, so price talks with platforms move results."
+   },
+   {
+    "name": "Leverage and consolidation",
+    "how": "Mergers add scale and cost savings but also debt. Interest costs and integration expenses can absorb the savings for years."
+   }
+  ]
+ },
+ "fundamentals": {
+  "business": [
+   "Revenue comes from subscriptions (Netflix, Disney+, Paramount+, Spotify), advertising, theatrical and home distribution, content licensing, music royalties, and live-event tickets, fees and sponsorship. Live Nation's Q3 2026 revenue was $10.1B, mostly concerts, while Spotify's premium line was EUR 4.49B of EUR 4.97B [3][4].",
+   "Customers are households and individuals who pay monthly or per event, advertisers who buy audiences, and other media companies that license content. Universal Music sells mainly to streaming platforms, so its customers are a few large distributors; Spotify's Q3 2026 base was 788M monthly active users [4][5].",
+   "The main cost is content: Netflix added $5.2B of content assets in Q3 2026 and amortized $4.2B [1]. Other major costs are artist and royalty payments, talent and marketing, and for live events the artist fees and venue costs that make concerts low-margin.",
+   "Pricing power comes from must-have franchises, large libraries and scale. Spotify's premium revenue per user rose 9.3% in Q3 2026 and Universal Music credited wholesale price increases for its subscription growth, while a weak-hit slate leaves studios with little pricing control [4][5].",
+   "Major assets are content libraries, music catalogues, theme parks, venues and technology platforms. Liabilities are heavy for legacy media: Paramount Skydance carries nearly $80B of net debt after buying Warner Bros. Discovery, while Netflix had $7.1B of net debt at 30 Sep 2026 [1][6].",
+   "Mixed. Streaming, labels and ticketing are asset-light and cash generative, but studios commit billions to content, and Disney plans nearly $26B of content spend and $9B of capital spending in fiscal 2027 for its parks and media business [2]."
+  ],
+  "overview": [
+   "The sub-industry has no single size figure. Instead, company data show the scale: Netflix guides to about $51.1B of 2026 revenue, Disney reported $102.3B for fiscal 2026 across parks, sports and media, and Live Nation did $21.6B in nine months [1][2][3].",
+   "The main segments are streaming video, film and TV studios, recorded and published music, music streaming, and live events and ticketing. Disney reports Entertainment, Sports and Experiences, and its parks arm earned $2.3B in the latest quarter [2].",
+   "The value chain runs from creators and artists, through studios and labels, to distributors such as streamers, theaters and ticketing platforms, and then to consumers and advertisers. Companies increasingly integrate it: Netflix, Disney and Paramount all own both production and distribution.",
+   "The industry has shifted from cable bundles and theatrical windows toward direct subscriptions. Disney's streaming operating income rose to $824M in fiscal Q4 2026 from $402M a year earlier, while Paramount's linear TV Media revenue fell 7% [2][6].",
+   "Sales are concentrated in the US and, increasingly, abroad. Live Nation expects attendance at Venue Nation venues to exceed 75M in 2026 and nearly 180M fans overall [3]. We did not find a sourced geographic revenue split for the sub-industry, and Damodaran's data cover US-listed firms only [10]."
+  ],
+  "competition": [
+   "A small number of firms matter globally. Streaming and studios are led by Netflix, Disney, Paramount Skydance with Warner Bros. Discovery, and others; music by three majors including Universal Music, plus Spotify as the largest streaming platform; live events by Live Nation.",
+   "We did not find sourced market shares for the sub-industry. Company scale gives a rough ranking: Netflix revenue of $12.9B in Q3 2026 against Paramount's $7.0B, and Spotify's 306M premium subscribers against Paramount+ at 82.2M [1][6][4].",
+   "The structure is consolidating. Paramount Skydance closed its Warner Bros. Discovery acquisition in Q4 2026 and targets at least $6B of cost savings, and Universal Music bought Downtown Music, consolidated from 20 Feb 2026 [6][5].",
+   "Barriers to entry are high at scale: content libraries, music catalogues, premium venues and ticketing inventory take years to build. Small entrants exist in niches, such as creator-led video and independent labels, but struggle to match global distribution.",
+   "Scale economies are strong: We think Netflix's 34.6% Q3 operating margin reflects spreading content cost across a very large audience, while smaller streamers need more subscribers to break even [1].",
+   "Products are differentiated by franchise, artist and event, though subscription services themselves are close substitutes. Consumers have switched among services, and Netflix said healthy retention and lower churn helped growth [1].",
+   "Bargaining power is split. Platforms hold power over labels and studios when they control audiences, while labels and franchise owners hold power when they own must-have catalogues, and Universal Music's wholesale price increases show that leverage [5]."
+  ],
+  "drivers": [
+   "Revenue growth depends on subscriber growth, price increases, advertising, attendance and hit content. Netflix grew revenue 12% in Q3 2026, Spotify 16% and Live Nation 19%, which shows different drivers across the group [1][4][3].",
+   "Operating margin depends on content cost relative to revenue, scale and pricing. Netflix's margin rose to 34.6% from 28.2%, while Universal Music's adjusted EBITDA margin was 21.5% against 22.0% a year earlier [1][5].",
+   "Key cost variables are content and talent, artist and royalty payments, marketing, venue costs and, for diversified groups, theme park labor and capital spending. Netflix expects cash content spend of about 1.1 times amortization [1].",
+   "Direct sensitivity to rates is moderate, but leveraged companies feel it. Paramount Skydance's net debt is nearly $80B after the Warner deal, so higher rates or weaker earnings would weigh on it, while Netflix's net debt is $7.1B [6][1].",
+   "Inflation, jobs and GDP matter through discretionary spending on tickets and parks, and through advertising budgets. Disney's Experiences segment earned $2.3B in the latest quarter, up 20%, and Live Nation reported 2027 primary ticket value up double digits, showing resilient demand [2][3].",
+   "The industry is a mix: live events, parks and advertising are cyclical, subscription video and music are closer to defensive and secular growth, and linear TV is in structural decline. FactSet shows Entertainment industry revenue up 10% in Q3 2026 [7]."
+  ],
+  "financials": [
+   "Growth varies widely. In Q3 2026 Live Nation revenue grew 19%, Spotify 16%, Netflix 12% and Paramount 5%, while Sphere's MSG Networks lost about 16% of subscribers [3][4][1][6][8]. Damodaran's table gives no growth figure for the group.",
+   "Damodaran's January 2026 data for 92 US Entertainment firms show a gross margin of 41.4%, a pre-tax operating margin of 10.6% and a net margin of 4.4%. This is the US industry group, which includes more companies than the GICS sub-industry [10].",
+   "Returns are modest on that dataset: Entertainment return on equity was 6.1% in January 2026, and the cost of capital was 7.13% [13][14]. Netflix, Spotify and Live Nation likely earn more than this median, but we did not source their ROIC.",
+   "Leverage is moderate on average. Damodaran shows book debt to capital of 42.9%, debt to EBITDA of 3.46 and interest coverage of 3.67 for the group, but the range is wide, from Netflix at $7.1B net debt to Paramount near $80B [12][1][6].",
+   "Free cash flow is strong at scale: Netflix guides to about $12.0B for 2026 and Disney targets $11B in fiscal 2027, and we did not find a sourced free cash flow figure for Live Nation, Spotify or Universal Music [1][2].",
+   "Capital needs vary: Disney plans $9B of capital spending in fiscal 2027, and Live Nation expects nearly $1.1B in 2026, while streaming and music labels require little capex beyond content and technology [2][3].",
+   "Multiples are high on Damodaran's data: a forward P/E of 42.7 for US Entertainment in January 2026 against 17.1 for the S&P 500 on 20 Nov 2026. The dates differ, and a few high-multiple firms may skew the group [11][7]."
+  ],
+  "risks": [
+   "Regulation is a live risk. The Live Nation case brought by the Justice Department ended in a March 2026 settlement, but 36 states and the District of Columbia carried on, and Live Nation booked a $450.0M charge for governmental investigations and litigation [15][3].",
+   "AI cuts both ways: it can lower production and recommendation costs, but also create copyright disputes and cheap competing content. We did not find a sourced estimate of the financial effect on this industry.",
+   "Demographics matter modestly: younger audiences spend more time on short video, games and social platforms, while older audiences keep linear TV alive. We did not find sourced demographic data for this brief.",
+   "Consumer behavior is shifting from cable to streaming. Paramount's TV Media advertising fell 8% and affiliate revenue fell 5% in Q3 2026, while MSG Networks lost about 16% of its subscribers [6][8].",
+   "New competitors come from technology: Spotify, Netflix and others compete with video and audio from creators and game companies, and Netflix's own ad plan has slipped, with its 2026 ad forecast cut to about $2.7B [1].",
+   "Geopolitical risks are mainly tariffs, local content rules and currency. Netflix's revenue grew 12% against 11% at constant currency, and Live Nation expects nearly 180M fans in 2026 [1][3]. We did not find a sourced tariff impact.",
+   "Substitutes include games, social video, user-generated content and free ad-supported viewing. Take-Two is a large holding in the Communication Services ETF alongside Disney and Netflix, showing how other attention businesses compete for time [16]."
+  ],
+  "horizon": {
+   "opportunities": [
+    "Price increases and tiering at Netflix, Spotify and the music labels can lift revenue per user without needing proportional subscriber growth [1][4][5].",
+    "Advertising tiers and live sports can expand streaming revenue, with Disney's streaming advertising reaching $931M in the latest quarter [2].",
+    "Cost savings from consolidation, such as Paramount Skydance's at least $6B target, could lift margins if executed [6].",
+    "Live events keep gaining, with Live Nation expecting nearly 180M fans in 2026 and primary ticket value for 2027 shows up double digits [3]."
+   ],
+   "threats": [
+    "Heavy debt at the merged Paramount Warner group could limit flexibility if the integration or box office disappoints [6].",
+    "Antitrust remedies against Live Nation, brought by states, could change ticketing economics [15].",
+    "Linear TV erosion continues faster than streaming profits can offset at some legacy groups [6][8].",
+    "Ad product delays and competition could slow Netflix's advertising growth [1]."
+   ],
+   "assessment": "Our read is that the next three to five years favor companies with global audiences, owned catalogues and pricing power, and strain companies carrying declining linear assets or heavy debt. Netflix, Spotify, the major labels and Live Nation have shown they can raise prices or attendance and expand margins, while Disney's streaming business earned an 11.5% margin in fiscal 2026. Paramount Skydance's merger is the largest test of whether scale can offset leverage. We think content spending, pricing and integration execution matter more than the macro cycle, and box office volatility will keep studio results uneven [1][2][4][5][6]."
+  }
+ },
+ "sections": [
+  {
+   "id": "macro",
+   "paragraphs": [
+    "The macro backdrop looks supportive for the consumer-facing parts of the industry. FactSet reported on 20 Nov 2026 that the S&P 500's blended Q3 earnings growth was 32.9% and that Communication Services sector revenue was growing 16.2%, third-highest of eleven sectors, with the Entertainment industry up 10% [7].",
+    "Company reports show spending holding up: Live Nation's Q3 2026 revenue rose 19% to $10.1B, with 2026 attendance expected near 180M and event-related deferred revenue of $3.8B, up 8% [3]. Disney's Experiences segment earned $2.3B in the quarter ended 3 Oct, up 20% [2].",
+    "We think the main cyclical exposure is advertising and discretionary events rather than subscriptions. Paramount's TV Media advertising fell 8% in Q3, while Netflix cut its 2026 ad outlook to about $2.7B, though it cited a slower product rollout rather than weak demand [6][1]. We did not find a sourced view of interest rates or currency for this brief, apart from Netflix's 11% constant-currency growth against 12% reported [1]."
+   ]
+  },
+  {
+   "id": "demand",
+   "paragraphs": [
+    "Structural demand rests on global streaming adoption, paid music subscriptions and live events. Spotify added 6M premium subscribers in Q3 2026 to reach 306M and guides to 316M in Q4, while monthly active users reached 788M [4]. Disney reported streaming revenue growth of 19% to $6.1B [2].",
+    "Demand is price-inelastic enough that services keep raising prices. Spotify's premium revenue per user rose 9.3% to EUR 4.95, and Universal Music said wholesale price increases and healthy subscriber growth drove its 9.5% subscription growth excluding Downtown [4][5]. ",
+    "Theatrical demand is recovering more unevenly. We found one weekend figure, $86.7M across 68 films for 13-15 Nov 2026, but no sourced year-to-date total or comparison with 2025, so we cannot say how the box office is tracking [18]. Linear TV is the clear decliner: MSG Networks lost about 16% of subscribers and Paramount's TV Media revenue fell 7% [8][6]. Sphere's own venue business is growing, with Sphere segment revenue up 29% in Q2 2026 and 36% in the first nine months [9][8]. Overall we see durable growth in streaming, music and live, and decay in linear."
+   ]
+  },
+  {
+   "id": "structure",
+   "paragraphs": [
+    "Five forces. Rivalry is intense in video and consolidating: Paramount Skydance closed its Warner Bros. Discovery acquisition in Q4 2026; Paramount+ had 82.2M subscribers and Paramount+, HBO and HBO Max together had 203M [6]. Netflix, Disney and others compete on content and price.",
+    "Buyer power is moderate for consumers, who can cancel, though Netflix said churn improved globally [1]. Supplier power is high for owners of hit franchises, artists and catalogues; Universal Music's wholesale price increases show that labels can extract more from platforms [5]. Threat of entry is limited at scale by libraries, rights and distribution, though technology firms and creators are always possible entrants. Substitutes include games, social video and free content.",
+    "Concentration is highest in ticketing and live events, where the Live Nation case turns on market power: the Justice Department settled in March 2026, while 36 states and DC pressed on in a Manhattan trial [15]. We did not find sourced market-share figures. Moats are strongest at Netflix, with its 34.6% margin, at labels with deep catalogues, and at Disney's parks and franchises [1][2]."
+   ]
+  },
+  {
+   "id": "environment",
+   "paragraphs": [
+    "Regulation is the clearest political factor. Live Nation took a $450.0M charge in 2026 tied to governmental investigations and litigation, excluded from its adjusted measure, and the state-led antitrust case in federal court in Manhattan is the main overhang for ticketing [3][15]. The DOJ said its settlement would open some ticketing to rivals, while states said it did not go far enough [15].",
+    "Merger approval has been permissive enough for Paramount Skydance to close its Warner Bros. Discovery deal, but the resulting company carries nearly $80B of net debt and targets 3x leverage by 2029 [6]. Economic factors include currency and consumer spending; social factors include shifting viewing habits away from cable, visible in the roughly 16% subscriber drop at MSG Networks, a Sphere subsidiary rather than an industry total, which also led to a $178M goodwill impairment [8].",
+    "Technology is changing distribution and cost. Netflix said its advertising rollout was slower than planned, and cut 2026 advertising revenue guidance to about $2.7B from about $3B [1]. We found no sourced assessment of generative AI's financial effect."
+   ]
+  },
+  {
+   "id": "economics",
+   "paragraphs": [
+    "Economics differ by business model. Netflix's operating margin was 34.6% in Q3 2026 and it guides to 31.5% for the year, against 29.5% in 2025, with free cash flow near $12.0B [1]. Disney's streaming margin was 11.5% for fiscal 2026, and segment operating income was $19.7B [2]. Spotify's operating margin was 13.5% on a 33.0% gross margin [4].",
+    "Universal Music earned a 21.5% adjusted EBITDA margin, down from 22.0%, because Downtown, acquired in February, runs at a 6.7% margin [5]. Live Nation's adjusted operating income was $1,179.3M on $10.1B of revenue, with Concerts earning $602.9M on $8.75B of revenue against Ticketing at $315.7M on $870.3M, which shows how thin concert margins are [3]. Sphere's venue segment earned $39.9M of adjusted operating income on $226.4M of revenue in Q2 2026 [9].",
+    "Damodaran's January 2026 data for 92 US Entertainment firms put the gross margin at 41.4%, the pre-tax operating margin at 10.6%, return on equity at 6.1% and debt to EBITDA at 3.46 [10][13][12]. Operating leverage is large in streaming, where content cost is fixed and extra subscribers are nearly pure margin. Capital intensity is highest in parks and venues: Disney plans $9B of capital spending in fiscal 2027 [2]."
+   ]
+  },
+  {
+   "id": "earnings",
+   "paragraphs": [
+    "Company guidance is mostly positive. Netflix guides to Q4 revenue of $13.4B, a 26.0% operating margin that includes about 120 basis points from headcount reductions, and EPS of $0.67 [1]. Spotify guides to Q4 operating income of EUR 820M and 316M premium subscribers [4]. Disney expects double-digit adjusted EPS growth in fiscal 2027 excluding the extra week, and about 8% segment operating income growth [2].",
+    "Live Nation expects double-digit growth in Concerts and Sponsorship adjusted operating income in 2026 and high single-digit growth in Ticketing, and says 2027 primary ticket value is up double digits so far [3]. The weak spot is Warner Bros. film performance, which Paramount said could cut Q4 profit by as much as $200M [6].",
+    "FactSet does not publish sub-industry consensus for this group; we found only the sector view. Blended Q3 earnings growth for Communication Services was 18.3%, down from 51.5% earlier because of negative EPS surprises at Alphabet, Meta and Charter, none of which belong to this sub-industry [7]. Our read is that expectations for the pure entertainment names rest on margin expansion from pricing and cost cuts rather than on revenue acceleration, so any miss on ad products or hits would matter."
+   ]
+  },
+  {
+   "id": "valuation",
+   "paragraphs": [
+    "We found no sourced forward multiple for the GICS sub-industry. The best available figure is Damodaran's US Entertainment industry group, which had a forward P/E of 42.7 in January 2026, and a trailing P/E of 108.6, against Broadcasting at 17.5 forward [11]. These multiples reflect a small group in which a few firms with depressed earnings inflate the average, and the data are almost eleven months old.",
+    "For the market, FactSet put the S&P 500 forward 12-month P/E at 17.1 on 20 Nov 2026, below its 5-year average of 19.8 and 10-year average of 19.1; the index had fallen 6.2% since 30 Sep [7]. FactSet did not report a forward multiple for the Communication Services sector in the pages we read.",
+    "Its analysts' bottom-up target prices implied the largest upside, 38.1%, for Communication Services, but that sector is dominated by Alphabet and Meta [7][16]. Our read is that the growth-led names look priced for continued margin expansion, while the leveraged legacy groups are valued on whether they can pay down debt. We do not give a free cash flow yield, because we did not source prices for the individual companies."
+   ]
+  },
+  {
+   "id": "positioning",
+   "paragraphs": [
+    "Passive vehicles hold the group inside broader baskets. The Communication Services Select Sector SPDR (XLC), with $21.43B of assets and 25 holdings as of 24 Nov 2026, carries Disney at 5.81%, Live Nation at 4.04% and Netflix at 3.82%, while Warner Bros. Discovery and Paramount are not holdings [16]. Meta alone is 19.98%, so the fund is mostly an internet and telecom bet.",
+    "A more targeted fund, the Invesco Leisure and Entertainment ETF (PEJ), had $383.24M of assets and a one-year total return of 19.91% on 25 Nov 2026, with Live Nation at 5.01% and Lionsgate Studios at 3.19% [17]. The fund is broad, with hotels, airlines and restaurants among its top holdings, so it is a loose proxy.",
+    "We did not find sourced short-interest, flow or breadth data for the sub-industry, and no sourced relative-strength figures. FactSet noted that 59.7% of ratings on S&P 500 stocks were Buy and that Communication Services (72%) had the highest share of Buy ratings of any sector [7]. That points to broad optimism, which can limit upside if results merely meet expectations."
+   ]
+  }
+ ],
+ "sources": [
+  {
+   "n": 1,
+   "title": "Netflix Q3 2026 shareholder letter (Form 8-K, Exhibit 99.1)",
+   "publisher": "Netflix, Inc. via SEC EDGAR",
+   "date": "2026-10-20",
+   "url": "https://www.sec.gov/Archives/edgar/data/0001065280/000106528026000290/ex991_q326.htm"
+  },
+  {
+   "n": 2,
+   "title": "Disney fiscal Q4 2026 earnings report",
+   "publisher": "TheDesk.net",
+   "date": "2026-11-17",
+   "url": "https://thedesk.net/2026/11/disney-fiscal-q4-2026-earnings-report/"
+  },
+  {
+   "n": 3,
+   "title": "Live Nation Entertainment reports third quarter 2026 results",
+   "publisher": "Live Nation Entertainment via Finviz",
+   "date": "2026-11-05",
+   "url": "https://finviz.com/news/417750/live-nation-entertainment-reports-third-quarter-2026-results"
+  },
+  {
+   "n": 4,
+   "title": "Spotify is on course for $3.3B annual operating profit in 2026 after adding 6M subscribers in Q3",
+   "publisher": "Music Business Worldwide",
+   "date": "2026-10-22",
+   "url": "https://musicbusinessworldwide.com/spotify-is-on-course-for-a-3-3b-annual-operating-profit-in-2026-after-adding-6m-subscribers-in-q3"
+  },
+  {
+   "n": 5,
+   "title": "Universal Music Group generated $3.90B in Q3, up 11.7% YoY",
+   "publisher": "Music Business Worldwide",
+   "date": "2026-10-29",
+   "url": "https://www.musicbusinessworldwide.com/universal-music-group-generated-3-90b-in-q3-up-11-7-yoy-driven-by-mrs-green-apple-olivia-rodrigo-stray-kids-ariana-grande-and-the-beatles/"
+  },
+  {
+   "n": 6,
+   "title": "Paramount Swings to $73 Million Profit in Q3, Driven by Streaming, Studios Growth",
+   "publisher": "TheWrap",
+   "date": "2026-11-09",
+   "url": "https://www.thewrap.com/industry-news/business/paramount-earnings-q3-2026/"
+  },
+  {
+   "n": 7,
+   "title": "FactSet Earnings Insight, 20 November 2026",
+   "publisher": "FactSet",
+   "date": "2026-11-20",
+   "url": "https://advantage.factset.com/hubfs/Website/Resources%20Section/Research%20Desk/Earnings%20Insight/EarningsInsight_112026.pdf"
+  },
+  {
+   "n": 8,
+   "title": "Sphere Entertainment: 90% Operating Income Surge Meets 15% Network Revenue Slide",
+   "publisher": "Panabee (AI-generated summary of Sphere's Q3 2026 filing)",
+   "date": "2026-11",
+   "url": "https://www.panabee.com/news/sphere-entertainment-earnings-q3-2026"
+  },
+  {
+   "n": 9,
+   "title": "Sphere Entertainment Q2 2026 earnings release (Form 8-K, Exhibit 99.1)",
+   "publisher": "Sphere Entertainment Co. via SEC EDGAR",
+   "date": "2026-07-30",
+   "url": "https://www.sec.gov/Archives/edgar/data/0001795250/000162828026050809/exhibit991sphereentertainm.htm"
+  },
+  {
+   "n": 10,
+   "title": "Margins by Sector (US), Entertainment",
+   "publisher": "Aswath Damodaran, NYU Stern",
+   "date": "2026-01",
+   "url": "https://pages.stern.nyu.edu/~adamodar/New_Home_Page/datafile/margin.html"
+  },
+  {
+   "n": 11,
+   "title": "PE Ratios by Sector (US), Entertainment",
+   "publisher": "Aswath Damodaran, NYU Stern",
+   "date": "2026-01",
+   "url": "https://pages.stern.nyu.edu/~adamodar/New_Home_Page/datafile/pedata.html"
+  },
+  {
+   "n": 12,
+   "title": "Debt Fundamentals by Sector (US), Entertainment",
+   "publisher": "Aswath Damodaran, NYU Stern",
+   "date": "2026-01",
+   "url": "https://pages.stern.nyu.edu/~adamodar/New_Home_Page/datafile/dbtfund.html"
+  },
+  {
+   "n": 13,
+   "title": "Return on Equity by Sector (US), Entertainment",
+   "publisher": "Aswath Damodaran, NYU Stern",
+   "date": "2026-01",
+   "url": "https://pages.stern.nyu.edu/~adamodar/New_Home_Page/datafile/roe.html"
+  },
+  {
+   "n": 14,
+   "title": "Cost of Capital by Sector (US), Entertainment",
+   "publisher": "Aswath Damodaran, NYU Stern",
+   "date": "2026-01",
+   "url": "https://pages.stern.nyu.edu/~adamodar/New_Home_Page/datafile/wacc.html"
+  },
+  {
+   "n": 15,
+   "title": "States continue antitrust case against Live Nation and Ticketmaster after DOJ settles",
+   "publisher": "PBS NewsHour (AP)",
+   "date": "2026-03-16",
+   "url": "https://www.pbs.org/newshour/nation/states-continue-antitrust-case-against-live-nation-and-ticketmaster-after-doj-settles"
+  },
+  {
+   "n": 16,
+   "title": "Communication Services Select Sector SPDR Fund (XLC) holdings",
+   "publisher": "StockAnalysis.com",
+   "date": "2026-11-24",
+   "url": "https://stockanalysis.com/etf/xlc/holdings/"
+  },
+  {
+   "n": 17,
+   "title": "Invesco Leisure and Entertainment ETF (PEJ)",
+   "publisher": "StockAnalysis.com",
+   "date": "2026-11-25",
+   "url": "https://stockanalysis.com/etf/pej/"
+  },
+  {
+   "n": 18,
+   "title": "Weekend Domestic Box Office, November 13, 2026",
+   "publisher": "The Numbers",
+   "date": "2026-11-15",
+   "url": "https://www.the-numbers.com/box-office-chart/weekend/2026/11/13"
+  }
+ ]
+}

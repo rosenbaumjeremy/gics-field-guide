@@ -1,0 +1,419 @@
+{
+ "code": "50102010",
+ "added": "2026-11-27",
+ "asOf": "2026-11-25",
+ "summary": "Wireless carriers are in a strong earnings run but a mixed growth picture. T-Mobile US grew third-quarter service revenue about 6% and raised 2026 EBITDA guidance, even as postpaid account additions fell 31% [1][2]. Vodafone upgraded guidance after 5.8% organic service revenue growth, with Africa at 13.4% and Germany at 0.4% [3]. America Movil posted a 40.8% EBITDA margin [4]. SoftBank and KDDI both reported profit growth, with KDDI's adjusted operating income up 13.9% [5][6]. Verizon's best third-quarter phone additions in the data we saw signal tougher US competition [8]. We found no sourced sub-industry forward multiple; Damodaran's January 2026 figure is 35.6x [13].",
+ "metrics": [
+  {
+   "label": "T-Mobile US service revenue (Q3 2026)",
+   "value": "$19.4bn",
+   "context": "Versus $18.2bn a year earlier; our calculation gives about +6.2%; total revenue $23.6bn",
+   "source": 1
+  },
+  {
+   "label": "T-Mobile US postpaid net account additions (Q3 2026)",
+   "value": "274,000",
+   "context": "Down 31% year on year; 2026 guide about 1.0M; ARPA $155.73, up 4%",
+   "source": 2
+  },
+  {
+   "label": "T-Mobile US 2026 Adjusted FCF guidance",
+   "value": "$18.7-18.8bn",
+   "context": "Raised by $150M at the midpoint; Core Adjusted EBITDA guide $37.35-37.45bn",
+   "source": 2
+  },
+  {
+   "label": "America Movil EBITDA margin (Q3 2026)",
+   "value": "40.8%",
+   "context": "Up 0.5 points; net debt 1.21x EBITDAaL versus 1.52x at end-2025",
+   "source": 4
+  },
+  {
+   "label": "Vodafone organic service revenue growth (H1 FY27)",
+   "value": "5.8%",
+   "context": "Six months to 30 Sep 2026; Africa +13.4%, Germany +0.4%; Adjusted EBITDAaL margin 29.5%",
+   "source": 3
+  },
+  {
+   "label": "KDDI adjusted operating income (H1 to Sep 2026)",
+   "value": "¥633.1bn",
+   "context": "Up 13.9%; full-year target ¥1,210bn unchanged; third-party summary",
+   "source": 6
+  },
+  {
+   "label": "Telecom (Wireless) operating margin, US dataset",
+   "value": "21.98%",
+   "context": "Damodaran, 12 firms, January 2026; EBITDA margin 34.57%, net margin 12.24%",
+   "source": 10
+  },
+  {
+   "label": "Forward P/E, S&P 500",
+   "value": "17.1x",
+   "context": "Index, not this sub-industry; 10-year average 19.1x; FactSet, 20 Nov 2026",
+   "source": 9
+  }
+ ],
+ "watch": [
+  "T-Mobile's postpaid account additions fell 31% in Q3 and it attributes the drop to more deactivations from a growing base of lower-priced broadband-only accounts, so watch whether the roughly 1.0M full-year target holds [2][1].",
+  "Verizon reported 406,000 postpaid phone net additions in Q3 and raised its 2026 guide to 1.1M-1.2M, which points to a harder fight for subscribers in the US [8].",
+  "The FCC says it will auction at least 100 MHz of upper C-band spectrum by July 2027, and analysts quoted by Light Reading see the big US carriers as natural buyers [15].",
+  "Vodafone booked a EUR 3.6bn loss on a German impairment and a UK tax write-down, and Germany's service revenue grew only 0.4% [3].",
+  "Vodacom's Safaricom consolidation gave a large revenue jump, but the legal and ownership status of that stake was not confirmed in the sources we opened, so we flag it as an open question [7]."
+ ],
+ "bellwethers": [
+  "T-Mobile US",
+  "Vodafone",
+  "America Movil",
+  "SoftBank Corp",
+  "KDDI",
+  "Vodacom",
+  "Safaricom",
+  "Bharti Airtel"
+ ],
+ "basics": {
+  "intro": "Wireless telecom companies sell mobile phone and data service to consumers and businesses, and they own or lease the spectrum and cell towers that carry it. They earn most revenue from monthly subscriptions, plus device sales, wholesale access for other brands and, at some firms, fixed broadband and mobile money. GICS puts carriers whose business is mainly wireless here; integrated carriers that mix fixed-line and mobile, such as Verizon and AT&T, sit in Integrated Telecommunication Services in the neighbouring industry. Cell tower owners are classed as real estate.",
+  "products": [
+   {
+    "name": "Postpaid mobile plans",
+    "what": "Monthly contracts billed after use. They bring steadier revenue, higher spend per customer and lower churn than prepaid.",
+    "examples": "T-Mobile Magenta, KDDI au plans, Vodafone contract plans"
+   },
+   {
+    "name": "Prepaid mobile",
+    "what": "Pay-in-advance service with no contract. It dominates in emerging markets and brings fast subscriber swings.",
+    "examples": "America Movil Claro prepaid, Vodacom prepaid"
+   },
+   {
+    "name": "Fixed wireless and home broadband",
+    "what": "Home internet delivered over the 4G or 5G mobile network, sold as an add-on or stand-alone service.",
+    "examples": "T-Mobile 5G Home Internet"
+   },
+   {
+    "name": "Business and wholesale services",
+    "what": "Connectivity, cloud and security for companies, and network capacity rented to other brands.",
+    "examples": "Vodafone Business, wholesale to virtual operators"
+   },
+   {
+    "name": "Mobile money and financial services",
+    "what": "Payments and loans run on the phone network, big in Africa where many people have no bank account.",
+    "examples": "M-Pesa at Vodacom and Safaricom"
+   },
+   {
+    "name": "Devices",
+    "what": "Phones sold or financed with the plan. They bring revenue but little profit and help attract customers.",
+    "examples": "Handset instalment plans"
+   }
+  ],
+  "terms": [
+   {
+    "term": "ARPU / ARPA",
+    "meaning": "Average revenue per user, or per account. The main gauge of pricing power and plan mix."
+   },
+   {
+    "term": "Churn",
+    "meaning": "The share of subscribers who leave in a period. Lower churn means cheaper growth because replacing customers is costly."
+   },
+   {
+    "term": "Postpaid vs prepaid",
+    "meaning": "Postpaid customers sign up for a bill and tend to spend more and stay longer; prepaid customers pay up front and are easier to lose."
+   },
+   {
+    "term": "Net adds",
+    "meaning": "New subscribers minus departures. Carriers now often report accounts rather than phone lines."
+   },
+   {
+    "term": "Spectrum",
+    "meaning": "Licensed radio frequencies a carrier needs to run its network. Licences are bought at government auctions and sit on the balance sheet as a long-lived asset."
+   },
+   {
+    "term": "EBITDA / EBITDAaL",
+    "meaning": "Earnings before interest, tax, depreciation and amortisation; the aL version also deducts lease costs. It is the usual profit measure because depreciation is heavy."
+   },
+   {
+    "term": "Capital intensity",
+    "meaning": "Capex as a share of revenue. A high ratio means a large share of revenue goes back into the network."
+   },
+   {
+    "term": "Free cash flow",
+    "meaning": "Operating cash flow minus capex. It funds dividends, buybacks and debt reduction."
+   },
+   {
+    "term": "MVNO",
+    "meaning": "A mobile virtual network operator sells service over another carrier's network. It is a competitor and a wholesale customer at once."
+   },
+   {
+    "term": "5G standalone",
+    "meaning": "A 5G network with its own core rather than one leaning on 4G. It enables network slicing and new business services."
+   },
+   {
+    "term": "Fixed-mobile convergence",
+    "meaning": "Selling mobile and home broadband together as a bundle to cut churn."
+   }
+  ],
+  "drivers": [
+   {
+    "name": "Subscriber growth and mix",
+    "how": "More postpaid and fewer prepaid lines raise average revenue; adds slow in mature markets and grow in Africa and parts of Asia."
+   },
+   {
+    "name": "Pricing and plan changes",
+    "how": "List-price rises and premium plans lift ARPU, while promotions and switching offers cut it and raise churn."
+   },
+   {
+    "name": "Spectrum and capex cycles",
+    "how": "Auctions and network upgrades require large outlays that depress free cash flow, then fade as the build matures."
+   },
+   {
+    "name": "Competition from cable, satellite and new entrants",
+    "how": "Entrants and bundlers undercut prices or take share, which lifts promotional spending."
+   },
+   {
+    "name": "Currency and rates",
+    "how": "Emerging-market carriers report in weaker currencies, and heavy debt makes interest costs a swing factor."
+   },
+   {
+    "name": "Cost efficiency",
+    "how": "Automation, job cuts and network sharing widen margins when revenue grows slowly."
+   }
+  ]
+ },
+ "fundamentals": {
+  "business": [
+   "Revenue comes mainly from recurring monthly service fees, with devices, wholesale access and, in Africa, mobile money as add-ons. T-Mobile US reported $19.4bn of service revenue out of $23.6bn total revenue in the third quarter of 2026, so service is roughly four-fifths of sales by our calculation [1].",
+   "Customers are consumers on postpaid or prepaid plans and businesses. America Movil ended Q3 2026 with 332.4 million wireless lines, of which 153 million were postpaid, showing how large the mix still tilted toward prepaid in Latin America [4].",
+   "The largest costs are network operation, depreciation of spectrum and equipment, and customer acquisition. T-Mobile's nine-month 2026 capex was $7.6bn and Vodafone guides to capital intensity of about 18% of revenue [1][3].",
+   "Pricing power rests on network quality, brand, bundles and market structure. Verizon says it is winning phone customers without free-phone promotions, while SoftBank's mobile ARPU rose after price plan revisions, which suggests quality and plan design still support pricing [8][5].",
+   "Major assets are spectrum licences and network equipment; major liabilities are debt and lease obligations. T-Mobile's balance sheet carried $99,980M of spectrum licences and $83,666M of total debt at 30 September 2026 [1].",
+   "The industry is capital-intensive. Damodaran's January 2026 US dataset puts wireless book debt to capital at 64.69% and debt to EBITDA at 3.72, so networks are funded with substantial borrowing [11]."
+  ],
+  "overview": [
+   "We did not find a single sourced global revenue figure for wireless carriers alone. Ericsson counts about 3.1 billion 5G subscriptions in Q1 2026 and forecasts 6.4 billion by 2031, which shows the scale of the subscriber base [14].",
+   "Main segments are consumer postpaid, prepaid, business and wholesale, fixed wireless broadband and mobile money. Vodafone reports Business service revenue growing 5.8% organically, and America Movil adds postpaid, prepaid and broadband lines separately [3][4].",
+   "In the value chain, carriers buy spectrum from governments and network gear from equipment vendors, and sell to consumers, firms and virtual operators. Data traffic is the demand signal: Ericsson reports mobile and fixed wireless traffic up 22% year on year in Q1 2026 [14].",
+   "The industry has moved from voice to data to 5G, and carriers now add fixed broadband and cloud services. Ericsson says 5G carried 48% of mobile data traffic at the end of 2025 and expects 85% by the end of 2031 [14].",
+   "Sales are spread across regions. This sample spans the US (T-Mobile), Europe and Africa (Vodafone, Vodacom), Latin America (America Movil) and Japan (SoftBank, KDDI); Vodafone's Africa unit grew service revenue 13.4% organically against 0.4% for Germany [3]."
+  ],
+  "competition": [
+   "There are three national scale operators in the US plus cable and satellite rivals, and many more per country elsewhere. The GICS group is itself small: Damodaran's January 2026 US wireless dataset has only 12 firms [11].",
+   "Leaders differ by region. America Movil has 332.4 million wireless lines and Vodafone's Vodacom markets added 7.6 million customers in the half to September; we did not find sourced market-share figures [4][3].",
+   "Most markets are consolidated, with a few national players, while interconnection with fixed and cable providers creates a wider fringe. Verizon's Q3 jump to 406,000 postpaid phone net additions shows that share can swing between big players in a single quarter [8].",
+   "Barriers to entry are very high because spectrum licences and nationwide networks cost billions. T-Mobile alone holds spectrum licences on its balance sheet worth $99,980M [1].",
+   "Scale matters because network cost is largely fixed. America Movil's 40.8% EBITDA margin on huge volumes illustrates the benefit [4].",
+   "Basic connectivity is largely commoditised, and differentiation comes from coverage, bundles, brand and services. Vodafone's SuperMobile and T-Mobile's plan design are attempts to charge for quality [3].",
+   "Customers have moderate power because switching is easy; suppliers (equipment vendors and governments selling spectrum) hold power through auction prices. The FCC's AWS-3 auction raised $3.5bn+ in June 2026 and upper C-band will follow by July 2027 [15]."
+  ],
+  "drivers": [
+   "Revenue growth comes from subscriber adds, price increases, mix shift to postpaid and data usage, and from acquisitions. Vodacom's revenue rose 25.6% in the half to September, helped by consolidating Safaricom [7].",
+   "Margins depend on pricing, efficiency and scale. Vodafone's Adjusted EBITDAaL margin improved 0.5 percentage points to 29.5% organically as cost savings ran alongside service growth [3].",
+   "Key cost variables are spectrum, network upkeep, labour, energy, device subsidies and promotions. SoftBank cited higher device purchase costs, electricity and promotion costs in its consumer segment, where segment income fell 2% [5].",
+   "Rates matter because of heavy debt. Vodafone's German impairment charge was driven mainly by adverse changes in interest rates, and Damodaran's wireless interest coverage is 4.77 [3][11].",
+   "Inflation lifts costs, though contracts and annual price rises let carriers pass it on; currency is a big factor abroad. America Movil booked a Mex$3.6bn FX loss in Q3 2026 against a Mex$6.3bn gain a year earlier [4].",
+   "The industry is defensive with a secular growth tilt: subscriber demand holds up in downturns, and data traffic grows steadily, with Ericsson reporting 22% annual growth in Q1 2026 [14]. Emerging markets add currency cyclicality."
+  ],
+  "financials": [
+   "Growth is single-digit in developed markets and double-digit where subscriber growth continues. America Movil's Q3 revenue rose 7.6% and EBITDA 8.9% in pesos; FactSet reports Wireless Telecommunication Services revenue growth of 7% for Q3 2026 in the S&P 500 [4][9].",
+   "Margins are high at the EBITDA level. Damodaran's January 2026 US data show wireless gross margin of 62.98%, EBITDA margin of 34.57% and operating margin of 21.98%, while America Movil reported 40.8% EBITDA margin and Vodafone 29.5% [10][4][3].",
+   "Damodaran's January 2026 US dataset shows wireless return on equity of 16.06%. It did not show a return on invested capital for this industry, so we cannot quote one [12].",
+   "Leverage is substantial. Damodaran has debt to EBITDA of 3.72, while America Movil reported net debt of 1.21x EBITDAaL and Vodafone's net debt rose to €33.5bn after acquisitions [11][4][3].",
+   "Free cash flow is strong for large carriers. T-Mobile's nine-month operating cash flow less capex was about $14.5bn by our calculation, and its 2026 Adjusted FCF guidance is $18.7-18.8bn [1][2].",
+   "Capex is heavy but cyclical. T-Mobile expects about $10.0bn for 2026 and Vodafone assumes capital intensity of about 18% of revenue [2][3].",
+   "Valuation multiples in the US dataset are noisy: Damodaran's January 2026 wireless forward P/E is 35.63 and trailing is 107.14, which we read as depressed or lumpy earnings, not a reliable benchmark [13]."
+  ],
+  "risks": [
+   "Regulation shapes spectrum costs and market structure. The FCC must auction at least 100 MHz of upper C-band by July 2027, which could cost the big carriers heavily [15].",
+   "AI and new network technology raise traffic and create new services but also capex. Ericsson expects uplink traffic to grow faster than downlink and AI scenarios could lift uplink to three times the 2025 level or more by 2031 [14].",
+   "Demographics matter little in developed markets, where nearly everyone has a phone, but supply growth in Africa continues: Vodafone says its Vodacom markets added 7.6 million customers in the half to September [3].",
+   "Consumer behaviour is shifting to bundles of mobile and home broadband, and to cheaper plans. T-Mobile blames its lower account additions on more deactivations from broadband-only accounts [1].",
+   "New competitors include cable operators and satellite firms. Satellite operators were among the 17 qualified bidders in the FCC's AWS-3 auction, though analysts quoted questioned whether SpaceX actually bid, so we see satellite as an emerging rather than proven rival [15].",
+   "Geopolitical and currency risks are strongest for emerging-market carriers: America Movil's peso weakened about 2.1% against the dollar in Q3 2026 and Vodacom's Safaricom consolidation adds ownership complexity [4][7].",
+   "Substitutes include fixed broadband, Wi-Fi calling and satellite direct-to-device services. Verizon's fibre connections reached 11.07 million, up 44.2% including Frontier, showing fixed networks competing for the same household spending [8]."
+  ],
+  "horizon": {
+   "opportunities": [
+    "Mobile data traffic keeps growing, with Ericsson forecasting 6.4 billion 5G subscriptions by 2031 [14].",
+    "Cost cutting offers margin gains: Vodafone targets over €2bn annual gross savings in Europe and shared operations by FY30 [3].",
+    "African growth and mobile money give Vodafone and Vodacom double-digit organic growth, with Africa service revenue up 13.4% [3].",
+    "Convergence and price increases support ARPU, as seen at T-Mobile (+4% ARPA) and SoftBank [2][5]."
+   ],
+   "threats": [
+    "Spectrum auctions, including upper C-band by July 2027, could absorb cash [15].",
+    "Heavier competition and promotions could squeeze net adds, as the T-Mobile and Verizon quarters show [2][8].",
+    "Debt and interest rates: net debt at Vodafone reached €33.5bn and rates drove its German impairment [3].",
+    "Currency swings hit emerging-market earnings, as at America Movil [4]."
+   ],
+   "assessment": "Our read is that the next three to five years look steady rather than spectacular. Traffic growth, 5G upgrades and cost programmes support earnings, and several carriers have just raised guidance [2][3]. But developed-market subscriber growth is thin and competition for postpaid customers is intensifying, which T-Mobile's weaker account additions and Verizon's stronger quarter both hint at [2][8]. Spectrum costs, led by the upper C-band auction, and debt levels are the main drags on free cash flow [15][11]. We think emerging-market growth is the most attractive source of expansion but also carries the largest currency and legal risk [4][7]. That makes returns depend on cost discipline and pricing, not volume."
+  }
+ },
+ "sections": [
+  {
+   "id": "macro",
+   "paragraphs": [
+    "Wireless service is a defensive, subscription business, so the cycle mostly shows up through interest costs, currency and consumer trade-down rather than demand. The S&P 500 forward P/E of 17.1x on 20 November 2026 is below its 10-year average of 19.1x, and the index has fallen 6.2% since 30 September while forward EPS estimates rose 4.4% [9]. For carriers the rate path matters through debt: Vodafone said its German impairment was mainly driven by adverse changes in interest rates [3].",
+    "Currency is the bigger swing for emerging-market groups. America Movil's peso weakened about 2.1% against the dollar over Q3 2026 and it booked a Mex$3.6bn FX loss against a Mex$6.3bn gain a year earlier [4]. We did not find a sourced inflation or policy-rate forecast specific to this group, so we read the macro setting as neutral-to-supportive for earnings and uneven for balance sheets."
+   ]
+  },
+  {
+   "id": "demand",
+   "paragraphs": [
+    "Demand is structural. Ericsson counted 3.1 billion 5G subscriptions at the end of Q1 2026 after 162 million additions in the quarter, forecasts 6.4 billion by 2031, and reports mobile and fixed wireless data traffic up 22% year on year [14]. It expects 5G to carry 85% of mobile traffic by the end of 2031, up from 48% at the end of 2025 [14].",
+    "Growth is uneven by region. Vodafone's Africa organic service revenue rose 13.4% while Germany grew 0.4% [3]. Vodacom reported a 13.3% pro forma service revenue gain in its half to September [7]. In the US, T-Mobile guides to about 1.0M postpaid net account additions for 2026 and service revenue of about $76.8bn, up 8% [2]. We did not find a sourced total addressable market figure for the sub-industry, so we do not give one."
+   ]
+  },
+  {
+   "id": "structure",
+   "paragraphs": [
+    "Using Porter's five forces: rivalry is intense but between few players; barriers to entry are very high because licences and nationwide networks cost billions, with T-Mobile alone carrying $99,980M of spectrum on its balance sheet [1]. Buyer power is moderate: churn is low but switching is easy, and Verizon's 406,000 Q3 phone additions without free-phone deals show that offers and service still move customers [8].",
+    "Supplier power comes from governments and equipment makers. The FCC's AWS-3 auction closed in June 2026 with more than $3.5bn in bids across 200 licences and the FCC plans an upper C-band auction by July 2027 [15]. Substitutes include fixed broadband and satellite; Verizon's fibre base grew 44.2%, including Frontier [8]. Scale is the moat: America Movil's 332.4 million lines and 40.8% EBITDA margin show it [4]. New entrants matter mainly through cable resellers and satellite, and we think they pressure pricing at the margin rather than breaking the structure."
+   ]
+  },
+  {
+   "id": "environment",
+   "paragraphs": [
+    "Regulation is the main outside force. The FCC says it is well prepared to auction at least 100 MHz of upper C-band spectrum no later than July 2027, and analysts quoted by Light Reading regard AT&T, Verizon and T-Mobile as natural buyers [15]. Political risk also reaches deal-making: Vodacom consolidated Safaricom from the second quarter, and we did not confirm the legal status of that stake from a primary source [7].",
+    "Technology is the other driver. Ericsson reports 43 of 55 service providers saw faster uplink than downlink growth, and sees differentiated connectivity offerings (such as slicing) rise from 65 to 84 [14]. Vodafone says its 5G standalone network covers over 94% of Germany's population and it offers 5G slicing for business customers [3]. We see AI mostly as an efficiency tool and a source of new traffic and sovereign-cloud demand, not yet a visible line in carrier revenue."
+   ]
+  },
+  {
+   "id": "economics",
+   "paragraphs": [
+    "Economics are strong at the cash-flow level but demanding on capital. Damodaran's January 2026 US wireless data show gross margin of 62.98%, EBITDA margin of 34.57%, operating margin of 21.98%, net margin of 12.24%, ROE of 16.06% and debt to EBITDA of 3.72 [10][12][11]. Among carriers, America Movil's Q3 EBITDA margin was 40.8% and Vodafone's H1 Adjusted EBITDAaL margin was 29.5% [4][3].",
+    "Cash conversion is high at scale. T-Mobile's Q3 operating cash flow was $7.3bn against $2.3bn of capex, and its 2026 Adjusted FCF guidance is $18.7-18.8bn [1][2]. Capex is about 9.6% of Q3 revenue by our calculation at T-Mobile and about 18% of revenue in Vodafone's medium-term plan [1][3]. Operating leverage is visible: Vodafone's EBITDAaL grew 6.4% organically on 5.8% service revenue growth [3]. We did not find a sourced ROIC for the industry."
+   ]
+  },
+  {
+   "id": "earnings",
+   "paragraphs": [
+    "Reported quarters are healthy. T-Mobile's Q3 net income was $3.5bn against $2.7bn a year earlier and its 2026 Core Adjusted EBITDA guidance rose to $37.35-37.45bn [1][2]. Vodafone raised FY27 guidance to Adjusted EBITDAaL of EUR 13.2-13.4bn and Adjusted FCF of EUR 2.8-3.0bn [3]. SoftBank lifted full-year operating income guidance to ¥1,160bn, and KDDI kept its ¥1,210bn adjusted target [5][6].",
+    "For the group in the index, FactSet shows Wireless Telecommunication Services revenue up 7% in Q3 2026, while S&P 500 blended earnings growth was 32.9% [9]. We did not find sourced consensus EPS growth or revision data for this sub-industry. Our view is that guidance raises are driven partly by cost savings and one-offs: SoftBank's guidance included a gain on an equity sale, and KDDI's reported operating income lagged adjusted [5][6]. Reported net income at Vodafone was a EUR 3.6bn loss on non-cash charges [3]."
+   ]
+  },
+  {
+   "id": "valuation",
+   "paragraphs": [
+    "We found no sourced current forward P/E for the sub-industry. The only dataset we opened is Damodaran's US wireless group of 12 firms as of January 2026, with a forward P/E of 35.63, a trailing P/E of 107.14 and a PEG of 1.29 [13]. We think those multiples are distorted by depressed earnings in a small sample and should not be treated as a fair benchmark.",
+    "For context, the S&P 500 forward P/E was 17.1x on 20 November 2026 against a 10-year average of 19.1x [9]. FactSet also reports that the Communication Services sector had the largest gap between analyst target prices and closing price, at 38.1%, but that sector is dominated by internet and media companies, so it says little about carriers [9]. Dividends are a part of the case: Vodafone's interim dividend is 2.306 eurocents and Vodacom's is 355 cents [3][7]. We did not find a sourced sub-industry FCF yield."
+   ]
+  },
+  {
+   "id": "positioning",
+   "paragraphs": [
+    "We found limited sourced positioning data. The iShares Global Comm Services ETF (IXP), a global sector fund that holds telecoms alongside media and internet names, had net assets of about $488M and 62 holdings, with a year-to-date NAV return of -11.31% as of 24 November 2026 [16]. The fund is not a pure wireless vehicle, and the holdings table did not load, so we cannot say how much of it is wireless carriers.",
+    "FactSet notes 72% of ratings on Communication Services stocks in the S&P 500 are Buy, the highest of any sector, but again that reflects the whole sector [9]. We did not find short interest, institutional flow or breadth data for wireless carriers, so we offer no read on positioning beyond the weak ETF return."
+   ]
+  }
+ ],
+ "sources": [
+  {
+   "n": 1,
+   "title": "Form 10-Q for the quarter ended 30 September 2026",
+   "publisher": "T-Mobile US, Inc. (SEC)",
+   "date": "2026-10",
+   "url": "https://www.sec.gov/Archives/edgar/data/0001283699/000128369926000129/tmus-20260930.htm"
+  },
+  {
+   "n": 2,
+   "title": "T-Mobile US (TMUS) Q3 2026 earnings summary",
+   "publisher": "Quartr",
+   "date": "2026-10",
+   "url": "https://quartr.com/events/t-mobile-us-inc-tmus-q3-2026_3PmlH86T"
+  },
+  {
+   "n": 3,
+   "title": "H1 FY27 Results",
+   "publisher": "Vodafone Group Plc",
+   "date": "2026-11-10",
+   "url": "https://www.vodafone.com/~/media/Files/V/vodafone/corp/results-and-presentations/vodafone-h1-fy27-results-announcement.pdf"
+  },
+  {
+   "n": 4,
+   "title": "Form 6-K, third quarter 2026 results",
+   "publisher": "America Movil (SEC)",
+   "date": "2026-10-20",
+   "url": "https://www.sec.gov/Archives/edgar/data/0001129137/000114036126040507/ef20084200_6k.htm"
+  },
+  {
+   "n": 5,
+   "title": "Summary of Earnings, H1 FY2026",
+   "publisher": "SoftBank Corp.",
+   "date": "2026-11-09",
+   "url": "https://www.softbank.jp/en/corp/ir/documents/presentations/fy2026/q2_earnings_summary/"
+  },
+  {
+   "n": 6,
+   "title": "KDDI (9433) Q2 2027 earnings summary",
+   "publisher": "Quartr",
+   "date": "2026-11-06",
+   "url": "https://quartr.com/events/kddi-corp-9433-q2-2027_3sCyeF0I"
+  },
+  {
+   "n": 7,
+   "title": "Vodacom half-year profit surges 25.7% on Africa-wide growth, Safaricom deal",
+   "publisher": "Club of Mozambique",
+   "date": "2026-11",
+   "url": "https://clubofmozambique.com/news/vodacom-half-year-profit-surges-25-7-on-africa-wide-growth-safaricom-deal/"
+  },
+  {
+   "n": 8,
+   "title": "Verizon Q3 2026 results: revenue hits $34.3 billion, fiber subscribers jump 44%",
+   "publisher": "TelecomLead",
+   "date": "2026-10",
+   "url": "https://telecomlead.com/5g/verizon-q3-2026-results-revenue-hits-34-3-billion-fiber-subscribers-jump-44-capex-at-16-16-5-billion-128387?amp=1"
+  },
+  {
+   "n": 9,
+   "title": "FactSet Earnings Insight, 20 November 2026",
+   "publisher": "FactSet",
+   "date": "2026-11-20",
+   "url": "https://advantage.factset.com/hubfs/Website/Resources%20Section/Research%20Desk/Earnings%20Insight/EarningsInsight_112026.pdf"
+  },
+  {
+   "n": 10,
+   "title": "Margins by Sector (US)",
+   "publisher": "Aswath Damodaran, NYU Stern",
+   "date": "2026-01",
+   "url": "https://pages.stern.nyu.edu/~adamodar/New_Home_Page/datafile/margin.html"
+  },
+  {
+   "n": 11,
+   "title": "Debt Fundamentals by Sector (US)",
+   "publisher": "Aswath Damodaran, NYU Stern",
+   "date": "2026-01",
+   "url": "https://pages.stern.nyu.edu/~adamodar/New_Home_Page/datafile/dbtfund.html"
+  },
+  {
+   "n": 12,
+   "title": "Return on Equity by Sector (US)",
+   "publisher": "Aswath Damodaran, NYU Stern",
+   "date": "2026-01",
+   "url": "https://pages.stern.nyu.edu/~adamodar/New_Home_Page/datafile/roe.html"
+  },
+  {
+   "n": 13,
+   "title": "PE Ratios by Sector (US)",
+   "publisher": "Aswath Damodaran, NYU Stern",
+   "date": "2026-01",
+   "url": "https://pages.stern.nyu.edu/~adamodar/New_Home_Page/datafile/pedata.html"
+  },
+  {
+   "n": 14,
+   "title": "Ericsson Mobility Report: 5G subscriptions top three billion as uplink gains momentum",
+   "publisher": "Ericsson",
+   "date": "2026-06-16",
+   "url": "https://www.ericsson.com/en/press-releases/2026/6/ericsson-mobility-report-5g-subscriptions-top-three-billion-as-uplink-gains-momentum"
+  },
+  {
+   "n": 15,
+   "title": "AWS-3 auction closes with more than $3.5B in bids",
+   "publisher": "Light Reading",
+   "date": "2026-06",
+   "url": "https://www.lightreading.com/5g/aws-3-auction-closes-with-more-than-3-5b-in-bids"
+  },
+  {
+   "n": 16,
+   "title": "iShares Global Comm Services ETF (IXP)",
+   "publisher": "BlackRock iShares",
+   "date": "2026-11-25",
+   "url": "https://www.ishares.com/us/products/239751/ishares-global-telecom-etf"
+  }
+ ]
+}
