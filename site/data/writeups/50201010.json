@@ -1,0 +1,429 @@
+{
+ "code": "50201010",
+ "added": "2026-11-28",
+ "asOf": "2026-11-13",
+ "summary": "Agency holding companies are growing again, but at very different speeds and on different yardsticks. Omnicom, now including Interpublic, reported 7.2% organic growth in Q3 2026 [1], Publicis 5.0% organic net revenue growth [2] and WPP a 2.1% like-for-like decline in revenue less pass-through costs [3]. Ad-tech suppliers are mixed: Magnite's contribution ex-TAC rose 20% [5] while The Trade Desk's revenue fell 0.5% [4]. Global ad spend is forecast up 11.9% in 2026 [7], but platforms take most of it. We found no sourced sub-industry forward multiple.",
+ "metrics": [
+  {
+   "label": "Omnicom core organic growth, Q3 2026",
+   "value": "7.2%",
+   "context": "Core operations, excluding dispositions; core revenue $6,010.7M, up 7.3%; adjusted EBITA margin 18.2% vs 16.2%",
+   "source": 1
+  },
+  {
+   "label": "Publicis organic net revenue growth, Q3 2026",
+   "value": "5.0%",
+   "context": "Net revenue EUR 3,808M; 9M organic 4.8%; FY guide 4.5% to 5%; reported revenue organic growth was 6.9%",
+   "source": 2
+  },
+  {
+   "label": "WPP like-for-like revenue less pass-through costs, Q3 2026",
+   "value": "-2.1%",
+   "context": "GBP 2,411M; year to date -3.9%; headline revenue (before pass-through costs) was +0.5%",
+   "source": 3
+  },
+  {
+   "label": "The Trade Desk revenue, Q3 2026",
+   "value": "$736.0M",
+   "context": "Down 0.5% year on year; adjusted EBITDA margin 36% vs 43% a year earlier; Q4 guide at least $755M",
+   "source": 4
+  },
+  {
+   "label": "Magnite contribution ex-TAC, Q3 2026",
+   "value": "$200.6M",
+   "context": "Up 20%; CTV $105.4M, up 39%; adjusted EBITDA margin 42%",
+   "source": 5
+  },
+  {
+   "label": "Stagwell organic net revenue growth, Q3 2026",
+   "value": "7.4%",
+   "context": "Net revenue $664.0M; organic growth on total revenue ($816.0M) was 11%, a different base",
+   "source": 6
+  },
+  {
+   "label": "Global ad spend, 2026 forecast",
+   "value": "$1.34tn",
+   "context": "Up 11.9%; 2027 forecast $1.46tn, up 8.4%; WARC, 8 Oct 2026",
+   "source": 7
+  },
+  {
+   "label": "Advertising industry EV/EBITDA (global, 52 firms)",
+   "value": "15.1x",
+   "context": "12.0x for positive-EBITDA firms only; Damodaran, January 2026; S&P 500 forward P/E 18.3x on 13 Nov 2026 (FactSet)",
+   "source": 11
+  }
+ ],
+ "watch": [
+  "Whether WPP delivers the return to growth it has promised for 2027: it guides second-half like-for-like revenue less pass-through costs down low to mid single digits, with Q4 at the better end, and a 12% to 13% margin [3].",
+  "Omnicom's delivery of $900M of Interpublic cost synergies in 2026 and whether core organic growth of 7.2% holds [1].",
+  "Publicis's shift from net cash of EUR 548M at December 2025 to net debt of EUR 1,598M at September 2026 as it funds the LiveRamp acquisition [2].",
+  "Ad-tech divergence: Magnite guides 2027 growth above 15% excluding political and Google remedies [5], while The Trade Desk's revenue shrank 0.5% and it is restructuring [4].",
+  "Rates and energy costs: the Fed held at 3.75% to 4% on 28 Oct 2026 with inflation at 3.7%, and a December hike is widely expected [17]."
+ ],
+ "bellwethers": [
+  "Omnicom",
+  "Publicis Groupe",
+  "WPP",
+  "Stagwell",
+  "The Trade Desk",
+  "Magnite",
+  "Havas",
+  "Dentsu"
+ ],
+ "basics": {
+  "intro": "Advertising companies plan, create, buy and measure marketing for other businesses. The biggest are agency holding companies that own many agencies and charge clients fees, commissions or a share of media spend. GICS also puts here marketing services such as public relations, healthcare communications, events and data work, and independent ad-tech sellers such as The Trade Desk and Magnite. Broadcasters, publishers and the social and search platforms that sell the ads sit in neighbouring sub-industries.",
+  "products": [
+   {
+    "name": "Media planning and buying",
+    "what": "Agencies advise clients where to place advertising and buy the space for them, often pooling client budgets to get better prices. It is now the largest part of most holding companies.",
+    "examples": "Omnicom Media, Publicis Media, WPP Media"
+   },
+   {
+    "name": "Creative and production",
+    "what": "Designing the idea, the message and the finished ads for TV, social and digital. Production is the making of the many versions an ad needs.",
+    "examples": "BBDO, Leo Burnett, Ogilvy, WPP Production"
+   },
+   {
+    "name": "Public relations, healthcare and experiential",
+    "what": "Communications work that earns coverage rather than buying it, specialist marketing to doctors and patients, and live events.",
+    "examples": "Omnicom Public Relations, Omnicom Health, Edelman-style PR agencies"
+   },
+   {
+    "name": "Data, technology and commerce consulting",
+    "what": "Building customer databases, marketing software and e-commerce systems for clients, billed as projects or software fees.",
+    "examples": "Publicis Sapient, Stagwell Marketing Cloud, Omni"
+   },
+   {
+    "name": "Ad-tech platforms",
+    "what": "Software that lets advertisers buy ad space automatically (demand-side) or lets publishers and TV owners sell it (supply-side). They earn a small percentage of the spend that passes through.",
+    "examples": "The Trade Desk, Magnite"
+   }
+  ],
+  "terms": [
+   {
+    "term": "Organic growth",
+    "meaning": "Revenue growth excluding acquisitions, disposals and currency moves. It is the headline measure for agencies because it shows underlying demand, but companies define it slightly differently."
+   },
+   {
+    "term": "Net revenue / revenue less pass-through costs",
+    "meaning": "Agency revenue after removing costs billed straight through to clients, such as media space bought on their behalf. It is a better guide to the agency's own earnings than total revenue, and the two can grow at different rates."
+   },
+   {
+    "term": "Pass-through costs",
+    "meaning": "Third-party costs such as media or production vendors that an agency re-bills to clients. They inflate headline revenue without adding much profit."
+   },
+   {
+    "term": "Holding company",
+    "meaning": "The parent that owns many agency brands and shares back-office, data and technology across them. The big ones are Omnicom, Publicis and WPP."
+   },
+   {
+    "term": "Account review / pitch",
+    "meaning": "A client invites agencies to compete for its business. Winning or losing a large account can move a holding company's growth by points, so net new business is closely watched."
+   },
+   {
+    "term": "Principal-based buying",
+    "meaning": "The agency buys media on its own account and resells it to clients. It can earn higher margins but raises transparency concerns."
+   },
+   {
+    "term": "Adjusted EBITA margin",
+    "meaning": "Operating profit before amortization of acquired intangibles and some one-off items, as a percentage of revenue. Holding companies quote it, so check what is excluded."
+   },
+   {
+    "term": "Contribution ex-TAC",
+    "meaning": "Magnite's key measure: revenue less the traffic acquisition costs paid to publishers. It is what the ad-tech platform actually keeps."
+   },
+   {
+    "term": "Demand-side and supply-side platform",
+    "meaning": "A demand-side platform buys ads for advertisers; a supply-side platform sells ad space for publishers. Each takes a fee on the spend."
+   },
+   {
+    "term": "Connected TV (CTV)",
+    "meaning": "Internet-delivered TV watched on smart TVs and streaming boxes. Its ads are sold programmatically, which makes it the main growth area for ad-tech."
+   },
+   {
+    "term": "Outcome-based pricing",
+    "meaning": "Fees tied to results such as sales rather than hours worked. Agencies are pushing toward it as AI makes hourly billing harder to justify."
+   }
+  ],
+  "drivers": [
+   {
+    "name": "Client marketing budgets",
+    "how": "Advertisers cut and restore budgets with the economy and their own profits. Agency revenue follows with a lag, and project work and events flex fastest."
+   },
+   {
+    "name": "Net new business",
+    "how": "Account wins and losses are lumpy. A big loss shows up as several points of lost growth over the following year, as WPP found."
+   },
+   {
+    "name": "Share of spend going to platforms",
+    "how": "When budgets move to search, social and retail media, agencies earn less per dollar unless they manage that spend or sell data and technology around it."
+   },
+   {
+    "name": "Labor costs and productivity",
+    "how": "Staff is the main cost. Margins widen when AI and integration reduce headcount faster than fees fall, and narrow when clients demand savings."
+   },
+   {
+    "name": "AI and pricing models",
+    "how": "AI cuts the hours needed for creative and production. If clients capture the savings through lower fees, revenue falls; if agencies move to outcome-based fees, they can keep some of it."
+   },
+   {
+    "name": "Mergers and portfolio changes",
+    "how": "Acquisitions add revenue and synergies but also integration cost and client conflicts. Disposals shrink reported revenue."
+   }
+  ]
+ },
+ "fundamentals": {
+  "business": [
+   "Agencies earn fees, commissions and project charges for planning, creating and buying advertising, and increasingly for data and technology. Omnicom's core Q3 2026 revenue of $6,010.7M was 53.0% integrated media, 15.6% advertising, 11.3% public relations, 10.7% experiential and 9.4% health [1]. Ad-tech firms instead take a share of spend, as Magnite does [5].",
+   "Customers are large advertisers: consumer goods, technology, retail, automotive and healthcare. WPP's top 25 clients fell 2.7% like-for-like in Q3 2026, and its consumer goods clients, 27% of its revenue less pass-through costs, fell 6.4% [3]. Customer concentration means single account moves matter.",
+   "People are the principal cost, with media and production vendors passed through, plus technology and data. Omnicom's Q3 2026 reported operating margin was 15.4% [1], and WPP expects a 12% to 13% full-year headline margin partly because it is rebuilding incentives and investing [3].",
+   "Pricing power is modest and rests on scale in buying, proprietary data and talent. Clients are not yet seeing AI savings in fees, according to Gartner's Jay Wilson in Digiday in March 2026 [13]. Ad-tech platforms with scale, such as Magnite in CTV, have more leverage than creative shops [5].",
+   "Major assets are goodwill and intangibles from acquisitions, client receivables and cash. Liabilities include debt and amounts owed to media vendors. Publicis moved to EUR 1,598M of net debt at 30 Sep 2026 from net cash of EUR 548M [2], and WPP's adjusted net debt was GBP 3.0bn [3].",
+   "Agencies are asset-light in physical terms: WPP guides capex of around GBP 190M against GBP 7.2bn of nine-month revenue less pass-through costs [3]. Their capital goes mainly into acquisitions and, increasingly, technology. Ad-tech is also asset-light: Magnite's debt was about $350M at 30 Sep 2026 [5]."
+  ],
+  "overview": [
+   "WARC forecasts global advertising of $1.34tn in 2026, up 11.9%, then $1.46tn in 2027 (+8.4%) and $1.57tn in 2028 (+7.9%) [7]. That is spend by advertisers, not agency revenue. We did not find a sourced size for agency fees themselves, and the two grow at different rates.",
+   "The segments are media buying, creative, production, public relations, healthcare and experiential marketing, data and technology consulting, and ad-tech. Publicis splits its net revenue into Connected Media at 62%, Intelligent Creativity at 25% and Technology at 13% [2]. Omnicom's integrated media was 53.0% of core revenue [1].",
+   "Agencies sit between advertisers and media owners. Suppliers are platforms and publishers selling inventory, plus vendors for production and data. WARC expects social media, search and retail media to reach 66.4% of ad spend in 2026 [7], so much of the spend agencies handle is bought from a few platforms.",
+   "The industry has moved from print and broadcast to digital and now AI-managed buying. Holding companies have consolidated: Barclays noted in June 2025 that Omnicom and Interpublic planned a merger [14], and Omnicom's Q3 2026 revenue rose from $4,037.1M to $6,422.8M on a reported basis [1].",
+   "Sales are concentrated in the United States and Europe. The US was 60.2% of Omnicom's core revenue and the UK 9.2% [1], and the US was 59% of Publicis's net revenue [2]. Asia Pacific and Latin America are the growth regions, with Publicis reporting China up 10.6% and Latin America up 23.8% organically in Q3 [2]."
+  ],
+  "competition": [
+   "There are three very large Western holding companies, Omnicom, Publicis and WPP, plus Havas, Dentsu, Stagwell and hundreds of independents. Ad-tech adds The Trade Desk, Magnite and others. The platforms themselves (Alphabet, Meta, Amazon) are competitors for budgets and tools.",
+   "On Q3 2026 organic growth the leaders were Omnicom at 7.2% on core revenue [1], Stagwell at 7.4% on net revenue [6] and Publicis at 5.0% on net revenue [2], while WPP shrank 2.1% like-for-like [3]. These are different bases, so we would not rank them precisely. We did not find sourced market shares for the group.",
+   "The industry is consolidating at the top but remains fragmented below it. Omnicom now includes Interpublic and the Q3 results show three scaled groups, while Stagwell and independents pick up specialist work [1][6]. Ad-tech is also concentrated, with a few platforms handling programmatic buying.",
+   "Barriers to entry are low for a small creative or consulting shop but high for global scale. Scale requires global client relationships, buying volume, data assets and technology platforms, such as WPP Open and Omnicom's Omni [3][18]. New entrants mainly come from technology, not from agencies.",
+   "Economies of scale matter in media buying, data and back-office costs. Omnicom targets $900M of cost synergies from the Interpublic integration in 2026 [1]. Publicis guides an operating margin slightly above 18.2% [2], against WPP's 12% to 13% [3], which suggests scale alone is not enough.",
+   "Creative work is differentiated, but media buying and production are increasingly commoditized and automated. Digiday argues that when every holding company uses the same AI vocabulary, the pitch reads as a script [13]. We think differentiation now rests on proprietary data and measurable results.",
+   "Clients hold the bargaining power: they run reviews and can switch agencies, as WPP's prior-year client losses show [3]. Suppliers, meaning platforms such as Alphabet and Meta, hold power through control of inventory and tools, and WARC expects them to take 59.7% of ad spend outside China [7]."
+  ],
+  "drivers": [
+   "Revenue growth follows client marketing budgets, net new business, acquisitions and now AI-driven products. Publicis said demand for its AI-powered services is driving Connected Media growth and market share gains [2]. Omnicom's integrated media was 53.0% of core revenue [1]. Currency and disposals can move reported growth.",
+   "Operating margins depend on staff costs against fees, plus pass-through mix. Omnicom's core adjusted EBITA margin rose to 18.2% from 16.2% a year earlier [1], while WPP guides second-half margins down by up to about 200 basis points year on year [3].",
+   "Key costs are people, incentive pay, vendors, technology and restructuring. WPP expects total cash restructuring costs of about GBP 250M in 2026 [3], and The Trade Desk booked $44.3M of restructuring charges in Q3 [4].",
+   "Direct rate sensitivity is moderate: leverage is low to moderate, though Publicis's new net debt shows acquisitions can change that [2]. Higher rates mainly act through advertiser budgets. The Fed held at 3.75% to 4% on 28 Oct 2026 and a December hike is widely expected [17].",
+   "Advertising tracks GDP and corporate profits, and inflation is a mixed influence: it lifts nominal prices but squeezes consumer spending. US inflation was 3.7% in September 2026 [17]. Energy prices matter indirectly, and conflict in the Middle East cut Publicis and WPP revenue there in Q3 [2][3].",
+   "The industry is cyclical, with a secular overlay. WARC expects ad growth to slow from 11.9% in 2026 to 8.4% in 2027 [7], and WPP's decline shows company-specific issues can outweigh the cycle [3]. Agencies are more cyclical than the platforms because their fees depend on client budget decisions."
+  ],
+  "financials": [
+   "Growth has been mixed: Q3 2026 organic growth was 7.2% at Omnicom core [1], 5.0% at Publicis [2] and -2.1% at WPP [3]. Magnite's contribution ex-TAC rose 20% [5] and The Trade Desk's revenue fell 0.5% [4]. Bases differ (core revenue, net revenue, revenue less pass-through costs).",
+   "Damodaran's January 2026 global data for Advertising (52 firms) show a gross margin of 36.24% and EBITDA margin of 14.06% [9]. These include ad-tech and many small firms. Omnicom, for comparison, reported a 15.4% operating margin and an 18.2% core adjusted EBITA margin [1].",
+   "Margins at the three leaders differ by company: Omnicom core adjusted EBITA 18.2% [1], Publicis guiding slightly above 18.2% for 2026 [2], and WPP guiding 12% to 13% [3]. The Trade Desk's adjusted EBITDA margin fell to 36% from 43% [4], and Magnite's rose to 42% [5].",
+   "Damodaran's January 2026 return on equity for Advertising was -1.34% (-0.50% adjusted for R&D) [10] and its net margin was -0.30% [9], showing that the full global sample includes many loss-makers. We found no sourced ROIC for the group, and the leaders earn far more than the sample.",
+   "Leverage is rising at the leaders. Omnicom bought back shares under an accelerated repurchase and raised its dividend to $0.80 [1]. Stagwell's net leverage was 2.7x, down 0.7x from a year earlier [6]. Publicis moved to EUR 1,598M of net debt, and WPP's adjusted net debt was GBP 3.0bn [2][3].",
+   "Cash generation is solid: Publicis guides free cash flow of about EUR 2.2bn before working capital changes [2], and WPP guides adjusted operating cash flow before working capital of GBP 800M to 900M [3]. The Trade Desk's operating cash flow less capex was about $577M for nine months by our calculation from its release [4].",
+   "Damodaran's January 2026 data put Advertising at 15.12x EV/EBITDA for all firms (12.00x for those with positive EBITDA) and 21.15x EV/EBIT [11]. His forward P/E of 52.87 is distorted by depressed earnings and not a useful benchmark [12]. The S&P 500's forward P/E was 18.3x on 13 Nov 2026 [8]."
+  ],
+  "risks": [
+   "Regulatory risk centres on privacy rules that limit targeting, ad-tech competition and transparency in media buying. We did not find a sourced new rule aimed at agencies for this note. The clearest named legal issue is the Google remedies, which Magnite excludes from its 2027 growth outlook of more than 15% [5].",
+   "AI is the main disruption. Barclays said in June 2025 that AI would profoundly and irrevocably transform the industry and forecast weak agency sales growth [14]. Counter-arguments say agencies are disrupted but not disintermediated [15]. Holding companies themselves report AI-led growth in media [1][2].",
+   "Demographics matter little directly. Fragmenting audiences and younger viewers moving to streaming, social and creator content change where ads go rather than how much is spent. This is why CTV is Magnite's main growth line, up 39% in Q3 [5].",
+   "Consumer behavior is shifting spend to retail media, social and streaming. WARC expects social media ad spend to grow 21.3% in 2026 [7]. Agencies must follow budgets to these channels and be paid for managing them, as Publicis's Connected Media at 62% of net revenue suggests [2].",
+   "New competitors are platforms offering in-house campaign tools. Alphabet and Meta now let advertisers design campaigns without an agency, which analysts say challenges agency value [15]. Consulting firms and software companies are also moving into marketing technology.",
+   "Geopolitical risk is visible now: Publicis's Middle East and Africa organic net revenue fell 1.4% in Q3 [2] and WPP's fell 12.4% like-for-like [3]. WPP's China revenue also fell 8.7% [3]. Supply chains matter little, apart from tariffs and energy affecting client budgets.",
+   "Substitutes include in-house marketing teams, platform self-service tools and AI agents that buy media directly, which we think are the biggest long-run threat. Digiday argues hourly and pay-per-asset fees break down as production is automated [13], and platforms already let advertisers build campaigns themselves [15]."
+  ],
+  "horizon": {
+   "opportunities": [
+    "Global ad spend is forecast to keep growing, to $1.46tn in 2027 and $1.57tn in 2028 [7].",
+    "Integration synergies and AI productivity can lift margins: Omnicom targets $900M of cost reductions [1] and Publicis guides margin expansion [2].",
+    "Agencies that sell data, technology and managed media can participate in growth: Publicis reports Connected Media growing high single digits [2], and Stagwell's Digital Transformation grew 23.1% organically [6].",
+    "CTV and programmatic supply are growing fast for ad-tech: Magnite's CTV contribution ex-TAC rose 39% [5]."
+   ],
+   "threats": [
+    "AI could shrink billable hours faster than agencies can change how they charge [13][14].",
+    "Platforms capture most of the incremental spend, with Alphabet, Amazon and Meta forecast at 61.5% of ad spend outside China by 2028 [7].",
+    "Weak groups can lose clients and growth: WPP's like-for-like revenue less pass-through costs fell 3.9% year to date [3].",
+    "Higher rates and energy-driven inflation could curb budgets in 2027 [17]."
+   ],
+   "assessment": "Our read is that the industry splits in two over the next three to five years. Scaled groups with data, media buying and technology, such as Publicis and a successfully integrated Omnicom, can grow at or slightly above the ad market and expand margins as AI lowers costs. Groups that are weaker in media or creative, or that lose clients, face continued share loss, as WPP's results show, though WPP guides to a return to growth in 2027 [3]. The key uncertainty is pricing: if clients capture AI savings, revenue per hour falls faster than costs. Ad-tech has structural growth in CTV but also platform and regulatory risks. We think valuations reflect AI fears more than current results [15][16]."
+  }
+ },
+ "sections": [
+  {
+   "id": "macro",
+   "paragraphs": [
+    "Advertising is a pro-cyclical business, and the macro backdrop has turned less friendly. The Fed held at 3.75% to 4% on 28 Oct 2026 after raising in September, its first increase in more than three years. September inflation was 3.7%, helped by an energy spike linked to the war with Iran, and policymakers are widely expected to raise again in December [17]. Higher rates matter for agencies mostly through client budgets and the multiple investors pay for earnings.",
+    "So far spending has held. WARC forecasts global ad spend up 11.9% in 2026 to $1.34tn, slowing to 8.4% in 2027 [7], and FactSet reports S&P 500 Q3 2026 earnings growth of 31.9%, which supports client budgets [8]. The effect of energy and geopolitics is already visible: Middle East and Africa revenue fell for Publicis by 1.4% organically [2] and for WPP by 12.4% like-for-like [3]. Our view is that the main macro risk is a 2027 slowdown if inflation forces further tightening, which would hit project work and smaller agencies first."
+   ]
+  },
+  {
+   "id": "demand",
+   "paragraphs": [
+    "Structural demand comes from the move of advertising to digital, retail media, streaming and AI-managed buying, and from clients' need for help with data and technology. WARC forecasts growth of 21.3% in social media and 14.2% in search in 2026, with retail media at $202.1bn up 14.3% [7]. Total ad spend is forecast to reach $1.57tn by 2028 [7].",
+    "For agencies the question is how much of this growth they capture. Publicis said Connected Media, 62% of its net revenue, grew high single digits organically and attributes it to demand for AI-powered services and share gains [2]. Omnicom's core organic growth accelerated to 7.2% with integrated media its largest discipline at 53.0% of revenue [1]. Elsewhere demand is weaker: WPP's creative revenue fell 5.1% like-for-like and Stagwell's Marketing Services fell 7.5% organically [3][6].",
+    "Demographics matter at the margin, through audiences moving to streaming and creators. We see no sourced agency-specific demographic data, and we think elasticity to the economy is high for project and event work but lower for retained media management."
+   ]
+  },
+  {
+   "id": "structure",
+   "paragraphs": [
+    "Porter's five forces show a pressured but resilient industry. Rivalry is intense among three scaled holding companies and many specialists, with account reviews deciding share: WPP's top 25 clients fell 2.7% like-for-like in Q3 [3]. Buyer power is high because clients can run pitches and shift budgets. Supplier power rests with the platforms, which WARC expects to take 59.7% of ad spend outside China [7].",
+    "The threat of new entrants is low at global scale but high in niches, where software companies and consultancies enter. The threat of substitutes is the key issue: Alphabet and Meta allow advertisers to build campaigns in-house [15], and Barclays argued in June 2025 that AI would profoundly transform the industry [14]. Barriers to entry rest on scale in media buying, data and client relationships.",
+    "Concentration is rising: Omnicom's Q3 2026 revenue was $6,422.8M against $4,037.1M a year earlier on a reported basis, reflecting Interpublic [1]. Publicis reported net revenue of EUR 3,808M [2] and WPP revenue less pass-through costs of GBP 2,411M [3]. Moats are proprietary data, buying scale and talent, and we think they are narrower than the holding companies claim."
+   ]
+  },
+  {
+   "id": "environment",
+   "paragraphs": [
+    "Technology is the dominant force. Generative AI can produce creative and production work in minutes, and Digiday argues that time-and-materials, pay-per-asset and retainer fee models all weaken as a result, while clients are not yet seeing cost savings [13]. Holding companies respond with platforms: WPP Open, Omnicom's Omni and Publicis's data and technology offering [2][3][18]. Platforms such as Google and Meta also offer in-house campaign tools [15].",
+    "Political and legal factors include merger scrutiny, privacy rules that limit targeting, and legal remedies for Google that Magnite lists as a factor in its 2027 outlook [5]. Geopolitics is a live factor: conflict in the Middle East reduced regional revenue at Publicis and WPP in Q3 [2][3]. Economic factors are rates and energy prices [17]. We did not find a sourced new regulation specific to agencies, so we treat regulatory risk as a background factor, strongest for ad-tech and data use. Environmental and social factors, such as brand safety and climate claims, matter less to financial results."
+   ]
+  },
+  {
+   "id": "economics",
+   "paragraphs": [
+    "Economics vary widely. Omnicom's core adjusted EBITA margin was 18.2% in Q3 2026, up from 16.2% [1]. Publicis guides an operating margin slightly above 18.2% for 2026 and free cash flow of about EUR 2.2bn [2]. WPP guides a headline margin of 12% to 13% [3]. Stagwell's adjusted EBITDA was $144.8M, about 22% of net revenue [6]. In ad-tech, Magnite's adjusted EBITDA margin was 42% and The Trade Desk's was 36%, down from 43% [5][4].",
+    "Operating leverage works both ways because staff costs are largely fixed. WPP expects second-half margins to fall by up to about 200 basis points on lower revenue and reinvestment [3], whereas Omnicom's margin expanded 200 basis points as Interpublic synergies came through [1]. Damodaran's January 2026 global Advertising sample shows a gross margin of 36.24%, EBITDA margin of 14.06%, net margin of -0.30% and return on equity of -1.34% [9][10]. That sample includes many small and loss-making firms, so it understates the leaders. We found no sourced ROIC."
+   ]
+  },
+  {
+   "id": "earnings",
+   "paragraphs": [
+    "Q3 2026 results were better than feared at most names. Omnicom's non-GAAP adjusted EPS was $2.73, up 21.9% [1], ahead of the $2.67 expected, and its revenue of $6.42bn beat estimates of $6.16bn [18]. Publicis confirmed 4.5% to 5% organic net revenue growth for 2026 and targets average growth of at least 7% to 8% a year in 2027 and 2028, with headline EPS growth of 8% to 10% [2]. WPP reiterated guidance and expects a return to growth during 2027 [3].",
+    "Ad-tech had a sharper split. The Trade Desk guided Q4 revenue to at least $755M and adjusted EBITDA to at least $280M [4]. Magnite raised its 2026 contribution ex-TAC growth to about 17% and guides at least 38.5% adjusted EBITDA margin in 2027 [5]. Stagwell raised adjusted EBITDA guidance to $490M to $540M [6]. We found no sourced consensus for 2027 earnings in this group. Our view is that Publicis's 2027 to 2028 targets look ambitious against its current 5% organic rate, and WPP's recovery depends on stopping client losses."
+   ]
+  },
+  {
+   "id": "valuation",
+   "paragraphs": [
+    "We did not find a sourced current forward multiple for the group. The nearest benchmark is Damodaran's January 2026 global Advertising sample, at 15.12x EV/EBITDA for all firms and 12.00x for those with positive EBITDA, and 21.15x EV/EBIT [11]. His forward P/E of 52.87 for the same group reflects depressed earnings and is not meaningful [12]. For context, the S&P 500's forward P/E was 18.3x on 13 Nov 2026, below its 5-year average of 19.8x [8].",
+    "For the holding companies, the only multiples we could open are dated. In October 2025 an industry commentator said holding companies once traded at mid-teen profit multiples, with Publicis below 10x and WPP below 5x [16]. A later article put Omnicom near its lowest valuation since 2020 and WPP at a record-low forward P/E, with Publicis closer to its 10-year average [15], undated. Omnicom shares were $84.50 after Q3 results, for a market capitalization of $22.65bn [18]. Our read is that the group is priced for AI disruption more than its current cash generation implies."
+   ]
+  },
+  {
+   "id": "positioning",
+   "paragraphs": [
+    "We found no sourced sector ETF flows, short interest or year-to-date relative performance for the group, so we cannot describe positioning with data. What we can source is price reaction and sentiment. Omnicom shares rose about 2.3% to $84.50 around its Q3 report [18]. In October 2025 Publicis was down about 15% for that year, Havas about 8% and Omnicom about 5%, while WPP was down more than 50% [16]; those figures are a year old.",
+    "The Trade Desk is the clearest example of positioning risk in the broader group: it had its first revenue decline, down 0.5% to $736.0M, and Q4 guidance of at least $755M [4]. Magnite grew contribution ex-TAC 20% [5]. Our read is that investors treat the holding companies as AI-exposed value stocks and ad-tech as a growth debate, with Digiday noting that WPP's strategy and Publicis's results did not lift the shares in early 2026 [13]. Breadth is poor: only the leaders show clear organic acceleration."
+   ]
+  }
+ ],
+ "sources": [
+  {
+   "n": 1,
+   "title": "Omnicom Group Form 8-K: third quarter 2026 earnings release",
+   "publisher": "U.S. SEC (Omnicom)",
+   "url": "https://www.sec.gov/Archives/edgar/data/0000029989/000002998926000024/a2026q3earningsrelease.htm",
+   "date": "2026-10-21"
+  },
+  {
+   "n": 2,
+   "title": "Publicis Groupe: Third Quarter 2026 Revenue",
+   "publisher": "Publicis Groupe (via Ariva)",
+   "url": "https://www.ariva.de/news/publicis-groupe-third-quarter-2026-revenue-12166976",
+   "date": "2026-10-13"
+  },
+  {
+   "n": 3,
+   "title": "WPP Third Quarter 2026 Trading Update",
+   "publisher": "WPP",
+   "url": "https://www.directorstalkinterviews.com/wp-content/uploads/2026/10/WPP-Third-Quarter-Trading-Update-2026.pdf",
+   "date": "2026-10-29"
+  },
+  {
+   "n": 4,
+   "title": "The Trade Desk Reports Third Quarter 2026 Financial Results",
+   "publisher": "The Trade Desk",
+   "url": "https://investors.thetradedesk.com/news-and-events/news/news-details/2026/The-Trade-Desk-Reports-Third-Quarter-2026-Financial-Results/default.aspx",
+   "date": "2026-11"
+  },
+  {
+   "n": 5,
+   "title": "Magnite Reports Third Quarter 2026 Results",
+   "publisher": "Magnite (via Finviz)",
+   "url": "https://finviz.com/news/415878/magnite-reports-third-quarter-2026-results",
+   "date": "2026-11-04"
+  },
+  {
+   "n": 6,
+   "title": "Stagwell Inc. Reports Results for the Three and Nine Months Ended September 30, 2026",
+   "publisher": "Stagwell (via Finviz)",
+   "url": "https://finviz.com/news/411320/stagwell-inc-nasdaq-stgw-reports-results-for-the-three-and-nine-months-ended-september-30-2026",
+   "date": "2026-10-29"
+  },
+  {
+   "n": 7,
+   "title": "Global ad spend set to hit $1.34tn in 2026 driven by AI and mega events",
+   "publisher": "Bizcommunity (citing WARC)",
+   "url": "https://www.bizcommunity.com/article/global-ad-spend-set-to-hit-134tn-in-2026-driven-by-ai-and-mega-events-292977a",
+   "date": "2026-10-08"
+  },
+  {
+   "n": 8,
+   "title": "FactSet Earnings Insight (13 Nov 2026)",
+   "publisher": "FactSet",
+   "url": "https://advantage.factset.com/hubfs/Website/Resources%20Section/Research%20Desk/Earnings%20Insight/EarningsInsight_111326.pdf",
+   "date": "2026-11-13"
+  },
+  {
+   "n": 9,
+   "title": "Margins by Sector (US/global), January 2026",
+   "publisher": "Aswath Damodaran, NYU Stern",
+   "url": "https://pages.stern.nyu.edu/~adamodar/New_Home_Page/datafile/margin.html",
+   "date": "2026-01"
+  },
+  {
+   "n": 10,
+   "title": "Return on equity and capital by industry, January 2026",
+   "publisher": "Aswath Damodaran, NYU Stern",
+   "url": "https://pages.stern.nyu.edu/~adamodar/New_Home_Page/datafile/roe.html",
+   "date": "2026-01"
+  },
+  {
+   "n": 11,
+   "title": "EV/EBITDA multiples by industry, January 2026",
+   "publisher": "Aswath Damodaran, NYU Stern",
+   "url": "https://pages.stern.nyu.edu/~adamodar/New_Home_Page/datafile/vebitda.html",
+   "date": "2026-01"
+  },
+  {
+   "n": 12,
+   "title": "PE ratios by industry, January 2026",
+   "publisher": "Aswath Damodaran, NYU Stern",
+   "url": "https://pages.stern.nyu.edu/~adamodar/New_Home_Page/datafile/pedata.html",
+   "date": "2026-01"
+  },
+  {
+   "n": 13,
+   "title": "The agency holdcos have an AI story, but not an AI business model",
+   "publisher": "Digiday",
+   "url": "https://digiday.com/media-buying/the-agency-holdcos-have-an-ai-story-but-they-dont-have-an-ai-business-model",
+   "date": "2026-03-02"
+  },
+  {
+   "n": 14,
+   "title": "Ad Agencies to Fall Behind as AI Advances, Barclays Says",
+   "publisher": "Bloomberg Law",
+   "url": "https://news.bloomberglaw.com/artificial-intelligence/ad-agencies-to-fall-behind-as-ai-advances-barclays-says",
+   "date": "2025-06-25"
+  },
+  {
+   "n": 15,
+   "title": "WPP crashes 60% but a shock AI twist could flip the ad game",
+   "publisher": "GuruFocus (via TradingView)",
+   "url": "https://in.tradingview.com/news/gurufocus%3A2714c4a4c094b%3A0-wpp-crashes-60-but-a-shock-ai-twist-could-flip-the-ad-game"
+  },
+  {
+   "n": 16,
+   "title": "Are struggling agency groups dragging down valuations across the sector?",
+   "publisher": "Campaign India",
+   "url": "https://www.campaignindia.in/article/are-struggling-agency-groups-dragging-down-valuations-across-the-sector/505471",
+   "date": "2025-10-28"
+  },
+  {
+   "n": 17,
+   "title": "Fed holds interest rates steady even as inflation remains stubborn",
+   "publisher": "OPB",
+   "url": "https://www.opb.org/article/2026/10/28/fed-holds-interest-rates-steady-despite-stubborn-inflation/",
+   "date": "2026-10-28"
+  },
+  {
+   "n": 18,
+   "title": "Omnicom Q3 deep dive: integration synergies and media growth drive margin expansion",
+   "publisher": "StockStory",
+   "url": "https://stockstory.org/us/stocks/nyse/omc/news/earnings-call/omc-q3-deep-dive-integration-synergies-and-media-growth-drive-margin-expansion",
+   "date": "2026-10"
+  }
+ ]
+}

@@ -1,0 +1,443 @@
+{
+ "code": "50201030",
+ "added": "2026-11-28",
+ "asOf": "2026-11-20",
+ "summary": "Cable and satellite is a shrinking-subscriber, high-cash-margin business under heavy competitive and balance-sheet stress. Comcast lost 144,000 broadband customers in Q3 2026 and Charter 233,000 pro forma, as fiber and fixed wireless take share [2][3][7]. Charter's pro forma EBITDA margin slipped to 39.9% [3], Cable One impaired $412.1M of assets and warned of possible Chapter 11 [4], and Optimum skipped $102.5M of interest on about $22B of debt [6]. FactSet shows the Media industry's Q3 revenue up 10% while Communication Services earnings growth fell to 18.3% [1]. We found no sourced sub-industry forward multiple.",
+ "metrics": [
+  {
+   "label": "Comcast domestic broadband net change, Q3 2026",
+   "value": "-144,000",
+   "context": "Base 28.3M; wireless lines +368,000 to 10.6M; video -274,000 to 10.4M; reported 22 Oct 2026",
+   "source": 2
+  },
+  {
+   "label": "Charter internet net change, Q3 2026 (pro forma)",
+   "value": "-233,000",
+   "context": "Legacy Charter -156,000, legacy Cox -77,000; 34.3M customers; mobile lines +508,000 to 13.5M",
+   "source": 3
+  },
+  {
+   "label": "Charter pro forma adjusted EBITDA margin",
+   "value": "39.9%",
+   "context": "Versus 40.9% a year earlier; pro forma revenue $16.5B, down 1.5%; total debt principal $108.6B",
+   "source": 3
+  },
+  {
+   "label": "Comcast Connectivity & Platforms EBITDA margin",
+   "value": "38.6%",
+   "context": "Down 70 bps; segment revenue $19.7B, down 2.7%; Q3 2026",
+   "source": 2
+  },
+  {
+   "label": "Media industry revenue growth, Q3 2026",
+   "value": "10%",
+   "context": "S&P 500 Media industry (GICS), year on year; Communication Services sector 16.2%; FactSet, 20 Nov 2026",
+   "source": 1
+  },
+  {
+   "label": "Cable TV industry EV/EBITDA",
+   "value": "6.2x",
+   "context": "Damodaran, 9 firms, as of Jan 2026; debt/EBITDA 3.89x",
+   "source": 12
+  },
+  {
+   "label": "Cable TV industry ROE",
+   "value": "11.06%",
+   "context": "Damodaran unadjusted, 9 firms, Jan 2026; Broadcasting 3.99%",
+   "source": 10
+  },
+  {
+   "label": "Optimum debt at CSC Holdings",
+   "value": "~$22B",
+   "context": "$6.3B due 2027; $102.5M interest payment skipped 16 Nov 2026 with 30-day grace period",
+   "source": 6
+  }
+ ],
+ "watch": [
+  "Optimum's 30-day grace period on $102.5M of skipped interest ends in mid-December 2026, with Chapter 11 a possible outcome if talks with creditors fail [6].",
+  "Cable One says its liquidity and cash flows will be insufficient to repay near-term debt and that Chapter 11 may be necessary if financing is not completed; a court restraining order also holds up its Mega Broadband purchase [4][5].",
+  "Charter must show that its new operating model and $2B of targeted savings can slow internet losses after the Cox integration; no EBITDA guidance was given [3].",
+  "Comcast's planned separation of NBCUniversal and Sky into a second public company, expected by mid-2027, and its suspended buybacks reshape what an investor in the cable business owns [2][18].",
+  "Fiber and fixed wireless keep gaining: AT&T added a record 769,000 internet connections in Q3 2026, and the Fed is widely expected to raise rates again in December [7][14]."
+ ],
+ "bellwethers": [
+  "Comcast",
+  "Charter Communications",
+  "Optimum Communications (formerly Altice USA)",
+  "Cable One",
+  "EchoStar (DISH)"
+ ],
+ "basics": {
+  "intro": "Cable and satellite companies deliver television, home internet, mobile phone service and business connectivity to households and companies over their own networks or satellites. They earn monthly subscription fees from customers, plus advertising on channels they carry or own. GICS puts the operators here, and classifies whole companies, so Comcast, including NBCUniversal, Peacock and theme parks, sits in this group. Pure content producers and broadcasters are in Entertainment or Broadcasting, and phone-based internet providers such as AT&T are in Telecommunication Services.",
+  "products": [
+   {
+    "name": "Residential broadband",
+    "what": "Home internet over coaxial cable or fiber. It is now the main profit engine, because customers pay a flat monthly fee and the network is already built.",
+    "examples": "Comcast Xfinity, Charter Spectrum, Optimum, Cable One Sparklight"
+   },
+   {
+    "name": "Pay television",
+    "what": "Bundles of channels delivered by cable box, satellite dish or an internet app. Revenue has been shrinking for years as people move to streaming, and much of each bill is passed on to programmers as fees.",
+    "examples": "Spectrum TV, Xfinity TV, DISH TV, Sling TV, DirecTV"
+   },
+   {
+    "name": "Mobile service",
+    "what": "Phone plans sold to broadband customers over a wholesale deal with Verizon, so cable firms need little network of their own. It lifts loyalty and revenue per household.",
+    "examples": "Xfinity Mobile, Spectrum Mobile"
+   },
+   {
+    "name": "Business services",
+    "what": "Internet, voice and networking sold to small and mid-sized companies and to cell-tower owners. Margins are higher than in residential service.",
+    "examples": "Comcast Business, Spectrum Business"
+   },
+   {
+    "name": "Media and content (at some operators)",
+    "what": "Networks, studios, streaming and parks owned by a few operators. They bring advertising and licensing revenue but also bring cyclical, hit-driven earnings.",
+    "examples": "NBCUniversal, Peacock, Sky (Comcast)"
+   },
+   {
+    "name": "Satellite television",
+    "what": "Pay TV beamed from satellites to a dish, useful where cable does not reach, but with no easy way to bundle fast internet.",
+    "examples": "DirecTV, DISH"
+   }
+  ],
+  "terms": [
+   {
+    "term": "Passings",
+    "meaning": "Homes and businesses a network could connect. Growth in passings, and the share that actually subscribe, shows how well a network is used."
+   },
+   {
+    "term": "Penetration",
+    "meaning": "The share of passings that take service. It matters because a network costs roughly the same to run whether or not a household signs up."
+   },
+   {
+    "term": "ARPU",
+    "meaning": "Average revenue per user. It rises with price increases and bundles, and falls with promotions and cheaper tiers."
+   },
+   {
+    "term": "Net adds",
+    "meaning": "New customers minus disconnects in the quarter. Negative figures are called net losses. It is the metric investors watch most closely."
+   },
+   {
+    "term": "Churn",
+    "meaning": "The share of customers who leave in a period. Lower churn means less spending to replace lost customers."
+   },
+   {
+    "term": "Cord cutting",
+    "meaning": "Cancelling pay TV, usually in favor of streaming apps. The result is fewer video subscribers and falling TV revenue."
+   },
+   {
+    "term": "Fixed wireless access (FWA)",
+    "meaning": "Home internet delivered over mobile networks by Verizon, T-Mobile and AT&T. It competes with cable on price and has taken many of the new broadband customers."
+   },
+   {
+    "term": "Fiber to the home",
+    "meaning": "A fiber-optic line to each house. It offers faster, more symmetric speeds than cable and is the strongest rival to cable broadband."
+   },
+   {
+    "term": "Programming costs",
+    "meaning": "Fees paid to channel owners per video subscriber. They rise faster than prices, which is why video margins are thin."
+   },
+   {
+    "term": "Adjusted EBITDA",
+    "meaning": "Earnings before interest, tax, depreciation and some other items. It is the usual profit measure, though it ignores the heavy cost of building networks."
+   },
+   {
+    "term": "Capex intensity",
+    "meaning": "Capital spending as a share of revenue. Network builds, set-top equipment and fiber upgrades make this a large drain on cash."
+   },
+   {
+    "term": "Net leverage",
+    "meaning": "Net debt divided by EBITDA. Cable firms run high leverage because cash flows used to be steady, so it matters when subscribers fall."
+   }
+  ],
+  "drivers": [
+   {
+    "name": "Broadband net adds",
+    "how": "Each customer lost removes high-margin recurring revenue, while network costs stay the same, so small changes in net adds move EBITDA and the share price."
+   },
+   {
+    "name": "Competition from fiber and fixed wireless",
+    "how": "Rivals offer lower prices or faster speeds, which raises churn and forces discounts, so revenue per customer falls."
+   },
+   {
+    "name": "Video cord cutting",
+    "how": "Fewer video customers cut revenue, but they also cut programming costs, so the profit hit is smaller than the revenue hit."
+   },
+   {
+    "name": "Pricing and bundling",
+    "how": "Raising prices, or bundling mobile with broadband, lifts revenue per household and lowers churn."
+   },
+   {
+    "name": "Capital spending cycle",
+    "how": "Fiber upgrades and rural builds raise capex and depress free cash flow for a few years, with the payoff coming later in retention and speed."
+   },
+   {
+    "name": "Debt and interest rates",
+    "how": "High leverage means higher rates raise interest costs, and refinancing risk grows when earnings fall, as the weakest firms show."
+   },
+   {
+    "name": "Mergers and spin-offs",
+    "how": "Deals such as Charter with Cox combine networks to cut costs, and separations strip out media assets, which changes what each company owns and how it is valued."
+   }
+  ]
+ },
+ "fundamentals": {
+  "business": [
+   "The main revenue streams are residential broadband, video, mobile and business services, with media at Comcast. In Q3 2026 Comcast's Connectivity & Platforms revenue was $19.7B, of which residential was $17.0B and Business Services $2.6B, while Content & Experiences added $10.5B [2]. At Cable One, residential data revenue was $204.1M of $332.2M in total revenue [4][5].",
+   "Customers are households, small and mid-sized businesses, and in satellite and cable video also the channel owners who are paid through programming fees. Comcast served 47.8M residential relationships and Charter 36.7M customer relationships at the end of Q3 2026 [2][3]. Revenue per customer varies widely: Optimum's broadband ARPU was $131.37 and Cable One's $78.48 [5].",
+   "Principal costs are network operation and maintenance, programming fees for video, customer service and marketing, and depreciation on network assets. Charter's new operating model aims to remove $2B of annualized operating expense over 18 months, on top of more than $1B of Cox synergies, which gives a sense of how large the controllable cost base is [3]. Comcast also carries content and theme park costs [2].",
+   "Pricing power rests on a local near-monopoly in each footprint, on bundling and on speed. It is weakening where fiber or fixed wireless is available: the FCC argued in approving Charter-Cox that fiber, fixed wireless and satellite will discipline cable pricing [15]. ARPU fell 4.5% at Cable One in Q3 2026, and Comcast's domestic broadband revenue fell 4.7% [4][18].",
+   "The main assets are networks, spectrum rights or leases, franchises and customer relationships, and the main liabilities are debt. Charter had $108.6B of debt principal and $573M of cash at 30 Sep 2026 [3], Comcast about $87.4B of debt [2], and Cable One $3.55B of debt against $674.8M of cash [4]. Franchise and goodwill write-downs, as at Charter and Cable One, show how much of the asset base is intangible [3][4].",
+   "It is capital intensive. Charter guides pro forma 2026 capex of about $13.0B, on pro forma quarterly revenue of $16.5B [3]. Damodaran's cable industry data show capex at 90.11% of depreciation and a sales-to-invested-capital ratio of 0.74, so each dollar of capital supports less than a dollar of sales [11]. Satellite is less network-dependent but must replace satellites periodically."
+  ],
+  "overview": [
+   "We did not find a single sourced market size for the US cable and satellite group. The scale is visible in company results: Comcast's Q3 2026 revenue was $29.3B (down 6.1% reported, up 0.5% pro forma) and Charter's pro forma revenue was $16.5B, down 1.5% [2][3]. FactSet puts revenue growth for the Media industry in the S&P 500 at 10% in Q3 2026 [1]. That figure includes broadcasters and other media, not only operators.",
+   "The main segments are broadband, video, mobile, business services and, at some operators, media. Comcast's customer base shows the mix: 28.3M domestic broadband customers, 10.4M video customers and 10.6M wireless lines [2]. Charter had 34.3M internet, 13.8M video and 13.5M mobile lines [3].",
+   "In the value chain, operators buy programming from channel owners, set-top boxes and fiber and cable gear from equipment makers, and mobile network capacity wholesale, then sell bundled service to households. Programmers are both suppliers and, in Comcast's case, owned businesses. Comcast also has Peacock, which reached 48M paid subscribers and $261M of adjusted EBITDA in Q3 2026 [2].",
+   "The industry grew on pay TV, then on broadband, and is now defined by customer losses to streaming, fiber and fixed wireless. Nielsen's August 2026 Gauge puts streaming at 49.6% of US TV viewing, cable at 18.9% and broadcast at 17.5% [8]. Consolidation followed: Charter closed its acquisition of Cox on 19 Aug 2026, adding more than 5M customer relationships [3].",
+   "Sales are concentrated in the United States. Comcast, Charter, Optimum and Cable One are mostly US operators, with Comcast also owning Sky in Europe, though it sold Sky's German operations in May 2026 [2]. Our read is that production and revenue are tied to local franchise footprints, and the main exception is the satellite business, which serves rural areas cable does not reach."
+  ],
+  "competition": [
+   "A small number of firms matter nationally: Comcast, Charter (now with Cox), Optimum, Cable One, DirecTV and EchoStar's DISH, plus a long tail of small operators. Their competitors include AT&T, Verizon and T-Mobile, which sell fiber and fixed wireless, as well as streaming services [7][8].",
+   "Comcast and Charter are the leaders: 28.3M and 34.3M broadband customers respectively at 30 Sep 2026 [2][3]. Optimum ended Q3 with 3.66M residential broadband customers and Cable One with 862.5K [4][5]. We did not find a sourced share table for the US broadband market or a 2026 DirecTV subscriber count.",
+   "Each local market is concentrated, usually with one cable provider and one or two telecom rivals, while nationally the industry is consolidating. Charter-Cox, valued at $34.5B and approved by the FCC on 27 Feb 2026, is the latest example [15]. Small operators are fragmented and financially weaker.",
+   "Barriers to entry are high because laying cable or fiber costs billions and takes years. They are falling, though, because wireless and satellite do not need a wired build. The FCC pointed to fiber, fixed wireless and satellite as the competitive discipline on cable pricing [15].",
+   "Economies of scale are real in programming purchases, technology, mobile resale terms and overhead, which was the case for Cox: Charter expects more than $1B of annualized synergies [3]. Density matters too, since a network's cost is largely fixed per home passed, so high penetration lifts margins and low penetration hurts them [11].",
+   "Broadband is increasingly a differentiated service on speed, price and bundles, while video is closer to a commodity bundle, since customers can buy nearly the same content through streaming apps. Charter launched Spectrum products across the legacy Cox footprint on 16 Sep 2026 [3], which shows operators competing on bundles and speed rather than on the video bundle alone.",
+   "Customers have growing power because they can switch to fiber or fixed wireless, which AT&T used to add a record 769,000 internet connections in Q3 2026 [7]. Programmers hold power over operators in video. Suppliers of cable gear and fiber have less, and mobile operators gain from the wholesale deals cable relies on."
+  ],
+  "drivers": [
+   "Revenue growth depends on net customer adds, price increases, mix of speeds and bundles, and, at Comcast, advertising and content. Charter's mobile lines rose by 508,000 in Q3 2026 while internet customers fell by 233,000 [3]. Comcast added 368,000 wireless lines and lost 144,000 broadband customers [2]. Growth is therefore a race between mobile and bundles and the loss of core connections.",
+   "Operating margins depend on revenue per customer against largely fixed network costs, programming costs and cost savings. Charter's pro forma adjusted EBITDA margin fell to 39.9% from 40.9% and Comcast's Connectivity & Platforms margin fell 70 basis points to 38.6% [2][3]. Lower customer counts make fixed costs heavier per customer.",
+   "Key cost variables are programming fees, labor and customer acquisition, equipment, network upgrades and interest. Charter said its savings program targets $2B over 18 months, and reported $76M of transition expenses in the quarter [3]. We did not find sourced programming cost figures for 2026.",
+   "Interest rate sensitivity is high because debt is large. Damodaran's data show debt to EBITDA of 3.89x and market debt to capital of 58.84% for cable [13]. The Fed held at 3.75% to 4% on 28 Oct 2026 and is widely expected to raise in December [14], which raises refinancing costs, especially for weaker issuers such as Optimum with $6.3B due in 2027 [6].",
+   "Demand is only mildly sensitive to GDP, since internet is a household necessity, but unemployment and housing turnover affect new connections, and inflation affects the price increases customers will accept. September 2026 consumer prices were up 3.7% [14]. Commodity prices matter little, apart from copper and fuel in construction.",
+   "We think the sector is defensive on demand, since broadband is a utility-like service, but it has turned into a structural decliner in customer counts. Comcast's broadband net loss of 144,000 in Q3 2026 was worse than the 91,000 loss a year earlier [18]. Cyclical effects come mainly from advertising at media-owning operators."
+  ],
+  "financials": [
+   "Growth is flat to negative for the pure operators. Charter's pro forma revenue fell 1.5% and its pro forma adjusted EBITDA fell 4.0% in Q3 2026 [3]; Comcast's revenue was up 0.5% pro forma and its adjusted EBITDA up 0.8% [2]; Cable One's revenue fell 11.7% and its adjusted EBITDA fell 20.8% [4].",
+   "Margins are high on EBITDA but modest after depreciation. Damodaran's January 2026 dataset for nine Cable TV firms shows a gross margin of 62.91%, EBITDA to sales of 32.37%, an unadjusted pre-tax operating margin of 18.49% and a net margin of 7.08% [9]. Cable One's adjusted EBITDA margin was 48.1% in Q3 2026 and Charter's 39.9% [3][4].",
+   "Returns are moderate. Damodaran shows cable industry ROE of 11.06% and Broadcasting 3.99% as of January 2026 [10]. Sales to invested capital of 0.74 shows the heavy asset base [11]. We did not find a sourced ROIC for the industry, and impairments at Charter ($6.3B of franchise impairment) and Cable One cut reported returns [3][4].",
+   "Leverage is high and diverges by company. Damodaran's cable debt to EBITDA is 3.89x [13]. By our calculation Charter's $108.6B of debt principal is about 4.1x annualized Q3 pro forma EBITDA of $6.59B [3]. Cable One had $3.55B of gross debt against $159.8M of quarterly EBITDA [4], and Optimum had nearly $22B of debt at CSC Holdings [6].",
+   "Free cash flow is positive for the leaders but falling. Comcast's Q3 free cash flow was $4.21B, down 14.8%, and the company suspended buybacks [2]. Charter's was $674M, down from $1.62B a year earlier [3]. We did not find a sourced free cash flow figure for Optimum or Cable One's own definition; on our simple calculation (operating cash flow less capex) Cable One's was about $14.7M [4].",
+   "Capex needs are large: Charter guides $13.0B for pro forma 2026 [3], and Comcast spent $3.06B in Q3 2026, $2.4B of it on connectivity [2]. Damodaran shows capex at 90.11% of depreciation for the industry [11]. Cable One's capex was 48.8% of its adjusted EBITDA in Q3 2026, up from 35.6% [4].",
+   "Valuation multiples are low. Damodaran's January 2026 data show cable at 6.21x EV/EBITDA, and 11.27x EV/EBIT [12], against 17.1x forward earnings for the S&P 500 in FactSet's 20 Nov 2026 report [1]. Low multiples reflect high debt, falling subscribers and heavy capex, not a free lunch."
+  ],
+  "risks": [
+   "Regulation is a two-way risk. The FCC approved Charter-Cox on 27 Feb 2026 with commitments on network upgrades and jobs but without new competition conditions [15], and it treats satellite and wireless as discipline on cable. Future risks include broadband price or labeling rules, wholesale access, state review of deals and the effect of subsidy programs that fund rivals. We did not find a 2026 source on pending federal rules.",
+   "Technology is the main risk. Fiber and fixed wireless are taking customers: AT&T added 442,000 fiber and 327,000 fixed wireless connections in Q3 2026 [7]. Charter's own internet losses were 233,000 pro forma [3]. We did not find sourced evidence of AI changing cable economics directly, though it may lower customer-service costs.",
+   "Demographic effects are modest but real. Growth in households is slow, and younger households often skip pay TV altogether. Cable One's residential data penetration fell to 30.3% from 31.4% a year earlier [4], which shows how a slower-growing, more contested footprint hurts take-up.",
+   "Consumer behavior has shifted to streaming and YouTube. Nielsen's August 2026 Gauge shows streaming at 49.6% of TV time and YouTube alone at 15.8%, close behind broadcast at 17.5% [8]. Comcast lost 274,000 video customers in Q3 2026 and Charter 77,000 [2][3].",
+   "New competitors and business models include fiber overbuilders, fixed wireless, satellite broadband and streaming bundles. EchoStar's DISH DBS emerged from Chapter 11 on 1 Oct 2026 and EchoStar's reported revenue fell to $1.13B from $3.61B because most pay-TV operations were deconsolidated [17]. We did not find a 2026 DirecTV update.",
+   "Geopolitical and supply-chain exposure is limited because operations are local, though equipment, fiber and tariffs affect costs. The more pressing risk is financial: Optimum skipped $102.5M of interest on 16 Nov 2026 [6] and Cable One said Chapter 11 may be necessary absent financing [4]. Refinancing risk rises with rates [14].",
+   "Substitutes are the central long-run threat. Streaming replaces video, mobile wireless and fixed wireless replace wired broadband, and satellite internet reaches rural homes. Charter's franchise impairment of $6.3B and Cable One's $412.1M of impairments suggest that some of the market has already priced this in [3][4]."
+  ],
+  "horizon": {
+   "opportunities": [
+    "Bundling mobile with broadband can slow losses: Charter added 508,000 mobile lines and Comcast 368,000 in Q3 2026 [2][3].",
+    "Cost programs and deals can protect cash flow: Charter targets $2B of annualized savings plus over $1B of Cox synergies [3].",
+    "Business services and gigabit tiers lift revenue per customer: Comcast's Business Services revenue rose 2.7% to $2.6B and its margin was 55.9% [2].",
+    "Separation can sharpen focus: Comcast plans to spin NBCUniversal and Sky into a separate public company by mid-2027 [18]."
+   ],
+   "threats": [
+    "Fiber and fixed wireless keep taking subscribers, shown by AT&T's record 769,000 internet additions in Q3 2026 [7].",
+    "Debt maturities strain weaker operators: Optimum has $6.3B due in 2027 [6] and Cable One warned liquidity may be insufficient [4].",
+    "Rising rates raise refinancing costs, with the Fed widely expected to hike again in December 2026 [14].",
+    "Video losses continue as streaming reaches 49.6% of TV time [8]."
+   ],
+   "assessment": "Our read is that the next three to five years split the group in two. Large operators with scale, mobile bundles and cost programs, Comcast and Charter, can hold EBITDA roughly flat if broadband losses slow, but our view is that they are unlikely to return to the customer growth of the past. Smaller and more leveraged operators face a harder path, and the filings by Cable One and Optimum show that balance-sheet restructuring is a live possibility [4][6]. The outcome depends on how fast fiber and fixed wireless grow against the mobile and speed advantages of cable [7], and on interest rates [14]. We would watch broadband net adds, ARPU and free cash flow, because low multiples [12] only matter if cash flow stabilizes."
+  }
+ },
+ "sections": [
+  {
+   "id": "macro",
+   "paragraphs": [
+    "Cable and satellite sits late in a cycle that has turned less friendly. The Fed held at 3.75% to 4% on 28 Oct 2026, September consumer prices were up 3.7% from a year earlier, and policymakers are widely expected to raise rates again in December [14]. For operators the effect runs mainly through debt: the group carries heavy leverage, with Damodaran's January 2026 cable data showing debt to EBITDA of 3.89x [13], and higher rates raise refinancing costs.",
+    "Demand for broadband is only weakly cyclical, so the macro hit is smaller on revenue than on the cost of capital. FactSet's 20 Nov 2026 report shows S&P 500 Q3 2026 earnings growth of 32.9%, but the Communication Services sector's blended growth fell to 18.3% from 51.5% at the end of September, in part because of Charter's loss of $20.50 per share against $8.94 expected, which included a franchise impairment [1][3]. Our read is that the weakness is company and structure specific, not recession driven. Currency matters little for the US operators, and Comcast's Sky unit, with the German business sold in May 2026, is the main foreign exposure [2]. The real macro risk to us is a rate path that squeezes the most indebted operators."
+   ]
+  },
+  {
+   "id": "demand",
+   "paragraphs": [
+    "Demand for connectivity keeps growing, but the share cable captures does not. Comcast's Q3 2026 results show a base of 28.3M domestic broadband customers after a net loss of 144,000, against a loss of 91,000 a year earlier, while it added 368,000 wireless lines [2][18]. Charter lost 233,000 pro forma internet customers and added 508,000 mobile lines [3]. Growth is moving to rivals: AT&T added a record 769,000 internet connections in the quarter, 442,000 on fiber and 327,000 on fixed wireless [7].",
+    "Video demand is in structural decline. Nielsen's August 2026 Gauge shows streaming at 49.6% of US TV viewing, cable at 18.9% and broadcast at 17.5%, with YouTube alone at 15.8% [8]. Comcast lost 274,000 video customers in Q3 2026 and Charter 77,000, while Charter's video base was down 256,000 or 1.8% over twelve months [2][3].",
+    "Elasticity matters less than availability. Households treat internet as a necessity, so demand is not very cyclical, and what changes is who supplies it. We did not find a sourced market size or demographic forecast for the group, so our long-term view rests on company results: we think connectivity revenue stays large but grows slowly, with mobile and business services the offset to broadband losses."
+   ]
+  },
+  {
+   "id": "structure",
+   "paragraphs": [
+    "Porter's five forces show an industry whose moat is eroding. The threat of new entrants was low when only cable and telephone lines reached homes, but fiber overbuilders, fixed wireless and satellite have lowered it. The FCC said in approving Charter-Cox that fiber, fixed wireless and satellite competition will affect cable pricing more than the loss of Cox as a benchmark [15]. Rivalry is intense and local, with Comcast at 28.3M broadband customers and Charter at 34.3M [2][3].",
+    "Buyer power is rising because customers can switch, and AT&T's 769,000 internet additions in Q3 2026 show they do [7]. Supplier power is high in video, where channel owners set programming fees, and moderate in mobile, where cable depends on wholesale network access. The threat of substitutes is the biggest: streaming for pay TV, and wireless for wired internet.",
+    "Scale is the main defense. Charter-Cox, valued at $34.5B, completed on 19 Aug 2026 and added more than 5M customer relationships and 11M passings, with more than $1B of expected synergies [3][15]. Smaller operators lack that scale: Cable One has 862.5K data customers and falling penetration of 30.3% [4], and Optimum's residential broadband base was 3.66M [5]. We did not find sourced market-share tables, so we describe concentration by customer counts."
+   ]
+  },
+  {
+   "id": "environment",
+   "paragraphs": [
+    "Political and regulatory factors are mostly permissive for consolidation but not for pricing freedom. The FCC approved Charter-Cox on 27 Feb 2026, accepting binding upgrade commitments and onshore jobs pledges without adding competition conditions, and adding no conditions on wholesale-access complaints from Ziply and WISPA [15]. State approvals, such as California's, remained a gating step at the time of that report [15], though the deal later closed [3]. Legal and economic factors show up in balance sheets: Cable One is in litigation with a lender, CoBank, over its Mega Broadband purchase, and a temporary restraining order was entered on 9 Oct 2026 [4][5].",
+    "Technology is the central force. Fiber and fixed wireless are better or cheaper for many households: AT&T has 13.3M fiber and 2.9M fixed wireless connections [7]. Social factors, such as streaming habits, drive video losses [8]. Environmental factors are modest, mainly power and construction. We did not find sourced evidence on 2026 federal broadband rules or on AI's effect on cable economics, so we treat those as open issues."
+   ]
+  },
+  {
+   "id": "economics",
+   "paragraphs": [
+    "Economics are those of a mature, high-margin, capital-heavy utility. Damodaran's January 2026 data for nine cable companies show a gross margin of 62.91%, EBITDA to sales of 32.37%, a pre-tax operating margin of 18.49% and a net margin of 7.08% [9]. Charter's pro forma adjusted EBITDA margin was 39.9% in Q3 2026, down from 40.9% [3], and Comcast's Connectivity & Platforms margin was 38.6%, down 70 basis points [2].",
+    "Operating leverage now works in reverse: when customers leave, network costs do not fall in proportion. Returns are modest, with Damodaran showing ROE of 11.06% and sales to invested capital of 0.74 [10][11]. Capital intensity is high, as Charter guides to $13.0B of pro forma 2026 capex [3].",
+    "Free cash flow is falling. Comcast's was $4.21B in Q3, down 14.8%, and Charter's was $674M against $1.62B a year earlier [2][3]. Impairments show the market value of the assets is being reset: Charter booked a $6.33B franchise impairment and Cable One $412.1M of franchise and goodwill impairments [3][4]. We did not find a sourced industry ROIC."
+   ]
+  },
+  {
+   "id": "earnings",
+   "paragraphs": [
+    "Reported earnings were noisy and weak. FactSet shows the Communication Services sector as the only sector whose Q3 2026 blended earnings growth fell since 30 September, to 18.3% from 51.5%, with Charter's GAAP EPS of negative $20.50 against $8.94 expected among the largest misses [1]. Charter's net loss was $2.40B after a $6.33B franchise impairment, a non-cash item [3]. Comcast's adjusted EPS was $1.07, down 4.0%, and its adjusted EBITDA was up 0.8% pro forma [2].",
+    "Guidance is thin. Charter gave no revenue or EBITDA guidance but guided pro forma capex to about $13.0B and announced $2B of targeted annualized savings [3]. We found no numerical Comcast outlook in the results we reviewed, and it suspended buybacks through the planned separation [2]. Cable One's release contained no financial guidance, and said liquidity and operating cash flow would be insufficient to repay near-term debt [4]. We did not find consensus estimates for the group, only index-wide data: FactSet shows CY 2027 S&P 500 earnings growth of 16.4% [1].",
+    "Our view is that the market is right to focus on subscribers and cash flow, not on the impairment-driven earnings misses. The nearer-term earnings risk is that EBITDA falls faster than costs can be cut, and for weaker balance sheets the risk is restructuring, not a slow earnings decline [4][6]."
+   ]
+  },
+  {
+   "id": "valuation",
+   "paragraphs": [
+    "We did not find a sourced forward P/E for the cable and satellite sub-industry; FactSet's text lists only the highest and lowest sector multiples and not Communication Services. FactSet puts the S&P 500 at 17.1x forward earnings on 20 Nov 2026, below its 5-year average of 19.8x and 10-year average of 19.1x [1]. For the industry, Damodaran's January 2026 data show cable at 6.21x EV/EBITDA and 11.27x EV/EBIT, with debt to EBITDA of 3.89x [12][13].",
+    "Our read is that the group is priced for continued shrinkage: a low EBITDA multiple together with falling free cash flow, which was $4.21B at Comcast and $674M at Charter in Q3 [2][3]. Because debt is about 59% of market capital [13], small changes in EBITDA move equity value sharply. FactSet reports that the bottom-up analyst target price for Communication Services implies 38.1% upside, the second highest of any sector [1], but that is a sector-wide figure dominated by the large internet and media names, and we do not read it as a cable signal. Normalized earnings are hard to judge until broadband losses stabilize."
+   ]
+  },
+  {
+   "id": "positioning",
+   "paragraphs": [
+    "Positioning data are thin in what we could open. We found no sourced ETF flows or short interest for the sub-industry. Trefis on 11 Nov 2026 reported Charter down 29.5% year to date, against a gain of 5.9% for the S&P 500 ETF and a decline of 9.7% for the Communication Services ETF XLC; the date of measurement was not stated [16].",
+    "Price reaction shows how unforgiving the market is. Charter fell 6.2% on 6 Nov 2026 when it reported, while the S&P 500 rose 0.3%, and Comcast fell 2.2% that day [16]. Our read is that investors are rewarding no part of the group for scale, and punishing losses of customers. Analyst sentiment across the broader sector remains positive: 72% of ratings on Communication Services stocks in the S&P 500 are Buy, the highest share of any sector, per FactSet [1].",
+    "Breadth within the group is poor. Comcast, Charter and Cable One all lost broadband customers, Optimum skipped interest on 16 Nov 2026, and Optimum and Cable One lost residential broadband customers [2][3][4][5][6]. We think the remaining positive angle is mobile growth, which offsets part of the loss [2][3]."
+   ]
+  }
+ ],
+ "sources": [
+  {
+   "n": 1,
+   "title": "FactSet Earnings Insight (20 Nov 2026)",
+   "publisher": "FactSet",
+   "date": "2026-11-20",
+   "url": "https://advantage.factset.com/hubfs/Website/Resources%20Section/Research%20Desk/Earnings%20Insight/EarningsInsight_112026.pdf"
+  },
+  {
+   "n": 2,
+   "title": "Comcast Reports 3rd Quarter 2026 Results",
+   "publisher": "Comcast (via Seeking Alpha)",
+   "date": "2026-10-22",
+   "url": "https://seekingalpha.com/pr/20695931"
+  },
+  {
+   "n": 3,
+   "title": "Charter Form 8-K: third quarter 2026 earnings release",
+   "publisher": "U.S. SEC (Charter Communications)",
+   "date": "2026-11-06",
+   "url": "https://www.sec.gov/Archives/edgar/data/0001091667/000109166726000072/chtrex991earningsrelease93.htm"
+  },
+  {
+   "n": 4,
+   "title": "Cable One Form 8-K: third quarter 2026 results",
+   "publisher": "U.S. SEC (Cable One)",
+   "date": "2026-11-05",
+   "url": "https://www.sec.gov/Archives/edgar/data/0001632127/000163212726000036/a2026q3-pressrelease.htm"
+  },
+  {
+   "n": 5,
+   "title": "Cable One warns of bankruptcy risk as Optimum hits a debt wall",
+   "publisher": "Fierce Network",
+   "date": "2026-11",
+   "url": "https://www.fierce-network.com/broadband/cable-one-optimum-fight-survival-after-tough-q3"
+  },
+  {
+   "n": 6,
+   "title": "Optimum delays $102.5M in interest payments as it pursues new debt deal",
+   "publisher": "Light Reading",
+   "date": "2026-11-16",
+   "url": "https://www.lightreading.com/cable-technology/optimum-delays-102-5m-in-interest-payments-as-it-pursues-new-debt-deal"
+  },
+  {
+   "n": 7,
+   "title": "AT&T Added A Record 769,000 Internet Customers in Q3 2026 As Cable TV Providers Keep Losing Home Internet",
+   "publisher": "Cord Cutters News",
+   "date": "2026-10",
+   "url": "https://cordcuttersnews.com/att-added-a-record-769000-internet-customers-in-q3-2026-as-cable-tv-providers-keep-losing-home-internet/"
+  },
+  {
+   "n": 8,
+   "title": "The Gauge: August 2026 TV viewing",
+   "publisher": "Nielsen",
+   "date": "2026-10-22",
+   "url": "https://www.nielsen.com/news-center/2026/tv-viewing-cools-off-in-nielsens-august-gauge-reports-as-sports-take-a-breather-and-school-resumes/"
+  },
+  {
+   "n": 9,
+   "title": "Margins by Sector (US): January 2026",
+   "publisher": "Aswath Damodaran, NYU Stern",
+   "date": "2026-01",
+   "url": "https://pages.stern.nyu.edu/~adamodar/New_Home_Page/datafile/margin.html"
+  },
+  {
+   "n": 10,
+   "title": "Return on equity and capital by industry, January 2026",
+   "publisher": "Aswath Damodaran, NYU Stern",
+   "date": "2026-01",
+   "url": "https://pages.stern.nyu.edu/~adamodar/New_Home_Page/datafile/roe.html"
+  },
+  {
+   "n": 11,
+   "title": "Capital expenditures by industry, January 2026",
+   "publisher": "Aswath Damodaran, NYU Stern",
+   "date": "2026-01",
+   "url": "https://pages.stern.nyu.edu/~adamodar/New_Home_Page/datafile/capex.html"
+  },
+  {
+   "n": 12,
+   "title": "EV/EBITDA multiples by industry, January 2026",
+   "publisher": "Aswath Damodaran, NYU Stern",
+   "date": "2026-01",
+   "url": "https://pages.stern.nyu.edu/~adamodar/New_Home_Page/datafile/vebitda.html"
+  },
+  {
+   "n": 13,
+   "title": "Debt fundamentals by industry, January 2026",
+   "publisher": "Aswath Damodaran, NYU Stern",
+   "date": "2026-01",
+   "url": "https://pages.stern.nyu.edu/~adamodar/New_Home_Page/datafile/dbtfund.html"
+  },
+  {
+   "n": 14,
+   "title": "Fed holds interest rates steady even as inflation remains stubborn",
+   "publisher": "OPB",
+   "date": "2026-10-28",
+   "url": "https://www.opb.org/article/2026/10/28/fed-holds-interest-rates-steady-despite-stubborn-inflation/"
+  },
+  {
+   "n": 15,
+   "title": "FCC Approves $34.5 Billion Charter-Cox Merger",
+   "publisher": "Broadband Breakfast",
+   "date": "2026-02-27",
+   "url": "https://broadbandbreakfast.com/fcc-approves-34-5-billion-charter-cox-merger/"
+  },
+  {
+   "n": 16,
+   "title": "What Should Charter Communications Stock Holders Take From The Third Quarter?",
+   "publisher": "Trefis",
+   "date": "2026-11-11",
+   "url": "https://www.trefis.com/stock/chtr/articles/624315/what-should-charter-communications-stock-holders-take-from-the-third-quarter/2026-11-11"
+  },
+  {
+   "n": 17,
+   "title": "EchoStar (ECHO) Q3 2026 earnings summary",
+   "publisher": "Quartr",
+   "date": "2026-11",
+   "url": "https://quartr.com/events/echostar-corp-echo-q3-2026_oSuHG4fp"
+  },
+  {
+   "n": 18,
+   "title": "Comcast Just Lost 274,000 TV Customers & 144,000 Internet Customers In Just Three Months",
+   "publisher": "Cord Cutters News",
+   "date": "2026-10-22",
+   "url": "https://cordcuttersnews.com/comcast-just-lost-274000-tv-customers-144000-internet-customers-in-just-three-months/"
+  }
+ ]
+}
